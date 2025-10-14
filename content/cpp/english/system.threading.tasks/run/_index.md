@@ -3,7 +3,7 @@ title: Run()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 92
+weight: 118
 url: /system.threading.tasks/run/
 ---
 ## System::Threading::Tasks::Run(const Action<>\&) function
@@ -22,6 +22,15 @@ TaskPtr System::Threading::Tasks::Run(const Action<> &action)
 
 ```cpp
 TaskPtr System::Threading::Tasks::Run(const Action<> &action, const CancellationToken &cancellationToken)
+```
+
+## System::Threading::Tasks::Run(const Func\<TaskPtr\>\&) function
+
+
+
+
+```cpp
+TaskPtr System::Threading::Tasks::Run(const Func<TaskPtr> &function)
 ```
 
 ## System::Threading::Tasks::Run(const Func\<TResult\>\&) function

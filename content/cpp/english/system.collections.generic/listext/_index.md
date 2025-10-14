@@ -22,7 +22,7 @@ template<typename T>class ListExt : public System::Collections::Generic::List<T>
 | --- | --- |
 | void [_add_range](../list/_add_range/)(std::initializer_list\<T\>) | C++ specific. |
 | void [Add](../list/add/)(const T\&) override | Adds element to the end of list. |
-| void [AddInitializer](../list/addinitializer/)(int, const T) | Adds elements to list; used when translating initializers. |
+| void [AddInitializer](../list/addinitializer/)(int, const T *) | Adds elements to list; used when translating initializers. |
 | void [AddRange](../list/addrange/)([IEnumerablePtr](../list/ienumerableptr/)) | Adds all elements from collection (or itself) to the end of current list. |
 | [SharedPtr](../../system/sharedptr/)\<[System::Collections::ObjectModel::ReadOnlyCollection](../../system.collections.objectmodel/readonlycollection/)\<T\>\> [AsReadOnly](../list/asreadonly/)() | Gets read-only reference to this collection. |
 | [iterator](../ienumerable/iterator/) [begin](../list/begin/)() | Gets iterator to the first element of collection. |

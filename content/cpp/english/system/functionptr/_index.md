@@ -3,7 +3,7 @@ title: FunctionPtr
 second_title: Aspose.Slides for C++ API Reference
 description: An alias for function type with default calling convention.
 type: docs
-weight: 3342
+weight: 3381
 url: /system/functionptr/
 ---
 ## FunctionPtr typedef

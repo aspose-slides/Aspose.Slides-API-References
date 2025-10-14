@@ -3,7 +3,7 @@ title: ResultTaskAwaiter
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 40
+weight: 66
 url: /system.runtime.compilerservices/resulttaskawaiter/
 ---
 ## ResultTaskAwaiter class

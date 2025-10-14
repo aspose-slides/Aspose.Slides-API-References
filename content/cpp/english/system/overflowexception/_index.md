@@ -3,7 +3,7 @@ title: OverflowException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3693
+weight: 3732
 url: /system/overflowexception/
 ---
 ## OverflowException typedef

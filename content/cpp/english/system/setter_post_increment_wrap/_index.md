@@ -3,7 +3,7 @@ title: setter_post_increment_wrap()
 second_title: Aspose.Slides for C++ API Reference
 description: Translator translates C#'s post-increment expressions targeting class' property that has setter and getter defined, into invocation of this function.
 type: docs
-weight: 2614
+weight: 2640
 url: /system/setter_post_increment_wrap/
 ---
 ## System::setter_post_increment_wrap(T(*)(), void(*)(T)) function

@@ -3,7 +3,7 @@ title: FromUtf16()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates String from utf16 string.
 type: docs
-weight: 898
+weight: 924
 url: /system/string/fromutf16/
 ---
 ## String::FromUtf16(const std::u16string\&) method

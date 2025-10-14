@@ -3,7 +3,7 @@ title: FromUtf32()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates String from utf32 string.
 type: docs
-weight: 885
+weight: 911
 url: /system/string/fromutf32/
 ---
 ## String::FromUtf32(const uint32_t *, int32_t) method

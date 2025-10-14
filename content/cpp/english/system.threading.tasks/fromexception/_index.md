@@ -3,7 +3,7 @@ title: FromException()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 66
+weight: 92
 url: /system.threading.tasks/fromexception/
 ---
 ## System::Threading::Tasks::FromException(const Exception\&) function

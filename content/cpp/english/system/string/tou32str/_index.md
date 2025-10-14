@@ -3,7 +3,7 @@ title: ToU32Str()
 second_title: Aspose.Slides for C++ API Reference
 description: "Converts string to std::u32string."
 type: docs
-weight: 170
+weight: 183
 url: /system/string/tou32str/
 ---
 ## String::ToU32Str() const method

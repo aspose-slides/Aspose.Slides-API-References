@@ -3,7 +3,7 @@ title: CompareOrdinal()
 second_title: Aspose.Slides for C++ API Reference
 description: Less-equal-greater-compares two strings using ordinal mode.
 type: docs
-weight: 794
+weight: 820
 url: /system/string/compareordinal/
 ---
 ## String::CompareOrdinal(const String\&, const String\&) method

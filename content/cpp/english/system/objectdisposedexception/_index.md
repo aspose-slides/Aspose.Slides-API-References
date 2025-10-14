@@ -3,7 +3,7 @@ title: ObjectDisposedException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3563
+weight: 3602
 url: /system/objectdisposedexception/
 ---
 ## ObjectDisposedException typedef

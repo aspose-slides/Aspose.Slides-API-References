@@ -3,7 +3,7 @@ title: operator+()
 second_title: Aspose.Slides for C++ API Reference
 description: String concatenation operator.
 type: docs
-weight: 261
+weight: 274
 url: /system/string/operator_plus/
 ---
 ## String::operator+(const String\&) const method

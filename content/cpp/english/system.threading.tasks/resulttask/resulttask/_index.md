@@ -35,6 +35,15 @@ System::Threading::Tasks::ResultTask<T>::ResultTask()
 
 
 Internal constructor for creating uninitialized result tasks 
+## ResultTask::ResultTask(const T\&) constructor
+
+
+Internal constructor for creating result tasks with specified result.
+
+```cpp
+System::Threading::Tasks::ResultTask<T>::ResultTask(const T &result)
+```
+
 ## See Also
 
 * Class [Func](../../../system/func/)

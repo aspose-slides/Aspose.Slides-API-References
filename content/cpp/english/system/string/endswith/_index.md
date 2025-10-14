@@ -3,7 +3,7 @@ title: EndsWith()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if string ends with specified substring.
 type: docs
-weight: 456
+weight: 482
 url: /system/string/endswith/
 ---
 ## String::EndsWith(const String\&) const method

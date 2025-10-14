@@ -6,13 +6,13 @@ type: docs
 weight: 14
 url: /system.threading.tasks/resulttask/get_result/
 ---
-## ResultTask::get_Result() method
+## ResultTask::get_Result() const method
 
 
 Gets the result of the asynchronous operation.
 
 ```cpp
-T System::Threading::Tasks::ResultTask<T>::get_Result()
+T System::Threading::Tasks::ResultTask<T>::get_Result() const
 ```
 
 

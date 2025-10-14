@@ -3,7 +3,7 @@ title: ArrayPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Alias for 'pointer to array' type.
 type: docs
-weight: 3940
+weight: 3979
 url: /system/arrayptr/
 ---
 ## ArrayPtr typedef

@@ -27,6 +27,7 @@ class GC : public System::Object
 | virtual **bool** [FastCast](../object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
 | Detail::SmartPtrCounter * [GetCounter](../object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../object/gethashcode/) method. Enables hashing of custom objects. |
+| static **int64_t** [GetTotalAllocatedBytes](./gettotalallocatedbytes/)(**bool**) | Returns total allocated bytes. |
 | static **int64_t** [GetTotalMemory](./gettotalmemory/)(**bool**) | Returns the number of bytes of private memory currently allocated by the current process. |
 | virtual const [TypeInfo](../typeinfo/)\& [GetType](../object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../object/gettype/) call. |
 | virtual **bool** [Is](../object/is/)(const [TypeInfo](../typeinfo/)\&) const | Check if object represents an instance of type described by targetType. Analog of C# 'is' operator. |

@@ -3,7 +3,7 @@ title: Task
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an asynchronous operation that can be awaited and composed with other tasks.
 type: docs
-weight: 14
+weight: 27
 url: /system.threading.tasks/task/
 ---
 ## Task class
@@ -60,6 +60,7 @@ class Task : public System::IDisposable
 | void [RunSynchronously](./runsynchronously/)() | Runs the task synchronously on the current thread. |
 | void [RunSynchronously](./runsynchronously/)(const [SharedPtr](../../system/sharedptr/)\<[TaskScheduler](../taskscheduler/)\>\&) | Runs the task synchronously using the specified scheduler. |
 | void [set_Function](./set_function/)(const [FunctionT](./functiont/)\&) | Sets the internal function to execute. |
+| void [set_Scheduler](./set_scheduler/)([TaskScheduler](../taskscheduler/) *) | Sets the scheduler associated with this task. |
 | void [set_Status](./set_status/)([TaskStatus](../taskstatus/)) | Sets the task status. |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
@@ -75,8 +76,8 @@ class Task : public System::IDisposable
 | virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Analog of C# [Object.ToString()](../../system/object/tostring/) method. Enables converting custom objects to string. |
 | static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Implements C# typeof([System.Object](../../system/object/)) construct. |
 | void [Unlock](../../system/object/unlock/)() | Implements C# lock() statement unlocking. Call directly or use [LockContext](../../system/lockcontext/) sentry object. |
-| void [Wait](./wait/)(const [CancellationToken](../../system.threading/cancellationtoken/)\&) | Waits for the task to complete with cancellation support. |
-| void [Wait](./wait/)() | Waits for the task to complete. |
+| void [Wait](./wait/)(const [CancellationToken](../../system.threading/cancellationtoken/)\&) const | Waits for the task to complete with cancellation support. |
+| void [Wait](./wait/)() const | Waits for the task to complete. |
 | Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Increments weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Decrements weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | virtual  [~Object](../../system/object/~object/)() | Destroys object. Frees all internal data structures. |

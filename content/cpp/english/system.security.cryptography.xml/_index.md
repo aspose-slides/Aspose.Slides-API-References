@@ -3,7 +3,7 @@ title: "System::Security::Cryptography::Xml"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 820
+weight: 846
 url: /system.security.cryptography.xml/
 ---
 

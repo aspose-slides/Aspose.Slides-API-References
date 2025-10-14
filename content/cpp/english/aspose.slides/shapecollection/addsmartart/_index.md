@@ -32,14 +32,11 @@ The newly created [SmartArt::ISmartArt](../../../aspose.slides.smartart/ismartar
 ## Remarks
 
 
-The following example shows how to add smart shape in PowerPoint [Presentation](../../presentation/). 
+
 ```cpp
-[C#]
-using (Presentation pres = new Presentation())
-{
-    Slide slide = pres.Slides[0];
-    SmartArt smart = slide.Shapes.AddSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList);
-}
+auto pres = System::MakeObject<Presentation>();
+auto slide = pres->get_Slide(0);
+auto smart = slide->get_Shapes()->AddSmartArt(0.0f, 0.0f, 400.0f, 400.0f, SmartArtLayoutType::BasicBlockList);
 ```
 
 

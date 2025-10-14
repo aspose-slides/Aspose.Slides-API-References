@@ -3,7 +3,7 @@ title: TaskAwaiter
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 66
+weight: 105
 url: /system.runtime.compilerservices/taskawaiter/
 ---
 ## TaskAwaiter class

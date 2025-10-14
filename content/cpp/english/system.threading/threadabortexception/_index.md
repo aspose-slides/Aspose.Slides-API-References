@@ -3,7 +3,7 @@ title: ThreadAbortException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 365
+weight: 378
 url: /system.threading/threadabortexception/
 ---
 ## ThreadAbortException typedef

@@ -3,7 +3,7 @@ title: DispatchCurrentContext()
 second_title: Aspose.Slides for C++ API Reference
 description: Dispatches all tasks bound to this thread synchronously.
 type: docs
-weight: 40
+weight: 66
 url: /system.threading.tasks/dispatchcurrentcontext/
 ---
 ## System::Threading::Tasks::DispatchCurrentContext() function

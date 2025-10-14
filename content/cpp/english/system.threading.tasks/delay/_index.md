@@ -3,7 +3,7 @@ title: Delay()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates a task that completes after a time delay.
 type: docs
-weight: 53
+weight: 79
 url: /system.threading.tasks/delay/
 ---
 ## System::Threading::Tasks::Delay(int32_t) function

@@ -3,7 +3,7 @@ title: IsDeclaration()
 second_title: Aspose.Slides for C++ API Reference
 description: Implements 'is' declaration pattern translation.
 type: docs
-weight: 2406
+weight: 2432
 url: /system/isdeclaration/
 ---
 ## System::IsDeclaration(const ExpressionT\&, ResultT\&) function

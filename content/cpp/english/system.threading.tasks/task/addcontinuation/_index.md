@@ -3,7 +3,7 @@ title: AddContinuation()
 second_title: Aspose.Slides for C++ API Reference
 description: Adds a continuation action to be executed upon completion.
 type: docs
-weight: 261
+weight: 274
 url: /system.threading.tasks/task/addcontinuation/
 ---
 ## Task::AddContinuation(const Action<>\&) method

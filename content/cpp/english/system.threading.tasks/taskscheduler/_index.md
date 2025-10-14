@@ -3,7 +3,7 @@ title: TaskScheduler
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an object that handles the low-level work of queuing tasks onto threads.
 type: docs
-weight: 27
+weight: 40
 url: /system.threading.tasks/taskscheduler/
 ---
 ## TaskScheduler class

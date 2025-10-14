@@ -3,7 +3,7 @@ title: Clone()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates a copy of current string.
 type: docs
-weight: 326
+weight: 352
 url: /system/string/clone/
 ---
 ## String::Clone() const method

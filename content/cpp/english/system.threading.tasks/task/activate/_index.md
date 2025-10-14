@@ -3,7 +3,7 @@ title: Activate()
 second_title: Aspose.Slides for C++ API Reference
 description: Activates the task for execution on a scheduler.
 type: docs
-weight: 235
+weight: 248
 url: /system.threading.tasks/task/activate/
 ---
 ## Task::Activate(TaskScheduler *) method

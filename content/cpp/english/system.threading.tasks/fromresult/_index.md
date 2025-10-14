@@ -3,7 +3,7 @@ title: FromResult()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 79
+weight: 105
 url: /system.threading.tasks/fromresult/
 ---
 ## System::Threading::Tasks::FromResult(TResult) function

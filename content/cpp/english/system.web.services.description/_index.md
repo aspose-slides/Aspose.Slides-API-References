@@ -3,7 +3,7 @@ title: "System::Web::Services::Description"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 1015
+weight: 1041
 url: /system.web.services.description/
 ---
 

@@ -3,7 +3,7 @@ title: FromWCS()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates String from widestring.
 type: docs
-weight: 872
+weight: 898
 url: /system/string/fromwcs/
 ---
 ## String::FromWCS(const std::wstring\&) method

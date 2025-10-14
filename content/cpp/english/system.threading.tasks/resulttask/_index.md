@@ -46,7 +46,7 @@ template<typename T>class ResultTask : public System::Threading::Tasks::Task
 | **bool** [get_IsCanceled](../task/get_iscanceled/)() const | Gets whether the task completed due to cancellation. |
 | **bool** [get_IsCompleted](../task/get_iscompleted/)() const | Gets whether the task has completed. |
 | **bool** [get_IsFaulted](../task/get_isfaulted/)() const | Gets whether the task completed due to an unhandled exception. |
-| T [get_Result](./get_result/)() | Gets the result of the asynchronous operation. |
+| T [get_Result](./get_result/)() const | Gets the result of the asynchronous operation. |
 | [TaskScheduler](../taskscheduler/) * [get_Scheduler](../task/get_scheduler/)() const | Gets the scheduler associated with this task. |
 | [TaskStatus](../taskstatus/) [get_Status](../task/get_status/)() const | Gets the current status of the task. |
 | [Runtime::CompilerServices::ResultTaskAwaiter](../../system.runtime.compilerservices/resulttaskawaiter/)\<T\> [GetAwaiter](./getawaiter/)() const | Gets an awaiter for this result task for use with Await. |
@@ -67,10 +67,12 @@ template<typename T>class ResultTask : public System::Threading::Tasks::Task
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
 |  [ResultTask](./resulttask/)(const [Func](../../system/func/)\<T\>\&) | Constructs a [ResultTask](./) with a function that returns a value. |
 |  [ResultTask](./resulttask/)() | Internal implementation. Not for user code. |
+|  [ResultTask](./resulttask/)(const T\&) | Internal constructor for creating result tasks with specified result. |
 | void [RunSynchronously](../task/runsynchronously/)() | Runs the task synchronously on the current thread. |
 | void [RunSynchronously](../task/runsynchronously/)(const [SharedPtr](../../system/sharedptr/)\<[TaskScheduler](../taskscheduler/)\>\&) | Runs the task synchronously using the specified scheduler. |
 | void [set_Function](../task/set_function/)(const [FunctionT](../task/functiont/)\&) | Sets the internal function to execute. |
 | void [set_Result](./set_result/)(const T\&) | Sets the result value for the task. |
+| void [set_Scheduler](../task/set_scheduler/)([TaskScheduler](../taskscheduler/) *) | Sets the scheduler associated with this task. |
 | void [set_Status](../task/set_status/)([TaskStatus](../taskstatus/)) | Sets the task status. |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
@@ -86,8 +88,8 @@ template<typename T>class ResultTask : public System::Threading::Tasks::Task
 | virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Analog of C# [Object.ToString()](../../system/object/tostring/) method. Enables converting custom objects to string. |
 | static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Implements C# typeof([System.Object](../../system/object/)) construct. |
 | void [Unlock](../../system/object/unlock/)() | Implements C# lock() statement unlocking. Call directly or use [LockContext](../../system/lockcontext/) sentry object. |
-| void [Wait](../task/wait/)(const [CancellationToken](../../system.threading/cancellationtoken/)\&) | Waits for the task to complete with cancellation support. |
-| void [Wait](../task/wait/)() | Waits for the task to complete. |
+| void [Wait](../task/wait/)(const [CancellationToken](../../system.threading/cancellationtoken/)\&) const | Waits for the task to complete with cancellation support. |
+| void [Wait](../task/wait/)() const | Waits for the task to complete. |
 | Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Increments weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Decrements weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | virtual  [~Object](../../system/object/~object/)() | Destroys object. Frees all internal data structures. |

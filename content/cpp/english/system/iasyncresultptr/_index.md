@@ -3,7 +3,7 @@ title: IAsyncResultPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Shared pointer to IAsyncResult.
 type: docs
-weight: 3901
+weight: 3940
 url: /system/iasyncresultptr/
 ---
 ## IAsyncResultPtr typedef

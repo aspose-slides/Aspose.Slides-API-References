@@ -23,7 +23,7 @@ class GroupCollection : public System::Collections::Generic::List<GroupPtr>
 | void [Add](./add/)(const [GroupPtr](../groupptr/)\&) override | Disables adding element into collection. |
 | void [Add](../../system.collections.generic/list/add/)(const T\&) override | Adds element to the end of list. |
 | void [AddGroup](./addgroup/)(const [GroupPtr](../groupptr/)\&) | Adds group into collection. |
-| void [AddInitializer](../../system.collections.generic/list/addinitializer/)(int, const T) | Adds elements to list; used when translating initializers. |
+| void [AddInitializer](../../system.collections.generic/list/addinitializer/)(int, const T *) | Adds elements to list; used when translating initializers. |
 | void [AddRange](../../system.collections.generic/list/addrange/)([IEnumerablePtr](../../system.collections.generic/list/ienumerableptr/)) | Adds all elements from collection (or itself) to the end of current list. |
 | [SharedPtr](../../system/sharedptr/)\<[System::Collections::ObjectModel::ReadOnlyCollection](../../system.collections.objectmodel/readonlycollection/)\<T\>\> [AsReadOnly](../../system.collections.generic/list/asreadonly/)() | Gets read-only reference to this collection. |
 | [iterator](../../system.collections.generic/ienumerable/iterator/) [begin](../../system.collections.generic/list/begin/)() | Gets iterator to the first element of collection. |

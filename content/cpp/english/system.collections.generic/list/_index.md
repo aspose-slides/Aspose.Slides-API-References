@@ -28,7 +28,7 @@ template<typename T>class List : public virtual System::Object,
 | --- | --- |
 | void [_add_range](./_add_range/)(std::initializer_list\<T\>) | C++ specific. |
 | void [Add](./add/)(const T\&) override | Adds element to the end of list. |
-| void [AddInitializer](./addinitializer/)(int, const T) | Adds elements to list; used when translating initializers. |
+| void [AddInitializer](./addinitializer/)(int, const T *) | Adds elements to list; used when translating initializers. |
 | void [AddRange](./addrange/)([IEnumerablePtr](./ienumerableptr/)) | Adds all elements from collection (or itself) to the end of current list. |
 | [SharedPtr](../../system/sharedptr/)\<[System::Collections::ObjectModel::ReadOnlyCollection](../../system.collections.objectmodel/readonlycollection/)\<T\>\> [AsReadOnly](./asreadonly/)() | Gets read-only reference to this collection. |
 | [iterator](../ienumerable/iterator/) [begin](./begin/)() | Gets iterator to the first element of collection. |

@@ -3,7 +3,7 @@ title: IsNullOrEmpty()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if string is empty or is considered null.
 type: docs
-weight: 92
+weight: 105
 url: /system/string/isnullorempty/
 ---
 ## String::IsNullOrEmpty() const method

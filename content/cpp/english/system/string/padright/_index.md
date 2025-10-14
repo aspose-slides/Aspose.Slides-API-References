@@ -3,7 +3,7 @@ title: PadRight()
 second_title: Aspose.Slides for C++ API Reference
 description: Adds padding on the right of original string.
 type: docs
-weight: 690
+weight: 716
 url: /system/string/padright/
 ---
 ## String::PadRight(int, char_t) const method

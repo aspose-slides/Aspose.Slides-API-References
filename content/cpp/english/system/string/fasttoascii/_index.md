@@ -3,7 +3,7 @@ title: FastToAscii()
 second_title: Aspose.Slides for C++ API Reference
 description: Tries to convert a String to an ASCII string.
 type: docs
-weight: 755
+weight: 781
 url: /system/string/fasttoascii/
 ---
 ## String::FastToAscii(char, int) const method

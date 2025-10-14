@@ -3,7 +3,7 @@ title: ShapeType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents preset geometry of geometry shapes.
 type: docs
-weight: 6306
+weight: 6319
 url: /aspose.slides/shapetype/
 ---
 ## ShapeType enum

@@ -3,7 +3,7 @@ title: ZoomLayout
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the summary zoom layout.
 type: docs
-weight: 6605
+weight: 6618
 url: /aspose.slides/zoomlayout/
 ---
 ## ZoomLayout enum

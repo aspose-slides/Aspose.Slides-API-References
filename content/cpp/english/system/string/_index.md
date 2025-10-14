@@ -19,6 +19,7 @@ class String
 
 | Method | Description |
 | --- | --- |
+|  [ASPOSECPP_VALUE_TYPE_IMPLEMENTS_INTERFACES](./asposecpp_value_type_implements_interfaces/)() | [String](./) is value type on C++ side which implicitly (without inheritance) implements some interfaces. |
 | const UChar * [begin](./begin/)() const | Returns pointer to the beginning of actual string buffer. Never reallocates anything. Doesn't guarantee buffer to be null-terminated. |
 | [String](./) [Clone](./clone/)() const | Creates a copy of current string. |
 | static int [Compare](./compare/)(const [String](./)\&, int, const [String](./)\&, int, int, **bool**) | Less-equal-greater-compares two substrings. |
@@ -127,6 +128,7 @@ class String
 | [String](./)\& [operator=](./operator_equal/)([String](./)\&&) | Move assignment operator. |
 | **bool** [operator==](./operator_equal_equal/)(const [String](./)\&) const | Equality comparison operator. |
 | **bool** [operator==](./operator_equal_equal/)(std::nullptr_t) const | Checks if string is null. Applies same logic as [IsNull()](./isnull/) call. |
+| **bool** [operator>](./operator_greater/)(const [String](./)\&) const | Order-compares strings. |
 | char_t [operator[]](./operator[]/)(int) const | Gets character at specified position. |
 | [String](./) [PadLeft](./padleft/)(int, char_t) const | Adds padding on the left of original string. |
 | [String](./) [PadRight](./padright/)(int, char_t) const | Adds padding on the right of original string. |

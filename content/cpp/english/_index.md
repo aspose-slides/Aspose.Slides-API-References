@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides for C++ API Reference (version 25.9)
+title: Aspose.Slides for C++ API Reference (version 25.10)
 type: docs
 weight: 12
 url: /
@@ -56,6 +56,8 @@ is_root: true
 - [System::IO::Compression](./system.io.compression/)
 - [System::Linq](./system.linq/)
 - [System::Linq::Details](./system.linq.details/)
+- [System::MemoryExtensions](./system.memoryextensions/)
+- [System::MemoryExtensions::Details](./system.memoryextensions.details/)
 - [System::Net](./system.net/)
 - [System::Net::Cache](./system.net.cache/)
 - [System::Net::Http](./system.net.http/)

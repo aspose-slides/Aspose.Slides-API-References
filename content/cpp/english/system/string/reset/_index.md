@@ -3,7 +3,7 @@ title: reset()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets string to null. Is analogous to 'string_variable_name = null' in C#.
 type: docs
-weight: 196
+weight: 209
 url: /system/string/reset/
 ---
 ## String::reset() method

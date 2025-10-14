@@ -3,7 +3,7 @@ title: ApartmentState
 second_title: Aspose.Slides for C++ API Reference
 description: Sets apartment state of the thread.
 type: docs
-weight: 287
+weight: 300
 url: /system.threading/apartmentstate/
 ---
 ## ApartmentState enum

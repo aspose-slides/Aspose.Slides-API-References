@@ -3,7 +3,7 @@ title: RuntimeHelpers
 second_title: Aspose.Slides for C++ API Reference
 description: Helper class to get some object information in runtime.
 type: docs
-weight: 53
+weight: 92
 url: /system.runtime.compilerservices/runtimehelpers/
 ---
 ## RuntimeHelpers class

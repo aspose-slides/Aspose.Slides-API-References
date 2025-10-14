@@ -3,7 +3,7 @@ title: PresetShadowType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a preset for a shadow effect.
 type: docs
-weight: 6189
+weight: 6202
 url: /aspose.slides/presetshadowtype/
 ---
 ## PresetShadowType enum

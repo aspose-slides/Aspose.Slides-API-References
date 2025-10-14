@@ -3,7 +3,7 @@ title: operator=()
 second_title: Aspose.Slides for C++ API Reference
 description: Assignment operator.
 type: docs
-weight: 248
+weight: 261
 url: /system/string/operator_equal/
 ---
 ## String::operator=(const String\&) method

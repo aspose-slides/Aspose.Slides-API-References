@@ -3,7 +3,7 @@ title: AsCast()
 second_title: Aspose.Slides for C++ API Reference
 description: Casts the source type to the result type using 'as' operator cast. Used when simple constructor-like cast is needed.
 type: docs
-weight: 2380
+weight: 2406
 url: /system/ascast/
 ---
 ## System::AsCast(const Source\&) function
@@ -198,6 +198,33 @@ The cast result. Returns empty nullable if no conversion available.
 ## System::AsCast(const Source\&) function
 
 
+Casts the source type to the result type using 'as' operator cast. Invalid unboxing to non-object type.
+
+```cpp
+template<typename Result,typename Source> std::enable_if_t<Details::CastType<Source, Result>::InterfaceUnboxingToNullable, Result> System::AsCast(const Source &value)
+```
+
+
+### Template parameters
+
+| Parameter | Description |
+| --- | --- |
+| Source | The source type. |
+| Result | The result type. |
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | const Source\& | [Object](../object/) to cast. |
+
+### Return Value
+
+Always returns null.
+
+## System::AsCast(const Source\&) function
+
+
 Invalid unboxing to non-object type.
 
 ```cpp
@@ -229,6 +256,33 @@ Casts the source type to the result type using 'as' operator cast. Used for boxi
 
 ```cpp
 template<typename Result,typename Source> std::enable_if_t<Details::CastType<Source, Result>::NullableBoxing, Result> System::AsCast(const Source &value)
+```
+
+
+### Template parameters
+
+| Parameter | Description |
+| --- | --- |
+| Source | The source type. |
+| Result | The result type. |
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | const Source\& | [Object](../object/) to cast. |
+
+### Return Value
+
+The cast result.
+
+## System::AsCast(const Source\&) function
+
+
+Casts the source type to the result type using 'as' operator cast. Used for boxing common object.
+
+```cpp
+template<typename Result,typename Source> std::enable_if_t<Details::CastType<Source, Result>::InterfaceBoxing, typename CastResult<Result>::type> System::AsCast(const Source &value)
 ```
 
 

@@ -3,7 +3,7 @@ title: ConfiguredTaskAwaitable
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 14
+weight: 27
 url: /system.runtime.compilerservices/configuredtaskawaitable/
 ---
 ## ConfiguredTaskAwaitable class
