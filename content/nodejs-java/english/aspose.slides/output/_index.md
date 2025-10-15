@@ -124,7 +124,7 @@ url: /aspose.slides/output/
 | --- | --- | --- |
 | path | String | Output path. |
 | fontData | [FontData](../fontdata) | Font to output. |
-| fontStyle | int | Font style. |
+| fontStyle | int | Font style ( FontStyleType). |
 
  **Returns:**
 [OutputFile](../outputfile)

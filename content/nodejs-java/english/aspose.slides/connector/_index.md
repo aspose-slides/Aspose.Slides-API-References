@@ -31,7 +31,7 @@ url: /aspose.slides/connector/
 | getEndShapeConnectedTo () | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Returns:**
-[Ink](../ink), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [SmartArt](../smartart), [InkActions](../inkactions), [AudioFrame](../audioframe), [Connector](../connector), [OleObjectFrame](../oleobjectframe), [Chart](../chart), [GraphicalObject](../graphicalobject), [GroupShape](../groupshape), [SummaryZoomSection](../summaryzoomsection), [LegacyDiagram](../legacydiagram), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [Table](../table), [Shape](../shape), [GeometryShape](../geometryshape), [ZoomObject](../zoomobject), [PictureFrame](../pictureframe)
+[AutoShape](../autoshape), [Table](../table), [SummaryZoomFrame](../summaryzoomframe), [LegacyDiagram](../legacydiagram), [SmartArt](../smartart), [SmartArtShape](../smartartshape), [SummaryZoomSection](../summaryzoomsection), [GeometryShape](../geometryshape), [InkActions](../inkactions), [Shape](../shape), [OleObjectFrame](../oleobjectframe), [Chart](../chart), [AudioFrame](../audioframe), [Connector](../connector), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [Ink](../ink)
 
  **Error**
 
@@ -95,7 +95,7 @@ int
 | getStartShapeConnectedTo () | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Returns:**
-[Ink](../ink), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [SmartArt](../smartart), [InkActions](../inkactions), [AudioFrame](../audioframe), [Connector](../connector), [OleObjectFrame](../oleobjectframe), [Chart](../chart), [GraphicalObject](../graphicalobject), [GroupShape](../groupshape), [SummaryZoomSection](../summaryzoomsection), [LegacyDiagram](../legacydiagram), [SummaryZoomFrame](../summaryzoomframe), [ZoomFrame](../zoomframe), [Table](../table), [Shape](../shape), [GeometryShape](../geometryshape), [ZoomObject](../zoomobject), [PictureFrame](../pictureframe)
+[AutoShape](../autoshape), [Table](../table), [SummaryZoomFrame](../summaryzoomframe), [LegacyDiagram](../legacydiagram), [SmartArt](../smartart), [SmartArtShape](../smartartshape), [SummaryZoomSection](../summaryzoomsection), [GeometryShape](../geometryshape), [InkActions](../inkactions), [Shape](../shape), [OleObjectFrame](../oleobjectframe), [Chart](../chart), [AudioFrame](../audioframe), [Connector](../connector), [GraphicalObject](../graphicalobject), [PictureFrame](../pictureframe), [ZoomObject](../zoomobject), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [Ink](../ink)
 
  **Error**
 
@@ -140,54 +140,6 @@ long
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([Ink](../ink)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setEndShapeConnectedTo {#setEndShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setEndShapeConnectedTo ([SmartArtShape](../smartartshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setEndShapeConnectedTo {#setEndShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setEndShapeConnectedTo ([VideoFrame](../videoframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setEndShapeConnectedTo {#setEndShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
 | setEndShapeConnectedTo ([AutoShape](../autoshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
@@ -204,7 +156,39 @@ long
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([SectionZoomFrame](../sectionzoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo ([Table](../table)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setEndShapeConnectedTo ([SummaryZoomFrame](../summaryzoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setEndShapeConnectedTo ([LegacyDiagram](../legacydiagram)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -236,6 +220,54 @@ long
 
 | Name | Description |
 | --- | --- |
+| setEndShapeConnectedTo ([SmartArtShape](../smartartshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setEndShapeConnectedTo ([SummaryZoomSection](../summaryzoomsection)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setEndShapeConnectedTo ([GeometryShape](../geometryshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
 | setEndShapeConnectedTo ([InkActions](../inkactions)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
@@ -252,23 +284,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([AudioFrame](../audioframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setEndShapeConnectedTo {#setEndShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setEndShapeConnectedTo ([Connector](../connector)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo ([Shape](../shape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -316,6 +332,38 @@ long
 
 | Name | Description |
 | --- | --- |
+| setEndShapeConnectedTo ([AudioFrame](../audioframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setEndShapeConnectedTo ([Connector](../connector)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
 | setEndShapeConnectedTo ([GraphicalObject](../graphicalobject)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
@@ -332,119 +380,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([GroupShape](../groupshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setEndShapeConnectedTo {#setEndShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setEndShapeConnectedTo ([SummaryZoomSection](../summaryzoomsection)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setEndShapeConnectedTo {#setEndShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setEndShapeConnectedTo ([LegacyDiagram](../legacydiagram)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setEndShapeConnectedTo {#setEndShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setEndShapeConnectedTo ([SummaryZoomFrame](../summaryzoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setEndShapeConnectedTo {#setEndShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setEndShapeConnectedTo ([ZoomFrame](../zoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setEndShapeConnectedTo {#setEndShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setEndShapeConnectedTo ([Table](../table)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setEndShapeConnectedTo {#setEndShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setEndShapeConnectedTo ([Shape](../shape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setEndShapeConnectedTo {#setEndShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setEndShapeConnectedTo ([GeometryShape](../geometryshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo ([PictureFrame](../pictureframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -476,7 +412,71 @@ long
 
 | Name | Description |
 | --- | --- |
-| setEndShapeConnectedTo ([PictureFrame](../pictureframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| setEndShapeConnectedTo ([VideoFrame](../videoframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setEndShapeConnectedTo ([ZoomFrame](../zoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setEndShapeConnectedTo ([SectionZoomFrame](../sectionzoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setEndShapeConnectedTo ([GroupShape](../groupshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setEndShapeConnectedTo {#setEndShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setEndShapeConnectedTo ([Ink](../ink)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -518,54 +518,6 @@ long
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([Ink](../ink)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setStartShapeConnectedTo {#setStartShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setStartShapeConnectedTo ([SmartArtShape](../smartartshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setStartShapeConnectedTo {#setStartShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setStartShapeConnectedTo ([VideoFrame](../videoframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setStartShapeConnectedTo {#setStartShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
 | setStartShapeConnectedTo ([AutoShape](../autoshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
@@ -582,7 +534,39 @@ long
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([SectionZoomFrame](../sectionzoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo ([Table](../table)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setStartShapeConnectedTo ([SummaryZoomFrame](../summaryzoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setStartShapeConnectedTo ([LegacyDiagram](../legacydiagram)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -614,6 +598,54 @@ long
 
 | Name | Description |
 | --- | --- |
+| setStartShapeConnectedTo ([SmartArtShape](../smartartshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setStartShapeConnectedTo ([SummaryZoomSection](../summaryzoomsection)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setStartShapeConnectedTo ([GeometryShape](../geometryshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
 | setStartShapeConnectedTo ([InkActions](../inkactions)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
@@ -630,23 +662,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([AudioFrame](../audioframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setStartShapeConnectedTo {#setStartShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setStartShapeConnectedTo ([Connector](../connector)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo ([Shape](../shape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -694,6 +710,38 @@ long
 
 | Name | Description |
 | --- | --- |
+| setStartShapeConnectedTo ([AudioFrame](../audioframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setStartShapeConnectedTo ([Connector](../connector)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
 | setStartShapeConnectedTo ([GraphicalObject](../graphicalobject)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
@@ -710,119 +758,7 @@ long
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([GroupShape](../groupshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setStartShapeConnectedTo {#setStartShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setStartShapeConnectedTo ([SummaryZoomSection](../summaryzoomsection)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setStartShapeConnectedTo {#setStartShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setStartShapeConnectedTo ([LegacyDiagram](../legacydiagram)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setStartShapeConnectedTo {#setStartShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setStartShapeConnectedTo ([SummaryZoomFrame](../summaryzoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setStartShapeConnectedTo {#setStartShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setStartShapeConnectedTo ([ZoomFrame](../zoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setStartShapeConnectedTo {#setStartShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setStartShapeConnectedTo ([Table](../table)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setStartShapeConnectedTo {#setStartShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setStartShapeConnectedTo ([Shape](../shape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
-
- **Error**
-
-| Error | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
-### setStartShapeConnectedTo {#setStartShapeConnectedTo}
-
-| Name | Description |
-| --- | --- |
-| setStartShapeConnectedTo ([GeometryShape](../geometryshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo ([PictureFrame](../pictureframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 
@@ -854,7 +790,71 @@ long
 
 | Name | Description |
 | --- | --- |
-| setStartShapeConnectedTo ([PictureFrame](../pictureframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| setStartShapeConnectedTo ([VideoFrame](../videoframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setStartShapeConnectedTo ([ZoomFrame](../zoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setStartShapeConnectedTo ([SectionZoomFrame](../sectionzoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setStartShapeConnectedTo ([GroupShape](../groupshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+### setStartShapeConnectedTo {#setStartShapeConnectedTo}
+
+| Name | Description |
+| --- | --- |
+| setStartShapeConnectedTo ([Ink](../ink)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
  **Error**
 

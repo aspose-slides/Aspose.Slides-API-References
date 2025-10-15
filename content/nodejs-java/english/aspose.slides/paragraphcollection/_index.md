@@ -204,7 +204,7 @@ int
 | getSlide () | Returns the parent slide of a paragraphs collection. Read-only BaseSlide. |
 
  **Returns:**
-[NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [BaseSlide](../baseslide), [Slide](../slide), [MasterSlide](../masterslide), [MasterHandoutSlide](../masterhandoutslide)
+[MasterNotesSlide](../masternotesslide), [MasterSlide](../masterslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide)
 
 
 ---

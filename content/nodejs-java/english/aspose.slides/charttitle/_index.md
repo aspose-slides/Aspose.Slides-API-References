@@ -34,7 +34,7 @@ url: /aspose.slides/charttitle/
 
 | Name | Description |
 | --- | --- |
-| getActualHeight () | Specifies actual height of the chart element. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
+| getActualHeight () | Specifies actual height of the chart element. Call function IChart.validateChartLayout() before to get actual values. Read float. |
 
  **Returns:**
 float
@@ -47,7 +47,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getActualWidth () | Specifies actual width of the chart element. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
+| getActualWidth () | Specifies actual width of the chart element. Call function IChart.validateChartLayout() before to get actual values. Read float. |
 
  **Returns:**
 float
@@ -60,7 +60,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getActualX () | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
+| getActualX () | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call function IChart.validateChartLayout() before to get actual values. Read float. |
 
  **Returns:**
 float
@@ -73,7 +73,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getActualY () | Specifies actual top of the chart element relative to the left top corner of the chart. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
+| getActualY () | Specifies actual top of the chart element relative to the left top corner of the chart. Call function IChart.validateChartLayout() before to get actual values. Read float. |
 
  **Returns:**
 float
@@ -180,7 +180,7 @@ float
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
  **Returns:**
-[NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide), [LayoutSlide](../layoutslide), [BaseSlide](../baseslide), [Slide](../slide), [MasterSlide](../masterslide), [MasterHandoutSlide](../masterhandoutslide)
+[MasterNotesSlide](../masternotesslide), [MasterSlide](../masterslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [NotesSlide](../notesslide), [Slide](../slide), [MasterHandoutSlide](../masterhandoutslide)
 
 
 ---
