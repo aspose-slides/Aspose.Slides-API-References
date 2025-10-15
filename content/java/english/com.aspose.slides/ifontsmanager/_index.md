@@ -269,7 +269,7 @@ Retrieves the byte array representing the font data for a specified font style a
 >      // Retrieve all fonts used in the presentation
 >      IFontData[] fonts = pres.getFontsManager().getFonts();
 >      // Get the byte array representing the regular style of the first font in the presentation
->      byte[] fontBytes = pres.getFontsManager().getFontBytes(fonts[0], FontStyle.Regular);
+>      byte[] fontBytes = pres.getFontsManager().getFontBytes(fonts[0], FontStyleType.Regular);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -279,7 +279,7 @@ Retrieves the byte array representing the font data for a specified font style a
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) | The font data object containing the information about the font [IFontData](../../com.aspose.slides/ifontdata). |
-| fontStyle | int | The style of the font for which the data is to be retrieved [FontStyle](../../com.aspose.slides/fontstyle). |
+| fontStyle | int | The style of the font for which the data is to be retrieved [FontStyleType](../../com.aspose.slides/fontstyletype). |
 
 **Returns:**
 byte[] - A byte array containing the font data for the specified font style. If the font data or style is not found, returns null.
@@ -299,7 +299,7 @@ Determines the embedding level of a font from the given byte array and font name
 >      // Retrieve all fonts used in the presentation
 >      IFontData[] fontDatas = pres.getFontsManager().getFonts();
 >      // Get the byte array representing the regular style of the first font in the presentation
->      byte[] bytes = pres.getFontsManager().getFontBytes(fontDatas[0], FontStyle.Regular);
+>      byte[] bytes = pres.getFontsManager().getFontBytes(fontDatas[0], FontStyleType.Regular);
 >      // Determine the embedding level of the font
 >      int embeddingLevel = pres.getFontsManager().getFontEmbeddingLevel(bytes, fontDatas[0].getFontName());
 >  } finally {

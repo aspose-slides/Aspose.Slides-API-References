@@ -189,7 +189,7 @@ public final byte[] readWorkbookStream()
 Writes the internally contained Excel workbook it into an in-memory stream.
 
 **Returns:**
-byte[] - Returns an instance of MemoryStream containing a copy of the internally contained Excel workbook.
+byte[] - Returns an instance of byte array containing a copy of the internally contained Excel workbook.
 ### writeWorkbookStream(byte[] ms) {#writeWorkbookStream-byte---}
 ```
 public final void writeWorkbookStream(byte[] ms)

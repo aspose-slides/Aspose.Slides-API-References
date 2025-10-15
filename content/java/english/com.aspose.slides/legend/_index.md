@@ -194,7 +194,7 @@ public final int getPosition()
 ```
 
 
-Specifies the position of the legend on a chart. Non-NaN values of X, Y, Width, Heigt properties override effect of this property. Read/write [LegendPositionType](../../com.aspose.slides/legendpositiontype).
+Specifies the position of the legend on a chart. Non-NaN values of X, Y, Width, Height properties override effect of this property. Read/write [LegendPositionType](../../com.aspose.slides/legendpositiontype).
 
 **Returns:**
 int
@@ -204,7 +204,7 @@ public final void setPosition(int value)
 ```
 
 
-Specifies the position of the legend on a chart. Non-NaN values of X, Y, Width, Heigt properties override effect of this property. Read/write [LegendPositionType](../../com.aspose.slides/legendpositiontype).
+Specifies the position of the legend on a chart. Non-NaN values of X, Y, Width, Height properties override effect of this property. Read/write [LegendPositionType](../../com.aspose.slides/legendpositiontype).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -247,7 +247,7 @@ public final float getActualX()
 ```
 
 
-Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read float.
+Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.validateChartLayout() before to get actual values. Read float.
 
 **Returns:**
 float
@@ -257,7 +257,7 @@ public final float getActualY()
 ```
 
 
-Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read float.
+Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.validateChartLayout() before to get actual values. Read float.
 
 **Returns:**
 float
@@ -267,7 +267,7 @@ public final float getActualWidth()
 ```
 
 
-Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read float.
+Specifies actual width of the chart element. Call method IChart.validateChartLayout() before to get actual values. Read float.
 
 **Returns:**
 float
@@ -277,7 +277,7 @@ public final float getActualHeight()
 ```
 
 
-Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read float.
+Specifies actual height of the chart element. Call method IChart.validateChartLayout() before to get actual values. Read float.
 
 **Returns:**
 float

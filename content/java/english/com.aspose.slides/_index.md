@@ -221,6 +221,7 @@ url: /com.aspose.slides/
 | [FontScheme](../com.aspose.slides/fontscheme) | Stores theme-defined fonts. |
 | [FontSources](../com.aspose.slides/fontsources) | Provides file and memory sources for external fonts. |
 | [FontStyle](../com.aspose.slides/fontstyle) | Font style enumeration |
+| [FontStyleType](../com.aspose.slides/fontstyletype) | Defines formatting styles that can be applied to text. |
 | [FontSubstCondition](../com.aspose.slides/fontsubstcondition) | Represents a rule fot font substitution |
 | [FontSubstRule](../com.aspose.slides/fontsubstrule) | Represents font subtituition information |
 | [FontSubstRuleCollection](../com.aspose.slides/fontsubstrulecollection) | Represents collection of fonts substitution. |

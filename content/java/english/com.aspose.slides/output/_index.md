@@ -119,7 +119,7 @@ Adds an output element for the font.
 | --- | --- | --- |
 | path | java.lang.String | Output path. |
 | fontData | [IFontData](../../com.aspose.slides/ifontdata) | Font to output. |
-| fontStyle | int | Font style. |
+| fontStyle | int | Font style ([FontStyleType](../../com.aspose.slides/fontstyletype)). |
 
 **Returns:**
 [IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) object for the font.
