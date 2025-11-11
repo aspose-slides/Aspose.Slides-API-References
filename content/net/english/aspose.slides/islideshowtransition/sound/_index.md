@@ -3,7 +3,7 @@ title: Sound
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the embedded audio data. Read-write IAudioaspose.slides/iaudio.
 type: docs
-weight: 40
+weight: 50
 url: /aspose.slides/islideshowtransition/sound/
 ---
 

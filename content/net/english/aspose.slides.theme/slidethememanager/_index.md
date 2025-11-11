@@ -3,7 +3,7 @@ title: SlideThemeManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides access to slide theme overriden.
 type: docs
-weight: 11320
+weight: 11360
 url: /aspose.slides.theme/slidethememanager/
 ---
 

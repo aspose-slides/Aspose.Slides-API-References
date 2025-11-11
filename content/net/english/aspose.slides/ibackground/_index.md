@@ -3,7 +3,7 @@ title: IBackground
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents background of a slide.
 type: docs
-weight: 5210
+weight: 5230
 url: /aspose.slides/ibackground/
 ---
 

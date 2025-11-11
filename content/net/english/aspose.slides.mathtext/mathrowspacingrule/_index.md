@@ -3,7 +3,7 @@ title: MathRowSpacingRule
 second_title: Aspose.Sildes for .NET API Reference
 description: The type of vertical spacing between columns in a matrix or array
 type: docs
-weight: 8870
+weight: 8910
 url: /aspose.slides.mathtext/mathrowspacingrule/
 ---
 

@@ -3,7 +3,7 @@ title: MathFractionFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create a math fraction
 type: docs
-weight: 8600
+weight: 8630
 url: /aspose.slides.mathtext/mathfractionfactory/
 ---
 

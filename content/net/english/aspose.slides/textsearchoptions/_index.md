@@ -3,7 +3,7 @@ title: TextSearchOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents options that can be used to search for text in a Presentation Slide or TextFrame.
 type: docs
-weight: 10820
+weight: 10860
 url: /aspose.slides/textsearchoptions/
 ---
 
@@ -26,6 +26,7 @@ public class TextSearchOptions : ITextSearchOptions
 | Name | Description |
 | --- | --- |
 | [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Set true to use case-sensitive search, false - otherwise. Read/write Boolean. |
+| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Set `true` to include text contained in slide notes ([`NotesSlide`](../notesslide)) when performing text search, replacement, or highlighting operations. The default value is `false`. |
 | [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Set true to match only whole words, false - otherwise. Read/write Boolean. |
 
 ### See Also

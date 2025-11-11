@@ -3,7 +3,7 @@ title: IGroupShape
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a group of shapes on a slide.
 type: docs
-weight: 6020
+weight: 6040
 url: /aspose.slides/igroupshape/
 ---
 

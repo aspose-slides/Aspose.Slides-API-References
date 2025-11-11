@@ -3,7 +3,7 @@ title: ForEach.ForEachPortionCallback
 second_title: Aspose.Sildes for .NET API Reference
 description: Callback that will be invoked for each Portion./foreach/portion in the Paragraph./foreach/paragraph on the BaseSlide../aspose.slides/baseslide.
 type: docs
-weight: 7860
+weight: 7880
 url: /aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
 

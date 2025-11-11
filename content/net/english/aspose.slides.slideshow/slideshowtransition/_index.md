@@ -3,7 +3,7 @@ title: SlideShowTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents slide show transition.
 type: docs
-weight: 10170
+weight: 10210
 url: /aspose.slides.slideshow/slideshowtransition/
 ---
 
@@ -22,6 +22,7 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 | [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write Boolean. |
 | [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read/write UInt32. |
 | [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write Boolean. |
+| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | Gets or sets the duration of the slide transition effect in milliseconds. Read/write Int32. |
 | [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | Returns or sets the embedded audio data. Read/write [`IAudio`](../../aspose.slides/iaudio). |
 | [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | Specifies whether or not this sound is a built-in sound. If this attribute is set to true then the generating application is alerted to check the name attribute specified for this sound in it's list of built-in sounds and can then surface a custom name or UI as needed. Read-write Boolean. |
 | [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write Boolean. |

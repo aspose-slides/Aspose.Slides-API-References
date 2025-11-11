@@ -46,6 +46,7 @@ Contains classes for work with mathematical text in Microsoft PowerPoint present
 | [MathNaryOperatorFactory](./mathnaryoperatorfactory) | Allows to create IMathNaryOperator |
 | [MathParagraph](./mathparagraph) | Mathematical paragraph that is a container for mathematical blocks (IMathBlock) |
 | [MathParagraphFactory](./mathparagraphfactory) | Allows to create a math paragraph |
+| [MathPhantom](./mathphantom) | Represents a phantom math object (&lt;m:phant&gt;) that affects the layout of its child element without necessarily displaying it. A phantom can hide its base expression while preserving its width, height, or depth to align formulas or reserve space. Visibility and geometry behavior are controlled by properties such as Show, ZeroWid, ZeroAsc, ZeroDesc, and Transp. |
 | [MathPortion](./mathportion) | Represents a portion with mathematical context inside. |
 | [MathRadical](./mathradical) | Specifies the radical function, consisting of a base, and an optional degree. Example of radical object is √𝑥. |
 | [MathRadicalFactory](./mathradicalfactory) | Allows to create math radical |
@@ -94,6 +95,7 @@ Contains classes for work with mathematical text in Microsoft PowerPoint present
 | [IMathNaryOperatorProperties](./imathnaryoperatorproperties) | Specifies properties of IMathNaryOperator |
 | [IMathParagraph](./imathparagraph) | Mathematical paragraph that is a container for mathematical blocks (IMathBlock) |
 | [IMathParagraphFactory](./imathparagraphfactory) | Allows to create a math paragraph |
+| [IMathPhantom](./imathphantom) | Represents a phantom math object (&lt;m:phant&gt;) that affects the layout of its child element without necessarily displaying it. A phantom can hide its base expression while preserving its width, height, or depth to align formulas or reserve space. Visibility and geometry behavior are controlled by properties such as Show, ZeroWid, ZeroAsc, ZeroDesc, and Transp. |
 | [IMathPortion](./imathportion) | Represents a portion with mathematical context inside. |
 | [IMathRadical](./imathradical) | Specifies the radical function, consisting of a base, and an optional degree. Example of radical object is √𝑥. |
 | [IMathRadicalFactory](./imathradicalfactory) | Allows to create math radical |

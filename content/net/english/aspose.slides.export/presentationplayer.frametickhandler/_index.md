@@ -3,7 +3,7 @@ title: PresentationPlayer.FrameTickHandler
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the frame tick handler of FrameTick./presentationplayer/frametick event.
 type: docs
-weight: 4340
+weight: 4360
 url: /aspose.slides.export/presentationplayer.frametickhandler/
 ---
 

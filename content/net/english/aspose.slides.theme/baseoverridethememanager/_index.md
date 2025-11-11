@@ -3,7 +3,7 @@ title: BaseOverrideThemeManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Base class for classes that provide access to different types of overriden themes.
 type: docs
-weight: 10890
+weight: 10930
 url: /aspose.slides.theme/baseoverridethememanager/
 ---
 

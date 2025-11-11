@@ -3,7 +3,7 @@ title: FontStyleType
 second_title: Aspose.Sildes for .NET API Reference
 description: Defines formatting styles that can be applied to text.
 type: docs
-weight: 4810
+weight: 4830
 url: /aspose.slides/fontstyletype/
 ---
 

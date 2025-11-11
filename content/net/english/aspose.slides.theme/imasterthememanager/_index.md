@@ -3,7 +3,7 @@ title: IMasterThemeManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides access to presentation master theme.
 type: docs
-weight: 11170
+weight: 11210
 url: /aspose.slides.theme/imasterthememanager/
 ---
 

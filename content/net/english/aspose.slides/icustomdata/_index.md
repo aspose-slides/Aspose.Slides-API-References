@@ -3,7 +3,7 @@ title: ICustomData
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents container for custom data.
 type: docs
-weight: 5600
+weight: 5620
 url: /aspose.slides/icustomdata/
 ---
 

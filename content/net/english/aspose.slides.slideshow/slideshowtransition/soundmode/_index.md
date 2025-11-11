@@ -3,7 +3,7 @@ title: SoundMode
 second_title: Aspose.Sildes for .NET API Reference
 description: Set or returns sound mode for slide transition. Read/write TransitionSoundModeaspose.slides.slideshow/transitionsoundmode.
 type: docs
-weight: 70
+weight: 80
 url: /aspose.slides.slideshow/slideshowtransition/soundmode/
 ---
 

@@ -3,7 +3,7 @@ title: IAutoShape
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an AutoShape.
 type: docs
-weight: 5180
+weight: 5200
 url: /aspose.slides/iautoshape/
 ---
 

@@ -3,7 +3,7 @@ title: FillFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a fill formatting options.
 type: docs
-weight: 4720
+weight: 4740
 url: /aspose.slides/fillformat/
 ---
 

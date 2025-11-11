@@ -3,7 +3,7 @@ title: FontDataFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: FontData factory
 type: docs
-weight: 4770
+weight: 4790
 url: /aspose.slides/fontdatafactory/
 ---
 

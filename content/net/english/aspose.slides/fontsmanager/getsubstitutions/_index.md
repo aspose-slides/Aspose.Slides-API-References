@@ -7,7 +7,7 @@ weight: 80
 url: /aspose.slides/fontsmanager/getsubstitutions/
 ---
 
-## FontsManager.GetSubstitutions method
+## GetSubstitutions() {#getsubstitutions}
 
 Gets the information about fonts that will be replaced on the presentation's rendering.
 
@@ -29,6 +29,44 @@ using (Presentation pres = new Presentation("pres.pptx"))
         Console.WriteLine("{0} -> {1}", fontSubstitution.OriginalFontName, fontSubstitution.SubstitutedFontName);
     }
 }        
+```
+
+### See Also
+
+* class [FontSubstitutionInfo](../../fontsubstitutioninfo)
+* class [FontsManager](../../fontsmanager)
+* namespace [Aspose.Slides](../../fontsmanager)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GetSubstitutions(int[]) {#getsubstitutions_1}
+
+Gets the information about fonts that will be replaced during rendering of the specified slides.
+
+```csharp
+public IEnumerable<FontSubstitutionInfo> GetSubstitutions(int[] slides)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| slides | Int32[] | An array of slide indexes for which to retrieve font substitution information, starting from 1. |
+
+### Return Value
+
+A collection of all font substitutions ([`FontSubstitutionInfo`](../../fontsubstitutioninfo)) for the specified slides.
+
+### Examples
+
+```csharp
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    int[] targetSlides = { 1, 2, 5 };
+    foreach (var fontSubstitution in pres.FontsManager.GetSubstitutions(targetSlides))
+    {
+        Console.WriteLine("{0} -> {1}", fontSubstitution.OriginalFontName, fontSubstitution.SubstitutedFontName);
+    }
+}
 ```
 
 ### See Also

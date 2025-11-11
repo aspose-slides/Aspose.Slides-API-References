@@ -3,7 +3,7 @@ title: ImageCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents collection of PPImage.
 type: docs
-weight: 7340
+weight: 7360
 url: /aspose.slides/imagecollection/
 ---
 
@@ -32,9 +32,9 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | Add an image to a presentation. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | Adds a copy of an image from an another presentation. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Add an image to a presentation from Svg object. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(MemoryStream) | Add an image to a presentation from stream. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream) | Add an image to a presentation from stream. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_7)(Stream, LoadingStreamBehavior) | Creates and adds an image to a presentation from stream. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | Add an image to a presentation from stream. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Add an image to a presentation from stream. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Creates and adds an image to a presentation from stream. |
 | [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
 

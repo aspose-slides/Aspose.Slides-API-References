@@ -3,7 +3,7 @@ title: Value
 second_title: Aspose.Sildes for .NET API Reference
 description: Slide show transition value. Read-only ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
 type: docs
-weight: 110
+weight: 120
 url: /aspose.slides/islideshowtransition/value/
 ---
 

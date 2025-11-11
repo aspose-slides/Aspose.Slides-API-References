@@ -3,7 +3,7 @@ title: IMasterHandoutSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents manager which holds behavior of the master handout slide placeholders including header placeholder.
 type: docs
-weight: 6300
+weight: 6320
 url: /aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 

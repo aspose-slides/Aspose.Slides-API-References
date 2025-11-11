@@ -3,7 +3,7 @@ title: PPImage
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an image in a presentation.
 type: docs
-weight: 9140
+weight: 9180
 url: /aspose.slides/ppimage/
 ---
 

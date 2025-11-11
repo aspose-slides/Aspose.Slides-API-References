@@ -3,7 +3,7 @@ title: ShapeAdjustmentType
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies different types of shape adjustment values.
 type: docs
-weight: 9690
+weight: 9730
 url: /aspose.slides/shapeadjustmenttype/
 ---
 

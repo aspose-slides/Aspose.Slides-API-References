@@ -3,7 +3,7 @@ title: NotesSlideThemeManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides access to notes slide theme overriden.
 type: docs
-weight: 11300
+weight: 11340
 url: /aspose.slides.theme/notesslidethememanager/
 ---
 

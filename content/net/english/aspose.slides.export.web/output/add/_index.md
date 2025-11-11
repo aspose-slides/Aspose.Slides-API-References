@@ -7,7 +7,7 @@ weight: 10
 url: /aspose.slides.export.web/output/add/
 ---
 
-## Add&lt;TContextObject&gt;(string, string, TContextObject) {#add_7}
+## Add&lt;TContextObject&gt;(string, string, TContextObject) {#add_5}
 
 Adds an output element for the context object.
 
@@ -35,7 +35,7 @@ public IOutputFile Add<TContextObject>(string path, string templateKey,
 
 ---
 
-## Add(string, IPPImage) {#add_3}
+## Add(string, IPPImage) {#add_2}
 
 Adds an output element for the image.
 
@@ -62,7 +62,7 @@ public IOutputFile Add(string path, IPPImage image)
 
 ---
 
-## Add(string, IImage) {#add_2}
+## Add(string, IImage) {#add_1}
 
 Adds an output element for the image.
 
@@ -89,7 +89,7 @@ public IOutputFile Add(string path, IImage image)
 
 ---
 
-## Add(string, IVideo) {#add_4}
+## Add(string, IVideo) {#add_3}
 
 Adds an output element for the video.
 
@@ -145,7 +145,7 @@ An [`IOutputFile`](../../ioutputfile) instance for the generated font.
 
 ---
 
-## Add(string, string) {#add_6}
+## Add(string, string) {#add_4}
 
 Adds an output element for the text content.
 

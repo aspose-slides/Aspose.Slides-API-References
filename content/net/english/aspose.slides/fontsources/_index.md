@@ -3,7 +3,7 @@ title: FontSources
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides file and memory sources for external fonts.
 type: docs
-weight: 4800
+weight: 4820
 url: /aspose.slides/fontsources/
 ---
 

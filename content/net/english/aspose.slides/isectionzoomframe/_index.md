@@ -3,7 +3,7 @@ title: ISectionZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Section Zoom object in a slide.
 type: docs
-weight: 6860
+weight: 6880
 url: /aspose.slides/isectionzoomframe/
 ---
 

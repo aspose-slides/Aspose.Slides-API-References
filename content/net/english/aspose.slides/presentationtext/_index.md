@@ -3,7 +3,7 @@ title: PresentationText
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the text extracted from the presentation
 type: docs
-weight: 9530
+weight: 9570
 url: /aspose.slides/presentationtext/
 ---
 

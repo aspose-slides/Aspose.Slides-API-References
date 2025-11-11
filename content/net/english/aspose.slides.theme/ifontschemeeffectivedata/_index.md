@@ -3,7 +3,7 @@ title: IFontSchemeEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective font scheme properties.
 type: docs
-weight: 11110
+weight: 11150
 url: /aspose.slides.theme/ifontschemeeffectivedata/
 ---
 

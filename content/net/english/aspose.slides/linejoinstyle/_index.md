@@ -3,7 +3,7 @@ title: LineJoinStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the lines join style.
 type: docs
-weight: 7720
+weight: 7740
 url: /aspose.slides/linejoinstyle/
 ---
 

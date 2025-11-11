@@ -3,7 +3,7 @@ title: MathFunctionsOfTwoArguments
 second_title: Aspose.Sildes for .NET API Reference
 description: Common mathematical functions of two arguments
 type: docs
-weight: 8650
+weight: 8680
 url: /aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
 

@@ -3,7 +3,7 @@ title: ISlideShowTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents slide show transition.
 type: docs
-weight: 7000
+weight: 7020
 url: /aspose.slides/islideshowtransition/
 ---
 
@@ -22,6 +22,7 @@ public interface ISlideShowTransition
 | [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write Boolean. |
 | [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read-write UInt32. |
 | [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read-write Boolean. |
+| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | Gets or sets the duration of the slide transition effect in milliseconds. Read/write Int32. |
 | [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Returns or sets the embedded audio data. Read-write [`IAudio`](../iaudio). |
 | [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Specifies whether or not this sound is a built-in sound. If this attribute is set to true then the generating application is alerted to check the name attribute specified for this sound in it's list of built-in sounds and can then surface a custom name or UI as needed. Read-write Boolean. |
 | [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read-write Boolean. |

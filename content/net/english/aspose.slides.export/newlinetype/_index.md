@@ -3,7 +3,7 @@ title: NewLineType
 second_title: Aspose.Sildes for .NET API Reference
 description: Type of new line that will be used in generated document.
 type: docs
-weight: 4220
+weight: 4240
 url: /aspose.slides.export/newlinetype/
 ---
 
