@@ -24,6 +24,26 @@ def get_substitutions(self):
 
 
 
+## get_substitutions {#listint}
+Gets the information about fonts that will be replaced during rendering of the specified slides.
+
+### Returns
+
+A collection of all font substitutions ([`FontSubstitutionInfo`](/slides/python-net/aspose.slides/fontsubstitutioninfo)) for the specified slides.
+
+
+
+```python
+def get_substitutions(self, slides):
+    ...
+```
+
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| slides | **List[int]** | An array of slide indexes for which to retrieve font substitution information, starting from 1. |
+
+
 
 ### See Also
 * class [`FontSubstitutionInfo`](/slides/python-net/aspose.slides/fontsubstitutioninfo)

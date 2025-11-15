@@ -34,11 +34,11 @@ When cloning a slide between different presentations slide's master can be clone
             multiple clones of the same master slide.
             Manual cloning of master slides will be neither prevented nor registered.
             If you need more control over cloning process use
-[`ISlideCollection.add_clone`](/slides/python-net/aspose.slides/islidecollection/add_clone) or
-[`ISlideCollection.add_clone`](/slides/python-net/aspose.slides/islidecollection/add_clone) for cloning slides,
-[`IGlobalLayoutSlideCollection.add_clone`](/slides/python-net/aspose.slides/igloballayoutslidecollection/add_clone) or
-[`IGlobalLayoutSlideCollection.add_clone`](/slides/python-net/aspose.slides/igloballayoutslidecollection/add_clone) for cloning layouts and
-[`IMasterSlideCollection.add_clone`](/slides/python-net/aspose.slides/imasterslidecollection/add_clone) for cloning masters.
+            **Aspose.Slides.ISlideCollection.AddClone(Aspose.Slides.ISlide,Aspose.Slide** or
+            **Aspose.Slides.ISlideCollection.AddClone(Aspose.Slides.ISlide,Aspose.Slides.IMasterSlide,Syste** for cloning slides,
+            **Aspose.Slides.IGlobalLayoutSlideCollection.AddClone(Aspose.Slide** or
+            **Aspose.Slides.IGlobalLayoutSlideCollection.AddClone(Aspose.Slides.ILayoutSlide,Aspose.Slide** for cloning layouts and
+            **Aspose.Slides.IMasterSlideCollection.AddClone(Aspose.Slide** for cloning masters.
 
 
 ## add_clone {#islide-isection}

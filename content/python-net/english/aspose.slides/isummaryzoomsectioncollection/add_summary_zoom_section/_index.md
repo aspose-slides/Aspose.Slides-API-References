@@ -27,10 +27,6 @@ def add_summary_zoom_section(self, section):
 | :- | :- | :- |
 | section | [`ISection`](/slides/python-net/aspose.slides/isection) | Section for a new Summary Zoom Section element [`ISection`](/slides/python-net/aspose.slides/isection) |
 
-### Examples
-
-The example demonstrates getting Summary Zoom Section element by index:
-
 ### Remarks
 
 If an element for this section already exists in the collection, the existing element is returned.

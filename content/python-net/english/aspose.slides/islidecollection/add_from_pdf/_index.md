@@ -27,10 +27,6 @@ def add_from_pdf(self, path):
 | :- | :- | :- |
 | path | **str** | A path to the PDF document |
 
-### Examples
-
-Example:
-
 
 ## add_from_pdf {#iorawiobase}
 Creates slides from the PDF document and adds them to the end of the collection.
@@ -50,10 +46,6 @@ def add_from_pdf(self, pdf_stream):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | pdf_stream | **io.RawIOBase** | A stream which will be used as a source of the PDF document |
-
-### Examples
-
-Example:
 
 
 ## add_from_pdf {#str-asposeslidesimportingpdfimportoptions}
@@ -76,10 +68,6 @@ def add_from_pdf(self, path, pdf_import_options):
 | path | **str** | A path to the PDF document |
 | pdf_import_options | [`PdfImportOptions`](/slides/python-net/aspose.slides.importing/pdfimportoptions) | Options for pdf import |
 
-### Examples
-
-Example:
-
 
 ## add_from_pdf {#iorawiobase-asposeslidesimportingpdfimportoptions}
 Creates slides from the PDF document and adds them to the end of the collection.
@@ -100,10 +88,6 @@ def add_from_pdf(self, pdf_stream, pdf_import_options):
 | :- | :- | :- |
 | pdf_stream | **io.RawIOBase** | A stream which will be used as a source of the PDF document |
 | pdf_import_options | [`PdfImportOptions`](/slides/python-net/aspose.slides.importing/pdfimportoptions) | Options for pdf import |
-
-### Examples
-
-Example:
 
 
 

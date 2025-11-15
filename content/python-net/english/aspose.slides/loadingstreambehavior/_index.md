@@ -10,7 +10,7 @@ url: /aspose.slides/loadingstreambehavior/
 ## LoadingStreamBehavior enumeration
 
 The **io.RawIOBase** passed to a method is considered as a Binary Large Object (BLOB) (see 
-[`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions) description). Values of this enumeration identify how 
+            [`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions) description). Values of this enumeration identify how 
             the **io.RawIOBase** should be treated when it passed to the method. Depending on the 
             requirements, different decisions could be made to provide the most efficient behavior.
 

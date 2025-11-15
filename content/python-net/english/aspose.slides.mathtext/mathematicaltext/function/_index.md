@@ -27,10 +27,6 @@ def function(self, function_argument):
 | :- | :- | :- |
 | function_argument | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | An argument of the function |
 
-### Examples
-
-Example:
-
 
 ## function {#str}
 Takes a function of an argument using this instance as the function name
@@ -50,10 +46,6 @@ def function(self, function_argument):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | function_argument | **str** | An argument of the function |
-
-### Examples
-
-Example:
 
 
 

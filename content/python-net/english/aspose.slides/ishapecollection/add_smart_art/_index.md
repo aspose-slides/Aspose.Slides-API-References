@@ -31,10 +31,6 @@ def add_smart_art(self, x, y, width, height, layout_type):
 | height | **float** | The height of the diagram’s frame, in points. |
 | layout_type | [`SmartArtLayoutType`](/slides/python-net/aspose.slides.smartart/smartartlayouttype) | The SmartArt layout type. |
 
-### Examples
-
-Example:
-
 
 
 ### See Also

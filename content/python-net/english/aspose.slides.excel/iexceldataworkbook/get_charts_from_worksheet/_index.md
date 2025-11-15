@@ -13,7 +13,7 @@ Retrieves a dictionary containing the indexes and names of all charts in the spe
 
 ### Returns
 
-A dictionary where the key is the chart index and the value is the chart name.
+A list of [`PositionedString`](/slides/python-net/aspose.slides/positionedstring) where the key is the chart index and the value is the chart name.
 
 
 
@@ -27,14 +27,11 @@ def get_charts_from_worksheet(self, worksheet_name):
 | :- | :- | :- |
 | worksheet_name | **str** | The name of the worksheet to search for charts. |
 
-### Examples
-
-Example:
-
 
 
 ### See Also
 * class [`IExcelDataWorkbook`](/slides/python-net/aspose.slides.excel/iexceldataworkbook)
+* class [`PositionedString`](/slides/python-net/aspose.slides/positionedstring)
 * module [`aspose.slides.excel`](/slides/python-net/aspose.slides.excel)
 * library [`Aspose.Slides`](/slides/python-net)
 

@@ -27,10 +27,6 @@ def delimit(self, separator_character):
 | :- | :- | :- |
 | separator_character | **char** | Character used as a separator |
 
-### Examples
-
-Example:
-
 
 
 ### See Also

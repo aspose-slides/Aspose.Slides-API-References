@@ -44,13 +44,6 @@ The Slide type exposes the following members:
 | :- | :- |
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/slide/join_portions_with_same_formatting/#) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
 | [`join_portions_with_same_formatting`](/slides/python-net/aspose.slides/slide/join_portions_with_same_formatting/#ishapecollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#float-float) | Returns a Thumbnail Bitmap object with custom scaling. |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#) | Returns a Thumbnail Image object (20% of real size). |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportirenderingoptions) | Returns a Thumbnail Bitmap object. |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposepydrawingsize) | Returns a Thumbnail Bitmap object with specified size. |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportitiffoptions) | Returns a Thumbnail tiff bitmap object with specified parameters. |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportirenderingoptions-float-float) | Returns a Thumbnail Bitmap object with custom scaling. |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/slide/get_thumbnail/#asposeslidesexportirenderingoptions-asposepydrawingsize) | Returns a Thumbnail Bitmap object with specified size. |
 | [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#float-float) | Returns a Thumbnail Image object with custom scaling. |
 | [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#) | Returns a Thumbnail Image object (20% of real size). |
 | [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#asposepydrawingsize) | Returns a Thumbnail Image object with specified size. |
@@ -58,9 +51,6 @@ The Slide type exposes the following members:
 | [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportirenderingoptions) | Returns a Thumbnail Image object. |
 | [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportirenderingoptions-float-float) | Returns a Thumbnail Image object with custom scaling. |
 | [`get_image`](/slides/python-net/aspose.slides/slide/get_image/#asposeslidesexportirenderingoptions-asposepydrawingsize) | Returns a Thumbnail Image object with specified size. |
-| [`render_to_graphics`](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportirenderingoptions-asposepydrawinggraphics) | Renders certain slide to a Graphics object. |
-| [`render_to_graphics`](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportirenderingoptions-asposepydrawinggraphics-float-float) | Renders certain slide to a Graphics object with custom scaling. |
-| [`render_to_graphics`](/slides/python-net/aspose.slides/slide/render_to_graphics/#asposeslidesexportirenderingoptions-asposepydrawinggraphics-asposepydrawingsize) | Renders certain slide to a Graphics object using specified size. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/slide/write_as_svg/#iorawiobase) | Saves the slide content as an SVG file. |
 | [`write_as_svg`](/slides/python-net/aspose.slides/slide/write_as_svg/#iorawiobase-asposeslidesexportisvgoptions) | Saves the slide content as an SVG file. |
 | [`equals`](/slides/python-net/aspose.slides/slide/equals/#ibaseslide) | Determines whether the two IBaseSlide instances are equal.<br/>            Returning value is calculated based on slide's structure and static content.<br/>            Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |

@@ -9,6 +9,11 @@ weight: 10
 
 
 ## create_conversation {#}
+Creates a conversation instance. Unlike regular AI calls, conversations retain the entire context.
+
+### Returns
+
+An [`IAIConversation`](/slides/python-net/aspose.slides.ai/iaiconversation) instance.
 
 
 

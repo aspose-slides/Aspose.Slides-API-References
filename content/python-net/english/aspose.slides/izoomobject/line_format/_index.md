@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/izoomobject/line_format/
-weight: 300
+weight: 290
 ---
 
 

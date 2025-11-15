@@ -31,11 +31,6 @@ def insert_summary_zoom_frame(self, index, x, y, width, height):
 | width | **float** | The width of the new Summary Zoom frame, in points. |
 | height | **float** | The height of the new Summary Zoom frame, in points. |
 
-### Examples
-
-This example demonstrates creation and inserting a Summary Zoom object at the specified index of a collection
-            (assume that there are at least two sections in the "Presentation.pptx" presentation):
-
 ### Remarks
 
 This method creates a Summary Zoom frame that aggregates summary links for all sections in the presentation.

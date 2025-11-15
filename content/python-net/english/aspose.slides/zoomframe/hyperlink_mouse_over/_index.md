@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/zoomframe/hyperlink_mouse_over/
-weight: 260
+weight: 250
 ---
 
 

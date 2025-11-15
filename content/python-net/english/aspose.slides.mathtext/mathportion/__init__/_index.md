@@ -18,10 +18,6 @@ def __init__(self):
 ```
 
 
-### Examples
-
-Example:
-
 
 
 ### See Also

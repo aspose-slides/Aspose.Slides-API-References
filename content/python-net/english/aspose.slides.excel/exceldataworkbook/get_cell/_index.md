@@ -28,10 +28,6 @@ def get_cell(self, worksheet_index, cell_name):
 | worksheet_index | **int** | Zero-based index of the worksheet. |
 | cell_name | **str** | The Excel-style cell reference (e.g., "A1", "C5"). |
 
-### Examples
-
-Example:
-
 
 ## get_cell {#str-str}
 Retrieves a cell from the specified worksheet using Excel-style cell name (e.g., "B2").
@@ -52,10 +48,6 @@ def get_cell(self, worksheet_name, cell_name):
 | :- | :- | :- |
 | worksheet_name | **str** | The name of the worksheet. |
 | cell_name | **str** | The Excel-style cell reference (e.g., "A1", "C5"). |
-
-### Examples
-
-Example:
 
 
 ## get_cell {#int-int-int}
@@ -79,10 +71,6 @@ def get_cell(self, worksheet_index, row, column):
 | row | **int** | Zero-based row index of the cell. |
 | column | **int** | Zero-based column index of the cell. |
 
-### Examples
-
-Example:
-
 
 ## get_cell {#str-int-int}
 Retrieves a cell from the specified worksheet using its name and cell coordinates.
@@ -104,10 +92,6 @@ def get_cell(self, worksheet_name, row, column):
 | worksheet_name | **str** | The name of the worksheet. |
 | row | **int** | Zero-based row index of the cell. |
 | column | **int** | Zero-based column index of the cell. |
-
-### Examples
-
-Example:
 
 
 

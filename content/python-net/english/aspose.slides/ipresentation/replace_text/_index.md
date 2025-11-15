@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ipresentation/replace_text/
-weight: 90
+weight: 70
 ---
 
 
@@ -24,10 +24,6 @@ def replace_text(self, old_text, new_text, options, callback):
 | new_text | **str** | The string to replace all occurrences of oldText. |
 | options | [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions) | Text search options [`ITextSearchOptions`](/slides/python-net/aspose.slides/itextsearchoptions). |
 | callback | [`IFindResultCallback`](/slides/python-net/aspose.slides/ifindresultcallback) | The callback object for receiving search results [`IFindResultCallback`](/slides/python-net/aspose.slides/ifindresultcallback). |
-
-### Examples
-
-The following sample code shows how to replace one specified string with another specified string.
 
 
 

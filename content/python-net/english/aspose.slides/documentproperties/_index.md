@@ -38,7 +38,7 @@ The DocumentProperties type exposes the following members:
 | [`comments`](/slides/python-net/aspose.slides/documentproperties/comments/) | Returns or sets the comments of a presentation.<br/>            Read/write **str**. |
 | [`category`](/slides/python-net/aspose.slides/documentproperties/category/) | Returns or sets the category of a presentation.<br/>            Read/write **str**. |
 | [`created_time`](/slides/python-net/aspose.slides/documentproperties/created_time/) | Returns the date a presentation was created.<br/>            Values are in UTC.<br/>            Read/write **System.DateTime**. |
-| [`last_saved_time`](/slides/python-net/aspose.slides/documentproperties/last_saved_time/) | Returns the date a presentation was last modified.<br/>            Values are in UTC.<br/>            Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). <br/>            Can be changed via DocumentProperties instance returning by method [`IPresentationInfo.read_document_properties`](/slides/python-net/aspose.slides/ipresentationinfo/read_document_properties)<br/>            Please see the example in [`IPresentationInfo.update_document_properties`](/slides/python-net/aspose.slides/ipresentationinfo/update_document_properties) method summary. |
+| [`last_saved_time`](/slides/python-net/aspose.slides/documentproperties/last_saved_time/) | Returns the date a presentation was last modified.<br/>            Values are in UTC.<br/>            Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). <br/>            Can be changed via DocumentProperties instance returning by method [`IPresentationInfo.read_document_properties`](/slides/python-net/aspose.slides/ipresentationinfo/read_document_properties)<br/>            Please see the example in **Aspose.Slides.IPresentationInfo.UpdateDocumentProperties(Aspose.Slide** method summary. |
 | [`last_printed`](/slides/python-net/aspose.slides/documentproperties/last_printed/) | Returns the date when a presentation was printed last time.<br/>            Read/write **System.DateTime**. |
 | [`last_saved_by`](/slides/python-net/aspose.slides/documentproperties/last_saved_by/) | Returns or sets the name of a last person who modified a presentation.<br/>            Read/write **str**. |
 | [`revision_number`](/slides/python-net/aspose.slides/documentproperties/revision_number/) | Returns or sets the presentation revision number.<br/>            Read/write **int**. |
@@ -65,7 +65,7 @@ The DocumentProperties type exposes the following members:
 | [`get_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#str-any) | Gets a named boolean value from the custom properties. |
 | [`get_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#str-any) | Gets a named integer value from the custom properties. |
 | [`get_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#str-any) | Gets a named DateTime value from the custom properties. |
-| [`get_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#str-any) |  |
+| [`get_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#str-any) | Gets a named string value from the custom properties. |
 | [`get_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#str-any) |  |
 | [`get_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/get_custom_property_value/#str-any) |  |
 | [`set_custom_property_value`](/slides/python-net/aspose.slides/documentproperties/set_custom_property_value/#str-bool) | Sets a named boolean custom property. |
@@ -81,13 +81,6 @@ The DocumentProperties type exposes the following members:
 | [`clear_built_in_properties`](/slides/python-net/aspose.slides/documentproperties/clear_built_in_properties/#) | Clears and sets default values for all builtIn properties. |
 | [`clone`](/slides/python-net/aspose.slides/documentproperties/clone/#) | Clones current object |
 | [`clone_t`](/slides/python-net/aspose.slides/documentproperties/clone_t/#) | Clones current object |
-
-
-### Examples
-
-The following example shows how to access built-in Properties of PowerPoint Presentation.
-
-            The following example shows how to modify built-in Properties of PowerPoint Presentation.
 
 
 ### See Also

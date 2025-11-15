@@ -23,10 +23,6 @@ def load_external_fonts(directories):
 | :- | :- | :- |
 | directories | **List[str]** | Directories to read additional fonts. |
 
-### Examples
-
-The follow examples shows how to load custom fonts from .TTF
-
 
 
 ### See Also

@@ -23,10 +23,6 @@ def get_effective(self):
 ```
 
 
-### Examples
-
-This example demonstrates getting some effective portion format properties.
-
 
 
 ### See Also

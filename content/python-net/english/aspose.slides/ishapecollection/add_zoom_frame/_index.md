@@ -31,11 +31,6 @@ def add_zoom_frame(self, x, y, width, height, slide):
 | height | **float** | The height of the new Zoom frame, in points. |
 | slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | The [`ISlide`](/slides/python-net/aspose.slides/islide) referenced by the Zoom frame;<br/><br/>            must belong to this presentation. |
 
-### Examples
-
-This example demonstrates adding a Zoom object to the end of a collection
-            (assume that there are at least two slides in the "Presentation.pptx" presentation):
-
 ### Exceptions
 
 | Exception | Description |
@@ -66,11 +61,6 @@ def add_zoom_frame(self, x, y, width, height, slide, image):
 | height | **float** | The height of the new Zoom frame, in points. |
 | slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | The [`ISlide`](/slides/python-net/aspose.slides/islide) referenced by the Zoom frame;<br/><br/>            must belong to this presentation. |
 | image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage). |
-
-### Examples
-
-This example demonstrates adding a Zoom object to the end of a collection
-            (assume that there are at least two slides in the "Presentation.pptx" presentation):
 
 ### Exceptions
 

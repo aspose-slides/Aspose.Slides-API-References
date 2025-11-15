@@ -23,10 +23,6 @@ def set_script_font(self, script, font_name):
 | script | **str** | The BCP-47 script code (e.g., "Arab", "Hebr", "Hans") identifying the writing system. |
 | font_name | **str** | The name of the font to assign to the specified script. |
 
-### Examples
-
-This example shows how to set the font for the Arabic script to "Segoe UI":
-
 
 
 ### See Also

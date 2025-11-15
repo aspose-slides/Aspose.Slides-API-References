@@ -41,15 +41,6 @@ The TiffOptions type exposes the following members:
 | [`bw_conversion_mode`](/slides/python-net/aspose.slides.export/tiffoptions/bw_conversion_mode/) | Specifies the algorithm for converting a color image into a black and white image.<br/>            This option will applied only if [`TiffOptions.compression_type`](/slides/python-net/aspose.slides.export/tiffoptions/compression_type) <br/>            is set to [`TiffCompressionTypes.CCITT4`](/slides/python-net/aspose.slides.export/tiffcompressiontypes/CCITT4) or [`TiffCompressionTypes.CCITT3`](/slides/python-net/aspose.slides.export/tiffcompressiontypes/CCITT3)<br/>            Read/write [`BlackWhiteConversionMode`](/slides/python-net/aspose.slides.export/blackwhiteconversionmode).<br/>            Default is [`BlackWhiteConversionMode.DEFAULT`](/slides/python-net/aspose.slides.export/blackwhiteconversionmode/DEFAULT). |
 
 
-### Examples
-
-The following example shows how to convert PowerPoint to TIFF with default size.
-
-            The following example shows how to convert PowerPoint to TIFF with custom size.
-
-            The following example shows how to convert PowerPoint to TIFF with custom image pixel format.
-
-
 ### See Also
 * class [`SaveOptions`](/slides/python-net/aspose.slides.export/saveoptions)
 * class [`TiffOptions`](/slides/python-net/aspose.slides.export/tiffoptions)

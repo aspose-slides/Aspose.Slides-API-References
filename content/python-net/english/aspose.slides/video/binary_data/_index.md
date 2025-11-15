@@ -10,7 +10,7 @@ weight: 20
 
 ## binary_data property
 Returns the copy of an audio's data. In case of large amount of data consider using of 
-[`Video.get_stream`](/slides/python-net/aspose.slides/video/get_stream) method to prevent unnecessary loading of video's data into memory 
+            [`Video.get_stream`](/slides/python-net/aspose.slides/video/get_stream) method to prevent unnecessary loading of video's data into memory 
             or even OutOfMemoryException.
             Read-only **int**[].
 

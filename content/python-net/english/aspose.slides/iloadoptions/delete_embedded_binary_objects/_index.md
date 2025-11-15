@@ -10,7 +10,7 @@ weight: 60
 
 ## delete_embedded_binary_objects property
 Determines if Aspose.Slides will delete all embedded binary objects while presentation loading.
-
+            
 The types of the embedded binary objects:
 
 

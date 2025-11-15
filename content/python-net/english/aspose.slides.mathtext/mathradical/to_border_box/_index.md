@@ -23,10 +23,6 @@ def to_border_box(self):
 ```
 
 
-### Examples
-
-Example:
-
 
 ## to_border_box {#bool-bool-bool-bool-bool-bool-bool-bool}
 Places this element in a border-box
@@ -53,10 +49,6 @@ def to_border_box(self, hide_top, hide_bottom, hide_left, hide_right, strikethro
 | strikethrough_vertical | **bool** | Border Box Strikethrough Vertical |
 | strikethrough_bottom_left_to_top_right | **bool** | Border Box Strikethrough Bottom-Left to Top-Right |
 | strikethrough_top_left_to_bottom_right | **bool** | Border Box Strikethrough Top-Left to Bottom-Right |
-
-### Examples
-
-Example:
 
 
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/ioleobjectframe/set_embedded_data/
-weight: 60
+weight: 50
 ---
 
 
@@ -21,11 +21,6 @@ def set_embedded_data(self, embedded_data):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | embedded_data | [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) | Embedded data [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) |
-
-### Examples
-
-Following example demonstrates how to change OLE embedded data
-            and its type for existing [`IOleObjectFrame`](/slides/python-net/aspose.slides/ioleobjectframe) object
 
 ### Remarks
 

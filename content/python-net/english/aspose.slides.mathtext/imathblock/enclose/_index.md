@@ -57,10 +57,6 @@ def enclose(self, beginning_character, ending_character, separator_character):
 | ending_character | **char** | Ending character (usually right bracket) |
 | separator_character | **char** | Separator character |
 
-### Examples
-
-Example:
-
 
 
 ### See Also

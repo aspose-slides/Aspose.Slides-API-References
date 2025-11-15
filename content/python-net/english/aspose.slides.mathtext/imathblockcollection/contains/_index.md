@@ -27,10 +27,6 @@ def contains(self, item):
 | :- | :- | :- |
 | item | [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) | The object to locate in the collection. |
 
-### Examples
-
-Example:
-
 
 
 ### See Also

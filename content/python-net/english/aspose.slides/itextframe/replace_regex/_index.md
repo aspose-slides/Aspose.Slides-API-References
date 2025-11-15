@@ -9,7 +9,7 @@ weight: 40
 
 
 ## replace_regex {#str-str}
-
+Replaces all matches of regular expression with specified string.
 
 
 ```python
@@ -20,8 +20,8 @@ def replace_regex(self, regex, new_text):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| regex | **str** |  |
-| new_text | **str** |  |
+| regex | **str** | The string contains regular expression to get strings to be replaced. |
+| new_text | **str** | The string to replace all occurrences of strings to be replaced. |
 
 
 

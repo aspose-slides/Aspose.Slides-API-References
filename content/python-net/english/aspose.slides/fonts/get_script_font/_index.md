@@ -27,10 +27,6 @@ def get_script_font(self, script):
 | :- | :- | :- |
 | script | **str** | The BCP-47 script code (e.g., "Latn", "Cyrl", "Jpan") used to identify a writing system. |
 
-### Examples
-
-This example demonstrates how to retrieve the font assigned to the Cyrillic script in the presentation theme.
-
 
 
 ### See Also

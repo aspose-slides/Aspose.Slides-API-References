@@ -31,12 +31,8 @@ def add_chart_from_workbook(shapes, x, y, workbook, worksheet_name, chart_index,
 | y | **float** | The Y coordinate for positioning the chart. |
 | workbook | [`IExcelDataWorkbook`](/slides/python-net/aspose.slides.excel/iexceldataworkbook) | The Excel workbook. |
 | worksheet_name | **str** | The name of the worksheet that contains the chart. |
-| chart_index | **int** | The zero-based index of the chart shape to insert. <br/><br/>            This index can be obtained using the [`IExcelDataWorkbook.get_charts_from_worksheet`](/slides/python-net/aspose.slides.excel/iexceldataworkbook/get_charts_from_worksheet) method. |
+| chart_index | **int** | The zero-based index of the chart shape to insert. <br/><br/>            This index can be obtained using the **Aspose.Slides.Excel.IExcelDataWorkbook.GetChartsFromWorksheet(Syste** method. |
 | embed_all_workbook | **bool** | If `true`, the entire workbook will be embedded in the chart; <br/><br/>            if `false`, only the chart data will be embedded. |
-
-### Examples
-
-Example:
 
 ### Exceptions
 
@@ -71,10 +67,6 @@ def add_chart_from_workbook(shapes, x, y, workbook, worksheet_name, chart_name, 
 | chart_name | **str** | The name of the chart to be added. |
 | embed_all_workbook | **bool** | If `true`, the entire workbook will be embedded in the chart; <br/><br/>            if `false`, only the chart data will be embedded. |
 
-### Examples
-
-Example:
-
 ### Exceptions
 
 | Exception | Description |
@@ -107,10 +99,6 @@ def add_chart_from_workbook(shapes, x, y, workbook_stream, worksheet_name, chart
 | worksheet_name | **str** | The name of the worksheet that contains the chart. |
 | chart_name | **str** | The name of the chart to be added. |
 | embed_all_workbook | **bool** | If `true`, the entire workbook will be embedded in the chart; <br/><br/>            if `false`, only the chart data will be embedded. |
-
-### Examples
-
-Example:
 
 ### Exceptions
 
@@ -145,10 +133,6 @@ def add_chart_from_workbook(shapes, x, y, workbook_path, worksheet_name, chart_n
 | worksheet_name | **str** | The name of the worksheet that contains the chart. |
 | chart_name | **str** | The name of the chart to be added. |
 | embed_workbook | **bool** | If `true`, the workbook will be embedded in the chart; <br/><br/>            if `false`, the chart will link to the external workbook. |
-
-### Examples
-
-Example:
 
 ### Exceptions
 

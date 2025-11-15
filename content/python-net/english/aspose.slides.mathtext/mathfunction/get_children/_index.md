@@ -11,6 +11,11 @@ weight: 70
 ## get_children {#}
 Get children elements
 
+### Returns
+
+
+
+
 
 ```python
 def get_children(self):

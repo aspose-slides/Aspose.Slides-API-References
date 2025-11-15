@@ -61,8 +61,6 @@ The IAutoShape type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/iautoshape/get_thumbnail/#) |  |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/iautoshape/get_thumbnail/#shapethumbnailbounds-float-float) |  |
 | [`get_image`](/slides/python-net/aspose.slides/iautoshape/get_image/#) |  |
 | [`get_image`](/slides/python-net/aspose.slides/iautoshape/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/iautoshape/write_as_svg/#iorawiobase) |  |

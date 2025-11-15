@@ -39,15 +39,6 @@ The ThreeDFormat type exposes the following members:
 | [`get_effective`](/slides/python-net/aspose.slides/threedformat/get_effective/#) | Gets effective 3-D formatting data with the inheritance applied. |
 
 
-### Examples
-
-The following example shows how to add 3D shape in PowerPoint Presentation.
-
-            The following example shows how to apply Gradient affect to 3D shape in PowerPoint Presentation.
-
-            The following example shows how to apply 3D effect on text. For creating a 3D text its possible to use WordArt transform effect.
-
-
 ### See Also
 * class [`PVIObject`](/slides/python-net/aspose.slides/pviobject)
 * class [`ThreeDFormat`](/slides/python-net/aspose.slides/threedformat)

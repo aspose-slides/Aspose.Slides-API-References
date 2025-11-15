@@ -27,10 +27,6 @@ def get_charts_from_worksheet(self, worksheet_name):
 | :- | :- | :- |
 | worksheet_name | **str** | The name of the worksheet to search for charts. |
 
-### Examples
-
-Example:
-
 
 
 ### See Also

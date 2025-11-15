@@ -23,10 +23,6 @@ def __init__(self, row_count, column_count):
 | row_count | **int** | row count |
 | column_count | **int** | column count |
 
-### Examples
-
-Example:
-
 
 
 ### See Also

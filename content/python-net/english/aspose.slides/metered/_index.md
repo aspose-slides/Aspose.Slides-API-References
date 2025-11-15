@@ -30,11 +30,6 @@ The Metered type exposes the following members:
 | [`is_metered_licensed`](/slides/python-net/aspose.slides/metered/is_metered_licensed/#) | Check whether metered is licensed |
 
 
-### Examples
-
-In this example, an attempt will be made to set metered public and private key
-
-
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

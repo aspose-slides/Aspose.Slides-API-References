@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/zoomobject/graphical_object_lock/
-weight: 200
+weight: 190
 ---
 
 

@@ -56,8 +56,6 @@ The IInk type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_thumbnail`](/slides/python-net/aspose.slides.ink/iink/get_thumbnail/#) |  |
-| [`get_thumbnail`](/slides/python-net/aspose.slides.ink/iink/get_thumbnail/#shapethumbnailbounds-float-float) |  |
 | [`get_image`](/slides/python-net/aspose.slides.ink/iink/get_image/#) |  |
 | [`get_image`](/slides/python-net/aspose.slides.ink/iink/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides.ink/iink/write_as_svg/#iorawiobase) |  |

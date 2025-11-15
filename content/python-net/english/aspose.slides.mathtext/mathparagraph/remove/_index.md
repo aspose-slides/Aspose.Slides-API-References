@@ -9,12 +9,12 @@ weight: 70
 
 
 ## remove {#imathblock}
-Removes the first occurrence of a specific object from the collection/\>.
+Removes the first occurrence of a specific object from the collection/>.
 
 ### Returns
 
 true if `math_block` was successfully removed from the collection; otherwise, false. 
-            This method also returns false if `math_block` is not found in the original collection/\>.
+            This method also returns false if `math_block` is not found in the original collection/>.
 
 
 
@@ -27,10 +27,6 @@ def remove(self, math_block):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | math_block | [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) | The object to remove from the collection. |
-
-### Examples
-
-Example:
 
 
 

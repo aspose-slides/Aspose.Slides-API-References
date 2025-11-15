@@ -43,11 +43,6 @@ The MarkdownSaveOptions type exposes the following members:
 | [`remove_empty_lines`](/slides/python-net/aspose.slides.export/markdownsaveoptions/remove_empty_lines/) | If set to `true`, removes empty or whitespace-only lines from the final Markdown output.<br/>            Default is `false`. |
 
 
-### Examples
-
-Example:
-
-
 ### See Also
 * class [`MarkdownSaveOptions`](/slides/python-net/aspose.slides.export/markdownsaveoptions)
 * class [`SaveOptions`](/slides/python-net/aspose.slides.export/saveoptions)

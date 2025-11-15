@@ -11,7 +11,7 @@ weight: 10
 ## throw_if_interruption_requested {#}
 Throws an OperationCanceledException if
             interruption was requested.
-Thrown when interruption was requested.
+            Thrown when interruption was requested.
 
 
 ```python

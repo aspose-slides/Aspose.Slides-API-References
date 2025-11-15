@@ -63,8 +63,6 @@ The ISummaryZoomSection type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/isummaryzoomsection/get_thumbnail/#) |  |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/isummaryzoomsection/get_thumbnail/#shapethumbnailbounds-float-float) |  |
 | [`get_image`](/slides/python-net/aspose.slides/isummaryzoomsection/get_image/#) |  |
 | [`get_image`](/slides/python-net/aspose.slides/isummaryzoomsection/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/isummaryzoomsection/write_as_svg/#iorawiobase) |  |

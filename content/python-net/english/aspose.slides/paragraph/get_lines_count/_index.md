@@ -23,10 +23,6 @@ def get_lines_count(self):
 ```
 
 
-### Examples
-
-Example:
-
 
 
 ### See Also

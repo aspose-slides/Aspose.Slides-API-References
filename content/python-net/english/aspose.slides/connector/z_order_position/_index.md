@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/connector/z_order_position/
-weight: 560
+weight: 550
 ---
 
 

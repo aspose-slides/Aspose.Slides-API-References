@@ -33,11 +33,6 @@ def insert_section_zoom_frame(self, index, x, y, width, height, section):
 | height | **float** | The height of the new Section Zoom frame, in points. |
 | section | [`ISection`](/slides/python-net/aspose.slides/isection) | The [`ISection`](/slides/python-net/aspose.slides/isection) referenced by the Section Zoom frame;<br/><br/>            must belong to this presentation and contain at least one slide. |
 
-### Examples
-
-This example demonstrates the creation and inserting a Section Zoom object at the specified index of a collection
-            (assume that there are at least two sections in the "Presentation.pptx" presentation):
-
 ### Exceptions
 
 | Exception | Description |
@@ -70,11 +65,6 @@ def insert_section_zoom_frame(self, index, x, y, width, height, section, image):
 | height | **float** | The height of the new Section Zoom frame, in points. |
 | section | [`ISection`](/slides/python-net/aspose.slides/isection) | The [`ISection`](/slides/python-net/aspose.slides/isection) referenced by the Section Zoom frame;<br/><br/>            must belong to this presentation and contain at least one slide. |
 | image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | The image to display within the Section Zoom frame. |
-
-### Examples
-
-This example demonstrates the creation and inserting a Section Zoom object at the specified index of a collection
-            (assume that there are at least two sections in the "Presentation.pptx" presentation):
 
 ### Exceptions
 

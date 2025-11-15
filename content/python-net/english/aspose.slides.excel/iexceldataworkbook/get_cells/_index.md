@@ -28,10 +28,6 @@ def get_cells(self, formula, skip_hidden_cells):
 | formula | **str** | A formula or range expression (e.g., "Sheet1!A1:B3") used to identify target cells. |
 | skip_hidden_cells | **bool** | If `true`, hidden cells (e.g., in hidden rows or columns) will be excluded from the result. |
 
-### Examples
-
-Example:
-
 
 
 ### See Also

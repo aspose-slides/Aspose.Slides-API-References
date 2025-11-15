@@ -10,7 +10,7 @@ weight: 160
 
 ## kerning_minimal_size property
 Returns or sets the minimal font size, for which kerning should be switched on.
-**float.NaN**  means value is undefined and should be inherited from the Master.
+            **float.NaN**  means value is undefined and should be inherited from the Master.
             Read/write **float**.
 
 ### Definition:

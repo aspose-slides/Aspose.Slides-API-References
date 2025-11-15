@@ -84,11 +84,6 @@ The MathFraction type exposes the following members:
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/mathfraction/get_children/#) | Get children elements |
 
 
-### Examples
-
-Example:
-
-
 ### See Also
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
 * class [`MathFraction`](/slides/python-net/aspose.slides.mathtext/mathfraction)

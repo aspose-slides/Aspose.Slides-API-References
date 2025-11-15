@@ -11,7 +11,7 @@ weight: 40
 ## xml_as_string property
 Returns or sets xml data as UTF-8 string.
             Read/write **str**.
-value is `None`.value is empty or xml-data is invalid.
+            value is `None`.value is empty or xml-data is invalid.
 
 ### Definition:
 ```python

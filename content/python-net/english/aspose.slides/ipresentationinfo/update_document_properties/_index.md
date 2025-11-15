@@ -22,11 +22,6 @@ def update_document_properties(self, document_properties):
 | :- | :- | :- |
 | document_properties | [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties) | Document properties [`IDocumentProperties`](/slides/python-net/aspose.slides/idocumentproperties) |
 
-### Examples
-
-This sample shows how to call the [`IPresentationInfo.update_document_properties`](/slides/python-net/aspose.slides/ipresentationinfo/update_document_properties) method to
-            update the document properties returned by call of the [`IPresentationInfo.read_document_properties`](/slides/python-net/aspose.slides/ipresentationinfo/read_document_properties) method.
-
 
 
 ### See Also

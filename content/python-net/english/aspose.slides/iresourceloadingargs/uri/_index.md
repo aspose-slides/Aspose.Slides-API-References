@@ -9,7 +9,7 @@ weight: 30
 
 
 ## uri property
-URI of the resource which is used for downloading if [`IResourceLoadingCallback.resource_loading`](/slides/python-net/aspose.slides/iresourceloadingcallback/resource_loading) 
+URI of the resource which is used for downloading if **Aspose.Slides.IResourceLoadingCallback.ResourceLoading(Aspose.Slide** 
             returns [`ResourceLoadingAction.DEFAULT`](/slides/python-net/aspose.slides/resourceloadingaction/DEFAULT). 
             Initially it's set to original URI of the resource, but can be redefined to any value.
 

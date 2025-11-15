@@ -9,13 +9,15 @@ url: /aspose.slides.ai/slidesaiagentexception/
 
 ## SlidesAIAgentException class
 
+Represents Slides AI Agent related exceptions.
+
 The SlidesAIAgentException type exposes the following members:
 
 ## Constructors
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.ai/slidesaiagentexception/__init__/#str) |  |
+| [`__init__`](/slides/python-net/aspose.slides.ai/slidesaiagentexception/__init__/#str) | Constructor allowing a message to be added to this exception. |
 
 
 ### See Also

@@ -22,10 +22,6 @@ def set_external_hyperlink_click(self, url):
 | :- | :- | :- |
 | url | **str** | Hyperlink URL. |
 
-### Examples
-
-The following sample code shows how to add Text Box with Hyperlink.
-
 
 
 ### See Also

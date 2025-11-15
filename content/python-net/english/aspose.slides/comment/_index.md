@@ -31,15 +31,6 @@ The Comment type exposes the following members:
 | [`remove`](/slides/python-net/aspose.slides/comment/remove/#) | Removes comment and all its replies from the parent collection. |
 
 
-### Examples
-
-This example shows you how to add a comment to a slide in a PowerPoint presentation.
-
-            This example shows you how to access an existing comment on a slide in a PowerPoint presentation.
-
-            This example shows you how to add comments and get replies to them.
-
-
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

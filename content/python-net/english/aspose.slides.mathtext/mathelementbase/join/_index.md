@@ -27,10 +27,6 @@ def join(self, math_element):
 | :- | :- | :- |
 | math_element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The element to be joined |
 
-### Examples
-
-Example:
-
 
 ## join {#str}
 Joins a mathematical text and forms a mathematical block
@@ -50,10 +46,6 @@ def join(self, math_text):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | math_text | **str** | Mathematical text to be joined |
-
-### Examples
-
-Example:
 
 
 

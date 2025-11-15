@@ -18,10 +18,6 @@ def calculate_formulas(self):
 ```
 
 
-### Examples
-
-Example shows how to assign a formula to the cell and to calculate a value. The value of the "B4" cell is getting set to 5.
-
 ### Exceptions
 
 | Exception | Description |

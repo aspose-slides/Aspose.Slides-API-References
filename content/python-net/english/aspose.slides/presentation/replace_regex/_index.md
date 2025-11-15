@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/presentation/replace_regex/
-weight: 90
+weight: 70
 ---
 
 
@@ -22,10 +22,6 @@ def replace_regex(self, regex, new_text):
 | :- | :- | :- |
 | regex | **str** | The string contains regular expression to get strings to replace. |
 | new_text | **str** | The string to replace all occurrences of the strings to be replaced. |
-
-### Examples
-
-The following code sample shows how to replace text using regular expression with the specified string.
 
 
 

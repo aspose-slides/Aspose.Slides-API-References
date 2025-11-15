@@ -27,10 +27,6 @@ def divide(self, denominator):
 | :- | :- | :- |
 | denominator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Denominator |
 
-### Examples
-
-Example:
-
 
 ## divide {#str}
 Creates a fraction with this numerator and specified denominator
@@ -50,10 +46,6 @@ def divide(self, denominator):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | denominator | **str** | Denominator |
-
-### Examples
-
-Example:
 
 
 ## divide {#imathelement-mathfractiontypes}
@@ -76,10 +68,6 @@ def divide(self, denominator, fraction_type):
 | denominator | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | Denominator |
 | fraction_type | [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes) | Fraction type: Bar, NoBar, Skewed, Linear |
 
-### Examples
-
-Example:
-
 
 ## divide {#str-mathfractiontypes}
 Creates a fraction of the specified type with this numerator and specified denominator
@@ -100,10 +88,6 @@ def divide(self, denominator, fraction_type):
 | :- | :- | :- |
 | denominator | **str** | Denominator |
 | fraction_type | [`MathFractionTypes`](/slides/python-net/aspose.slides.mathtext/mathfractiontypes) | Fraction type: Bar, NoBar, Skewed, Linear |
-
-### Examples
-
-Example:
 
 
 

@@ -82,11 +82,6 @@ The MathAccent type exposes the following members:
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/mathaccent/get_children/#) | Get children elements |
 
 
-### Examples
-
-Example:
-
-
 ### See Also
 * class [`MathAccent`](/slides/python-net/aspose.slides.mathtext/mathaccent)
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)

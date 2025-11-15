@@ -9,7 +9,7 @@ weight: 10
 
 
 ## set_data {#bytes}
-Sets user provided data of the resource which used if [`IResourceLoadingCallback.resource_loading`](/slides/python-net/aspose.slides/iresourceloadingcallback/resource_loading) 
+Sets user provided data of the resource which used if **Aspose.Slides.IResourceLoadingCallback.ResourceLoading(Aspose.Slide** 
             returns [`ResourceLoadingAction.USER_PROVIDED`](/slides/python-net/aspose.slides/resourceloadingaction/USER_PROVIDED).
 
 

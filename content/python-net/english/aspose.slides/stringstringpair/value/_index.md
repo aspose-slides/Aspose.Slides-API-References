@@ -9,6 +9,8 @@ weight: 30
 
 
 ## value property
+String value
+
 ### Definition:
 ```python
 @property

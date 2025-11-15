@@ -58,8 +58,6 @@ The ISmartArtShape type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_thumbnail`](/slides/python-net/aspose.slides.smartart/ismartartshape/get_thumbnail/#) |  |
-| [`get_thumbnail`](/slides/python-net/aspose.slides.smartart/ismartartshape/get_thumbnail/#shapethumbnailbounds-float-float) |  |
 | [`get_image`](/slides/python-net/aspose.slides.smartart/ismartartshape/get_image/#) |  |
 | [`get_image`](/slides/python-net/aspose.slides.smartart/ismartartshape/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides.smartart/ismartartshape/write_as_svg/#iorawiobase) |  |

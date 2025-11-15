@@ -8,30 +8,6 @@ weight: 10
 ---
 
 
-## add_image {#asposepydrawingimage}
-Add an image to a presentation.
-
-### Returns
-
-Added image.
-
-
-
-```python
-def add_image(self, image):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| image | **aspose.pydrawing.Image** | Image to add. |
-
-### Remarks
-
-This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation.
-
-
 ## add_image {#iimage}
 Add an image to a presentation.
 

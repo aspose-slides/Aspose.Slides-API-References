@@ -12,7 +12,7 @@ weight: 20
 Specifies whether AsCell or AsLiteralString or AsLiteralDouble property 
             is actual. In other words it specifies the type of value of the Data property.
             This property is read-only. For changing value of this property you can use
-            one of the ChartDataPointCollection.DataSourceTypeFor\<...\> properties.
+            one of the ChartDataPointCollection.DataSourceTypeFor<...> properties.
             Read/write [`IBaseChartValue.data_source_type`](/slides/python-net/aspose.slides.charts/ibasechartvalue/data_source_type).
 
 ### Definition:

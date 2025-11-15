@@ -31,10 +31,6 @@ def add_math_shape(self, x, y, width, height):
 | width | **float** | The width of the shape’s frame, in points. |
 | height | **float** | The height of the shape’s frame, in points. |
 
-### Examples
-
-The following example shows how to add Mathematical Equation in PowerPoint Presentation.
-
 
 
 ### See Also

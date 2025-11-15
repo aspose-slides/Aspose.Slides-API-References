@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/slide/write_as_svg/
-weight: 120
+weight: 100
 ---
 
 
@@ -22,10 +22,6 @@ def write_as_svg(self, stream):
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Target stream |
 
-### Examples
-
-The following code example demonstrates how to convert the first slide from a PowerPoint presentation into an SVG file.
-
 
 ## write_as_svg {#iorawiobase-asposeslidesexportisvgoptions}
 Saves the slide content as an SVG file.
@@ -41,10 +37,6 @@ def write_as_svg(self, stream, svg_options):
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Target stream |
 | svg_options | [`ISVGOptions`](/slides/python-net/aspose.slides.export/isvgoptions) | SVG generation options |
-
-### Examples
-
-The following code example demonstrates how to convert the first slide from a PowerPoint presentation into an SVG file with options.
 
 
 

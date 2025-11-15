@@ -81,11 +81,6 @@ The MathBar type exposes the following members:
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/mathbar/get_children/#) | Get children elements |
 
 
-### Examples
-
-Example:
-
-
 ### See Also
 * class [`MathBar`](/slides/python-net/aspose.slides.mathtext/mathbar)
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)

@@ -23,21 +23,6 @@ def replace_image(self, new_image_data):
 | new_image_data | **bytes** | The new image's data. |
 
 
-## replace_image {#asposepydrawingimage}
-Replaces image.
-
-
-```python
-def replace_image(self, new_image):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| new_image | **aspose.pydrawing.Image** | The new image. |
-
-
 ## replace_image {#iimage}
 Replaces image.
 

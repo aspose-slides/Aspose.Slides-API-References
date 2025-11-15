@@ -11,6 +11,11 @@ weight: 30
 ## svg {#svgoptions}
 Slides should converted to a SVG format.
 
+### Returns
+
+
+
+
 
 ```python
 @staticmethod

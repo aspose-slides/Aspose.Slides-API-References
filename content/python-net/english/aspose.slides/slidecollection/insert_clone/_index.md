@@ -28,21 +28,15 @@ def insert_clone(self, index, source_slide):
 | index | **int** | Index of new slide. |
 | source_slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | Slide to clone. |
 
-### Examples
-
-The following example shows how to clone at another position within Presentation.
-
-            The following example shows how to clone at another position within Presentation.
-
 ### Remarks
 
 When cloning a slide between different presentations slide's master can be cloned too.
             Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide.
             Manual cloning of master slides will be neither prevented nor registered.
             If you need more control over cloning process use
-[`SlideCollection.insert_clone`](/slides/python-net/aspose.slides/slidecollection/insert_clone) or
-[`SlideCollection.insert_clone`](/slides/python-net/aspose.slides/slidecollection/insert_clone) for cloning slides and
-[`IMasterSlideCollection.add_clone`](/slides/python-net/aspose.slides/imasterslidecollection/add_clone) for cloning masters.
+            **Aspose.Slides.SlideCollection.InsertClone(System.Int32,Aspose.Slides.ISlide,Aspose.Slide** or
+            **Aspose.Slides.SlideCollection.InsertClone(System.Int32,Aspose.Slides.ISlide,Aspose.Slides.IMasterSlide,Syste** for cloning slides and
+            **Aspose.Slides.IMasterSlideCollection.AddClone(Aspose.Slide** for cloning masters.
 
 
 ## insert_clone {#int-islide-ilayoutslide}

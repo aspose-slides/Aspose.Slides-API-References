@@ -23,10 +23,6 @@ def get_worksheet_names(self):
 ```
 
 
-### Examples
-
-Example:
-
 
 
 ### See Also

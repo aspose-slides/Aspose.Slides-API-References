@@ -22,10 +22,6 @@ def remove_script_font(self, script):
 | :- | :- | :- |
 | script | **str** | The BCP-47 script code whose font setting should be removed. |
 
-### Examples
-
-This example demonstrates how to remove the font mapping for the Hebrew script:
-
 
 
 ### See Also

@@ -18,10 +18,6 @@ def __init__(self):
 ```
 
 
-### Examples
-
-Example:
-
 
 ## __init__ {#imathelement}
 Creates a new mathematical block and puts specified element in it
@@ -36,10 +32,6 @@ def __init__(self, math_element):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | math_element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The mathematical element to put in the block |
-
-### Examples
-
-Example:
 
 
 ## __init__ {#iterableimathelement}

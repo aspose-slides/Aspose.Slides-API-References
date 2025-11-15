@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.ink/iinkactions/three_d_format/
-weight: 390
+weight: 380
 ---
 
 

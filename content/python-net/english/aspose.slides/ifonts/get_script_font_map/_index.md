@@ -9,11 +9,11 @@ weight: 20
 
 
 ## get_script_font_map {#}
-Returns a dictionary of all script font definitions in the presentation.
+Returns a list of all string-string pairs script font definitions in the presentation.
 
 ### Returns
 
-A dictionary mapping script codes to font names.
+A list mapping script codes to font names.
 
 
 

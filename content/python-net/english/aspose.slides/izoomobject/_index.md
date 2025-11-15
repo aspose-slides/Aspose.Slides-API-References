@@ -60,8 +60,6 @@ The IZoomObject type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/izoomobject/get_thumbnail/#) |  |
-| [`get_thumbnail`](/slides/python-net/aspose.slides/izoomobject/get_thumbnail/#shapethumbnailbounds-float-float) |  |
 | [`get_image`](/slides/python-net/aspose.slides/izoomobject/get_image/#) |  |
 | [`get_image`](/slides/python-net/aspose.slides/izoomobject/get_image/#shapethumbnailbounds-float-float) |  |
 | [`write_as_svg`](/slides/python-net/aspose.slides/izoomobject/write_as_svg/#iorawiobase) |  |

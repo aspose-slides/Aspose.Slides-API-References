@@ -46,6 +46,7 @@ Contains classes for work with mathematical text in Microsoft PowerPoint present
 | [`IMathNaryOperatorProperties`](/slides/python-net/aspose.slides.mathtext/imathnaryoperatorproperties/) | Specifies properties of IMathNaryOperator |
 | [`IMathParagraph`](/slides/python-net/aspose.slides.mathtext/imathparagraph/) | Mathematical paragraph that is a container for mathematical blocks (IMathBlock) |
 | [`IMathParagraphFactory`](/slides/python-net/aspose.slides.mathtext/imathparagraphfactory/) | Allows to create a math paragraph |
+| [`IMathPhantom`](/slides/python-net/aspose.slides.mathtext/imathphantom/) | Represents a phantom math object (<m:phant>) that affects the layout of its child element<br/>            without necessarily displaying it. A phantom can hide its base expression while preserving<br/>            its width, height, or depth to align formulas or reserve space. <br/>            Visibility and geometry behavior are controlled by properties such as Show, ZeroWid, ZeroAsc, <br/>            ZeroDesc, and Transp. |
 | [`IMathPortion`](/slides/python-net/aspose.slides.mathtext/imathportion/) | Represents a portion with mathematical context inside. |
 | [`IMathRadical`](/slides/python-net/aspose.slides.mathtext/imathradical/) | Specifies the radical function, consisting of a base, and an optional degree.<br/>            Example of radical object is √𝑥. |
 | [`IMathRadicalFactory`](/slides/python-net/aspose.slides.mathtext/imathradicalfactory/) | Allows to create math radical |
@@ -87,6 +88,7 @@ Contains classes for work with mathematical text in Microsoft PowerPoint present
 | [`MathNaryOperatorFactory`](/slides/python-net/aspose.slides.mathtext/mathnaryoperatorfactory/) | Allows to create IMathNaryOperator |
 | [`MathParagraph`](/slides/python-net/aspose.slides.mathtext/mathparagraph/) | Mathematical paragraph that is a container for mathematical blocks (IMathBlock) |
 | [`MathParagraphFactory`](/slides/python-net/aspose.slides.mathtext/mathparagraphfactory/) | Allows to create a math paragraph |
+| [`MathPhantom`](/slides/python-net/aspose.slides.mathtext/mathphantom/) | Represents a phantom math object (<m:phant>) that affects the layout of its child element<br/>            without necessarily displaying it. A phantom can hide its base expression while preserving<br/>            its width, height, or depth to align formulas or reserve space. <br/>            Visibility and geometry behavior are controlled by properties such as Show, ZeroWid, ZeroAsc, <br/>            ZeroDesc, and Transp. |
 | [`MathPortion`](/slides/python-net/aspose.slides.mathtext/mathportion/) | Represents a portion with mathematical context inside. |
 | [`MathRadical`](/slides/python-net/aspose.slides.mathtext/mathradical/) | Specifies the radical function, consisting of a base, and an optional degree.<br/>            Example of radical object is √𝑥. |
 | [`MathRadicalFactory`](/slides/python-net/aspose.slides.mathtext/mathradicalfactory/) | Allows to create math radical |
