@@ -15,7 +15,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | [`EmbedAllFontsHtmlController`](/slides/python-net/aspose.slides.export/embedallfontshtmlcontroller/) | The formatting controller class to use for embedding all presentation fonts in WOFF format. |
 | [`EmbeddedEotFontsHtmlController`](/slides/python-net/aspose.slides.export/embeddedeotfontshtmlcontroller/) | The formatting controller class to use for fonts embedding in EOT format |
 | [`EmbeddedWoffFontsHtmlController`](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/) | The formatting controller class to use for fonts embedding in WOFF format |
-| [`EnumerableFrameArgs`](/slides/python-net/aspose.slides.export/enumerableframeargs/) | Represents return values of [`PresentationEnumerableFramesGenerator.enumerate_frames`](/slides/python-net/aspose.slides.export/presentationenumerableframesgenerator/enumerate_frames) method. |
+| [`EnumerableFrameArgs`](/slides/python-net/aspose.slides.export/enumerableframeargs/) | Represents return values of **Aspose.Slides.Export.PresentationEnumerableFramesGenerator.EnumerateFrames(System.Collections.Generic.IEnumerable{Aspose.Slide** method. |
 | [`GifOptions`](/slides/python-net/aspose.slides.export/gifoptions/) | Represents GIF exporting options. |
 | [`HandoutLayoutingOptions`](/slides/python-net/aspose.slides.export/handoutlayoutingoptions/) | Represents the handout presentation layout mode for export. |
 | [`Html5Options`](/slides/python-net/aspose.slides.export/html5options/) | Represents a HTML5 exporting options. |
@@ -32,7 +32,6 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | [`IHtmlOptions`](/slides/python-net/aspose.slides.export/ihtmloptions/) | Represents a HTML exporting options. |
 | [`IInkOptions`](/slides/python-net/aspose.slides.export/iinkoptions/) | Provides options that control the look of Ink objects in exported document. |
 | [`ILinkEmbedController`](/slides/python-net/aspose.slides.export/ilinkembedcontroller/) | Callback interface used to determine how object should be processed during saving. |
-| [`INotesCommentsLayoutingOptions`](/slides/python-net/aspose.slides.export/inotescommentslayoutingoptions/) | Provides options that control the look of layouting of notes and comments in exported document. |
 | [`IPdfOptions`](/slides/python-net/aspose.slides.export/ipdfoptions/) | Provides options that control how a presentation is saved in Pdf format. |
 | [`IPptOptions`](/slides/python-net/aspose.slides.export/ipptoptions/) | Provides options that control how a presentation is saved in PPT format. |
 | [`IPptxOptions`](/slides/python-net/aspose.slides.export/ipptxoptions/) | Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM). |

@@ -22,10 +22,6 @@ def remove_at(self, index):
 | :- | :- | :- |
 | index | **int** | The zero-based index of the item to remove. |
 
-### Examples
-
-Example:
-
 
 
 ### See Also

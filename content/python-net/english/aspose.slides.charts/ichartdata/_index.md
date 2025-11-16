@@ -33,7 +33,7 @@ The IChartData type exposes the following members:
 | [`set_external_workbook`](/slides/python-net/aspose.slides.charts/ichartdata/set_external_workbook/#str) | Sets external workbook as a data source for the chart. Chart data will be updated from the target workbook. |
 | [`set_external_workbook`](/slides/python-net/aspose.slides.charts/ichartdata/set_external_workbook/#str-bool) | Sets external workbook as a data source for the chart. |
 | [`read_workbook_stream`](/slides/python-net/aspose.slides.charts/ichartdata/read_workbook_stream/#) | Writes the internally contained Excel workbook it into an in-memory stream. |
-| [`write_workbook_stream`](/slides/python-net/aspose.slides.charts/ichartdata/write_workbook_stream/#iorawiobase) |  |
+| [`write_workbook_stream`](/slides/python-net/aspose.slides.charts/ichartdata/write_workbook_stream/#iorawiobase) | Initializes the internally contained Excel workbook with user-specified value. |
 | [`set_range`](/slides/python-net/aspose.slides.charts/ichartdata/set_range/#str) | Set chart data range. Series and categories will be updated based on new data range.<br/>            If amount of series in data range greater than count of series in the chart data then additional series with the same type<br/>            as a last series in the current collection will be added to the end of the collection. |
 | [`get_range`](/slides/python-net/aspose.slides.charts/ichartdata/get_range/#) | Gets chart data range. |
 | [`switch_row_column`](/slides/python-net/aspose.slides.charts/ichartdata/switch_row_column/#) | Swap the data over the axis.<br/>            Data being charted on the X axis will move to the Y axis and vice versa. |

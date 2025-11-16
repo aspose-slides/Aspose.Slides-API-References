@@ -22,10 +22,6 @@ def __init__(self, element):
 | :- | :- | :- |
 | element | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The base element to which the box is applied. Can be None. |
 
-### Examples
-
-Example:
-
 
 
 ### See Also

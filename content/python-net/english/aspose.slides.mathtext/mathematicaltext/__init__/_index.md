@@ -18,10 +18,6 @@ def __init__(self):
 ```
 
 
-### Examples
-
-Example:
-
 
 ## __init__ {#char}
 Create MathText with single symbol
@@ -36,10 +32,6 @@ def __init__(self, math_symbol):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | math_symbol | **char** | single symbol |
-
-### Examples
-
-Example:
 
 
 ## __init__ {#str}
@@ -56,10 +48,6 @@ def __init__(self, math_text):
 | :- | :- | :- |
 | math_text | **str** | text value |
 
-### Examples
-
-Example:
-
 
 ## __init__ {#str-iportionformat}
 Create MathematicalText from text and format settings
@@ -75,10 +63,6 @@ def __init__(self, math_text, portion_format):
 | :- | :- | :- |
 | math_text | **str** | text value |
 | portion_format | [`IPortionFormat`](/slides/python-net/aspose.slides/iportionformat) | text format settings |
-
-### Examples
-
-Example:
 
 
 

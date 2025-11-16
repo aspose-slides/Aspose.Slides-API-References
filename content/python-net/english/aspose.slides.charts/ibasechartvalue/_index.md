@@ -17,7 +17,7 @@ The IBaseChartValue type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`data_source_type`](/slides/python-net/aspose.slides.charts/ibasechartvalue/data_source_type/) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property <br/>            is actual. In other words it specifies the type of value of the Data property.<br/>            This property is read-only. For changing value of this property you can use<br/>            one of the ChartDataPointCollection.DataSourceTypeFor\<...\> properties.<br/>            Read/write [`IBaseChartValue.data_source_type`](/slides/python-net/aspose.slides.charts/ibasechartvalue/data_source_type). |
+| [`data_source_type`](/slides/python-net/aspose.slides.charts/ibasechartvalue/data_source_type/) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property <br/>            is actual. In other words it specifies the type of value of the Data property.<br/>            This property is read-only. For changing value of this property you can use<br/>            one of the ChartDataPointCollection.DataSourceTypeFor<...> properties.<br/>            Read/write [`IBaseChartValue.data_source_type`](/slides/python-net/aspose.slides.charts/ibasechartvalue/data_source_type). |
 | [`data`](/slides/python-net/aspose.slides.charts/ibasechartvalue/data/) | Read/write **any**. |
 
 

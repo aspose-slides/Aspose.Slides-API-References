@@ -18,10 +18,6 @@ def remove_write_protection(self):
 ```
 
 
-### Examples
-
-This sample code shows you how to remove the write protection from a PowerPoint Presentation.
-
 
 
 ### See Also

@@ -9,6 +9,8 @@ url: /aspose.slides.ai/iaiconversation/
 
 ## IAIConversation class
 
+Represents a conversation instance. Unlike regular AI calls, conversations retain the entire context.
+
 The IAIConversation type exposes the following members:
 
 

@@ -10,7 +10,7 @@ weight: 40
 
 ## add_data_point_for_bubble_series {#ichartdatacell-ichartdatacell-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Bubble subtypes (see also [`ChartTypeCharacterizer.is_chart_type_bubble`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_bubble) method).
+            Applicable for series which chartType is one of Bubble subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart** method).
 
 ### Returns
 
@@ -33,7 +33,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 ## add_data_point_for_bubble_series {#float-ichartdatacell-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Bubble subtypes (see also [`ChartTypeCharacterizer.is_chart_type_bubble`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_bubble) method).
+            Applicable for series which chartType is one of Bubble subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart** method).
 
 ### Returns
 
@@ -56,7 +56,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 ## add_data_point_for_bubble_series {#str-ichartdatacell-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Bubble subtypes (see also [`ChartTypeCharacterizer.is_chart_type_bubble`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_bubble) method).
+            Applicable for series which chartType is one of Bubble subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart** method).
 
 ### Returns
 
@@ -79,7 +79,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 ## add_data_point_for_bubble_series {#ichartdatacell-float-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Bubble subtypes (see also [`ChartTypeCharacterizer.is_chart_type_bubble`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_bubble) method).
+            Applicable for series which chartType is one of Bubble subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart** method).
 
 ### Returns
 
@@ -102,7 +102,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 ## add_data_point_for_bubble_series {#float-float-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Bubble subtypes (see also [`ChartTypeCharacterizer.is_chart_type_bubble`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_bubble) method).
+            Applicable for series which chartType is one of Bubble subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart** method).
 
 ### Returns
 
@@ -125,7 +125,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 ## add_data_point_for_bubble_series {#str-float-ichartdatacell}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Bubble subtypes (see also [`ChartTypeCharacterizer.is_chart_type_bubble`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_bubble) method).
+            Applicable for series which chartType is one of Bubble subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart** method).
 
 ### Returns
 
@@ -148,7 +148,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 ## add_data_point_for_bubble_series {#ichartdatacell-ichartdatacell-float}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Bubble subtypes (see also [`ChartTypeCharacterizer.is_chart_type_bubble`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_bubble) method).
+            Applicable for series which chartType is one of Bubble subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart** method).
 
 ### Returns
 
@@ -171,7 +171,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 ## add_data_point_for_bubble_series {#float-ichartdatacell-float}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Bubble subtypes (see also [`ChartTypeCharacterizer.is_chart_type_bubble`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_bubble) method).
+            Applicable for series which chartType is one of Bubble subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart** method).
 
 ### Returns
 
@@ -194,7 +194,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 ## add_data_point_for_bubble_series {#str-ichartdatacell-float}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Bubble subtypes (see also [`ChartTypeCharacterizer.is_chart_type_bubble`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_bubble) method).
+            Applicable for series which chartType is one of Bubble subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart** method).
 
 ### Returns
 
@@ -217,7 +217,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 ## add_data_point_for_bubble_series {#ichartdatacell-float-float}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Bubble subtypes (see also [`ChartTypeCharacterizer.is_chart_type_bubble`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_bubble) method).
+            Applicable for series which chartType is one of Bubble subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart** method).
 
 ### Returns
 
@@ -240,7 +240,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 ## add_data_point_for_bubble_series {#float-float-float}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Bubble subtypes (see also [`ChartTypeCharacterizer.is_chart_type_bubble`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_bubble) method).
+            Applicable for series which chartType is one of Bubble subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart** method).
 
 ### Returns
 
@@ -263,7 +263,7 @@ def add_data_point_for_bubble_series(self, x_value, y_value, bubble_size):
 
 ## add_data_point_for_bubble_series {#str-float-float}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Bubble subtypes (see also [`ChartTypeCharacterizer.is_chart_type_bubble`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_bubble) method).
+            Applicable for series which chartType is one of Bubble subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBubble(Aspose.Slides.Chart** method).
 
 ### Returns
 

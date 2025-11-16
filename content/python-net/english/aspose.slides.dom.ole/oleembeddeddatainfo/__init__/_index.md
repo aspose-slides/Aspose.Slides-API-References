@@ -21,7 +21,7 @@ def __init__(self):
 
 ## __init__ {#bytes-str}
 Creates a new instance of an embedded data info for OLE object.
-File data of an embedded OLE object **int**[].File extension for the current embedded OLE object **str**.
+            File data of an embedded OLE object **int**[].File extension for the current embedded OLE object **str**.
 
 
 ```python

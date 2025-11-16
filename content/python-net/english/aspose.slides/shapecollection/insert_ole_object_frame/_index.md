@@ -32,10 +32,6 @@ def insert_ole_object_frame(self, index, x, y, width, height, data_info):
 | height | **float** | The height of the new OLE frame, in points. |
 | data_info | [`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo) | The embedded OLE data information ([`IOleEmbeddedDataInfo`](/slides/python-net/aspose.slides/ioleembeddeddatainfo)). |
 
-### Examples
-
-This example demonstrates inserting an OLE object at the second index:
-
 
 ## insert_ole_object_frame {#int-float-float-float-float-str-str}
 Creates a new OLE object frame and inserts it into the shape collection at the specified index.

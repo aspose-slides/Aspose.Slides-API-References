@@ -22,12 +22,6 @@ def write_as_emf(self, stream):
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Target stream |
 
-### Examples
-
-The following example shows how to save the SVG image to the metafile.
-
-            This sample demonstrates how to add the SVG image as a metafile to the presentation image collection.
-
 ### Exceptions
 
 | Exception | Description |

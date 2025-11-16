@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichart/write_as_svg/
-weight: 80
+weight: 70
 ---
 
 

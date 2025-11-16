@@ -11,7 +11,7 @@ weight: 20
 ## ink_effect property
 Gets the ink effect type (e.g., Galaxy, Gold, Silver) that defines the visual style of the ink stroke.
             The value is parsed from the brush property "inkEffects". If no recognized effect is specified,
-[`InkEffectType.NOT_DEFINED`](/slides/python-net/aspose.slides.ink/inkeffecttype/NOT_DEFINED) is returned.
+            [`InkEffectType.NOT_DEFINED`](/slides/python-net/aspose.slides.ink/inkeffecttype/NOT_DEFINED) is returned.
 
 ### Definition:
 ```python

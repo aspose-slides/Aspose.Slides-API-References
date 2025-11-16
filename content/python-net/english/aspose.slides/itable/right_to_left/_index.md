@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/itable/right_to_left/
-weight: 450
+weight: 440
 ---
 
 

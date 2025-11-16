@@ -30,10 +30,6 @@ def add_content_placeholder(self, x, y, width, height):
 | width | **float** | The width of the new placeholder shape. |
 | height | **float** | The height of the new placeholder shape. |
 
-### Examples
-
-The following example shows how to add the Content placeholder shape to the layout slide.
-
 
 
 ### See Also

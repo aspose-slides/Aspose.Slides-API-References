@@ -23,10 +23,6 @@ def insert_row_before(self, row_index):
 | :- | :- | :- |
 | row_index | **int** | Index of the row before which to insert a new one |
 
-### Examples
-
-Example:
-
 
 
 ### See Also

@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Slides for Python via .NET Reference
+title: Aspose.Slides for Python via .NET API Reference
 second_title: Aspose.Slides for Python via .NET API Reference
 description: Aspose.Slides is a class library that can be used by developers for various platforms for a variety of presentation processing tasks.
 type: docs

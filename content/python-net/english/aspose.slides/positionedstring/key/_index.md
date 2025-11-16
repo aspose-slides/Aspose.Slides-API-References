@@ -9,6 +9,8 @@ weight: 20
 
 
 ## key property
+Integer key
+
 ### Definition:
 ```python
 @property

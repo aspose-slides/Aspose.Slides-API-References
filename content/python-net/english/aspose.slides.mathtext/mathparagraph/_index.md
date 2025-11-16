@@ -42,18 +42,13 @@ Gets the item at the specified index.
 | :- | :- |
 | [`clear`](/slides/python-net/aspose.slides.mathtext/mathparagraph/clear/#) | Removes all elements from the collection. |
 | [`add`](/slides/python-net/aspose.slides.mathtext/mathparagraph/add/#imathblock) | Adds IMathBlock to the end of collection. |
-| [`remove`](/slides/python-net/aspose.slides.mathtext/mathparagraph/remove/#imathblock) | Removes the first occurrence of a specific object from the collection/\>. |
+| [`remove`](/slides/python-net/aspose.slides.mathtext/mathparagraph/remove/#imathblock) | Removes the first occurrence of a specific object from the collection/>. |
 | [`contains`](/slides/python-net/aspose.slides.mathtext/mathparagraph/contains/#imathblock) | Determines whether the collection contains a specific value. |
 | [`index_of`](/slides/python-net/aspose.slides.mathtext/mathparagraph/index_of/#imathblock) | Determines the index of a specific IMathBlock in collection. |
 | [`insert`](/slides/python-net/aspose.slides.mathtext/mathparagraph/insert/#int-imathblock) | Inserts IMathBlock into the collection at the specified index. |
 | [`remove_at`](/slides/python-net/aspose.slides.mathtext/mathparagraph/remove_at/#int) | Removes an item at the specified index of the collection. |
 | [`write_as_math_ml`](/slides/python-net/aspose.slides.mathtext/mathparagraph/write_as_math_ml/#iorawiobase) | Saves content of this [`MathParagraph`](/slides/python-net/aspose.slides.mathtext/mathparagraph) as MathML |
 | [`to_latex`](/slides/python-net/aspose.slides.mathtext/mathparagraph/to_latex/#) | Gets mathematical equation in LaTeX format |
-
-
-### Examples
-
-Example:
 
 
 ### See Also

@@ -10,7 +10,7 @@ weight: 110
 
 ## add_data_point_for_radar_series {#ichartdatacell}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Radar subtypes (see also [`ChartTypeCharacterizer.is_chart_type_radar`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_radar) method).
+            Applicable for series which chartType is one of Radar subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeRadar(Aspose.Slides.Chart** method).
 
 ### Returns
 
@@ -31,7 +31,7 @@ def add_data_point_for_radar_series(self, value):
 
 ## add_data_point_for_radar_series {#float}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Radar subtypes (see also [`ChartTypeCharacterizer.is_chart_type_radar`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_radar) method).
+            Applicable for series which chartType is one of Radar subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeRadar(Aspose.Slides.Chart** method).
 
 ### Returns
 

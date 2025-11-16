@@ -23,10 +23,6 @@ def get_effective(self):
 ```
 
 
-### Examples
-
-This example demonstrates getting some of effective text frame formatting properties.
-
 
 
 ### See Also

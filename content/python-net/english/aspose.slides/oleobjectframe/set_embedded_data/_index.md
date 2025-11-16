@@ -4,13 +4,13 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/oleobjectframe/set_embedded_data/
-weight: 60
+weight: 50
 ---
 
 
 ## set_embedded_data {#ioleembeddeddatainfo}
 Sets information about OLE embedded data.
-
+            
             This method changes the properties of the object to reflect the new data and 
             sets the IsObjectLink flag to false, indicating that the OLE object is embedded.
 

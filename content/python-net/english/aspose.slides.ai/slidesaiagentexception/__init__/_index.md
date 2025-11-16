@@ -9,7 +9,7 @@ weight: 10
 
 
 ## __init__ {#str}
-
+Constructor allowing a message to be added to this exception.
 
 
 ```python
@@ -20,7 +20,7 @@ def __init__(self, message):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| message | **str** |  |
+| message | **str** | message |
 
 
 

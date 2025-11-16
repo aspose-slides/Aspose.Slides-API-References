@@ -23,10 +23,6 @@ def insert(self, index, item):
 | index | **int** | The zero-based index at which an item should be inserted. |
 | item | [`IMathBlock`](/slides/python-net/aspose.slides.mathtext/imathblock) | The IMathBlock to insert. |
 
-### Examples
-
-Example:
-
 
 
 ### See Also

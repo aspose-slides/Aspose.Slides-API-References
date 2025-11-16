@@ -18,10 +18,6 @@ def clear(self):
 ```
 
 
-### Examples
-
-The example demonstrates getting Summary Zoom Section element by index:
-
 
 
 ### See Also

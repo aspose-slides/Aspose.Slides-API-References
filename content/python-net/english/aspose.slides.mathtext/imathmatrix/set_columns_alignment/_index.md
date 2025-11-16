@@ -24,10 +24,6 @@ def set_columns_alignment(self, column_index, columns_count, val):
 | columns_count | **int** | The number of columns to specify the alignment |
 | val | [`MathHorizontalAlignment`](/slides/python-net/aspose.slides.mathtext/mathhorizontalalignment) | New value of horizontal alignment of specified column |
 
-### Examples
-
-Example:
-
 
 
 ### See Also

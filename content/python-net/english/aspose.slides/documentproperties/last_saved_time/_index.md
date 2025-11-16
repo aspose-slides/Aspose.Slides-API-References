@@ -13,7 +13,7 @@ Returns the date a presentation was last modified.
             Values are in UTC.
             Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). 
             Can be changed via DocumentProperties instance returning by method [`IPresentationInfo.read_document_properties`](/slides/python-net/aspose.slides/ipresentationinfo/read_document_properties)
-            Please see the example in [`IPresentationInfo.update_document_properties`](/slides/python-net/aspose.slides/ipresentationinfo/update_document_properties) method summary.
+            Please see the example in **Aspose.Slides.IPresentationInfo.UpdateDocumentProperties(Aspose.Slide** method summary.
 
 ### Definition:
 ```python

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/itable/last_col/
-weight: 360
+weight: 350
 ---
 
 

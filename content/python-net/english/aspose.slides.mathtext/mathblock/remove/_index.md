@@ -27,10 +27,6 @@ def remove(self, item):
 | :- | :- | :- |
 | item | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) | The object to remove from the collection. |
 
-### Examples
-
-Example:
-
 
 
 ### See Also

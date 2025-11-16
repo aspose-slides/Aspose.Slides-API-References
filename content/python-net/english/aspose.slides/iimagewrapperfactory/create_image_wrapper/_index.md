@@ -8,26 +8,6 @@ weight: 10
 ---
 
 
-## create_image_wrapper {#asposepydrawingimage}
-Initializes a new instance of the ImageWrapper class from the specified existing image.
-
-### Returns
-
-New instance of a [`IImageWrapper`](/slides/python-net/aspose.slides/iimagewrapper)
-
-
-
-```python
-def create_image_wrapper(self, image):
-    ...
-```
-
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| image | **aspose.pydrawing.Image** | Existing Image **aspose.pydrawing.Image** |
-
-
 ## create_image_wrapper {#iimage}
 Initializes a new instance of the ImageWrapper class from the specified existing image.
 

@@ -32,10 +32,6 @@ def add_chart(self, type, x, y, width, height):
 | width | **float** | The width of the chart, in points. |
 | height | **float** | The height of the chart, in points. |
 
-### Examples
-
-The following example shows how to create Chart in PowerPoint Presentation.
-
 
 ## add_chart {#asposeslideschartscharttype-float-float-float-float-bool}
 Creates a new chart, initializes it with sample series data and settings, and adds

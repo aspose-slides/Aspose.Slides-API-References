@@ -23,10 +23,6 @@ def __init__(self, base_arg, super_script):
 | base_arg | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 | super_script | [`IMathElement`](/slides/python-net/aspose.slides.mathtext/imathelement) |  |
 
-### Examples
-
-Example:
-
 
 
 ### See Also

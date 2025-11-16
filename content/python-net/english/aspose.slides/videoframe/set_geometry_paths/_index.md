@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/videoframe/set_geometry_paths/
-weight: 90
+weight: 80
 ---
 
 
@@ -23,10 +23,6 @@ def set_geometry_paths(self, geometry_paths):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | geometry_paths | **List[IGeometryPath]** | Array geometry paths |
-
-### Examples
-
-Example:
 
 ### Exceptions
 

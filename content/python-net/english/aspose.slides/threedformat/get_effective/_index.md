@@ -23,10 +23,6 @@ def get_effective(self):
 ```
 
 
-### Examples
-
-This example demonstrates how to get effective properties for camera, light rig and shape's top bevel.
-
 
 
 ### See Also

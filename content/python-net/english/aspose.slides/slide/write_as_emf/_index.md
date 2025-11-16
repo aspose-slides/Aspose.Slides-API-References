@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/slide/write_as_emf/
-weight: 110
+weight: 90
 ---
 
 
@@ -21,10 +21,6 @@ def write_as_emf(self, stream):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | stream | **io.RawIOBase** | Target stream |
-
-### Examples
-
-The following code example demonstrates how to convert the first slide from a PowerPoint presentation into a metafile.
 
 ### Exceptions
 

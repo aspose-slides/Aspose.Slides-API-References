@@ -10,7 +10,7 @@ weight: 150
 
 ## add_data_point_for_surface_series {#ichartdatacell}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Surface subtypes (see also [`ChartTypeCharacterizer.is_chart_type_surface`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_surface) method).
+            Applicable for series which chartType is one of Surface subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeSurface(Aspose.Slides.Chart** method).
 
 ### Returns
 
@@ -31,7 +31,7 @@ def add_data_point_for_surface_series(self, value):
 
 ## add_data_point_for_surface_series {#float}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Surface subtypes (see also [`ChartTypeCharacterizer.is_chart_type_surface`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_surface) method).
+            Applicable for series which chartType is one of Surface subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeSurface(Aspose.Slides.Chart** method).
 
 ### Returns
 

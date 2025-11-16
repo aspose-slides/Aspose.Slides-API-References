@@ -23,10 +23,6 @@ def get_effective(self):
 ```
 
 
-### Examples
-
-This example demonstrates getting shape's effective line format properties.
-
 
 
 ### See Also

@@ -9,6 +9,8 @@ url: /aspose.slides/pptxcorruptfileexception/
 
 ## PptxCorruptFileException class
 
+Exception which thrown when presentation file is probably corrupt.
+
 **Inheritance:**[`PptxCorruptFileException`](/slides/python-net/aspose.slides/pptxcorruptfileexception) → [`PptxReadException`](/slides/python-net/aspose.slides/pptxreadexception) → [`PptxException`](/slides/python-net/aspose.slides/pptxexception) → [`OOXMLException`](/slides/python-net/aspose.slides/ooxmlexception)
 
 The PptxCorruptFileException type exposes the following members:

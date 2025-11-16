@@ -9,7 +9,7 @@ weight: 60
 
 
 ## write_workbook_stream {#iorawiobase}
-
+Initializes the internally contained Excel workbook with user-specified value.
 
 
 ```python
@@ -20,7 +20,7 @@ def write_workbook_stream(self, ms):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| ms | **io.RawIOBase** |  |
+| ms | **io.RawIOBase** | The user-supplied stream containing the entire Excel workbook. |
 
 
 

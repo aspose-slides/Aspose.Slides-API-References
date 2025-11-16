@@ -10,7 +10,7 @@ weight: 20
 
 ## add_data_point_for_bar_series {#ichartdatacell}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Column or Bar subtypes (see also [`ChartTypeCharacterizer.is_chart_type_column`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_column) and [`ChartTypeCharacterizer.is_chart_type_bar`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_bar) method).
+            Applicable for series which chartType is one of Column or Bar subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeColumn(Aspose.Slides.Chart** and **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBar(Aspose.Slides.Chart** method).
 
 ### Returns
 
@@ -31,7 +31,7 @@ def add_data_point_for_bar_series(self, value):
 
 ## add_data_point_for_bar_series {#float}
 Creates the new data point and adds it to the end of collection.
-            Applicable for series which chartType is one of Column or Bar subtypes (see also [`ChartTypeCharacterizer.is_chart_type_column`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_column) and [`ChartTypeCharacterizer.is_chart_type_bar`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_bar) method).
+            Applicable for series which chartType is one of Column or Bar subtypes (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeColumn(Aspose.Slides.Chart** and **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeBar(Aspose.Slides.Chart** method).
 
 ### Returns
 

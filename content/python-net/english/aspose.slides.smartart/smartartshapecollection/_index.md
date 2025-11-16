@@ -14,7 +14,7 @@ Represents a collection of a SmartArt shapes
 The SmartArtShapeCollection type exposes the following members:
 
 Gets the element at the specified index.
-            Read-only [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape).\>.
+            Read-only [`SmartArtShape`](/slides/python-net/aspose.slides.smartart/smartartshape).>.
 
 ## Indexer
 

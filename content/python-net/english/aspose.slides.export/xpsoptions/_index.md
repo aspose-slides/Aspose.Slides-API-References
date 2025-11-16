@@ -35,13 +35,6 @@ The XpsOptions type exposes the following members:
 | [`draw_slides_frame`](/slides/python-net/aspose.slides.export/xpsoptions/draw_slides_frame/) | True to draw black frame around each slide.<br/>             Read/write **bool**. |
 
 
-### Examples
-
-The following example shows how to converting presentations to XPS using default settings.
-
-            The following example shows how to converting presentations to XPS using custom settings.
-
-
 ### See Also
 * class [`SaveOptions`](/slides/python-net/aspose.slides.export/saveoptions)
 * class [`XpsOptions`](/slides/python-net/aspose.slides.export/xpsoptions)

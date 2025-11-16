@@ -87,11 +87,6 @@ The MathDelimiter type exposes the following members:
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/mathdelimiter/get_children/#) | Get children elements |
 
 
-### Examples
-
-Example:
-
-
 ### See Also
 * class [`MathDelimiter`](/slides/python-net/aspose.slides.mathtext/mathdelimiter)
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)

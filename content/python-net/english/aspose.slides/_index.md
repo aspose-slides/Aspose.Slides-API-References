@@ -370,13 +370,13 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`PortionCollection`](/slides/python-net/aspose.slides/portioncollection/) | Represents a collection of portions. |
 | [`PortionFactory`](/slides/python-net/aspose.slides/portionfactory/) | Allows to create test portions |
 | [`PortionFormat`](/slides/python-net/aspose.slides/portionformat/) | This class contains the text portion formatting properties. Unlike [`IPortionFormatEffectiveData`](/slides/python-net/aspose.slides/iportionformateffectivedata), all properties of this class are writeable. |
-| [`PositionedString`](/slides/python-net/aspose.slides/positionedstring/) |  |
+| [`PositionedString`](/slides/python-net/aspose.slides/positionedstring/) | Structure contains integer key and string value and is temporary replacement of KeyValuePair<int, string> |
 | [`PptCorruptFileException`](/slides/python-net/aspose.slides/pptcorruptfileexception/) | Exception which thrown when presentation file is probably corrupt. |
 | [`PptEditException`](/slides/python-net/aspose.slides/ppteditexception/) | Represents an exception thrown when edit presentation error is detected. |
 | [`PptException`](/slides/python-net/aspose.slides/pptexception/) | Represents a standard internal exception type. |
 | [`PptReadException`](/slides/python-net/aspose.slides/pptreadexception/) | Represents an exception which thrown on presentation reading errors. |
 | [`PptUnsupportedFormatException`](/slides/python-net/aspose.slides/pptunsupportedformatexception/) | Exception which thrown when presentation file format is unsupported. |
-| [`PptxCorruptFileException`](/slides/python-net/aspose.slides/pptxcorruptfileexception/) |  |
+| [`PptxCorruptFileException`](/slides/python-net/aspose.slides/pptxcorruptfileexception/) | Exception which thrown when presentation file is probably corrupt. |
 | [`PptxEditException`](/slides/python-net/aspose.slides/pptxeditexception/) | Represents an exception thrown when edit presentation error is detected. |
 | [`PptxException`](/slides/python-net/aspose.slides/pptxexception/) | Represents a standard internal exception type. |
 | [`PptxReadException`](/slides/python-net/aspose.slides/pptxreadexception/) | Represents an exception which thrown on presentation reading errors. |
@@ -406,13 +406,13 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`SlideCollection`](/slides/python-net/aspose.slides/slidecollection/) | Represents a collection of a slides. |
 | [`SlideHeaderFooterManager`](/slides/python-net/aspose.slides/slideheaderfootermanager/) | Represents manager which holds behavior of the slide footer, date-time, page number placeholders. |
 | [`SlideShowSettings`](/slides/python-net/aspose.slides/slideshowsettings/) | Represents the slide show settings for the presentation. |
-| [`SlideShowType`](/slides/python-net/aspose.slides/slideshowtype/) | Base slide show settings. Ancestors represent types of the slide show:<br/>[`PresentedBySpeaker`](/slides/python-net/aspose.slides/presentedbyspeaker) Presented by a speaker (full screen)<br/>[`BrowsedByIndividual`](/slides/python-net/aspose.slides/browsedbyindividual) Browsed by individual (window)<br/>[`BrowsedAtKiosk`](/slides/python-net/aspose.slides/browsedatkiosk) Browsed at a kiosk (full screen) |
+| [`SlideShowType`](/slides/python-net/aspose.slides/slideshowtype/) | Base slide show settings. Ancestors represent types of the slide show:<br/>             [`PresentedBySpeaker`](/slides/python-net/aspose.slides/presentedbyspeaker) Presented by a speaker (full screen)<br/>             [`BrowsedByIndividual`](/slides/python-net/aspose.slides/browsedbyindividual) Browsed by individual (window)<br/>             [`BrowsedAtKiosk`](/slides/python-net/aspose.slides/browsedatkiosk) Browsed at a kiosk (full screen) |
 | [`SlideSize`](/slides/python-net/aspose.slides/slidesize/) | Represents the size and orientation of a slide. |
 | [`SlidesRange`](/slides/python-net/aspose.slides/slidesrange/) | Slides range |
 | [`SpreadsheetOptions`](/slides/python-net/aspose.slides/spreadsheetoptions/) | Represents options which can be used to specify additional spreadsheets behavior. |
 | [`StreamWrapper`](/slides/python-net/aspose.slides/streamwrapper/) | Aspose.IO.Stream wrapper for COM interface. |
 | [`StreamWrapperFactory`](/slides/python-net/aspose.slides/streamwrapperfactory/) | Factory of StreamWrappers. For COM interface. |
-| [`StringStringPair`](/slides/python-net/aspose.slides/stringstringpair/) |  |
+| [`StringStringPair`](/slides/python-net/aspose.slides/stringstringpair/) | Structure contains string key and string value and is temporary replacement of KeyValuePair<string, string> |
 | [`SummaryZoomFrame`](/slides/python-net/aspose.slides/summaryzoomframe/) | Represents a Summary Zoom object in a slide. |
 | [`SummaryZoomSection`](/slides/python-net/aspose.slides/summaryzoomsection/) | Represents a Summary Zoom Section object in a Summary Zoom frame. |
 | [`SummaryZoomSectionCollection`](/slides/python-net/aspose.slides/summaryzoomsectioncollection/) | Represents a collection of Summary Zoom Section objects. |
@@ -451,7 +451,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`ColorStringFormat`](/slides/python-net/aspose.slides/colorstringformat/) | Represents a type of hyperlink action. |
 | [`ColorTransformOperation`](/slides/python-net/aspose.slides/colortransformoperation/) | Defines color transform operation. |
 | [`ColorType`](/slides/python-net/aspose.slides/colortype/) | Represents different color modes. |
-| [`ControlType`](/slides/python-net/aspose.slides/controltype/) | Defines a control type which should be embedded by [`IControlCollection.add_control`](/slides/python-net/aspose.slides/icontrolcollection/add_control). |
+| [`ControlType`](/slides/python-net/aspose.slides/controltype/) | Defines a control type which should be embedded by **Aspose.Slides.IControlCollection.AddControl(Aspose.Slides.ControlType,System.Single,System.Single,System.Single,Syste**. |
 | [`EmbeddingLevel`](/slides/python-net/aspose.slides/embeddinglevel/) | Represents the licensing rights for embedding the font. |
 | [`FillBlendMode`](/slides/python-net/aspose.slides/fillblendmode/) | Determines blend mode. |
 | [`FillType`](/slides/python-net/aspose.slides/filltype/) | Specifies the interior fill type of various visual objects. |
@@ -477,7 +477,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`LineSketchType`](/slides/python-net/aspose.slides/linesketchtype/) | Represents which sketch type or effect a shape has been assigned. |
 | [`LineStyle`](/slides/python-net/aspose.slides/linestyle/) | Represents the style of a line. |
 | [`LoadFormat`](/slides/python-net/aspose.slides/loadformat/) | Indicates the format of the document that is to be loaded. |
-| [`LoadingStreamBehavior`](/slides/python-net/aspose.slides/loadingstreambehavior/) | The **io.RawIOBase** passed to a method is considered as a Binary Large Object (BLOB) (see <br/>[`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions) description). Values of this enumeration identify how <br/>            the **io.RawIOBase** should be treated when it passed to the method. Depending on the <br/>            requirements, different decisions could be made to provide the most efficient behavior. |
+| [`LoadingStreamBehavior`](/slides/python-net/aspose.slides/loadingstreambehavior/) | The **io.RawIOBase** passed to a method is considered as a Binary Large Object (BLOB) (see <br/>            [`IBlobManagementOptions`](/slides/python-net/aspose.slides/iblobmanagementoptions) description). Values of this enumeration identify how <br/>            the **io.RawIOBase** should be treated when it passed to the method. Depending on the <br/>            requirements, different decisions could be made to provide the most efficient behavior. |
 | [`MaterialPresetType`](/slides/python-net/aspose.slides/materialpresettype/) | Constants which define material of shape. |
 | [`ModernCommentStatus`](/slides/python-net/aspose.slides/moderncommentstatus/) | Represents the status of a modern comment. |
 | [`NullableBool`](/slides/python-net/aspose.slides/nullablebool/) | Represents triple boolean values. |
@@ -491,7 +491,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`PictureFillMode`](/slides/python-net/aspose.slides/picturefillmode/) | Determines how picture will fill area. |
 | [`PlaceholderSize`](/slides/python-net/aspose.slides/placeholdersize/) | Represents the size of a placeholder. |
 | [`PlaceholderType`](/slides/python-net/aspose.slides/placeholdertype/) | Represents the type of a placeholder. |
-| [`PresentationLockingBehavior`](/slides/python-net/aspose.slides/presentationlockingbehavior/) | Represents the behavior regarding treating the [`IPresentation`](/slides/python-net/aspose.slides/ipresentation) source (file or <br/>**io.RawIOBase**) while loading and working with an instance of [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
+| [`PresentationLockingBehavior`](/slides/python-net/aspose.slides/presentationlockingbehavior/) | Represents the behavior regarding treating the [`IPresentation`](/slides/python-net/aspose.slides/ipresentation) source (file or <br/>            **io.RawIOBase**) while loading and working with an instance of [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
 | [`PresetColor`](/slides/python-net/aspose.slides/presetcolor/) | Represents predefined color presets. |
 | [`PresetShadowType`](/slides/python-net/aspose.slides/presetshadowtype/) | Represents a preset for a shadow effect. |
 | [`RectangleAlignment`](/slides/python-net/aspose.slides/rectanglealignment/) | Defines 2-dimension allignment. |

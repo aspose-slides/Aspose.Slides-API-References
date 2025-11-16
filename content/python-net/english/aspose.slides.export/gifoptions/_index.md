@@ -36,11 +36,6 @@ The GifOptions type exposes the following members:
 | [`default_delay`](/slides/python-net/aspose.slides.export/gifoptions/default_delay/) | Gets or sets default delay time [ms]. This value will be used if [`ISlideShowTransition.advance_after_time`](/slides/python-net/aspose.slides/islideshowtransition/advance_after_time) is not set.<br/>            The default value is 1000. |
 
 
-### Examples
-
-The following example shows how to converting presentations to animated GIF using custom settings.
-
-
 ### See Also
 * class [`GifOptions`](/slides/python-net/aspose.slides.export/gifoptions)
 * class [`SaveOptions`](/slides/python-net/aspose.slides.export/saveoptions)

@@ -11,7 +11,7 @@ weight: 130
 ## add_data_point_for_stock_series {#ichartdatacell}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Stock subtypes
-            (see also [`ChartTypeCharacterizer.is_chart_type_stock`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_stock) method).
+            (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeStock(Aspose.Slides.Chart** method).
 
 ### Returns
 
@@ -33,7 +33,7 @@ def add_data_point_for_stock_series(self, value):
 ## add_data_point_for_stock_series {#float}
 Creates the new data point and adds it to the end of collection.
             Applicable for series which chartType is one of Stock subtypes 
-            (see also [`ChartTypeCharacterizer.is_chart_type_stock`](/slides/python-net/aspose.slides.charts/charttypecharacterizer/is_chart_type_stock) method).
+            (see also **Aspose.Slides.Charts.ChartTypeCharacterizer.IsChartTypeStock(Aspose.Slides.Chart** method).
 
 ### Returns
 

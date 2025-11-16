@@ -82,11 +82,6 @@ The MathLimit type exposes the following members:
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/mathlimit/get_children/#) | Get children elements |
 
 
-### Examples
-
-Example:
-
-
 ### See Also
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
 * class [`MathLimit`](/slides/python-net/aspose.slides.mathtext/mathlimit)

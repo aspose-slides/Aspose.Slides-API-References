@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichart/show_data_labels_over_maximum/
-weight: 590
+weight: 580
 ---
 
 

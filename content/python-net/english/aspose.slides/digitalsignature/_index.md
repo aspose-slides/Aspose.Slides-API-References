@@ -30,13 +30,6 @@ The DigitalSignature type exposes the following members:
 | [`comments`](/slides/python-net/aspose.slides/digitalsignature/comments/) | The purpose of signature.<br/>            Read/write **str**. |
 
 
-### Examples
-
-The following example demonstrates how to add digital signature from a PFX certificate in PowerPoint Presentation.
-
-            The following sample code demonstrates how to validate digital signature of PowerPoint Presentation.
-
-
 ### See Also
 * module [`aspose.slides`](/slides/python-net/aspose.slides)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -83,11 +83,6 @@ The MathematicalText type exposes the following members:
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/mathematicaltext/get_children/#) |  |
 
 
-### Examples
-
-Example:
-
-
 ### See Also
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
 * class [`MathematicalText`](/slides/python-net/aspose.slides.mathtext/mathematicaltext)

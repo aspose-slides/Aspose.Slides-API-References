@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/presentation/highlight_regex/
-weight: 50
+weight: 40
 ---
 
 
@@ -22,10 +22,6 @@ def highlight_regex(self, regex, highlight_color):
 | :- | :- | :- |
 | regex | **str** | The string contains regular expression to get strings to highlight. |
 | highlight_color | **aspose.pydrawing.Color** | The color to highlight the text. |
-
-### Examples
-
-The following code sample shows how to highlight text in a PowerPoint Presentation using a regular expression.
 
 
 

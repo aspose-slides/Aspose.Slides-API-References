@@ -4,13 +4,13 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iimagewrapper/image_source/
-weight: 40
+weight: 30
 ---
 
 
 ## image_source property
 Gets the image
-            Read-only [`IImageWrapper.image`](/slides/python-net/aspose.slides/iimagewrapper/image).
+            Read-only **aspose.pydrawing.Image**.
 
 ### Definition:
 ```python

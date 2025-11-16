@@ -29,10 +29,6 @@ def insert_clone(self, index, source_master):
 | index | **int** | Index of new slide. |
 | source_master | [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide) | Slide to clone. |
 
-### Examples
-
-The following example shows how to clone master slide in another PowerPoint Presentation.
-
 
 
 ### See Also

@@ -41,11 +41,6 @@ The IMathParagraph type exposes the following members:
 | [`clear`](/slides/python-net/aspose.slides.mathtext/imathparagraph/clear/#) |  |
 
 
-### Examples
-
-Example:
-
-
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -25,7 +25,7 @@ The IFonts type exposes the following members:
 
 | Method | Description |
 | :- | :- |
-| [`get_script_font_map`](/slides/python-net/aspose.slides/ifonts/get_script_font_map/#) | Returns a dictionary of all script font definitions in the presentation. |
+| [`get_script_font_map`](/slides/python-net/aspose.slides/ifonts/get_script_font_map/#) | Returns a list of all string-string pairs script font definitions in the presentation. |
 | [`get_script_font`](/slides/python-net/aspose.slides/ifonts/get_script_font/#str) | Gets the font name associated with a specific script tag from the presentation theme. |
 | [`set_script_font`](/slides/python-net/aspose.slides/ifonts/set_script_font/#str-str) | Assigns a font name to a specific script tag, which defines how text of that script will be rendered in the presentation. |
 | [`remove_script_font`](/slides/python-net/aspose.slides/ifonts/remove_script_font/#str) | Removes the font setting associated with a specific script tag from the theme's font collection. |

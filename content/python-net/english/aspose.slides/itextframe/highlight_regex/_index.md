@@ -9,7 +9,7 @@ weight: 10
 
 
 ## highlight_regex {#str-asposepydrawingcolor}
-
+Highlights all matches of the regular expression with the specified color.
 
 
 ```python
@@ -20,8 +20,8 @@ def highlight_regex(self, regex, highlight_color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| regex | **str** |  |
-| highlight_color | **aspose.pydrawing.Color** |  |
+| regex | **str** | The string contains regular expression to get strings to highlight. |
+| highlight_color | **aspose.pydrawing.Color** | The color to highlight the text. |
 
 
 ## highlight_regex {#str-asposepydrawingcolor-itexthighlightingoptions}

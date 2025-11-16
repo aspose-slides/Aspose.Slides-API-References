@@ -9,6 +9,8 @@ url: /aspose.slides/positionedstring/
 
 ## PositionedString class
 
+Structure contains integer key and string value and is temporary replacement of KeyValuePair<int, string>
+
 The PositionedString type exposes the following members:
 
 ## Constructors
@@ -21,8 +23,8 @@ The PositionedString type exposes the following members:
 
 | Property | Description |
 | :- | :- |
-| [`key`](/slides/python-net/aspose.slides/positionedstring/key/) |  |
-| [`value`](/slides/python-net/aspose.slides/positionedstring/value/) |  |
+| [`key`](/slides/python-net/aspose.slides/positionedstring/key/) | Integer key |
+| [`value`](/slides/python-net/aspose.slides/positionedstring/value/) | String value |
 
 
 ### See Also

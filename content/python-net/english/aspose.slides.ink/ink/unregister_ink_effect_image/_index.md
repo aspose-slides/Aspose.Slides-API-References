@@ -4,13 +4,13 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.ink/ink/unregister_ink_effect_image/
-weight: 70
+weight: 60
 ---
 
 
 ## unregister_ink_effect_image {#inkeffecttype}
 Unregisters an image from collection of custom images used to simulate visual effects for ink brushes
-            previously registered images via [`Ink.register_ink_effect_image`](/slides/python-net/aspose.slides.ink/ink/register_ink_effect_image).
+            previously registered images via **Aspose.Slides.Ink.Ink.RegisterInkEffectImage(Aspose.Slides.Ink.InkEffectType,Aspose.Slide**.
 
 
 ```python

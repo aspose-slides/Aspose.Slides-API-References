@@ -32,10 +32,6 @@ def add_audio_frame_embedded(self, x, y, width, height, audio_stream):
 | height | **float** | The height of the new audio frame, in points. |
 | audio_stream | **io.RawIOBase** | An input stream containing WAV audio data to embed. |
 
-### Examples
-
-The following examples shows how to create Audio Frame.
-
 
 ## add_audio_frame_embedded {#float-float-float-float-iaudio}
 Creates a new audio frame and adds it to the end of the shape collection using an

@@ -13,7 +13,7 @@ Writes the internally contained Excel workbook it into an in-memory stream.
 
 ### Returns
 
-Returns an instance of `MemoryStream` containing a copy of the internally contained Excel workbook.
+Returns an instance of `Stream` containing a copy of the internally contained Excel workbook.
 
 
 

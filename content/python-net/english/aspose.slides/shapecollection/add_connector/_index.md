@@ -32,10 +32,6 @@ def add_connector(self, shape_type, x, y, width, height):
 | width | **float** | The width of the connector’s frame, in points. |
 | height | **float** | The height of the connector’s frame, in points. |
 
-### Examples
-
-The following example shows how to add a connector (a bent connector) between two shapes (an ellipse and rectangle) in PowerPoint Presentation.
-
 
 ## add_connector {#shapetype-float-float-float-float-bool}
 Creates a new connector shape and adds it to the end of the shape collection,

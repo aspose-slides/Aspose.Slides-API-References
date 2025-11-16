@@ -18,10 +18,6 @@ def to_latex(self):
 ```
 
 
-### Examples
-
-Example:
-
 
 
 ### See Also

@@ -99,11 +99,6 @@ The MathMatrix type exposes the following members:
 | [`get_children`](/slides/python-net/aspose.slides.mathtext/mathmatrix/get_children/#) | Get children elements |
 
 
-### Examples
-
-Example:
-
-
 ### See Also
 * class [`MathElementBase`](/slides/python-net/aspose.slides.mathtext/mathelementbase)
 * class [`MathMatrix`](/slides/python-net/aspose.slides.mathtext/mathmatrix)

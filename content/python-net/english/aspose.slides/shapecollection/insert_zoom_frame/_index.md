@@ -32,11 +32,6 @@ def insert_zoom_frame(self, index, x, y, width, height, slide):
 | height | **float** | The height of the new Zoom frame, in points. |
 | slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | The [`ISlide`](/slides/python-net/aspose.slides/islide) referenced by the Zoom frame. |
 
-### Examples
-
-This example demonstrates creation and inserting a Zoom object at the specified index of a collection
-            (assume that there are at least two slides in the "Presentation.pptx" presentation):
-
 ### Exceptions
 
 | Exception | Description |
@@ -69,11 +64,6 @@ def insert_zoom_frame(self, index, x, y, width, height, slide, image):
 | height | **float** | The height of the new Zoom frame, in points. |
 | slide | [`ISlide`](/slides/python-net/aspose.slides/islide) | The [`ISlide`](/slides/python-net/aspose.slides/islide) referenced by the Zoom frame. |
 | image | [`IPPImage`](/slides/python-net/aspose.slides/ippimage) | The image for the referenced slide [`IPPImage`](/slides/python-net/aspose.slides/ippimage). |
-
-### Examples
-
-This example demonstrates creation and inserting a Zoom object at the specified index of a collection
-            (assume that there are at least two slides in the "Presentation.pptx" presentation):
 
 ### Exceptions
 

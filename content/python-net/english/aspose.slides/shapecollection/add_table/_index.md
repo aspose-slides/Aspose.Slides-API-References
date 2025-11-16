@@ -30,10 +30,6 @@ def add_table(self, x, y, column_widths, row_heights):
 | column_widths | **List[float]** | An array of doubles representing the widths of the table’s<br/><br/>            columns, in points. |
 | row_heights | **List[float]** | An array of doubles representing the heights of the table’s<br/><br/>            rows, in points. |
 
-### Examples
-
-The following examples shows how to add table in PowerPoint Presentation.
-
 
 
 ### See Also

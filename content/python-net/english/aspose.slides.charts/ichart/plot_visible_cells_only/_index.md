@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichart/plot_visible_cells_only/
-weight: 530
+weight: 520
 ---
 
 

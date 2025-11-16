@@ -20,11 +20,6 @@ The IMathPortion type exposes the following members:
 | [`math_paragraph`](/slides/python-net/aspose.slides.mathtext/imathportion/math_paragraph/) | Math paragraph |
 
 
-### Examples
-
-Example:
-
-
 ### See Also
 * module [`aspose.slides.mathtext`](/slides/python-net/aspose.slides.mathtext)
 * library [`Aspose.Slides`](/slides/python-net)

@@ -57,7 +57,7 @@ def get_custom_property_value(self, name, value):
 
 
 ## get_custom_property_value {#str-any}
-
+Gets a named string value from the custom properties.
 
 
 ```python
@@ -68,8 +68,8 @@ def get_custom_property_value(self, name, value):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| name | **str** |  |
-| value | **Any** |  |
+| name | **str** | Name of the custom property to get |
+| value | **Any** | Custom property value |
 
 
 ## get_custom_property_value {#str-any}
