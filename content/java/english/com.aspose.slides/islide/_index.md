@@ -21,23 +21,13 @@ Represents a slide in a presentation.
 | [setSlideNumber(int value)](#setSlideNumber-int-) | Returns a number of slide. |
 | [getHidden()](#getHidden--) | Determines whether the specified slide is hidden during a slide show. |
 | [setHidden(boolean value)](#setHidden-boolean-) | Determines whether the specified slide is hidden during a slide show. |
-| [getThumbnail(float scaleX, float scaleY)](#getThumbnail-float-float-) | Returns a Thumbnail Bitmap object with custom scaling. |
 | [getImage(float scaleX, float scaleY)](#getImage-float-float-) | Returns an image object with custom scaling. |
-| [getThumbnail()](#getThumbnail--) | Returns a Thumbnail Image object (20% of real size). |
 | [getImage()](#getImage--) | Returns a Thumbnail Image object (20% of real size). |
-| [getThumbnail(Dimension imageSize)](#getThumbnail-java.awt.Dimension-) | Returns a Thumbnail Bitmap object with specified size. |
 | [getImage(Dimension imageSize)](#getImage-java.awt.Dimension-) | Returns an image object with specified size. |
-| [getThumbnail(ITiffOptions options)](#getThumbnail-com.aspose.slides.ITiffOptions-) | Returns a Thumbnail tiff bitmap object with specified parameters. |
 | [getImage(ITiffOptions options)](#getImage-com.aspose.slides.ITiffOptions-) | Returns a Thumbnail tiff bitmap object with specified parameters. |
-| [getThumbnail(IRenderingOptions options)](#getThumbnail-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail Bitmap object. |
 | [getImage(IRenderingOptions options)](#getImage-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail Bitmap object. |
-| [getThumbnail(IRenderingOptions options, float scaleX, float scaleY)](#getThumbnail-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail Bitmap object with custom scaling. |
 | [getImage(IRenderingOptions options, float scaleX, float scaleY)](#getImage-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail Bitmap object with custom scaling. |
-| [getThumbnail(IRenderingOptions options, Dimension imageSize)](#getThumbnail-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Returns a Thumbnail Bitmap object with specified size. |
 | [getImage(IRenderingOptions options, Dimension imageSize)](#getImage-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Returns a Thumbnail Bitmap object with specified size. |
-| [renderToGraphics(IRenderingOptions options, Graphics2D graphics)](#renderToGraphics-com.aspose.slides.IRenderingOptions-java.awt.Graphics2D-) | Renders certain slide to a Graphics object. |
-| [renderToGraphics(IRenderingOptions options, Graphics2D graphics, float scaleX, float scaleY)](#renderToGraphics-com.aspose.slides.IRenderingOptions-java.awt.Graphics2D-float-float-) | Renders certain slide to a Graphics object with custom scaling. |
-| [renderToGraphics(IRenderingOptions options, Graphics2D graphics, Dimension renderingSize)](#renderToGraphics-com.aspose.slides.IRenderingOptions-java.awt.Graphics2D-java.awt.Dimension-) | Renders certain slide to a Graphics object using specified size. |
 | [getLayoutSlide()](#getLayoutSlide--) | Returns or sets the layout slide for the current slide. |
 | [setLayoutSlide(ILayoutSlide value)](#setLayoutSlide-com.aspose.slides.ILayoutSlide-) | Returns or sets the layout slide for the current slide. |
 | [getNotesSlideManager()](#getNotesSlideManager--) | Allow to access notes slide, add and remove it. |
@@ -103,22 +93,6 @@ Determines whether the specified slide is hidden during a slide show. Read/write
 | --- | --- | --- |
 | value | boolean |  |
 
-### getThumbnail(float scaleX, float scaleY) {#getThumbnail-float-float-}
-```
-public abstract BufferedImage getThumbnail(float scaleX, float scaleY)
-```
-
-
-Returns a Thumbnail Bitmap object with custom scaling.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
-**Returns:**
-java.awt.image.BufferedImage - Bitmap object java.awt.image.BufferedImage
 ### getImage(float scaleX, float scaleY) {#getImage-float-float-}
 ```
 public abstract IImage getImage(float scaleX, float scaleY)
@@ -135,16 +109,6 @@ Returns an image object with custom scaling.
 
 **Returns:**
 [IImage](../../com.aspose.slides/iimage) - Image object java.awt.image.BufferedImage
-### getThumbnail() {#getThumbnail--}
-```
-public abstract BufferedImage getThumbnail()
-```
-
-
-Returns a Thumbnail Image object (20% of real size).
-
-**Returns:**
-java.awt.image.BufferedImage - Bitmap object java.awt.image.BufferedImage
 ### getImage() {#getImage--}
 ```
 public abstract IImage getImage()
@@ -155,21 +119,6 @@ Returns a Thumbnail Image object (20% of real size).
 
 **Returns:**
 [IImage](../../com.aspose.slides/iimage) - Image object java.awt.image.BufferedImage
-### getThumbnail(Dimension imageSize) {#getThumbnail-java.awt.Dimension-}
-```
-public abstract BufferedImage getThumbnail(Dimension imageSize)
-```
-
-
-Returns a Thumbnail Bitmap object with specified size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| imageSize | java.awt.Dimension | Size of the image to create. |
-
-**Returns:**
-java.awt.image.BufferedImage - Bitmap object.
 ### getImage(Dimension imageSize) {#getImage-java.awt.Dimension-}
 ```
 public abstract IImage getImage(Dimension imageSize)
@@ -185,21 +134,6 @@ Returns an image object with specified size.
 
 **Returns:**
 [IImage](../../com.aspose.slides/iimage) - Bitmap object.
-### getThumbnail(ITiffOptions options) {#getThumbnail-com.aspose.slides.ITiffOptions-}
-```
-public abstract BufferedImage getThumbnail(ITiffOptions options)
-```
-
-
-Returns a Thumbnail tiff bitmap object with specified parameters.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [ITiffOptions](../../com.aspose.slides/itiffoptions) | Tiff options. |
-
-**Returns:**
-java.awt.image.BufferedImage - Bitmap object.
 ### getImage(ITiffOptions options) {#getImage-com.aspose.slides.ITiffOptions-}
 ```
 public abstract IImage getImage(ITiffOptions options)
@@ -215,21 +149,6 @@ Returns a Thumbnail tiff bitmap object with specified parameters.
 
 **Returns:**
 [IImage](../../com.aspose.slides/iimage) - Image object.
-### getThumbnail(IRenderingOptions options) {#getThumbnail-com.aspose.slides.IRenderingOptions-}
-```
-public abstract BufferedImage getThumbnail(IRenderingOptions options)
-```
-
-
-Returns a Thumbnail Bitmap object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
-
-**Returns:**
-java.awt.image.BufferedImage - Bitmap objects.
 ### getImage(IRenderingOptions options) {#getImage-com.aspose.slides.IRenderingOptions-}
 ```
 public abstract IImage getImage(IRenderingOptions options)
@@ -245,23 +164,6 @@ Returns a Thumbnail Bitmap object.
 
 **Returns:**
 [IImage](../../com.aspose.slides/iimage) - Bitmap objects.
-### getThumbnail(IRenderingOptions options, float scaleX, float scaleY) {#getThumbnail-com.aspose.slides.IRenderingOptions-float-float-}
-```
-public abstract BufferedImage getThumbnail(IRenderingOptions options, float scaleX, float scaleY)
-```
-
-
-Returns a Thumbnail Bitmap object with custom scaling.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
-**Returns:**
-java.awt.image.BufferedImage - Bitmap objects.
 ### getImage(IRenderingOptions options, float scaleX, float scaleY) {#getImage-com.aspose.slides.IRenderingOptions-float-float-}
 ```
 public abstract IImage getImage(IRenderingOptions options, float scaleX, float scaleY)
@@ -279,22 +181,6 @@ Returns a Thumbnail Bitmap object with custom scaling.
 
 **Returns:**
 [IImage](../../com.aspose.slides/iimage) - Bitmap objects.
-### getThumbnail(IRenderingOptions options, Dimension imageSize) {#getThumbnail-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
-```
-public abstract BufferedImage getThumbnail(IRenderingOptions options, Dimension imageSize)
-```
-
-
-Returns a Thumbnail Bitmap object with specified size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
-| imageSize | java.awt.Dimension | Size of the image to create. |
-
-**Returns:**
-java.awt.image.BufferedImage - Bitmap objects.
 ### getImage(IRenderingOptions options, Dimension imageSize) {#getImage-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
 ```
 public abstract IImage getImage(IRenderingOptions options, Dimension imageSize)
@@ -311,51 +197,6 @@ Returns a Thumbnail Bitmap object with specified size.
 
 **Returns:**
 [IImage](../../com.aspose.slides/iimage) - Bitmap objects.
-### renderToGraphics(IRenderingOptions options, Graphics2D graphics) {#renderToGraphics-com.aspose.slides.IRenderingOptions-java.awt.Graphics2D-}
-```
-public abstract void renderToGraphics(IRenderingOptions options, Graphics2D graphics)
-```
-
-
-Renders certain slide to a Graphics object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
-| graphics | java.awt.Graphics2D | The object where to render to. |
-
-### renderToGraphics(IRenderingOptions options, Graphics2D graphics, float scaleX, float scaleY) {#renderToGraphics-com.aspose.slides.IRenderingOptions-java.awt.Graphics2D-float-float-}
-```
-public abstract void renderToGraphics(IRenderingOptions options, Graphics2D graphics, float scaleX, float scaleY)
-```
-
-
-Renders certain slide to a Graphics object with custom scaling.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
-| graphics | java.awt.Graphics2D | The object where to render to. |
-| scaleX | float | The scale for rendering the slide (1.0 is 100%) in the x-axis direction. |
-| scaleY | float | The scale for rendering the slide (1.0 is 100%) in the y-axis direction. |
-
-### renderToGraphics(IRenderingOptions options, Graphics2D graphics, Dimension renderingSize) {#renderToGraphics-com.aspose.slides.IRenderingOptions-java.awt.Graphics2D-java.awt.Dimension-}
-```
-public abstract void renderToGraphics(IRenderingOptions options, Graphics2D graphics, Dimension renderingSize)
-```
-
-
-Renders certain slide to a Graphics object using specified size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
-| graphics | java.awt.Graphics2D | The object where to render to. |
-| renderingSize | java.awt.Dimension | The maximum dimensions (in pixels) that can be occupied by the rendered slide. |
-
 ### getLayoutSlide() {#getLayoutSlide--}
 ```
 public abstract ILayoutSlide getLayoutSlide()

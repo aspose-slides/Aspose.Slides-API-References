@@ -25,7 +25,6 @@ Determines format in which slide image will be saved for presentation to HTML ex
 | Method | Description |
 | --- | --- |
 | [svg(SVGOptions options)](#svg-com.aspose.slides.SVGOptions-) | Slides should converted to a SVG format. |
-| [bitmap(float scale, String imgFormat)](#bitmap-float-java.lang.String-) | Slides should be converted to a raster image. |
 | [bitmap(float scale, int imageFormat)](#bitmap-float-int-) | Slides should be converted to a raster image. |
 ### SlideImageFormat() {#SlideImageFormat--}
 ```
@@ -48,22 +47,6 @@ Slides should converted to a SVG format.
 
 **Returns:**
 [SlideImageFormat](../../com.aspose.slides/slideimageformat) - The [SlideImageFormat](../../com.aspose.slides/slideimageformat) object.
-### bitmap(float scale, String imgFormat) {#bitmap-float-java.lang.String-}
-```
-public static SlideImageFormat bitmap(float scale, String imgFormat)
-```
-
-
-Slides should be converted to a raster image.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| scale | float | Image scale factor. |
-| imgFormat | java.lang.String | Image format. |
-
-**Returns:**
-[SlideImageFormat](../../com.aspose.slides/slideimageformat) - The [SlideImageFormat](../../com.aspose.slides/slideimageformat) object.
 ### bitmap(float scale, int imageFormat) {#bitmap-float-int-}
 ```
 public static SlideImageFormat bitmap(float scale, int imageFormat)
@@ -76,7 +59,7 @@ Slides should be converted to a raster image.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | scale | float | The factor by which to scale the output image. |
-| imageFormat | int | The [ImageFormat](../../com.aspose.slides/imageformat) of the resulting image (e.g., PNG, JPEG). |
+| imageFormat | int | The format of the resulting image (e.g., PNG, JPEG). |
 
 **Returns:**
 [SlideImageFormat](../../com.aspose.slides/slideimageformat) - 

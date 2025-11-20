@@ -40,6 +40,8 @@ Represents slide show transition.
 | [setSoundIsBuiltIn(boolean value)](#setSoundIsBuiltIn-boolean-) | Specifies whether or not this sound is a built-in sound. |
 | [getSoundName()](#getSoundName--) | Specifies a human readable name for the sound of the transition. |
 | [setSoundName(String value)](#setSoundName-java.lang.String-) | Specifies a human readable name for the sound of the transition. |
+| [getDuration()](#getDuration--) | Gets or sets the duration of the slide transition effect in milliseconds. |
+| [setDuration(int value)](#setDuration-int-) | Gets or sets the duration of the slide transition effect in milliseconds. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the two SlideShowTransition instances are equal. |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 ### getSound() {#getSound--}
@@ -94,7 +96,7 @@ public final boolean getSoundLoop()
 ```
 
 
-This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write  boolean .
+This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write boolean.
 
 **Returns:**
 boolean
@@ -104,7 +106,7 @@ public final void setSoundLoop(boolean value)
 ```
 
 
-This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write  boolean .
+This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write boolean.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -117,7 +119,7 @@ public final boolean getAdvanceOnClick()
 ```
 
 
-Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write  boolean .
+Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write boolean.
 
 **Returns:**
 boolean
@@ -127,7 +129,7 @@ public final void setAdvanceOnClick(boolean value)
 ```
 
 
-Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write  boolean .
+Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write boolean.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -140,7 +142,7 @@ public final boolean getAdvanceAfter()
 ```
 
 
-This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write  boolean .
+This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write boolean.
 
 --------------------
 
@@ -169,7 +171,7 @@ public final void setAdvanceAfter(boolean value)
 ```
 
 
-This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write  boolean .
+This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write boolean.
 
 --------------------
 
@@ -280,7 +282,7 @@ public final boolean getSoundIsBuiltIn()
 ```
 
 
-Specifies whether or not this sound is a built-in sound. If this attribute is set to true then the generating application is alerted to check the name attribute specified for this sound in it's list of built-in sounds and can then surface a custom name or UI as needed. Read-write  boolean .
+Specifies whether or not this sound is a built-in sound. If this attribute is set to true then the generating application is alerted to check the name attribute specified for this sound in it's list of built-in sounds and can then surface a custom name or UI as needed. Read-write boolean.
 
 **Returns:**
 boolean
@@ -290,7 +292,7 @@ public final void setSoundIsBuiltIn(boolean value)
 ```
 
 
-Specifies whether or not this sound is a built-in sound. If this attribute is set to true then the generating application is alerted to check the name attribute specified for this sound in it's list of built-in sounds and can then surface a custom name or UI as needed. Read-write  boolean .
+Specifies whether or not this sound is a built-in sound. If this attribute is set to true then the generating application is alerted to check the name attribute specified for this sound in it's list of built-in sounds and can then surface a custom name or UI as needed. Read-write boolean.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -320,13 +322,44 @@ Specifies a human readable name for the sound of the transition. The  Sound (\#g
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### getDuration() {#getDuration--}
+```
+public final int getDuration()
+```
+
+
+Gets or sets the duration of the slide transition effect in milliseconds. Read/write int.
+
+--------------------
+
+Corresponds to the  p14:dur  attribute of the  p:transition  element in the PresentationML schema. If not set, the duration is determined automatically based on the  Speed (\#getSpeed.getSpeed/\#setSpeed(int).setSpeed(int)) property and the transition type.
+
+**Returns:**
+int
+### setDuration(int value) {#setDuration-int-}
+```
+public final void setDuration(int value)
+```
+
+
+Gets or sets the duration of the slide transition effect in milliseconds. Read/write int.
+
+--------------------
+
+Corresponds to the  p14:dur  attribute of the  p:transition  element in the PresentationML schema. If not set, the duration is determined automatically based on the  Speed (\#getSpeed.getSpeed/\#setSpeed(int).setSpeed(int)) property and the transition type.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-Determines whether the two SlideShowTransition instances are equal. Read/write  boolean .
+Determines whether the two SlideShowTransition instances are equal. Read/write boolean.
 
 **Parameters:**
 | Parameter | Type | Description |

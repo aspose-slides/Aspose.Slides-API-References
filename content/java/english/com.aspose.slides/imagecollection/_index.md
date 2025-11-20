@@ -22,7 +22,6 @@ Represents collection of PPImage.
 | [size()](#size--) | Returns a number of images in the collection. |
 | [get_Item(int index)](#get-Item-int-) | Gets the element at the specified index. |
 | [addImage(IPPImage imageSource)](#addImage-com.aspose.slides.IPPImage-) | Adds a copy of an image from an another presentation. |
-| [addImage(BufferedImage image)](#addImage-java.awt.image.BufferedImage-) | Add an image to a presentation. |
 | [addImage(IImage image)](#addImage-com.aspose.slides.IImage-) | Add an image to a presentation. |
 | [addImage(InputStream stream)](#addImage-java.io.InputStream-) | Add an image to a presentation from stream. |
 | [addImage(InputStream stream, int loadingStreamBehavior)](#addImage-java.io.InputStream-int-) | Creates and adds an image to a presentation from stream. |
@@ -70,25 +69,6 @@ Adds a copy of an image from an another presentation.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | imageSource | [IPPImage](../../com.aspose.slides/ippimage) | Source image. |
-
-**Returns:**
-[IPPImage](../../com.aspose.slides/ippimage) - Added image.
-### addImage(BufferedImage image) {#addImage-java.awt.image.BufferedImage-}
-```
-public final IPPImage addImage(BufferedImage image)
-```
-
-
-Add an image to a presentation.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| image | java.awt.image.BufferedImage | Image to add.
-
---------------------
-
-This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation. |
 
 **Returns:**
 [IPPImage](../../com.aspose.slides/ippimage) - Added image.

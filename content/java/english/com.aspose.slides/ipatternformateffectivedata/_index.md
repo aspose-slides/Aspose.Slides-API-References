@@ -20,7 +20,6 @@ This interface is used as a part of [IFillFormatEffectiveData](../../com.aspose.
 | [getPatternStyle()](#getPatternStyle--) | Returns the pattern style. |
 | [getForeColor()](#getForeColor--) | Returns the foreground pattern color. |
 | [getBackColor()](#getBackColor--) | Returns the background pattern color. |
-| [getTileImage(Color background, Color foreground)](#getTileImage-java.awt.Color-java.awt.Color-) | Creates a tile image for the pattern fill with a specified colors. |
 | [getTileIImage(Color background, Color foreground)](#getTileIImage-java.awt.Color-java.awt.Color-) | Creates a tile image for the pattern fill with a specified colors. |
 ### getPatternStyle() {#getPatternStyle--}
 ```
@@ -52,22 +51,6 @@ Returns the background pattern color. Read-only java.awt.Color.
 
 **Returns:**
 java.awt.Color
-### getTileImage(Color background, Color foreground) {#getTileImage-java.awt.Color-java.awt.Color-}
-```
-public abstract BufferedImage getTileImage(Color background, Color foreground)
-```
-
-
-Creates a tile image for the pattern fill with a specified colors.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| background | java.awt.Color | The background java.awt.Color for the pattern. |
-| foreground | java.awt.Color | The foreground java.awt.Color for the pattern. |
-
-**Returns:**
-java.awt.image.BufferedImage - Tile java.awt.image.BufferedImage.
 ### getTileIImage(Color background, Color foreground) {#getTileIImage-java.awt.Color-java.awt.Color-}
 ```
 public abstract IImage getTileIImage(Color background, Color foreground)

@@ -21,32 +21,23 @@ Manages fonts across the presentation.
 > ```
 > The following example shows how to add embedded fonts to PowerPoint Presentation.
 >  
+>  [C#]
 >  // Load presentation
->  Presentation pres = new Presentation("Fonts.pptx");
->  try {
->      // Load source font to be replaced
->      IFontData sourceFont = new FontData("Arial");
->      IFontData[] allFonts = pres.getFontsManager().getFonts();
->      for (IFontData font : allFonts)
->      {
->          boolean fontAlreadyEmbedded = false;
->          IFontData[] embeddedFonts = pres.getFontsManager().getEmbeddedFonts();
->          for (int i = 0; i < embeddedFonts.length; i++)
->          {
->              if (embeddedFonts[i].equals(font))
->              {
->                  fontAlreadyEmbedded = true;
->                  break;
->              }
->          }
->          if (!fontAlreadyEmbedded) {
->              pres.getFontsManager().addEmbeddedFont(font, EmbedFontCharacters.All);
->          }
->      }
->      // Save the presentation
->      pres.save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
->  } finally {
->      if (pres != null) pres.dispose();
+>  using (Presentation presentation = new Presentation("Fonts.pptx"))
+>  {
+>  	// Load source font to be replaced
+>  	IFontData sourceFont = new FontData("Arial");
+>  	IFontData[] allFonts = presentation.FontsManager.GetFonts();
+>  	IFontData[] embeddedFonts = presentation.FontsManager.GetEmbeddedFonts();
+>  	foreach (IFontData font in allFonts)
+>  	{
+>  		if (!embeddedFonts.Contains(font))
+>  		{
+>  			presentation.FontsManager.AddEmbeddedFont(font, EmbedFontCharacters.All);
+>  		}
+>  	}
+>  	// Save the presentation
+>  	presentation.Save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 >  }
 > ```
 ## Methods
@@ -59,6 +50,7 @@ Manages fonts across the presentation.
 | [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
 | [getFonts()](#getFonts--) | Returns the fonts used in the presentation |
 | [getSubstitutions()](#getSubstitutions--) | Gets the information about fonts that will be replaced on the presentation's rendering. |
+| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Gets the information about fonts that will be replaced during rendering of the specified slides. |
 | [getEmbeddedFonts()](#getEmbeddedFonts--) | Returns the fonts embedded in the presentation |
 | [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Removes the embedded font |
 | [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Adds the embedded font |
@@ -194,6 +186,36 @@ Gets the information about fonts that will be replaced on the presentation's ren
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Collection of all fonts substitution [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
+### getSubstitutions(int[] slides) {#getSubstitutions-int---}
+```
+public final System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions(int[] slides)
+```
+
+
+Gets the information about fonts that will be replaced during rendering of the specified slides.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      int[] targetSlides = { 1, 2, 5 };
+>      for (FontSubstitutionInfo fontSubstitution : pres.getFontsManager().getSubstitutions(targetSlides))
+>      {
+>          System.out.println(fontSubstitution.getOriginalFontName() + " -> " + fontSubstitution.getSubstitutedFontName());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| slides | int[] | An array of slide indexes for which to retrieve font substitution information, starting from 1. |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - A collection of all font substitutions ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) for the specified slides.
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
 public final IFontData[] getEmbeddedFonts()
@@ -310,7 +332,7 @@ Retrieves the byte array representing the font data for a specified font style a
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontData | [IFontData](../../com.aspose.slides/ifontdata) | The font data object containing the information about the font [FontData](../../com.aspose.slides/fontdata). |
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | The font data object containing the information about the font [IFontData](../../com.aspose.slides/ifontdata). |
 | fontStyle | int | The style of the font for which the data is to be retrieved [FontStyleType](../../com.aspose.slides/fontstyletype). |
 
 **Returns:**

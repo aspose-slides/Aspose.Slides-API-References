@@ -97,17 +97,11 @@ Represents a Microsoft PowerPoint presentation.
 | [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 | [save(OutputStream stream, int format, ISaveOptions options)](#save-java.io.OutputStream-int-com.aspose.slides.ISaveOptions-) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 | [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Saves all slides of a presentation to a set of files representing XAML markup. |
-| [getThumbnails(IRenderingOptions options)](#getThumbnails-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail BufferedImage objects for all slides of a presentation. |
 | [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Returns a Image objects for all slides of a presentation. |
-| [getThumbnails(IRenderingOptions options, int[] slides)](#getThumbnails-com.aspose.slides.IRenderingOptions-int---) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation. |
 | [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Returns a Thumbnail Image objects for specified slides of a presentation. |
-| [getThumbnails(IRenderingOptions options, float scaleX, float scaleY)](#getThumbnails-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail BufferedImage objects for all slides of a presentation with custom scaling. |
 | [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail Image objects for all slides of a presentation with custom scaling. |
-| [getThumbnails(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getThumbnails-com.aspose.slides.IRenderingOptions-int---float-float-) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation with custom scaling. |
 | [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling. |
-| [getThumbnails(IRenderingOptions options, Dimension imageSize)](#getThumbnails-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Returns a Thumbnail BufferedImage objects for all slides of a presentation with specified size. |
 | [getImages(IRenderingOptions options, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-) | Returns a Thumbnail Image objects for all slides of a presentation with specified size. |
-| [getThumbnails(IRenderingOptions options, int[] slides, Dimension imageSize)](#getThumbnails-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation with specified size. |
 | [getImages(IRenderingOptions options, int[] slides, Dimension imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-) | Returns a Thumbnail Image objects for specified slides of a presentation with specified size. |
 | [save(String fname, int[] slides, int format)](#save-java.lang.String-int---int-) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 | [save(String fname, int[] slides, int format, ISaveOptions options)](#save-java.lang.String-int---int-com.aspose.slides.ISaveOptions-) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
@@ -1318,21 +1312,6 @@ Saves all slides of a presentation to a set of files representing XAML markup.
 | --- | --- | --- |
 | options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | The XAML format options. |
 
-### getThumbnails(IRenderingOptions options) {#getThumbnails-com.aspose.slides.IRenderingOptions-}
-```
-public final BufferedImage[] getThumbnails(IRenderingOptions options)
-```
-
-
-Returns a Thumbnail BufferedImage objects for all slides of a presentation.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
-
-**Returns:**
-java.awt.image.BufferedImage[] - BufferedImage objects.
 ### getImages(IRenderingOptions options) {#getImages-com.aspose.slides.IRenderingOptions-}
 ```
 public final IImage[] getImages(IRenderingOptions options)
@@ -1348,22 +1327,6 @@ Returns a Image objects for all slides of a presentation.
 
 **Returns:**
 com.aspose.slides.IImage[] - Image objects.
-### getThumbnails(IRenderingOptions options, int[] slides) {#getThumbnails-com.aspose.slides.IRenderingOptions-int---}
-```
-public final BufferedImage[] getThumbnails(IRenderingOptions options, int[] slides)
-```
-
-
-Returns a Thumbnail BufferedImage objects for specified slides of a presentation.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
-| slides | int[] | Array with slide positions, starting from 1. |
-
-**Returns:**
-java.awt.image.BufferedImage[] - BufferedImage objects.
 ### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides)
@@ -1380,23 +1343,6 @@ Returns a Thumbnail Image objects for specified slides of a presentation.
 
 **Returns:**
 com.aspose.slides.IImage[] - Image objects.
-### getThumbnails(IRenderingOptions options, float scaleX, float scaleY) {#getThumbnails-com.aspose.slides.IRenderingOptions-float-float-}
-```
-public final BufferedImage[] getThumbnails(IRenderingOptions options, float scaleX, float scaleY)
-```
-
-
-Returns a Thumbnail BufferedImage objects for all slides of a presentation with custom scaling.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
-**Returns:**
-java.awt.image.BufferedImage[] - BufferedImage objects.
 ### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
 ```
 public final IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
@@ -1414,24 +1360,6 @@ Returns a Thumbnail Image objects for all slides of a presentation with custom s
 
 **Returns:**
 com.aspose.slides.IImage[] - Image objects.
-### getThumbnails(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getThumbnails-com.aspose.slides.IRenderingOptions-int---float-float-}
-```
-public final BufferedImage[] getThumbnails(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
-```
-
-
-Returns a Thumbnail BufferedImage objects for specified slides of a presentation with custom scaling.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
-**Returns:**
-java.awt.image.BufferedImage[] - BufferedImage objects.
 ### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
@@ -1450,22 +1378,6 @@ Returns a Thumbnail Image objects for specified slides of a presentation with cu
 
 **Returns:**
 com.aspose.slides.IImage[] - Image objects.
-### getThumbnails(IRenderingOptions options, Dimension imageSize) {#getThumbnails-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
-```
-public final BufferedImage[] getThumbnails(IRenderingOptions options, Dimension imageSize)
-```
-
-
-Returns a Thumbnail BufferedImage objects for all slides of a presentation with specified size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
-| imageSize | java.awt.Dimension | Size of the image to create. |
-
-**Returns:**
-java.awt.image.BufferedImage[] - BufferedImage objects.
 ### getImages(IRenderingOptions options, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-java.awt.Dimension-}
 ```
 public final IImage[] getImages(IRenderingOptions options, Dimension imageSize)
@@ -1482,23 +1394,6 @@ Returns a Thumbnail Image objects for all slides of a presentation with specifie
 
 **Returns:**
 com.aspose.slides.IImage[] - Image objects.
-### getThumbnails(IRenderingOptions options, int[] slides, Dimension imageSize) {#getThumbnails-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-}
-```
-public final BufferedImage[] getThumbnails(IRenderingOptions options, int[] slides, Dimension imageSize)
-```
-
-
-Returns a Thumbnail BufferedImage objects for specified slides of a presentation with specified size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Tiff options. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| imageSize | java.awt.Dimension | Size of the image to create. |
-
-**Returns:**
-java.awt.image.BufferedImage[] - BufferedImage objects.
 ### getImages(IRenderingOptions options, int[] slides, Dimension imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---java.awt.Dimension-}
 ```
 public final IImage[] getImages(IRenderingOptions options, int[] slides, Dimension imageSize)

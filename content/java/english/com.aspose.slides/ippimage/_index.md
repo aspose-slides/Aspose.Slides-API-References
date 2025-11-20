@@ -14,14 +14,13 @@ Represents an image in a presentation.
 | Method | Description |
 | --- | --- |
 | [getBinaryData()](#getBinaryData--) | Returns the copy of an image's data. |
-| [getSystemImage()](#getSystemImage--) | Returns the copy of an image of the System.Drawing.Image type. |
 | [getImage()](#getImage--) | Returns the copy of an image. |
 | [getSvgImage()](#getSvgImage--) | Returns or sets ISvgImage object [ISvgImage](../../com.aspose.slides/isvgimage) |
 | [setSvgImage(ISvgImage value)](#setSvgImage-com.aspose.slides.ISvgImage-) | Returns or sets ISvgImage object [ISvgImage](../../com.aspose.slides/isvgimage) |
 | [replaceImage(byte[] newImageData)](#replaceImage-byte---) | Replaces image data. |
-| [replaceImage(IImage newImage)](#replaceImage-com.aspose.slides.IImage-) | Replaces image data. |
+| [replaceImage(IImage newImage)](#replaceImage-com.aspose.slides.IImage-) | Replaces image. |
 | [replaceImage(IPPImage newImage)](#replaceImage-com.aspose.slides.IPPImage-) | Replaces image. |
-| [getContentType()](#getContentType--) | Returns a MIME type of an image, encoded in (\#getBinaryData.getBinaryData). |
+| [getContentType()](#getContentType--) | Returns a MIME type of an image, encoded in \#getBinaryData.getBinaryData. |
 | [getWidth()](#getWidth--) | Returns a width of an image. |
 | [getHeight()](#getHeight--) | Returns a height of an image. |
 | [getX()](#getX--) | Returns a X-offset of an image. |
@@ -36,23 +35,13 @@ Returns the copy of an image's data. Read-only byte[].
 
 **Returns:**
 byte[]
-### getSystemImage() {#getSystemImage--}
-```
-public abstract BufferedImage getSystemImage()
-```
-
-
-Returns the copy of an image of the System.Drawing.Image type. Read-only BufferedImage.
-
-**Returns:**
-java.awt.image.BufferedImage
 ### getImage() {#getImage--}
 ```
 public abstract IImage getImage()
 ```
 
 
-Returns the copy of an image. Read-only  Image (\#getImage.getImage).
+Returns the copy of an image. Read-only \#getImage.getImage.
 
 **Returns:**
 [IImage](../../com.aspose.slides/iimage)
@@ -106,7 +95,7 @@ public abstract void replaceImage(IImage newImage)
 ```
 
 
-Replaces image data. Attention: when Image is metafile - it will be rasterized. Use replaceImage(byte[]) instead
+Replaces image. Attention: when Image is metafile - it will be rasterized. Use replaceImage(byte[]) instead
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,7 +121,7 @@ public abstract String getContentType()
 ```
 
 
-Returns a MIME type of an image, encoded in (\#getBinaryData.getBinaryData). Read-only String.
+Returns a MIME type of an image, encoded in \#getBinaryData.getBinaryData. Read-only String.
 
 **Returns:**
 java.lang.String

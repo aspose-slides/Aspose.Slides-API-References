@@ -70,6 +70,8 @@ Represents options that control how presentation should be saved to markdown.
 | [setHandleRepeatedSpaces(int value)](#setHandleRepeatedSpaces-int-) | Specifies how repeated regular space characters should be handled during Markdown export. |
 | [getRemoveEmptyLines()](#getRemoveEmptyLines--) | If set to true, removes empty or whitespace-only lines from the final Markdown output. |
 | [setRemoveEmptyLines(boolean value)](#setRemoveEmptyLines-boolean-) | If set to true, removes empty or whitespace-only lines from the final Markdown output. |
+| [setImageSaving(MarkdownSaveOptions.MarkdownImageSavingHandler event)](#setImageSaving-com.aspose.slides.MarkdownSaveOptions.MarkdownImageSavingHandler-) | Occurs for each non-SVG image (bitmap or metafile) during Markdown export. |
+| [setSvgImageSaving(MarkdownSaveOptions.MarkdownSvgImageSavingHandler event)](#setSvgImageSaving-com.aspose.slides.MarkdownSaveOptions.MarkdownSvgImageSavingHandler-) | Occurs for each SVG image during Markdown export. |
 ### MarkdownSaveOptions() {#MarkdownSaveOptions--}
 ```
 public MarkdownSaveOptions()
@@ -330,4 +332,30 @@ If set to true, removes empty or whitespace-only lines from the final Markdown o
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setImageSaving(MarkdownSaveOptions.MarkdownImageSavingHandler event) {#setImageSaving-com.aspose.slides.MarkdownSaveOptions.MarkdownImageSavingHandler-}
+```
+public final void setImageSaving(MarkdownSaveOptions.MarkdownImageSavingHandler event)
+```
+
+
+Occurs for each non-SVG image (bitmap or metafile) during Markdown export. Allows customizing how the image is saved and referenced. If not handled, the image is saved locally with a relative link.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| event | [MarkdownImageSavingHandler](../../com.aspose.slides/markdownimagesavinghandler) | Markdown image saving event. |
+
+### setSvgImageSaving(MarkdownSaveOptions.MarkdownSvgImageSavingHandler event) {#setSvgImageSaving-com.aspose.slides.MarkdownSaveOptions.MarkdownSvgImageSavingHandler-}
+```
+public final void setSvgImageSaving(MarkdownSaveOptions.MarkdownSvgImageSavingHandler event)
+```
+
+
+Occurs for each SVG image during Markdown export. Allows overriding the default saving and link generation. If not handled, the SVG is saved locally with a relative link.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| event | [MarkdownSvgImageSavingHandler](../../com.aspose.slides/markdownsvgimagesavinghandler) | Markdown SVG image saving event. |
 

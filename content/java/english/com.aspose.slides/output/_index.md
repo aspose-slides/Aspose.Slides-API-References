@@ -18,10 +18,9 @@ Represents a collection of output elements for IWebDocument.
 | --- | --- |
 | [<TContextObject>add(String path, String templateKey, TContextObject contextObject)](#-TContextObject-add-java.lang.String-java.lang.String-TContextObject-) | Adds an output element for the context object. |
 | [add(String path, IPPImage image)](#add-java.lang.String-com.aspose.slides.IPPImage-) | Adds an output element for the image. |
-| [add(String path, BufferedImage image)](#add-java.lang.String-java.awt.image.BufferedImage-) | Adds an output element for the image. |
 | [add(String path, IImage image)](#add-java.lang.String-com.aspose.slides.IImage-) | Adds an output element for the image. |
 | [add(String path, IVideo video)](#add-java.lang.String-com.aspose.slides.IVideo-) | Adds an output element for the video. |
-| [add(String path, IFontData fontData, int fontStyle)](#add-java.lang.String-com.aspose.slides.IFontData-int-) | Adds an output element for the font. |
+| [add(String path, IFontData fontData, int fontStyle)](#add-java.lang.String-com.aspose.slides.IFontData-int-) | Creates and adds an output file element for the specified font. |
 | [add(String path, String textContent)](#add-java.lang.String-java.lang.String-) | Adds an output element for the text content. |
 | [bindResource(IOutputFile outputFile, Object obj)](#bindResource-com.aspose.slides.IOutputFile-java.lang.Object-) | Binds resource to output file. |
 | [getResourcePath(Object obj)](#getResourcePath-java.lang.Object-) | Returns the path for a given resource. |
@@ -55,22 +54,6 @@ Adds an output element for the image.
 | --- | --- | --- |
 | path | java.lang.String | Output path. |
 | image | [IPPImage](../../com.aspose.slides/ippimage) | Image to output. |
-
-**Returns:**
-[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) object for the image.
-### add(String path, BufferedImage image) {#add-java.lang.String-java.awt.image.BufferedImage-}
-```
-public final IOutputFile add(String path, BufferedImage image)
-```
-
-
-Adds an output element for the image.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| path | java.lang.String | Output path. |
-| image | java.awt.image.BufferedImage | Image to output. |
 
 **Returns:**
 [IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) object for the image.
@@ -112,17 +95,17 @@ public final IOutputFile add(String path, IFontData fontData, int fontStyle)
 ```
 
 
-Adds an output element for the font.
+Creates and adds an output file element for the specified font.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| path | java.lang.String | Output path. |
-| fontData | [IFontData](../../com.aspose.slides/ifontdata) | Font to output. |
-| fontStyle | int | Font style ([FontStyleType](../../com.aspose.slides/fontstyletype)). |
+| path | java.lang.String | The file path where the font output will be saved. |
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | The font data to be written to the output. |
+| fontStyle | int | The style of the font (e.g., Regular, Bold, Italic). |
 
 **Returns:**
-[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) object for the font.
+[IOutputFile](../../com.aspose.slides/ioutputfile) - An [IOutputFile](../../com.aspose.slides/ioutputfile) instance for the generated font.
 ### add(String path, String textContent) {#add-java.lang.String-java.lang.String-}
 ```
 public final IOutputFile add(String path, String textContent)

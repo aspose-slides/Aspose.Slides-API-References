@@ -29,9 +29,7 @@ Represents a shape on a slide.
 | [getThreeDFormat()](#getThreeDFormat--) | Returns the ThreeDFormat object that contains line formatting properties for a shape. |
 | [getEffectFormat()](#getEffectFormat--) | Returns the EffectFormat object which contains pixel effects applied to a shape. |
 | [getFillFormat()](#getFillFormat--) | Returns the FillFormat object that contains fill formatting properties for a shape. |
-| [getThumbnail()](#getThumbnail--) | Returns shape thumbnail. |
 | [getImage()](#getImage--) | Returns shape thumbnail. |
-| [getThumbnail(int bounds, float scaleX, float scaleY)](#getThumbnail-int-float-float-) | Returns shape thumbnail. |
 | [getImage(int bounds, float scaleX, float scaleY)](#getImage-int-float-float-) | Returns shape thumbnail. |
 | [getHidden()](#getHidden--) | Determines whether the shape is hidden. |
 | [setHidden(boolean value)](#setHidden-boolean-) | Determines whether the shape is hidden. |
@@ -296,16 +294,6 @@ Returns the FillFormat object that contains fill formatting properties for a sha
 
 **Returns:**
 [IFillFormat](../../com.aspose.slides/ifillformat)
-### getThumbnail() {#getThumbnail--}
-```
-public abstract BufferedImage getThumbnail()
-```
-
-
-Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default.
-
-**Returns:**
-java.awt.image.BufferedImage - Shape thumbnail.
 ### getImage() {#getImage--}
 ```
 public abstract IImage getImage()
@@ -316,23 +304,6 @@ Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type 
 
 **Returns:**
 [IImage](../../com.aspose.slides/iimage) - Shape thumbnail.
-### getThumbnail(int bounds, float scaleX, float scaleY) {#getThumbnail-int-float-float-}
-```
-public abstract BufferedImage getThumbnail(int bounds, float scaleX, float scaleY)
-```
-
-
-Returns shape thumbnail.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bounds | int | Shape thumbnail bounds type. |
-| scaleX | float | X scale |
-| scaleY | float | Y scale |
-
-**Returns:**
-java.awt.image.BufferedImage - Shape thumbnail or null in case when ShapeThumbnailBounds.Appearance is used and a shape doesn't have visible elements.
 ### getImage(int bounds, float scaleX, float scaleY) {#getImage-int-float-float-}
 ```
 public abstract IImage getImage(int bounds, float scaleX, float scaleY)
@@ -413,7 +384,7 @@ public abstract void setRotation(float value)
 ```
 
 
-Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write float.
+Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write  float .
 
 --------------------
 

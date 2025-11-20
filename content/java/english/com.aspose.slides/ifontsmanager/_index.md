@@ -19,6 +19,7 @@ Manages fonts across the presentation.
 | [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
 | [getFonts()](#getFonts--) | Returns the fonts used in the presentation |
 | [getSubstitutions()](#getSubstitutions--) | Gets the information about fonts that will be replaced on the presentation's rendering. |
+| [getSubstitutions(int[] slides)](#getSubstitutions-int---) | Gets the information about fonts that will be replaced during rendering of the specified slides. |
 | [getEmbeddedFonts()](#getEmbeddedFonts--) | Returns the fonts embedded in the presentation |
 | [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Removes the embedded font |
 | [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Adds the embedded font. |
@@ -154,6 +155,36 @@ Gets the information about fonts that will be replaced on the presentation's ren
 
 **Returns:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Collection of all fonts substitution [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
+### getSubstitutions(int[] slides) {#getSubstitutions-int---}
+```
+public abstract System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions(int[] slides)
+```
+
+
+Gets the information about fonts that will be replaced during rendering of the specified slides.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      int[] targetSlides = { 1, 2, 5 };
+>      for (FontSubstitutionInfo fontSubstitution : pres.getFontsManager().getSubstitutions(targetSlides))
+>      {
+>          System.out.println(fontSubstitution.getOriginalFontName() + " -> " + fontSubstitution.getSubstitutedFontName());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| slides | int[] | An array of slide indexes for which to retrieve font substitution information, starting from 1. |
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - A collection of all font substitutions ([FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo)) for the specified slides.
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
 public abstract IFontData[] getEmbeddedFonts()

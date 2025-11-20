@@ -376,6 +376,7 @@ url: /com.aspose.slides/
 | [MathNaryOperatorTypes](../com.aspose.slides/mathnaryoperatortypes) | Nary operator IMathNaryOperator types (excluding integrals) For integrals [MathIntegralTypes](../com.aspose.slides/mathintegraltypes) |
 | [MathParagraph](../com.aspose.slides/mathparagraph) | Mathematical paragraph that is a container for mathematical blocks (IMathBlock) |
 | [MathParagraphFactory](../com.aspose.slides/mathparagraphfactory) | Allows to create a math paragraph |
+| [MathPhantom](../com.aspose.slides/mathphantom) | Represents a phantom math object (<m:phant>) that affects the layout of its child element without necessarily displaying it. |
 | [MathPortion](../com.aspose.slides/mathportion) | Represents a portion with mathematical context inside. |
 | [MathRadical](../com.aspose.slides/mathradical) | Specifies the radical function, consisting of a base, and an optional degree. |
 | [MathRadicalFactory](../com.aspose.slides/mathradicalfactory) | Allows to create math radical |
@@ -976,6 +977,7 @@ url: /com.aspose.slides/
 | [IMathNaryOperatorProperties](../com.aspose.slides/imathnaryoperatorproperties) | Specifies properties of IMathNaryOperator |
 | [IMathParagraph](../com.aspose.slides/imathparagraph) | Mathematical paragraph that is a container for mathematical blocks (IMathBlock) |
 | [IMathParagraphFactory](../com.aspose.slides/imathparagraphfactory) | Allows to create a math paragraph |
+| [IMathPhantom](../com.aspose.slides/imathphantom) | Represents a phantom math object (<m:phant>) that affects the layout of its child element without necessarily displaying it. |
 | [IMathPortion](../com.aspose.slides/imathportion) | Represents a portion with mathematical context inside. |
 | [IMathRadical](../com.aspose.slides/imathradical) | Specifies the radical function, consisting of a base, and an optional degree. |
 | [IMathRadicalFactory](../com.aspose.slides/imathradicalfactory) | Allows to create math radical |
@@ -997,7 +999,6 @@ url: /com.aspose.slides/
 | [INormalViewProperties](../com.aspose.slides/inormalviewproperties) | Represents normal view properties. |
 | [INormalViewRestoredProperties](../com.aspose.slides/inormalviewrestoredproperties) | Specifies the sizing of the slide region ((width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized). |
 | [INotImplementedWarningInfo](../com.aspose.slides/inotimplementedwarninginfo) | Represents a warning about known not implemented feature which won't be implemented in the near future. |
-| [INotesCommentsLayoutingOptions](../com.aspose.slides/inotescommentslayoutingoptions) | Provides options that control the look of layouting of notes and comments in exported document. |
 | [INotesSize](../com.aspose.slides/inotessize) | Represents a size of notes slide. |
 | [INotesSlide](../com.aspose.slides/inotesslide) | Represents a notes slide in a presentation. |
 | [INotesSlideHeaderFooterManager](../com.aspose.slides/inotesslideheaderfootermanager) | Represents manager which holds behavior of the notes slide placeholders, including header placeholder. |
