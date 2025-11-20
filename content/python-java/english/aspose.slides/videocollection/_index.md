@@ -34,25 +34,6 @@ url: /aspose.slides/videocollection/
 
 | Name | Description |
 | --- | --- |
-| addVideoFromBytes (Bytes[]) | Creates and adds a video to a presentation from stream. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| stream | Bytes[] | Stream to add video file from. |
-
- **Returns:**
-[Video](../video)
-
-
----
-
-
-### addVideoFromBytes  {#addVideoFromBytes }
-
-| Name | Description |
-| --- | --- |
 | addVideoFromBytes (Bytes[], int) | Creates and adds a video to a presentation from stream. |
 
  **Parameters:**

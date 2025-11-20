@@ -58,7 +58,7 @@ url: /aspose.slides/errorbarsformat/
 | getSlide() | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
  **Returns:**
-[Slide](../slide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide), [BaseSlide](../baseslide), [MasterNotesSlide](../masternotesslide)
+[MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [LayoutSlide](../layoutslide), [MasterSlide](../masterslide), [NotesSlide](../notesslide), [BaseSlide](../baseslide), [Slide](../slide)
 
 
 ---

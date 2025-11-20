@@ -9,7 +9,7 @@ url: /aspose.slides/textsearchoptions/
 
 ## TextSearchOptions class
 
- Represents options which can be used to find text in Presentation, Slide or TextFrame.
+ Represents options that can be used to search for text in a Presentation, Slide or TextFrame.
  
 ### TextSearchOptions {#TextSearchOptions}
 
@@ -37,6 +37,19 @@ boolean
 ---
 
 
+### getIncludeNotes {#getIncludeNotes}
+
+| Name | Description |
+| --- | --- |
+| getIncludeNotes() | Set true to include text contained in slide notes ( NotesSlide) when performing text search, replacement, or highlighting operations. The default value is false. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getWholeWordsOnly {#getWholeWordsOnly}
 
 | Name | Description |
@@ -55,6 +68,16 @@ boolean
 | Name | Description |
 | --- | --- |
 | setCaseSensitive(boolean) | Set true to use case-sensitive search, false - otherwise. Read/write boolean. |
+
+
+---
+
+
+### setIncludeNotes {#setIncludeNotes}
+
+| Name | Description |
+| --- | --- |
+| setIncludeNotes(boolean) | Set true to include text contained in slide notes ( NotesSlide) when performing text search, replacement, or highlighting operations. The default value is false. |
 
 
 ---

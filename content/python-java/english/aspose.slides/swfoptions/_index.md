@@ -89,19 +89,6 @@ String
 ---
 
 
-### getNotesCommentsLayouting {#getNotesCommentsLayouting}
-
-| Name | Description |
-| --- | --- |
-| getNotesCommentsLayouting() | Provides options that control how notes and comments is placed in exported document. |
-
- **Returns:**
-[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
-
-
----
-
-
 ### getShowBottomPane {#getShowBottomPane}
 
 | Name | Description |
@@ -201,6 +188,19 @@ boolean
 
  **Returns:**
 boolean
+
+
+---
+
+
+### getSlidesLayoutOptions {#getSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| getSlidesLayoutOptions() | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. This property doesn't support assigning objects of type HandoutLayoutingOptions |
+
+ **Returns:**
+[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), [HandoutLayoutingOptions](../handoutlayoutingoptions)
 
 
 ---
@@ -357,6 +357,26 @@ boolean
 | Name | Description |
 | --- | --- |
 | setShowTopPane(boolean) | Show/hide whole top pane. Can be overridden in flashvars. Default is true. |
+
+
+---
+
+
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| setSlidesLayoutOptions([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. This property doesn't support assigning objects of type HandoutLayoutingOptions. |
+
+
+---
+
+
+### setSlidesLayoutOptions {#setSlidesLayoutOptions}
+
+| Name | Description |
+| --- | --- |
+| setSlidesLayoutOptions([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. This property doesn't support assigning objects of type HandoutLayoutingOptions. |
 
 
 ---

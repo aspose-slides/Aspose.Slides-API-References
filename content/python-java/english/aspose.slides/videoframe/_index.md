@@ -11,6 +11,19 @@ url: /aspose.slides/videoframe/
 
   Represents a video clip on a slide.
  
+### getCaptionTracks {#getCaptionTracks}
+
+| Name | Description |
+| --- | --- |
+| getCaptionTracks() | Gets the collection of closed captions associated with the video frame. This property is read-only and returns an ICaptionsCollection containing all caption tracks. |
+
+ **Returns:**
+[CaptionsCollection](../captionscollection)
+
+
+---
+
+
 ### getEmbeddedVideo {#getEmbeddedVideo}
 
 | Name | Description |

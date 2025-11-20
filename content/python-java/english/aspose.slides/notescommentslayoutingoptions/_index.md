@@ -28,7 +28,7 @@ NotesCommentsLayoutingOptions
 
 | Name | Description |
 | --- | --- |
-| getCommentsAreaColor() | Gets or sets the color of comments area (Applies only if comments are displayed on the right). Default is java.awt.Color#BLUE. |
+| getCommentsAreaColor() | Gets or sets the color of comments area (Applies only if comments are displayed on the right). Default is Color.SkyBlue. |
 
  **Returns:**
 Color
@@ -54,7 +54,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCommentsPosition() | Gets or sets the position of the comments on the page. Default is CommentsPositions#None. |
+| getCommentsPosition() | Gets or sets the position of the comments on the page. Default is CommentsPositions.None. |
 
  **Returns:**
 int
@@ -67,7 +67,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getNotesPosition() | Gets or sets the position of the notes on the page. Default is NotesPositions#None. |
+| getNotesPosition() | Gets or sets the position of the notes on the page. Default is NotesPositions.None. |
 
  **Returns:**
 int
@@ -93,7 +93,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCommentsAreaColor(Color) | Gets or sets the color of comments area (Applies only if comments are displayed on the right). Default is java.awt.Color#BLUE. |
+| setCommentsAreaColor(Color) | Gets or sets the color of comments area (Applies only if comments are displayed on the right). Default is Color.SkyBlue. |
 
 
 ---
@@ -113,7 +113,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setCommentsPosition(int) | Gets or sets the position of the comments on the page. Default is CommentsPositions#None. |
+| setCommentsPosition(int) | Gets or sets the position of the comments on the page. Default is CommentsPositions.None. |
 
 
 ---
@@ -123,7 +123,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| setNotesPosition(int) | Gets or sets the position of the notes on the page. Default is NotesPositions#None. |
+| setNotesPosition(int) | Gets or sets the position of the notes on the page. Default is NotesPositions.None. |
 
 
 ---

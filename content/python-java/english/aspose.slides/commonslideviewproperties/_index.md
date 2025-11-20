@@ -11,6 +11,19 @@ url: /aspose.slides/commonslideviewproperties/
 
  Represents common slide view properties.
  
+### getDrawingGuides {#getDrawingGuides}
+
+| Name | Description |
+| --- | --- |
+| getDrawingGuides() | Returns the collection of the drawing guides. Read-only IDrawingGuidesCollection |
+
+ **Returns:**
+[DrawingGuidesCollection](../drawingguidescollection)
+
+
+---
+
+
 ### getScale {#getScale}
 
 | Name | Description |

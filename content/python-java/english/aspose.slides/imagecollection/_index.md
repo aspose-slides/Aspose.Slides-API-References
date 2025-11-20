@@ -34,25 +34,6 @@ url: /aspose.slides/imagecollection/
 
 | Name | Description |
 | --- | --- |
-| addImage(BufferedImage) | Add an image to a presentation. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| image | BufferedImage | Image to add. This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation. |
-
- **Returns:**
-[PPImage](../ppimage)
-
-
----
-
-
-### addImage {#addImage}
-
-| Name | Description |
-| --- | --- |
 | addImage([IImage](../iimage)) | Add an image to a presentation. |
 
  **Parameters:**

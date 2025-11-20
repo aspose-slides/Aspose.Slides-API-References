@@ -18,7 +18,7 @@ url: /aspose.slides/hyperlinkqueries/
 | getAnyHyperlinks() | Get all IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
 
  **Returns:**
-List, ReadOnlyCollection, [BehaviorPropertyCollection](../behaviorpropertycollection), Collection, KeyedCollection
+[BehaviorPropertyCollection](../behaviorpropertycollection), List, KeyedCollection, Collection, ReadOnlyCollection
 
 
 ---
@@ -31,7 +31,7 @@ List, ReadOnlyCollection, [BehaviorPropertyCollection](../behaviorpropertycollec
 | getHyperlinkClicks() | Get all IHyperlinkContainer subobjects that contain not null HyperlinkClick. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
 
  **Returns:**
-List, ReadOnlyCollection, [BehaviorPropertyCollection](../behaviorpropertycollection), Collection, KeyedCollection
+[BehaviorPropertyCollection](../behaviorpropertycollection), List, KeyedCollection, Collection, ReadOnlyCollection
 
 
 ---
@@ -44,7 +44,7 @@ List, ReadOnlyCollection, [BehaviorPropertyCollection](../behaviorpropertycollec
 | getHyperlinkMouseOvers() | Get all IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
 
  **Returns:**
-List, ReadOnlyCollection, [BehaviorPropertyCollection](../behaviorpropertycollection), Collection, KeyedCollection
+[BehaviorPropertyCollection](../behaviorpropertycollection), List, KeyedCollection, Collection, ReadOnlyCollection
 
 
 ---

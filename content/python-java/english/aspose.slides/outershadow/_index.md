@@ -34,7 +34,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getBlurRadius() | Blur radius. Read/write double. |
+| getBlurRadius() | Blur radius, in points. Default value - 0 pt. Read/write double. |
 
  **Returns:**
 double
@@ -47,7 +47,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getDirection() | Direction of shadow. Read/write float. |
+| getDirection() | Direction of the shadow, in degrees. Default value - 0 &deg; (left-to-right). Read/write float. |
 
  **Returns:**
 float
@@ -60,7 +60,7 @@ float
 
 | Name | Description |
 | --- | --- |
-| getDistance() | Distance of shadow. Read/write double. |
+| getDistance() | Distance of the shadow from the object, in points. Default value - 0 pt. Read/write double. |
 
  **Returns:**
 double
@@ -96,7 +96,7 @@ OuterShadowEffectiveData
 
 | Name | Description |
 | --- | --- |
-| getRectangleAlign() | Rectangle alignment. Read/write RectangleAlignment. |
+| getRectangleAlign() | Rectangle alignment. Default value - RectangleAlignment#Bottom. Read/write RectangleAlignment. |
 
  **Returns:**
 byte
@@ -109,7 +109,7 @@ byte
 
 | Name | Description |
 | --- | --- |
-| getRotateShadowWithShape() | Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write boolean. |
+| getRotateShadowWithShape() | Indicates whether the shadow rotates together with the shape. Default value - true. Read/write boolean. |
 
  **Returns:**
 boolean
@@ -122,7 +122,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getScaleHorizontal() | Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write double. |
+| getScaleHorizontal() | Horizontal scaling factor, in percent of the original size. Negative scaling causes a flip. Default value - 100 %. Read/write double. |
 
  **Returns:**
 double
@@ -135,7 +135,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getScaleVertical() | Specifies the vertical scaling factor, negative scaling causes a flip. Read/write double. |
+| getScaleVertical() | Vertical scaling factor, in percent of the original size. Negative scaling causes a flip. Default value - 100 %. Read/write double. |
 
  **Returns:**
 double
@@ -148,7 +148,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getShadowColor() | Color of shadow. Read-only IColorFormat. |
+| getShadowColor() | Color of the shadow. Default value - automatic black (theme-dependent). Read-only IColorFormat. |
 
  **Returns:**
 [ColorFormat](../colorformat)
@@ -161,7 +161,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getSkewHorizontal() | Specifies the horizontal skew angle (in degrees). Read/write double. |
+| getSkewHorizontal() | Horizontal skew angle, in degrees. Default value - 0 &deg;. Read/write double. |
 
  **Returns:**
 double
@@ -174,7 +174,7 @@ double
 
 | Name | Description |
 | --- | --- |
-| getSkewVertical() | Specifies the vertical skew angle (in degrees). Read/write double. |
+| getSkewVertical() | Vertical skew angle, in degrees. Default value - 0 &deg;. Read/write double. |
 
  **Returns:**
 double
@@ -213,7 +213,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setBlurRadius(double) | Blur radius. Read/write double. |
+| setBlurRadius(double) | Blur radius, in points. Default value - 0 pt. Read/write double. |
 
 
 ---
@@ -223,7 +223,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setDirection(float) | Direction of shadow. Read/write float. |
+| setDirection(float) | Direction of the shadow, in degrees. Default value - 0 &deg; (left-to-right). Read/write float. |
 
 
 ---
@@ -233,7 +233,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setDistance(double) | Distance of shadow. Read/write double. |
+| setDistance(double) | Distance of the shadow from the object, in points. Default value - 0 pt. Read/write double. |
 
 
 ---
@@ -243,7 +243,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setRectangleAlign(byte) | Rectangle alignment. Read/write RectangleAlignment. |
+| setRectangleAlign(byte) | Rectangle alignment. Default value - RectangleAlignment#Bottom. Read/write RectangleAlignment. |
 
 
 ---
@@ -253,7 +253,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setRotateShadowWithShape(boolean) | Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write boolean. |
+| setRotateShadowWithShape(boolean) | Indicates whether the shadow rotates together with the shape. Default value - true. Read/write boolean. |
 
 
 ---
@@ -263,7 +263,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setScaleHorizontal(double) | Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write double. |
+| setScaleHorizontal(double) | Horizontal scaling factor, in percent of the original size. Negative scaling causes a flip. Default value - 100 %. Read/write double. |
 
 
 ---
@@ -273,7 +273,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setScaleVertical(double) | Specifies the vertical scaling factor, negative scaling causes a flip. Read/write double. |
+| setScaleVertical(double) | Vertical scaling factor, in percent of the original size. Negative scaling causes a flip. Default value - 100 %. Read/write double. |
 
 
 ---
@@ -283,7 +283,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setSkewHorizontal(double) | Specifies the horizontal skew angle (in degrees). Read/write double. |
+| setSkewHorizontal(double) | Horizontal skew angle, in degrees. Default value - 0 &deg;. Read/write double. |
 
 
 ---
@@ -293,7 +293,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setSkewVertical(double) | Specifies the vertical skew angle (in degrees). Read/write double. |
+| setSkewVertical(double) | Vertical skew angle, in degrees. Default value - 0 &deg;. Read/write double. |
 
 
 ---

@@ -17,11 +17,11 @@ url: /aspose.slides/pathfillmodetype/
 | Name | Value | Description |
 | --- | --- | --- |
 [None](#None) | 0 | No Path Fill This specifies that the corresponding path should have no fill. |
-[Normal](#Normal) | 1 | Normal Path Fill This specifies that the corresponding path should have a normally shaded color applied to it’s fill. |
-[Lighten](#Lighten) | 2 | Lighten Path Fill This specifies that the corresponding path should have a lightly shaded color applied to it’s fill. |
-[LightenLess](#LightenLess) | 3 | Lighten Path Fill Less This specifies that the corresponding path should have a slightly lighter shaded color applied to it’s fill. |
-[Darken](#Darken) | 4 | Darken Path Fill This specifies that the corresponding path should have a darker shaded color applied to it’s fill. |
-[DarkenLess](#DarkenLess) | 5 | Darken Path Fill Less This specifies that the corresponding path should have a slightly darker shaded color applied to it’s fill. |
+[Normal](#Normal) | 1 | Normal Path Fill This specifies that the corresponding path should have a normally shaded color applied to it&#39s fill. |
+[Lighten](#Lighten) | 2 | Lighten Path Fill This specifies that the corresponding path should have a lightly shaded color applied to it&#39s fill. |
+[LightenLess](#LightenLess) | 3 | Lighten Path Fill Less This specifies that the corresponding path should have a slightly lighter shaded color applied to it&#39s fill. |
+[Darken](#Darken) | 4 | Darken Path Fill This specifies that the corresponding path should have a darker shaded color applied to it&#39s fill. |
+[DarkenLess](#DarkenLess) | 5 | Darken Path Fill Less This specifies that the corresponding path should have a slightly darker shaded color applied to it&#39s fill. |
 
 
 ---
@@ -33,27 +33,27 @@ No Path Fill This specifies that the corresponding path should have no fill.
 ---
 
 ### Normal {#Normal}
-Normal Path Fill This specifies that the corresponding path should have a normally shaded color applied to it’s fill.
+Normal Path Fill This specifies that the corresponding path should have a normally shaded color applied to it&#39s fill.
 
 ---
 
 ### Lighten {#Lighten}
-Lighten Path Fill This specifies that the corresponding path should have a lightly shaded color applied to it’s fill.
+Lighten Path Fill This specifies that the corresponding path should have a lightly shaded color applied to it&#39s fill.
 
 ---
 
 ### LightenLess {#LightenLess}
-Lighten Path Fill Less This specifies that the corresponding path should have a slightly lighter shaded color applied to it’s fill.
+Lighten Path Fill Less This specifies that the corresponding path should have a slightly lighter shaded color applied to it&#39s fill.
 
 ---
 
 ### Darken {#Darken}
-Darken Path Fill This specifies that the corresponding path should have a darker shaded color applied to it’s fill.
+Darken Path Fill This specifies that the corresponding path should have a darker shaded color applied to it&#39s fill.
 
 ---
 
 ### DarkenLess {#DarkenLess}
-Darken Path Fill Less This specifies that the corresponding path should have a slightly darker shaded color applied to it’s fill.
+Darken Path Fill Less This specifies that the corresponding path should have a slightly darker shaded color applied to it&#39s fill.
 
 ---
 

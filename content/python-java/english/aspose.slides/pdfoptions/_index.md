@@ -141,6 +141,19 @@ Color
 ---
 
 
+### getIncludeOleData {#getIncludeOleData}
+
+| Name | Description |
+| --- | --- |
+| getIncludeOleData() | True to convert all OLE data from the presentation to embedded files in the resulting PDF. Read/write boolean. Default is false. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getInkOptions {#getInkOptions}
 
 | Name | Description |
@@ -162,19 +175,6 @@ Color
 
  **Returns:**
 byte
-
-
----
-
-
-### getNotesCommentsLayouting {#getNotesCommentsLayouting}
-
-| Name | Description |
-| --- | --- |
-| getNotesCommentsLayouting() | Provides options that control how notes and comments is placed in exported document. |
-
- **Returns:**
-[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 
 ---
@@ -239,7 +239,7 @@ boolean
 | getSlidesLayoutOptions() | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
  **Returns:**
-[HandoutLayoutingOptions](../handoutlayoutingoptions), [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
+[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), [HandoutLayoutingOptions](../handoutlayoutingoptions)
 
 
 ---
@@ -361,6 +361,16 @@ int
 ---
 
 
+### setIncludeOleData {#setIncludeOleData}
+
+| Name | Description |
+| --- | --- |
+| setIncludeOleData(boolean) | True to convert all OLE data from the presentation to embedded files in the resulting PDF. Read/write boolean. Default is false. |
+
+
+---
+
+
 ### setJpegQuality {#setJpegQuality}
 
 | Name | Description |
@@ -415,7 +425,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setSlidesLayoutOptions([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+| setSlidesLayoutOptions([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
 
 ---
@@ -425,7 +435,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setSlidesLayoutOptions([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
+| setSlidesLayoutOptions([HandoutLayoutingOptions](../handoutlayoutingoptions)) | Gets or sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions. |
 
 
 ---

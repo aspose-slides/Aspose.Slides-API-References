@@ -37,6 +37,19 @@ int
 ---
 
 
+### getRefreshThumbnail {#getRefreshThumbnail}
+
+| Name | Description |
+| --- | --- |
+| getRefreshThumbnail() | Specifies whether the presentation thumbnail will be refreshed. Read/write boolean. Default value is true. When the option value is true, the new thumbnail will be generated. When the option value is false, the current thumbnail will be saved as is. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getZip64Mode {#getZip64Mode}
 
 | Name | Description |
@@ -55,6 +68,16 @@ int
 | Name | Description |
 | --- | --- |
 | setConformance(int) | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
+
+
+---
+
+
+### setRefreshThumbnail {#setRefreshThumbnail}
+
+| Name | Description |
+| --- | --- |
+| setRefreshThumbnail(boolean) | Specifies whether the presentation thumbnail will be refreshed. Read/write boolean. Default value is true. When the option value is true, the new thumbnail will be generated. When the option value is false, the current thumbnail will be saved as is. |
 
 
 ---

@@ -126,14 +126,14 @@ url: /aspose.slides/slidecollection/
 
 | Name | Description |
 | --- | --- |
-| addFromHtml(String, [HtmlExternalResolver](../htmlexternalresolver), String) | Creates slides from HTML text and adds them to the end of the collection. |
+| addFromHtml(String, [ExternalResourceResolver](../externalresourceresolver), String) | Creates slides from HTML text and adds them to the end of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | htmlText | String | Html to add. |
-| resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
  **Returns:**
@@ -147,14 +147,14 @@ url: /aspose.slides/slidecollection/
 
 | Name | Description |
 | --- | --- |
-| addFromHtml(String, [ExternalResourceResolver](../externalresourceresolver), String) | Creates slides from HTML text and adds them to the end of the collection. |
+| addFromHtml(String, [HtmlExternalResolver](../htmlexternalresolver), String) | Creates slides from HTML text and adds them to the end of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | htmlText | String | Html to add. |
-| resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
  **Returns:**
@@ -187,14 +187,14 @@ url: /aspose.slides/slidecollection/
 
 | Name | Description |
 | --- | --- |
-| addFromHtmlFromBytes (Bytes[], [HtmlExternalResolver](../htmlexternalresolver), String) | Creates slides from HTML text and adds them to the end of the collection. |
+| addFromHtmlFromBytes (Bytes[], [ExternalResourceResolver](../externalresourceresolver), String) | Creates slides from HTML text and adds them to the end of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | htmlStream | Bytes[] | A Stream object which will be used as a source of a HTML file. |
-| resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
  **Returns:**
@@ -208,14 +208,14 @@ url: /aspose.slides/slidecollection/
 
 | Name | Description |
 | --- | --- |
-| addFromHtmlFromBytes (Bytes[], [ExternalResourceResolver](../externalresourceresolver), String) | Creates slides from HTML text and adds them to the end of the collection. |
+| addFromHtmlFromBytes (Bytes[], [HtmlExternalResolver](../htmlexternalresolver), String) | Creates slides from HTML text and adds them to the end of the collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | htmlStream | Bytes[] | A Stream object which will be used as a source of a HTML file. |
-| resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
  **Returns:**
@@ -460,6 +460,28 @@ int
 
 | Name | Description |
 | --- | --- |
+| insertFromHtml(int, String, [ExternalResourceResolver](../externalresourceresolver), String) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Position to insert. |
+| htmlText | String | Html to add. |
+| resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
+
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtml {#insertFromHtml}
+
+| Name | Description |
+| --- | --- |
 | insertFromHtml(int, String, [HtmlExternalResolver](../htmlexternalresolver), String) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
  **Parameters:**
@@ -482,7 +504,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| insertFromHtml(int, String, [ExternalResourceResolver](../externalresourceresolver), String) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| insertFromHtml(int, String, [ExternalResourceResolver](../externalresourceresolver), String, boolean) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
  **Parameters:**
 
@@ -492,6 +514,30 @@ int
 | htmlText | String | Html to add. |
 | resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
+
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtml {#insertFromHtml}
+
+| Name | Description |
+| --- | --- |
+| insertFromHtml(int, String, [HtmlExternalResolver](../htmlexternalresolver), String, boolean) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Position to insert. |
+| htmlText | String | Html to add. |
+| resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
 
  **Returns:**
 [Slide](../slide)
@@ -520,20 +566,19 @@ int
 ---
 
 
-### insertFromHtmlFromBytes  {#insertFromHtmlFromBytes }
+### insertFromHtml {#insertFromHtml}
 
 | Name | Description |
 | --- | --- |
-| insertFromHtmlFromBytes (int, Bytes[], [HtmlExternalResolver](../htmlexternalresolver), String) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+| insertFromHtml(int, String, boolean) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Position to insert. |
-| htmlStream | Bytes[] | A Stream object which will be used as a source of a HTML file. |
-| resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
-| uri | String | An URI of the specified HTML. Used to resolve relative links. |
+| htmlText | String | Html to add. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
 
  **Returns:**
 [Slide](../slide)
@@ -568,6 +613,74 @@ int
 
 | Name | Description |
 | --- | --- |
+| insertFromHtmlFromBytes (int, Bytes[], [HtmlExternalResolver](../htmlexternalresolver), String) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Position to insert. |
+| htmlStream | Bytes[] | A Stream object which will be used as a source of a HTML file. |
+| resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
+
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtmlFromBytes  {#insertFromHtmlFromBytes }
+
+| Name | Description |
+| --- | --- |
+| insertFromHtmlFromBytes (int, Bytes[], [ExternalResourceResolver](../externalresourceresolver), String, boolean) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Position to insert. |
+| htmlStream | Bytes[] | A Stream object which will be used as a source of a HTML file. |
+| resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
+
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtmlFromBytes  {#insertFromHtmlFromBytes }
+
+| Name | Description |
+| --- | --- |
+| insertFromHtmlFromBytes (int, Bytes[], [HtmlExternalResolver](../htmlexternalresolver), String, boolean) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Position to insert. |
+| htmlStream | Bytes[] | A Stream object which will be used as a source of a HTML file. |
+| resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
+| uri | String | An URI of the specified HTML. Used to resolve relative links. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
+
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtmlFromBytes  {#insertFromHtmlFromBytes }
+
+| Name | Description |
+| --- | --- |
 | insertFromHtmlFromBytes (int, Bytes[]) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
  **Parameters:**
@@ -576,6 +689,27 @@ int
 | --- | --- | --- |
 | index | int | Position to insert. |
 | htmlStream | Bytes[] | A Stream object which will be used as a source of a HTML file. |
+
+ **Returns:**
+[Slide](../slide)
+
+
+---
+
+
+### insertFromHtmlFromBytes  {#insertFromHtmlFromBytes }
+
+| Name | Description |
+| --- | --- |
+| insertFromHtmlFromBytes (int, Bytes[], boolean) | Creates slides from HTML text and inserts them to the collection at the specified position. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Position to insert. |
+| htmlStream | Bytes[] | A Stream object which will be used as a source of a HTML file. |
+| useSlideWithIndexAsStart | boolean | This flag determines how to start insertion: from a new slide or from the slide with the specified index. If true, then data insertion will start from an empty space on the slide with the specified index. If false, then data will be added to the created slides. |
 
  **Returns:**
 [Slide](../slide)

@@ -37,6 +37,32 @@ url: /aspose.slides/textframe/
 ---
 
 
+### getParentCell {#getParentCell}
+
+| Name | Description |
+| --- | --- |
+| getParentCell() | Returns the parent cell or null if the parent object does not implement the ICell interface. Read-only ICell. |
+
+ **Returns:**
+[Cell](../cell)
+
+
+---
+
+
+### getParentShape {#getParentShape}
+
+| Name | Description |
+| --- | --- |
+| getParentShape() | Returns the parent shape or null if the parent object does not implement the IShape interface Read-only IShape. |
+
+ **Returns:**
+[PictureFrame](../pictureframe), [SmartArt](../smartart), [OleObjectFrame](../oleobjectframe), [AutoShape](../autoshape), [SummaryZoomSection](../summaryzoomsection), [Connector](../connector), [Ink](../ink), [VideoFrame](../videoframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [ZoomFrame](../zoomframe), [GeometryShape](../geometryshape), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [InkActions](../inkactions), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [Shape](../shape), [ZoomObject](../zoomobject), [GroupShape](../groupshape), [Table](../table)
+
+
+---
+
+
 ### getPresentation {#getPresentation}
 
 | Name | Description |
@@ -57,7 +83,7 @@ url: /aspose.slides/textframe/
 | getSlide() | Returns the parent slide of a TextFrame. Read-only IBaseSlide. |
 
  **Returns:**
-[Slide](../slide), [MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide), [BaseSlide](../baseslide), [MasterNotesSlide](../masternotesslide)
+[MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [LayoutSlide](../layoutslide), [MasterSlide](../masterslide), [NotesSlide](../notesslide), [BaseSlide](../baseslide), [Slide](../slide)
 
 
 ---
@@ -93,14 +119,14 @@ String
 
 | Name | Description |
 | --- | --- |
-| highlightRegex(String, Color, [TextHighlightingOptions](../texthighlightingoptions)) | Highlight all matches of regular expression in text frame text using specified color. |
+| highlightRegex(String, Color, [TextHighlightingOptions](../texthighlightingoptions)) | Highlights all matches of the regular expression with the specified color. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | regex | String | Text of regular expression to get text to highlight. |
-| highlightColor | Color | Highlighting color. |
+| highlightColor | Color | The color to highlight the text. |
 | options | [TextHighlightingOptions](../texthighlightingoptions) | Highlighting options. |
 
 
@@ -111,15 +137,15 @@ String
 
 | Name | Description |
 | --- | --- |
-| highlightRegex(Pattern, Color, [IFindResultCallback](../ifindresultcallback)) | Highlight all matches of regular expression in text frame text using specified color. |
+| highlightRegex(Pattern, Color, [IFindResultCallback](../ifindresultcallback)) | Highlights all matches of the regular expression with the specified color. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| regex | Pattern | The regular expression java.util.regex.Pattern to get strings to be replaced. |
-| highlightColor | Color | Highlighting color. |
-| callback | [IFindResultCallback](../ifindresultcallback) | Callback object for saving replacement operation result IFindResultCallback. |
+| regex | Pattern | The regular expression java.util.regex.Pattern to get strings to highlight. |
+| highlightColor | Color | The color to highlight the text. |
+| callback | [IFindResultCallback](../ifindresultcallback) | The callback object for receiving search results IFindResultCallback. |
 
 
 ---
@@ -129,14 +155,14 @@ String
 
 | Name | Description |
 | --- | --- |
-| highlightText(String, Color) | Highlight all matches of sample in text frame text using specified color. |
+| highlightText(String, Color) | Highlights all matches of the sample text with the specified color. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | text | String | Text sample to highlight. |
-| highlightColor | Color | Highlighting color. |
+| highlightColor | Color | The color to highlight the text. |
 
 
 ---
@@ -146,14 +172,14 @@ String
 
 | Name | Description |
 | --- | --- |
-| highlightText(String, Color, [TextHighlightingOptions](../texthighlightingoptions)) | Highlight all matches of sample in text frame text using specified color. |
+| highlightText(String, Color, [TextHighlightingOptions](../texthighlightingoptions)) | Highlights all matches of the sample text with the specified color. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| text | String | Text sample to highlight. |
-| highlightColor | Color | Highlighting color. |
+| text | String | The text to highlight. |
+| highlightColor | Color | The color to highlight the text. |
 | options | [TextHighlightingOptions](../texthighlightingoptions) | Highlighting options. |
 
 
@@ -164,16 +190,16 @@ String
 
 | Name | Description |
 | --- | --- |
-| highlightText(String, Color, [TextSearchOptions](../textsearchoptions), [IFindResultCallback](../ifindresultcallback)) | Highlight all matches of sample in text frame text using specified color. |
+| highlightText(String, Color, [TextSearchOptions](../textsearchoptions), [IFindResultCallback](../ifindresultcallback)) | Highlights all matches of the sample text with the specified color. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| text | String | Text sample to highlight. |
-| highlightColor | Color | Highlighting color. |
+| text | String | The text to highlight. |
+| highlightColor | Color | The color to highlight the text. |
 | options | [TextSearchOptions](../textsearchoptions) | Text search options ITextSearchOptions. |
-| callback | [IFindResultCallback](../ifindresultcallback) | Callback object for saving replacement operation result IFindResultCallback. |
+| callback | [IFindResultCallback](../ifindresultcallback) | The callback object for receiving search results IFindResultCallback. |
 
 
 ---
@@ -231,6 +257,19 @@ String
 | Name | Description |
 | --- | --- |
 | setText(String) | Gets or sets the plain text for a TextFrame. Read/write String. Value: The text. |
+
+
+---
+
+
+### splitTextByColumns {#splitTextByColumns}
+
+| Name | Description |
+| --- | --- |
+| splitTextByColumns() | Splits the text content of the ITextFrame into an array of strings, where each element corresponds to a separate text column within the frame. |
+
+ **Returns:**
+String
 
 
 ---

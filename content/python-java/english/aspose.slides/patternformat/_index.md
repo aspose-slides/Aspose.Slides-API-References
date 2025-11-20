@@ -89,45 +89,6 @@ SlidesImage
 ---
 
 
-### getTileImage {#getTileImage}
-
-| Name | Description |
-| --- | --- |
-| getTileImage(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| background | Color | The background java.awt.Color for the pattern. |
-| foreground | Color | The foreground java.awt.Color for the pattern. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
-### getTileImage {#getTileImage}
-
-| Name | Description |
-| --- | --- |
-| getTileImage(Color) | Creates a tile image for the pattern fill. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| styleColor | Color | The default java.awt.Color, defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
 ### getVersion {#getVersion}
 
 | Name | Description |

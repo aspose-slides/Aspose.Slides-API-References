@@ -69,6 +69,19 @@ boolean
 ---
 
 
+### getDuration {#getDuration}
+
+| Name | Description |
+| --- | --- |
+| getDuration() | Gets or sets the duration of the slide transition effect in milliseconds. Read/write int. Corresponds to the p14:dur attribute of the p:transition element in the PresentationML schema. If not set, the duration is determined automatically based on the Speed( #getSpeed/ #setSpeed(int)) property and the transition type. |
+
+ **Returns:**
+int
+
+
+---
+
+
 ### getSound {#getSound}
 
 | Name | Description |
@@ -173,7 +186,7 @@ int
 | getValue() | Slide show transition value. Read-only ITransitionValueBase. |
 
  **Returns:**
-[RevealTransition](../revealtransition), [GlitterTransition](../glittertransition), [SplitTransition](../splittransition), [WheelTransition](../wheeltransition), [TransitionValueBase](../transitionvaluebase), [OptionalBlackTransition](../optionalblacktransition), [MorphTransition](../morphtransition), [RippleTransition](../rippletransition), [SideDirectionTransition](../sidedirectiontransition), [EmptyTransition](../emptytransition), [LeftRightDirectionTransition](../leftrightdirectiontransition), [CornerDirectionTransition](../cornerdirectiontransition), [ShredTransition](../shredtransition), [InOutTransition](../inouttransition), [EightDirectionTransition](../eightdirectiontransition), [FlyThroughTransition](../flythroughtransition), [OrientationTransition](../orientationtransition)
+[ShredTransition](../shredtransition), [CornerDirectionTransition](../cornerdirectiontransition), [SideDirectionTransition](../sidedirectiontransition), [TransitionValueBase](../transitionvaluebase), [EightDirectionTransition](../eightdirectiontransition), [InOutTransition](../inouttransition), [GlitterTransition](../glittertransition), [EmptyTransition](../emptytransition), [FlyThroughTransition](../flythroughtransition), [SplitTransition](../splittransition), [OptionalBlackTransition](../optionalblacktransition), [OrientationTransition](../orientationtransition), [LeftRightDirectionTransition](../leftrightdirectiontransition), [RevealTransition](../revealtransition), [WheelTransition](../wheeltransition), [RippleTransition](../rippletransition), [MorphTransition](../morphtransition)
 
 
 ---
@@ -217,6 +230,16 @@ int
 | Name | Description |
 | --- | --- |
 | setAdvanceOnClick(boolean) | Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write boolean. |
+
+
+---
+
+
+### setDuration {#setDuration}
+
+| Name | Description |
+| --- | --- |
+| setDuration(int) | Gets or sets the duration of the slide transition effect in milliseconds. Read/write int. Corresponds to the p14:dur attribute of the p:transition element in the PresentationML schema. If not set, the duration is determined automatically based on the Speed( #getSpeed/ #setSpeed(int)) property and the transition type. |
 
 
 ---

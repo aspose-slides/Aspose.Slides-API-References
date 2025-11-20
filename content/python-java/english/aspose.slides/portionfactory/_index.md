@@ -33,7 +33,7 @@ PortionFactory
 | createPortion() | Creates an empty text portion. |
 
  **Returns:**
-[MathPortion](../mathportion), [Portion](../portion)
+[Portion](../portion), [MathPortion](../mathportion)
 
 
 ---
@@ -52,26 +52,7 @@ PortionFactory
 | str | String | String. |
 
  **Returns:**
-[MathPortion](../mathportion), [Portion](../portion)
-
-
----
-
-
-### createPortion {#createPortion}
-
-| Name | Description |
-| --- | --- |
-| createPortion([MathPortion](../mathportion)) | Creates a portion with the using of a specified portion data. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| portion | [MathPortion](../mathportion) | A portion to use. |
-
- **Returns:**
-[MathPortion](../mathportion), [Portion](../portion)
+[Portion](../portion), [MathPortion](../mathportion)
 
 
 ---
@@ -90,7 +71,26 @@ PortionFactory
 | portion | [Portion](../portion) | A portion to use. |
 
  **Returns:**
-[MathPortion](../mathportion), [Portion](../portion)
+[Portion](../portion), [MathPortion](../mathportion)
+
+
+---
+
+
+### createPortion {#createPortion}
+
+| Name | Description |
+| --- | --- |
+| createPortion([MathPortion](../mathportion)) | Creates a portion with the using of a specified portion data. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| portion | [MathPortion](../mathportion) | A portion to use. |
+
+ **Returns:**
+[Portion](../portion), [MathPortion](../mathportion)
 
 
 ---
