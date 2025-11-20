@@ -89,7 +89,7 @@ MathematicalText
 | getChildren () | Get children elements |
 
  **Returns:**
-[MathBar](../mathbar), [MathBox](../mathbox), [BaseScript](../basescript), [MathMatrix](../mathmatrix), [MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), [MathAccent](../mathaccent), [MathElementBase](../mathelementbase), [MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit), [MathFunction](../mathfunction), [MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)
+[MathFunction](../mathfunction), [MathBorderBox](../mathborderbox), [MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), [MathPhantom](../mathphantom), [MathBlock](../mathblock), [BaseScript](../basescript), [MathElementBase](../mathelementbase), [MathMatrix](../mathmatrix), [MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction), [MathArray](../matharray), [MathBar](../mathbar), [MathematicalText](../mathematicaltext)
 
 
 ---

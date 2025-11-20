@@ -28,26 +28,6 @@ SlideImageFormat
 
 | Name | Description |
 | --- | --- |
-| bitmap (float, String) | Slides should be converted to a raster image. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| scale | float | Image scale factor. |
-| imgFormat | String | Image format. |
-
- **Returns:**
-SlideImageFormat
-
-
----
-
-
-### bitmap {#bitmap}
-
-| Name | Description |
-| --- | --- |
 | bitmap (float, int) | Slides should be converted to a raster image. |
 
  **Parameters:**
@@ -55,7 +35,7 @@ SlideImageFormat
 | Name | Type | Description |
 | --- | --- | --- |
 | scale | float | The factor by which to scale the output image. |
-| imageFormat | int | The com.aspose.slides.ImageFormat of the resulting image (e.g., PNG, JPEG). |
+| imageFormat | int | The format of the resulting image (e.g., PNG, JPEG). |
 
  **Returns:**
 SlideImageFormat

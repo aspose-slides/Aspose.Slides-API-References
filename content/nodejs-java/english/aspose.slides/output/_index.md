@@ -56,26 +56,6 @@ url: /aspose.slides/output/
 
 | Name | Description |
 | --- | --- |
-| add (String, BufferedImage) | Adds an output element for the image. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| path | String | Output path. |
-| image | BufferedImage | Image to output. |
-
- **Returns:**
-[OutputFile](../outputfile)
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
 | add (String, [IImage](../iimage)) | Adds an output element for the image. |
 
  **Parameters:**
@@ -116,15 +96,15 @@ url: /aspose.slides/output/
 
 | Name | Description |
 | --- | --- |
-| add (String, [FontData](../fontdata), int) | Adds an output element for the font. |
+| add (String, [FontData](../fontdata), int) | Creates and adds an output file element for the specified font. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| path | String | Output path. |
-| fontData | [FontData](../fontdata) | Font to output. |
-| fontStyle | int | Font style ( FontStyleType). |
+| path | String | The file path where the font output will be saved. |
+| fontData | [FontData](../fontdata) | The font data to be written to the output. |
+| fontStyle | int | The style of the font (e.g., Regular, Bold, Italic). |
 
  **Returns:**
 [OutputFile](../outputfile)

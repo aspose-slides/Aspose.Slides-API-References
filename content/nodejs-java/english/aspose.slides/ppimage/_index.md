@@ -86,19 +86,6 @@ SlidesImage
 ---
 
 
-### getSystemImage {#getSystemImage}
-
-| Name | Description |
-| --- | --- |
-| getSystemImage () | Returns the copy of an image. Read-only java.awt.image.BufferedImage. |
-
- **Returns:**
-BufferedImage
-
-
----
-
-
 ### getWidth {#getWidth}
 
 | Name | Description |
@@ -177,7 +164,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| replaceImage ([IImage](../iimage)) | Replaces image data. Attention: when Image is metafile - it will be rasterized. Use replaceImage(byte[]) instead |
+| replaceImage ([IImage](../iimage)) | Replaces image data. Attention: when Image is metafile - it will be rasterized. Use ReplaceImage(byte[]) instead |
 
  **Parameters:**
 

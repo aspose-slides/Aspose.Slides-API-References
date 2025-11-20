@@ -213,6 +213,22 @@ String
 ---
 
 
+### setImageSaving {#setImageSaving}
+
+| Name | Description |
+| --- | --- |
+| setImageSaving ([MarkdownSaveOptions.MarkdownImageSavingHandler](../markdownsaveoptions.markdownimagesavinghandler)) | Occurs for each non-SVG image (bitmap or metafile) during Markdown export. Allows customizing how the image is saved and referenced. If not handled, the image is saved locally with a relative link. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| event | [MarkdownSaveOptions.MarkdownImageSavingHandler](../markdownsaveoptions.markdownimagesavinghandler) | Markdown image saving event. |
+
+
+---
+
+
 ### setImagesSaveFolderName {#setImagesSaveFolderName}
 
 | Name | Description |
@@ -284,6 +300,22 @@ String
 | Error | Condition |
 | --- | --- |
  | ArgumentException | Thrown if the format string does not contain the "{0}" placeholder. |
+
+
+---
+
+
+### setSvgImageSaving {#setSvgImageSaving}
+
+| Name | Description |
+| --- | --- |
+| setSvgImageSaving ([MarkdownSaveOptions.MarkdownSvgImageSavingHandler](../markdownsaveoptions.markdownsvgimagesavinghandler)) | Occurs for each SVG image during Markdown export. Allows overriding the default saving and link generation. If not handled, the SVG is saved locally with a relative link. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| event | [MarkdownSaveOptions.MarkdownSvgImageSavingHandler](../markdownsaveoptions.markdownsvgimagesavinghandler) | Markdown SVG image saving event. |
 
 
 ---
