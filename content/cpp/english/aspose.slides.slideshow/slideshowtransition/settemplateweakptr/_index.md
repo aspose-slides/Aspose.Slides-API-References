@@ -3,7 +3,7 @@ title: SetTemplateWeakPtr()
 second_title: Aspose.Slides for C++ API Reference
 description: Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.
 type: docs
-weight: 300
+weight: 326
 url: /aspose.slides.slideshow/slideshowtransition/settemplateweakptr/
 ---
 ## SlideShowTransition::SetTemplateWeakPtr(uint32_t) method

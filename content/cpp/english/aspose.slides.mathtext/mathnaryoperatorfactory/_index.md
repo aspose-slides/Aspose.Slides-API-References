@@ -3,7 +3,7 @@ title: MathNaryOperatorFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create IMathNaryOperator
 type: docs
-weight: 976
+weight: 989
 url: /aspose.slides.mathtext/mathnaryoperatorfactory/
 ---
 ## MathNaryOperatorFactory class

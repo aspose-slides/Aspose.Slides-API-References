@@ -3,7 +3,7 @@ title: NullReferenceException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3810
+weight: 3940
 url: /system/nullreferenceexception/
 ---
 ## NullReferenceException typedef

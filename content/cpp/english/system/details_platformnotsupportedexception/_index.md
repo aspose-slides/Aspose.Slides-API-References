@@ -3,7 +3,7 @@ title: Details_PlatformNotSupportedException
 second_title: Aspose.Slides for C++ API Reference
 description: "PlatformNotSupportedException is thrown when a feature does not run on a particular platform. Never create instances of this class manually. Use the PlatformNotSupportedException class instead. Never wrap the PlatformNotSupportedException class instances into System::SmartPtr."
 type: docs
-weight: 625
+weight: 638
 url: /system/details_platformnotsupportedexception/
 ---
 ## Details_PlatformNotSupportedException class

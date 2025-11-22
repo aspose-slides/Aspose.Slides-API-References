@@ -3,7 +3,7 @@ title: ISVGOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an SVG options.
 type: docs
-weight: 417
+weight: 404
 url: /aspose.slides.export/isvgoptions/
 ---
 ## ISVGOptions class

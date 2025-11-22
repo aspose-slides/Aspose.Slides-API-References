@@ -3,7 +3,7 @@ title: Details_InvalidTimeZoneException
 second_title: Aspose.Slides for C++ API Reference
 description: "InvalidTimeZoneException is thrown when time zone information is invalid. Never create instances of this class manually. Use the InvalidTimeZoneException class instead. Never wrap the InvalidTimeZoneException class instances into System::SmartPtr."
 type: docs
-weight: 495
+weight: 508
 url: /system/details_invalidtimezoneexception/
 ---
 ## Details_InvalidTimeZoneException class

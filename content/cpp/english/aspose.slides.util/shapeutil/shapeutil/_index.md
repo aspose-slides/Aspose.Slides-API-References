@@ -3,7 +3,7 @@ title: ShapeUtil()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 27
+weight: 1
 url: /aspose.slides.util/shapeutil/shapeutil/
 ---
 ## ShapeUtil::ShapeUtil() constructor

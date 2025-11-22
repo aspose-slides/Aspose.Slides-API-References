@@ -12,7 +12,7 @@ url: /aspose.slides.export/notescommentslayoutingoptions/get_showcommentsbynoaut
 Gets the visibility of comments that do not have an author. If true then comments will be displayed. (Applies only if comments are displayed).
 
 ```cpp
-bool Aspose::Slides::Export::NotesCommentsLayoutingOptions::get_ShowCommentsByNoAuthor() override
+bool Aspose::Slides::Export::NotesCommentsLayoutingOptions::get_ShowCommentsByNoAuthor()
 ```
 
 ## Remarks

@@ -3,7 +3,7 @@ title: SlideImageFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Determines format in which slide image will be saved for presentation to HTML export.
 type: docs
-weight: 703
+weight: 690
 url: /aspose.slides.export/slideimageformat/
 ---
 ## SlideImageFormat class
@@ -19,7 +19,6 @@ class SlideImageFormat : public Aspose::Slides::Export::ISlideImageFormat
 
 | Method | Description |
 | --- | --- |
-| static [System::SharedPtr](../../system/sharedptr/)\<[SlideImageFormat](./)\> [Bitmap](./bitmap/)(**float**, [System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Imaging::ImageFormat](../../system.drawing.imaging/imageformat/)\>) | [Slides](../../aspose.slides/) should be converted to a raster image. |
 | static [System::SharedPtr](../../system/sharedptr/)\<[SlideImageFormat](./)\> [Bitmap](./bitmap/)(**float**, [Aspose::Slides::ImageFormat](../../aspose.slides/imageformat/)) | [Slides](../../aspose.slides/) should be converted to a raster image. |
 | virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Compares objects using C# [Object.Equals](../../system/object/equals/) semantics. |
 | static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares reference type objects in C# style. |

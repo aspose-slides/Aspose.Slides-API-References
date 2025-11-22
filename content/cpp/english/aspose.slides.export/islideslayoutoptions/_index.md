@@ -3,7 +3,7 @@ title: ISlidesLayoutOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the presentation layout mode for export.
 type: docs
-weight: 404
+weight: 391
 url: /aspose.slides.export/islideslayoutoptions/
 ---
 ## ISlidesLayoutOptions class

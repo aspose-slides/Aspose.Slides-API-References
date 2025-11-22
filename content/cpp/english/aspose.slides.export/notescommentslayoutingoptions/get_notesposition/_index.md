@@ -12,7 +12,7 @@ url: /aspose.slides.export/notescommentslayoutingoptions/get_notesposition/
 Gets the position of the notes on the page.
 
 ```cpp
-NotesPositions Aspose::Slides::Export::NotesCommentsLayoutingOptions::get_NotesPosition() override
+NotesPositions Aspose::Slides::Export::NotesCommentsLayoutingOptions::get_NotesPosition()
 ```
 
 ## Remarks

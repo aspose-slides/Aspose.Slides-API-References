@@ -3,7 +3,7 @@ title: MathBorderBoxFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create a math border box
 type: docs
-weight: 716
+weight: 729
 url: /aspose.slides.mathtext/mathborderboxfactory/
 ---
 ## MathBorderBoxFactory class

@@ -3,7 +3,7 @@ title: MathPortion
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a portion with mathematical context inside.
 type: docs
-weight: 1015
+weight: 1041
 url: /aspose.slides.mathtext/mathportion/
 ---
 ## MathPortion class

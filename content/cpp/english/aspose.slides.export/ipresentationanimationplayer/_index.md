@@ -3,7 +3,7 @@ title: IPresentationAnimationPlayer
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a player of the animation.
 type: docs
-weight: 326
+weight: 313
 url: /aspose.slides.export/ipresentationanimationplayer/
 ---
 ## IPresentationAnimationPlayer class

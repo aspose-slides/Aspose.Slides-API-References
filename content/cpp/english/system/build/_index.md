@@ -3,7 +3,7 @@ title: Build()
 second_title: Aspose.Slides for C++ API Reference
 description: Build an object with direct ownership.
 type: docs
-weight: 2185
+weight: 2224
 url: /system/build/
 ---
 ## System::Build(Args\&&...) function
@@ -36,7 +36,7 @@ ObjectBuilder configured for direct object construction
 
 
 
-[Object](../object/) construction must be finished with Get() call 
+[Object](../object/) construction must be finished with [Get()](../get/) call 
 
 ## See Also
 

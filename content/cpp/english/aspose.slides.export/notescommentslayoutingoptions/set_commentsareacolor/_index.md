@@ -12,7 +12,7 @@ url: /aspose.slides.export/notescommentslayoutingoptions/set_commentsareacolor/
 Sets the color of comments area (Applies only if comments are displayed on the right).
 
 ```cpp
-void Aspose::Slides::Export::NotesCommentsLayoutingOptions::set_CommentsAreaColor(System::Drawing::Color value) override
+void Aspose::Slides::Export::NotesCommentsLayoutingOptions::set_CommentsAreaColor(System::Drawing::Color value)
 ```
 
 ## Remarks

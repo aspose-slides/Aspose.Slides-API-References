@@ -3,7 +3,7 @@ title: TextInheritanceLimit
 second_title: Aspose.Slides for C++ API Reference
 description: Controls the depth of the text properties inheritance.
 type: docs
-weight: 1093
+weight: 1080
 url: /aspose.slides.export/textinheritancelimit/
 ---
 ## TextInheritanceLimit enum

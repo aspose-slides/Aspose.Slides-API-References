@@ -3,7 +3,7 @@ title: HolderInitializer
 second_title: Aspose.Slides for C++ API Reference
 description: This class used to get persistent reference to the object instance, whatever it is lvalue or rvalue. To ubtain such reference, use 'HoldIfTemporary' method, that has there overloads. Two of them take rvalue as a parameter, and just return the reference to it. The third one, in opposite, takes lvalue as a parameter, makes a pointer copy, then return reference to that copy. Also, class has 'Hold' method to hold passed value unconditionally (used to copy values of a local on-stack variables or it's child references)
 type: docs
-weight: 1574
+weight: 1587
 url: /system/holderinitializer/
 ---
 ## HolderInitializer struct

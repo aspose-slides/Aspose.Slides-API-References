@@ -3,7 +3,7 @@ title: Details_OperationCanceledException
 second_title: Aspose.Slides for C++ API Reference
 description: "OperationCanceledException is thrown in a thread upon cancellation of an operation that the thread was executing. Never create instances of this class manually. Use the OperationCanceledException class instead. Never wrap the OperationCanceledException class instances into System::SmartPtr."
 type: docs
-weight: 586
+weight: 599
 url: /system/details_operationcanceledexception/
 ---
 ## Details_OperationCanceledException class

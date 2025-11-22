@@ -3,7 +3,7 @@ title: Delegate< ReturnType(ArgumentTypes...)>
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents a pointer to a function, method or a function object. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 261
+weight: 274
 url: /system/delegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/
 ---
 ## Delegate< ReturnType(ArgumentTypes...)> class

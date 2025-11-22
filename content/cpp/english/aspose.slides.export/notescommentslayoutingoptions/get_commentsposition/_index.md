@@ -12,7 +12,7 @@ url: /aspose.slides.export/notescommentslayoutingoptions/get_commentsposition/
 Gets the position of the comments on the page.
 
 ```cpp
-CommentsPositions Aspose::Slides::Export::NotesCommentsLayoutingOptions::get_CommentsPosition() override
+CommentsPositions Aspose::Slides::Export::NotesCommentsLayoutingOptions::get_CommentsPosition()
 ```
 
 ## Remarks

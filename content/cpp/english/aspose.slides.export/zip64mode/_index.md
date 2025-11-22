@@ -3,7 +3,7 @@ title: Zip64Mode
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies when to use ZIP64 format extensions for OpenXML file.
 type: docs
-weight: 1119
+weight: 1106
 url: /aspose.slides.export/zip64mode/
 ---
 ## Zip64Mode enum

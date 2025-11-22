@@ -3,7 +3,7 @@ title: IXpsOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control how a presentation is saved in XPS format.
 type: docs
-weight: 547
+weight: 534
 url: /aspose.slides.export/ixpsoptions/
 ---
 ## IXpsOptions class

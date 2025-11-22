@@ -3,7 +3,7 @@ title: MathMatrixFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create a math matrix
 type: docs
-weight: 950
+weight: 963
 url: /aspose.slides.mathtext/mathmatrixfactory/
 ---
 ## MathMatrixFactory class

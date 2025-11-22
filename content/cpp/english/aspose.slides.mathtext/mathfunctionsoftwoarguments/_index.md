@@ -3,7 +3,7 @@ title: MathFunctionsOfTwoArguments
 second_title: Aspose.Slides for C++ API Reference
 description: Common mathematical functions of two arguments
 type: docs
-weight: 1171
+weight: 1197
 url: /aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
 ## MathFunctionsOfTwoArguments enum

@@ -3,7 +3,7 @@ title: MathSpacingRules
 second_title: Aspose.Slides for C++ API Reference
 description: Types of gap (horizontal spacing) between columns of a matrix
 type: docs
-weight: 1262
+weight: 1288
 url: /aspose.slides.mathtext/mathspacingrules/
 ---
 ## MathSpacingRules enum

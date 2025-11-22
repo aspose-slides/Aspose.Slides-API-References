@@ -3,7 +3,7 @@ title: GetTileIImage()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates a tile image for the pattern fill with a specified colors.
 type: docs
-weight: 53
+weight: 40
 url: /aspose.slides/ipatternformateffectivedata/gettileiimage/
 ---
 ## IPatternFormatEffectiveData::GetTileIImage(System::Drawing::Color, System::Drawing::Color) method

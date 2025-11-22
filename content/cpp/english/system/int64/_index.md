@@ -3,7 +3,7 @@ title: Int64
 second_title: Aspose.Slides for C++ API Reference
 description: Contains methods to work with the 64-bit integer.
 type: docs
-weight: 1002
+weight: 1015
 url: /system/int64/
 ---
 ## Int64 class

@@ -3,7 +3,7 @@ title: ExceptionWrapper
 second_title: Aspose.Slides for C++ API Reference
 description: Template that represents wrapper of exceptions that are derived from Exception class.
 type: docs
-weight: 794
+weight: 807
 url: /system/exceptionwrapper/
 ---
 ## ExceptionWrapper class

@@ -3,7 +3,7 @@ title: PdfAccessPermissions
 second_title: Aspose.Slides for C++ API Reference
 description: Contains a set of flags specifying which access permissions should be granted when the document is opened with user access.
 type: docs
-weight: 989
+weight: 976
 url: /aspose.slides.export/pdfaccesspermissions/
 ---
 ## PdfAccessPermissions enum

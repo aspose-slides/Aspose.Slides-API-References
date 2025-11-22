@@ -3,7 +3,7 @@ title: MakeArray()
 second_title: Aspose.Slides for C++ API Reference
 description: A factory function that constructs a new Array object, fills it with the elements from the specified initialization list and returns a smart pointer pointing to the Array object.
 type: docs
-weight: 1951
+weight: 1964
 url: /system/makearray/
 ---
 ## System::MakeArray(std::initializer_list\<T\>) function

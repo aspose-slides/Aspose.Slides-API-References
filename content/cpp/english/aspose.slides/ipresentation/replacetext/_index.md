@@ -3,7 +3,7 @@ title: ReplaceText()
 second_title: Aspose.Slides for C++ API Reference
 description: Replaces all occurrences of the specified text with another specified text.
 type: docs
-weight: 482
+weight: 469
 url: /aspose.slides/ipresentation/replacetext/
 ---
 ## IPresentation::ReplaceText(System::String, System::String, System::SharedPtr\<ITextSearchOptions\>, System::SharedPtr\<IFindResultCallback\>) method

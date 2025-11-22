@@ -3,7 +3,7 @@ title: HandleRepeatedSpaces
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies how repeated regular space characters should be handled during Markdown export.
 type: docs
-weight: 937
+weight: 924
 url: /aspose.slides.export/handlerepeatedspaces/
 ---
 ## HandleRepeatedSpaces enum

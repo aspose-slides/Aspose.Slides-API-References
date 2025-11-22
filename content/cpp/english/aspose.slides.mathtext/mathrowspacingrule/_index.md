@@ -3,7 +3,7 @@ title: MathRowSpacingRule
 second_title: Aspose.Slides for C++ API Reference
 description: The type of vertical spacing between columns in a matrix or array
 type: docs
-weight: 1249
+weight: 1275
 url: /aspose.slides.mathtext/mathrowspacingrule/
 ---
 ## MathRowSpacingRule enum

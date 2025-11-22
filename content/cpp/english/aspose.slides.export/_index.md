@@ -34,7 +34,6 @@ url: /aspose.slides.export/
 | [IInkOptions](./iinkoptions/) | Provides options that control the look of [Ink](../aspose.slides.ink/) objects in exported document. |
 | [ILinkEmbedController](./ilinkembedcontroller/) | Callback interface used to determine how object should be processed during saving. |
 | [InkOptions](./inkoptions/) | Provides options that control the look of [Ink](../aspose.slides.ink/) objects in exported document. |
-| [INotesCommentsLayoutingOptions](./inotescommentslayoutingoptions/) | Provides options that control the look of layouting of notes and comments in exported document. |
 | [IPdfOptions](./ipdfoptions/) | Provides options that control how a presentation is saved in Pdf format. |
 | [IPptOptions](./ipptoptions/) | Provides options that control how a presentation is saved in PPT format. |
 | [IPptxOptions](./ipptxoptions/) | Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM). |

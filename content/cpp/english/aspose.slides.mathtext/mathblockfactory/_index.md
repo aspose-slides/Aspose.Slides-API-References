@@ -3,7 +3,7 @@ title: MathBlockFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create a math block
 type: docs
-weight: 690
+weight: 703
 url: /aspose.slides.mathtext/mathblockfactory/
 ---
 ## MathBlockFactory class

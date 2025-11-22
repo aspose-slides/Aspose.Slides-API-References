@@ -3,7 +3,7 @@ title: get_Image()
 second_title: Aspose.Slides for C++ API Reference
 description: "Returns the copy of an image. Read-only System::Drawing::Image."
 type: docs
-weight: 27
+weight: 14
 url: /aspose.slides/ippimage/get_image/
 ---
 ## IPPImage::get_Image() method

@@ -3,7 +3,7 @@ title: MathDelimiter
 second_title: Aspose.Slides for C++ API Reference
 description: "Specifies the delimiter object, consisting of opening and closing characters (such as parentheses, braces, brackets, and vertical bars), and one or more mathematical elements inside, separated by a specified character. Examples: (\\uD835\\uDC652); [\\uD835\\uDC652|\\uD835\\uDC662]"
 type: docs
-weight: 755
+weight: 768
 url: /aspose.slides.mathtext/mathdelimiter/
 ---
 ## MathDelimiter class

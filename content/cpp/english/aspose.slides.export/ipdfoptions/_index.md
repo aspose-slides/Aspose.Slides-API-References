@@ -3,7 +3,7 @@ title: IPdfOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control how a presentation is saved in Pdf format.
 type: docs
-weight: 287
+weight: 274
 url: /aspose.slides.export/ipdfoptions/
 ---
 ## IPdfOptions class

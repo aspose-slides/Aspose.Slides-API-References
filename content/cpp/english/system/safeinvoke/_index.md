@@ -3,7 +3,7 @@ title: SafeInvoke()
 second_title: Aspose.Slides for C++ API Reference
 description: Implementation of '?.' operator translation.
 type: docs
-weight: 2419
+weight: 2575
 url: /system/safeinvoke/
 ---
 ## System::SafeInvoke(T0, T1) function

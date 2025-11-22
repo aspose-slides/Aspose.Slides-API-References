@@ -3,7 +3,7 @@ title: ISwfOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control how a presentation is saved in SWF format.
 type: docs
-weight: 482
+weight: 469
 url: /aspose.slides.export/iswfoptions/
 ---
 ## ISwfOptions class
@@ -36,7 +36,6 @@ class ISwfOptions : public virtual Aspose::Slides::Export::ISaveOptions
 
  Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. |
 | virtual [System::String](../../system/string/) [get_LogoLink](./get_logolink/)() | Gets the full hyperlink address for a logo. Has an effect only if a [set_LogoImageBytes()](../swfoptions/set_logoimagebytes/) is specified. |
-| virtual [System::SharedPtr](../../system/sharedptr/)\<[INotesCommentsLayoutingOptions](../inotescommentslayoutingoptions/)\> [get_NotesCommentsLayouting](./get_notescommentslayouting/)() | Provides options that control how notes and comments is placed in exported document. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\> [get_ProgressCallback](../isaveoptions/get_progresscallback/)() | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
 | virtual **bool** [get_ShowBottomPane](./get_showbottompane/)() | Show/hide bottom pane. Can be overridden in flashvars. Default is true. |
 | virtual **bool** [get_ShowFullScreen](./get_showfullscreen/)() | Show/hide fullscreen button. Can be overridden in flashvars. Default is true. |

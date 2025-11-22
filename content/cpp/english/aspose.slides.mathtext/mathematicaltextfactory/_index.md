@@ -3,7 +3,7 @@ title: MathematicalTextFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create a MathematicalText element
 type: docs
-weight: 807
+weight: 820
 url: /aspose.slides.mathtext/mathematicaltextfactory/
 ---
 ## MathematicalTextFactory class

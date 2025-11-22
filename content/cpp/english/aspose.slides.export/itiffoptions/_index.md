@@ -3,7 +3,7 @@ title: ITiffOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control how a presentation is saved in TIFF format.
 type: docs
-weight: 508
+weight: 495
 url: /aspose.slides.export/itiffoptions/
 ---
 ## ITiffOptions class

@@ -3,7 +3,7 @@ title: MathLeftSubSuperscriptElement
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the Sub-Superscript object, which consists of a base and a subscript and superscript placed to the left of the base.
 type: docs
-weight: 898
+weight: 911
 url: /aspose.slides.mathtext/mathleftsubsuperscriptelement/
 ---
 ## MathLeftSubSuperscriptElement class

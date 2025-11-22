@@ -3,7 +3,7 @@ title: set_SlidesLayoutOptions()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets the mode in which slides are placed on the page when exporting a presentation ISlidesLayoutOptions.
 type: docs
-weight: 170
+weight: 144
 url: /aspose.slides.export/ihtml5options/set_slideslayoutoptions/
 ---
 ## IHtml5Options::set_SlidesLayoutOptions(System::SharedPtr\<ISlidesLayoutOptions\>) method

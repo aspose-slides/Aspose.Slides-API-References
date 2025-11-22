@@ -3,7 +3,7 @@ title: PdfOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control how a presentation is saved in Pdf format.
 type: docs
-weight: 586
+weight: 573
 url: /aspose.slides.export/pdfoptions/
 ---
 ## PdfOptions class

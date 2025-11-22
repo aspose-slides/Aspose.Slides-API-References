@@ -32,7 +32,6 @@ class PPImage : public Aspose::Slides::IPPImage,
 | **int32_t** [get_Height](./get_height/)() override | Returns a height of an image. Read-only **int32_t**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::IImage](../iimage/)\> [get_Image](./get_image/)() override | Returns the copy of an image. Read-only [IImage](../iimage/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::ISvgImage](../isvgimage/)\> [get_SvgImage](./get_svgimage/)() const override | Returns [ISvgImage](../isvgimage/) object [ISvgImage](../isvgimage/) |
-| [System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Image](../../system.drawing/image/)\> [get_SystemImage](./get_systemimage/)() override | Returns the copy of an image. Read-only [System::Drawing::Image](../../system.drawing/image/). |
 | **int32_t** [get_Width](./get_width/)() override | Returns a width of an image. Read-only **int32_t**. |
 | **int32_t** [get_X](./get_x/)() override | Returns a X-offset of an image. Read-only **int32_t**. |
 | **int32_t** [get_Y](./get_y/)() override | Returns a Y-offset of an image. Read-only **int32_t**. |
@@ -52,7 +51,6 @@ class PPImage : public Aspose::Slides::IPPImage,
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
 | void [ReplaceImage](./replaceimage/)([System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>) override | Replaces image data. |
-| void [ReplaceImage](./replaceimage/)([System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Image](../../system.drawing/image/)\>) override | Replaces image data. Attention: when Image is metafile - it will be rasterized due to restrictions of GDI+. Use ReplaceImage(byte[]) instead |
 | void [ReplaceImage](./replaceimage/)([System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::IImage](../iimage/)\>) override | Replaces image data. Attention: when Image is metafile - it will be rasterized. Use ReplaceImage(byte[]) instead |
 | void [ReplaceImage](./replaceimage/)([System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::IPPImage](../ippimage/)\>) override | Replaces image data. |
 | virtual void [ReplaceImage](../ippimage/replaceimage/)([System::SharedPtr](../../system/sharedptr/)\<[IImage](../iimage/)\>) | Replaces image. |

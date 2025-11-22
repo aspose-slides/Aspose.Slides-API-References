@@ -3,7 +3,7 @@ title: Details_ApplicationException
 second_title: Aspose.Slides for C++ API Reference
 description: "A base class for classes that represent application (rather than system) exceptions. Never create instances of this class manually. Use the ApplicationException class instead. Never wrap the ApplicationException class instances into System::SmartPtr."
 type: docs
-weight: 274
+weight: 287
 url: /system/details_applicationexception/
 ---
 ## Details_ApplicationException class

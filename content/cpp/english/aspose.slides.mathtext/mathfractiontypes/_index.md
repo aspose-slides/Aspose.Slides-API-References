@@ -3,7 +3,7 @@ title: MathFractionTypes
 second_title: Aspose.Slides for C++ API Reference
 description: Fraction Types
 type: docs
-weight: 1145
+weight: 1171
 url: /aspose.slides.mathtext/mathfractiontypes/
 ---
 ## MathFractionTypes enum

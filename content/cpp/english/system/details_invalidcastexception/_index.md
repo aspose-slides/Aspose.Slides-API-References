@@ -3,7 +3,7 @@ title: Details_InvalidCastException
 second_title: Aspose.Slides for C++ API Reference
 description: "InvalidCastException is thrown when invalid casting operation of invalid explicit conversion is attempted. Never create instances of this class manually. Use the InvalidCastException class instead. Never wrap the InvalidCastException class instances into System::SmartPtr."
 type: docs
-weight: 456
+weight: 469
 url: /system/details_invalidcastexception/
 ---
 ## Details_InvalidCastException class

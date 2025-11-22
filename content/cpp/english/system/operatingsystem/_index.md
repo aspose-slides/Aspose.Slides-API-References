@@ -3,7 +3,7 @@ title: OperatingSystem
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents a particular operating system and provides information about it. Objects of this class should only be allocated using System::MakeObject() function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into System::SmartPtr pointer and use this pointer to pass it to functions as argument."
 type: docs
-weight: 1119
+weight: 1132
 url: /system/operatingsystem/
 ---
 ## OperatingSystem class

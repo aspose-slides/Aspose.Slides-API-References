@@ -3,7 +3,7 @@ title: PdfCompliance
 second_title: Aspose.Slides for C++ API Reference
 description: Constants which define the PDF standards compliance level.
 type: docs
-weight: 1002
+weight: 989
 url: /aspose.slides.export/pdfcompliance/
 ---
 ## PdfCompliance enum

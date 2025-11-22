@@ -3,7 +3,7 @@ title: Details_FormatException
 second_title: Aspose.Slides for C++ API Reference
 description: "FormatException is thrown when the format of the method's argument is not valid. Never create instances of this class manually. Use the FormatException class instead. Never wrap the FormatException class instances into System::SmartPtr."
 type: docs
-weight: 430
+weight: 443
 url: /system/details_formatexception/
 ---
 ## Details_FormatException class

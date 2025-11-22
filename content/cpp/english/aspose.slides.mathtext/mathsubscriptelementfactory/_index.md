@@ -3,7 +3,7 @@ title: MathSubscriptElementFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create IMathSubscriptElement
 type: docs
-weight: 1093
+weight: 1119
 url: /aspose.slides.mathtext/mathsubscriptelementfactory/
 ---
 ## MathSubscriptElementFactory class

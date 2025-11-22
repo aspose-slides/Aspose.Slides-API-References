@@ -26,7 +26,6 @@ class ShapeElement : public Aspose::Slides::IShapeElement
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
 | [ShapeElementFillSource](../shapeelementfillsource/) [get_FillSource](./get_fillsource/)() | Returns information about how to fill an element. Read-only [ShapeElementFillSource](../shapeelementfillsource/). |
-| [System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Drawing2D::GraphicsPath](../../system.drawing.drawing2d/graphicspath/)\> [get_GraphicsPath](./get_graphicspath/)() | Returns an element's path. Read-only [System::Drawing::Drawing2D::GraphicsPath](../../system.drawing.drawing2d/graphicspath/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[Shape](../shape/)\> [get_ParentShape](./get_parentshape/)() | Returns a Shape_PPT for which element was created. Read-only [Shape](../shape/). |
 | [ShapeElementStrokeSource](../shapeelementstrokesource/) [get_StrokeSource](./get_strokesource/)() | Returns information about how to stroke an element. Read-only [ShapeElementStrokeSource](../shapeelementstrokesource/). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |

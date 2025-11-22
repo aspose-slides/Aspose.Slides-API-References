@@ -3,7 +3,7 @@ title: Type()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a reference to the TypeInfo object representing the ValueTuple class type information.
 type: docs
-weight: 105
+weight: 118
 url: /system/valuetuple/type/
 ---
 ## ValueTuple::Type() method

@@ -3,7 +3,7 @@ title: Compare()
 second_title: Aspose.Slides for C++ API Reference
 description: Compares two values.
 type: docs
-weight: 2523
+weight: 2653
 url: /system/compare/
 ---
 ## System::Compare(const TA\&, const TB\&) function

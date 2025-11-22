@@ -3,7 +3,7 @@ title: MathBarFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create a math bar
 type: docs
-weight: 664
+weight: 677
 url: /aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory class

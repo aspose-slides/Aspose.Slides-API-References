@@ -3,7 +3,7 @@ title: MathRadical
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the radical function, consisting of a base, and an optional degree. Example of radical object is \\u221A\\uD835\\uDC65.
 type: docs
-weight: 1028
+weight: 1054
 url: /aspose.slides.mathtext/mathradical/
 ---
 ## MathRadical class

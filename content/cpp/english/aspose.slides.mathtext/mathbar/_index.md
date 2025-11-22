@@ -3,7 +3,7 @@ title: MathBar
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the bar function, consisting of a base argument and an overbar or underbar
 type: docs
-weight: 651
+weight: 664
 url: /aspose.slides.mathtext/mathbar/
 ---
 ## MathBar class

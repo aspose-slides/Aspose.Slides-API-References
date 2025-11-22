@@ -3,7 +3,7 @@ title: get_Y()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a Y-offset of an image. Read-only int32_t.
 type: docs
-weight: 118
+weight: 105
 url: /aspose.slides/ppimage/get_y/
 ---
 ## PPImage::get_Y() method

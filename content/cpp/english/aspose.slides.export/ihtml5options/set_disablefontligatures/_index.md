@@ -3,7 +3,7 @@ title: set_DisableFontLigatures()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets a value indicating whether text is rendered without using ligatures. When set to true, ligatures will be disabled in the rendered output. By default, this property is set to false.
 type: docs
-weight: 144
+weight: 118
 url: /aspose.slides.export/ihtml5options/set_disablefontligatures/
 ---
 ## IHtml5Options::set_DisableFontLigatures(bool) method

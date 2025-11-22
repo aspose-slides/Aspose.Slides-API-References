@@ -3,7 +3,7 @@ title: MathTopBotPositions
 second_title: Aspose.Slides for C++ API Reference
 description: Top/bottom positions enumeration
 type: docs
-weight: 1275
+weight: 1301
 url: /aspose.slides.mathtext/mathtopbotpositions/
 ---
 ## MathTopBotPositions enum

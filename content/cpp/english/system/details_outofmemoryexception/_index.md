@@ -3,7 +3,7 @@ title: Details_OutOfMemoryException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 599
+weight: 612
 url: /system/details_outofmemoryexception/
 ---
 ## Details_OutOfMemoryException class
