@@ -3,7 +3,7 @@ title: ISvgTSpan
 second_title: Aspose.Slides for C++ API Reference
 description: Represents options for SVG text portion (\"tspan\").
 type: docs
-weight: 469
+weight: 456
 url: /aspose.slides.export/isvgtspan/
 ---
 ## ISvgTSpan class

@@ -3,7 +3,7 @@ title: ITextToHtmlConversionOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Options for extracting HTML from the Pptx text.
 type: docs
-weight: 495
+weight: 482
 url: /aspose.slides.export/itexttohtmlconversionoptions/
 ---
 ## ITextToHtmlConversionOptions class

@@ -12,7 +12,7 @@ url: /aspose.slides.export/notescommentslayoutingoptions/set_commentsposition/
 Sets the position of the comments on the page.
 
 ```cpp
-void Aspose::Slides::Export::NotesCommentsLayoutingOptions::set_CommentsPosition(CommentsPositions value) override
+void Aspose::Slides::Export::NotesCommentsLayoutingOptions::set_CommentsPosition(CommentsPositions value)
 ```
 
 ## Remarks

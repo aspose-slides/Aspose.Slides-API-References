@@ -3,7 +3,7 @@ title: MathIntegralTypes
 second_title: Aspose.Slides for C++ API Reference
 description: Mathematical integral types
 type: docs
-weight: 1197
+weight: 1223
 url: /aspose.slides.mathtext/mathintegraltypes/
 ---
 ## MathIntegralTypes enum

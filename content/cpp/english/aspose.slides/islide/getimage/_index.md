@@ -3,7 +3,7 @@ title: GetImage()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns an image object with custom scaling.
 type: docs
-weight: 118
+weight: 105
 url: /aspose.slides/islide/getimage/
 ---
 ## ISlide::GetImage(float, float) method

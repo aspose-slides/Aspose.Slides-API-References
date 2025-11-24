@@ -26,6 +26,7 @@ class TextSearchOptions : public Aspose::Slides::ITextSearchOptions
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
 | **bool** [get_CaseSensitive](./get_casesensitive/)() override | Set true to use case-sensitive search, false - otherwise. Read **bool**. |
+| **bool** [get_IncludeNotes](./get_includenotes/)() override | Set **true** to include text contained in slide notes ([NotesSlide](../notesslide/)) when performing text search, replacement, or highlighting operations. The default value is **false**. |
 | **bool** [get_WholeWordsOnly](./get_wholewordsonly/)() override | Set true to match only whole words, false - otherwise. Read **bool**. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |
@@ -43,6 +44,7 @@ class TextSearchOptions : public Aspose::Slides::ITextSearchOptions
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
 | void [set_CaseSensitive](./set_casesensitive/)(**bool**) override | Set true to use case-sensitive search, false - otherwise. Write **bool**. |
+| void [set_IncludeNotes](./set_includenotes/)(**bool**) override | Set **true** to include text contained in slide notes ([NotesSlide](../notesslide/)) when performing text search, replacement, or highlighting operations. The default value is **false**. |
 | void [set_WholeWordsOnly](./set_wholewordsonly/)(**bool**) override | Set true to match only whole words, false - otherwise. Write **bool**. |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |

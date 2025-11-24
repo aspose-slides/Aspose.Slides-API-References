@@ -3,7 +3,7 @@ title: MathHorizontalAlignment
 second_title: Aspose.Slides for C++ API Reference
 description: Horizontal Alignment
 type: docs
-weight: 1184
+weight: 1210
 url: /aspose.slides.mathtext/mathhorizontalalignment/
 ---
 ## MathHorizontalAlignment enum

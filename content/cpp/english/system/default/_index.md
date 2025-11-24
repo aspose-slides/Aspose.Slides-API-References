@@ -3,7 +3,7 @@ title: Default()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the reference to the single default-constructed instance of the exception type.
 type: docs
-weight: 2146
+weight: 2159
 url: /system/default/
 ---
 ## System::Default() function

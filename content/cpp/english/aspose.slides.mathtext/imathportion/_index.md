@@ -3,7 +3,7 @@ title: IMathPortion
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a portion with mathematical context inside.
 type: docs
-weight: 482
+weight: 495
 url: /aspose.slides.mathtext/imathportion/
 ---
 ## IMathPortion class

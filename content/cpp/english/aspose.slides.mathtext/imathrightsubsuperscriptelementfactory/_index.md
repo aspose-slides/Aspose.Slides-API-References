@@ -3,7 +3,7 @@ title: IMathRightSubSuperscriptElementFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create IMathRightSubSuperscriptElementFactory
 type: docs
-weight: 534
+weight: 547
 url: /aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/
 ---
 ## IMathRightSubSuperscriptElementFactory class

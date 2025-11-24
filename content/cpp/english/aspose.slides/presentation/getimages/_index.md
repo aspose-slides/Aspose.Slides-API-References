@@ -3,7 +3,7 @@ title: GetImages()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a Image objects for all slides of a presentation.
 type: docs
-weight: 456
+weight: 443
 url: /aspose.slides/presentation/getimages/
 ---
 ## Presentation::GetImages(System::SharedPtr\<Export::IRenderingOptions\>) method

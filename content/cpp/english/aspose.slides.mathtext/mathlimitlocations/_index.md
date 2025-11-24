@@ -3,7 +3,7 @@ title: MathLimitLocations
 second_title: Aspose.Slides for C++ API Reference
 description: Location of limits (subscript/superscript) in n-ary operators.
 type: docs
-weight: 1223
+weight: 1249
 url: /aspose.slides.mathtext/mathlimitlocations/
 ---
 ## MathLimitLocations enum

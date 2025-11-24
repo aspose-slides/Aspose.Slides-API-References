@@ -3,7 +3,7 @@ title: MathElementBase
 second_title: Aspose.Slides for C++ API Reference
 description: Base class for IMathElement with the implementation of some methods that are common to all inherited classes For internal use only. Inherited class must be IMathElement.
 type: docs
-weight: 781
+weight: 794
 url: /aspose.slides.mathtext/mathelementbase/
 ---
 ## MathElementBase class

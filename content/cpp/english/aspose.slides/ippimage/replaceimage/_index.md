@@ -3,7 +3,7 @@ title: ReplaceImage()
 second_title: Aspose.Slides for C++ API Reference
 description: Replaces image data.
 type: docs
-weight: 131
+weight: 118
 url: /aspose.slides/ippimage/replaceimage/
 ---
 ## IPPImage::ReplaceImage(System::ArrayPtr\<uint8_t\>) method
@@ -21,25 +21,6 @@ virtual void Aspose::Slides::IPPImage::ReplaceImage(System::ArrayPtr<uint8_t> ne
 | Parameter | Type | Description |
 | --- | --- | --- |
 | newImageData | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | The new image's data. |
-
-## IPPImage::ReplaceImage(System::SharedPtr\<System::Drawing::Image\>) method
-
-
-Replaces image.
-
-```cpp
-virtual void Aspose::Slides::IPPImage::ReplaceImage(System::SharedPtr<System::Drawing::Image> newImage)=0
-```
-
-
-### Arguments
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newImage | [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::Image](../../../system.drawing/image/)\> | The new image. |
-
-Deprecated
-:   Use ReplaceImage(IImage newImage) method instead. The method will be removed after release of version 24.7.
 
 ## IPPImage::ReplaceImage(System::SharedPtr\<IImage\>) method
 
@@ -78,7 +59,6 @@ virtual void Aspose::Slides::IPPImage::ReplaceImage(System::SharedPtr<IPPImage> 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IPPImage](../)
-* Class [Image](../../../system.drawing/image/)
 * Class [IImage](../../iimage/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

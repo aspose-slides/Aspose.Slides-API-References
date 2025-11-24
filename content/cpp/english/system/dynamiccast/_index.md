@@ -3,7 +3,7 @@ title: DynamicCast()
 second_title: Aspose.Slides for C++ API Reference
 description: Performs dynamic cast on Exception objects.
 type: docs
-weight: 2315
+weight: 2458
 url: /system/dynamiccast/
 ---
 ## System::DynamicCast(const TFrom\&) function

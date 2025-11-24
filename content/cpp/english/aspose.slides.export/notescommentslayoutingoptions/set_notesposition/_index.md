@@ -12,7 +12,7 @@ url: /aspose.slides.export/notescommentslayoutingoptions/set_notesposition/
 Sets the position of the notes on the page.
 
 ```cpp
-void Aspose::Slides::Export::NotesCommentsLayoutingOptions::set_NotesPosition(NotesPositions value) override
+void Aspose::Slides::Export::NotesCommentsLayoutingOptions::set_NotesPosition(NotesPositions value)
 ```
 
 ## Remarks

@@ -3,7 +3,7 @@ title: MathParagraph
 second_title: Aspose.Slides for C++ API Reference
 description: Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
 type: docs
-weight: 989
+weight: 1002
 url: /aspose.slides.mathtext/mathparagraph/
 ---
 ## MathParagraph class

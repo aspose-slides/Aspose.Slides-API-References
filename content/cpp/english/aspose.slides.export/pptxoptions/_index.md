@@ -3,7 +3,7 @@ title: PptxOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
 type: docs
-weight: 612
+weight: 599
 url: /aspose.slides.export/pptxoptions/
 ---
 ## PptxOptions class

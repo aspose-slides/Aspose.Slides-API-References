@@ -12,7 +12,7 @@ url: /aspose.slides.export/notescommentslayoutingoptions/get_commentsareawidth/
 Gets the width of the comment output area in pixels (Applies only if comments are displayed on the right).
 
 ```cpp
-int32_t Aspose::Slides::Export::NotesCommentsLayoutingOptions::get_CommentsAreaWidth() override
+int32_t Aspose::Slides::Export::NotesCommentsLayoutingOptions::get_CommentsAreaWidth()
 ```
 
 ## Remarks

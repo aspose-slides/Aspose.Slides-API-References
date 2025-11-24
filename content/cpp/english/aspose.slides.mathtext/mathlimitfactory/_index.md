@@ -3,7 +3,7 @@ title: MathLimitFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create IMathLimit
 type: docs
-weight: 924
+weight: 937
 url: /aspose.slides.mathtext/mathlimitfactory/
 ---
 ## MathLimitFactory class

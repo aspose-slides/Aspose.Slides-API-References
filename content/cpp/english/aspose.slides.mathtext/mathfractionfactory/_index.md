@@ -3,7 +3,7 @@ title: MathFractionFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create a math fraction
 type: docs
-weight: 833
+weight: 846
 url: /aspose.slides.mathtext/mathfractionfactory/
 ---
 ## MathFractionFactory class

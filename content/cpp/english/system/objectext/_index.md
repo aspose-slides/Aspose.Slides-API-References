@@ -3,7 +3,7 @@ title: ObjectExt
 second_title: Aspose.Slides for C++ API Reference
 description: Provides static methods that emulate C# Object methods called for non-Object C++ types (strings, numbers, etc.). This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 1093
+weight: 1106
 url: /system/objectext/
 ---
 ## ObjectExt class
@@ -57,6 +57,7 @@ class ObjectExt : public System::ObjectType
 | static const [System::TypeInfo](../typeinfo/)\& [GetType](../objecttype/gettype/)() | Implements typeof() translation. Overload for **uint8_t**. |
 | static const [System::TypeInfo](../typeinfo/)\& [GetType](../objecttype/gettype/)() | Implements typeof() translation. Overload for **uint8_t**. |
 | static const [System::TypeInfo](../typeinfo/)\& [GetType](../objecttype/gettype/)() | Implements typeof() translation. Overload for **uint8_t**. |
+| static std::enable_if\<[System::IsBoxable](../isboxable/)\<T\>::value, **bool**\>::type [Is](./is/)(const T\&) | Implements 'is' operator translation. Specialization for boxable (value) types which exactly is that they are. |
 | static std::enable_if\<std::is_convertible\<T, [Object](../object/)\>::value\&&std::is_final\<T\>::value\&&\![System::IsBoxable](../isboxable/)\<T\>::value\&&[System::IsSmartPtr](../issmartptr/)\<U\>::value, **bool**\>::type [Is](./is/)(const U\&) | Implements 'is' operator translation. Specialization for pointer types optimized for 'final' classes. |
 | static std::enable_if\<std::is_convertible\<T, [Object](../object/)\>::value\&&\!std::is_final\<T\>::value\&&\![System::IsBoxable](../isboxable/)\<T\>::value\&&[System::IsSmartPtr](../issmartptr/)\<U\>::value, **bool**\>::type [Is](./is/)(const U\&) | Implements 'is' operator translation. Specialization for pointer types. |
 | static std::enable_if\<std::is_convertible\<T, [Object](../object/)\>::value, **bool**\>::type [Is](./is/)(const [Object](../object/)\&) | Implements 'is' operator translation. Specialization for value types. |

@@ -3,7 +3,7 @@ title: JoinPortionsWithSameFormatting()
 second_title: Aspose.Slides for C++ API Reference
 description: Joins runs with same formatting in all paragraphs in all acceptable shapes.
 type: docs
-weight: 248
+weight: 222
 url: /aspose.slides/slide/joinportionswithsameformatting/
 ---
 ## Slide::JoinPortionsWithSameFormatting() method

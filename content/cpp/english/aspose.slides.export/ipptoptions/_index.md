@@ -3,7 +3,7 @@ title: IPptOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control how a presentation is saved in PPT format.
 type: docs
-weight: 300
+weight: 287
 url: /aspose.slides.export/ipptoptions/
 ---
 ## IPptOptions class

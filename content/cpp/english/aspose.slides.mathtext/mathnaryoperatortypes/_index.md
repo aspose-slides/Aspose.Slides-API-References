@@ -3,7 +3,7 @@ title: MathNaryOperatorTypes
 second_title: Aspose.Slides for C++ API Reference
 description: Nary operator IMathNaryOperator types (excluding integrals) For integrals MathIntegralTypes
 type: docs
-weight: 1236
+weight: 1262
 url: /aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 ## MathNaryOperatorTypes enum

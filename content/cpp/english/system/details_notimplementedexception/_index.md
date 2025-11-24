@@ -3,7 +3,7 @@ title: Details_NotImplementedException
 second_title: Aspose.Slides for C++ API Reference
 description: "NotImplementedException is thrown when a method that is not implemented and serves as a stub. Never create instances of this class manually. Use the NotImplementedException class instead. Never wrap the NotImplementedException class instances into System::SmartPtr."
 type: docs
-weight: 534
+weight: 547
 url: /system/details_notimplementedexception/
 ---
 ## Details_NotImplementedException class

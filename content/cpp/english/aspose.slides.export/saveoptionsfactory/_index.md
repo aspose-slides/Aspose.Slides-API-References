@@ -3,7 +3,7 @@ title: SaveOptionsFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create save options' instances
 type: docs
-weight: 690
+weight: 677
 url: /aspose.slides.export/saveoptionsfactory/
 ---
 ## SaveOptionsFactory class

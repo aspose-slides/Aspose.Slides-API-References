@@ -3,7 +3,7 @@ title: IMathRadicalFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create math radical
 type: docs
-weight: 508
+weight: 521
 url: /aspose.slides.mathtext/imathradicalfactory/
 ---
 ## IMathRadicalFactory class

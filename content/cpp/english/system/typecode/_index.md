@@ -3,7 +3,7 @@ title: TypeCode
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the type of an object.
 type: docs
-weight: 3017
+weight: 3147
 url: /system/typecode/
 ---
 ## TypeCode enum

@@ -3,7 +3,7 @@ title: Console
 second_title: Aspose.Slides for C++ API Reference
 description: Provides methods for outputting data to the standard output stream. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 170
+weight: 183
 url: /system/console/
 ---
 ## Console class

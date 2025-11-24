@@ -3,7 +3,7 @@ title: Int32
 second_title: Aspose.Slides for C++ API Reference
 description: Contains methods to work with the 32-bit integer.
 type: docs
-weight: 989
+weight: 1002
 url: /system/int32/
 ---
 ## Int32 class

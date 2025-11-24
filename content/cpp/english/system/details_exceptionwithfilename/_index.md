@@ -3,7 +3,7 @@ title: Details_ExceptionWithFilename
 second_title: Aspose.Slides for C++ API Reference
 description: The template class for an exception with a file name.
 type: docs
-weight: 404
+weight: 417
 url: /system/details_exceptionwithfilename/
 ---
 ## Details_ExceptionWithFilename class

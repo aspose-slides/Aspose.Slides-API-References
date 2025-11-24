@@ -3,7 +3,7 @@ title: MathGroupingCharacter
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies a grouping symbol above or below an expression, usually to highlight the relationship between elements
 type: docs
-weight: 872
+weight: 885
 url: /aspose.slides.mathtext/mathgroupingcharacter/
 ---
 ## MathGroupingCharacter class

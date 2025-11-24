@@ -3,7 +3,7 @@ title: TieTuple()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates tuple bound to some values.
 type: docs
-weight: 2848
+weight: 2978
 url: /system/tietuple/
 ---
 ## System::TieTuple(Args\&&...) function
@@ -12,7 +12,7 @@ url: /system/tietuple/
 Creates tuple bound to some values.
 
 ```cpp
-template<typename...> static ValueTuple<Args...> System::TieTuple(Args &&... args)
+template<typename...> ValueTuple<Args...> System::TieTuple(Args &&... args)
 ```
 
 

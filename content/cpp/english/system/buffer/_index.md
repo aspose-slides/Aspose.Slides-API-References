@@ -3,7 +3,7 @@ title: Buffer
 second_title: Aspose.Slides for C++ API Reference
 description: Contains methods that manipulate raw byte arrays. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 118
+weight: 131
 url: /system/buffer/
 ---
 ## Buffer class

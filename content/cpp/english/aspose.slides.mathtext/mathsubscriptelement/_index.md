@@ -3,7 +3,7 @@ title: MathSubscriptElement
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the subscript object, which consists of a base and a reduced-size subscript placed below and to the right.
 type: docs
-weight: 1080
+weight: 1106
 url: /aspose.slides.mathtext/mathsubscriptelement/
 ---
 ## MathSubscriptElement class

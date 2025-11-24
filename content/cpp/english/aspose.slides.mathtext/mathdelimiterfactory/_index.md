@@ -3,7 +3,7 @@ title: MathDelimiterFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create a math delimiter
 type: docs
-weight: 768
+weight: 781
 url: /aspose.slides.mathtext/mathdelimiterfactory/
 ---
 ## MathDelimiterFactory class

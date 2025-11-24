@@ -3,7 +3,7 @@ title: MathBorderBox
 second_title: Aspose.Slides for C++ API Reference
 description: Draws a rectangular or some other border around the IMathElement.
 type: docs
-weight: 703
+weight: 716
 url: /aspose.slides.mathtext/mathborderbox/
 ---
 ## MathBorderBox class

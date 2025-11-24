@@ -3,7 +3,7 @@ title: MathVerticalAlignment
 second_title: Aspose.Slides for C++ API Reference
 description: Vertical Alignment
 type: docs
-weight: 1288
+weight: 1314
 url: /aspose.slides.mathtext/mathverticalalignment/
 ---
 ## MathVerticalAlignment enum

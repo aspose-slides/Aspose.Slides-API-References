@@ -3,7 +3,7 @@ title: MarkdownSaveOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents options that control how presentation should be saved to markdown.
 type: docs
-weight: 560
+weight: 547
 url: /aspose.slides.export/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions class
@@ -84,6 +84,16 @@ class MarkdownSaveOptions : public Aspose::Slides::Export::SaveOptions
 | Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Increments weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Decrements weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | virtual  [~Object](../../system/object/~object/)() | Destroys object. Frees all internal data structures. |
+## Typedefs
+
+| Typedef | Description |
+| --- | --- |
+| [MarkdownImageSavingHandler](./markdownimagesavinghandler/) | Invoked for each non-SVG image (bitmap or metafile) during Markdown export. 
+ Return **true** to use the specified *link* , 
+ or **false** to apply the default saving logic. |
+| [MarkdownSvgImageSavingHandler](./markdownsvgimagesavinghandler/) | Invoked for each SVG image during Markdown export. 
+ Return **true** to use the specified *link* , 
+ or **false** to apply the default saving logic. |
 ## Remarks
 
 

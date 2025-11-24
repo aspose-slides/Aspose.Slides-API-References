@@ -3,7 +3,7 @@ title: DynamicCast_noexcept()
 second_title: Aspose.Slides for C++ API Reference
 description: Old obsolete casts. Will be removed in future versions.
 type: docs
-weight: 2302
+weight: 2445
 url: /system/dynamiccast_noexcept/
 ---
 ## System::DynamicCast_noexcept(const TFrom\&) function

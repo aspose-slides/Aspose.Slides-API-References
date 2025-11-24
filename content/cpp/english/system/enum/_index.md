@@ -3,7 +3,7 @@ title: Enum
 second_title: Aspose.Slides for C++ API Reference
 description: Provides methods that perform some operations on values of enum type. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 1522
+weight: 1535
 url: /system/enum/
 ---
 ## Enum struct

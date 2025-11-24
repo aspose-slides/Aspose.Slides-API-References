@@ -21,6 +21,7 @@ url: /system/
 | [Boolean](./boolean/) | Class that keeps static members of [System.Boolean](./boolean/) .[Net](../system.net/) type. |
 | [BoxedEnum](./boxedenum/) | Represents boxed enumeration value. Objects of this class should only be allocated using [System::MakeObject()](./makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](./smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [BoxedValue](./boxedvalue/) | Represents a boxed value. Objects of this class should only be allocated using [System::MakeObject()](./makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](./smartptr/) pointer and use this pointer to pass it to functions as argument. |
+| [BoxedValue< ValueTuple< Args... > >](./boxedvalue_tmpl_valuetuple_tmpl_args_dots__end_tmpl__end_tmpl/) | Boxed version of value tuple. |
 | [BoxedValueBase](./boxedvaluebase/) | A base class that defines an interface and implements some fundamental methods of a descendant class that represents a boxed value. Objects of this class should only be allocated using [System::MakeObject()](./makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](./smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [Buffer](./buffer/) | Contains methods that manipulate raw byte arrays. This is a static type with no instance services. You should never create instances of it by any means. |
 | [Byte](./byte/) | Contains methods to work with the unsigned 8-bit integer. |
@@ -288,7 +289,22 @@ url: /system/
 | std::enable_if<\![IsExceptionWrapper](./isexceptionwrapper/)\<T\>::value, constT\&\>::type [Default](./default/)() | Returns the reference to the single default-constructed instance of the non-exception type. |
 | T\& [Discard](./discard/)(T\&&) | Returns the default-constructed temporary instance of the specified type, which can be placed instead of discarding '_' argument. |
 | Details::ObjectBuilder\<T, [SharedPtr](./sharedptr/)\<T\>\> [BuildObject](./buildobject/)(Args\&&...) | Build an object with shared ownership. |
+| Details::ObjectBuilder\<T, [SharedPtr](./sharedptr/)\<T\>\> [InitObject](./initobject/)(const [SharedPtr](./sharedptr/)\<T\>\&) | Starts initialization of an object with shared ownership. |
+| Details::ObjectBuilder\<Details::ArrayStorage\<T\>\> [BuildArray](./buildarray/)() | Build an array. |
 | Details::ObjectBuilder\<T\> [Build](./build/)(Args\&&...) | Build an object with direct ownership. |
+| **bool** [Is](./is/)(const ExpressionT\&, ResultT\&) | Implements 'is' declaration pattern translation. |
+| std::enable_if_t<\!std::is_base_of\<Details::Pattern, ConstantT\>::value, **bool**\> [Is](./is/)(const ExpressionT\&, const ConstantT\&) | Implements 'is' constant pattern translation. |
+| std::enable_if_t\<std::is_base_of\<Details::Pattern, A\>::value, **bool**\> [Is](./is/)(const E\&, const A\&) | Top-level matching function. Applies a pattern to a value. |
+| **bool** [Less](./less/)(const ExpressionT\&, const ConstantT\&) | Implements '<' relative pattern translation. |
+| **bool** [Greater](./greater/)(const ExpressionT\&, const ConstantT\&) | Implements '>' relative pattern translation. |
+| **bool** [LEqual](./lequal/)(const ExpressionT\&, const ConstantT\&) | Implements '<=' relative pattern translation. |
+| **bool** [GEqual](./gequal/)(const ExpressionT\&, const ConstantT\&) | Implements '>=' relative pattern translation. |
+| **bool** [Set](./set/)(ExpressionT\&, const ExpressionT\&) | Implements 'var' pattern translation. |
+| **bool** [IsTuple](./istuple/)(const [SharedPtr](./sharedptr/)\<[Object](./object/)\>\&, **int32_t**) | Checks if object is tuple (implements ITuple interface). Used in positional pattern implementation. |
+| auto [Get](./get/)(const [SharedPtr](./sharedptr/)\<[Object](./object/)\>\&) | Function to get N-th element of tuple given. Overload for base object. |
+| auto [Get](./get/)(const T\&) | Function to get N-th element of tuple given. Overload for objects with Deconstruct method. |
+| auto [Get](./get/)(const [SharedPtr](./sharedptr/)\<T\>\&) | Function to get N-th element of tuple given. Overload for shared pointers. |
+| auto [Get](./get/)(const [ValueTuple](./valuetuple/)\<Args...\>\&) | Gets N-th element of value tuple. |
 | [SharedPtr](./sharedptr/)\<[Collections::Generic::IEnumerable](../system.collections.generic/ienumerable/)\<T\>\> [MakeYieldEnumerable](./makeyieldenumerable/)(const Details::YieldFunction\<T\>\&) | Creates an IEnumerable from a yield function. |
 | [SharedPtr](./sharedptr/)\<[Collections::Generic::IEnumerator](../system.collections.generic/ienumerator/)\<T\>\> [MakeYieldEnumerator](./makeyieldenumerator/)(const Details::YieldFunction\<T\>\&) | Creates an IEnumerator from a yield function. |
 | std::enable_if_t\<Details::is_lambda_void_void\<T\>::value\> [DoTryFinally](./dotryfinally/)(T\&&, F\&&) | The sigle function that emulates behavior of C#'s try[-catch]-finally statement. During translation of C#'s try[-catch]-finally statement with translator's option finally_statement_as_lambda set to true, the statement is translated into the invocation of this method. |
@@ -336,6 +352,8 @@ url: /system/
 | [CastResult](./castresult/)\<TTo\>::type [ConstCast](./constcast/)(const [SmartPtr](./smartptr/)\<TFrom\>\&) | End of deprecated casts. |
 | [CastResult](./castresult/)\<TTo\>::type [ForceStaticCast](./forcestaticcast/)([SmartPtr](./smartptr/)\<TFrom\> const\&) | Performs real static cast on [SmartPtr](./smartptr/) objects. |
 | [SmartPtr](./smartptr/)\<[Object](./object/)\> [MemberwiseClone](./memberwiseclone/)(T *) | Performs memberwise cloning using copy constructor. |
+| [SharedPtr](./sharedptr/)\<T\> [With](./with/)(const [SharedPtr](./sharedptr/)\<T\>\&, const A\&) | Clones reference record and applies initializer functor to it. |
+| T [With](./with/)(const T\&, const A\&) | Copies struct record and applies initializer functor to it. |
 | std::enable_if_t\<Details::CastType\<Source, Result\>::None, Result\> [ExplicitCast](./explicitcast/)(const Source\&) | Casts the source type to the result type using explicit cast. Used when the source and the result types are the same. |
 | std::enable_if_t\<Details::CastType\<Source, Result\>::Static, Result\> [ExplicitCast](./explicitcast/)(const Source\&) | Casts the source type to the result type using explicit cast. Used when simple constructor-like cast is needed. |
 | std::enable_if_t\<Details::CastType\<Source, Result\>[::Exception](./exception/), Result\> [ExplicitCast](./explicitcast/)(const Source\&) | Casts the source type to the result type using explicit cast. Used for exception wrappers. |
@@ -371,8 +389,6 @@ url: /system/
 | std::enable_if_t\<Details::CastType\<Source, Result\>::Null, typename [CastResult](./castresult/)\<Result\>::type\> [AsCast](./ascast/)(const Source\&) | Casts the source type to the result type using 'as' operator cast. Used for nullptr casing. |
 | std::enable_if_t\<Details::CastType\<Source, Result\>**::Array**, typename [CastResult](./castresult/)\<Result\>::type\> [AsCast](./ascast/)(const Source\&) | Casts the source type to the result type using 'as' operator cast. Used to cast between arrays. |
 | static auto [SafeInvoke](./safeinvoke/)(T0, T1) | Implementation of '?.' operator translation. |
-| **bool** [IsDeclaration](./isdeclaration/)(const ExpressionT\&, ResultT\&) | Implements 'is' declaration pattern translation. |
-| **bool** [IsConstant](./isconstant/)(const ExpressionT\&, const ConstantT\&) | Implements 'is' constant pattern translation. |
 | const [System::TypeInfo](./typeinfo/)\& [ObjectType::GetType< System::String >](./objecttype_dcolon_gettype_less_system_dcolon_string__greater/)() | Implements typeof() translation. Overload for [String](./string/). |
 | const [System::TypeInfo](./typeinfo/)\& [ObjectType::GetType< System::DateTime >](./objecttype_dcolon_gettype_less_system_dcolon_datetime__greater/)() | Implements typeof() translation. Overload for [DateTime](./datetime/). |
 | **bool** [Equals](./equals/)(const TA\&, const TB\&) | Determines the equality of two values applying [operator==()](./operator_equal_equal/) to them. |
@@ -418,8 +434,8 @@ url: /system/
 | [RTaskPtr](./rtaskptr/)\<T\> [MakeAsync](./makeasync/)(const Details::ResultAsyncFunction\<T\>\&) |  |
 | [Threading::Tasks::ResultValueTask](../system.threading.tasks/resultvaluetask/)\<T\> [MakeValueAsync](./makevalueasync/)(const Details::ResultAsyncFunction\<T\>\&) |  |
 | [Threading::Tasks::ValueTask](../system.threading.tasks/valuetask/) [MakeValueAsync](./makevalueasync/)(const Details::AsyncFunction\&) |  |
-| static [ValueTuple](./valuetuple/)\<Args...\> [MakeTuple](./maketuple/)(Args...) | Creates tuple on stack. |
-| static [ValueTuple](./valuetuple/)\<Args...\> [TieTuple](./tietuple/)(Args\&&...) | Creates tuple bound to some values. |
+| [ValueTuple](./valuetuple/)\<Args...\> [MakeTuple](./maketuple/)(Args...) | Creates tuple on stack. |
+| [ValueTuple](./valuetuple/)\<Args...\> [TieTuple](./tietuple/)(Args\&&...) | Creates tuple bound to some values. |
 | **bool** [is_vp_test](./is_vp_test/)(const ::testing::TestInfo *) |  |
 | **bool** [is_parametrized_test](./is_parametrized_test/)(const ::testing::TestInfo *) |  |
 | std::string [ForEachMemberGVName](./foreachmembergvname/)() |  |

@@ -3,7 +3,7 @@ title: MathFunction
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies a function of an argument.
 type: docs
-weight: 846
+weight: 859
 url: /aspose.slides.mathtext/mathfunction/
 ---
 ## MathFunction class

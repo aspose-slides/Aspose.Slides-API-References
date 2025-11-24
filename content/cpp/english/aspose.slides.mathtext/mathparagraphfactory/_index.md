@@ -3,7 +3,7 @@ title: MathParagraphFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create a math paragraph
 type: docs
-weight: 1002
+weight: 1015
 url: /aspose.slides.mathtext/mathparagraphfactory/
 ---
 ## MathParagraphFactory class

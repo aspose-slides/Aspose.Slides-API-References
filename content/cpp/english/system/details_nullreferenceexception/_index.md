@@ -3,7 +3,7 @@ title: Details_NullReferenceException
 second_title: Aspose.Slides for C++ API Reference
 description: "NullReferenceException is thrown when dereferencing of a null-reference is attempted. Never create instances of this class manually. Use the NullReferenceException class instead. Never wrap the NullReferenceException class instances into System::SmartPtr."
 type: docs
-weight: 560
+weight: 573
 url: /system/details_nullreferenceexception/
 ---
 ## Details_NullReferenceException class

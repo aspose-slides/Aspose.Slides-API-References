@@ -50,6 +50,7 @@ url: /aspose.slides.mathtext/
 | [IMathNaryOperatorProperties](./imathnaryoperatorproperties/) | Specifies properties of [IMathNaryOperator](./imathnaryoperator/) |
 | [IMathParagraph](./imathparagraph/) | Mathematical paragraph that is a container for mathematical blocks ([IMathBlock](./imathblock/)) |
 | [IMathParagraphFactory](./imathparagraphfactory/) | Allows to create a math paragraph |
+| [IMathPhantom](./imathphantom/) | Represents a phantom math object (<m:phant>) that affects the layout of its child element without necessarily displaying it. A phantom can hide its base expression while preserving its width, height, or depth to align formulas or reserve space. Visibility and geometry behavior are controlled by properties such as Show, ZeroWid, ZeroAsc, ZeroDesc, and Transp. |
 | [IMathPortion](./imathportion/) | Represents a portion with mathematical context inside. |
 | [IMathRadical](./imathradical/) | Specifies the radical function, consisting of a base, and an optional degree. Example of radical object is \\u221A\\uD835\\uDC65. |
 | [IMathRadicalFactory](./imathradicalfactory/) | Allows to create math radical |
@@ -91,6 +92,7 @@ url: /aspose.slides.mathtext/
 | [MathNaryOperatorFactory](./mathnaryoperatorfactory/) | Allows to create [IMathNaryOperator](./imathnaryoperator/) |
 | [MathParagraph](./mathparagraph/) | Mathematical paragraph that is a container for mathematical blocks ([IMathBlock](./imathblock/)) |
 | [MathParagraphFactory](./mathparagraphfactory/) | Allows to create a math paragraph |
+| [MathPhantom](./mathphantom/) | Represents a phantom math object (<m:phant>) that affects the layout of its child element without necessarily displaying it. A phantom can hide its base expression while preserving its width, height, or depth to align formulas or reserve space. Visibility and geometry behavior are controlled by properties such as Show, ZeroWid, ZeroAsc, ZeroDesc, and Transp. |
 | [MathPortion](./mathportion/) | Represents a portion with mathematical context inside. |
 | [MathRadical](./mathradical/) | Specifies the radical function, consisting of a base, and an optional degree. Example of radical object is \\u221A\\uD835\\uDC65. |
 | [MathRadicalFactory](./mathradicalfactory/) | Allows to create math radical |

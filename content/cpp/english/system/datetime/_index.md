@@ -3,7 +3,7 @@ title: DateTime
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents a specific date and time value on the time continuum. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 196
+weight: 209
 url: /system/datetime/
 ---
 ## DateTime class

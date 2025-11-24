@@ -3,7 +3,7 @@ title: Details_MethodAccessException
 second_title: Aspose.Slides for C++ API Reference
 description: "MemberAccessException is thrown when access to non-existent method is attempted or when access to the method is not permitted. Never create instances of this class manually. Use the MethodAccessException class instead. Never wrap the MethodAccessException class instances into System::SmartPtr."
 type: docs
-weight: 521
+weight: 534
 url: /system/details_methodaccessexception/
 ---
 ## Details_MethodAccessException class

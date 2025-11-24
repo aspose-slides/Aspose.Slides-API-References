@@ -3,7 +3,7 @@ title: MathAccentFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create a math accent
 type: docs
-weight: 612
+weight: 625
 url: /aspose.slides.mathtext/mathaccentfactory/
 ---
 ## MathAccentFactory class

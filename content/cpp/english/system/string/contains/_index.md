@@ -26,6 +26,26 @@ bool System::String::Contains(const String &str) const
 
 true if substring is present, false otherwise.
 
+## String::Contains(char16_t) const method
+
+
+Checks if string contains given character.
+
+```cpp
+bool System::String::Contains(char16_t value) const
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | char16_t | Lookup character. |
+
+### Return Value
+
+true if character is present, false otherwise.
+
 ## See Also
 
 * Class [String](../)

@@ -3,7 +3,7 @@ title: get_X()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a X-offset of an image. Read-only int32_t.
 type: docs
-weight: 105
+weight: 92
 url: /aspose.slides/ppimage/get_x/
 ---
 ## PPImage::get_X() method

@@ -3,7 +3,7 @@ title: GetImage()
 second_title: Aspose.Slides for C++ API Reference
 description: "Returns shape thumbnail. ShapeThumbnailBounds::Shape shape thumbnail bounds type is used by default."
 type: docs
-weight: 664
+weight: 651
 url: /aspose.slides/shape/getimage/
 ---
 ## Shape::GetImage() method

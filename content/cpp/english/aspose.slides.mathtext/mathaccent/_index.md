@@ -3,7 +3,7 @@ title: MathAccent
 second_title: Aspose.Slides for C++ API Reference
 description: "Specifies the accent function, consisting of a base and a combining diacritical mark Example: \\uD835\\uDC4E\\u0301"
 type: docs
-weight: 599
+weight: 612
 url: /aspose.slides.mathtext/mathaccent/
 ---
 ## MathAccent class

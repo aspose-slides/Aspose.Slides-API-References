@@ -3,7 +3,7 @@ title: IMathSubscriptElement
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the subscript object, which consists of a base and a reduced-size subscript placed below and to the right.
 type: docs
-weight: 547
+weight: 560
 url: /aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement class

@@ -3,7 +3,7 @@ title: MathArray
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies a vertical array of equations or any mathematical objects
 type: docs
-weight: 625
+weight: 638
 url: /aspose.slides.mathtext/matharray/
 ---
 ## MathArray class

@@ -3,7 +3,7 @@ title: WriteAsEmf()
 second_title: Aspose.Slides for C++ API Reference
 description: Saves the slide content as an EMF file.
 type: docs
-weight: 196
+weight: 170
 url: /aspose.slides/slide/writeasemf/
 ---
 ## Slide::WriteAsEmf(System::SharedPtr\<System::IO::Stream\>) method

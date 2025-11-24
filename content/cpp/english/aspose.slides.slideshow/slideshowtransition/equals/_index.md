@@ -3,7 +3,7 @@ title: Equals()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether the two SlideShowTransition instances are equal. Read/write bool.
 type: docs
-weight: 274
+weight: 300
 url: /aspose.slides.slideshow/slideshowtransition/equals/
 ---
 ## SlideShowTransition::Equals(System::SharedPtr\<System::Object\>) method

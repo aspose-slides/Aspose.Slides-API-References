@@ -3,7 +3,7 @@ title: SwfOptions()
 second_title: Aspose.Slides for C++ API Reference
 description: Default constructor.
 type: docs
-weight: 430
+weight: 417
 url: /aspose.slides.export/swfoptions/swfoptions/
 ---
 ## SwfOptions::SwfOptions() constructor

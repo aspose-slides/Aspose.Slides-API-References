@@ -30,7 +30,6 @@ class IPPImage : public virtual System::Object
 | virtual **int32_t** [get_Height](./get_height/)() | Returns a height of an image. Read-only **int32_t**. |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[IImage](../iimage/)\> [get_Image](./get_image/)() | Returns the copy of an image. Read-only [System::Drawing::Image](../../system.drawing/image/). |
 | virtual [System::SharedPtr](../../system/sharedptr/)\<[ISvgImage](../isvgimage/)\> [get_SvgImage](./get_svgimage/)() const | Returns [ISvgImage](../isvgimage/) object [ISvgImage](../isvgimage/) |
-| virtual [System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Image](../../system.drawing/image/)\> [get_SystemImage](./get_systemimage/)() | Returns the copy of an image of the [System::Drawing::Image](../../system.drawing/image/) type. Read-only [System::Drawing::Image](../../system.drawing/image/). |
 | virtual **int32_t** [get_Width](./get_width/)() | Returns a width of an image. Read-only **int32_t**. |
 | virtual **int32_t** [get_X](./get_x/)() | Returns a X-offset of an image. Read-only **int32_t**. |
 | virtual **int32_t** [get_Y](./get_y/)() | Returns a Y-offset of an image. Read-only **int32_t**. |
@@ -50,7 +49,6 @@ class IPPImage : public virtual System::Object
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
 | virtual void [ReplaceImage](./replaceimage/)([System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>) | Replaces image data. |
-| virtual void [ReplaceImage](./replaceimage/)([System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Image](../../system.drawing/image/)\>) | Replaces image. |
 | virtual void [ReplaceImage](./replaceimage/)([System::SharedPtr](../../system/sharedptr/)\<[IImage](../iimage/)\>) | Replaces image. |
 | virtual void [ReplaceImage](./replaceimage/)([System::SharedPtr](../../system/sharedptr/)\<[IPPImage](./)\>) | Replaces image. |
 | virtual void [set_SvgImage](./set_svgimage/)([System::SharedPtr](../../system/sharedptr/)\<[ISvgImage](../isvgimage/)\>) | Sets [ISvgImage](../isvgimage/) object [ISvgImage](../isvgimage/) |

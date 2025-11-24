@@ -3,7 +3,7 @@ title: IMathSuperscriptElement
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the superscript object, which consists of a base and a reduced-size superscript placed above and to the right
 type: docs
-weight: 573
+weight: 586
 url: /aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement class

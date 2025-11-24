@@ -3,7 +3,7 @@ title: Nullable
 second_title: Aspose.Slides for C++ API Reference
 description: Forward declaration.
 type: docs
-weight: 1054
+weight: 1067
 url: /system/nullable/
 ---
 ## Nullable class

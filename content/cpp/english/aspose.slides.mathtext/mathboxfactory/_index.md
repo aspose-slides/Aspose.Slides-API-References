@@ -3,7 +3,7 @@ title: MathBoxFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create a math box
 type: docs
-weight: 742
+weight: 755
 url: /aspose.slides.mathtext/mathboxfactory/
 ---
 ## MathBoxFactory class

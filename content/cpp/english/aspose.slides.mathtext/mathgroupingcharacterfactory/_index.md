@@ -3,7 +3,7 @@ title: MathGroupingCharacterFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create a math grouping character
 type: docs
-weight: 885
+weight: 898
 url: /aspose.slides.mathtext/mathgroupingcharacterfactory/
 ---
 ## MathGroupingCharacterFactory class

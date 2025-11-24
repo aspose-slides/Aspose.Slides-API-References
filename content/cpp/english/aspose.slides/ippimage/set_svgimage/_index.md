@@ -3,7 +3,7 @@ title: set_SvgImage()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets ISvgImage object ISvgImage
 type: docs
-weight: 53
+weight: 40
 url: /aspose.slides/ippimage/set_svgimage/
 ---
 ## IPPImage::set_SvgImage(System::SharedPtr\<ISvgImage\>) method

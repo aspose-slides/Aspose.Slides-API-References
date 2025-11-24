@@ -3,7 +3,7 @@ title: Char
 second_title: Aspose.Slides for C++ API Reference
 description: Provides methods for manipulation of characters represented as UTF-16 code units. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 144
+weight: 157
 url: /system/char/
 ---
 ## Char class

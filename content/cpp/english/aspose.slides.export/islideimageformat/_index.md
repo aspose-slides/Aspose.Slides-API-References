@@ -3,7 +3,7 @@ title: ISlideImageFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Determines format in which slide image will be saved for presentation to HTML export.
 type: docs
-weight: 391
+weight: 378
 url: /aspose.slides.export/islideimageformat/
 ---
 ## ISlideImageFormat class

@@ -3,7 +3,7 @@ title: SwfOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control how a presentation is saved in Swf format.
 type: docs
-weight: 755
+weight: 742
 url: /aspose.slides.export/swfoptions/
 ---
 ## SwfOptions class
@@ -33,7 +33,6 @@ class SwfOptions : public Aspose::Slides::Export::SaveOptions,
 | **int32_t** [get_JpegQuality](./get_jpegquality/)() override | Specifies the quality of JPEG images. Default is 95. |
 | [System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\> [get_LogoImageBytes](./get_logoimagebytes/)() override | Image that will be displayed as logo in the top right corner of the viewer. Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. |
 | [System::String](../../system/string/) [get_LogoLink](./get_logolink/)() override | Gets the full hyperlink address for a logo. Has an effect only if a [set_LogoImageBytes()](./set_logoimagebytes/) is specified. |
-| [System::SharedPtr](../../system/sharedptr/)\<[INotesCommentsLayoutingOptions](../inotescommentslayoutingoptions/)\> [get_NotesCommentsLayouting](./get_notescommentslayouting/)() override | Provides options that control how notes and comments is placed in exported document. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IProgressCallback](../../aspose.slides/iprogresscallback/)\> [get_ProgressCallback](../saveoptions/get_progresscallback/)() override | Represents a callback object for saving progress updates in percentage. See [IProgressCallback](../../aspose.slides/iprogresscallback/). |
 | **bool** [get_ShowBottomPane](./get_showbottompane/)() override | Show/hide bottom pane. Can be overridden in flashvars. Default is true. |
 | **bool** [get_ShowFullScreen](./get_showfullscreen/)() override | Show/hide fullscreen button. Can be overridden in flashvars. Default is true. |

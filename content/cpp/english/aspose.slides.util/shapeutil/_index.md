@@ -19,8 +19,6 @@ class ShapeUtil
 
 | Method | Description |
 | --- | --- |
-| static [System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Drawing2D::GraphicsPath](../../system.drawing.drawing2d/graphicspath/)\> [GeometryPathToGraphicsPath](./geometrypathtographicspath/)([System::SharedPtr](../../system/sharedptr/)\<[IGeometryPath](../../aspose.slides/igeometrypath/)\>) | Converts [IGeometryPath](../../aspose.slides/igeometrypath/) to [System::Drawing::Drawing2D::GraphicsPath](../../system.drawing.drawing2d/graphicspath/). |
-| static [System::SharedPtr](../../system/sharedptr/)\<[IGeometryPath](../../aspose.slides/igeometrypath/)\> [GraphicsPathToGeometryPath](./graphicspathtogeometrypath/)([System::SharedPtr](../../system/sharedptr/)\<[System::Drawing::Drawing2D::GraphicsPath](../../system.drawing.drawing2d/graphicspath/)\>) | Converts a [System::Drawing::Drawing2D::GraphicsPath](../../system.drawing.drawing2d/graphicspath/) to the [IGeometryPath](../../aspose.slides/igeometrypath/) |
 |  [ShapeUtil](./shapeutil/)() |  |
 ## See Also
 

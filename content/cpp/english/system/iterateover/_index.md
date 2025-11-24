@@ -3,7 +3,7 @@ title: IterateOver()
 second_title: Aspose.Slides for C++ API Reference
 description: "This function property wraps enumerable (or iterable) object so it can be used with range-based for loop This overload for Enumerable without begin(), end() methods with target type argument for (auto& value : IterateOver<SomeType>(enumerable))"
 type: docs
-weight: 2250
+weight: 2393
 url: /system/iterateover/
 ---
 ## System::IterateOver(System::SmartPtr\<Enumerable\>) function

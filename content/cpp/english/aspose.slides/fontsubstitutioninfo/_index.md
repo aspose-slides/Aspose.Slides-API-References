@@ -60,7 +60,7 @@ class FontSubstitutionInfo : public System::Object
 ```cpp
 auto pres = System::MakeObject<Presentation>(u"pres.pptx");
 
-for (auto fontSubstitution : System::IterateOver(pres->get_FontsManager()->GetSubstitutions()))
+for (auto&& fontSubstitution : pres->get_FontsManager()->GetSubstitutions())
 {
     System::Console::WriteLine(u"{0} -> {1}", fontSubstitution->get_OriginalFontName(), fontSubstitution->get_SubstitutedFontName());
 }

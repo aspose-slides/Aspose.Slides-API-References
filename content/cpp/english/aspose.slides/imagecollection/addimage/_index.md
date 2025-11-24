@@ -26,34 +26,6 @@ System::SharedPtr<IPPImage> Aspose::Slides::ImageCollection::AddImage(System::Sh
 
 Added image.
 
-## ImageCollection::AddImage(System::SharedPtr\<System::Drawing::Image\>) method
-
-
-Add an image to a presentation.
-
-```cpp
-System::SharedPtr<IPPImage> Aspose::Slides::ImageCollection::AddImage(System::SharedPtr<System::Drawing::Image> image) override
-```
-
-
-### Arguments
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| image | [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::Image](../../../system.drawing/image/)\> | Image to add. |
-
-### Return Value
-
-Added image.
-## Remarks
-
-
-Deprecated
-:   Use AddImage(IImage image) method instead. The method will be removed after release of version 24.7.
-
-
-This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation.
-
 ## ImageCollection::AddImage(System::SharedPtr\<IImage\>) method
 
 
@@ -194,7 +166,6 @@ Added image.
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [IPPImage](../../ippimage/)
 * Class [ImageCollection](../)
-* Class [Image](../../../system.drawing/image/)
 * Class [IImage](../../iimage/)
 * Class [MemoryStream](../../../system.io/memorystream/)
 * Class [Stream](../../../system.io/stream/)

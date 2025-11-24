@@ -3,7 +3,7 @@ title: MathDelimiterShape
 second_title: Aspose.Slides for C++ API Reference
 description: The location and size of the delimiters relative to the content of the operands
 type: docs
-weight: 1132
+weight: 1158
 url: /aspose.slides.mathtext/mathdelimitershape/
 ---
 ## MathDelimiterShape enum

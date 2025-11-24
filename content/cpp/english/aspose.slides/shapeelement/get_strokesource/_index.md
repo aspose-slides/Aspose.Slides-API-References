@@ -3,7 +3,7 @@ title: get_StrokeSource()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns information about how to stroke an element. Read-only ShapeElementStrokeSource.
 type: docs
-weight: 40
+weight: 27
 url: /aspose.slides/shapeelement/get_strokesource/
 ---
 ## ShapeElement::get_StrokeSource() method

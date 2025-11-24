@@ -3,7 +3,7 @@ title: MathFunctionFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create a math function
 type: docs
-weight: 859
+weight: 872
 url: /aspose.slides.mathtext/mathfunctionfactory/
 ---
 ## MathFunctionFactory class

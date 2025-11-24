@@ -3,7 +3,7 @@ title: Details_NotSupportedException
 second_title: Aspose.Slides for C++ API Reference
 description: "NotSupportedException is thrown when a method being invoked is not supported or when an operation attempted on a stream is not supported. Never create instances of this class manually. Use the NotSupportedException class instead. Never wrap the NotSupportedException class instances into System::SmartPtr."
 type: docs
-weight: 547
+weight: 560
 url: /system/details_notsupportedexception/
 ---
 ## Details_NotSupportedException class
