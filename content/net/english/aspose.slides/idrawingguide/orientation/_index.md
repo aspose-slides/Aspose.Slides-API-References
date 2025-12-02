@@ -3,7 +3,7 @@ title: Orientation
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets orientation of the drawing guide. Read/write Orientationaspose.slides/orientation.
 type: docs
-weight: 10
+weight: 20
 url: /aspose.slides/idrawingguide/orientation/
 ---
 

@@ -3,7 +3,7 @@ title: HeaderFooterManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns HeaderFooter manager of the master handout slide. Read-only IMasterHandoutSlideHeaderFooterManageraspose.slides/imasterhandoutslideheaderfootermanager.
 type: docs
-weight: 30
+weight: 40
 url: /aspose.slides/imasterhandoutslide/headerfootermanager/
 ---
 

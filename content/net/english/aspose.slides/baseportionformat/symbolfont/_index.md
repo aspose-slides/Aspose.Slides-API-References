@@ -3,7 +3,7 @@ title: SymbolFont
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the symbolic font info. Null means font is undefined and should be inherited from the Master. Read/write IFontDataaspose.slides/ifontdata.
 type: docs
-weight: 230
+weight: 240
 url: /aspose.slides/baseportionformat/symbolfont/
 ---
 

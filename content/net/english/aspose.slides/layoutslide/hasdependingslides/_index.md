@@ -3,7 +3,7 @@ title: HasDependingSlides
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns true if there exists at least one slide that depends on this layout slide. Read-only Boolean.
 type: docs
-weight: 10
+weight: 20
 url: /aspose.slides/layoutslide/hasdependingslides/
 ---
 

@@ -19,6 +19,7 @@ public sealed class DrawingGuide : IDrawingGuide
 
 | Name | Description |
 | --- | --- |
+| [Color](../../aspose.slides/drawingguide/color) { get; set; } | Returns or sets color of the drawing guide. Read/write Color. |
 | [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Returns or sets orientation of the drawing guide. Read/write [`Orientation`](../orientation). |
 | [Position](../../aspose.slides/drawingguide/position) { get; set; } | Returns or sets position of the drawing guide in points from the top, left corner of the slide. Read/write Single. |
 

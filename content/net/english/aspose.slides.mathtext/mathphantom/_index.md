@@ -3,7 +3,7 @@ title: MathPhantom
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a phantom math object ltmphantgt that affects the layout of its child element without necessarily displaying it. A phantom can hide its base expression while preserving its width height or depth to align formulas or reserve space. Visibility and geometry behavior are controlled by properties such as Show ZeroWid ZeroAsc ZeroDesc and Transp.
 type: docs
-weight: 8850
+weight: 8860
 url: /aspose.slides.mathtext/mathphantom/
 ---
 

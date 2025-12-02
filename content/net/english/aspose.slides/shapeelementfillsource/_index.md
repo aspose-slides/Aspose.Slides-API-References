@@ -3,7 +3,7 @@ title: ShapeElementFillSource
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents how shape element should be filled.
 type: docs
-weight: 9770
+weight: 9780
 url: /aspose.slides/shapeelementfillsource/
 ---
 

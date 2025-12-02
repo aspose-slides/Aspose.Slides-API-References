@@ -3,7 +3,7 @@ title: TransitionEightDirectionType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent eight direction transition types.
 type: docs
-weight: 10250
+weight: 10260
 url: /aspose.slides.slideshow/transitioneightdirectiontype/
 ---
 

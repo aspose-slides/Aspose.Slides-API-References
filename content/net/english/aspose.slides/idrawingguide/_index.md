@@ -19,6 +19,7 @@ public interface IDrawingGuide
 
 | Name | Description |
 | --- | --- |
+| [Color](../../aspose.slides/idrawingguide/color) { get; set; } | Returns or sets color of the drawing guide. Read/write Color. |
 | [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | Returns or sets orientation of the drawing guide. Read/write [`Orientation`](../orientation). |
 | [Position](../../aspose.slides/idrawingguide/position) { get; set; } | Returns or sets position of the drawing guide in points from the top, left corner of the slide. Read/write Single. |
 

@@ -3,7 +3,7 @@ title: PlaceholderManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the placeholder manager of the layout slide. Read-only ILayoutPlaceholderManageraspose.slides/ilayoutplaceholdermanager.
 type: docs
-weight: 70
+weight: 80
 url: /aspose.slides/ilayoutslide/placeholdermanager/
 ---
 

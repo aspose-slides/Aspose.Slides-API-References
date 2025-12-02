@@ -21,6 +21,7 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Allows to get base IBaseSlide interface. Read-only [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | Returns IMasterThemeable interface. Read-only [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | Returns a collection of drawing guides for the master notes slide. Read-only [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Returns HeaderFooter manager of the master notes slide. Read-only [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
 | [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | Returns the style of a notes text. Read-only [`ITextStyle`](../itextstyle). |
 

@@ -3,7 +3,7 @@ title: OtherStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the style of an other text. Read-only ITextStyleaspose.slides/itextstyle.
 type: docs
-weight: 60
+weight: 70
 url: /aspose.slides/masterslide/otherstyle/
 ---
 

@@ -3,7 +3,7 @@ title: MathRadical
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the radical function consisting of a base and an optional degree. Example of radical object is .
 type: docs
-weight: 8870
+weight: 8880
 url: /aspose.slides.mathtext/mathradical/
 ---
 

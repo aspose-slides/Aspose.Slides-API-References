@@ -3,7 +3,7 @@ title: Remove
 second_title: Aspose.Sildes for .NET API Reference
 description: Removes layout from presentation.
 type: docs
-weight: 90
+weight: 100
 url: /aspose.slides/ilayoutslide/remove/
 ---
 

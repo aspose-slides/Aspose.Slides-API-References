@@ -3,7 +3,7 @@ title: UnderlineFillFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the underline line FillFormat properties. No inheritance applied. Read-only IFillFormataspose.slides/ifillformat.
 type: docs
-weight: 250
+weight: 260
 url: /aspose.slides/ibaseportionformat/underlinefillformat/
 ---
 

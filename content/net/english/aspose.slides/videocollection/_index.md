@@ -3,7 +3,7 @@ title: VideoCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of Video objects.
 type: docs
-weight: 11600
+weight: 11610
 url: /aspose.slides/videocollection/
 ---
 

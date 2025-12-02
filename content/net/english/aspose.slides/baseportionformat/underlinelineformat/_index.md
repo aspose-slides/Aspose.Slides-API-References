@@ -3,7 +3,7 @@ title: UnderlineLineFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the LineFormat properties used to outline underline line. No inheritance applied. Read-only ILineFormataspose.slides/ilineformat.
 type: docs
-weight: 260
+weight: 270
 url: /aspose.slides/baseportionformat/underlinelineformat/
 ---
 

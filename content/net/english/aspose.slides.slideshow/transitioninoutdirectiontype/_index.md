@@ -3,7 +3,7 @@ title: TransitionInOutDirectionType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent in or out direction transition types.
 type: docs
-weight: 10260
+weight: 10270
 url: /aspose.slides.slideshow/transitioninoutdirectiontype/
 ---
 

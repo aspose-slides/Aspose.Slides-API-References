@@ -3,7 +3,7 @@ title: PortionFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: This class contains the text portion formatting properties. Unlike IPortionFormatEffectiveData./iportionformateffectivedata all properties of this class are writeable.
 type: docs
-weight: 9420
+weight: 9430
 url: /aspose.slides/portionformat/
 ---
 
@@ -52,6 +52,7 @@ public sealed class PortionFormat : BasePortionFormat, IPortionFormat
 | [ProofDisabled](../../aspose.slides/baseportionformat/proofdisabled) { get; set; } | Determines whether the text shouldn't be proofed. No inheritance applied. Read/write [`NullableBool`](../nullablebool). |
 | [SmartTagClean](../../aspose.slides/portionformat/smarttagclean) { get; set; } | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write Boolean. |
 | [Spacing](../../aspose.slides/baseportionformat/spacing) { get; set; } | Returns or sets the intercharacter spacing increment. **float.NaN** means value is undefined and should be inherited from the Master. Read/write Single. |
+| [SpellCheck](../../aspose.slides/baseportionformat/spellcheck) { get; set; } | Gets or sets a value indicating whether spell checking is enabled for the text portion. When this property is set to false, spelling checks for text elements are suppressed. When set to true, spell checking is allowed. Default value is `false`. |
 | [StrikethroughType](../../aspose.slides/baseportionformat/strikethroughtype) { get; set; } | Returns or sets the strikethrough type of a text. No inheritance applied. Read/write [`TextStrikethroughType`](../textstrikethroughtype). |
 | [SymbolFont](../../aspose.slides/baseportionformat/symbolfont) { get; set; } | Returns or sets the symbolic font info. Null means font is undefined and should be inherited from the Master. Read/write [`IFontData`](../ifontdata). |
 | [TextCapType](../../aspose.slides/baseportionformat/textcaptype) { get; set; } | Returns or sets the type of text capitalization. No inheritance applied. Read/write [`TextCapType`](../textcaptype). |

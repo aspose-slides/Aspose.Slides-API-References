@@ -3,7 +3,7 @@ title: BaseScript
 second_title: Aspose.Sildes for .NET API Reference
 description: Math script
 type: docs
-weight: 8000
+weight: 8010
 url: /aspose.slides.mathtext/basescript/
 ---
 

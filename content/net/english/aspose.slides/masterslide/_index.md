@@ -3,7 +3,7 @@ title: MasterSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a master slide in a presentation.
 type: docs
-weight: 7960
+weight: 7970
 url: /aspose.slides/masterslide/
 ---
 
@@ -23,6 +23,7 @@ public class MasterSlide : BaseSlide, IMasterSlide
 | [BodyStyle](../../aspose.slides/masterslide/bodystyle) { get; } | Returns the style of a body text. Read-only [`ITextStyle`](../itextstyle). |
 | [Controls](../../aspose.slides/baseslide/controls) { get; } | Returns the collection of ActiveX controls on a slide. Read-only [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Returns the slide's custom data. Read-only [`ICustomData`](../icustomdata). |
+| [DrawingGuides](../../aspose.slides/masterslide/drawingguides) { get; } | Returns a collection of drawing guides for the master slide. Read-only [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [HasDependingSlides](../../aspose.slides/masterslide/hasdependingslides) { get; } | Returns true if there exists at least one slide that depends on this master slide. Read-only Boolean. |
 | [HeaderFooterManager](../../aspose.slides/masterslide/headerfootermanager) { get; } | Returns HeaderFooter manager of the master slide. Read-only [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
 | [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Provides easy access to contained hyperlinks. Read-only [`IHyperlinkQueries`](../ihyperlinkqueries). |

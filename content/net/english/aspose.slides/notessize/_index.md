@@ -3,7 +3,7 @@ title: NotesSize
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a size of notes slide.
 type: docs
-weight: 9060
+weight: 9070
 url: /aspose.slides/notessize/
 ---
 

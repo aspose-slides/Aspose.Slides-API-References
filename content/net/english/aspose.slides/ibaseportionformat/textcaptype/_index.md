@@ -3,7 +3,7 @@ title: TextCapType
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the type of text capitalization. No inheritance applied. Read/write TextCapTypeaspose.slides/textcaptype.
 type: docs
-weight: 240
+weight: 250
 url: /aspose.slides/ibaseportionformat/textcaptype/
 ---
 

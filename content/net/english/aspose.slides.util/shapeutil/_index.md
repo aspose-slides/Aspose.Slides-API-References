@@ -3,7 +3,7 @@ title: ShapeUtil
 second_title: Aspose.Sildes for .NET API Reference
 description: Offer methods which helps to process shapes objects.
 type: docs
-weight: 11400
+weight: 11410
 url: /aspose.slides.util/shapeutil/
 ---
 
