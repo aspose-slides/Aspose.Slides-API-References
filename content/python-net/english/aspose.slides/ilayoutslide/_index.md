@@ -22,6 +22,7 @@ The ILayoutSlide type exposes the following members:
 | [`master_slide`](/slides/python-net/aspose.slides/ilayoutslide/master_slide/) | Returns or sets the master slide for a layout.<br/>            Read/write [`IMasterSlide`](/slides/python-net/aspose.slides/imasterslide). |
 | [`layout_type`](/slides/python-net/aspose.slides/ilayoutslide/layout_type/) | Returns layout type of this layout slide.<br/>            Read-only [`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype). |
 | [`has_depending_slides`](/slides/python-net/aspose.slides/ilayoutslide/has_depending_slides/) | Returns true if there exists at least one slide that depends on this layout slide.<br/>            Read-only **bool**. |
+| [`drawing_guides`](/slides/python-net/aspose.slides/ilayoutslide/drawing_guides/) | Returns a collection of drawing guides for the layout slide.<br/>            Read-only [`IDrawingGuidesCollection`](/slides/python-net/aspose.slides/idrawingguidescollection) |
 | [`shapes`](/slides/python-net/aspose.slides/ilayoutslide/shapes/) |  |
 | [`controls`](/slides/python-net/aspose.slides/ilayoutslide/controls/) |  |
 | [`name`](/slides/python-net/aspose.slides/ilayoutslide/name/) |  |

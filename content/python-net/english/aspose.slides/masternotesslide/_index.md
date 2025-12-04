@@ -33,6 +33,7 @@ The MasterNotesSlide type exposes the following members:
 | [`header_footer_manager`](/slides/python-net/aspose.slides/masternotesslide/header_footer_manager/) | Returns HeaderFooter manager of the master notes slide.<br/>            Read-only [`IMasterHandoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager). |
 | [`theme_manager`](/slides/python-net/aspose.slides/masternotesslide/theme_manager/) | Returns the theme manager.<br/>            Read-only [`IMasterThemeManager`](/slides/python-net/aspose.slides.theme/imasterthememanager). |
 | [`notes_style`](/slides/python-net/aspose.slides/masternotesslide/notes_style/) | Returns the style of a notes text.<br/>            Read-only [`ITextStyle`](/slides/python-net/aspose.slides/itextstyle). |
+| [`drawing_guides`](/slides/python-net/aspose.slides/masternotesslide/drawing_guides/) | Returns a collection of drawing guides for the master notes slide.<br/>            Read-only [`IDrawingGuidesCollection`](/slides/python-net/aspose.slides/idrawingguidescollection) |
 | [`slide`](/slides/python-net/aspose.slides/masternotesslide/slide/) |  |
 
 ## Methods

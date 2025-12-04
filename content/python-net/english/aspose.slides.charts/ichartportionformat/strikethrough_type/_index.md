@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides.charts/ichartportionformat/strikethrough_type/
-weight: 230
+weight: 240
 ---
 
 

@@ -43,6 +43,7 @@ The IChartPortionFormat type exposes the following members:
 | [`language_id`](/slides/python-net/aspose.slides.charts/ichartportionformat/language_id/) |  |
 | [`alternative_language_id`](/slides/python-net/aspose.slides.charts/ichartportionformat/alternative_language_id/) |  |
 | [`spacing`](/slides/python-net/aspose.slides.charts/ichartportionformat/spacing/) |  |
+| [`spell_check`](/slides/python-net/aspose.slides.charts/ichartportionformat/spell_check/) |  |
 
 
 ### See Also

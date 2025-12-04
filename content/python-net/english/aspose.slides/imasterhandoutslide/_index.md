@@ -18,6 +18,7 @@ The IMasterHandoutSlide type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [`header_footer_manager`](/slides/python-net/aspose.slides/imasterhandoutslide/header_footer_manager/) | Returns HeaderFooter manager of the master handout slide.<br/>            Read-only [`IMasterHandoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager). |
+| [`drawing_guides`](/slides/python-net/aspose.slides/imasterhandoutslide/drawing_guides/) | Returns a collection of drawing guides for the master handout slide.<br/>            Read-only [`IDrawingGuidesCollection`](/slides/python-net/aspose.slides/idrawingguidescollection) |
 | [`shapes`](/slides/python-net/aspose.slides/imasterhandoutslide/shapes/) |  |
 | [`controls`](/slides/python-net/aspose.slides/imasterhandoutslide/controls/) |  |
 | [`name`](/slides/python-net/aspose.slides/imasterhandoutslide/name/) |  |

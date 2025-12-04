@@ -45,6 +45,7 @@ The IPortionFormat type exposes the following members:
 | [`language_id`](/slides/python-net/aspose.slides/iportionformat/language_id/) |  |
 | [`alternative_language_id`](/slides/python-net/aspose.slides/iportionformat/alternative_language_id/) |  |
 | [`spacing`](/slides/python-net/aspose.slides/iportionformat/spacing/) |  |
+| [`spell_check`](/slides/python-net/aspose.slides/iportionformat/spell_check/) |  |
 | [`hyperlink_click`](/slides/python-net/aspose.slides/iportionformat/hyperlink_click/) |  |
 | [`hyperlink_mouse_over`](/slides/python-net/aspose.slides/iportionformat/hyperlink_mouse_over/) |  |
 | [`hyperlink_manager`](/slides/python-net/aspose.slides/iportionformat/hyperlink_manager/) |  |

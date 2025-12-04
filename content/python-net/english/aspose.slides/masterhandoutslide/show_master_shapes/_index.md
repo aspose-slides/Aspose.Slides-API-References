@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/masterhandoutslide/show_master_shapes/
-weight: 170
+weight: 180
 ---
 
 

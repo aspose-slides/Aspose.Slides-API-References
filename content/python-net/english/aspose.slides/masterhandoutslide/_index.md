@@ -32,6 +32,7 @@ The MasterHandoutSlide type exposes the following members:
 | [`presentation`](/slides/python-net/aspose.slides/masterhandoutslide/presentation/) | Returns IPresentation interface.<br/>            Read-only [`IPresentation`](/slides/python-net/aspose.slides/ipresentation). |
 | [`header_footer_manager`](/slides/python-net/aspose.slides/masterhandoutslide/header_footer_manager/) | Returns HeaderFooter manager of the master handout slide.<br/>            Read-only [`IMasterHandoutSlideHeaderFooterManager`](/slides/python-net/aspose.slides/imasterhandoutslideheaderfootermanager). |
 | [`theme_manager`](/slides/python-net/aspose.slides/masterhandoutslide/theme_manager/) | Returns the theme manager.<br/>            Read-only [`IMasterThemeManager`](/slides/python-net/aspose.slides.theme/imasterthememanager). |
+| [`drawing_guides`](/slides/python-net/aspose.slides/masterhandoutslide/drawing_guides/) | Returns a collection of drawing guides for the master handout slide.<br/>            Read-only [`IDrawingGuidesCollection`](/slides/python-net/aspose.slides/idrawingguidescollection) |
 | [`slide`](/slides/python-net/aspose.slides/masterhandoutslide/slide/) |  |
 
 ## Methods
