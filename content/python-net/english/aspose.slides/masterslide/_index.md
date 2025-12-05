@@ -38,6 +38,7 @@ The MasterSlide type exposes the following members:
 | [`preserve`](/slides/python-net/aspose.slides/masterslide/preserve/) | Determines whether the corresponding master is deleted when all the slides that follow that master are deleted.<br/>            Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call **Aspose.Slides.MasterSlideCollection.RemoveUnused(Syste**<br/>            Read/write **bool**. |
 | [`has_depending_slides`](/slides/python-net/aspose.slides/masterslide/has_depending_slides/) | Returns true if there exists at least one slide that depends on this master slide.<br/>            Read-only **bool**. |
 | [`theme_manager`](/slides/python-net/aspose.slides/masterslide/theme_manager/) | Returns the theme manager.<br/>            Read-only [`IMasterThemeManager`](/slides/python-net/aspose.slides.theme/imasterthememanager). |
+| [`drawing_guides`](/slides/python-net/aspose.slides/masterslide/drawing_guides/) | Returns a collection of drawing guides for the master slide.<br/>            Read-only [`IDrawingGuidesCollection`](/slides/python-net/aspose.slides/idrawingguidescollection) |
 | [`slide`](/slides/python-net/aspose.slides/masterslide/slide/) |  |
 
 ## Methods

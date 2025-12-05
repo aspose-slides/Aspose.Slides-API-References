@@ -19,6 +19,7 @@ The DrawingGuide type exposes the following members:
 | :- | :- |
 | [`orientation`](/slides/python-net/aspose.slides/drawingguide/orientation/) | Returns or sets orientation of the drawing guide.<br/>            Read/write [`Orientation`](/slides/python-net/aspose.slides/orientation). |
 | [`position`](/slides/python-net/aspose.slides/drawingguide/position/) | Returns or sets position of the drawing guide in points from the top, left corner of the slide.<br/>            Read/write **float**. |
+| [`color`](/slides/python-net/aspose.slides/drawingguide/color/) | Returns or sets color of the drawing guide.<br/>            Read/write **aspose.pydrawing.Color**. |
 
 
 ### See Also

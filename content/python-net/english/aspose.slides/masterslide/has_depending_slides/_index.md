@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/masterslide/has_depending_slides/
-weight: 150
+weight: 160
 ---
 
 

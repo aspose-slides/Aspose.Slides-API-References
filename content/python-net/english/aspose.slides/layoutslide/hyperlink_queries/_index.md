@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/layoutslide/hyperlink_queries/
-weight: 160
+weight: 170
 ---
 
 

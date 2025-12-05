@@ -36,6 +36,7 @@ The LayoutSlide type exposes the following members:
 | [`theme_manager`](/slides/python-net/aspose.slides/layoutslide/theme_manager/) | Returns the overriding theme manager.<br/>            Read-only [`IOverrideThemeManager`](/slides/python-net/aspose.slides.theme/ioverridethememanager). |
 | [`layout_type`](/slides/python-net/aspose.slides/layoutslide/layout_type/) | Returns layout type of this layout slide.<br/>            Read-only [`SlideLayoutType`](/slides/python-net/aspose.slides/slidelayouttype). |
 | [`has_depending_slides`](/slides/python-net/aspose.slides/layoutslide/has_depending_slides/) | Returns true if there exists at least one slide that depends on this layout slide.<br/>            Read-only **bool**. |
+| [`drawing_guides`](/slides/python-net/aspose.slides/layoutslide/drawing_guides/) | Returns a collection of drawing guides for the layout slide.<br/>            Read-only [`IDrawingGuidesCollection`](/slides/python-net/aspose.slides/idrawingguidescollection) |
 | [`slide`](/slides/python-net/aspose.slides/layoutslide/slide/) |  |
 
 ## Methods

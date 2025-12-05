@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iportionformat/text_cap_type/
-weight: 320
+weight: 330
 ---
 
 

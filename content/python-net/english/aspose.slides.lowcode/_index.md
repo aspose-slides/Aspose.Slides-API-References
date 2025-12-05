@@ -16,4 +16,5 @@ Contains classes and methods to handle complex general operations in a low code 
 | [`Compress`](/slides/python-net/aspose.slides.lowcode/compress/) | Represents a group of methods intended to compress [`Presentation`](/slides/python-net/aspose.slides/presentation). |
 | [`Convert`](/slides/python-net/aspose.slides.lowcode/convert/) | Represents a group of methods intended to convert [`Presentation`](/slides/python-net/aspose.slides/presentation). |
 | [`ForEach`](/slides/python-net/aspose.slides.lowcode/foreach/) | Represents a group of methods intended to iterate over different [`Presentation`](/slides/python-net/aspose.slides/presentation) model objects.<br/>            These methods can be useful if you need to iterate and change some Presentation' elements formatting or content,<br/>             e.g. change each portion formatting. |
+| [`Merger`](/slides/python-net/aspose.slides.lowcode/merger/) | Represents a group of methods for merging PowerPoint presentations of the same format into one file. |
 

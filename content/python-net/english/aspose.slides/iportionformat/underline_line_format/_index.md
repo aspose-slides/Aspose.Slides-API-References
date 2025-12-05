@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/iportionformat/underline_line_format/
-weight: 340
+weight: 350
 ---
 
 
