@@ -119,7 +119,7 @@ class MathNaryOperator : public Aspose::Slides::MathText::MathElementBase,
 
 Example: 
 ```cpp
-auto naryOperator = System::MakeObject<MathematicalText>(u"x")->Nary(Aspose::Slides::MathText::MathNaryOperatorTypes::Summation, u"x=1", u"100");
+auto naryOperator = System::MakeObject<MathematicalText>(u"x")->Nary(MathNaryOperatorTypes::Summation, u"x=1", u"100");
 ```
 
 ## See Also

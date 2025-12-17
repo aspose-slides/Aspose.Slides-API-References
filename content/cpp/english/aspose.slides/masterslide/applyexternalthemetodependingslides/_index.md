@@ -3,7 +3,7 @@ title: ApplyExternalThemeToDependingSlides()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates a new master slide based on the current one, applying an external theme to it and applies the created master slide to all dependent slides.
 type: docs
-weight: 170
+weight: 183
 url: /aspose.slides/masterslide/applyexternalthemetodependingslides/
 ---
 ## MasterSlide::ApplyExternalThemeToDependingSlides(System::String) method

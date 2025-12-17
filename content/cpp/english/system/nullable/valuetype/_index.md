@@ -3,7 +3,7 @@ title: ValueType
 second_title: Aspose.Slides for C++ API Reference
 description: An alias for a type of the value represented by this class.
 type: docs
-weight: 313
+weight: 326
 url: /system/nullable/valuetype/
 ---
 ## ValueType typedef

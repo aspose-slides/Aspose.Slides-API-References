@@ -125,7 +125,7 @@ void AddVideoFromYouTube(System::SharedPtr<Presentation> pres, System::String vi
     // Add videoFrame
     auto slide = pres->get_Slides()->idx_get(0);
     System::SharedPtr<IVideoFrame> videoFrame = slide->get_Shapes()->AddVideoFrame(10.0f, 10.0f, 427.0f, 240.0f, System::String(u"https://www.youtube.com/embed/") + videoId);
-    videoFrame->set_PlayMode(Aspose::Slides::VideoPlayModePreset::Auto);
+    videoFrame->set_PlayMode(VideoPlayModePreset::Auto);
 
     // Load thumbnail
     auto client = System::MakeObject<System::Net::WebClient>();
@@ -144,7 +144,7 @@ for (auto&& slide : presentation->get_Slides())
     {
         if (System::ObjectExt::Is<VideoFrame>(shape))
         {
-            System::SharedPtr<IVideoFrame> vf = System::AsCast<Aspose::Slides::IVideoFrame>(shape);
+            System::SharedPtr<IVideoFrame> vf = System::AsCast<IVideoFrame>(shape);
             System::String type = vf->get_EmbeddedVideo()->get_ContentType();
             int32_t ss = type.LastIndexOf(u'/');
             type = type.Remove(0, type.LastIndexOf(u'/') + 1);

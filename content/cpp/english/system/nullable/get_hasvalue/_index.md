@@ -3,7 +3,7 @@ title: get_HasValue()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether the current object represents any value.
 type: docs
-weight: 40
+weight: 53
 url: /system/nullable/get_hasvalue/
 ---
 ## Nullable::get_HasValue() const method

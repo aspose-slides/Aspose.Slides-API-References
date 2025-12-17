@@ -31,7 +31,7 @@ True if the presentation is write protected and the password is correct. False o
 
 ```cpp
 auto info = PresentationFactory::get_Instance()->GetPresentationInfo(presentationFilePath);
-if (info->get_IsWriteProtected() == Aspose::Slides::NullableBool::True)
+if (info->get_IsWriteProtected() == NullableBool::True)
 {
     bool isWriteProtectedByPassword = info->CheckWriteProtection(u"my_password");
 }

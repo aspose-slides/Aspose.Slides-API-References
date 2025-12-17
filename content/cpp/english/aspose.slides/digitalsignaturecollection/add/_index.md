@@ -30,7 +30,7 @@ auto pres = System::MakeObject<Presentation>();
 auto signature = System::MakeObject<DigitalSignature>(u"testsignature1.pfx", u"testpass1");
 signature->set_Comments(u"Aspose.Slides digital signing test.");
 pres->get_DigitalSignatures()->Add(signature);
-pres->Save(u"SomePresentationSigned.pptx", Aspose::Slides::Export::SaveFormat::Pptx);
+pres->Save(u"SomePresentationSigned.pptx", SaveFormat::Pptx);
 ```
 
 

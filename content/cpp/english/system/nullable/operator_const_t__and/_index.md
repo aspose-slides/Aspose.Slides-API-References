@@ -3,7 +3,7 @@ title: operator const T &()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a constant reference to the value represented by the current object.
 type: docs
-weight: 53
+weight: 66
 url: /system/nullable/operator_const_t__and/
 ---
 ## Nullable::operator const T &() const method

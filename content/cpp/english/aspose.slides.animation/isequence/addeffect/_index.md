@@ -59,14 +59,14 @@ New effect object [IEffect](../../ieffect/)
 ```cpp
 auto presentation = System::MakeObject<Presentation>(path + u"input.pptx");
 // select paragraph to add effect
-auto autoShape = System::ExplicitCast<Aspose::Slides::IAutoShape>(presentation->get_Slides()->idx_get(0)->get_Shapes()->idx_get(0));
+auto autoShape = System::ExplicitCast<IAutoShape>(presentation->get_Slides()->idx_get(0)->get_Shapes()->idx_get(0));
 auto paragraph = autoShape->get_TextFrame()->get_Paragraphs()->idx_get(0);
 // add Fly animation effect to selected paragraph
 auto effect = presentation->get_Slides()->idx_get(0)->get_Timeline()->get_MainSequence()->AddEffect(
      paragraph, 
-     Aspose::Slides::Animation::EffectType::Fly, 
-     Aspose::Slides::Animation::EffectSubtype::Left, 
-     Aspose::Slides::Animation::EffectTriggerType::OnClick);
+     Animation::EffectType::Fly, 
+     Animation::EffectSubtype::Left, 
+     Animation::EffectTriggerType::OnClick);
 ```
 
 ## ISequence::AddEffect(System::SharedPtr\<Aspose::Slides::Charts::IChart\>, EffectChartMajorGroupingType, int32_t, EffectType, EffectSubtype, EffectTriggerType) method

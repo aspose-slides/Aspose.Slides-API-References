@@ -32,7 +32,7 @@ System::SharedPtr<IMathElementCollection> collection = System::MakeObject<MathBl
 auto plusElement = System::MakeObject<MathematicalText>(u"+");
 collection->Add(plusElement);
 collection->Add(System::MakeObject<MathRadical>(System::MakeObject<MathematicalText>(u"x"), System::MakeObject<MathematicalText>(u"3")));
-auto destinationArray = System::MakeArray<System::SharedPtr<Aspose::Slides::MathText::IMathElement>>(collection->get_Count());
+auto destinationArray = System::MakeArray<System::SharedPtr<IMathElement>>(collection->get_Count());
 collection->CopyTo(destinationArray, 0);
 ```
 

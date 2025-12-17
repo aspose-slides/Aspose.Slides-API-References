@@ -3,7 +3,7 @@ title: operator-=()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns an instance of Nullable class that represents a null-value.
 type: docs
-weight: 235
+weight: 248
 url: /system/nullable/operator_minus_equal/
 ---
 ## Nullable::operator-=(T1) method

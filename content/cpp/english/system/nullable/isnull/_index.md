@@ -3,7 +3,7 @@ title: IsNull()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if the current object represents a null-value.
 type: docs
-weight: 79
+weight: 92
 url: /system/nullable/isnull/
 ---
 ## Nullable::IsNull() const method

@@ -106,7 +106,7 @@ class IMathFraction : public virtual Aspose::Slides::MathText::IMathElement
 Example: 
 ```cpp
 auto mathFraction = System::MakeObject<MathematicalText>(u"x")->Divide(u"y");
-System::SharedPtr<IMathFraction> mathFraction2 = System::MakeObject<MathFraction>(System::MakeObject<MathematicalText>(u"x"), System::MakeObject<MathematicalText>(u"y"), Aspose::Slides::MathText::MathFractionTypes::Linear);
+System::SharedPtr<IMathFraction> mathFraction2 = System::MakeObject<MathFraction>(System::MakeObject<MathematicalText>(u"x"), System::MakeObject<MathematicalText>(u"y"), MathFractionTypes::Linear);
 ```
 
 ## See Also

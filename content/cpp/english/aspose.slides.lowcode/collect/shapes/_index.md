@@ -40,7 +40,7 @@ for (auto& shape : Collect::Shapes(pres))
     {
         auto autoShape = System::AsCast<AutoShape>(shape);
         autoShape->get_LineFormat()->set_Style(LineStyle::Single);
-        autoShape->get_LineFormat()->set_Width(10.f);
+        autoShape->get_LineFormat()->set_Width(10.0f);
         autoShape->get_LineFormat()->get_FillFormat()->set_FillType(FillType::Solid);
         autoShape->get_LineFormat()->get_FillFormat()->get_SolidFillColor()->set_Color(Color::get_Black());
     }

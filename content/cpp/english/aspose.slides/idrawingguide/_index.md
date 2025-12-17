@@ -25,6 +25,7 @@ class IDrawingGuide : public virtual System::Object
 | static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
+| virtual [System::Drawing::Color](../../system.drawing/color/) [get_Color](./get_color/)() | Returns color of the drawing guide. Read [System::Drawing::Color](../../system.drawing/color/). |
 | virtual [Aspose::Slides::Orientation](../orientation/) [get_Orientation](./get_orientation/)() | Returns orientation of the drawing guide. Read [Slides::Orientation](../orientation/). |
 | virtual **float** [get_Position](./get_position/)() | Returns position of the drawing guide in points from the top, left corner of the slide. Read **float**. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
@@ -42,6 +43,7 @@ class IDrawingGuide : public virtual System::Object
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, std::nullptr_t) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of string and nullptr. |
 | **bool** [ReferenceEquals](../../system/object/referenceequals/)([String](../../system/string/) const\&, [String](../../system/string/) const\&) | Specialization of [Object::ReferenceEquals](../../system/object/referenceequals/) for case of strings. |
 | int [RemovedSharedRefs](../../system/object/removedsharedrefs/)(int) | Decreases shared reference count by specified value. |
+| virtual void [set_Color](./set_color/)([System::Drawing::Color](../../system.drawing/color/)) | Sets color of the drawing guide. Write [System::Drawing::Color](../../system.drawing/color/). |
 | virtual void [set_Orientation](./set_orientation/)([Aspose::Slides::Orientation](../orientation/)) | Sets orientation of the drawing guide. Write [Slides::Orientation](../orientation/). |
 | virtual void [set_Position](./set_position/)(**float**) | Sets position of the drawing guide in points from the top, left corner of the slide. Write **float**. |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |

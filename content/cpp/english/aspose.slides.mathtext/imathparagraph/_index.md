@@ -122,8 +122,8 @@ class IMathParagraph : public Aspose::Slides::MathText::IMathBlockCollection
 Example: 
 ```cpp
 auto shape = slide->get_Shapes()->AddMathShape(x, y, width, height);
-auto mathParagraph = (System::AsCast<Aspose::Slides::MathText::MathPortion>(shape->get_TextFrame()->get_Paragraphs()->idx_get(0)->get_Portions()->idx_get(0)))->get_MathParagraph();
-mathParagraph->set_Justification(Aspose::Slides::MathText::MathJustification::LeftJustified);
+auto mathParagraph = (System::AsCast<MathPortion>(shape->get_TextFrame()->get_Paragraphs()->idx_get(0)->get_Portions()->idx_get(0)))->get_MathParagraph();
+mathParagraph->set_Justification(MathJustification::LeftJustified);
 ```
 
 ## See Also

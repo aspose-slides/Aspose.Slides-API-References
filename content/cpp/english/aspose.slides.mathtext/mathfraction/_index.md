@@ -109,7 +109,7 @@ class MathFraction : public Aspose::Slides::MathText::MathElementBase,
 
 Example: 
 ```cpp
-auto mathFraction = System::MakeObject<MathFraction>(System::MakeObject<MathematicalText>(u"x"), System::MakeObject<MathematicalText>(u"y"), Aspose::Slides::MathText::MathFractionTypes::Linear);
+auto mathFraction = System::MakeObject<MathFraction>(System::MakeObject<MathematicalText>(u"x"), System::MakeObject<MathematicalText>(u"y"), MathFractionTypes::Linear);
 ```
 
 ## See Also

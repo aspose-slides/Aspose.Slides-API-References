@@ -31,7 +31,7 @@ Example:
 ```cpp
 System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"pres.pptx");
 
-SlideUtil::AlignShapes(Aspose::Slides::ShapesAlignmentType::AlignBottom, true, pres->get_Slides()->idx_get(0));
+SlideUtil::AlignShapes(ShapesAlignmentType::AlignBottom, true, pres->get_Slides()->idx_get(0));
 ```
 
 ## SlideUtil::AlignShapes(ShapesAlignmentType, bool, System::SharedPtr\<IBaseSlide\>, System::ArrayPtr\<int32_t\>) method
@@ -62,7 +62,7 @@ auto pres = System::MakeObject<Presentation>(u"pres.pptx");
 auto slide = pres->get_Slides()->idx_get(0);
 auto shape1 = slide->get_Shapes()->idx_get(0);
 auto shape2 = slide->get_Shapes()->idx_get(1);
-SlideUtil::AlignShapes(Aspose::Slides::ShapesAlignmentType::AlignBottom, false, pres->get_Slides()->idx_get(0),
+SlideUtil::AlignShapes(ShapesAlignmentType::AlignBottom, false, pres->get_Slides()->idx_get(0),
     System::MakeArray<int32_t>({
         slide->get_Shapes()->IndexOf(shape1),
         slide->get_Shapes()->IndexOf(shape2)
@@ -94,7 +94,7 @@ Example:
 ```cpp
 System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"pres.pptx");
 
-SlideUtil::AlignShapes(Aspose::Slides::ShapesAlignmentType::AlignLeft, false, System::ExplicitCast<Aspose::Slides::GroupShape>(pres->get_Slides()->idx_get(0)->get_Shapes()));
+SlideUtil::AlignShapes(ShapesAlignmentType::AlignLeft, false, System::ExplicitCast<GroupShape>(pres->get_Slides()->idx_get(0)->get_Shapes()));
 ```
 
 ## SlideUtil::AlignShapes(ShapesAlignmentType, bool, System::SharedPtr\<IGroupShape\>, System::ArrayPtr\<int32_t\>) method
@@ -123,7 +123,7 @@ Example:
 ```cpp
 System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"pres.pptx");
 
-SlideUtil::AlignShapes(Aspose::Slides::ShapesAlignmentType::AlignLeft, false, System::ExplicitCast<Aspose::Slides::GroupShape>(pres->get_Slides()->idx_get(0)->get_Shapes()->idx_get(0)), System::MakeArray<int32_t>({0, 2}));
+SlideUtil::AlignShapes(ShapesAlignmentType::AlignLeft, false, System::ExplicitCast<GroupShape>(pres->get_Slides()->idx_get(0)->get_Shapes()->idx_get(0)), System::MakeArray<int32_t>({0, 2}));
 ```
 
 ## See Also

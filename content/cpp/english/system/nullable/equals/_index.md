@@ -3,7 +3,7 @@ title: Equals()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if the value represented by the current object is equal to the value represented by the specified Nullable object.
 type: docs
-weight: 118
+weight: 131
 url: /system/nullable/equals/
 ---
 ## Nullable::Equals(const T1\&) const method

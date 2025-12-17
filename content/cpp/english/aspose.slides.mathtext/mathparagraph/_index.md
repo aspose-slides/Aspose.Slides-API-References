@@ -133,7 +133,7 @@ class MathParagraph : public Aspose::Slides::MathText::IMathParagraph,
 Example: 
 ```cpp
 auto shape = slide->get_Shapes()->AddMathShape(x, y, width, height);
-auto mathParagraph = (System::AsCast<Aspose::Slides::MathText::MathPortion>(shape->get_TextFrame()->get_Paragraphs()->idx_get(0)->get_Portions()->idx_get(0)))->get_MathParagraph();
+auto mathParagraph = (System::AsCast<MathPortion>(shape->get_TextFrame()->get_Paragraphs()->idx_get(0)->get_Portions()->idx_get(0)))->get_MathParagraph();
 ```
 
 ## See Also

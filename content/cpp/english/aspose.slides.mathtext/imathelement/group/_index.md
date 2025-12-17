@@ -55,7 +55,7 @@ New instance of type [IMathGroupingCharacter](../../imathgroupingcharacter/)
 
 Example: 
 ```cpp
-auto groupingElement = System::MakeObject<MathematicalText>(u"x;y;z")->Group(u'\u23E1', Aspose::Slides::MathText::MathTopBotPositions::Bottom, Aspose::Slides::MathText::MathTopBotPositions::Top);
+auto groupingElement = System::MakeObject<MathematicalText>(u"x;y;z")->Group(u'\u23E1', MathTopBotPositions::Bottom, MathTopBotPositions::Top);
 ```
 
 ## See Also

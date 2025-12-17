@@ -3,7 +3,7 @@ title: GetDependingSlides()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns an array with all slides, which depend on this layout slide.
 type: docs
-weight: 131
+weight: 144
 url: /aspose.slides/layoutslide/getdependingslides/
 ---
 ## LayoutSlide::GetDependingSlides() method

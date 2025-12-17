@@ -3,7 +3,7 @@ title: operator&=()
 second_title: Aspose.Slides for C++ API Reference
 description: Applies operator&=() to the value represented by the current object using the specified value as a right-side argument.
 type: docs
-weight: 261
+weight: 274
 url: /system/nullable/operator_and_equal/
 ---
 ## Nullable::operator&=(bool) method

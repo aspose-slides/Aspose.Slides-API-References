@@ -74,6 +74,7 @@ template<typename T>class Nullable
 | **bool** [operator>=](./operator_greater_equal/)(const [Nullable](./)\<T1\>\&) const | Determines if the value represented by the current object is greater or equal to the value represented by the specified [Nullable](./) object by applying [operator>=()](./operator_greater_equal/) to these values. |
 | std::enable_if\<std::is_same\<T1, **bool**\>::value, [Nullable](./)\<T\>\>::type [operator|=](./operator_or_equal/)(**bool**) | Applies [operator|=()](./operator_or_equal/) to the value represented by the current object using the specified value as a right-side argument. |
 | void [reset](./reset/)() | Sets the currently represented value to null. |
+| void [set_Value](./set_value/)(const T\&) | Sets a new value to nullable object. |
 | [String](../string/) [ToString](./tostring/)() const | Converts the value represented by the current object to string. |
 ## Typedefs
 

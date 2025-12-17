@@ -32,7 +32,7 @@ auto mathBlock = System::MakeObject<MathBlock>(System::MakeObject<MathematicalTe
 auto plusElement = System::MakeObject<MathematicalText>(u"+");
 mathBlock->Add(plusElement);
 mathBlock->Add(System::MakeObject<MathRadical>(System::MakeObject<MathematicalText>(u"x"), System::MakeObject<MathematicalText>(u"3")));
-auto destinationArray = System::MakeArray<System::SharedPtr<Aspose::Slides::MathText::IMathElement>>(mathBlock->get_Count());
+auto destinationArray = System::MakeArray<System::SharedPtr<IMathElement>>(mathBlock->get_Count());
 mathBlock->CopyTo(destinationArray, 0);
 ```
 
