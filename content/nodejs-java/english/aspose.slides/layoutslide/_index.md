@@ -24,6 +24,19 @@ url: /aspose.slides/layoutslide/
 ---
 
 
+### getDrawingGuides {#getDrawingGuides}
+
+| Name | Description |
+| --- | --- |
+| getDrawingGuides () | Returns a collection of drawing guides for the layout slide. Read-only IDrawingGuidesCollection |
+
+ **Returns:**
+[DrawingGuidesCollection](../drawingguidescollection)
+
+
+---
+
+
 ### getHeaderFooterManager {#getHeaderFooterManager}
 
 | Name | Description |
@@ -96,7 +109,7 @@ boolean
 | getThemeManager () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
  **Returns:**
-[ChartThemeManager](../chartthememanager), [SlideThemeManager](../slidethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [NotesSlideThemeManager](../notesslidethememanager)
+[ChartThemeManager](../chartthememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [SlideThemeManager](../slidethememanager), [NotesSlideThemeManager](../notesslidethememanager)
 
 
 ---

@@ -219,7 +219,6 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [FontFallBackRulesCollection](fontfallbackrulescollection) | Represents a collection of FontFallBack rules, defined by user |
 | [FontScheme](fontscheme) | Stores theme-defined fonts. |
 | [FontSources](fontsources) | Provides file and memory sources for external fonts. |
-| [FontStyle](fontstyle) | Font style enumeration |
 | [FontStyleType](fontstyletype) | Defines formatting styles that can be applied to text. |
 | [FontSubstCondition](fontsubstcondition) | Represents a rule fot font substitution |
 | [FontSubstRule](fontsubstrule) | Represents font subtituition information |
@@ -392,6 +391,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [MathVerticalAlignment](mathverticalalignment) | Vertical Alignment |
 | [MathematicalText](mathematicaltext) | Mathematical text |
 | [MathematicalTextFactory](mathematicaltextfactory) | Allows to create a MathematicalText element For COM comparibility |
+| [Merger](merger) | Represents a group of methods for merging PowerPoint presentations of the same format into one file. |
 | [Metered](metered) | Provides methods to set metered key. |
 | [ModernComment](moderncomment) | Represents a comment on a slide. |
 | [ModernCommentStatus](moderncommentstatus) | Represents the status of a modern comment. |

@@ -11,6 +11,19 @@ url: /aspose.slides/masternotesslide/
 
  Represents master slide for notes.
  
+### getDrawingGuides {#getDrawingGuides}
+
+| Name | Description |
+| --- | --- |
+| getDrawingGuides () | Returns a collection of drawing guides for the master notes slide. Read-only IDrawingGuidesCollection |
+
+ **Returns:**
+[DrawingGuidesCollection](../drawingguidescollection)
+
+
+---
+
+
 ### getHeaderFooterManager {#getHeaderFooterManager}
 
 | Name | Description |
@@ -50,7 +63,7 @@ boolean
 
 | Error | Condition |
 | --- | --- |
- | com.aspose.ms.System.NotSupportedException | Thrown if set true for master slide. |
+ | NotSupportedException | Thrown if set true for master slide. |
 
 
 ---
@@ -79,7 +92,7 @@ boolean
 
 | Error | Condition |
 | --- | --- |
- | com.aspose.ms.System.NotSupportedException | Thrown if set true for master slide. |
+ | NotSupportedException | Thrown if set true for master slide. |
 
 
 ---

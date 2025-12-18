@@ -11,6 +11,19 @@ url: /aspose.slides/drawingguide/
 
  Represents an adjustable drawing guide.
  
+### getColor {#getColor}
+
+| Name | Description |
+| --- | --- |
+| getColor () | Returns or sets color of the drawing guide. Read/write java.awt.Color. |
+
+ **Returns:**
+Color
+
+
+---
+
+
 ### getOrientation {#getOrientation}
 
 | Name | Description |
@@ -32,6 +45,16 @@ byte
 
  **Returns:**
 float
+
+
+---
+
+
+### setColor {#setColor}
+
+| Name | Description |
+| --- | --- |
+| setColor (Color) | Returns or sets color of the drawing guide. Read/write java.awt.Color. |
 
 
 ---

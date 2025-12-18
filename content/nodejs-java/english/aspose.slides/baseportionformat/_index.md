@@ -258,6 +258,19 @@ float
 ---
 
 
+### getSpellCheck {#getSpellCheck}
+
+| Name | Description |
+| --- | --- |
+| getSpellCheck () | Gets or sets a value indicating whether spell checking is enabled for the text portion. When this property is set to false, spelling checks for text elements are suppressed. When set to true, spell checking is allowed. Default value is false. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getStrikethroughType {#getStrikethroughType}
 
 | Name | Description |
@@ -527,6 +540,16 @@ byte
 | Name | Description |
 | --- | --- |
 | setSpacing (float) | Returns or sets the intercharacter spacing increment. Float.NaN means value is undefined and should be inherited from the Master. Read/write float. |
+
+
+---
+
+
+### setSpellCheck {#setSpellCheck}
+
+| Name | Description |
+| --- | --- |
+| setSpellCheck (boolean) | Gets or sets a value indicating whether spell checking is enabled for the text portion. When this property is set to false, spelling checks for text elements are suppressed. When set to true, spell checking is allowed. Default value is false. |
 
 
 ---

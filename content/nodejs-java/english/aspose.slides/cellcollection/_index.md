@@ -31,7 +31,7 @@ url: /aspose.slides/cellcollection/
 | getSlide () | Returns the parent slide of a CellCollection. Read-only IBaseSlide. |
 
  **Returns:**
-[NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [MasterSlide](../masterslide)
+[MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [NotesSlide](../notesslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [MasterSlide](../masterslide)
 
 
 ---

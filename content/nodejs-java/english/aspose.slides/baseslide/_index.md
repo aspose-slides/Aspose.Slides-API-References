@@ -28,13 +28,13 @@ ThemeEffectiveData
 
 | Name | Description |
 | --- | --- |
-| equals ([NotesSlide](../notesslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| equals ([MasterNotesSlide](../masternotesslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | [NotesSlide](../notesslide) | The IBaseSlide to compare with the current IBaseSlide. |
+| slide | [MasterNotesSlide](../masternotesslide) | The IBaseSlide to compare with the current IBaseSlide. |
 
  **Returns:**
 boolean
@@ -85,13 +85,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| equals ([MasterNotesSlide](../masternotesslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| equals ([NotesSlide](../notesslide)) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | [MasterNotesSlide](../masternotesslide) | The IBaseSlide to compare with the current IBaseSlide. |
+| slide | [NotesSlide](../notesslide) | The IBaseSlide to compare with the current IBaseSlide. |
 
  **Returns:**
 boolean
@@ -170,7 +170,7 @@ boolean
 | altText | String | Alternative text. |
 
  **Returns:**
-[Chart](../chart), [ZoomFrame](../zoomframe), [SectionZoomFrame](../sectionzoomframe), [Table](../table), [Ink](../ink), [Connector](../connector), [GraphicalObject](../graphicalobject), [AutoShape](../autoshape), [Shape](../shape), [ZoomObject](../zoomobject), [VideoFrame](../videoframe), [SummaryZoomSection](../summaryzoomsection), [SmartArt](../smartart), [AudioFrame](../audioframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [GroupShape](../groupshape), [PictureFrame](../pictureframe), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [OleObjectFrame](../oleobjectframe), [InkActions](../inkactions)
+[AudioFrame](../audioframe), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [GraphicalObject](../graphicalobject), [ZoomFrame](../zoomframe), [Ink](../ink), [OleObjectFrame](../oleobjectframe), [GeometryShape](../geometryshape), [PictureFrame](../pictureframe), [SummaryZoomFrame](../summaryzoomframe), [GroupShape](../groupshape), [InkActions](../inkactions), [ZoomObject](../zoomobject), [SectionZoomFrame](../sectionzoomframe), [Table](../table), [Shape](../shape), [VideoFrame](../videoframe), [AutoShape](../autoshape), [SmartArtShape](../smartartshape), [SmartArt](../smartart), [Connector](../connector), [LegacyDiagram](../legacydiagram)
 
 
 ---
@@ -293,7 +293,7 @@ boolean
 | getSlide () |  |
 
  **Returns:**
-[NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [MasterSlide](../masterslide)
+[MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [Slide](../slide), [NotesSlide](../notesslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [MasterSlide](../masterslide)
 
 
 ---
