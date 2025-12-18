@@ -144,6 +144,25 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
+| createMathBox ([MathPhantom](../mathphantom)) | Create a math box by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathPhantom](../mathphantom) | math element to apply box |
+
+ **Returns:**
+[MathBox](../mathbox)
+
+
+---
+
+
+### createMathBox {#createMathBox}
+
+| Name | Description |
+| --- | --- |
 | createMathBox ([MathDelimiter](../mathdelimiter)) | Create a math box by applying to the element |
 
  **Parameters:**
@@ -258,25 +277,6 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
-| createMathBox ([MathFunction](../mathfunction)) | Create a math box by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../mathfunction) | math element to apply box |
-
- **Returns:**
-[MathBox](../mathbox)
-
-
----
-
-
-### createMathBox {#createMathBox}
-
-| Name | Description |
-| --- | --- |
 | createMathBox ([MathSubscriptElement](../mathsubscriptelement)) | Create a math box by applying to the element |
 
  **Parameters:**
@@ -315,6 +315,44 @@ MathBoxFactory
 
 | Name | Description |
 | --- | --- |
+| createMathBox ([MathFunction](../mathfunction)) | Create a math box by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../mathfunction) | math element to apply box |
+
+ **Returns:**
+[MathBox](../mathbox)
+
+
+---
+
+
+### createMathBox {#createMathBox}
+
+| Name | Description |
+| --- | --- |
+| createMathBox ([MathematicalText](../mathematicaltext)) | Create a math box by applying to the element |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../mathematicaltext) | math element to apply box |
+
+ **Returns:**
+[MathBox](../mathbox)
+
+
+---
+
+
+### createMathBox {#createMathBox}
+
+| Name | Description |
+| --- | --- |
 | createMathBox ([MathFraction](../mathfraction)) | Create a math box by applying to the element |
 
  **Parameters:**
@@ -341,25 +379,6 @@ MathBoxFactory
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [BaseScript](../basescript) | math element to apply box |
-
- **Returns:**
-[MathBox](../mathbox)
-
-
----
-
-
-### createMathBox {#createMathBox}
-
-| Name | Description |
-| --- | --- |
-| createMathBox ([MathematicalText](../mathematicaltext)) | Create a math box by applying to the element |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | math element to apply box |
 
  **Returns:**
 [MathBox](../mathbox)

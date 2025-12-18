@@ -219,7 +219,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [FontFallBackRulesCollection](fontfallbackrulescollection) | Represents a collection of FontFallBack rules, defined by user |
 | [FontScheme](fontscheme) | Stores theme-defined fonts. |
 | [FontSources](fontsources) | Provides file and memory sources for external fonts. |
-| [FontStyle](fontstyle) | Font style enumeration |
+| [FontStyleType](fontstyletype) | Defines formatting styles that can be applied to text. |
 | [FontSubstCondition](fontsubstcondition) | Represents a rule fot font substitution |
 | [FontSubstRule](fontsubstrule) | Represents font subtituition information |
 | [FontSubstRuleCollection](fontsubstrulecollection) | Represents collection of fonts substitution. |
@@ -375,6 +375,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [MathNaryOperatorTypes](mathnaryoperatortypes) | Nary operator IMathNaryOperator types (excluding integrals) For integrals MathIntegralTypes |
 | [MathParagraph](mathparagraph) | Mathematical paragraph that is a container for mathematical blocks (IMathBlock) |
 | [MathParagraphFactory](mathparagraphfactory) | Allows to create a math paragraph For COM comparibility |
+| [MathPhantom](mathphantom) | Represents a phantom math object (&lt;m:phant&gt;) that affects the layout of its child element without necessarily displaying it. A phantom can hide its base expression while preserving its width, height, or depth to align formulas or reserve space. Visibility and geometry behavior are controlled by properties such as Show, ZeroWid, ZeroAsc, ZeroDesc, and Transp. |
 | [MathPortion](mathportion) | Represents a portion with mathematical context inside. |
 | [MathRadical](mathradical) | Specifies the radical function, consisting of a base, and an optional degree. Example of radical object is ??. |
 | [MathRadicalFactory](mathradicalfactory) | Allows to create math radical For COM comparibility |
@@ -390,6 +391,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [MathVerticalAlignment](mathverticalalignment) | Vertical Alignment |
 | [MathematicalText](mathematicaltext) | Mathematical text |
 | [MathematicalTextFactory](mathematicaltextfactory) | Allows to create a MathematicalText element For COM comparibility |
+| [Merger](merger) | Represents a group of methods for merging PowerPoint presentations of the same format into one file. |
 | [Metered](metered) | Provides methods to set metered key. |
 | [ModernComment](moderncomment) | Represents a comment on a slide. |
 | [ModernCommentStatus](moderncommentstatus) | Represents the status of a modern comment. |

@@ -269,13 +269,13 @@ url: /aspose.slides/imagetransformoperationcollection/
 
 | Name | Description |
 | --- | --- |
-| addItem ([SoftEdge](../softedge)) | Adds the new image effect to the end of a collection. |
+| addItem ([ImageTransformOperation](../imagetransformoperation)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [SoftEdge](../softedge) | The image effect to add to the end of a collection. |
+| operation | [ImageTransformOperation](../imagetransformoperation) | The image effect to add to the end of a collection. |
 
  **Returns:**
 void
@@ -288,13 +288,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| addItem ([ImageTransformOperation](../imagetransformoperation)) | Adds the new image effect to the end of a collection. |
+| addItem ([SoftEdge](../softedge)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [ImageTransformOperation](../imagetransformoperation) | The image effect to add to the end of a collection. |
+| operation | [SoftEdge](../softedge) | The image effect to add to the end of a collection. |
 
  **Returns:**
 void
@@ -687,13 +687,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| addItem ([BiLevel](../bilevel)) | Adds the new image effect to the end of a collection. |
+| addItem ([ColorReplace](../colorreplace)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [BiLevel](../bilevel) | The image effect to add to the end of a collection. |
+| operation | [ColorReplace](../colorreplace) | The image effect to add to the end of a collection. |
 
  **Returns:**
 void
@@ -706,13 +706,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| addItem ([ColorReplace](../colorreplace)) | Adds the new image effect to the end of a collection. |
+| addItem ([BiLevel](../bilevel)) | Adds the new image effect to the end of a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [ColorReplace](../colorreplace) | The image effect to add to the end of a collection. |
+| operation | [BiLevel](../bilevel) | The image effect to add to the end of a collection. |
 
  **Returns:**
 void
@@ -797,13 +797,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| containsItem ([SoftEdge](../softedge)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem ([ImageTransformOperation](../imagetransformoperation)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [SoftEdge](../softedge) | The object to locate in the IGenericCollection. |
+| item | [ImageTransformOperation](../imagetransformoperation) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -816,13 +816,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([ImageTransformOperation](../imagetransformoperation)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem ([SoftEdge](../softedge)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ImageTransformOperation](../imagetransformoperation) | The object to locate in the IGenericCollection. |
+| item | [SoftEdge](../softedge) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1215,13 +1215,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([BiLevel](../bilevel)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem ([ColorReplace](../colorreplace)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [BiLevel](../bilevel) | The object to locate in the IGenericCollection. |
+| item | [ColorReplace](../colorreplace) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1234,13 +1234,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| containsItem ([ColorReplace](../colorreplace)) | Determines whether the IGenericCollection contains a specific value. |
+| containsItem ([BiLevel](../bilevel)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorReplace](../colorreplace) | The object to locate in the IGenericCollection. |
+| item | [BiLevel](../bilevel) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1320,7 +1320,7 @@ long
 | index | int | Index of element. |
 
  **Returns:**
-[SoftEdge](../softedge), [ImageTransformOperation](../imagetransformoperation), [Glow](../glow), [AlphaModulateFixed](../alphamodulatefixed), [AlphaFloor](../alphafloor), [OuterShadow](../outershadow), [Blur](../blur), [AlphaReplace](../alphareplace), [FillOverlay](../filloverlay), [HSL](../hsl), [AlphaBiLevel](../alphabilevel), [BrightnessContrast](../brightnesscontrast), [InnerShadow](../innershadow), [ColorChange](../colorchange), [AlphaModulate](../alphamodulate), [Reflection](../reflection), [GrayScale](../grayscale), [Duotone](../duotone), [Luminance](../luminance), [AlphaCeiling](../alphaceiling), [AlphaInverse](../alphainverse), [PresetShadow](../presetshadow), [BiLevel](../bilevel), [ColorReplace](../colorreplace), [Tint](../tint)
+[ImageTransformOperation](../imagetransformoperation), [SoftEdge](../softedge), [Glow](../glow), [AlphaModulateFixed](../alphamodulatefixed), [AlphaFloor](../alphafloor), [OuterShadow](../outershadow), [Blur](../blur), [AlphaReplace](../alphareplace), [FillOverlay](../filloverlay), [HSL](../hsl), [AlphaBiLevel](../alphabilevel), [BrightnessContrast](../brightnesscontrast), [InnerShadow](../innershadow), [ColorChange](../colorchange), [AlphaModulate](../alphamodulate), [Reflection](../reflection), [GrayScale](../grayscale), [Duotone](../duotone), [Luminance](../luminance), [AlphaCeiling](../alphaceiling), [AlphaInverse](../alphainverse), [PresetShadow](../presetshadow), [ColorReplace](../colorreplace), [BiLevel](../bilevel), [Tint](../tint)
 
 
 ---
@@ -1388,13 +1388,13 @@ void
 
 | Name | Description |
 | --- | --- |
-| removeItem ([SoftEdge](../softedge)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem ([ImageTransformOperation](../imagetransformoperation)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [SoftEdge](../softedge) | The object to remove from the IGenericCollection. |
+| item | [ImageTransformOperation](../imagetransformoperation) | The object to remove from the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1413,13 +1413,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([ImageTransformOperation](../imagetransformoperation)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem ([SoftEdge](../softedge)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ImageTransformOperation](../imagetransformoperation) | The object to remove from the IGenericCollection. |
+| item | [SoftEdge](../softedge) | The object to remove from the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1938,13 +1938,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([BiLevel](../bilevel)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem ([ColorReplace](../colorreplace)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [BiLevel](../bilevel) | The object to remove from the IGenericCollection. |
+| item | [ColorReplace](../colorreplace) | The object to remove from the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -1963,13 +1963,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| removeItem ([ColorReplace](../colorreplace)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| removeItem ([BiLevel](../bilevel)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorReplace](../colorreplace) | The object to remove from the IGenericCollection. |
+| item | [BiLevel](../bilevel) | The object to remove from the IGenericCollection. |
 
  **Returns:**
 boolean

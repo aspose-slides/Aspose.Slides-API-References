@@ -24,19 +24,6 @@ byte
 ---
 
 
-### getGraphicsPath {#getGraphicsPath}
-
-| Name | Description |
-| --- | --- |
-| getGraphicsPath () | Returns an element's path. Read-only java.awt.geom.GeneralPath. |
-
- **Returns:**
-Shape
-
-
----
-
-
 ### getParentShape {#getParentShape}
 
 | Name | Description |

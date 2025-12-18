@@ -37,6 +37,19 @@ boolean
 ---
 
 
+### getIncludeNotes {#getIncludeNotes}
+
+| Name | Description |
+| --- | --- |
+| getIncludeNotes () | Set true to include text contained in slide notes ( NotesSlide) when performing text search, replacement, or highlighting operations. The default value is false. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
 ### getWholeWordsOnly {#getWholeWordsOnly}
 
 | Name | Description |
@@ -55,6 +68,19 @@ boolean
 | Name | Description |
 | --- | --- |
 | setCaseSensitive (boolean) | Set true to use case-sensitive search, false - otherwise. Read/write boolean. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setIncludeNotes {#setIncludeNotes}
+
+| Name | Description |
+| --- | --- |
+| setIncludeNotes (boolean) | Set true to include text contained in slide notes ( NotesSlide) when performing text search, replacement, or highlighting operations. The default value is false. |
 
  **Returns:**
 void
