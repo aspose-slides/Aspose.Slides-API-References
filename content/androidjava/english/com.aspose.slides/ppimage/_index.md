@@ -20,7 +20,6 @@ Represents an image in a presentation.
 | Method | Description |
 | --- | --- |
 | [getBinaryData()](#getBinaryData--) | Returns the copy of an image's data. |
-| [getSystemImage()](#getSystemImage--) | Returns the copy of an image. |
 | [getImage()](#getImage--) | Returns the copy of an image. |
 | [getSvgImage()](#getSvgImage--) | Returns or sets ISvgImage object [ISvgImage](../../com.aspose.slides/isvgimage) |
 | [setSvgImage(ISvgImage value)](#setSvgImage-com.aspose.slides.ISvgImage-) | Returns or sets ISvgImage object [ISvgImage](../../com.aspose.slides/isvgimage) |
@@ -44,16 +43,6 @@ Returns the copy of an image's data. Read-only  byte[] .
 
 **Returns:**
 byte[] - Array of bytes
-### getSystemImage() {#getSystemImage--}
-```
-public final Bitmap getSystemImage()
-```
-
-
-Returns the copy of an image. Read-only android.graphics.Bitmap.
-
-**Returns:**
-android.graphics.Bitmap
 ### getImage() {#getImage--}
 ```
 public final IImage getImage()
@@ -114,7 +103,7 @@ public final void replaceImage(IImage newImage)
 ```
 
 
-Replaces image data. Attention: when Image is metafile - it will be rasterized. Use replaceImage(byte[]) instead
+Replaces image data. Attention: when Image is metafile - it will be rasterized. Use ReplaceImage(byte[]) instead
 
 **Parameters:**
 | Parameter | Type | Description |

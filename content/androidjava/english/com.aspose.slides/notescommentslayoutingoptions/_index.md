@@ -9,9 +9,9 @@ url: /com.aspose.slides/notescommentslayoutingoptions/
 java.lang.Object
 
 **All Implemented Interfaces:**
-[com.aspose.slides.INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
+[com.aspose.slides.ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions)
 ```
-public class NotesCommentsLayoutingOptions implements INotesCommentsLayoutingOptions
+public class NotesCommentsLayoutingOptions implements ISlidesLayoutOptions
 ```
 
 Provides options that control the look of layouting of notes and comments in exported document.
@@ -83,7 +83,7 @@ Gets or sets the position of the notes on the page.
 
 --------------------
 
-Default is [NotesPositions.None](../../com.aspose.slides/notespositions\#None).
+Default is **NotesPositions.None**.
 
 **Returns:**
 int
@@ -97,7 +97,7 @@ Gets or sets the position of the notes on the page.
 
 --------------------
 
-Default is [NotesPositions.None](../../com.aspose.slides/notespositions\#None).
+Default is **NotesPositions.None**.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -114,7 +114,7 @@ Gets or sets the position of the comments on the page.
 
 --------------------
 
-Default is **CommentsPositions\#None**.
+Default is **CommentsPositions.None**.
 
 **Returns:**
 int
@@ -128,7 +128,7 @@ Gets or sets the position of the comments on the page.
 
 --------------------
 
-Default is **CommentsPositions\#None**.
+Default is **CommentsPositions.None**.
 
 **Parameters:**
 | Parameter | Type | Description |

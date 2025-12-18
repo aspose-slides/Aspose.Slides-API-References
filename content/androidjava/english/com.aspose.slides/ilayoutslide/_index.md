@@ -24,6 +24,7 @@ Represents a layout slide.
 | [hasDependingSlides()](#hasDependingSlides--) | Returns true if there exists at least one slide that depends on this layout slide. |
 | [getDependingSlides()](#getDependingSlides--) | Returns an array with all slides, which depend on this layout slide. |
 | [remove()](#remove--) | Removes layout from presentation. |
+| [getDrawingGuides()](#getDrawingGuides--) | Returns a collection of drawing guides for the layout slide. |
 ### getHeaderFooterManager() {#getHeaderFooterManager--}
 ```
 public abstract ILayoutSlideHeaderFooterManager getHeaderFooterManager()
@@ -105,3 +106,30 @@ public abstract void remove()
 
 Removes layout from presentation.
 
+### getDrawingGuides() {#getDrawingGuides--}
+```
+public abstract IDrawingGuidesCollection getDrawingGuides()
+```
+
+
+Returns a collection of drawing guides for the layout slide. Read-only [IDrawingGuidesCollection](../../com.aspose.slides/idrawingguidescollection)
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation();
+>  try {
+>      SizeF slideSize = pres.getSlideSize().getSize();
+> 
+>      IDrawingGuidesCollection guides = pres.getLayoutSlides().get_Item(0).getDrawingGuides();
+>      // Adding the new vertical drawing guide to the left of the slide center
+>      guides.add(Orientation.Vertical, (float)slideSize.getWidth() / 2 - 20f);
+> 
+>      pres.save("LayoutDrawingGuides_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[IDrawingGuidesCollection](../../com.aspose.slides/idrawingguidescollection)

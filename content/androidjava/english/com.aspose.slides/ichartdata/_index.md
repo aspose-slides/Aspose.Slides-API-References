@@ -223,7 +223,7 @@ Gets chart data range.
 > ```
 > Presentation pres = new Presentation();
 >  {
->      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.PercentsStackedBar, 0, 0, 100, 100);
+>      IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.PercentsStackedBar, 100, 100, 500, 400);
 >      String result = ((ChartData)chart.getChartData()).getRange();
 >  }
 > ```

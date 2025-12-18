@@ -46,7 +46,6 @@ Provides options that control how a presentation is saved in SWF format.
 | [setLogoLink(String value)](#setLogoLink-java.lang.String-) | Gets or sets the full hyperlink address for a logo. |
 | [getJpegQuality()](#getJpegQuality--) | Specifies the quality of JPEG images. |
 | [setJpegQuality(int value)](#setJpegQuality-int-) | Specifies the quality of JPEG images. |
-| [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
 | [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 | [setSlidesLayoutOptions(ISlidesLayoutOptions value)](#setSlidesLayoutOptions-com.aspose.slides.ISlidesLayoutOptions-) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
 ### getCompressed() {#getCompressed--}
@@ -394,16 +393,6 @@ Specifies the quality of JPEG images. Default is 95.
 | --- | --- | --- |
 | value | int |  |
 
-### getNotesCommentsLayouting() {#getNotesCommentsLayouting--}
-```
-public abstract INotesCommentsLayoutingOptions getNotesCommentsLayouting()
-```
-
-
-Provides options that control how notes and comments is placed in exported document.
-
-**Returns:**
-[INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
 ### getSlidesLayoutOptions() {#getSlidesLayoutOptions--}
 ```
 public abstract ISlidesLayoutOptions getSlidesLayoutOptions()

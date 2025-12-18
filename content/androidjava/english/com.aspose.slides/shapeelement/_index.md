@@ -20,7 +20,6 @@ Represents a part of shape with same outline and fill properties.
 | Method | Description |
 | --- | --- |
 | [getParentShape()](#getParentShape--) | Returns a Shape\_PPT for which element was created. |
-| [getGraphicsPath()](#getGraphicsPath--) | Returns an element's path. |
 | [getFillSource()](#getFillSource--) | Returns information about how to fill an element. |
 | [getStrokeSource()](#getStrokeSource--) | Returns information about how to stroke an element. |
 ### getParentShape() {#getParentShape--}
@@ -33,16 +32,6 @@ Returns a Shape\_PPT for which element was created. Read-only [Shape](../../com.
 
 **Returns:**
 [Shape](../../com.aspose.slides/shape)
-### getGraphicsPath() {#getGraphicsPath--}
-```
-public final Path getGraphicsPath()
-```
-
-
-Returns an element's path. Read-only android.graphics.Path.
-
-**Returns:**
-android.graphics.Path
 ### getFillSource() {#getFillSource--}
 ```
 public final byte getFillSource()

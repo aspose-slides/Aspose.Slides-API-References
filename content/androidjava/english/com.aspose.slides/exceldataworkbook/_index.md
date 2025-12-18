@@ -66,6 +66,14 @@ public final System.Collections.Generic.List<IExcelDataCell> getCells(String for
 
 Retrieves a collection of cells from the workbook that match the specified formula.
 
+--------------------
+
+> ```
+> ExcelDataWorkbook wb = new ExcelDataWorkbook(testFile);
+>  List<IExcelDataCell> cells = wb.getCells("Sheet1!A2:A6", false);
+>  System.out.println(cells.size()); //Output: 5
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |

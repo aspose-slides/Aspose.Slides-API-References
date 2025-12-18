@@ -28,6 +28,8 @@ Represents options that can be used to search for text in a Presentation, Slide 
 | [setCaseSensitive(boolean value)](#setCaseSensitive-boolean-) | Set true to use case-sensitive search, false - otherwise. |
 | [getWholeWordsOnly()](#getWholeWordsOnly--) | Set true to match only whole words, false - otherwise. |
 | [setWholeWordsOnly(boolean value)](#setWholeWordsOnly-boolean-) | Set true to match only whole words, false - otherwise. |
+| [getIncludeNotes()](#getIncludeNotes--) | Set true to include text contained in slide notes ([NotesSlide](../../com.aspose.slides/notesslide)) when performing text search, replacement, or highlighting operations. |
+| [setIncludeNotes(boolean value)](#setIncludeNotes-boolean-) | Set true to include text contained in slide notes ([NotesSlide](../../com.aspose.slides/notesslide)) when performing text search, replacement, or highlighting operations. |
 ### TextSearchOptions() {#TextSearchOptions--}
 ```
 public TextSearchOptions()
@@ -76,6 +78,29 @@ public final void setWholeWordsOnly(boolean value)
 
 
 Set true to match only whole words, false - otherwise. Read/write  boolean .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getIncludeNotes() {#getIncludeNotes--}
+```
+public final boolean getIncludeNotes()
+```
+
+
+Set true to include text contained in slide notes ([NotesSlide](../../com.aspose.slides/notesslide)) when performing text search, replacement, or highlighting operations. The default value is false.
+
+**Returns:**
+boolean
+### setIncludeNotes(boolean value) {#setIncludeNotes-boolean-}
+```
+public final void setIncludeNotes(boolean value)
+```
+
+
+Set true to include text contained in slide notes ([NotesSlide](../../com.aspose.slides/notesslide)) when performing text search, replacement, or highlighting operations. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

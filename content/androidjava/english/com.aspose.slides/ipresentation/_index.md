@@ -55,17 +55,11 @@ Presentation document
 | [save(OutputStream stream, int[] slides, int format)](#save-java.io.OutputStream-int---int-) | Saves specified slides of a presentation to a stream in the specified format. |
 | [save(OutputStream stream, int[] slides, int format, ISaveOptions options)](#save-java.io.OutputStream-int---int-com.aspose.slides.ISaveOptions-) | Saves specified slides of a presentation to a stream in the specified format. |
 | [save(IXamlOptions options)](#save-com.aspose.slides.IXamlOptions-) | Saves all slides of a presentation to a set of files representing XAML markup. |
-| [getThumbnails(IRenderingOptions options)](#getThumbnails-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation. |
 | [getImages(IRenderingOptions options)](#getImages-com.aspose.slides.IRenderingOptions-) | Returns a Thumbnail Image objects for all slides of a presentation. |
-| [getThumbnails(IRenderingOptions options, int[] slides)](#getThumbnails-com.aspose.slides.IRenderingOptions-int---) | Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation. |
-| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Returns a Thumbnail Image objects for specified slides of a presentation. |
-| [getThumbnails(IRenderingOptions options, float scaleX, float scaleY)](#getThumbnails-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with custom scaling. |
+| [getImages(IRenderingOptions options, int[] slides)](#getImages-com.aspose.slides.IRenderingOptions-int---) | Returns a Thumbnail IImage objects for specified slides of a presentation. |
 | [getImages(IRenderingOptions options, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-float-float-) | Returns a Thumbnail Image objects for all slides of a presentation with custom scaling. |
-| [getThumbnails(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getThumbnails-com.aspose.slides.IRenderingOptions-int---float-float-) | Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation with custom scaling. |
 | [getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)](#getImages-com.aspose.slides.IRenderingOptions-int---float-float-) | Returns a Thumbnail Image objects for specified slides of a presentation with custom scaling. |
-| [getThumbnails(IRenderingOptions options, Size imageSize)](#getThumbnails-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-) | Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with specified size. |
 | [getImages(IRenderingOptions options, Size imageSize)](#getImages-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-) | Returns a Thumbnail Image objects for all slides of a presentation with specified size. |
-| [getThumbnails(IRenderingOptions options, int[] slides, Size imageSize)](#getThumbnails-com.aspose.slides.IRenderingOptions-int---com.aspose.slides.android.Size-) | Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size. |
 | [getImages(IRenderingOptions options, int[] slides, Size imageSize)](#getImages-com.aspose.slides.IRenderingOptions-int---com.aspose.slides.android.Size-) | Returns a Thumbnail Image objects for specified slides of a presentation with specified size. |
 | [getSlideById(long id)](#getSlideById-long-) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
 | [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
@@ -560,21 +554,6 @@ Saves all slides of a presentation to a set of files representing XAML markup.
 | --- | --- | --- |
 | options | [IXamlOptions](../../com.aspose.slides/ixamloptions) | The XAML format options. |
 
-### getThumbnails(IRenderingOptions options) {#getThumbnails-com.aspose.slides.IRenderingOptions-}
-```
-public abstract Bitmap[] getThumbnails(IRenderingOptions options)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
 ### getImages(IRenderingOptions options) {#getImages-com.aspose.slides.IRenderingOptions-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options)
@@ -590,29 +569,13 @@ Returns a Thumbnail Image objects for all slides of a presentation.
 
 **Returns:**
 com.aspose.slides.IImage[] - IImage objects.
-### getThumbnails(IRenderingOptions options, int[] slides) {#getThumbnails-com.aspose.slides.IRenderingOptions-int---}
-```
-public abstract Bitmap[] getThumbnails(IRenderingOptions options, int[] slides)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
-| slides | int[] | Array with slide positions, starting from 1. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
 ### getImages(IRenderingOptions options, int[] slides) {#getImages-com.aspose.slides.IRenderingOptions-int---}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides)
 ```
 
 
-Returns a Thumbnail Image objects for specified slides of a presentation.
+Returns a Thumbnail IImage objects for specified slides of a presentation.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -621,24 +584,7 @@ Returns a Thumbnail Image objects for specified slides of a presentation.
 | slides | int[] | Array with slide positions, starting from 1. |
 
 **Returns:**
-com.aspose.slides.IImage[] - Image objects.
-### getThumbnails(IRenderingOptions options, float scaleX, float scaleY) {#getThumbnails-com.aspose.slides.IRenderingOptions-float-float-}
-```
-public abstract Bitmap[] getThumbnails(IRenderingOptions options, float scaleX, float scaleY)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with custom scaling.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
+com.aspose.slides.IImage[] - IImage objects.
 ### getImages(IRenderingOptions options, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-float-float-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, float scaleX, float scaleY)
@@ -655,25 +601,7 @@ Returns a Thumbnail Image objects for all slides of a presentation with custom s
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 **Returns:**
-com.aspose.slides.IImage[] - Image objects.
-### getThumbnails(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getThumbnails-com.aspose.slides.IRenderingOptions-int---float-float-}
-```
-public abstract Bitmap[] getThumbnails(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for specified slides of a presentation with custom scaling.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
-| scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
+com.aspose.slides.IImage[] - Bitmap objects.
 ### getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY) {#getImages-com.aspose.slides.IRenderingOptions-int---float-float-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
@@ -691,23 +619,7 @@ Returns a Thumbnail Image objects for specified slides of a presentation with cu
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
 **Returns:**
-com.aspose.slides.IImage[] - Image objects.
-### getThumbnails(IRenderingOptions options, Size imageSize) {#getThumbnails-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-}
-```
-public abstract Bitmap[] getThumbnails(IRenderingOptions options, Size imageSize)
-```
-
-
-Returns a Thumbnail android.graphics.Bitmap objects for all slides of a presentation with specified size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
-| imageSize | [Size](../../com.aspose.slides.android/size) | Size of the image to create. |
-
-**Returns:**
-android.graphics.Bitmap[] - android.graphics.Bitmap objects.
+com.aspose.slides.IImage[] - IImage objects.
 ### getImages(IRenderingOptions options, Size imageSize) {#getImages-com.aspose.slides.IRenderingOptions-com.aspose.slides.android.Size-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, Size imageSize)
@@ -724,23 +636,6 @@ Returns a Thumbnail Image objects for all slides of a presentation with specifie
 
 **Returns:**
 com.aspose.slides.IImage[] - IImage objects.
-### getThumbnails(IRenderingOptions options, int[] slides, Size imageSize) {#getThumbnails-com.aspose.slides.IRenderingOptions-int---com.aspose.slides.android.Size-}
-```
-public abstract Bitmap[] getThumbnails(IRenderingOptions options, int[] slides, Size imageSize)
-```
-
-
-Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [IRenderingOptions](../../com.aspose.slides/irenderingoptions) | Rendering options. |
-| slides | int[] | Array with slide positions, starting from 1. |
-| imageSize | [Size](../../com.aspose.slides.android/size) | Size of the image to create. |
-
-**Returns:**
-android.graphics.Bitmap[] - Bitmap objects.
 ### getImages(IRenderingOptions options, int[] slides, Size imageSize) {#getImages-com.aspose.slides.IRenderingOptions-int---com.aspose.slides.android.Size-}
 ```
 public abstract IImage[] getImages(IRenderingOptions options, int[] slides, Size imageSize)

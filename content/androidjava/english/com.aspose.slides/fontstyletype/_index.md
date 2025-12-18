@@ -1,33 +1,33 @@
 ---
-title: FontStyle
+title: FontStyleType
 second_title: Aspose.Slides for Android via Java API Reference
-description: Font style enumeration
+description: Defines formatting styles that can be applied to text.
 type: docs
-url: /com.aspose.slides/fontstyle/
+url: /com.aspose.slides/fontstyletype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 ```
-public final class FontStyle extends System.Enum
+public final class FontStyleType extends System.Enum
 ```
 
-Font style enumeration
+Defines formatting styles that can be applied to text.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Regular](#Regular) | Regular font style |
-| [Bold](#Bold) | Bold font style |
-| [Italic](#Italic) | Italic font style |
-| [Underline](#Underline) | Underline font style |
-| [Strikeout](#Strikeout) | Strikeout font style |
+| [Regular](#Regular) | Standard text. |
+| [Bold](#Bold) | Bold text. |
+| [Italic](#Italic) | Italic text. |
+| [Underline](#Underline) | Underlined text. |
+| [Strikeout](#Strikeout) | Text crossed out with a horizontal line. |
 ### Regular {#Regular}
 ```
 public static final int Regular
 ```
 
 
-Regular font style
+Standard text.
 
 ### Bold {#Bold}
 ```
@@ -35,7 +35,7 @@ public static final int Bold
 ```
 
 
-Bold font style
+Bold text.
 
 ### Italic {#Italic}
 ```
@@ -43,7 +43,7 @@ public static final int Italic
 ```
 
 
-Italic font style
+Italic text.
 
 ### Underline {#Underline}
 ```
@@ -51,7 +51,7 @@ public static final int Underline
 ```
 
 
-Underline font style
+Underlined text.
 
 ### Strikeout {#Strikeout}
 ```
@@ -59,5 +59,5 @@ public static final int Strikeout
 ```
 
 
-Strikeout font style
+Text crossed out with a horizontal line.
 

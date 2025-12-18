@@ -34,6 +34,7 @@ Represents a master slide in a presentation.
 | [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of a master slide. |
 | [getShowMasterShapes()](#getShowMasterShapes--) | Specifies if shapes on the master slide should be shown on slides or not. |
 | [setShowMasterShapes(boolean value)](#setShowMasterShapes-boolean-) | Specifies if shapes on the master slide should be shown on slides or not. |
+| [getDrawingGuides()](#getDrawingGuides--) | Returns a collection of drawing guides for the master slide. |
 ### getHeaderFooterManager() {#getHeaderFooterManager--}
 ```
 public final IMasterSlideHeaderFooterManager getHeaderFooterManager()
@@ -202,3 +203,30 @@ Specifies if shapes on the master slide should be shown on slides or not. For ma
 | --- | --- | --- |
 | value | boolean |  |
 
+### getDrawingGuides() {#getDrawingGuides--}
+```
+public final IDrawingGuidesCollection getDrawingGuides()
+```
+
+
+Returns a collection of drawing guides for the master slide. Read-only [IDrawingGuidesCollection](../../com.aspose.slides/idrawingguidescollection)
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation();
+>  try {
+>      SizeF slideSize = pres.getSlideSize().getSize();
+> 
+>      IDrawingGuidesCollection guides = pres.getMasters().get_Item(0).getDrawingGuides();
+>      // Adding the new vertical drawing guide to the right of the slide center
+>      guides.add(Orientation.Vertical, (float) slideSize.getWidth() / 2 + 20f);
+> 
+>      pres.save("MasterSlideDrawingGuides_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[IDrawingGuidesCollection](../../com.aspose.slides/idrawingguidescollection)

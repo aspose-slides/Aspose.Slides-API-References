@@ -41,8 +41,6 @@ Represents a HTML5 exporting options.
 | [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
 | [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
 | [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
-| [getNotesCommentsLayouting()](#getNotesCommentsLayouting--) | Provides options that control how notes and comments is placed in exported document. |
-| [setNotesCommentsLayouting(INotesCommentsLayoutingOptions value)](#setNotesCommentsLayouting-com.aspose.slides.INotesCommentsLayoutingOptions-) | Provides options that control how notes and comments is placed in exported document. |
 | [getDisableFontLigatures()](#getDisableFontLigatures--) | Gets or sets a value indicating whether text is rendered without using ligatures. |
 | [setDisableFontLigatures(boolean value)](#setDisableFontLigatures-boolean-) | Gets or sets a value indicating whether text is rendered without using ligatures. |
 | [getSlidesLayoutOptions()](#getSlidesLayoutOptions--) | Gets or sets the mode in which slides are placed on the page when exporting a presentation [ISlidesLayoutOptions](../../com.aspose.slides/islideslayoutoptions). |
@@ -163,7 +161,7 @@ public abstract boolean getEmbedImages()
 ```
 
 
-Returns or sets images embedding option. Read/write  boolean .
+Returns or sets images embedding option. Read/write boolean.
 
 --------------------
 
@@ -188,7 +186,7 @@ public abstract void setEmbedImages(boolean value)
 ```
 
 
-Returns or sets images embedding option. Read/write  boolean .
+Returns or sets images embedding option. Read/write boolean.
 
 --------------------
 
@@ -264,69 +262,6 @@ Determines where external resources should be stored. Read/write String.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
-### getNotesCommentsLayouting() {#getNotesCommentsLayouting--}
-```
-public abstract INotesCommentsLayoutingOptions getNotesCommentsLayouting()
-```
-
-
-Provides options that control how notes and comments is placed in exported document. Read/write [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions).
-
---------------------
-
-> ```
-> Example:
->  
->  Presentation pres = new Presentation("test.pptx");
->  try {
->      NotesCommentsLayoutingOptions notesCommentsLayoutingOptions = new NotesCommentsLayoutingOptions();
->      notesCommentsLayoutingOptions.setNotesPosition(NotesPositions.BottomTruncated);
-> 
->      Html5Options html5Options = new Html5Options();
->      html5Options.setOutputPath("test_pptx");
->      html5Options.setNotesCommentsLayouting(notesCommentsLayoutingOptions);
-> 
->      pres.save("index.html", SaveFormat.Html5, html5Options);
->  } finally {
->      if (pres != null) pres.dispose();
->  }
-> ```
-
-**Returns:**
-[INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions)
-### setNotesCommentsLayouting(INotesCommentsLayoutingOptions value) {#setNotesCommentsLayouting-com.aspose.slides.INotesCommentsLayoutingOptions-}
-```
-public abstract void setNotesCommentsLayouting(INotesCommentsLayoutingOptions value)
-```
-
-
-Provides options that control how notes and comments is placed in exported document. Read/write [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions).
-
---------------------
-
-> ```
-> Example:
->  
->  Presentation pres = new Presentation("test.pptx");
->  try {
->      NotesCommentsLayoutingOptions notesCommentsLayoutingOptions = new NotesCommentsLayoutingOptions();
->      notesCommentsLayoutingOptions.setNotesPosition(NotesPositions.BottomTruncated);
-> 
->      Html5Options html5Options = new Html5Options();
->      html5Options.setOutputPath("test_pptx");
->      html5Options.setNotesCommentsLayouting(notesCommentsLayoutingOptions);
-> 
->      pres.save("index.html", SaveFormat.Html5, html5Options);
->  } finally {
->      if (pres != null) pres.dispose();
->  }
-> ```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [INotesCommentsLayoutingOptions](../../com.aspose.slides/inotescommentslayoutingoptions) |  |
 
 ### getDisableFontLigatures() {#getDisableFontLigatures--}
 ```
