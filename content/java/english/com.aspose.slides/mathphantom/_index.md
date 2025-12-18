@@ -72,7 +72,7 @@ Initializes a new instance of the [MathPhantom](../../com.aspose.slides/mathphan
 
 --------------------
 
-The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element  <m:phant> . |
+The phantom element is used to reserve or suppress the visual space of its base expression without necessarily displaying it. It corresponds to the OMML element <m:phant>. |
 
 ### getBase() {#getBase--}
 ```

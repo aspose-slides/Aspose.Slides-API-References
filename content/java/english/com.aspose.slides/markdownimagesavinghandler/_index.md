@@ -20,7 +20,7 @@ public abstract boolean invoke(IImage image, int format, String[] link)
 ```
 
 
-Invoked for each non-SVG image (bitmap or metafile) during Markdown export. Return true to use the specified  link , or false to apply the default saving logic.
+Invoked for each non-SVG image (bitmap or metafile) during Markdown export. Return true to use the specified link, or false to apply the default saving logic.
 
 **Parameters:**
 | Parameter | Type | Description |

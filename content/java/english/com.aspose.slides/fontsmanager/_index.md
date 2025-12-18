@@ -21,23 +21,32 @@ Manages fonts across the presentation.
 > ```
 > The following example shows how to add embedded fonts to PowerPoint Presentation.
 >  
->  [C#]
 >  // Load presentation
->  using (Presentation presentation = new Presentation("Fonts.pptx"))
->  {
->  	// Load source font to be replaced
->  	IFontData sourceFont = new FontData("Arial");
->  	IFontData[] allFonts = presentation.FontsManager.GetFonts();
->  	IFontData[] embeddedFonts = presentation.FontsManager.GetEmbeddedFonts();
->  	foreach (IFontData font in allFonts)
->  	{
->  		if (!embeddedFonts.Contains(font))
->  		{
->  			presentation.FontsManager.AddEmbeddedFont(font, EmbedFontCharacters.All);
->  		}
->  	}
->  	// Save the presentation
->  	presentation.Save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
+>  Presentation pres = new Presentation("Fonts.pptx");
+>  try {
+>      // Load source font to be replaced
+>      IFontData sourceFont = new FontData("Arial");
+>      IFontData[] allFonts = pres.getFontsManager().getFonts();
+>      for (IFontData font : allFonts)
+>      {
+>          boolean fontAlreadyEmbedded = false;
+>          IFontData[] embeddedFonts = pres.getFontsManager().getEmbeddedFonts();
+>          for (int i = 0; i < embeddedFonts.length; i++)
+>          {
+>              if (embeddedFonts[i].equals(font))
+>              {
+>                  fontAlreadyEmbedded = true;
+>                  break;
+>              }
+>          }
+>          if (!fontAlreadyEmbedded) {
+>              pres.getFontsManager().addEmbeddedFont(font, EmbedFontCharacters.All);
+>          }
+>      }
+>      // Save the presentation
+>      pres.save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
 >  }
 > ```
 ## Methods

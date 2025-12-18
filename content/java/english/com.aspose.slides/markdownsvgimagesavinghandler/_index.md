@@ -20,7 +20,7 @@ public abstract boolean invoke(ISvgImage svgImage, String[] link)
 ```
 
 
-Invoked for each SVG image during Markdown export. Return true to use the specified  link , or false to apply the default saving logic.
+Invoked for each SVG image during Markdown export. Return true to use the specified link, or false to apply the default saving logic.
 
 **Parameters:**
 | Parameter | Type | Description |

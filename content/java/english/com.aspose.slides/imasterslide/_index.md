@@ -26,6 +26,7 @@ Represents a master slide in a presentation.
 | [setPreserve(boolean value)](#setPreserve-boolean-) | Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. |
 | [hasDependingSlides()](#hasDependingSlides--) | Returns true if there exists at least one slide that depends on this master slide. |
 | [getDependingSlides()](#getDependingSlides--) | Returns an array with all slides, which depend on this master slide. |
+| [getDrawingGuides()](#getDrawingGuides--) | Returns a collection of drawing guides for the master slide. |
 ### getHeaderFooterManager() {#getHeaderFooterManager--}
 ```
 public abstract IMasterSlideHeaderFooterManager getHeaderFooterManager()
@@ -138,3 +139,30 @@ Returns an array with all slides, which depend on this master slide.
 
 **Returns:**
 com.aspose.slides.ISlide[] - Array of [ISlide](../../com.aspose.slides/islide), which depend on this master slide
+### getDrawingGuides() {#getDrawingGuides--}
+```
+public abstract IDrawingGuidesCollection getDrawingGuides()
+```
+
+
+Returns a collection of drawing guides for the master slide. Read-only [IDrawingGuidesCollection](../../com.aspose.slides/idrawingguidescollection)
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation();
+>  try {
+>      Dimension2D slideSize = pres.getSlideSize().getSize();
+> 
+>      IDrawingGuidesCollection guides = pres.getMasters().get_Item(0).getDrawingGuides();
+>      // Adding the new vertical drawing guide to the right of the slide center
+>      guides.add(Orientation.Vertical, (float) slideSize.getWidth() / 2 + 20f);
+> 
+>      pres.save("MasterSlideDrawingGuides_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[IDrawingGuidesCollection](../../com.aspose.slides/idrawingguidescollection)

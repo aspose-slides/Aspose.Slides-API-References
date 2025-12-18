@@ -203,7 +203,7 @@ public final long getAdvanceAfterTime()
 ```
 
 
-Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read/write  long .
+Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read/write long.
 
 **Returns:**
 long
@@ -213,7 +213,7 @@ public final void setAdvanceAfterTime(long value)
 ```
 
 
-Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read/write  long .
+Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read/write long.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -332,7 +332,7 @@ Gets or sets the duration of the slide transition effect in milliseconds. Read/w
 
 --------------------
 
-Corresponds to the  p14:dur  attribute of the  p:transition  element in the PresentationML schema. If not set, the duration is determined automatically based on the  Speed (\#getSpeed.getSpeed/\#setSpeed(int).setSpeed(int)) property and the transition type.
+Corresponds to the p14:dur attribute of the p:transition element in the PresentationML schema. If not set, the duration is determined automatically based on the \#getSpeed.getSpeed/\#setSpeed(int).setSpeed(int) property and the transition type.
 
 **Returns:**
 int
@@ -346,7 +346,7 @@ Gets or sets the duration of the slide transition effect in milliseconds. Read/w
 
 --------------------
 
-Corresponds to the  p14:dur  attribute of the  p:transition  element in the PresentationML schema. If not set, the duration is determined automatically based on the  Speed (\#getSpeed.getSpeed/\#setSpeed(int).setSpeed(int)) property and the transition type.
+Corresponds to the p14:dur attribute of the p:transition element in the PresentationML schema. If not set, the duration is determined automatically based on the \#getSpeed.getSpeed/\#setSpeed(int).setSpeed(int) property and the transition type.
 
 **Parameters:**
 | Parameter | Type | Description |

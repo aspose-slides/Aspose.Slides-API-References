@@ -220,7 +220,6 @@ url: /com.aspose.slides/
 | [FontFallBackRulesCollection](../com.aspose.slides/fontfallbackrulescollection) | Represents a collection of FontFallBack rules, defined by user |
 | [FontScheme](../com.aspose.slides/fontscheme) | Stores theme-defined fonts. |
 | [FontSources](../com.aspose.slides/fontsources) | Provides file and memory sources for external fonts. |
-| [FontStyle](../com.aspose.slides/fontstyle) | Font style enumeration |
 | [FontStyleType](../com.aspose.slides/fontstyletype) | Defines formatting styles that can be applied to text. |
 | [FontSubstCondition](../com.aspose.slides/fontsubstcondition) | Represents a rule fot font substitution |
 | [FontSubstRule](../com.aspose.slides/fontsubstrule) | Represents font subtituition information |
@@ -392,6 +391,7 @@ url: /com.aspose.slides/
 | [MathVerticalAlignment](../com.aspose.slides/mathverticalalignment) | Vertical Alignment |
 | [MathematicalText](../com.aspose.slides/mathematicaltext) | Mathematical text |
 | [MathematicalTextFactory](../com.aspose.slides/mathematicaltextfactory) | Allows to create a MathematicalText element |
+| [Merger](../com.aspose.slides/merger) | Represents a group of methods for merging PowerPoint presentations of the same format into one file. |
 | [Metered](../com.aspose.slides/metered) | Provides methods to set metered key. |
 | [ModernComment](../com.aspose.slides/moderncomment) | Represents a comment on a slide. |
 | [ModernCommentStatus](../com.aspose.slides/moderncommentstatus) | Represents the status of a modern comment. |

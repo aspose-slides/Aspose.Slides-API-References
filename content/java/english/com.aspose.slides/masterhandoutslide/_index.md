@@ -23,6 +23,7 @@ Represents master slide for handouts.
 | [setShowMasterShapes(boolean value)](#setShowMasterShapes-boolean-) | Specifies if shapes on the master slide should be shown on slides or not. |
 | [getHeaderFooterManager()](#getHeaderFooterManager--) | Returns HeaderFooter manager of the master handout slide. |
 | [getThemeManager()](#getThemeManager--) | Returns the theme manager. |
+| [getDrawingGuides()](#getDrawingGuides--) | Returns a collection of drawing guides for the master handout slide. |
 ### getShowMasterShapes() {#getShowMasterShapes--}
 ```
 public boolean getShowMasterShapes()
@@ -66,3 +67,30 @@ Returns the theme manager. Read-only [IMasterThemeManager](../../com.aspose.slid
 
 **Returns:**
 [IMasterThemeManager](../../com.aspose.slides/imasterthememanager)
+### getDrawingGuides() {#getDrawingGuides--}
+```
+public final IDrawingGuidesCollection getDrawingGuides()
+```
+
+
+Returns a collection of drawing guides for the master handout slide. Read-only [IDrawingGuidesCollection](../../com.aspose.slides/idrawingguidescollection)
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation();
+>  try {
+>      Dimension2D notesSize = pres.getNotesSize().getSize();
+> 
+>      IDrawingGuidesCollection guides = pres.getMasterHandoutSlideManager().setDefaultMasterHandoutSlide().getDrawingGuides();
+>      // Adding the new horizontal drawing guide above the slide center
+>      guides.add(Orientation.Horizontal, (float) notesSize.getHeight() / 2 - 50f);
+> 
+>      pres.save("MasterHandoutDrawingGuides_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[IDrawingGuidesCollection](../../com.aspose.slides/idrawingguidescollection)

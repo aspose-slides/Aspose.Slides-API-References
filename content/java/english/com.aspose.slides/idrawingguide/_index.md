@@ -17,6 +17,8 @@ Represents an adjustable drawing guide.
 | [setOrientation(byte value)](#setOrientation-byte-) | Returns or sets orientation of the drawing guide. |
 | [getPosition()](#getPosition--) | Returns or sets position of the drawing guide in points from the top, left corner of the slide. |
 | [setPosition(float value)](#setPosition-float-) | Returns or sets position of the drawing guide in points from the top, left corner of the slide. |
+| [getColor()](#getColor--) | Returns or sets color of the drawing guide. |
+| [setColor(Color value)](#setColor-java.awt.Color-) | Returns or sets color of the drawing guide. |
 ### getOrientation() {#getOrientation--}
 ```
 public abstract byte getOrientation()
@@ -70,4 +72,27 @@ The typical value range is from zero to slide height for a horizontal guide and 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
+
+### getColor() {#getColor--}
+```
+public abstract Color getColor()
+```
+
+
+Returns or sets color of the drawing guide. Read/write java.awt.Color.
+
+**Returns:**
+java.awt.Color
+### setColor(Color value) {#setColor-java.awt.Color-}
+```
+public abstract void setColor(Color value)
+```
+
+
+Returns or sets color of the drawing guide. Read/write java.awt.Color.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.awt.Color |  |
 
