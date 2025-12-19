@@ -23,7 +23,7 @@ Example:
 auto differential = System::MakeObject<MathematicalText>(u"dx")->ToBox();
 differential->set_Differential(true);
 auto baseArg = System::MakeObject<MathematicalText>(u"x")->Join(differential);
-auto integral = baseArg->Integral(Aspose::Slides::MathText::MathIntegralTypes::Simple, u"0", u"1");
+auto integral = baseArg->Integral(MathIntegralTypes::Simple, u"0", u"1");
 ```
 
 ## See Also

@@ -36,7 +36,7 @@ Example:
 auto baseElement = System::MakeObject<MathematicalText>(u"i-1");
 auto lowerLimit = System::MakeObject<MathematicalText>(u"i=0");
 auto upperLimit = System::MakeObject<MathematicalText>(u"\U0001d465");
-auto naryOperator = baseElement->Nary(Aspose::Slides::MathText::MathNaryOperatorTypes::Summation, lowerLimit, upperLimit);
+auto naryOperator = baseElement->Nary(MathNaryOperatorTypes::Summation, lowerLimit, upperLimit);
 ```
 
 ## MathElementBase::Nary(MathNaryOperatorTypes, System::String, System::String) method
@@ -66,7 +66,7 @@ New instance of type [IMathNaryOperator](../../imathnaryoperator/)
 
 Example: 
 ```cpp
-auto naryOperator = System::MakeObject<MathematicalText>(u"i")->Nary(Aspose::Slides::MathText::MathNaryOperatorTypes::Summation, u"i=0", u"\U0001d465");
+auto naryOperator = System::MakeObject<MathematicalText>(u"i")->Nary(MathNaryOperatorTypes::Summation, u"i=0", u"\U0001d465");
 ```
 
 ## See Also

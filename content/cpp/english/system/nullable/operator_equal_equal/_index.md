@@ -3,7 +3,7 @@ title: operator==()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if the value represented by the current object is null.
 type: docs
-weight: 105
+weight: 118
 url: /system/nullable/operator_equal_equal/
 ---
 ## Nullable::operator==(std::nullptr_t) const method

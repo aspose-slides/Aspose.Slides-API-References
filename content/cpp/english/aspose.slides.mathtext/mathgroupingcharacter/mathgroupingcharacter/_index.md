@@ -54,7 +54,7 @@ Aspose::Slides::MathText::MathGroupingCharacter::MathGroupingCharacter(System::S
 
 Example: 
 ```cpp
-auto groupingCharacter = System::MakeObject<MathGroupingCharacter>(System::MakeObject<MathematicalText>(u"abc"), u'_', Aspose::Slides::MathText::MathTopBotPositions::Top, Aspose::Slides::MathText::MathTopBotPositions::Bottom);
+auto groupingCharacter = System::MakeObject<MathGroupingCharacter>(System::MakeObject<MathematicalText>(u"abc"), u'_', MathTopBotPositions::Top, MathTopBotPositions::Bottom);
 ```
 
 ## See Also

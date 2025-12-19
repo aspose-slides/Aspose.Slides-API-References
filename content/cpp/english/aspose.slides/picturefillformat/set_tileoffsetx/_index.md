@@ -28,10 +28,10 @@ System::SharedPtr<ISlide> slide = presentation->get_Slide(0);
 System::SharedPtr<IPictureFillFormat> pictureFillFormat = slide->get_Shape(0)->get_FillFormat()->get_PictureFillFormat();
 
 // Sets the picture fill mode to Tile
-pictureFillFormat->set_PictureFillMode(Aspose::Slides::PictureFillMode::Tile);
+pictureFillFormat->set_PictureFillMode(PictureFillMode::Tile);
 
 // Sets the horizontal offset of the texture to 20 points
-pictureFillFormat->set_TileOffsetX(20.f);
+pictureFillFormat->set_TileOffsetX(20.0f);
 ```
 
 ## See Also

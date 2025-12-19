@@ -3,7 +3,7 @@ title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if the value represented by the current object is not null.
 type: docs
-weight: 131
+weight: 144
 url: /system/nullable/operator_not_equal/
 ---
 ## Nullable::operator!=(std::nullptr_t) const method

@@ -68,7 +68,7 @@ Aspose::Slides::MathText::MathBlock::MathBlock(System::SharedPtr<System::Collect
 
 Example: 
 ```cpp
-auto elems = System::MakeArray<System::SharedPtr<Aspose::Slides::MathText::IMathElement>>({System::MakeObject<MathematicalText>(u"item1"), System::MakeObject<MathematicalText>(u"item2")});
+auto elems = System::MakeArray<System::SharedPtr<IMathElement>>({System::MakeObject<MathematicalText>(u"item1"), System::MakeObject<MathematicalText>(u"item2")});
 auto mathBlock = System::MakeObject<MathBlock>(elems);
 ```
 

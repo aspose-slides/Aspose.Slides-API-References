@@ -3,7 +3,7 @@ title: GetOutPathCallback
 second_title: Aspose.Slides for C++ API Reference
 description: Callback that will be invoked for each Slide, the output path expected to be returned.
 type: docs
-weight: 53
+weight: 92
 url: /aspose.slides.lowcode/convert/getoutpathcallback/
 ---
 ## GetOutPathCallback typedef

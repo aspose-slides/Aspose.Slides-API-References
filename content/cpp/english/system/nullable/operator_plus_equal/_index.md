@@ -3,7 +3,7 @@ title: operator+=()
 second_title: Aspose.Slides for C++ API Reference
 description: Resets the current object so that it represents a null-value.
 type: docs
-weight: 222
+weight: 235
 url: /system/nullable/operator_plus_equal/
 ---
 ## Nullable::operator+=(std::nullptr_t) method

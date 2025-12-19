@@ -3,7 +3,7 @@ title: operator<=()
 second_title: Aspose.Slides for C++ API Reference
 description: Always returns false.
 type: docs
-weight: 183
+weight: 196
 url: /system/nullable/operator_less_equal/
 ---
 ## Nullable::operator<=(std::nullptr_t) const method

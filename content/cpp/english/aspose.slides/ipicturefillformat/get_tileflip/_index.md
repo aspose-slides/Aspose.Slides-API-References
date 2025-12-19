@@ -30,10 +30,10 @@ System::SharedPtr<ISlide> slide = presentation->get_Slide(0);
 System::SharedPtr<IPictureFillFormat> pictureFillFormat = slide->get_Shape(0)->get_FillFormat()->get_PictureFillFormat();
 
 // Sets the picture fill mode to Tile
-pictureFillFormat->set_PictureFillMode(Aspose::Slides::PictureFillMode::Tile);
+pictureFillFormat->set_PictureFillMode(PictureFillMode::Tile);
 
 // Flips the texture tile around its vertical axis.
-pictureFillFormat->set_TileFlip(Aspose::Slides::TileFlip::FlipY);
+pictureFillFormat->set_TileFlip(TileFlip::FlipY);
 }
 ```
 

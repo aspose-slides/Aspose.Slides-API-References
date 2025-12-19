@@ -91,7 +91,7 @@ New math element of type [IMathFunction](../../imathfunction/)
 Example: 
 ```cpp
 auto functionArg = System::MakeObject<MathematicalText>(u"x");
-auto func = functionArg->AsArgumentOfFunction(Aspose::Slides::MathText::MathFunctionsOfOneArgument::ArcSin);
+auto func = functionArg->AsArgumentOfFunction(MathFunctionsOfOneArgument::ArcSin);
 ```
 
 ## IMathElement::AsArgumentOfFunction(MathFunctionsOfTwoArguments, System::SharedPtr\<IMathElement\>) method
@@ -122,7 +122,7 @@ Example:
 ```cpp
 auto functionArg = System::MakeObject<MathematicalText>(u"x");
 auto logarithmBase = System::MakeObject<MathematicalText>(u"5");
-auto func = functionArg->AsArgumentOfFunction(Aspose::Slides::MathText::MathFunctionsOfTwoArguments::Log, logarithmBase);
+auto func = functionArg->AsArgumentOfFunction(MathFunctionsOfTwoArguments::Log, logarithmBase);
 // Returns the logarithm of 'x' to the base '5'
 ```
 
@@ -153,7 +153,7 @@ New math element of type [IMathFunction](../../imathfunction/)
 Example: 
 ```cpp
 auto functionArg = System::MakeObject<MathematicalText>(u"x");
-auto func = functionArg->AsArgumentOfFunction(Aspose::Slides::MathText::MathFunctionsOfTwoArguments::Log, u"5");
+auto func = functionArg->AsArgumentOfFunction(MathFunctionsOfTwoArguments::Log, u"5");
 // Returns the logarithm of 'x' to the base '5'
 ```
 

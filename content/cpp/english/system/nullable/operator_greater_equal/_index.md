@@ -3,7 +3,7 @@ title: operator>=()
 second_title: Aspose.Slides for C++ API Reference
 description: Always returns false.
 type: docs
-weight: 170
+weight: 183
 url: /system/nullable/operator_greater_equal/
 ---
 ## Nullable::operator>=(std::nullptr_t) const method

@@ -57,7 +57,7 @@ System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"PowerP
 for (auto&& sld : pres->get_Slides())
 {
     // Create a full scale image
-    System::SharedPtr<IImage> bmp = sld->GetImage(1.f, 1.f);
+    System::SharedPtr<IImage> bmp = sld->GetImage(1.0f, 1.0f);
     // Save the image to disk in JPEG format
     bmp->Save(System::String::Format(u"Slide_{0}.jpg", sld->get_SlideNumber()), Aspose::Slides::ImageFormat::Jpeg);
 }

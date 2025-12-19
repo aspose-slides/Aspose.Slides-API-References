@@ -22,7 +22,7 @@ virtual bool Aspose::Slides::IProtectionManager::get_ReadOnlyRecommended()=0
 ```cpp
 auto pres = System::MakeObject<Presentation>();
 pres->get_ProtectionManager()->set_ReadOnlyRecommended(true);
-pres->Save(u"ReadOnlyPresentation.pptx", Aspose::Slides::Export::SaveFormat::Pptx);
+pres->Save(u"ReadOnlyPresentation.pptx", SaveFormat::Pptx);
 ```
 
 ## See Also

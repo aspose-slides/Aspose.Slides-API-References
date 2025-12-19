@@ -21,7 +21,7 @@ NullableBool Aspose::Slides::PresentationInfo::get_IsWriteProtected() override
 
 ```cpp
 auto info = PresentationFactory::get_Instance()->GetPresentationInfo(presentationFilePath);
-if (info->get_IsWriteProtected() == Aspose::Slides::NullableBool::True)
+if (info->get_IsWriteProtected() == NullableBool::True)
 {
     System::Console::WriteLine(System::String(u"The presentation '") + presentationFilePath + u"' is write protected by a password.");
 }

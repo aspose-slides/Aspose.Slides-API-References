@@ -3,7 +3,7 @@ title: reset()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets the currently represented value to null.
 type: docs
-weight: 66
+weight: 79
 url: /system/nullable/reset/
 ---
 ## Nullable::reset() method

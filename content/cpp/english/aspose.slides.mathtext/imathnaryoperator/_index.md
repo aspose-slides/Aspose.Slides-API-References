@@ -115,7 +115,7 @@ class IMathNaryOperator : public virtual Aspose::Slides::MathText::IMathElement,
 
 Example: 
 ```cpp
-auto naryOperator = System::MakeObject<MathematicalText>(u"x")->Nary(Aspose::Slides::MathText::MathNaryOperatorTypes::Summation, u"x=1", u"100");
+auto naryOperator = System::MakeObject<MathematicalText>(u"x")->Nary(MathNaryOperatorTypes::Summation, u"x=1", u"100");
 ```
 
 ## See Also

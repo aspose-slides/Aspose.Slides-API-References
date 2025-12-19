@@ -52,7 +52,7 @@ Aspose::Slides::MathText::MathBar::MathBar(System::SharedPtr<IMathElement> eleme
 
 Example: 
 ```cpp
-auto mathBar = System::MakeObject<MathBar>(System::MakeObject<MathematicalText>(u"x"), Aspose::Slides::MathText::MathTopBotPositions::Bottom);
+auto mathBar = System::MakeObject<MathBar>(System::MakeObject<MathematicalText>(u"x"), MathTopBotPositions::Bottom);
 ```
 
 ## See Also

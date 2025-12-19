@@ -3,7 +3,7 @@ title: operator+()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a default constructed instance of Nullable<T> class.
 type: docs
-weight: 196
+weight: 209
 url: /system/nullable/operator_plus/
 ---
 ## Nullable::operator+(std::nullptr_t) const method

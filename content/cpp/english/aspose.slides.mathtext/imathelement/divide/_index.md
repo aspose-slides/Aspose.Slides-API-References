@@ -123,7 +123,7 @@ new fraction
 Example: 
 ```cpp
 auto numerator = System::MakeObject<MathematicalText>(u"x");
-auto fraction = numerator->Divide(u"y", Aspose::Slides::MathText::MathFractionTypes::Linear);
+auto fraction = numerator->Divide(u"y", MathFractionTypes::Linear);
 ```
 
 ## See Also

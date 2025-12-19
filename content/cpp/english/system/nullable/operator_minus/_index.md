@@ -3,7 +3,7 @@ title: operator-()
 second_title: Aspose.Slides for C++ API Reference
 description: Subtracts nullable and null-pointed values.
 type: docs
-weight: 209
+weight: 222
 url: /system/nullable/operator_minus/
 ---
 ## Nullable::operator-(T1) const method

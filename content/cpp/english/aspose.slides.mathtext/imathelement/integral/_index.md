@@ -37,7 +37,7 @@ Example:
 auto baseElement = System::MakeObject<MathematicalText>(u"\U0001d465");
 auto lowerLimit = System::MakeObject<MathematicalText>(u"1");
 auto upperLimit = System::MakeObject<MathematicalText>(u"2");
-auto integral = baseElement->Integral(Aspose::Slides::MathText::MathIntegralTypes::Simple, lowerLimit, upperLimit, Aspose::Slides::MathText::MathLimitLocations::UnderOver);
+auto integral = baseElement->Integral(MathIntegralTypes::Simple, lowerLimit, upperLimit, MathLimitLocations::UnderOver);
 ```
 
 ## IMathElement::Integral(MathIntegralTypes, System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>) method
@@ -70,7 +70,7 @@ Example:
 auto baseElement = System::MakeObject<MathematicalText>(u"\U0001d465");
 auto lowerLimit = System::MakeObject<MathematicalText>(u"1");
 auto upperLimit = System::MakeObject<MathematicalText>(u"2");
-auto integral = baseElement->Integral(Aspose::Slides::MathText::MathIntegralTypes::Simple, lowerLimit, upperLimit, Aspose::Slides::MathText::MathLimitLocations::UnderOver);
+auto integral = baseElement->Integral(MathIntegralTypes::Simple, lowerLimit, upperLimit, MathLimitLocations::UnderOver);
 ```
 
 ## IMathElement::Integral(MathIntegralTypes) method
@@ -99,7 +99,7 @@ New instance of type [IMathNaryOperator](../../imathnaryoperator/)
 Example: 
 ```cpp
 auto baseElement = System::MakeObject<MathematicalText>(u"\U0001d465");
-auto integral = baseElement->Integral(Aspose::Slides::MathText::MathIntegralTypes::Contour);
+auto integral = baseElement->Integral(MathIntegralTypes::Contour);
 ```
 
 ## IMathElement::Integral(MathIntegralTypes, System::String, System::String, MathLimitLocations) method
@@ -131,7 +131,7 @@ New instance of type [IMathNaryOperator](../../imathnaryoperator/)
 Example: 
 ```cpp
 auto baseElement = System::MakeObject<MathematicalText>(u"\U0001d465");
-auto integral = baseElement->Integral(Aspose::Slides::MathText::MathIntegralTypes::Simple, u"1", u"5", Aspose::Slides::MathText::MathLimitLocations::UnderOver);
+auto integral = baseElement->Integral(MathIntegralTypes::Simple, u"1", u"5", MathLimitLocations::UnderOver);
 ```
 
 ## IMathElement::Integral(MathIntegralTypes, System::String, System::String) method
@@ -162,7 +162,7 @@ New instance of type [IMathNaryOperator](../../imathnaryoperator/)
 Example: 
 ```cpp
 auto baseElement = System::MakeObject<MathematicalText>(u"\U0001d465");
-auto integral = baseElement->Integral(Aspose::Slides::MathText::MathIntegralTypes::Simple, u"1", u"5");
+auto integral = baseElement->Integral(MathIntegralTypes::Simple, u"1", u"5");
 ```
 
 ## See Also

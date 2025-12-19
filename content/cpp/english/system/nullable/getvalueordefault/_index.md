@@ -3,7 +3,7 @@ title: GetValueOrDefault()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the value represented by the current object or the specified value if the value represented by the current object is null.
 type: docs
-weight: 300
+weight: 313
 url: /system/nullable/getvalueordefault/
 ---
 ## Nullable::GetValueOrDefault(T) method

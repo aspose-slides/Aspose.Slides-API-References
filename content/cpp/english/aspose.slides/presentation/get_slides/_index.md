@@ -39,7 +39,7 @@ auto slide = pres->get_Slides()->idx_get(0);
 // Set the background with Image
 slide->get_Background()->set_Type(BackgroundType::OwnBackground);
 slide->get_Background()->get_FillFormat()->set_FillType(FillType::Picture);
-slide->get_Background()->get_FillFormat()->get_PictureFillFormat()->set_PictureFillMode(Aspose::Slides::PictureFillMode::Stretch);
+slide->get_Background()->get_FillFormat()->get_PictureFillFormat()->set_PictureFillMode(PictureFillMode::Stretch);
 // Set the picture
 auto img = System::ExplicitCast<System::Drawing::Image>(System::MakeObject<System::Drawing::Bitmap>(dataDir + u"Tulips.jpg"));
 // Add image to presentation's images collection

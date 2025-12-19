@@ -3,7 +3,7 @@ title: ExplicitCastToObject()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 222
+weight: 235
 url: /system/objectext/explicitcasttoobject/
 ---
 ## ObjectExt::ExplicitCastToObject(const T\&) method
