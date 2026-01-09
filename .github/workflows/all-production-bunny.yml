@@ -1,0 +1,68 @@
+# Master workflow to trigger all production BunnyCDN workflows
+
+name: All Production Workflows (BunnyCDN)
+
+# Controls when the action will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  trigger-all-production:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger family-production-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: family-production-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger androidjava-production-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: androidjava-production-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger cpp-production-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: cpp-production-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger java-production-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: java-production-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger net-production-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: net-production-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger nodejs-java-production-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: nodejs-java-production-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger php-java-production-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: php-java-production-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger python-java-production-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: python-java-production-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
+
+      - name: Trigger python-net-production-bunny
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: python-net-production-bunny.yml
+          token: ${{ secrets.REPO_TOKEN }}
