@@ -3,7 +3,7 @@ title: ITextStyleEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective text style properties.
 type: docs
-weight: 7260
+weight: 7280
 url: /aspose.slides/itextstyleeffectivedata/
 ---
 

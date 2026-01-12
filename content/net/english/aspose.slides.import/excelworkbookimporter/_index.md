@@ -3,7 +3,7 @@ title: ExcelWorkbookImporter
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides functionality for importing content from an Excel workbook into a presentation.
 type: docs
-weight: 7410
+weight: 7430
 url: /aspose.slides.import/excelworkbookimporter/
 ---
 

@@ -174,6 +174,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [SectionCollection](./sectioncollection) | Represents a collection of sections. |
 | [SectionSlideCollection](./sectionslidecollection) | Represents a collection of slides in the section. |
 | [SectionZoomFrame](./sectionzoomframe) | Represents a Section Zoom object in a slide. |
+| [SensitivityLabel](./sensitivitylabel) | Represents the sensitivity label from Microsoft Purview Information Protection. |
+| [SensitivityLabelCollection](./sensitivitylabelcollection) | Represents a collection of sensitivity labels applied to the document. |
 | [Shape](./shape) | Represents a shape on a slide. |
 | [ShapeBevel](./shapebevel) | Contains the properties of shape's main face relief. |
 | [ShapeCollection](./shapecollection) | Represents a collection of shapes. |
@@ -392,6 +394,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [ISectionCollection](./isectioncollection) | Represents a collection of sections. |
 | [ISectionSlideCollection](./isectionslidecollection) | Represents a collection of a slides in the section. |
 | [ISectionZoomFrame](./isectionzoomframe) | Represents a Section Zoom object in a slide. |
+| [ISensitivityLabel](./isensitivitylabel) | Represents the sensitivity label from Microsoft Purview Information Protection. |
+| [ISensitivityLabelCollection](./isensitivitylabelcollection) | Represents a collection of sensitivity labels applied to the document. |
 | [IShape](./ishape) | Represents a shape on a slide. |
 | [IShapeBevel](./ishapebevel) | Represents properties of shape's main face relief. |
 | [IShapeBevelEffectiveData](./ishapebeveleffectivedata) | Immutable object which contains effective shape's face relief properties. |
@@ -500,6 +504,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [RectangleAlignment](./rectanglealignment) | Defines 2-dimension allignment. |
 | [ResourceLoadingAction](./resourceloadingaction) | Specifies the mode of external resource loading. |
 | [SchemeColor](./schemecolor) | Represents colors in a color scheme. |
+| [SensitivityLabelAssignmentType](./sensitivitylabelassignmenttype) | Represents the assignment method for the sensitivity label. |
+| [SensitivityLabelContentType](./sensitivitylabelcontenttype) | Represents the types of content marking that ought to be applied to a document. |
 | [ShapeAdjustmentType](./shapeadjustmenttype) | Specifies different types of shape adjustment values. |
 | [ShapeElementFillSource](./shapeelementfillsource) | Represents how shape element should be filled. |
 | [ShapeElementStrokeSource](./shapeelementstrokesource) | Represents how shape element should be drawn. |

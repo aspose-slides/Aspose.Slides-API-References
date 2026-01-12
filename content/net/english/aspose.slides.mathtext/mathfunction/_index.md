@@ -3,7 +3,7 @@ title: MathFunction
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies a function of an argument.
 type: docs
-weight: 8660
+weight: 8680
 url: /aspose.slides.mathtext/mathfunction/
 ---
 

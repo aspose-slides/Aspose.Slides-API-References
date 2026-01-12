@@ -3,7 +3,7 @@ title: IInkTrace
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents handwritten line in an Ink object.
 type: docs
-weight: 7480
+weight: 7500
 url: /aspose.slides.ink/iinktrace/
 ---
 

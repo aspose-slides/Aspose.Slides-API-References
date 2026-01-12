@@ -3,7 +3,7 @@ title: SetCustomPropertyValue
 second_title: Aspose.Sildes for .NET API Reference
 description: Sets a named boolean custom property.
 type: docs
-weight: 450
+weight: 460
 url: /aspose.slides/documentproperties/setcustompropertyvalue/
 ---
 

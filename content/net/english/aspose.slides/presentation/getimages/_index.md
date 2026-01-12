@@ -3,7 +3,7 @@ title: GetImages
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns a Image objects for all slides of a presentation.
 type: docs
-weight: 310
+weight: 320
 url: /aspose.slides/presentation/getimages/
 ---
 

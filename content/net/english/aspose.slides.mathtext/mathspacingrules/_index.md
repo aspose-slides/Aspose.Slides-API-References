@@ -3,7 +3,7 @@ title: MathSpacingRules
 second_title: Aspose.Sildes for .NET API Reference
 description: Types of gap horizontal spacing between columns of a matrix
 type: docs
-weight: 8930
+weight: 8950
 url: /aspose.slides.mathtext/mathspacingrules/
 ---
 

@@ -3,7 +3,7 @@ title: MathLimit
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the Limit object consisting of text on the baseline and reduced-size text immediately above or below it.
 type: docs
-weight: 8760
+weight: 8780
 url: /aspose.slides.mathtext/mathlimit/
 ---
 

@@ -3,7 +3,7 @@ title: Presentation
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Microsoft PowerPoint presentation.
 type: docs
-weight: 9530
+weight: 9550
 url: /aspose.slides/presentation/
 ---
 
@@ -51,6 +51,7 @@ public sealed class Presentation : IPresentation
 | [NotesSize](../../aspose.slides/presentation/notessize) { get; } | Returns notes slide size object. Read-only [`INotesSize`](../inotessize). |
 | [ProtectionManager](../../aspose.slides/presentation/protectionmanager) { get; } | Gets manager of the permissions for this presentation. Read-only [`IProtectionManager`](../iprotectionmanager). |
 | [Sections](../../aspose.slides/presentation/sections) { get; } | Returns a list of all slides sections that are defined in the presentation. Read-only [`ISectionCollection`](../isectioncollection). |
+| [SensitivityLabels](../../aspose.slides/presentation/sensitivitylabels) { get; } | Returns the collection of sensitivity labels applied to the presentation document. Read-only [`ISensitivityLabelCollection`](../isensitivitylabelcollection). |
 | [Slides](../../aspose.slides/presentation/slides) { get; } | Returns a list of all slides that are defined in the presentation. Read-only [`ISlideCollection`](../islidecollection). |
 | [SlideShowSettings](../../aspose.slides/presentation/slideshowsettings) { get; } | Returns the slide show settings for the presentation. |
 | [SlideSize](../../aspose.slides/presentation/slidesize) { get; } | Returns slide size object. Read-only [`ISlideSize`](../islidesize). |

@@ -3,7 +3,7 @@ title: SlideSize
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the size and orientation of a slide.
 type: docs
-weight: 10400
+weight: 10460
 url: /aspose.slides/slidesize/
 ---
 

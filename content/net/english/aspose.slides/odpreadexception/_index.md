@@ -3,7 +3,7 @@ title: OdpReadException
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an exception which thrown on presentation reading errors.
 type: docs
-weight: 9160
+weight: 9180
 url: /aspose.slides/odpreadexception/
 ---
 

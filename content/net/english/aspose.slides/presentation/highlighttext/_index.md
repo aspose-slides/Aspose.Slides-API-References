@@ -3,7 +3,7 @@ title: HighlightText
 second_title: Aspose.Sildes for .NET API Reference
 description: Highlights all matches of the sample text with the specified color.
 type: docs
-weight: 340
+weight: 350
 url: /aspose.slides/presentation/highlighttext/
 ---
 

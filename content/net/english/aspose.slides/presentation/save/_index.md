@@ -1,10 +1,32 @@
 ---
 title: Save
 second_title: Aspose.Sildes for .NET API Reference
-description: Saves all slides of a presentation to a stream in the specified format.
+description: Saves all slides of a presentation to a file with the specified format.
 type: docs
-weight: 380
+weight: 390
 url: /aspose.slides/presentation/save/
+---
+
+## Save(string, SaveFormat) {#save_5}
+
+Saves all slides of a presentation to a file with the specified format.
+
+```csharp
+public void Save(string fname, SaveFormat format)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fname | String | Path to the created file. |
+| format | SaveFormat | Format of the exported data. |
+
+### See Also
+
+* enum [SaveFormat](../../../aspose.slides.export/saveformat)
+* class [Presentation](../../presentation)
+* namespace [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
+
 ---
 
 ## Save(Stream, SaveFormat) {#save_1}
@@ -259,28 +281,6 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * interface [ISaveOptions](../../../aspose.slides.export/isaveoptions)
-* class [Presentation](../../presentation)
-* namespace [Aspose.Slides](../../presentation)
-* assembly [Aspose.Slides](../../../)
-
----
-
-## Save(string, SaveFormat) {#save_5}
-
-Saves all slides of a presentation to a file with the specified format.
-
-```csharp
-public void Save(string fname, SaveFormat format)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | SaveFormat | Format of the exported data. |
-
-### See Also
-
-* enum [SaveFormat](../../../aspose.slides.export/saveformat)
 * class [Presentation](../../presentation)
 * namespace [Aspose.Slides](../../presentation)
 * assembly [Aspose.Slides](../../../)

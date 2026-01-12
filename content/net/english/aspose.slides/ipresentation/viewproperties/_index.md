@@ -3,7 +3,7 @@ title: ViewProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: Gets presentation wide view properties. Read-only IViewPropertiesaspose.slides/iviewproperties.
 type: docs
-weight: 290
+weight: 300
 url: /aspose.slides/ipresentation/viewproperties/
 ---
 

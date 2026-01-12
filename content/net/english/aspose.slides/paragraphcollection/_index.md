@@ -3,7 +3,7 @@ title: ParagraphCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of a paragraphs.
 type: docs
-weight: 9230
+weight: 9250
 url: /aspose.slides/paragraphcollection/
 ---
 

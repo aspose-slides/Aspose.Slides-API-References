@@ -3,7 +3,7 @@ title: ShapeElement
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a part of shape with same outline and fill properties.
 type: docs
-weight: 9770
+weight: 9830
 url: /aspose.slides/shapeelement/
 ---
 
@@ -21,6 +21,8 @@ public class ShapeElement : IShapeElement
 | --- | --- |
 | [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Returns information about how to fill an element. Read-only [`ShapeElementFillSource`](../shapeelementfillsource). |
 | [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Returns a Shape_PPT for which element was created. Read-only [`Shape`](../shape). |
+| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Gets an array of points that define the geometry of the element's path. |
+| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Gets an array of byte values that specify the type of each point in the element's path. |
 | [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Returns information about how to stroke an element. Read-only [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
 ### See Also

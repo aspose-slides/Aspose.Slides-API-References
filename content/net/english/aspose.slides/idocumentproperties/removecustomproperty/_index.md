@@ -3,7 +3,7 @@ title: RemoveCustomProperty
 second_title: Aspose.Sildes for .NET API Reference
 description: Remove a custom property associated with a specified name.
 type: docs
-weight: 410
+weight: 420
 url: /aspose.slides/idocumentproperties/removecustomproperty/
 ---
 

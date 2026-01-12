@@ -3,7 +3,7 @@ title: LayoutSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a layout slide.
 type: docs
-weight: 7580
+weight: 7600
 url: /aspose.slides/layoutslide/
 ---
 

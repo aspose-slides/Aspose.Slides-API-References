@@ -3,7 +3,7 @@ title: VbaProject
 second_title: Aspose.Sildes for .NET API Reference
 description: Gets or sets VBA project with presentation macros. Read/write IVbaProjectaspose.slides.vba/ivbaproject.
 type: docs
-weight: 270
+weight: 280
 url: /aspose.slides/presentation/vbaproject/
 ---
 

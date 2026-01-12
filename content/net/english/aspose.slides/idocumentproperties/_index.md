@@ -69,6 +69,7 @@ public interface IDocumentProperties
 | [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue_3)(string, out float) | Gets a named float value from the custom properties. |
 | [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue_2)(string, out int) | Gets a named integer value from the custom properties. |
 | [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue_5)(string, out string) | Gets a named string value from the custom properties. |
+| [GetSensitivityLabels](../../aspose.slides/idocumentproperties/getsensitivitylabels)() | Gets an array of sensitivity labels from the custom document properties (Microsoft Information Protection SDK Metadata). |
 | [RemoveCustomProperty](../../aspose.slides/idocumentproperties/removecustomproperty)(string) | Remove a custom property associated with a specified name. |
 | [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue)(string, bool) | Sets a named boolean custom property. |
 | [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_4)(string, DateTime) | Sets a named DateTime custom property. |

@@ -3,7 +3,7 @@ title: PdfImportOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the PDF import options
 type: docs
-weight: 7440
+weight: 7460
 url: /aspose.slides.import/pdfimportoptions/
 ---
 

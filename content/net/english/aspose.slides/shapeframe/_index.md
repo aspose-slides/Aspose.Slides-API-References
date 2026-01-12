@@ -3,7 +3,7 @@ title: ShapeFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents shape frames properties.
 type: docs
-weight: 9800
+weight: 9860
 url: /aspose.slides/shapeframe/
 ---
 

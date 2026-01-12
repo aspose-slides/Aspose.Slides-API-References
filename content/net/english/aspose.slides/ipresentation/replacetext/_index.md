@@ -3,7 +3,7 @@ title: ReplaceText
 second_title: Aspose.Sildes for .NET API Reference
 description: Replaces all occurrences of the specified text with another specified text.
 type: docs
-weight: 360
+weight: 370
 url: /aspose.slides/ipresentation/replacetext/
 ---
 
