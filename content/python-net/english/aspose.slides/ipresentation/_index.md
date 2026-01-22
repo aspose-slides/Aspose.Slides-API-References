@@ -44,6 +44,7 @@ The IPresentation type exposes the following members:
 | [`first_slide_number`](/slides/python-net/aspose.slides/ipresentation/first_slide_number/) | Represents the first slide number in the presentation.<br/>            Read/write **int**. |
 | [`all_custom_xml_parts`](/slides/python-net/aspose.slides/ipresentation/all_custom_xml_parts/) | Returns all custom data parts in the presentaion.<br/>            Read-only [`ICustomXmlPart`](/slides/python-net/aspose.slides/icustomxmlpart)[]. |
 | [`digital_signatures`](/slides/python-net/aspose.slides/ipresentation/digital_signatures/) | Returns the collection of signatures used to sign the presentation.<br/>            Read-only [`IDigitalSignatureCollection`](/slides/python-net/aspose.slides/idigitalsignaturecollection). |
+| [`sensitivity_labels`](/slides/python-net/aspose.slides/ipresentation/sensitivity_labels/) | Returns the collection of sensitivity labels applied to the presentation document.<br/>            Read-only [`ISensitivityLabelCollection`](/slides/python-net/aspose.slides/isensitivitylabelcollection). |
 | [`presentation`](/slides/python-net/aspose.slides/ipresentation/presentation/) |  |
 
 ## Methods

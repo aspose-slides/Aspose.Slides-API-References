@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/documentproperties/heading_pairs/
-weight: 210
+weight: 220
 ---
 
 

@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/idocumentproperties/hyperlinks_changed/
-weight: 210
+weight: 220
 ---
 
 

@@ -267,6 +267,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`ISectionCollection`](/slides/python-net/aspose.slides/isectioncollection/) | Represents a collection of sections. |
 | [`ISectionSlideCollection`](/slides/python-net/aspose.slides/isectionslidecollection/) | Represents a collection of a slides in the section. |
 | [`ISectionZoomFrame`](/slides/python-net/aspose.slides/isectionzoomframe/) | Represents a Section Zoom object in a slide. |
+| [`ISensitivityLabel`](/slides/python-net/aspose.slides/isensitivitylabel/) | Represents the sensitivity label from Microsoft Purview Information Protection. |
+| [`ISensitivityLabelCollection`](/slides/python-net/aspose.slides/isensitivitylabelcollection/) | Represents a collection of sensitivity labels applied to the document. |
 | [`IShape`](/slides/python-net/aspose.slides/ishape/) | Represents a shape on a slide. |
 | [`IShapeBevel`](/slides/python-net/aspose.slides/ishapebevel/) | Represents properties of shape's main face relief. |
 | [`IShapeBevelEffectiveData`](/slides/python-net/aspose.slides/ishapebeveleffectivedata/) | Immutable object which contains effective shape's face relief properties. |
@@ -395,6 +397,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`SectionCollection`](/slides/python-net/aspose.slides/sectioncollection/) | Represents a collection of sections. |
 | [`SectionSlideCollection`](/slides/python-net/aspose.slides/sectionslidecollection/) | Represents a collection of slides in the section. |
 | [`SectionZoomFrame`](/slides/python-net/aspose.slides/sectionzoomframe/) | Represents a Section Zoom object in a slide. |
+| [`SensitivityLabel`](/slides/python-net/aspose.slides/sensitivitylabel/) | Represents the sensitivity label from Microsoft Purview Information Protection. |
+| [`SensitivityLabelCollection`](/slides/python-net/aspose.slides/sensitivitylabelcollection/) | Represents a collection of sensitivity labels applied to the document. |
 | [`Shape`](/slides/python-net/aspose.slides/shape/) | Represents a shape on a slide. |
 | [`ShapeBevel`](/slides/python-net/aspose.slides/shapebevel/) | Contains the properties of shape's main face relief. |
 | [`ShapeCollection`](/slides/python-net/aspose.slides/shapecollection/) | Represents a collection of shapes. |
@@ -497,6 +501,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [`RectangleAlignment`](/slides/python-net/aspose.slides/rectanglealignment/) | Defines 2-dimension allignment. |
 | [`ResourceLoadingAction`](/slides/python-net/aspose.slides/resourceloadingaction/) | Specifies the mode of external resource loading. |
 | [`SchemeColor`](/slides/python-net/aspose.slides/schemecolor/) | Represents colors in a color scheme. |
+| [`SensitivityLabelAssignmentType`](/slides/python-net/aspose.slides/sensitivitylabelassignmenttype/) | Represents the assignment method for the sensitivity label. |
+| [`SensitivityLabelContentType`](/slides/python-net/aspose.slides/sensitivitylabelcontenttype/) | Represents the types of content marking that ought to be applied to a document. |
 | [`ShapeAdjustmentType`](/slides/python-net/aspose.slides/shapeadjustmenttype/) | Specifies different types of shape adjustment values. |
 | [`ShapeElementFillSource`](/slides/python-net/aspose.slides/shapeelementfillsource/) | Represents how shape element should be filled. |
 | [`ShapeElementStrokeSource`](/slides/python-net/aspose.slides/shapeelementstrokesource/) | Represents how shape element should be drawn. |
