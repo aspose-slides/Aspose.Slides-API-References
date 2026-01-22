@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/idocumentproperties/name_of_application/
-weight: 290
+weight: 300
 ---
 
 

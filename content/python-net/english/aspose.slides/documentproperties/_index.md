@@ -78,6 +78,7 @@ The DocumentProperties type exposes the following members:
 | [`remove_custom_property`](/slides/python-net/aspose.slides/documentproperties/remove_custom_property/#str) | Remove a custom property associated with a specified name. |
 | [`contains_custom_property`](/slides/python-net/aspose.slides/documentproperties/contains_custom_property/#str) | Check presents of a custom property with a specified name. |
 | [`clear_custom_properties`](/slides/python-net/aspose.slides/documentproperties/clear_custom_properties/#) | Removes all custom properties. |
+| [`get_sensitivity_labels`](/slides/python-net/aspose.slides/documentproperties/get_sensitivity_labels/#) | Gets an array of sensitivity labels from the custom document properties (Microsoft Information Protection SDK Metadata). |
 | [`clear_built_in_properties`](/slides/python-net/aspose.slides/documentproperties/clear_built_in_properties/#) | Clears and sets default values for all builtIn properties. |
 | [`clone`](/slides/python-net/aspose.slides/documentproperties/clone/#) | Clones current object |
 | [`clone_t`](/slides/python-net/aspose.slides/documentproperties/clone_t/#) | Clones current object |

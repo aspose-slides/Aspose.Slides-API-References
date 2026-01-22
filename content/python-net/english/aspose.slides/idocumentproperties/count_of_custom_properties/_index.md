@@ -4,7 +4,7 @@ second_title: Aspose.Slides for Python via .NET API Reference
 description: 
 type: docs
 url: /aspose.slides/idocumentproperties/count_of_custom_properties/
-weight: 160
+weight: 170
 ---
 
 

@@ -73,6 +73,7 @@ The IDocumentProperties type exposes the following members:
 | [`contains_custom_property`](/slides/python-net/aspose.slides/idocumentproperties/contains_custom_property/#str) | Check presents of a custom property with a specified name. |
 | [`clear_custom_properties`](/slides/python-net/aspose.slides/idocumentproperties/clear_custom_properties/#) | Removes all custom properties. |
 | [`clear_built_in_properties`](/slides/python-net/aspose.slides/idocumentproperties/clear_built_in_properties/#) | Clears and sets default values for all builtIn properties. |
+| [`get_sensitivity_labels`](/slides/python-net/aspose.slides/idocumentproperties/get_sensitivity_labels/#) | Gets an array of sensitivity labels from the custom document properties (Microsoft Information Protection SDK Metadata). |
 
 
 ### See Also

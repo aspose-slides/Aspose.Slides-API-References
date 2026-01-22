@@ -54,6 +54,7 @@ The Presentation type exposes the following members:
 | [`hyperlink_queries`](/slides/python-net/aspose.slides/presentation/hyperlink_queries/) | Provides easy access to all hyperlinks contained in all presentation slides (not in master, layout, notes slides).<br/>            Read-only [`IHyperlinkQueries`](/slides/python-net/aspose.slides/ihyperlinkqueries). |
 | [`view_properties`](/slides/python-net/aspose.slides/presentation/view_properties/) | Gets presentation wide view properties.<br/>            Read-only [`IViewProperties`](/slides/python-net/aspose.slides/iviewproperties). |
 | [`first_slide_number`](/slides/python-net/aspose.slides/presentation/first_slide_number/) | Represents the first slide number in the presentation |
+| [`sensitivity_labels`](/slides/python-net/aspose.slides/presentation/sensitivity_labels/) | Returns the collection of sensitivity labels applied to the presentation document.<br/>            Read-only [`ISensitivityLabelCollection`](/slides/python-net/aspose.slides/isensitivitylabelcollection). |
 | [`source_format`](/slides/python-net/aspose.slides/presentation/source_format/) | Returns information about from which format presentation was loaded.<br/>            Read-only [`SourceFormat`](/slides/python-net/aspose.slides/sourceformat). |
 | [`master_theme`](/slides/python-net/aspose.slides/presentation/master_theme/) | Returns master theme.<br/>            Read-only [`IMasterTheme`](/slides/python-net/aspose.slides.theme/imastertheme). |
 | [`presentation`](/slides/python-net/aspose.slides/presentation/presentation/) |  |
