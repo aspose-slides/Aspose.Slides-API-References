@@ -3,7 +3,7 @@ title: Dispose()
 second_title: Aspose.Slides for C++ API Reference
 description: Releases resources associated with the task.
 type: docs
-weight: 183
+weight: 196
 url: /system.threading.tasks/task/dispose/
 ---
 ## Task::Dispose() method

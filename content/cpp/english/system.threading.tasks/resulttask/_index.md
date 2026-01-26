@@ -3,7 +3,7 @@ title: ResultTask
 second_title: Aspose.Slides for C++ API Reference
 description: A Task specialization that returns a result value upon completion.
 type: docs
-weight: 1
+weight: 40
 url: /system.threading.tasks/resulttask/
 ---
 ## ResultTask class
@@ -25,12 +25,16 @@ template<typename T>class ResultTask : public System::Threading::Tasks::Task
 
 | Method | Description |
 | --- | --- |
-| void [Activate](../task/activate/)([TaskScheduler](../taskscheduler/) *) | Activates the task for execution on a scheduler. |
-| void [AddContinuation](../task/addcontinuation/)(const [Action](../../system/action/)<>\&) | Adds a continuation action to be executed upon completion. |
+| void [Activate](../task/activate/)(const [SharedPtr](../../system/sharedptr/)\<[TaskScheduler](../taskscheduler/)\>\&) | Activates the task for execution on a scheduler. |
+| void [AddCompletionAction](../task/addcompletionaction/)(const [Action](../../system/action/)<>\&) | Adds a continuation action to be executed upon completion. |
+| void [Cancel](../task/cancel/)() | Marks the task as cancelled and finishes task. |
+| void [Complete](./complete/)(const T\&) | Sets the result value for the task and completes it. |
 | void [Complete](../task/complete/)() | Marks the task as completed and finishes task. |
 | [Runtime::CompilerServices::ConfiguredResultTaskAwaitable](../../system.runtime.compilerservices/configuredresulttaskawaitable/)\<T\> [ConfigureAwait](./configureawait/)(**bool**) const | Configures how awaits on this result task should behave regarding context capture. |
 | [TaskPtr](../../system/taskptr/) [ContinueWith](./continuewith/)(const [Action](../../system/action/)\<[RTaskPtr](../../system/rtaskptr/)\<T\>\>\&) | Creates a continuation that executes when the result task completes. |
-| [TaskPtr](../../system/taskptr/) [ContinueWith](../task/continuewith/)(const [Action](../../system/action/)\<[TaskPtr](../../system/taskptr/)\>\&) | Creates a continuation that executes when the task completes. |
+| [RTaskPtr](../../system/rtaskptr/)\<TNewResult\> [ContinueWith](./continuewith/)(const [Func](../../system/func/)\<[RTaskPtr](../../system/rtaskptr/)\<T\>, TNewResult\>\&) | Creates a continuation that executes when the result task completes. |
+| [TaskPtr](../../system/taskptr/) [ContinueWith](./continuewith/)(const [Action](../../system/action/)\<[TaskPtr](../../system/taskptr/)\>\&) | Creates a continuation that executes when the task completes. |
+| [RTaskPtr](../../system/rtaskptr/)\<TResult\> [ContinueWith](./continuewith/)(const [Func](../../system/func/)\<[TaskPtr](../../system/taskptr/), TResult\>\&) | Creates a continuation that executes when the task completes. |
 | void [Dispose](../task/dispose/)() override | Releases resources associated with the task. |
 | virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Compares objects using C# [Object.Equals](../../system/object/equals/) semantics. |
 | static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares reference type objects in C# style. |
@@ -42,12 +46,13 @@ template<typename T>class ResultTask : public System::Threading::Tasks::Task
 | const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\& [get_AsyncState](../task/get_asyncstate/)() const | Gets the user-defined state object associated with the task. |
 | static const [TaskPtr](../../system/taskptr/)\& [get_CompletedTask](../task/get_completedtask/)() | Gets a completed task (singleton) |
 | static [Nullable](../../system/nullable/)\<**int32_t**\> [get_CurrentId](../task/get_currentid/)() |  |
-| **int32_t** [get_Id](../task/get_id/)() const | Gets the ID for task. |
+| [AggregateException](../../system/aggregateexception/) [get_Exception](../task/get_exception/)() const | Gets the ID for task. |
+| **int32_t** [get_Id](../task/get_id/)() const |  |
 | **bool** [get_IsCanceled](../task/get_iscanceled/)() const | Gets whether the task completed due to cancellation. |
 | **bool** [get_IsCompleted](../task/get_iscompleted/)() const | Gets whether the task has completed. |
 | **bool** [get_IsFaulted](../task/get_isfaulted/)() const | Gets whether the task completed due to an unhandled exception. |
-| T [get_Result](./get_result/)() const | Gets the result of the asynchronous operation. |
-| [TaskScheduler](../taskscheduler/) * [get_Scheduler](../task/get_scheduler/)() const | Gets the scheduler associated with this task. |
+| T [get_Result](./get_result/)() | Gets the result of the asynchronous operation. |
+| const [SharedPtr](../../system/sharedptr/)\<[TaskScheduler](../taskscheduler/)\>\& [get_Scheduler](../task/get_scheduler/)() const | Gets the scheduler associated with this task. |
 | [TaskStatus](../taskstatus/) [get_Status](../task/get_status/)() const | Gets the current status of the task. |
 | [Runtime::CompilerServices::ResultTaskAwaiter](../../system.runtime.compilerservices/resulttaskawaiter/)\<T\> [GetAwaiter](./getawaiter/)() const | Gets an awaiter for this result task for use with Await. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
@@ -72,7 +77,7 @@ template<typename T>class ResultTask : public System::Threading::Tasks::Task
 | void [RunSynchronously](../task/runsynchronously/)(const [SharedPtr](../../system/sharedptr/)\<[TaskScheduler](../taskscheduler/)\>\&) | Runs the task synchronously using the specified scheduler. |
 | void [set_Function](../task/set_function/)(const [FunctionT](../task/functiont/)\&) | Sets the internal function to execute. |
 | void [set_Result](./set_result/)(const T\&) | Sets the result value for the task. |
-| void [set_Scheduler](../task/set_scheduler/)([TaskScheduler](../taskscheduler/) *) | Sets the scheduler associated with this task. |
+| void [set_Scheduler](../task/set_scheduler/)(const [SharedPtr](../../system/sharedptr/)\<[TaskScheduler](../taskscheduler/)\>\&) | Sets the scheduler associated with this task. |
 | void [set_Status](../task/set_status/)([TaskStatus](../taskstatus/)) | Sets the task status. |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
@@ -88,8 +93,8 @@ template<typename T>class ResultTask : public System::Threading::Tasks::Task
 | virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Analog of C# [Object.ToString()](../../system/object/tostring/) method. Enables converting custom objects to string. |
 | static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Implements C# typeof([System.Object](../../system/object/)) construct. |
 | void [Unlock](../../system/object/unlock/)() | Implements C# lock() statement unlocking. Call directly or use [LockContext](../../system/lockcontext/) sentry object. |
-| void [Wait](../task/wait/)(const [CancellationToken](../../system.threading/cancellationtoken/)\&) const | Waits for the task to complete with cancellation support. |
-| void [Wait](../task/wait/)() const | Waits for the task to complete. |
+| void [Wait](../task/wait/)(const [CancellationToken](../../system.threading/cancellationtoken/)\&) | Waits for the task to complete with cancellation support. |
+| void [Wait](../task/wait/)() | Waits for the task to complete. |
 | Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Increments weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Decrements weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | virtual  [~Object](../../system/object/~object/)() | Destroys object. Frees all internal data structures. |

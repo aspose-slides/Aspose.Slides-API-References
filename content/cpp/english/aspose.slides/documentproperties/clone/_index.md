@@ -3,7 +3,7 @@ title: Clone()
 second_title: Aspose.Slides for C++ API Reference
 description: Clones current object
 type: docs
-weight: 885
+weight: 898
 url: /aspose.slides/documentproperties/clone/
 ---
 ## DocumentProperties::Clone() method

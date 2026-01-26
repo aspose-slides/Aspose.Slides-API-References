@@ -3,7 +3,7 @@ title: FontStyleType
 second_title: Aspose.Slides for C++ API Reference
 description: Defines formatting styles that can be applied to text.
 type: docs
-weight: 5799
+weight: 5851
 url: /aspose.slides/fontstyletype/
 ---
 ## FontStyleType enum

@@ -3,7 +3,7 @@ title: remove_empty_callbacks()
 second_title: Aspose.Slides for C++ API Reference
 description: Cleans out contained callbacks that are empty (not actually calling anything).
 type: docs
-weight: 196
+weight: 209
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/remove_empty_callbacks/
 ---
 ## MulticastDelegate< ReturnType(ArgumentTypes...)>::remove_empty_callbacks() const method

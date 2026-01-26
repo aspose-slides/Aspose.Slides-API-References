@@ -3,7 +3,7 @@ title: connect()
 second_title: Aspose.Slides for C++ API Reference
 description: Adds the specified delegate to the collection.
 type: docs
-weight: 131
+weight: 144
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/connect/
 ---
 ## MulticastDelegate< ReturnType(ArgumentTypes...)>::connect(Callback) method

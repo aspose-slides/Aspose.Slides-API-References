@@ -3,16 +3,16 @@ title: Wait()
 second_title: Aspose.Slides for C++ API Reference
 description: Waits for the task to complete with cancellation support.
 type: docs
-weight: 170
+weight: 183
 url: /system.threading.tasks/task/wait/
 ---
-## Task::Wait(const CancellationToken\&) const method
+## Task::Wait(const CancellationToken\&) method
 
 
 Waits for the task to complete with cancellation support.
 
 ```cpp
-void System::Threading::Tasks::Task::Wait(const CancellationToken &cancellationToken) const
+void System::Threading::Tasks::Task::Wait(const CancellationToken &cancellationToken)
 ```
 
 
@@ -22,13 +22,13 @@ void System::Threading::Tasks::Task::Wait(const CancellationToken &cancellationT
 | --- | --- | --- |
 | cancellationToken | const [CancellationToken](../../../system.threading/cancellationtoken/)\& | Token to monitor for cancellation while waiting |
 
-## Task::Wait() const method
+## Task::Wait() method
 
 
 Waits for the task to complete.
 
 ```cpp
-void System::Threading::Tasks::Task::Wait() const
+void System::Threading::Tasks::Task::Wait()
 ```
 
 

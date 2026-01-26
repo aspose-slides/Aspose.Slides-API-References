@@ -3,7 +3,7 @@ title: PVIObject
 second_title: Aspose.Slides for C++ API Reference
 description: Encapsulates basic service infrastructure for objects can be a subject of property value inheritance.
 type: docs
-weight: 4902
+weight: 4928
 url: /aspose.slides/pviobject/
 ---
 ## PVIObject class

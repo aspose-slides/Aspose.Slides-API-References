@@ -83,7 +83,6 @@ static void Aspose::Slides::LowCode::Merger::Process(System::ArrayPtr<System::St
 ```cpp
 auto stream = System::MakeObject<System::IO::MemoryStream>();
 Merger::Process(System::MakeArray<System::String>({u"pres1.ppt", u"pres2.ppt"}), stream);
-stream->Dispose();
 ```
 
 ## Merger::Process(System::ArrayPtr\<System::String\>, System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Aspose::Slides::Export::ISaveOptions\>) method
@@ -113,7 +112,6 @@ auto stream = System::MakeObject<System::IO::MemoryStream>();
 auto pptxOptions = System::MakeObject<PptxOptions>();
 pptxOptions->set_RefreshThumbnail(false);
 Merger::Process(System::MakeArray<System::String>({u"pres1.ppt", u"pres2.ppt"}), stream, pptxOptions);
-stream->Dispose();
 ```
 
 ## See Also

@@ -3,7 +3,7 @@ title: TableFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents format of a table.
 type: docs
-weight: 5370
+weight: 5422
 url: /aspose.slides/tableformat/
 ---
 ## TableFormat class

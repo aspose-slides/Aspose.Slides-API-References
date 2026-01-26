@@ -3,7 +3,7 @@ title: MakeScopeGuard()
 second_title: Aspose.Slides for C++ API Reference
 description: A factory function that creates instances of ScopedGuard class.
 type: docs
-weight: 2731
+weight: 2744
 url: /system/makescopeguard/
 ---
 ## System::MakeScopeGuard(F) function

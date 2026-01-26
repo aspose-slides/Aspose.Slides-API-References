@@ -3,7 +3,7 @@ title: ConfigureAwait()
 second_title: Aspose.Slides for C++ API Reference
 description: Configures how awaits on this task should behave regarding context capture.
 type: docs
-weight: 131
+weight: 144
 url: /system.threading.tasks/task/configureawait/
 ---
 ## Task::ConfigureAwait(bool) const method

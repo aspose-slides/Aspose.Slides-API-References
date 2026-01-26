@@ -3,7 +3,7 @@ title: Presentation
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Microsoft PowerPoint presentation.
 type: docs
-weight: 4811
+weight: 4837
 url: /aspose.slides/presentation/
 ---
 ## Presentation class
@@ -56,6 +56,7 @@ class Presentation : public Aspose::Slides::IPresentation,
 | [System::SharedPtr](../../system/sharedptr/)\<[IProtectionManager](../iprotectionmanager/)\> [get_ProtectionManager](./get_protectionmanager/)() override | Gets manager of the permissions for this presentation. Read-only [IProtectionManager](../iprotectionmanager/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[ISection](../isection/)\> [get_Section](./get_section/)(**int32_t**) override | Returns a slide section defined in the presentation at the specified index. Read-only [Aspose::Slides::ISection](../isection/) |
 | [System::SharedPtr](../../system/sharedptr/)\<[ISectionCollection](../isectioncollection/)\> [get_Sections](./get_sections/)() override | Returns a list of all slides sections that are defined in the presentation. Read-only [ISectionCollection](../isectioncollection/). |
+| [System::SharedPtr](../../system/sharedptr/)\<[ISensitivityLabelCollection](../isensitivitylabelcollection/)\> [get_SensitivityLabels](./get_sensitivitylabels/)() override | Returns the collection of sensitivity labels applied to the presentation document. Read-only [ISensitivityLabelCollection](../isensitivitylabelcollection/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[ISlide](../islide/)\> [get_Slide](./get_slide/)(**int32_t**) override | Returns a slide defined in the presentation at the specified index. Read-only [Aspose::Slides::ISlide](../islide/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[ISlideCollection](../islidecollection/)\> [get_Slides](./get_slides/)() override | Returns a list of all slides that are defined in the presentation. Read-only [ISlideCollection](../islidecollection/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[Aspose::Slides::SlideShowSettings](../slideshowsettings/)\> [get_SlideShowSettings](./get_slideshowsettings/)() const | Returns the slide show settings for the presentation. |

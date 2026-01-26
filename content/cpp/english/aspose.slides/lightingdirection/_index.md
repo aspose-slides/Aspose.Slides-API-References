@@ -3,7 +3,7 @@ title: LightingDirection
 second_title: Aspose.Slides for C++ API Reference
 description: Constants which define light directions.
 type: docs
-weight: 5890
+weight: 5942
 url: /aspose.slides/lightingdirection/
 ---
 ## LightingDirection enum

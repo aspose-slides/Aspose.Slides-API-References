@@ -3,7 +3,7 @@ title: Int16
 second_title: Aspose.Slides for C++ API Reference
 description: Contains methods to work with the 16-bit integer.
 type: docs
-weight: 989
+weight: 1002
 url: /system/int16/
 ---
 ## Int16 class

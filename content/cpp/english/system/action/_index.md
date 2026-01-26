@@ -3,7 +3,7 @@ title: Action
 second_title: Aspose.Slides for C++ API Reference
 description: Delegate type that references methods that have no return value.
 type: docs
-weight: 3524
+weight: 3537
 url: /system/action/
 ---
 ## Action typedef

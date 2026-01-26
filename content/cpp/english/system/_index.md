@@ -35,6 +35,7 @@ url: /system/
 | [Decimal](./decimal/) | Represents a decimal number. This type should be allocated on stack and passed to functions by value or by reference. Never use [System::SmartPtr](./smartptr/) class to manage objects of this type. |
 | [DefaultBoxedValue](./defaultboxedvalue/) | [BoxedValue](./boxedvalue/) class implementation. Allows it BoxingValue specializations to be declared without duplicating common code. Objects of this class should only be allocated using [System::MakeObject()](./makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](./smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [Delegate< ReturnType(ArgumentTypes...)>](./delegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/) | Represents a pointer to a function, method or a function object. This type should be allocated on stack and passed to functions by value or by reference. Never use [System::SmartPtr](./smartptr/) class to manage objects of this type. |
+| [Details_AggregateException](./details_aggregateexception/) | Represents an exception that contains multiple inner exceptions. |
 | [Details_ApplicationException](./details_applicationexception/) | A base class for classes that represent application (rather than system) exceptions. Never create instances of this class manually. Use the ApplicationException class instead. Never wrap the ApplicationException class instances into [System::SmartPtr](./smartptr/). |
 | [Details_ArgumentException](./details_argumentexception/) | ArgumentException is thrown when an argument passed to a method being invoked is invalid. Never create instances of this class manually. Use the ArgumentException class instead. Never wrap the ArgumentException class instances into [System::SmartPtr](./smartptr/). |
 | [Details_ArgumentNullException](./details_argumentnullexception/) |  |
@@ -388,7 +389,7 @@ url: /system/
 | std::enable_if_t\<Details::CastType\<Source, Result\>::UnboxingToString, Result\> [AsCast](./ascast/)(const Source\&) | Casts the source type to the result type using 'as' operator cast. Used for string unboxing. |
 | std::enable_if_t\<Details::CastType\<Source, Result\>::Null, typename [CastResult](./castresult/)\<Result\>::type\> [AsCast](./ascast/)(const Source\&) | Casts the source type to the result type using 'as' operator cast. Used for nullptr casing. |
 | std::enable_if_t\<Details::CastType\<Source, Result\>**::Array**, typename [CastResult](./castresult/)\<Result\>::type\> [AsCast](./ascast/)(const Source\&) | Casts the source type to the result type using 'as' operator cast. Used to cast between arrays. |
-| static auto [SafeInvoke](./safeinvoke/)(T0, T1) | Implementation of '?.' operator translation. |
+| static auto [SafeInvoke](./safeinvoke/)(T0\&&, T1\&&) | Implementation of '?.' operator translation. |
 | const [System::TypeInfo](./typeinfo/)\& [ObjectType::GetType< System::String >](./objecttype_dcolon_gettype_less_system_dcolon_string__greater/)() | Implements typeof() translation. Overload for [String](./string/). |
 | const [System::TypeInfo](./typeinfo/)\& [ObjectType::GetType< System::DateTime >](./objecttype_dcolon_gettype_less_system_dcolon_datetime__greater/)() | Implements typeof() translation. Overload for [DateTime](./datetime/). |
 | **bool** [Equals](./equals/)(const TA\&, const TB\&) | Determines the equality of two values applying [operator==()](./operator_equal_equal/) to them. |
@@ -486,6 +487,7 @@ url: /system/
 | [RTaskPtr](./rtaskptr/) | An alias for a smart pointer that points to an instance of [System::Threading::Tasks::ResultTask](../system.threading.tasks/resulttask/) class. |
 | [FunctionPtr](./functionptr/) | An alias for function type with default calling convention. |
 | [Action](./action/) | Delegate type that references methods that have no return value. |
+| [AggregateException](./aggregateexception/) |  |
 | [ByteArrayPtr](./bytearrayptr/) | An alias for a smart pointer object that points to an array of unsigned 8-bit integers. |
 | [AsyncCallback](./asynccallback/) | A delegate type that represents a method to be called when asynchronous operation completes. |
 | [BadImageFormatException](./badimageformatexception/) | The exception that is thrown when the file image of a dynamic link library (DLL) or an executable program is invalid. Never wrap the BadImageFormatException class instances into [System::SmartPtr](./smartptr/). |

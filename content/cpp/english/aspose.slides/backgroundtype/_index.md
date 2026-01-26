@@ -3,7 +3,7 @@ title: BackgroundType
 second_title: Aspose.Slides for C++ API Reference
 description: Defines the slide background fill source.
 type: docs
-weight: 5604
+weight: 5656
 url: /aspose.slides/backgroundtype/
 ---
 ## BackgroundType enum

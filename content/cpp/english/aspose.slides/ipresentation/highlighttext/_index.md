@@ -3,7 +3,7 @@ title: HighlightText()
 second_title: Aspose.Slides for C++ API Reference
 description: Highlights all matches of the sample text with the specified color.
 type: docs
-weight: 443
+weight: 456
 url: /aspose.slides/ipresentation/highlighttext/
 ---
 ## IPresentation::HighlightText(System::String, System::Drawing::Color) method

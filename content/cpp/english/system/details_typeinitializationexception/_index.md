@@ -3,7 +3,7 @@ title: Details_TypeInitializationException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 716
+weight: 729
 url: /system/details_typeinitializationexception/
 ---
 ## Details_TypeInitializationException class

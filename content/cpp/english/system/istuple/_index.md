@@ -3,7 +3,7 @@ title: IsTuple()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if object is tuple (implements ITuple interface). Used in positional pattern implementation.
 type: docs
-weight: 2315
+weight: 2328
 url: /system/istuple/
 ---
 ## System::IsTuple(const SharedPtr\<Object\>\&, int32_t) function

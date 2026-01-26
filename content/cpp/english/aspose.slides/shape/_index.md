@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a shape on a slide.
 type: docs
-weight: 5032
+weight: 5084
 url: /aspose.slides/shape/
 ---
 ## Shape class

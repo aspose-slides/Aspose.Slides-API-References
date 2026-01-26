@@ -3,7 +3,7 @@ title: operator>>()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets a string from the input streamusing UTF-8 encoding.
 type: docs
-weight: 2926
+weight: 2939
 url: /system/operator_greater_greater/
 ---
 ## System::operator>>(std::istream\&, String\&) function

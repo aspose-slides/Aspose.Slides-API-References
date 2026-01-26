@@ -3,7 +3,7 @@ title: FunctionT
 second_title: Aspose.Slides for C++ API Reference
 description: Internal implementation. Not for user code.
 type: docs
-weight: 326
+weight: 352
 url: /system.threading.tasks/task/functiont/
 ---
 ## FunctionT typedef

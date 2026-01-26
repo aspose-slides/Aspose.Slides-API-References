@@ -3,7 +3,7 @@ title: PlaceholderType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the type of a placeholder.
 type: docs
-weight: 6176
+weight: 6228
 url: /aspose.slides/placeholdertype/
 ---
 ## PlaceholderType enum

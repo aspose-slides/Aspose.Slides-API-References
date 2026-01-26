@@ -3,7 +3,7 @@ title: UInt64
 second_title: Aspose.Slides for C++ API Reference
 description: Contains methods to work with the unsigned 64-bit integer.
 type: docs
-weight: 1925
+weight: 1938
 url: /system/uint64/
 ---
 ## UInt64 struct

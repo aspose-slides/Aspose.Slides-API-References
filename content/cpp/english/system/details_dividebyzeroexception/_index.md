@@ -3,7 +3,7 @@ title: Details_DivideByZeroException
 second_title: Aspose.Slides for C++ API Reference
 description: "DivideByZeroException is thrown when division by 0 is attempted in an arithmetic operation. Never create instances of this class manually. Use the DivideByZeroException class instead. Never wrap the DivideByZeroException class instances into System::SmartPtr."
 type: docs
-weight: 378
+weight: 391
 url: /system/details_dividebyzeroexception/
 ---
 ## Details_DivideByZeroException class

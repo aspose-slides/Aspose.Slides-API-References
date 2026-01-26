@@ -3,7 +3,7 @@ title: get_CompletedTask()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets a completed task (singleton)
 type: docs
-weight: 313
+weight: 339
 url: /system.threading.tasks/task/get_completedtask/
 ---
 ## Task::get_CompletedTask() method

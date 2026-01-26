@@ -3,7 +3,7 @@ title: EmbeddingLevel
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the licensing rights for embedding the font.
 type: docs
-weight: 5734
+weight: 5786
 url: /aspose.slides/embeddinglevel/
 ---
 ## EmbeddingLevel enum

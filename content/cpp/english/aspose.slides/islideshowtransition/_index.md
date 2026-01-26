@@ -3,7 +3,7 @@ title: ISlideShowTransition
 second_title: Aspose.Slides for C++ API Reference
 description: Represents slide show transition.
 type: docs
-weight: 3784
+weight: 3810
 url: /aspose.slides/islideshowtransition/
 ---
 ## ISlideShowTransition class

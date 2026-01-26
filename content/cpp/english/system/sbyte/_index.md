@@ -3,7 +3,7 @@ title: SByte
 second_title: Aspose.Slides for C++ API Reference
 description: Contains methods to work with the 8-bit integer.
 type: docs
-weight: 1808
+weight: 1821
 url: /system/sbyte/
 ---
 ## SByte struct

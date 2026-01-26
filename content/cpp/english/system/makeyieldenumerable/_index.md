@@ -3,7 +3,7 @@ title: MakeYieldEnumerable()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates an IEnumerable from a yield function.
 type: docs
-weight: 2341
+weight: 2354
 url: /system/makeyieldenumerable/
 ---
 ## System::MakeYieldEnumerable(const Details::YieldFunction\<T\>\&) function

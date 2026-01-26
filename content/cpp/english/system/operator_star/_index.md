@@ -3,7 +3,7 @@ title: operator*()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a new instance of Decimal class that represents a value that is a result of multiplication of the specified value and the value represented by the specified Decimal object.
 type: docs
-weight: 2133
+weight: 2146
 url: /system/operator_star/
 ---
 ## System::operator*(const T\&, const Decimal\&) function

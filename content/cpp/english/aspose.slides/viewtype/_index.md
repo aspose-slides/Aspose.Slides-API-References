@@ -3,7 +3,7 @@ title: ViewType
 second_title: Aspose.Slides for C++ API Reference
 description: Presentation view types
 type: docs
-weight: 6696
+weight: 6774
 url: /aspose.slides/viewtype/
 ---
 ## ViewType enum

@@ -3,7 +3,7 @@ title: Details_ArgumentException
 second_title: Aspose.Slides for C++ API Reference
 description: "ArgumentException is thrown when an argument passed to a method being invoked is invalid. Never create instances of this class manually. Use the ArgumentException class instead. Never wrap the ArgumentException class instances into System::SmartPtr."
 type: docs
-weight: 300
+weight: 313
 url: /system/details_argumentexception/
 ---
 ## Details_ArgumentException class

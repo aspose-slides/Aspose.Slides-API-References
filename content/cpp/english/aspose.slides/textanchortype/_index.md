@@ -3,7 +3,7 @@ title: TextAnchorType
 second_title: Aspose.Slides for C++ API Reference
 description: text box alignment within a text area.
 type: docs
-weight: 6462
+weight: 6540
 url: /aspose.slides/textanchortype/
 ---
 ## TextAnchorType enum

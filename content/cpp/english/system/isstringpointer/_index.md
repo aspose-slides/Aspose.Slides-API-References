@@ -3,7 +3,7 @@ title: IsStringPointer
 second_title: Aspose.Slides for C++ API Reference
 description: Template magic to check if a type is a pointer to character string.
 type: docs
-weight: 1691
+weight: 1704
 url: /system/isstringpointer/
 ---
 ## IsStringPointer struct

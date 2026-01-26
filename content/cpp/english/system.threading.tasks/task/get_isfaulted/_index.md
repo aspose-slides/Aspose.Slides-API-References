@@ -3,7 +3,7 @@ title: get_IsFaulted()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets whether the task completed due to an unhandled exception.
 type: docs
-weight: 92
+weight: 105
 url: /system.threading.tasks/task/get_isfaulted/
 ---
 ## Task::get_IsFaulted() const method

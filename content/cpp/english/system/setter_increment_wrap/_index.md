@@ -3,7 +3,7 @@ title: setter_increment_wrap()
 second_title: Aspose.Slides for C++ API Reference
 description: Translator translates C#'s increment expressions targeting class' property that has setter and getter defined, into invocation of this function.
 type: docs
-weight: 2757
+weight: 2770
 url: /system/setter_increment_wrap/
 ---
 ## System::setter_increment_wrap(T(*)(), void(*)(T)) function

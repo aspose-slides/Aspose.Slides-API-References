@@ -3,7 +3,7 @@ title: operator-=()
 second_title: Aspose.Slides for C++ API Reference
 description: Removes the specified delegate from the delegate collection.
 type: docs
-weight: 170
+weight: 183
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/operator_minus_equal/
 ---
 ## MulticastDelegate< ReturnType(ArgumentTypes...)>::operator-=(Callback) method

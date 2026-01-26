@@ -3,7 +3,7 @@ title: Details_ExceptionWithErrorCode
 second_title: Aspose.Slides for C++ API Reference
 description: The template class for an exception with an error code.
 type: docs
-weight: 404
+weight: 417
 url: /system/details_exceptionwitherrorcode/
 ---
 ## Details_ExceptionWithErrorCode class
