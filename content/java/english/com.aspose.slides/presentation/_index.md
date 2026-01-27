@@ -89,6 +89,7 @@ Represents a Microsoft PowerPoint presentation.
 | [getViewProperties()](#getViewProperties--) | Gets presentation wide view properties. |
 | [getFirstSlideNumber()](#getFirstSlideNumber--) | Represents the first slide number in the presentation |
 | [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Represents the first slide number in the presentation |
+| [getSensitivityLabels()](#getSensitivityLabels--) | Returns the collection of sensitivity labels applied to the presentation document. |
 | [getSlideById(long id)](#getSlideById-long-) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
 | [getSourceFormat()](#getSourceFormat--) | Returns information about from which format presentation was loaded. |
 | [getMasterTheme()](#getMasterTheme--) | Returns master theme. |
@@ -1172,6 +1173,39 @@ Represents the first slide number in the presentation
 | --- | --- | --- |
 | value | int |  |
 
+### getSensitivityLabels() {#getSensitivityLabels--}
+```
+public final ISensitivityLabelCollection getSensitivityLabels()
+```
+
+
+Returns the collection of sensitivity labels applied to the presentation document. Read-only [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      ISensitivityLabelCollection sensitivityLabels = pres.getSensitivityLabels();
+> 
+>      // Print the applied labels
+>      for (ISensitivityLabel sensitivityLabel : sensitivityLabels)
+>          System.out.println("Label Id " + sensitivityLabel.getId() + " from Azure AD site " + sensitivityLabel.getSiteId());
+> 
+>      // Add the new label
+>      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Get the sensitivity label Id from the policy
+>      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Get the Azure AD site identifier from the policy
+>      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
+>      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
+> 
+>      pres.save("SensitivityLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection)
 ### getSlideById(long id) {#getSlideById-long-}
 ```
 public final IBaseSlide getSlideById(long id)
