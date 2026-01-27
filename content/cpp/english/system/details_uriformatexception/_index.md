@@ -3,7 +3,7 @@ title: Details_UriFormatException
 second_title: Aspose.Slides for C++ API Reference
 description: "UriFormatException is thrown when the format of URI is not valid. Never create instances of this class manually. Use the UriFormatException class instead. Never wrap the UriFormatException class instances into System::SmartPtr."
 type: docs
-weight: 742
+weight: 755
 url: /system/details_uriformatexception/
 ---
 ## Details_UriFormatException class

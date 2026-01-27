@@ -3,7 +3,7 @@ title: Presentation()
 second_title: Aspose.Slides for C++ API Reference
 description: This constructor creates new presentation from scratch. Created presentation has one empty slide.
 type: docs
-weight: 404
+weight: 417
 url: /aspose.slides/presentation/presentation/
 ---
 ## Presentation::Presentation() constructor

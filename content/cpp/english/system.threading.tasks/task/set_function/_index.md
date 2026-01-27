@@ -3,7 +3,7 @@ title: set_Function()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets the internal function to execute.
 type: docs
-weight: 196
+weight: 209
 url: /system.threading.tasks/task/set_function/
 ---
 ## Task::set_Function(const FunctionT\&) method

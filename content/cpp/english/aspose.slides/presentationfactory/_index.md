@@ -3,7 +3,7 @@ title: PresentationFactory
 second_title: Aspose.Slides for C++ API Reference
 description: Allows to create presentation via COM interface
 type: docs
-weight: 4824
+weight: 4850
 url: /aspose.slides/presentationfactory/
 ---
 ## PresentationFactory class

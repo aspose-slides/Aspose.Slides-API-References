@@ -3,7 +3,7 @@ title: ITable
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a table on a slide.
 type: docs
-weight: 3992
+weight: 4018
 url: /aspose.slides/itable/
 ---
 ## ITable class

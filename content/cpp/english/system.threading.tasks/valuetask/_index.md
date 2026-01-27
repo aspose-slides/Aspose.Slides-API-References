@@ -3,7 +3,7 @@ title: ValueTask
 second_title: Aspose.Slides for C++ API Reference
 description: Provides an awaitable result of an asynchronous operation.
 type: docs
-weight: 53
+weight: 92
 url: /system.threading.tasks/valuetask/
 ---
 ## ValueTask class

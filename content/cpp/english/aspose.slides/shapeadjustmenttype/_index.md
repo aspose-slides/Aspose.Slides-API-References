@@ -3,7 +3,7 @@ title: ShapeAdjustmentType
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies different types of shape adjustment values.
 type: docs
-weight: 6254
+weight: 6332
 url: /aspose.slides/shapeadjustmenttype/
 ---
 ## ShapeAdjustmentType enum

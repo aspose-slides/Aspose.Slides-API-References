@@ -3,7 +3,7 @@ title: IShapeBevelEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective shape's face relief properties.
 type: docs
-weight: 3641
+weight: 3667
 url: /aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData class

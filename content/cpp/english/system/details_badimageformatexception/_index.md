@@ -3,7 +3,7 @@ title: Details_BadImageFormatException
 second_title: Aspose.Slides for C++ API Reference
 description: "The exception that is thrown when the file image of a dynamic link library (DLL) or an executable program is invalid. Never create instances of this class manually. Use the BadImageFormatException class instead. Never wrap the BadImageFormatException class instances into System::SmartPtr."
 type: docs
-weight: 352
+weight: 365
 url: /system/details_badimageformatexception/
 ---
 ## Details_BadImageFormatException class

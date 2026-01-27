@@ -3,7 +3,7 @@ title: ScopeGuard
 second_title: Aspose.Slides for C++ API Reference
 description: The service class that provides services for running a particular function object when an instance of the class goes out of scope.
 type: docs
-weight: 1821
+weight: 1834
 url: /system/scopeguard/
 ---
 ## ScopeGuard struct
@@ -25,6 +25,7 @@ template<typename F>class ScopeGuard
 
 | Method | Description |
 | --- | --- |
+| void [Disable](./disable/)() | Disables guard invocation. |
 |  [ScopeGuard](./scopeguard/)(F) | Constructs an instance that is set up to invoke the specified function object. |
 |  [~ScopeGuard](./~scopeguard/)() | Invokes the function object passed to the constructor. |
 

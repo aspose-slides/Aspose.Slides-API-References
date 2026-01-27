@@ -3,7 +3,7 @@ title: Build()
 second_title: Aspose.Slides for C++ API Reference
 description: Build an object with direct ownership.
 type: docs
-weight: 2224
+weight: 2237
 url: /system/build/
 ---
 ## System::Build(Args\&&...) function

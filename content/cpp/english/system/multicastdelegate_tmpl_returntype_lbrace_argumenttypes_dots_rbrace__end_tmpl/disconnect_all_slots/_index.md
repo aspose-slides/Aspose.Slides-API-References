@@ -3,7 +3,7 @@ title: disconnect_all_slots()
 second_title: Aspose.Slides for C++ API Reference
 description: Removes all delegates from the delegate collection.
 type: docs
-weight: 183
+weight: 196
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/disconnect_all_slots/
 ---
 ## MulticastDelegate< ReturnType(ArgumentTypes...)>::disconnect_all_slots() method

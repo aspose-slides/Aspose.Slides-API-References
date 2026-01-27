@@ -3,7 +3,7 @@ title: Details_ArithmeticException
 second_title: Aspose.Slides for C++ API Reference
 description: "ArithmeticException is throw when an error occurs during execution of arithmetic, conversion of casting operations. Never create instances of this class manually. Use the ArithmeticException class instead. Never wrap the ArithmeticException class instances into System::SmartPtr."
 type: docs
-weight: 339
+weight: 352
 url: /system/details_arithmeticexception/
 ---
 ## Details_ArithmeticException class

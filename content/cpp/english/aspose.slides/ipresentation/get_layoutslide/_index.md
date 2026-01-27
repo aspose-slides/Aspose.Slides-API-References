@@ -3,7 +3,7 @@ title: get_LayoutSlide()
 second_title: Aspose.Slides for C++ API Reference
 description: "Returns the layout slide by index. Read-only Aspose::Slides::ILayoutSlide."
 type: docs
-weight: 508
+weight: 521
 url: /aspose.slides/ipresentation/get_layoutslide/
 ---
 ## IPresentation::get_LayoutSlide(int32_t) method

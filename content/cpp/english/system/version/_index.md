@@ -3,7 +3,7 @@ title: Version
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents a version number. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 1418
+weight: 1431
 url: /system/version/
 ---
 ## Version class

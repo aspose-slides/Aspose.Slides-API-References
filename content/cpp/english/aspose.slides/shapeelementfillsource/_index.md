@@ -3,7 +3,7 @@ title: ShapeElementFillSource
 second_title: Aspose.Slides for C++ API Reference
 description: Represents how shape element should be filled.
 type: docs
-weight: 6267
+weight: 6345
 url: /aspose.slides/shapeelementfillsource/
 ---
 ## ShapeElementFillSource enum

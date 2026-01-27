@@ -3,7 +3,7 @@ title: UInt32
 second_title: Aspose.Slides for C++ API Reference
 description: Contains methods to work with the unsigned 32-bit integer.
 type: docs
-weight: 1912
+weight: 1925
 url: /system/uint32/
 ---
 ## UInt32 struct

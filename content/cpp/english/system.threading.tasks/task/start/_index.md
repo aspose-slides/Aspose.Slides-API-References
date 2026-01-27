@@ -3,7 +3,7 @@ title: Start()
 second_title: Aspose.Slides for C++ API Reference
 description: Starts the task execution using the default scheduler.
 type: docs
-weight: 157
+weight: 170
 url: /system.threading.tasks/task/start/
 ---
 ## Task::Start() method

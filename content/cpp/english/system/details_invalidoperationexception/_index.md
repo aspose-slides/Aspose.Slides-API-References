@@ -3,7 +3,7 @@ title: Details_InvalidOperationException
 second_title: Aspose.Slides for C++ API Reference
 description: "The exception that is thrown when a method is invoked on an object which is in the state inconsistent with this call. Never create instances of this class manually. Use the InvalidOperationException class instead. Never wrap the InvalidOperationException class instances into System::SmartPtr."
 type: docs
-weight: 482
+weight: 495
 url: /system/details_invalidoperationexception/
 ---
 ## Details_InvalidOperationException class

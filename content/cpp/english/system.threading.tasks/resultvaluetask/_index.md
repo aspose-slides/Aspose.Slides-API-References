@@ -3,7 +3,7 @@ title: ResultValueTask
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a hybrid task-like type that can wrap either a direct result value or a ResultTask<T>.
 type: docs
-weight: 14
+weight: 53
 url: /system.threading.tasks/resultvaluetask/
 ---
 ## ResultValueTask class
@@ -40,7 +40,7 @@ template<typename T>class ResultValueTask : public System::IEquatable<ResultValu
 | **bool** [get_IsCompleted](./get_iscompleted/)() const | Gets a value indicating whether the task has completed. |
 | **bool** [get_IsCompletedSuccessfully](./get_iscompletedsuccessfully/)() const | Gets a value indicating whether the task completed successfully. |
 | **bool** [get_IsFaulted](./get_isfaulted/)() const | Gets a value indicating whether the task completed due to an unhandled exception. |
-| T [get_Result](./get_result/)() const | Gets the result of the completed task. |
+| T [get_Result](./get_result/)() | Gets the result of the completed task. |
 | [Runtime::CompilerServices::ResultValueTaskAwaiter](../../system.runtime.compilerservices/resultvaluetaskawaiter/)\<T\> [GetAwaiter](./getawaiter/)() const | Gets an awaiter for this task to support await expressions. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |

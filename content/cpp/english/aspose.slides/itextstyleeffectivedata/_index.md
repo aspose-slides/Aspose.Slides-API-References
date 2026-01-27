@@ -3,7 +3,7 @@ title: ITextStyleEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective text style properties.
 type: docs
-weight: 4122
+weight: 4148
 url: /aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData class

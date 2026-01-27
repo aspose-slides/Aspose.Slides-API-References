@@ -12,7 +12,7 @@ url: /system.collections.generic.details/groupenumerable/getenumerator/
 Gets enumerator.
 
 ```cpp
-SharedPtr<IEnumerator<SharedPtr<System::Linq::IGrouping<Key, Source>>>> System::Collections::Generic::Details::GroupEnumerable<Source, Key>::GetEnumerator() override
+SharedPtr<IEnumerator<SharedPtr<System::Linq::IGrouping<Key, Element>>>> System::Collections::Generic::Details::GroupEnumerable<Source, Key, Element>::GetEnumerator() override
 ```
 
 

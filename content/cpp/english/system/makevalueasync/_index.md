@@ -3,7 +3,7 @@ title: MakeValueAsync()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 2952
+weight: 2965
 url: /system/makevalueasync/
 ---
 ## System::MakeValueAsync(const Details::ResultAsyncFunction\<T\>\&) function

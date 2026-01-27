@@ -3,7 +3,7 @@ title: NullableUtils
 second_title: Aspose.Slides for C++ API Reference
 description: Represents C# System.Nullable (with no type arguments) static class. Unable to use original name due inability to overload class templates in C++. Supports a value type that can be assigned null. This class cannot be inherited.
 type: docs
-weight: 1080
+weight: 1093
 url: /system/nullableutils/
 ---
 ## NullableUtils class

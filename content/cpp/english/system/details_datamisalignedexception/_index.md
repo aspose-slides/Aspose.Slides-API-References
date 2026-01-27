@@ -3,7 +3,7 @@ title: Details_DataMisalignedException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 365
+weight: 378
 url: /system/details_datamisalignedexception/
 ---
 ## Details_DataMisalignedException class

@@ -3,7 +3,7 @@ title: Details_ExecutionEngineException
 second_title: Aspose.Slides for C++ API Reference
 description: ExecutionEngineException is present for compatibility reasons only.
 type: docs
-weight: 430
+weight: 443
 url: /system/details_executionengineexception/
 ---
 ## Details_ExecutionEngineException class

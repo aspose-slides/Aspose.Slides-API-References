@@ -3,7 +3,7 @@ title: Task
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an asynchronous operation that can be awaited and composed with other tasks.
 type: docs
-weight: 27
+weight: 66
 url: /system.threading.tasks/task/
 ---
 ## Task class
@@ -19,11 +19,13 @@ class Task : public System::IDisposable
 
 | Method | Description |
 | --- | --- |
-| void [Activate](./activate/)([TaskScheduler](../taskscheduler/) *) | Activates the task for execution on a scheduler. |
-| void [AddContinuation](./addcontinuation/)(const [Action](../../system/action/)<>\&) | Adds a continuation action to be executed upon completion. |
+| void [Activate](./activate/)(const [SharedPtr](../../system/sharedptr/)\<[TaskScheduler](../taskscheduler/)\>\&) | Activates the task for execution on a scheduler. |
+| void [AddCompletionAction](./addcompletionaction/)(const [Action](../../system/action/)<>\&) | Adds a continuation action to be executed upon completion. |
+| void [Cancel](./cancel/)() | Marks the task as cancelled and finishes task. |
 | void [Complete](./complete/)() | Marks the task as completed and finishes task. |
 | [Runtime::CompilerServices::ConfiguredTaskAwaitable](../../system.runtime.compilerservices/configuredtaskawaitable/) [ConfigureAwait](./configureawait/)(**bool**) const | Configures how awaits on this task should behave regarding context capture. |
 | [TaskPtr](../../system/taskptr/) [ContinueWith](./continuewith/)(const [Action](../../system/action/)\<[TaskPtr](../../system/taskptr/)\>\&) | Creates a continuation that executes when the task completes. |
+| [RTaskPtr](../../system/rtaskptr/)\<TResult\> [ContinueWith](./continuewith/)(const [Func](../../system/func/)\<[TaskPtr](../../system/taskptr/), TResult\>\&) | Creates a continuation that executes when the task completes. |
 | void [Dispose](./dispose/)() override | Releases resources associated with the task. |
 | virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Compares objects using C# [Object.Equals](../../system/object/equals/) semantics. |
 | static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares reference type objects in C# style. |
@@ -35,11 +37,12 @@ class Task : public System::IDisposable
 | const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\& [get_AsyncState](./get_asyncstate/)() const | Gets the user-defined state object associated with the task. |
 | static const [TaskPtr](../../system/taskptr/)\& [get_CompletedTask](./get_completedtask/)() | Gets a completed task (singleton) |
 | static [Nullable](../../system/nullable/)\<**int32_t**\> [get_CurrentId](./get_currentid/)() |  |
-| **int32_t** [get_Id](./get_id/)() const | Gets the ID for task. |
+| [AggregateException](../../system/aggregateexception/) [get_Exception](./get_exception/)() const | Gets the ID for task. |
+| **int32_t** [get_Id](./get_id/)() const |  |
 | **bool** [get_IsCanceled](./get_iscanceled/)() const | Gets whether the task completed due to cancellation. |
 | **bool** [get_IsCompleted](./get_iscompleted/)() const | Gets whether the task has completed. |
 | **bool** [get_IsFaulted](./get_isfaulted/)() const | Gets whether the task completed due to an unhandled exception. |
-| [TaskScheduler](../taskscheduler/) * [get_Scheduler](./get_scheduler/)() const | Gets the scheduler associated with this task. |
+| const [SharedPtr](../../system/sharedptr/)\<[TaskScheduler](../taskscheduler/)\>\& [get_Scheduler](./get_scheduler/)() const | Gets the scheduler associated with this task. |
 | [TaskStatus](../taskstatus/) [get_Status](./get_status/)() const | Gets the current status of the task. |
 | [Runtime::CompilerServices::TaskAwaiter](../../system.runtime.compilerservices/taskawaiter/) [GetAwaiter](./getawaiter/)() const | Gets an awaiter for this task for use with Await. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
@@ -60,7 +63,7 @@ class Task : public System::IDisposable
 | void [RunSynchronously](./runsynchronously/)() | Runs the task synchronously on the current thread. |
 | void [RunSynchronously](./runsynchronously/)(const [SharedPtr](../../system/sharedptr/)\<[TaskScheduler](../taskscheduler/)\>\&) | Runs the task synchronously using the specified scheduler. |
 | void [set_Function](./set_function/)(const [FunctionT](./functiont/)\&) | Sets the internal function to execute. |
-| void [set_Scheduler](./set_scheduler/)([TaskScheduler](../taskscheduler/) *) | Sets the scheduler associated with this task. |
+| void [set_Scheduler](./set_scheduler/)(const [SharedPtr](../../system/sharedptr/)\<[TaskScheduler](../taskscheduler/)\>\&) | Sets the scheduler associated with this task. |
 | void [set_Status](./set_status/)([TaskStatus](../taskstatus/)) | Sets the task status. |
 | virtual void [SetTemplateWeakPtr](../../system/object/settemplateweakptr/)(**uint32_t**) | Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode. |
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
@@ -76,8 +79,8 @@ class Task : public System::IDisposable
 | virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Analog of C# [Object.ToString()](../../system/object/tostring/) method. Enables converting custom objects to string. |
 | static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Implements C# typeof([System.Object](../../system/object/)) construct. |
 | void [Unlock](../../system/object/unlock/)() | Implements C# lock() statement unlocking. Call directly or use [LockContext](../../system/lockcontext/) sentry object. |
-| void [Wait](./wait/)(const [CancellationToken](../../system.threading/cancellationtoken/)\&) const | Waits for the task to complete with cancellation support. |
-| void [Wait](./wait/)() const | Waits for the task to complete. |
+| void [Wait](./wait/)(const [CancellationToken](../../system.threading/cancellationtoken/)\&) | Waits for the task to complete with cancellation support. |
+| void [Wait](./wait/)() | Waits for the task to complete. |
 | Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Increments weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Decrements weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | virtual  [~Object](../../system/object/~object/)() | Destroys object. Frees all internal data structures. |

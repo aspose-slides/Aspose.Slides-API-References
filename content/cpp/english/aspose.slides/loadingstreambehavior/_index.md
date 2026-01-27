@@ -3,7 +3,7 @@ title: LoadingStreamBehavior
 second_title: Aspose.Slides for C++ API Reference
 description: "The System::IO::Stream passed to a method is considered as a Binary Large Object (BLOB) (see IBlobManagementOptions description). Values of this enumeration identify how the System::IO::Stream should be treated when it passed to the method. Depending on the requirements, different decisions could be made to provide the most efficient behavior."
 type: docs
-weight: 6657
+weight: 6735
 url: /aspose.slides/loadingstreambehavior/
 ---
 ## LoadingStreamBehavior enum

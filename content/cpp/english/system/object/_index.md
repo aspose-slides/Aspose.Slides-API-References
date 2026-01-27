@@ -3,7 +3,7 @@ title: Object
 second_title: Aspose.Slides for C++ API Reference
 description: Base class that enables using methods available for System.Object class in C#. All non-trivial classes used with translated environment should inherit it.
 type: docs
-weight: 1093
+weight: 1106
 url: /system/object/
 ---
 ## Object class

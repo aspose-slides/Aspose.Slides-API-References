@@ -3,7 +3,7 @@ title: Save()
 second_title: Aspose.Slides for C++ API Reference
 description: Saves all slides of a presentation to a file with the specified format.
 type: docs
-weight: 391
+weight: 404
 url: /aspose.slides/ipresentation/save/
 ---
 ## IPresentation::Save(System::String, Export::SaveFormat) method

@@ -3,7 +3,7 @@ title: MarshalByRefObject
 second_title: Aspose.Slides for C++ API Reference
 description: "Provides access to objects across application domain boundaries in remoting-enabled applications. Objects of this class should only be allocated using System::MakeObject() function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into System::SmartPtr pointer and use this pointer to pass it to functions as argument."
 type: docs
-weight: 1041
+weight: 1054
 url: /system/marshalbyrefobject/
 ---
 ## MarshalByRefObject class

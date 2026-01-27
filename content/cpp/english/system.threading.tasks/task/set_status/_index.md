@@ -3,7 +3,7 @@ title: set_Status()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets the task status.
 type: docs
-weight: 209
+weight: 222
 url: /system.threading.tasks/task/set_status/
 ---
 ## Task::set_Status(TaskStatus) method

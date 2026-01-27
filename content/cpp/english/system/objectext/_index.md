@@ -3,7 +3,7 @@ title: ObjectExt
 second_title: Aspose.Slides for C++ API Reference
 description: Provides static methods that emulate C# Object methods called for non-Object C++ types (strings, numbers, etc.). This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 1106
+weight: 1119
 url: /system/objectext/
 ---
 ## ObjectExt class

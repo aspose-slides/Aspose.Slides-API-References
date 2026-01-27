@@ -3,7 +3,7 @@ title: FlagsAttribute
 second_title: Aspose.Slides for C++ API Reference
 description: Indicates that an enumeration can be treated as a bit field; that is, a set of.
 type: docs
-weight: 820
+weight: 833
 url: /system/flagsattribute/
 ---
 ## FlagsAttribute class

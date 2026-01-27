@@ -3,7 +3,7 @@ title: Execute()
 second_title: Aspose.Slides for C++ API Reference
 description: Executes the task's function.
 type: docs
-weight: 261
+weight: 274
 url: /system.threading.tasks/task/execute/
 ---
 ## Task::Execute() method

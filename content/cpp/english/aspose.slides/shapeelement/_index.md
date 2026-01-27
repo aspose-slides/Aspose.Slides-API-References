@@ -3,7 +3,7 @@ title: ShapeElement
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a part of shape with same outline and fill properties.
 type: docs
-weight: 5071
+weight: 5123
 url: /aspose.slides/shapeelement/
 ---
 ## ShapeElement class
@@ -27,6 +27,8 @@ class ShapeElement : public Aspose::Slides::IShapeElement
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
 | [ShapeElementFillSource](../shapeelementfillsource/) [get_FillSource](./get_fillsource/)() | Returns information about how to fill an element. Read-only [ShapeElementFillSource](../shapeelementfillsource/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[Shape](../shape/)\> [get_ParentShape](./get_parentshape/)() | Returns a Shape_PPT for which element was created. Read-only [Shape](../shape/). |
+| [System::ArrayPtr](../../system/arrayptr/)\<[System::Drawing::PointF](../../system.drawing/pointf/)\> [get_PathPoints](./get_pathpoints/)() | Gets an array of points that define the geometry of the element's path. |
+| [System::ArrayPtr](../../system/arrayptr/)\<**uint8_t**\> [get_PathTypes](./get_pathtypes/)() | Gets an array of byte values that specify the type of each point in the element's path. |
 | [ShapeElementStrokeSource](../shapeelementstrokesource/) [get_StrokeSource](./get_strokesource/)() | Returns information about how to stroke an element. Read-only [ShapeElementStrokeSource](../shapeelementstrokesource/). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | virtual **int32_t** [GetHashCode](../../system/object/gethashcode/)() const | Analog of C# [Object.GetHashCode()](../../system/object/gethashcode/) method. Enables hashing of custom objects. |

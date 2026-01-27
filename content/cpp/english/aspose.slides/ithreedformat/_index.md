@@ -3,7 +3,7 @@ title: IThreeDFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents 3-D properties.
 type: docs
-weight: 4135
+weight: 4161
 url: /aspose.slides/ithreedformat/
 ---
 ## IThreeDFormat class

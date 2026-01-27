@@ -3,7 +3,7 @@ title: operator==()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether the delegate collection is empty.
 type: docs
-weight: 105
+weight: 118
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/operator_equal_equal/
 ---
 ## MulticastDelegate< ReturnType(ArgumentTypes...)>::operator==(const std::nullptr_t\&) const method

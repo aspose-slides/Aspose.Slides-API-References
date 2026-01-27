@@ -3,7 +3,7 @@ title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether the delegate collection is not empty.
 type: docs
-weight: 118
+weight: 131
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/operator_not_equal/
 ---
 ## MulticastDelegate< ReturnType(ArgumentTypes...)>::operator!=(const std::nullptr_t\&) const method

@@ -3,7 +3,7 @@ title: SetSynchronizationContext()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets the synchronization context for the current thread.
 type: docs
-weight: 27
+weight: 53
 url: /system.threading/synchronizationcontext/setsynchronizationcontext/
 ---
 ## SynchronizationContext::SetSynchronizationContext(const SharedPtr\<SynchronizationContext\>\&) method

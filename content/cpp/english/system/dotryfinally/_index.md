@@ -3,7 +3,7 @@ title: DoTryFinally()
 second_title: Aspose.Slides for C++ API Reference
 description: The sigle function that emulates behavior of C#'s try[-catch]-finally statement. During translation of C#'s try[-catch]-finally statement with translator's option finally_statement_as_lambda set to true, the statement is translated into the invocation of this method.
 type: docs
-weight: 2367
+weight: 2380
 url: /system/dotryfinally/
 ---
 ## System::DoTryFinally(T\&&, F\&&) function

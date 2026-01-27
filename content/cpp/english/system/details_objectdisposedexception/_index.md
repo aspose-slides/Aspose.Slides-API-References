@@ -3,7 +3,7 @@ title: Details_ObjectDisposedException
 second_title: Aspose.Slides for C++ API Reference
 description: "ObjectDisposedException is thrown when a method is invoked on a disposed object. Never create instances of this class manually. Use the ObjectDisposedException class instead. Never wrap the ObjectDisposedException class instances into System::SmartPtr."
 type: docs
-weight: 586
+weight: 599
 url: /system/details_objectdisposedexception/
 ---
 ## Details_ObjectDisposedException class

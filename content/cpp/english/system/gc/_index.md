@@ -3,7 +3,7 @@ title: GC
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an emulated Garbage Collection which acts more like a stub which effectively does nothing. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 846
+weight: 859
 url: /system/gc/
 ---
 ## GC class

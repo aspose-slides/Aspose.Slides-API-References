@@ -3,7 +3,7 @@ title: LEqual()
 second_title: Aspose.Slides for C++ API Reference
 description: Implements '<=' relative pattern translation.
 type: docs
-weight: 2276
+weight: 2289
 url: /system/lequal/
 ---
 ## System::LEqual(const ExpressionT\&, const ConstantT\&) function

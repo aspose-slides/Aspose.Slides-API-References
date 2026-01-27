@@ -3,7 +3,7 @@ title: get_AsyncState()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets the user-defined state object associated with the task.
 type: docs
-weight: 79
+weight: 92
 url: /system.threading.tasks/task/get_asyncstate/
 ---
 ## Task::get_AsyncState() const method

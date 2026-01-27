@@ -3,7 +3,7 @@ title: MulticastDelegate< ReturnType(ArgumentTypes...)>
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents a collection of delegates. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 1054
+weight: 1067
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/
 ---
 ## MulticastDelegate< ReturnType(ArgumentTypes...)> class
@@ -39,6 +39,7 @@ template<class ReturnType,class...>class MulticastDelegate< ReturnType(ArgumentT
 | [MulticastDelegate](./multicastdelegate/)\& [disconnect_all_slots](./disconnect_all_slots/)() | Removes all delegates from the delegate collection. |
 | **bool** [empty](./empty/)() const | Determines whether the delegate collection is empty. |
 | ReturnType [EndInvoke](./endinvoke/)(const [SharedPtr](../sharedptr/)\<[IAsyncResult](../iasyncresult/)\>\&) | NOT IMPLEMENTED. |
+| **bool** [Equals](./equals/)(const [MulticastDelegate](./multicastdelegate/)\&) |  |
 | int [GetHashCode](./gethashcode/)() const |  |
 | const [TypeInfo](../typeinfo/)\& [GetType](./gettype/)() const |  |
 | ReturnType [invoke](./invoke/)(ArgumentTypes...) const | Invokes all delegates currently present in the delegates collection. Delegates are invoked in the same order as they were added to the collection. The method blocks while the delegates are executed. |

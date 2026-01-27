@@ -6,13 +6,13 @@ type: docs
 weight: 66
 url: /system.threading.tasks/resultvaluetask/get_result/
 ---
-## ResultValueTask::get_Result() const method
+## ResultValueTask::get_Result() method
 
 
 Gets the result of the completed task.
 
 ```cpp
-T System::Threading::Tasks::ResultValueTask<T>::get_Result() const
+T System::Threading::Tasks::ResultValueTask<T>::get_Result()
 ```
 
 

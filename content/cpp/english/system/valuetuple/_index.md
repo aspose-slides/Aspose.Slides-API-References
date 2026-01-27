@@ -3,7 +3,7 @@ title: ValueTuple
 second_title: Aspose.Slides for C++ API Reference
 description: Class that represents a ValueTuple data structure.
 type: docs
-weight: 1392
+weight: 1405
 url: /system/valuetuple/
 ---
 ## ValueTuple class
@@ -20,6 +20,7 @@ template<typename ...>class ValueTuple : public System::Details::BoxableObjectBa
 | Method | Description |
 | --- | --- |
 | **bool** [Equals](./equals/)([SharedPtr](../sharedptr/)\<[Object](../object/)\>) | Determines if the current and the specified objects are identical. |
+| **bool** [Equals](./equals/)(const [ValueTuple](./)\&) |  |
 | **int32_t** [GetHashCode](./gethashcode/)() const |  |
 | const [TypeInfo](../typeinfo/)\& [GetType](./gettype/)() const |  |
 | std::tuple_element_t\<Index, tuple_t\>\& [Item](./item/)() | Gets the reference to value of the [ValueTuple](./) object's component. |

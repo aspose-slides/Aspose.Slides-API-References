@@ -3,7 +3,7 @@ title: UriComponents
 second_title: Aspose.Slides for C++ API Reference
 description: Represents URI components.
 type: docs
-weight: 3173
+weight: 3186
 url: /system/uricomponents/
 ---
 ## UriComponents enum

@@ -3,7 +3,7 @@ title: Callback
 second_title: Aspose.Slides for C++ API Reference
 description: The type of the delegates represented by the MulticastDelegate class.
 type: docs
-weight: 274
+weight: 287
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/callback/
 ---
 ## Callback typedef

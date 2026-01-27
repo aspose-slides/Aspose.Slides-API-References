@@ -3,7 +3,7 @@ title: ITextFrameFormatEffectiveData
 second_title: Aspose.Slides for C++ API Reference
 description: Immutable object which contains effective text frame formatting properties.
 type: docs
-weight: 4070
+weight: 4096
 url: /aspose.slides/itextframeformateffectivedata/
 ---
 ## ITextFrameFormatEffectiveData class

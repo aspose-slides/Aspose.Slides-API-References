@@ -3,7 +3,7 @@ title: get_Current()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets the synchronization context for the current thread.
 type: docs
-weight: 14
+weight: 40
 url: /system.threading/synchronizationcontext/get_current/
 ---
 ## SynchronizationContext::get_Current() method

@@ -3,7 +3,7 @@ title: IsNegativeInfinity()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if the specified value represents negative infinity.
 type: docs
-weight: 2705
+weight: 2718
 url: /system/isnegativeinfinity/
 ---
 ## System::IsNegativeInfinity(const T\&) function

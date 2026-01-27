@@ -3,7 +3,7 @@ title: DynamicCastArray()
 second_title: Aspose.Slides for C++ API Reference
 description: Performs casting of elements of the specified array to different type.
 type: docs
-weight: 2913
+weight: 2926
 url: /system/dynamiccastarray/
 ---
 ## System::DynamicCastArray(const SharedPtr\<Array\<From\>\>\&) function

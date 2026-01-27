@@ -3,7 +3,7 @@ title: SummaryZoomFrame
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a Summary Zoom object in a slide.
 type: docs
-weight: 5266
+weight: 5318
 url: /aspose.slides/summaryzoomframe/
 ---
 ## SummaryZoomFrame class

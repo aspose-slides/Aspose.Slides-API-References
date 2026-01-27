@@ -3,7 +3,7 @@ title: Dispose()
 second_title: Aspose.Slides for C++ API Reference
 description: Releases all resources used by this Presentation object.
 type: docs
-weight: 469
+weight: 482
 url: /aspose.slides/presentation/dispose/
 ---
 ## Presentation::Dispose() method

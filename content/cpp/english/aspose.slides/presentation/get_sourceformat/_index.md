@@ -3,7 +3,7 @@ title: get_SourceFormat()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns information about from which format presentation was loaded. Read-only SourceFormat.
 type: docs
-weight: 378
+weight: 391
 url: /aspose.slides/presentation/get_sourceformat/
 ---
 ## Presentation::get_SourceFormat() method

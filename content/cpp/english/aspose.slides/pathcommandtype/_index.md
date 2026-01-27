@@ -3,7 +3,7 @@ title: PathCommandType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents graphics path commands
 type: docs
-weight: 6098
+weight: 6150
 url: /aspose.slides/pathcommandtype/
 ---
 ## PathCommandType enum

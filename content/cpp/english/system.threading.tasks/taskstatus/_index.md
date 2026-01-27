@@ -3,7 +3,7 @@ title: TaskStatus
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 157
+weight: 235
 url: /system.threading.tasks/taskstatus/
 ---
 ## TaskStatus enum

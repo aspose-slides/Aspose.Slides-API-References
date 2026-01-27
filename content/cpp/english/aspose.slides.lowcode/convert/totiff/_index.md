@@ -60,7 +60,8 @@ static void Aspose::Slides::LowCode::Convert::ToTiff(System::SharedPtr<Presentat
 ```cpp
 System::SharedPtr<ITiffOptions> options = System::MakeObject<TiffOptions>();
 System::SharedPtr<NotesCommentsLayoutingOptions> slidesLayoutOptions = System::MakeObject<NotesCommentsLayoutingOptions>();
-slidesLayoutOptions->set_NotesPosition(Aspose::Slides::Export::NotesPositions::BottomTruncated);
+slidesLayoutOptions->set_NotesPosition(NotesPositions::BottomTruncated);
+options->set_SlidesLayoutOptions(slidesLayoutOptions);
 options->set_CompressionType(TiffCompressionTypes::CCITT3);
 
 auto pres = System::MakeObject<Presentation>(u"pres.pptx");

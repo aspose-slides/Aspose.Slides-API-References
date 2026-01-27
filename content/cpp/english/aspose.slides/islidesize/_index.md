@@ -3,7 +3,7 @@ title: ISlideSize
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the size and orientation of a slide.
 type: docs
-weight: 3797
+weight: 3823
 url: /aspose.slides/islidesize/
 ---
 ## ISlideSize class

@@ -3,7 +3,7 @@ title: BuildObject()
 second_title: Aspose.Slides for C++ API Reference
 description: Build an object with shared ownership.
 type: docs
-weight: 2185
+weight: 2198
 url: /system/buildobject/
 ---
 ## System::BuildObject(Args\&&...) function

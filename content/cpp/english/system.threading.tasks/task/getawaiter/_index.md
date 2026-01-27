@@ -3,7 +3,7 @@ title: GetAwaiter()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets an awaiter for this task for use with Await.
 type: docs
-weight: 118
+weight: 131
 url: /system.threading.tasks/task/getawaiter/
 ---
 ## Task::GetAwaiter() const method

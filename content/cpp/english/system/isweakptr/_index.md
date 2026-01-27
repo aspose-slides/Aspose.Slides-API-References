@@ -3,7 +3,7 @@ title: IsWeakPtr
 second_title: Aspose.Slides for C++ API Reference
 description: "Traits class to check if specific class is a specialization of System::WeakPtr. Doesn't check if instance is actually in weak mode."
 type: docs
-weight: 1704
+weight: 1717
 url: /system/isweakptr/
 ---
 ## IsWeakPtr struct

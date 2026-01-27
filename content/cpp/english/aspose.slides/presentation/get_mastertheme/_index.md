@@ -3,7 +3,7 @@ title: get_MasterTheme()
 second_title: Aspose.Slides for C++ API Reference
 description: "Returns master theme. Read-only Theme::IMasterTheme."
 type: docs
-weight: 391
+weight: 404
 url: /aspose.slides/presentation/get_mastertheme/
 ---
 ## Presentation::get_MasterTheme() method
