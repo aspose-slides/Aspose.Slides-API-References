@@ -567,6 +567,19 @@ boolean
 ---
 
 
+### getSensitivityLabels {#getSensitivityLabels}
+
+| Name | Description |
+| --- | --- |
+| getSensitivityLabels () | Gets an array of sensitivity labels from the custom document properties (Microsoft Information Protection SDK Metadata). |
+
+ **Returns:**
+[SensitivityLabel](../sensitivitylabel)
+
+
+---
+
+
 ### getSharedDoc {#getSharedDoc}
 
 | Name | Description |
