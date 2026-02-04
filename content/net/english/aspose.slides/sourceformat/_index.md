@@ -19,9 +19,19 @@ public enum SourceFormat
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Ppt | `0` | PPT format. |
-| Pptx | `1` | Pptx format. |
-| Odp | `2` | Odp format. |
+| Ppt | `0` | Microsoft PowerPoint 97-2003 Presentation (*.ppt). |
+| Pptx | `1` | Microsoft Office Open XML Presentation (*.pptx). |
+| Odp | `2` | OpenDocument Presentation (*.odp). |
+| Pptm | `3` | Microsoft Office Open XML Macro-enabled Presentation (*.pptm). |
+| Ppsx | `4` | Microsoft Office Open XML SlideShow (*.ppsx). |
+| Ppsm | `5` | Microsoft Office Open XML Macro-enabled SlideShow (*.ppsm). |
+| Potx | `6` | Microsoft Office Open XML Template (*.potx). |
+| Potm | `7` | Microsoft Office Open XML Macro-enabled Template (*.potm). |
+| Pps | `8` | Microsoft PowerPoint 97-2003 SlideShow (*.pps). |
+| Pot | `9` | Microsoft PowerPoint 97-2003 Template (*.pot). |
+| Otp | `10` | OpenDocument Presentation Template (*.otp). |
+| Fodp | `11` | Flat XML ODF Presentation (*.fodp). |
+| Xml | `12` | PowerPoint XML Presentation (*.xml). |
 
 ### See Also
 

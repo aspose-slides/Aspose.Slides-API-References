@@ -30,6 +30,7 @@ public static class SlideUtil
 | static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | Returns all text frames on a slide in a PPTX presentation. |
 | static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | Returns all text frames in a PPTX presentation. |
 | static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | Returns all text frames on the specified slide that contain the given text. |
+| static [ToSaveFormat](../../aspose.slides.util/slideutil/tosaveformat)(SourceFormat) | Converts a source file format to the corresponding [`SaveFormat`](../../aspose.slides.export/saveformat). |
 
 ### See Also
 

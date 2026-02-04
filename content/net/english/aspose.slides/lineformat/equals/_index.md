@@ -1,24 +1,10 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the two LineFormat instances are equal.
 type: docs
 weight: 180
 url: /aspose.slides/lineformat/equals/
----
-
-## Equals(object) {#equals_1}
-
-```csharp
-public override bool Equals(object obj)
-```
-
-### See Also
-
-* class [LineFormat](../../lineformat)
-* namespace [Aspose.Slides](../../lineformat)
-* assembly [Aspose.Slides](../../../)
-
 ---
 
 ## Equals(ILineFormat) {#equals}
@@ -40,6 +26,20 @@ public bool Equals(ILineFormat lineFormat)
 ### See Also
 
 * interface [ILineFormat](../../ilineformat)
+* class [LineFormat](../../lineformat)
+* namespace [Aspose.Slides](../../lineformat)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Equals(object) {#equals_1}
+
+```csharp
+public override bool Equals(object obj)
+```
+
+### See Also
+
 * class [LineFormat](../../lineformat)
 * namespace [Aspose.Slides](../../lineformat)
 * assembly [Aspose.Slides](../../../)
