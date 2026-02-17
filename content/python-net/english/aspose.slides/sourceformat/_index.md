@@ -17,9 +17,19 @@ The SourceFormat type exposes the following members:
 
 | Field | Description |
 | :- | :- |
-| PPT | PPT format. |
-| PPTX | Pptx format. |
-| ODP | Odp format. |
+| PPT | Microsoft PowerPoint 97-2003 Presentation (*.ppt). |
+| PPTX | Microsoft Office Open XML Presentation (*.pptx). |
+| ODP | OpenDocument Presentation (*.odp). |
+| PPTM | Microsoft Office Open XML Macro-enabled Presentation (*.pptm). |
+| PPSX | Microsoft Office Open XML SlideShow (*.ppsx). |
+| PPSM | Microsoft Office Open XML Macro-enabled SlideShow (*.ppsm). |
+| POTX | Microsoft Office Open XML Template (*.potx). |
+| POTM | Microsoft Office Open XML Macro-enabled Template (*.potm). |
+| PPS | Microsoft PowerPoint 97-2003 SlideShow (*.pps). |
+| POT | Microsoft PowerPoint 97-2003 Template (*.pot). |
+| OTP | OpenDocument Presentation Template (*.otp). |
+| FODP | Flat XML ODF Presentation (*.fodp). |
+| XML | PowerPoint XML Presentation (*.xml). |
 
 
 ### See Also

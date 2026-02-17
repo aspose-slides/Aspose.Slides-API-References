@@ -28,6 +28,7 @@ The SlideUtil type exposes the following members:
 | [`get_all_text_boxes`](/slides/python-net/aspose.slides.util/slideutil/get_all_text_boxes/#ibaseslide) | Returns all text frames on a slide in a PPTX presentation. |
 | [`get_text_boxes_contains_text`](/slides/python-net/aspose.slides.util/slideutil/get_text_boxes_contains_text/#ibaseslide-str-bool) | Returns all text frames on the specified slide that contain the given text. |
 | [`get_all_text_frames`](/slides/python-net/aspose.slides.util/slideutil/get_all_text_frames/#ipresentation-bool) | Returns all text frames in a PPTX presentation. |
+| [`to_save_format`](/slides/python-net/aspose.slides.util/slideutil/to_save_format/#sourceformat) | Converts a source file format to the corresponding [`SaveFormat`](/slides/python-net/aspose.slides.export/saveformat). |
 
 
 ### See Also
