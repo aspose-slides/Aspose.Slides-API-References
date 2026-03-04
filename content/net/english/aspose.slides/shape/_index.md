@@ -60,6 +60,7 @@ public class Shape : IShape
 | [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). A null is returned if the current shape is not inherited. |
 | [GetImage](../../aspose.slides/shape/getimage#getimage)() | Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 | [GetImage](../../aspose.slides/shape/getimage#getimage_1)(ShapeThumbnailBounds, float, float) | Returns shape thumbnail. |
+| [GetVisualBounds](../../aspose.slides/shape/getvisualbounds)() | Gets the visual bounds of the shape calculated from its rendered content. |
 | [RemovePlaceholder](../../aspose.slides/shape/removeplaceholder)() | Defines that this shape isn't a placeholder. |
 | [WriteAsSvg](../../aspose.slides/shape/writeassvg#writeassvg)(Stream) | Saves content of Shape as SVG file. |
 | [WriteAsSvg](../../aspose.slides/shape/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Saves content of Shape as SVG file. |

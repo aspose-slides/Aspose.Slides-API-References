@@ -73,6 +73,7 @@ public sealed class Table : GraphicalObject, ITable
 | [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). A null is returned if the current shape is not inherited. |
 | [GetImage](../../aspose.slides/shape/getimage)() | Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 | [GetImage](../../aspose.slides/shape/getimage)(ShapeThumbnailBounds, float, float) | Returns shape thumbnail. |
+| [GetVisualBounds](../../aspose.slides/shape/getvisualbounds)() | Gets the visual bounds of the shape calculated from its rendered content. |
 | [MergeCells](../../aspose.slides/table/mergecells)(ICell, ICell, bool) | Merges neighbour cells. |
 | [RemovePlaceholder](../../aspose.slides/shape/removeplaceholder)() | Defines that this shape isn't a placeholder. |
 | [SetTextFormat](../../aspose.slides/table/settextformat#settextformat)(IParagraphFormat) | Sets defined paragraph format properties to all table cells' paragraphs. |

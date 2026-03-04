@@ -26,6 +26,7 @@ public interface IFillFormatEffectiveData : IFillParamSource
 | [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | Returns the picture fill format. Read-only [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
 | [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | Determines whether the fill should be rotated with shape. Read-only Boolean. |
 | [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | Returns the fill color. Read-only Color. |
+| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | Gets the fill color defined by a color scheme. The NotDefined value indicates that the [`SolidFillColor`](./solidfillcolor) is not a scheme color. Read-only [`SchemeColor`](../schemecolor). |
 
 ### Remarks
 
