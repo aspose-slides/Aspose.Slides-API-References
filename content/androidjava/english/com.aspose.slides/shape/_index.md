@@ -72,6 +72,7 @@ Represents a shape on a slide.
 | [isGrouped()](#isGrouped--) | Determines whether the shape is grouped. |
 | [getParentGroup()](#getParentGroup--) | Returns parent GroupShape object if shape is grouped. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
+| [getVisualBounds()](#getVisualBounds--) | Gets the visual bounds of the shape calculated from its rendered content. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a shape. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a slide. |
 ### isTextHolder() {#isTextHolder--}
@@ -958,6 +959,20 @@ Returns Parent\_Immediate object. Read-only IDOMObject.
 
 **Returns:**
 com.aspose.slides.IDOMObject
+### getVisualBounds() {#getVisualBounds--}
+```
+public final RectF getVisualBounds()
+```
+
+
+Gets the visual bounds of the shape calculated from its rendered content.
+
+**Returns:**
+android.graphics.RectF - A android.graphics.RectF that represents the visual bounds of the shape in slide coordinates.
+
+--------------------
+
+The returned rectangle represents the axis-aligned bounds of all content produced by the shape during rendering in slide coordinate space. These bounds may differ from the shape's model bounds \#getX.getX/\#setX(float).setX(float), \#getY.getY/\#setY(float).setY(float), \#getWidth.getWidth/\#setWidth(float).setWidth(float), \#getHeight.getHeight/\#setHeight(float).setHeight(float) and may contain negative coordinates if the rendered content extends beyond the slide origin. The visual bounds take into account rendering-related aspects such as transformations (for example, rotation), stroke width and joins, text layout and overflow, SmartArt geometry, and other layout effects that influence the final rendered appearance of the shape. The returned bounds are not clipped to the slide rectangle.
 ### getSlide() {#getSlide--}
 ```
 public final IBaseSlide getSlide()

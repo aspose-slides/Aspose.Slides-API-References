@@ -46,6 +46,7 @@ Presentation document
 | [setFirstSlideNumber(int value)](#setFirstSlideNumber-int-) | Represents the first slide number in the presentation. |
 | [getAllCustomXmlParts()](#getAllCustomXmlParts--) | Returns all custom data parts in the presentaion. |
 | [getDigitalSignatures()](#getDigitalSignatures--) | Returns the collection of signatures used to sign the presentation. |
+| [getSensitivityLabels()](#getSensitivityLabels--) | Returns the collection of sensitivity labels applied to the presentation document. |
 | [save(String fname, int format)](#save-java.lang.String-int-) | Saves all slides of a presentation to a file with the specified format. |
 | [save(OutputStream stream, int format)](#save-java.io.OutputStream-int-) | Saves all slides of a presentation to a stream in the specified format. |
 | [save(String fname, int format, ISaveOptions options)](#save-java.lang.String-int-com.aspose.slides.ISaveOptions-) | Saves all slides of a presentation to a file with the specified format and with additional options. |
@@ -407,6 +408,39 @@ Returns the collection of signatures used to sign the presentation. Read-only [I
 
 **Returns:**
 [IDigitalSignatureCollection](../../com.aspose.slides/idigitalsignaturecollection)
+### getSensitivityLabels() {#getSensitivityLabels--}
+```
+public abstract ISensitivityLabelCollection getSensitivityLabels()
+```
+
+
+Returns the collection of sensitivity labels applied to the presentation document. Read-only [ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      ISensitivityLabelCollection sensitivityLabels = pres.getSensitivityLabels();
+> 
+>      // Print the applied labels
+>      for (ISensitivityLabel sensitivityLabel : sensitivityLabels)
+>          System.out.println("Label Id " + sensitivityLabel.getId() + " from Azure AD site " + sensitivityLabel.getSiteId());
+> 
+>      // Add the new label
+>      String labelIdString = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Get the sensitivity label Id from the policy
+>      UUID siteIdGuid = UUID.fromString("{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"); // Get the Azure AD site identifier from the policy
+>      ISensitivityLabel label = sensitivityLabels.add(labelIdString, siteIdGuid, true, SensitivityLabelAssignmentType.Privileged);
+>      label.getContentMarkTypes().addItem(SensitivityLabelContentType.Footer);
+> 
+>      pres.save("SensitivityLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[ISensitivityLabelCollection](../../com.aspose.slides/isensitivitylabelcollection)
 ### save(String fname, int format) {#save-java.lang.String-int-}
 ```
 public abstract void save(String fname, int format)

@@ -33,6 +33,7 @@ Offer methods which help to search shapes and text in a presentation.
 | [getAllTextBoxes(IBaseSlide slide)](#getAllTextBoxes-com.aspose.slides.IBaseSlide-) | Returns all text frames on a slide in a PPTX presentation. |
 | [getTextBoxesContainsText(IBaseSlide slide, String text, boolean checkPlaceholderText)](#getTextBoxesContainsText-com.aspose.slides.IBaseSlide-java.lang.String-boolean-) | Returns all text frames on the specified slide that contain the given text. |
 | [getAllTextFrames(IPresentation pres, boolean withMasters)](#getAllTextFrames-com.aspose.slides.IPresentation-boolean-) | Returns all text frames in a PPTX presentation. |
+| [toSaveFormat(int format)](#toSaveFormat-int-) | Converts a source file format to the corresponding [SaveFormat](../../com.aspose.slides/saveformat). |
 ### SlideUtil() {#SlideUtil--}
 ```
 public SlideUtil()
@@ -327,3 +328,18 @@ Returns all text frames in a PPTX presentation.
 
 **Returns:**
 com.aspose.slides.ITextFrame[] - Array of [TextFrame](../../com.aspose.slides/textframe) objects.
+### toSaveFormat(int format) {#toSaveFormat-int-}
+```
+public static int toSaveFormat(int format)
+```
+
+
+Converts a source file format to the corresponding [SaveFormat](../../com.aspose.slides/saveformat).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| format | int | The source file format. |
+
+**Returns:**
+int - The corresponding [SaveFormat](../../com.aspose.slides/saveformat) value.

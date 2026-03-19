@@ -90,6 +90,7 @@ Represents properties of a presentation.
 | [setCustomPropertyValue(String name, String value)](#setCustomPropertyValue-java.lang.String-java.lang.String-) | Sets a named string custom property. |
 | [setCustomPropertyValue(String name, float value)](#setCustomPropertyValue-java.lang.String-float-) | Sets a named float custom property. |
 | [setCustomPropertyValue(String name, double value)](#setCustomPropertyValue-java.lang.String-double-) | Sets a named double custom property. |
+| [getSensitivityLabels()](#getSensitivityLabels--) | Gets an array of sensitivity labels from the custom document properties (Microsoft Information Protection SDK Metadata). |
 ### getAppVersion() {#getAppVersion--}
 ```
 public abstract String getAppVersion()
@@ -1012,3 +1013,36 @@ Sets a named double custom property.
 | name | java.lang.String | Name of the custom property to set |
 | value | double | Custom property value |
 
+### getSensitivityLabels() {#getSensitivityLabels--}
+```
+public abstract ISensitivityLabel[] getSensitivityLabels()
+```
+
+
+Gets an array of sensitivity labels from the custom document properties (Microsoft Information Protection SDK Metadata).
+
+--------------------
+
+> ```
+> The following code shows how to move the sensitivity labels information from the custom document properties 
+>   to the modern SensitivityLabels collection:
+>   
+>  Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      // Get sensitivity labels from the custom document properties
+>      ISensitivityLabel[] mipSensitivityLabels = pres.getDocumentProperties().getSensitivityLabels();
+>      ISensitivityLabelCollection sensitivityLabels = pres.getSensitivityLabels();
+>      for (ISensitivityLabel sensitivityLabel : mipSensitivityLabels)
+>      {
+>          // Add label to the collection
+>          // Here you can add a check for the validity of the label information (the label is available, etc)
+>          sensitivityLabels.add(sensitivityLabel);
+>      }
+>      pres.save("SensitivityLabel.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+com.aspose.slides.ISensitivityLabel[]

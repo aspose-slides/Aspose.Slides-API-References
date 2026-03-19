@@ -519,6 +519,10 @@ url: /com.aspose.slides/
 | [SectionCollection](../com.aspose.slides/sectioncollection) | Represents a collection of sections. |
 | [SectionSlideCollection](../com.aspose.slides/sectionslidecollection) | Represents a collection of slides in the section. |
 | [SectionZoomFrame](../com.aspose.slides/sectionzoomframe) | Represents a Section Zoom object in a slide. |
+| [SensitivityLabel](../com.aspose.slides/sensitivitylabel) | Represents the sensitivity label from Microsoft Purview Information Protection. |
+| [SensitivityLabelAssignmentType](../com.aspose.slides/sensitivitylabelassignmenttype) | Represents the assignment method for the sensitivity label. |
+| [SensitivityLabelCollection](../com.aspose.slides/sensitivitylabelcollection) | Represents a collection of sensitivity labels applied to the document. |
+| [SensitivityLabelContentType](../com.aspose.slides/sensitivitylabelcontenttype) | Represents the types of content marking that ought to be applied to a document. |
 | [Sequence](../com.aspose.slides/sequence) | Represents sequence (collection of effects). |
 | [SequenceCollection](../com.aspose.slides/sequencecollection) | Represents collection of interactive sequences. |
 | [SetEffect](../com.aspose.slides/seteffect) | Represents a set effect for an animation behavior. |
@@ -1077,6 +1081,8 @@ url: /com.aspose.slides/
 | [ISectionCollection](../com.aspose.slides/isectioncollection) | Represents a collection of sections. |
 | [ISectionSlideCollection](../com.aspose.slides/isectionslidecollection) | Represents a collection of a slides in the section. |
 | [ISectionZoomFrame](../com.aspose.slides/isectionzoomframe) | Represents a Section Zoom object in a slide. |
+| [ISensitivityLabel](../com.aspose.slides/isensitivitylabel) | Represents the sensitivity label from Microsoft Purview Information Protection. |
+| [ISensitivityLabelCollection](../com.aspose.slides/isensitivitylabelcollection) | Represents a collection of sensitivity labels applied to the document. |
 | [ISequence](../com.aspose.slides/isequence) | Represents sequence (collection of effects). |
 | [ISequenceCollection](../com.aspose.slides/isequencecollection) | Represents collection of interactive sequences. |
 | [ISetEffect](../com.aspose.slides/iseteffect) | Represents a set effect for an animation behavior. |

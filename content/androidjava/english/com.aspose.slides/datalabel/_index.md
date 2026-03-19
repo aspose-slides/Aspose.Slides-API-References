@@ -20,6 +20,11 @@ Represents a series labels.
 | Constructor | Description |
 | --- | --- |
 | [DataLabel(IChartDataPoint parentImmediate)](#DataLabel-com.aspose.slides.IChartDataPoint-) | Creates a new instance of DataLabel class. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [GENERAL](#GENERAL) |  |
 ## Methods
 
 | Method | Description |
@@ -63,6 +68,12 @@ Creates a new instance of DataLabel class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | parentImmediate | [IChartDataPoint](../../com.aspose.slides/ichartdatapoint) | Parent ChartDataPoint. |
+
+### GENERAL {#GENERAL}
+```
+public static final String GENERAL
+```
+
 
 ### getParent_Immediate() {#getParent-Immediate--}
 ```

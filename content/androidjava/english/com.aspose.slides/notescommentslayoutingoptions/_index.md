@@ -145,7 +145,7 @@ Gets or sets the color of comments area (Applies only if comments are displayed 
 
 --------------------
 
-Default is java.lang.Integer\#BLUE.BLUE.
+Default is **SkyBlue**.
 
 **Returns:**
 java.lang.Integer
@@ -159,7 +159,7 @@ Gets or sets the color of comments area (Applies only if comments are displayed 
 
 --------------------
 
-Default is java.lang.Integer\#BLUE.BLUE.
+Default is **SkyBlue**.
 
 **Parameters:**
 | Parameter | Type | Description |
