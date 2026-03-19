@@ -87,6 +87,7 @@ The Chart type exposes the following members:
 | [`remove_placeholder`](/slides/python-net/aspose.slides.charts/chart/remove_placeholder/#) | Defines that this shape isn't a placeholder. |
 | [`add_placeholder`](/slides/python-net/aspose.slides.charts/chart/add_placeholder/#iplaceholder) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
 | [`get_base_placeholder`](/slides/python-net/aspose.slides.charts/chart/get_base_placeholder/#) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).<br/>            A None is returned if the current shape is not inherited. |
+| [`get_visual_bounds`](/slides/python-net/aspose.slides.charts/chart/get_visual_bounds/#) | Gets the visual bounds of the shape calculated from its rendered content. |
 | [`validate_chart_layout`](/slides/python-net/aspose.slides.charts/chart/validate_chart_layout/#) | Calculates actual values of chart elements. The actual values include position of elements that implement IActualLayout interface <br/>            (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight)<br/>            and actual axes values (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, <br/>            IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) |
 | [`create_theme_effective`](/slides/python-net/aspose.slides.charts/chart/create_theme_effective/#) | Returns an effective theme for this chart. |
 
