@@ -149,6 +149,19 @@ void
 
 | Name | Description |
 | --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
 
  **Returns:**
@@ -162,7 +175,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
 
  **Returns:**
 void
@@ -189,19 +202,6 @@ void
 | Name | Description |
 | --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
 
  **Returns:**
 void
@@ -279,7 +279,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
 
  **Returns:**
 void
@@ -292,7 +292,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
 
  **Returns:**
 void
@@ -435,6 +435,19 @@ void
 
 | Name | Description |
 | --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
 
  **Returns:**
@@ -448,7 +461,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
 
  **Returns:**
 void
@@ -475,19 +488,6 @@ void
 | Name | Description |
 | --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
 
  **Returns:**
 void
@@ -565,7 +565,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
 
  **Returns:**
 void
@@ -578,7 +578,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
 
  **Returns:**
 void

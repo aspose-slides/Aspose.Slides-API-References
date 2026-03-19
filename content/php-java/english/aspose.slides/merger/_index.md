@@ -176,7 +176,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| process (java.lang.String[], String, [HtmlOptions](../htmloptions)) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
+| process (java.lang.String[], String, [PdfOptions](../pdfoptions)) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
 
  **Parameters:**
 
@@ -184,7 +184,7 @@ void
 | --- | --- | --- |
 | inputFileNames | java.lang.String[] | An array of the input presentation file names. |
 | outputFileName | String | The output file name of the resulting merged presentation file. |
-| options | [HtmlOptions](../htmloptions) | The additional options that define how the merged presentation is saved. |
+| options | [PdfOptions](../pdfoptions) | The additional options that define how the merged presentation is saved. |
 
  **Returns:**
 void
@@ -203,7 +203,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| process (java.lang.String[], String, [PdfOptions](../pdfoptions)) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
+| process (java.lang.String[], String, [HtmlOptions](../htmloptions)) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
 
  **Parameters:**
 
@@ -211,7 +211,7 @@ void
 | --- | --- | --- |
 | inputFileNames | java.lang.String[] | An array of the input presentation file names. |
 | outputFileName | String | The output file name of the resulting merged presentation file. |
-| options | [PdfOptions](../pdfoptions) | The additional options that define how the merged presentation is saved. |
+| options | [HtmlOptions](../htmloptions) | The additional options that define how the merged presentation is saved. |
 
  **Returns:**
 void
@@ -580,7 +580,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| process (java.lang.String[], OutputStream, [HtmlOptions](../htmloptions)) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
+| process (java.lang.String[], OutputStream, [PdfOptions](../pdfoptions)) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
 
  **Parameters:**
 
@@ -588,7 +588,7 @@ void
 | --- | --- | --- |
 | inputFileNames | java.lang.String[] | An array of the input presentation file names. |
 | outputStream | OutputStream | The output stream. |
-| options | [HtmlOptions](../htmloptions) | The additional options that define how the merged presentation is saved. |
+| options | [PdfOptions](../pdfoptions) | The additional options that define how the merged presentation is saved. |
 
  **Returns:**
 void
@@ -607,7 +607,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| process (java.lang.String[], OutputStream, [PdfOptions](../pdfoptions)) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
+| process (java.lang.String[], OutputStream, [HtmlOptions](../htmloptions)) | Merges multiple PowerPoint presentations of the same format into a single presentation file. |
 
  **Parameters:**
 
@@ -615,7 +615,7 @@ void
 | --- | --- | --- |
 | inputFileNames | java.lang.String[] | An array of the input presentation file names. |
 | outputStream | OutputStream | The output stream. |
-| options | [PdfOptions](../pdfoptions) | The additional options that define how the merged presentation is saved. |
+| options | [HtmlOptions](../htmloptions) | The additional options that define how the merged presentation is saved. |
 
  **Returns:**
 void

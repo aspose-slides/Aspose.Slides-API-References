@@ -521,6 +521,10 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [SectionCollection](sectioncollection) | Represents a collection of sections. |
 | [SectionSlideCollection](sectionslidecollection) | Represents a collection of slides in the section. |
 | [SectionZoomFrame](sectionzoomframe) | Represents a Section Zoom object in a slide. |
+| [SensitivityLabel](sensitivitylabel) | Represents the sensitivity label from Microsoft Purview Information Protection. |
+| [SensitivityLabelAssignmentType](sensitivitylabelassignmenttype) | Represents the assignment method for the sensitivity label. |
+| [SensitivityLabelCollection](sensitivitylabelcollection) | Represents a collection of sensitivity labels applied to the document. |
+| [SensitivityLabelContentType](sensitivitylabelcontenttype) | Represents the types of content marking that ought to be applied to a document. |
 | [Sequence](sequence) | Represents sequence (collection of effects). |
 | [SequenceCollection](sequencecollection) | Represents collection of interactive sequences. |
 | [SetEffect](seteffect) | Represents a set effect for an animation behavior. |
