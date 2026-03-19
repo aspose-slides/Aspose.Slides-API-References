@@ -11,6 +11,23 @@ url: /aspose.slides/datalabel/
 
  Represents a series labels.
  
+
+## Constants
+
+| Name | Value | Description |
+| --- | --- | --- |
+[GENERAL](#GENERAL) | General |  |
+
+
+---
+
+
+### GENERAL {#GENERAL}
+
+
+---
+
+
 ### DataLabel {#DataLabel}
 
 | Name | Description |
@@ -199,7 +216,7 @@ float
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
  **Returns:**
-[NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [MasterNotesSlide](../masternotesslide), [Slide](../slide), [MasterSlide](../masterslide)
+[MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [Slide](../slide)
 
 
 ---

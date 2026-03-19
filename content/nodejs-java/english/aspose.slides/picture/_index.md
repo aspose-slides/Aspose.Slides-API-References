@@ -99,7 +99,7 @@ String
 | getSlide () | Returns the parent slide of a picture. Read-only IBaseSlide. |
 
  **Returns:**
-[NotesSlide](../notesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [LayoutSlide](../layoutslide), [MasterNotesSlide](../masternotesslide), [Slide](../slide), [MasterSlide](../masterslide)
+[MasterSlide](../masterslide), [LayoutSlide](../layoutslide), [MasterHandoutSlide](../masterhandoutslide), [NotesSlide](../notesslide), [MasterNotesSlide](../masternotesslide), [BaseSlide](../baseslide), [Slide](../slide)
 
 
 ---
