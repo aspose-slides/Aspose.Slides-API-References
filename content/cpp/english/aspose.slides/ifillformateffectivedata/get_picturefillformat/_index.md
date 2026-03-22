@@ -3,7 +3,7 @@ title: get_PictureFillFormat()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the picture fill format. Read-only IPictureFillFormatEffectiveData.
 type: docs
-weight: 53
+weight: 66
 url: /aspose.slides/ifillformateffectivedata/get_picturefillformat/
 ---
 ## IFillFormatEffectiveData::get_PictureFillFormat() method

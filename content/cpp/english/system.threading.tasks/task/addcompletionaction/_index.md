@@ -3,7 +3,7 @@ title: AddCompletionAction()
 second_title: Aspose.Slides for C++ API Reference
 description: Adds a continuation action to be executed upon completion.
 type: docs
-weight: 287
+weight: 300
 url: /system.threading.tasks/task/addcompletionaction/
 ---
 ## Task::AddCompletionAction(const Action<>\&) method

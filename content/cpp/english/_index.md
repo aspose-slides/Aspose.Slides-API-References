@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides for C++ API Reference (version 26.1)
+title: Aspose.Slides for C++ API Reference (version 26.3)
 type: docs
 weight: 12
 url: /

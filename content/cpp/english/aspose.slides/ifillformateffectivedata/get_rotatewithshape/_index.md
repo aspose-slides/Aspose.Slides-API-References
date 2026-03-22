@@ -3,7 +3,7 @@ title: get_RotateWithShape()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether the fill should be rotated with shape. Read-only bool.
 type: docs
-weight: 66
+weight: 79
 url: /aspose.slides/ifillformateffectivedata/get_rotatewithshape/
 ---
 ## IFillFormatEffectiveData::get_RotateWithShape() method
