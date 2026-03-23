@@ -3,7 +3,7 @@ title: Cancel()
 second_title: Aspose.Slides for C++ API Reference
 description: Marks the task as cancelled and finishes task.
 type: docs
-weight: 313
+weight: 326
 url: /system.threading.tasks/task/cancel/
 ---
 ## Task::Cancel() method
