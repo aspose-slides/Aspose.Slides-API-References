@@ -3,7 +3,7 @@ title: IGradientStopEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: immutable object which represents a gradient stop.
 type: docs
-weight: 6010
+weight: 6020
 url: /aspose.slides/igradientstopeffectivedata/
 ---
 

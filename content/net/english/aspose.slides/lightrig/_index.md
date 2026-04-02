@@ -3,7 +3,7 @@ title: LightRig
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents LightRig.
 type: docs
-weight: 7650
+weight: 7660
 url: /aspose.slides/lightrig/
 ---
 

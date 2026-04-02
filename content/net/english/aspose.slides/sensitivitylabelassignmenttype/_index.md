@@ -3,7 +3,7 @@ title: SensitivityLabelAssignmentType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the assignment method for the sensitivity label.
 type: docs
-weight: 9760
+weight: 9770
 url: /aspose.slides/sensitivitylabelassignmenttype/
 ---
 

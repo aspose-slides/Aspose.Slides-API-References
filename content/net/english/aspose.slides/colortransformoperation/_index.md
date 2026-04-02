@@ -3,7 +3,7 @@ title: ColorTransformOperation
 second_title: Aspose.Sildes for .NET API Reference
 description: Defines color transform operation.
 type: docs
-weight: 2540
+weight: 2550
 url: /aspose.slides/colortransformoperation/
 ---
 

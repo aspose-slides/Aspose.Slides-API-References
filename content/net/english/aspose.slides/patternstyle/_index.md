@@ -3,7 +3,7 @@ title: PatternStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the pattern style.
 type: docs
-weight: 9320
+weight: 9330
 url: /aspose.slides/patternstyle/
 ---
 

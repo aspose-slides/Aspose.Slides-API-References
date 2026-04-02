@@ -3,7 +3,7 @@ title: SwitchRowColumn
 second_title: Aspose.Sildes for .NET API Reference
 description: Swap the data over the axis. Data being charted on the X axis will move to the Y axis and vice versa.
 type: docs
-weight: 130
+weight: 140
 url: /aspose.slides.charts/ichartdata/switchrowcolumn/
 ---
 

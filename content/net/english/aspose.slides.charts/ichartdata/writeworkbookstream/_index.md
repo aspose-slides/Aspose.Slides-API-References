@@ -3,7 +3,7 @@ title: WriteWorkbookStream
 second_title: Aspose.Sildes for .NET API Reference
 description: Initializes the internally contained Excel workbook with user-specified value.
 type: docs
-weight: 140
+weight: 150
 url: /aspose.slides.charts/ichartdata/writeworkbookstream/
 ---
 

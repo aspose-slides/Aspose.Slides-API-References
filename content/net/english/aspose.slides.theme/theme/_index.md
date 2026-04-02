@@ -3,7 +3,7 @@ title: Theme
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a theme.
 type: docs
-weight: 11440
+weight: 11450
 url: /aspose.slides.theme/theme/
 ---
 

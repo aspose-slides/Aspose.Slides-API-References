@@ -3,7 +3,7 @@ title: SensitivityLabelContentType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the types of content marking that ought to be applied to a document.
 type: docs
-weight: 9780
+weight: 9790
 url: /aspose.slides/sensitivitylabelcontenttype/
 ---
 

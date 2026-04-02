@@ -3,7 +3,7 @@ title: Zip64Mode
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies when to use ZIP64 format extensions for OpenXML file.
 type: docs
-weight: 4700
+weight: 4710
 url: /aspose.slides.export/zip64mode/
 ---
 

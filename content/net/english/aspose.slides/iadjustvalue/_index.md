@@ -3,7 +3,7 @@ title: IAdjustValue
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a geometry shapes adjustment value. These values affect shapes form.
 type: docs
-weight: 5140
+weight: 5150
 url: /aspose.slides/iadjustvalue/
 ---
 

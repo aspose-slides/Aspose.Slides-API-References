@@ -3,7 +3,7 @@ title: NullableBool
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents triple boolean values.
 type: docs
-weight: 9130
+weight: 9140
 url: /aspose.slides/nullablebool/
 ---
 

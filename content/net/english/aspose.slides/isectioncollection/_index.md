@@ -3,7 +3,7 @@ title: ISectionCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of sections.
 type: docs
-weight: 6860
+weight: 6870
 url: /aspose.slides/isectioncollection/
 ---
 

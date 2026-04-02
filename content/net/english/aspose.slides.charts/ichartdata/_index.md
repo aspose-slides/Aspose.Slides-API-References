@@ -22,6 +22,7 @@ public interface IChartData
 | [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | Gets the primary categories (or both primary and secondary categories if [`UseSecondaryCategories`](./usesecondarycategories) property is false). Read-only [`IChartCategoryCollection`](../ichartcategorycollection). |
 | [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | Gets the cells factory to create cells used for chart series or categories. Read-only [`IChartDataWorkbook`](../ichartdataworkbook). |
 | [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | Represents data source of the chart |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/ichartdata/embeddedworkbooktype) { get; } | Gets the type of the embedded workbook. Returns NotDefined if [`DataSourceType`](./datasourcetype) is ExternalWorkbook. Read-only [`WorkbookType`](../workbooktype). |
 | [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | Represents external workbook path if data source is external, null otherwise |
 | [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | Gets the secondary categories if [`UseSecondaryCategories`](./usesecondarycategories) property is true. Read-only [`IChartCategoryCollection`](../ichartcategorycollection). |
 | [Series](../../aspose.slides.charts/ichartdata/series) { get; } | Gets the series. Read-only [`IChartSeriesCollection`](../ichartseriescollection). |

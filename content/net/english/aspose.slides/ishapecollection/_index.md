@@ -3,7 +3,7 @@ title: IShapeCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of shapes.
 type: docs
-weight: 6940
+weight: 6950
 url: /aspose.slides/ishapecollection/
 ---
 

@@ -3,7 +3,7 @@ title: IThemeEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective theme properties.
 type: docs
-weight: 11340
+weight: 11350
 url: /aspose.slides.theme/ithemeeffectivedata/
 ---
 

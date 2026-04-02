@@ -3,7 +3,7 @@ title: IPortionFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective text portion formatting properties.
 type: docs
-weight: 6700
+weight: 6710
 url: /aspose.slides/iportionformateffectivedata/
 ---
 

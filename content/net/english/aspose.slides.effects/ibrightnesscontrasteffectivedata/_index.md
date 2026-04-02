@@ -3,7 +3,7 @@ title: IBrightnessContrastEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which represents a BrightnessContrast effect. Ajusts brightness and contrast
 type: docs
-weight: 3180
+weight: 3190
 url: /aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 

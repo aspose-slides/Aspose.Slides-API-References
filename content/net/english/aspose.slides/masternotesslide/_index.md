@@ -3,7 +3,7 @@ title: MasterNotesSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents master slide for notes.
 type: docs
-weight: 7970
+weight: 7980
 url: /aspose.slides/masternotesslide/
 ---
 

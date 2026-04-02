@@ -3,7 +3,7 @@ title: GetRange
 second_title: Aspose.Sildes for .NET API Reference
 description: Gets chart data range.
 type: docs
-weight: 90
+weight: 100
 url: /aspose.slides.charts/chartdata/getrange/
 ---
 

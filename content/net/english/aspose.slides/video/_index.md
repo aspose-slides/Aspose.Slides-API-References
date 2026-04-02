@@ -3,7 +3,7 @@ title: Video
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an image embedded into a presentation.
 type: docs
-weight: 11660
+weight: 11670
 url: /aspose.slides/video/
 ---
 

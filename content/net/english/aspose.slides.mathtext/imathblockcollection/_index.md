@@ -3,7 +3,7 @@ title: IMathBlockCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Collection of math blocks IMathBlock
 type: docs
-weight: 8110
+weight: 8120
 url: /aspose.slides.mathtext/imathblockcollection/
 ---
 

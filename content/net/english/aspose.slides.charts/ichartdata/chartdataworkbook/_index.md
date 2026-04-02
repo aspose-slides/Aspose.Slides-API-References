@@ -15,6 +15,12 @@ Gets the cells factory to create cells used for chart series or categories. Read
 public IChartDataWorkbook ChartDataWorkbook { get; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | Thrown when the workbook format is not supported. |
+
 ### See Also
 
 * interface [IChartDataWorkbook](../../ichartdataworkbook)

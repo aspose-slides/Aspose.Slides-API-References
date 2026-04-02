@@ -3,7 +3,7 @@ title: ICamera
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents Camera.
 type: docs
-weight: 5370
+weight: 5380
 url: /aspose.slides/icamera/
 ---
 

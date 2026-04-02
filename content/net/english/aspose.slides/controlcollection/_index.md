@@ -3,7 +3,7 @@ title: ControlCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: A collection of ActiveX controls.
 type: docs
-weight: 2670
+weight: 2680
 url: /aspose.slides/controlcollection/
 ---
 

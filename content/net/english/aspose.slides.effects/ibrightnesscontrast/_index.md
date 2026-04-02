@@ -3,7 +3,7 @@ title: IBrightnessContrast
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a BrightnessContrast effect. Ajusts brightness and contrast
 type: docs
-weight: 3170
+weight: 3180
 url: /aspose.slides.effects/ibrightnesscontrast/
 ---
 

@@ -3,7 +3,7 @@ title: Conformance
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the conformance class to which the PresentationML document conforms.
 type: docs
-weight: 3710
+weight: 3720
 url: /aspose.slides.export/conformance/
 ---
 
