@@ -661,6 +661,7 @@ url: /com.aspose.slides/
 | [WebDocument](../com.aspose.slides/webdocument) | Represents a transition form of the presentation for saving into a web format. |
 | [WebDocumentOptions](../com.aspose.slides/webdocumentoptions) | Represents an options set for [WebDocument](../com.aspose.slides/webdocument) saving. |
 | [WheelTransition](../com.aspose.slides/wheeltransition) | Wheel slide transition effect. |
+| [WorkbookType](../com.aspose.slides/workbooktype) | Specifies the type of Open XML workbook file. |
 | [XamlOptions](../com.aspose.slides/xamloptions) | Options that control how a XAML document is saved. |
 | [XpsOptions](../com.aspose.slides/xpsoptions) | Provides options that control how a presentation is saved in XPS format. |
 | [Zip64Mode](../com.aspose.slides/zip64mode) | Specifies when to use ZIP64 format extensions for OpenXML file. |
