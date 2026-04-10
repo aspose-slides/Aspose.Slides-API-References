@@ -193,7 +193,7 @@ String
 | getResourceLoadingCallback () | Returns or sets callback interface which manages external resources loading. Read/write IResourceLoadingCallback. |
 
  **Returns:**
-ResourceLoadingAdapter, SvgResourceResolver
+SvgResourceResolver, ResourceLoadingAdapter
 
 
 ---

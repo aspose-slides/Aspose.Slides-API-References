@@ -33,6 +33,12 @@ url: /aspose.slides/chartdata/
  **Returns:**
 [ChartDataWorkbook](../chartdataworkbook)
 
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when the workbook format is not supported. |
+
 
 ---
 
@@ -42,6 +48,19 @@ url: /aspose.slides/chartdata/
 | Name | Description |
 | --- | --- |
 | getDataSourceType () | Represents external workbook path if external data source, null otherwise |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getEmbeddedWorkbookType {#getEmbeddedWorkbookType}
+
+| Name | Description |
+| --- | --- |
+| getEmbeddedWorkbookType () | Gets the type of the embedded workbook. Returns WorkbookType#NotDefined if DataSourceType( #getDataSourceType) is ChartDataSourceType#ExternalWorkbook. Read-only WorkbookType. |
 
  **Returns:**
 int

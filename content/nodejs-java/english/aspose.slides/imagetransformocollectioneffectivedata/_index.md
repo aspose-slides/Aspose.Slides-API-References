@@ -71,7 +71,7 @@ Object
 | index | int | Index of element. |
 
  **Returns:**
-GrayScaleEffectiveData, BiLevelEffectiveData, EffectEffectiveData, BrightnessContrastEffectiveData, AlphaReplaceEffectiveData, DuotoneEffectiveData, HSLEffectiveData, FillOverlayEffectiveData, GlowEffectiveData, TintEffectiveData, PresetShadowEffectiveData, AlphaFloorEffectiveData, ReflectionEffectiveData, AlphaModulateFixedEffectiveData, AlphaInverseEffectiveData, AlphaCeilingEffectiveData, OuterShadowEffectiveData, AlphaBiLevelEffectiveData, ColorReplaceEffectiveData, LuminanceEffectiveData, AlphaModulateEffectiveData, BlurEffectiveData, SoftEdgeEffectiveData, ColorChangeEffectiveData, InnerShadowEffectiveData
+GrayScaleEffectiveData, ReflectionEffectiveData, LuminanceEffectiveData, BrightnessContrastEffectiveData, BiLevelEffectiveData, AlphaModulateFixedEffectiveData, AlphaInverseEffectiveData, DuotoneEffectiveData, AlphaFloorEffectiveData, AlphaBiLevelEffectiveData, SoftEdgeEffectiveData, TintEffectiveData, OuterShadowEffectiveData, ColorChangeEffectiveData, FillOverlayEffectiveData, EffectEffectiveData, BlurEffectiveData, AlphaModulateEffectiveData, GlowEffectiveData, InnerShadowEffectiveData, PresetShadowEffectiveData, HSLEffectiveData, ColorReplaceEffectiveData, AlphaCeilingEffectiveData, AlphaReplaceEffectiveData
 
 
 ---
