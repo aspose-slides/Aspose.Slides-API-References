@@ -25,6 +25,7 @@ The ChartData type exposes the following members:
 | [`secondary_categories`](/slides/python-net/aspose.slides.charts/chartdata/secondary_categories/) | Gets the secondary categories if [`ChartData.use_secondary_categories`](/slides/python-net/aspose.slides.charts/chartdata/use_secondary_categories) property is true.<br/>            Read-only [`IChartCategoryCollection`](/slides/python-net/aspose.slides.charts/ichartcategorycollection). |
 | [`data_source_type`](/slides/python-net/aspose.slides.charts/chartdata/data_source_type/) | Represents external workbook path if external data source, None otherwise |
 | [`external_workbook_path`](/slides/python-net/aspose.slides.charts/chartdata/external_workbook_path/) | Represents data source of the chart |
+| [`embedded_workbook_type`](/slides/python-net/aspose.slides.charts/chartdata/embedded_workbook_type/) | Gets the type of the embedded workbook.<br/>            Returns [`WorkbookType.NOT_DEFINED`](/slides/python-net/aspose.slides.charts/workbooktype/NOT_DEFINED) if [`ChartData.data_source_type`](/slides/python-net/aspose.slides.charts/chartdata/data_source_type) is <br/>            [`ChartDataSourceType.EXTERNAL_WORKBOOK`](/slides/python-net/aspose.slides.charts/chartdatasourcetype/EXTERNAL_WORKBOOK).<br/>            Read-only [`WorkbookType`](/slides/python-net/aspose.slides.charts/workbooktype). |
 
 ## Methods
 
