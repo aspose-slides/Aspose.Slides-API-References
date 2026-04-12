@@ -152,4 +152,5 @@ Contains classes for work with charts in Microsoft PowerPoint presentations.
 | [`TickMarkType`](/slides/python-net/aspose.slides.charts/tickmarktype/) | Represents the tick mark type for the specified axis. |
 | [`TimeUnitType`](/slides/python-net/aspose.slides.charts/timeunittype/) | Represents the base unit for the category axis |
 | [`TrendlineType`](/slides/python-net/aspose.slides.charts/trendlinetype/) | Represents type of trend line |
+| [`WorkbookType`](/slides/python-net/aspose.slides.charts/workbooktype/) | Specifies the type of Open XML workbook file. |
 
