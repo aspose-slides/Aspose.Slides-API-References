@@ -3,7 +3,7 @@ title: SwitchRowColumn()
 second_title: Aspose.Slides for C++ API Reference
 description: Swap the data over the axis. Data being charted on the X axis will move to the Y axis and vice versa.
 type: docs
-weight: 183
+weight: 196
 url: /aspose.slides.charts/chartdata/switchrowcolumn/
 ---
 ## ChartData::SwitchRowColumn() method

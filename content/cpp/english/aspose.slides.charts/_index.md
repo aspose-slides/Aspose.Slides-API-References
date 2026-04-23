@@ -152,6 +152,7 @@ url: /aspose.slides.charts/
 | [TickMarkType](./tickmarktype/) | Represents the tick mark type for the specified axis. |
 | [TimeUnitType](./timeunittype/) | Represents the base unit for the category axis |
 | [TrendlineType](./trendlinetype/) | Represents type of trend line |
+| [WorkbookType](./workbooktype/) | Specifies the type of Open XML workbook file. |
 ## Typedefs
 
 | Typedef | Description |

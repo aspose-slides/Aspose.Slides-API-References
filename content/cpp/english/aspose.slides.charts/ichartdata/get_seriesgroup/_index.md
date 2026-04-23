@@ -3,7 +3,7 @@ title: get_SeriesGroup()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 209
+weight: 222
 url: /aspose.slides.charts/ichartdata/get_seriesgroup/
 ---
 ## IChartData::get_SeriesGroup(System::SharedPtr\<IChartSeries\>) method

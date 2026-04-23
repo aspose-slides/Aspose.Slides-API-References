@@ -3,7 +3,7 @@ title: ReadWorkbookStream()
 second_title: Aspose.Slides for C++ API Reference
 description: Writes the internally contained Excel workbook it into an in-memory stream.
 type: docs
-weight: 118
+weight: 131
 url: /aspose.slides.charts/ichartdata/readworkbookstream/
 ---
 ## IChartData::ReadWorkbookStream() method

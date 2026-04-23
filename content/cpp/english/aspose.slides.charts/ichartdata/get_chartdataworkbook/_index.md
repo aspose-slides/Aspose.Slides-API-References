@@ -15,6 +15,7 @@ Gets the cells factory to create cells used for chart series or categories. Read
 virtual System::SharedPtr<IChartDataWorkbook> Aspose::Slides::Charts::IChartData::get_ChartDataWorkbook()=0
 ```
 
+
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)

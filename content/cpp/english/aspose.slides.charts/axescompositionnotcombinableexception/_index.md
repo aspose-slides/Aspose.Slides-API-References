@@ -3,7 +3,7 @@ title: AxesCompositionNotCombinableException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 1756
+weight: 1769
 url: /aspose.slides.charts/axescompositionnotcombinableexception/
 ---
 ## AxesCompositionNotCombinableException typedef
