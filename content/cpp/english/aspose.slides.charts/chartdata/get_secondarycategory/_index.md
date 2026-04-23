@@ -3,7 +3,7 @@ title: get_SecondaryCategory()
 second_title: Aspose.Slides for C++ API Reference
 description: "Returns the secondary category at the specified index. If get_UseSecondaryCategories is false, then ChartData::get_SecondaryCategories is null."
 type: docs
-weight: 235
+weight: 248
 url: /aspose.slides.charts/chartdata/get_secondarycategory/
 ---
 ## ChartData::get_SecondaryCategory(int32_t) method

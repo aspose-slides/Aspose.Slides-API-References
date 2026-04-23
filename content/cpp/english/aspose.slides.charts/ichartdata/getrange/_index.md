@@ -3,7 +3,7 @@ title: GetRange()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets chart data range.
 type: docs
-weight: 157
+weight: 170
 url: /aspose.slides.charts/ichartdata/getrange/
 ---
 ## IChartData::GetRange() method

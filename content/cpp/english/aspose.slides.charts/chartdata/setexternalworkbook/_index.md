@@ -3,7 +3,7 @@ title: SetExternalWorkbook()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets external workbook as a data source for the chart. Chart data will be updated from the target workbook.
 type: docs
-weight: 170
+weight: 183
 url: /aspose.slides.charts/chartdata/setexternalworkbook/
 ---
 ## ChartData::SetExternalWorkbook(System::String) method

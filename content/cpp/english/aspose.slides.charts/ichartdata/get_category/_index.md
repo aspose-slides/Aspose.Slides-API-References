@@ -3,7 +3,7 @@ title: get_Category()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the primary category at the specified index. If get_UseSecondaryCategories is false, get among all categories.
 type: docs
-weight: 222
+weight: 235
 url: /aspose.slides.charts/ichartdata/get_category/
 ---
 ## IChartData::get_Category(int32_t) method
