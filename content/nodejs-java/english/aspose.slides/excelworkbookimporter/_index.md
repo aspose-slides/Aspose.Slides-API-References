@@ -11,6 +11,23 @@ url: /aspose.slides/excelworkbookimporter/
 
  Provides functionality for importing content from an Excel workbook into a presentation.
  
+
+## Constants
+
+| Name | Value | Description |
+| --- | --- | --- |
+[WORKSHEET_NAME](#WORKSHEET_NAME) | worksheetName |  |
+
+
+---
+
+
+### WORKSHEET_NAME {#WORKSHEET_NAME}
+
+
+---
+
+
 ### addChartFromWorkbook {#addChartFromWorkbook}
 
 | Name | Description |
@@ -126,6 +143,98 @@ url: /aspose.slides/excelworkbookimporter/
 
  **Returns:**
 [Chart](../chart)
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when the input data is in an unsupported format. |
+
+
+---
+
+
+### addTableFromWorkbook {#addTableFromWorkbook}
+
+| Name | Description |
+| --- | --- |
+| addTableFromWorkbook ([ShapeCollection](../shapecollection), float, float, [ExcelDataWorkbook](../exceldataworkbook), String,  String) | Retrieves a table from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shapes | [ShapeCollection](../shapecollection) | The shape collection to which the table will be added. |
+| x | float | The X coordinate for positioning the table. |
+| y | float | The Y coordinate for positioning the table. |
+| workbook | [ExcelDataWorkbook](../exceldataworkbook) | The Excel workbook. |
+| worksheetName | String | The name of the worksheet that contains the table. |
+| cellRange | String | The cell range that defines the table (for example, "A1:D10"). |
+
+ **Returns:**
+[Table](../table)
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when the input data is in an unsupported format. |
+
+
+---
+
+
+### addTableFromWorkbook {#addTableFromWorkbook}
+
+| Name | Description |
+| --- | --- |
+| addTableFromWorkbook ([ShapeCollection](../shapecollection), float, float, String, String, String) | Retrieves a table from the specified Excel workbook file and adds it to the end of the given shape collection at the specified coordinates. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shapes | [ShapeCollection](../shapecollection) | The shape collection to which the table will be added. |
+| x | float | The X coordinate for positioning the table. |
+| y | float | The Y coordinate for positioning the table. |
+| workbookPath | String | The path to the Excel workbook file. |
+| worksheetName | String | The name of the worksheet that contains the table. |
+| cellRange | String | The cell range that defines the table (for example, "A1:D10"). |
+
+ **Returns:**
+[Table](../table)
+
+ **Error**
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Thrown when the input data is in an unsupported format. |
+
+
+---
+
+
+### addTableFromWorkbookFromStream  {#addTableFromWorkbookFromStream }
+
+| Name | Description |
+| --- | --- |
+| addTableFromWorkbookFromStream  (ExcelWorkbookImporter, [ShapeCollection](../shapecollection), float,  float, ReadStream, String, String, Function) | Retrieves a table from the specified Excel workbook file and adds it to the end of the given shape collection at the specified coordinates. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| excelworkbookimporter | ExcelWorkbookImporter  | link to self |
+| shapes | [ShapeCollection](../shapecollection) | The shape collection to which the table will be added. |
+| x | float | The X coordinate for positioning the table. |
+| y | float | The Y coordinate for positioning the table. |
+| workbookStream | ReadStream | A stream containing the workbook data. |
+| worksheetName | String | The name of the worksheet that contains the table. |
+| cellRange | String | The cell range that defines the table (for example, "A1:D10"). |
+| callback | Function | callback(error, Returns) - Callback to be called when the method has completed |
+
+ **Returns:**
+[Table](../table)
 
  **Error**
 
