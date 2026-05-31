@@ -3,7 +3,7 @@ title: IndexOfAnyInRange()
 second_title: Aspose.Slides for C++ API Reference
 description: Finds the index of the first element that is within the specified range in a ReadOnlySpan<T>
 type: docs
-weight: 222
+weight: 196
 url: /system.memoryextensions/indexofanyinrange/
 ---
 ## System::MemoryExtensions::IndexOfAnyInRange(const ReadOnlySpan\<T\>\&, const T\&, const T\&) function

@@ -3,7 +3,7 @@ title: ToLowerInvariant()
 second_title: Aspose.Slides for C++ API Reference
 description: Converts characters to lowercase using invariant culture.
 type: docs
-weight: 417
+weight: 456
 url: /system.memoryextensions/tolowerinvariant/
 ---
 ## System::MemoryExtensions::ToLowerInvariant(const ReadOnlySpan\<char16_t\>\&, Span\<char16_t\>\&) function

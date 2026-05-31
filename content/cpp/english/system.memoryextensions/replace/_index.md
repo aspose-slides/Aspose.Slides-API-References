@@ -3,7 +3,7 @@ title: Replace()
 second_title: Aspose.Slides for C++ API Reference
 description: Replaces all occurrences of a value with a new value in a Span.
 type: docs
-weight: 326
+weight: 287
 url: /system.memoryextensions/replace/
 ---
 ## System::MemoryExtensions::Replace(Span\<T\>\&, const T\&, const T\&) function

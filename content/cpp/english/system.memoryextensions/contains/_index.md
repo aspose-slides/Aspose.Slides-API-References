@@ -1,33 +1,11 @@
 ---
 title: Contains()
 second_title: Aspose.Slides for C++ API Reference
-description: Checks if a character span contains another character span with specified comparison rules.
+description: Checks if a read-only span contains a specific value.
 type: docs
-weight: 53
+weight: 40
 url: /system.memoryextensions/contains/
 ---
-## System::MemoryExtensions::Contains(const ReadOnlySpan\<char16_t\>\&, const ReadOnlySpan\<char16_t\>\&, StringComparison) function
-
-
-Checks if a character span contains another character span with specified comparison rules.
-
-```cpp
-bool System::MemoryExtensions::Contains(const ReadOnlySpan<char16_t> &span, const ReadOnlySpan<char16_t> &value, StringComparison comparisonType)
-```
-
-
-### Arguments
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The span to search in |
-| value | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The span to search for |
-| comparisonType | [StringComparison](../../system/stringcomparison/) | The type of string comparison to perform |
-
-### Return Value
-
-true if value is found in span, false otherwise
-
 ## System::MemoryExtensions::Contains(const ReadOnlySpan\<T\>\&, const T\&) function
 
 
@@ -77,6 +55,28 @@ template<typename T> bool System::MemoryExtensions::Contains(const Span<T> &span
 | --- | --- | --- |
 | span | const [Span](../../system/span/)\<T\>\& | The mutable span to search in |
 | value | const T\& | The value to search for |
+
+### Return Value
+
+true if value is found in span, false otherwise
+
+## System::MemoryExtensions::Contains(const ReadOnlySpan\<char16_t\>\&, const ReadOnlySpan\<char16_t\>\&, StringComparison) function
+
+
+Checks if a character span contains another character span with specified comparison rules.
+
+```cpp
+bool System::MemoryExtensions::Contains(const ReadOnlySpan<char16_t> &span, const ReadOnlySpan<char16_t> &value, StringComparison comparisonType)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The span to search in |
+| value | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The span to search for |
+| comparisonType | [StringComparison](../../system/stringcomparison/) | The type of string comparison to perform |
 
 ### Return Value
 

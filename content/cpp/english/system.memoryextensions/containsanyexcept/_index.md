@@ -3,7 +3,7 @@ title: ContainsAnyExcept()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if a read-only span contains any element except three specified values.
 type: docs
-weight: 79
+weight: 66
 url: /system.memoryextensions/containsanyexcept/
 ---
 ## System::MemoryExtensions::ContainsAnyExcept(const ReadOnlySpan\<T\>\&, const T\&, const T\&, const T\&) function

@@ -3,7 +3,7 @@ title: CompareTo()
 second_title: Aspose.Slides for C++ API Reference
 description: Compares two character spans with specified string comparison rules.
 type: docs
-weight: 40
+weight: 404
 url: /system.memoryextensions/compareto/
 ---
 ## System::MemoryExtensions::CompareTo(const ReadOnlySpan\<char16_t\>\&, const ReadOnlySpan\<char16_t\>\&, StringComparison) function

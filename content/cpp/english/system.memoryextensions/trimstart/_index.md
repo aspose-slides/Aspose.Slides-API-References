@@ -3,7 +3,7 @@ title: TrimStart()
 second_title: Aspose.Slides for C++ API Reference
 description: Trims specified element from the start of a typed span.
 type: docs
-weight: 482
+weight: 391
 url: /system.memoryextensions/trimstart/
 ---
 ## System::MemoryExtensions::TrimStart(const ReadOnlySpan\<T\>\&, const T\&) function

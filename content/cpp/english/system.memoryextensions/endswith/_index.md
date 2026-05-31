@@ -1,33 +1,11 @@
 ---
 title: EndsWith()
 second_title: Aspose.Slides for C++ API Reference
-description: Determines if a ReadOnlySpan<char16_t> ends with the specified value using StringComparison.
+description: Determines if a ReadOnlySpan<T> ends with a single value.
 type: docs
-weight: 144
+weight: 131
 url: /system.memoryextensions/endswith/
 ---
-## System::MemoryExtensions::EndsWith(const ReadOnlySpan\<char16_t\>\&, const ReadOnlySpan\<char16_t\>\&, StringComparison) function
-
-
-Determines if a ReadOnlySpan<char16_t> ends with the specified value using StringComparison.
-
-```cpp
-bool System::MemoryExtensions::EndsWith(const ReadOnlySpan<char16_t> &span, const ReadOnlySpan<char16_t> &value, StringComparison comparisonType)
-```
-
-
-### Arguments
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The span to check |
-| value | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The value to check for at the end of the span |
-| comparisonType | [StringComparison](../../system/stringcomparison/) | The string comparison type to use |
-
-### Return Value
-
-true if the span ends with the value, false otherwise
-
 ## System::MemoryExtensions::EndsWith(const ReadOnlySpan\<T\>\&, const T\&) function
 
 
@@ -162,6 +140,28 @@ template<typename T> bool System::MemoryExtensions::EndsWith(const Span<T> &span
 ### Return Value
 
 true if the span ends with the value span, false otherwise
+
+## System::MemoryExtensions::EndsWith(const ReadOnlySpan\<char16_t\>\&, const ReadOnlySpan\<char16_t\>\&, StringComparison) function
+
+
+Determines if a ReadOnlySpan<char16_t> ends with the specified value using StringComparison.
+
+```cpp
+bool System::MemoryExtensions::EndsWith(const ReadOnlySpan<char16_t> &span, const ReadOnlySpan<char16_t> &value, StringComparison comparisonType)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The span to check |
+| value | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The value to check for at the end of the span |
+| comparisonType | [StringComparison](../../system/stringcomparison/) | The string comparison type to use |
+
+### Return Value
+
+true if the span ends with the value, false otherwise
 
 ## See Also
 

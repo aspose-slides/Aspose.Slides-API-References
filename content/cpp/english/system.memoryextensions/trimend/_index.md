@@ -3,7 +3,7 @@ title: TrimEnd()
 second_title: Aspose.Slides for C++ API Reference
 description: Trims specified element from the end of a typed span.
 type: docs
-weight: 469
+weight: 378
 url: /system.memoryextensions/trimend/
 ---
 ## System::MemoryExtensions::TrimEnd(const ReadOnlySpan\<T\>\&, const T\&) function

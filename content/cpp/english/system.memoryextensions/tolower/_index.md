@@ -3,7 +3,7 @@ title: ToLower()
 second_title: Aspose.Slides for C++ API Reference
 description: Converts characters to lowercase using specified culture.
 type: docs
-weight: 404
+weight: 443
 url: /system.memoryextensions/tolower/
 ---
 ## System::MemoryExtensions::ToLower(const ReadOnlySpan\<char16_t\>\&, Span\<char16_t\>\&, const SharedPtr\<Globalization::CultureInfo\>\&) function

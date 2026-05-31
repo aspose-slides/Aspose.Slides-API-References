@@ -3,7 +3,7 @@ title: IndexOfAnyExcept()
 second_title: Aspose.Slides for C++ API Reference
 description: Finds the index of the first element that is not equal to the specified value in a ReadOnlySpan<T>
 type: docs
-weight: 196
+weight: 170
 url: /system.memoryextensions/indexofanyexcept/
 ---
 ## System::MemoryExtensions::IndexOfAnyExcept(const ReadOnlySpan\<T\>\&, const T\&) function

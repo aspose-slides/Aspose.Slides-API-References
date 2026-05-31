@@ -3,7 +3,7 @@ title: ExcelWorkbookImporter()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 14
+weight: 27
 url: /aspose.slides.import/excelworkbookimporter/excelworkbookimporter/
 ---
 ## ExcelWorkbookImporter::ExcelWorkbookImporter() constructor

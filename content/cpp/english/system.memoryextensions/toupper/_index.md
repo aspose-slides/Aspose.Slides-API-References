@@ -3,7 +3,7 @@ title: ToUpper()
 second_title: Aspose.Slides for C++ API Reference
 description: Converts characters to uppercase using specified culture.
 type: docs
-weight: 430
+weight: 469
 url: /system.memoryextensions/toupper/
 ---
 ## System::MemoryExtensions::ToUpper(const ReadOnlySpan\<char16_t\>\&, Span\<char16_t\>\&, const SharedPtr\<Globalization::CultureInfo\>\&) function
