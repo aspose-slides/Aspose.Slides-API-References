@@ -3,7 +3,7 @@ title: IsWhiteSpace()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if the entire span consists only of whitespace characters.
 type: docs
-weight: 235
+weight: 430
 url: /system.memoryextensions/iswhitespace/
 ---
 ## System::MemoryExtensions::IsWhiteSpace(const ReadOnlySpan\<char16_t\>\&) function

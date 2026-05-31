@@ -3,7 +3,7 @@ title: LastIndexOfAnyExcept()
 second_title: Aspose.Slides for C++ API Reference
 description: Finds the last occurrence of any element except three specified values within a span.
 type: docs
-weight: 274
+weight: 235
 url: /system.memoryextensions/lastindexofanyexcept/
 ---
 ## System::MemoryExtensions::LastIndexOfAnyExcept(const ReadOnlySpan\<T\>\&, const T\&, const T\&, const T\&) function

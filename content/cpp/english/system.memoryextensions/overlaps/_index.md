@@ -3,7 +3,7 @@ title: Overlaps()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if two ReadOnlySpans overlap in memory without calculating offset.
 type: docs
-weight: 313
+weight: 274
 url: /system.memoryextensions/overlaps/
 ---
 ## System::MemoryExtensions::Overlaps(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function

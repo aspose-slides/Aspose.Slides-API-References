@@ -3,7 +3,7 @@ title: ContainsAnyInRange()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if a read-only span contains any element within the specified range.
 type: docs
-weight: 105
+weight: 92
 url: /system.memoryextensions/containsanyinrange/
 ---
 ## System::MemoryExtensions::ContainsAnyInRange(const ReadOnlySpan\<T\>\&, const T\&, const T\&) function

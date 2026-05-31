@@ -3,7 +3,7 @@ title: LastIndexOfAny()
 second_title: Aspose.Slides for C++ API Reference
 description: Finds the last occurrence of any of three specified values within a span.
 type: docs
-weight: 261
+weight: 222
 url: /system.memoryextensions/lastindexofany/
 ---
 ## System::MemoryExtensions::LastIndexOfAny(const ReadOnlySpan\<T\>\&, const T\&, const T\&, const T\&) function

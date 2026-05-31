@@ -3,7 +3,7 @@ title: StartsWith()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if the span starts with the specified value.
 type: docs
-weight: 391
+weight: 352
 url: /system.memoryextensions/startswith/
 ---
 ## System::MemoryExtensions::StartsWith(const ReadOnlySpan\<T\>\&, const T\&) function
@@ -32,27 +32,6 @@ template<typename T> bool System::MemoryExtensions::StartsWith(const ReadOnlySpa
 ### Return Value
 
 true if the span starts with the value, false otherwise
-
-## System::MemoryExtensions::StartsWith(const ReadOnlySpan\<String\>\&, const char16_t *) function
-
-
-Checks if a string span starts with the specified character array.
-
-```cpp
-bool System::MemoryExtensions::StartsWith(const ReadOnlySpan<String> &span, const char16_t *val)
-```
-
-
-### Arguments
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<[String](../../system/string/)\>\& | The string span to check |
-| val | const char16_t * | The character array to check for at the beginning |
-
-### Return Value
-
-true if the span starts with the character array, false otherwise
 
 ## System::MemoryExtensions::StartsWith(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function
 
@@ -157,11 +136,32 @@ bool System::MemoryExtensions::StartsWith(const ReadOnlySpan<char16_t> &span, co
 
 true if the span starts with the value span, false otherwise
 
+## System::MemoryExtensions::StartsWith(const ReadOnlySpan\<String\>\&, const char16_t *) function
+
+
+Checks if a string span starts with the specified character array.
+
+```cpp
+bool System::MemoryExtensions::StartsWith(const ReadOnlySpan<String> &span, const char16_t *val)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<[String](../../system/string/)\>\& | The string span to check |
+| val | const char16_t * | The character array to check for at the beginning |
+
+### Return Value
+
+true if the span starts with the character array, false otherwise
+
 ## See Also
 
 * Enum [StringComparison](../../system/stringcomparison/)
 * Class [ReadOnlySpan](../../system/readonlyspan/)
-* Class [String](../../system/string/)
 * Class [Span](../../system/span/)
+* Class [String](../../system/string/)
 * Namespace [System::MemoryExtensions](../)
 * Library [Aspose.Slides](../../)

@@ -1,33 +1,11 @@
 ---
 title: IndexOf()
 second_title: Aspose.Slides for C++ API Reference
-description: Finds the index of a ReadOnlySpan<char16_t> value in a ReadOnlySpan<char16_t> with StringComparison.
+description: Finds the index of a ReadOnlySpan<T> value in another ReadOnlySpan<T>
 type: docs
-weight: 170
+weight: 144
 url: /system.memoryextensions/indexof/
 ---
-## System::MemoryExtensions::IndexOf(const ReadOnlySpan\<char16_t\>\&, const ReadOnlySpan\<char16_t\>\&, StringComparison) function
-
-
-Finds the index of a ReadOnlySpan<char16_t> value in a ReadOnlySpan<char16_t> with StringComparison.
-
-```cpp
-int32_t System::MemoryExtensions::IndexOf(const ReadOnlySpan<char16_t> &span, const ReadOnlySpan<char16_t> &value, StringComparison comparisonType)
-```
-
-
-### Arguments
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The span to search in |
-| value | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The value to search for |
-| comparisonType | [StringComparison](../../system/stringcomparison/) | The string comparison type to use |
-
-### Return Value
-
-The zero-based index of the first occurrence, or -1 if not found
-
 ## System::MemoryExtensions::IndexOf(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function
 
 
@@ -131,6 +109,28 @@ template<typename T> int32_t System::MemoryExtensions::IndexOf(const Span<T> &sp
 | --- | --- | --- |
 | span | const [Span](../../system/span/)\<T\>\& | The span to search in |
 | value | const T\& | The value to search for |
+
+### Return Value
+
+The zero-based index of the first occurrence, or -1 if not found
+
+## System::MemoryExtensions::IndexOf(const ReadOnlySpan\<char16_t\>\&, const ReadOnlySpan\<char16_t\>\&, StringComparison) function
+
+
+Finds the index of a ReadOnlySpan<char16_t> value in a ReadOnlySpan<char16_t> with StringComparison.
+
+```cpp
+int32_t System::MemoryExtensions::IndexOf(const ReadOnlySpan<char16_t> &span, const ReadOnlySpan<char16_t> &value, StringComparison comparisonType)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| span | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The span to search in |
+| value | const [ReadOnlySpan](../../system/readonlyspan/)\<char16_t\>\& | The value to search for |
+| comparisonType | [StringComparison](../../system/stringcomparison/) | The string comparison type to use |
 
 ### Return Value
 

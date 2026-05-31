@@ -3,7 +3,7 @@ title: LastIndexOfAnyExceptInRange()
 second_title: Aspose.Slides for C++ API Reference
 description: Finds the last occurrence of any element outside the specified range within a span.
 type: docs
-weight: 287
+weight: 248
 url: /system.memoryextensions/lastindexofanyexceptinrange/
 ---
 ## System::MemoryExtensions::LastIndexOfAnyExceptInRange(const ReadOnlySpan\<T\>\&, const T\&, const T\&) function

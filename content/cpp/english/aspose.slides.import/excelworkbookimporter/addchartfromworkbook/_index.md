@@ -120,7 +120,7 @@ Example:
 ```cpp
 auto fStream = System::MakeObject<System::IO::FileStream>(workbookPath, System::IO::FileMode::Open, System::IO::FileAccess::Read);
 auto pres = System::MakeObject<Presentation>();
-ExcelWorkbookImporter::AddChartFromWorkbook(pres->get_LayoutSlides()->idx_get(0)->get_Shapes(), 10.0f, 10.0f, fStream, worksheetName, chartName, true);
+ExcelWorkbookImporter::AddChartFromWorkbook(pres->get_LayoutSlide(0)->get_Shapes(), 10.0f, 10.0f, fStream, worksheetName, chartName, true);
 pres->Save(u"result.pptx", SaveFormat::Pptx);
 ```
 

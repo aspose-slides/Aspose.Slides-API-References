@@ -3,7 +3,7 @@ title: Equals()
 second_title: Aspose.Slides for C++ API Reference
 description: Compares two ReadOnlySpan<char16_t> for equality using StringComparison.
 type: docs
-weight: 157
+weight: 417
 url: /system.memoryextensions/equals/
 ---
 ## System::MemoryExtensions::Equals(const ReadOnlySpan\<char16_t\>\&, const ReadOnlySpan\<char16_t\>\&, StringComparison) function

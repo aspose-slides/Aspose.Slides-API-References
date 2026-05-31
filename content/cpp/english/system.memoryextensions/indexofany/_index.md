@@ -3,7 +3,7 @@ title: IndexOfAny()
 second_title: Aspose.Slides for C++ API Reference
 description: Finds the index of the first occurrence of any of two specified values in a ReadOnlySpan<T>
 type: docs
-weight: 183
+weight: 157
 url: /system.memoryextensions/indexofany/
 ---
 ## System::MemoryExtensions::IndexOfAny(const ReadOnlySpan\<T\>\&, const T\&, const T\&) function

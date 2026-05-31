@@ -3,7 +3,7 @@ title: ContainsAny()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks if a read-only span contains any of two values.
 type: docs
-weight: 66
+weight: 53
 url: /system.memoryextensions/containsany/
 ---
 ## System::MemoryExtensions::ContainsAny(const ReadOnlySpan\<T\>\&, const T\&, const T\&) function

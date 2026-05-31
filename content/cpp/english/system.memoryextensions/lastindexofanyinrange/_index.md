@@ -3,7 +3,7 @@ title: LastIndexOfAnyInRange()
 second_title: Aspose.Slides for C++ API Reference
 description: Finds the last occurrence of any element within the specified range within a span.
 type: docs
-weight: 300
+weight: 261
 url: /system.memoryextensions/lastindexofanyinrange/
 ---
 ## System::MemoryExtensions::LastIndexOfAnyInRange(const ReadOnlySpan\<T\>\&, const T\&, const T\&) function

@@ -3,7 +3,7 @@ title: SequenceCompareTo()
 second_title: Aspose.Slides for C++ API Reference
 description: Compares two ReadOnlySpans lexicographically.
 type: docs
-weight: 352
+weight: 313
 url: /system.memoryextensions/sequencecompareto/
 ---
 ## System::MemoryExtensions::SequenceCompareTo(const ReadOnlySpan\<T\>\&, const ReadOnlySpan\<T\>\&) function
