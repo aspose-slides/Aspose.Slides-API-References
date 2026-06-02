@@ -3,7 +3,7 @@ title: GradientStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the available gradient styles.
 type: docs
-weight: 5030
+weight: 5040
 url: /aspose.slides/gradientstyle/
 ---
 

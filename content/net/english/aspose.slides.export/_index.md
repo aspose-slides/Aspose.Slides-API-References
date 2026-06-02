@@ -86,6 +86,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | --- | --- |
 | [BlackWhiteConversionMode](./blackwhiteconversionmode) | Provides options that control how slides' images will be converted to bitonal images. |
 | [CommentsPositions](./commentspositions) | Represents the rule to render comments into exported document |
+| [CompressionLevel](./compressionlevel) | Specifies ZIP compression levels for OpenXML file. Higher levels provide better compression at the cost of slower processing. |
 | [Conformance](./conformance) | Specifies the conformance class to which the PresentationML document conforms. |
 | [EmbedFontCharacters](./embedfontcharacters) | Represents the rule to use for adding new embedding font into [`IPresentation`](../aspose.slides/ipresentation) |
 | [Flavor](./flavor) | All markdown specifications used in program. |

@@ -3,7 +3,7 @@ title: SensitivityLabel
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the sensitivity label from Microsoft Purview Information Protection.
 type: docs
-weight: 9760
+weight: 9770
 url: /aspose.slides/sensitivitylabel/
 ---
 

@@ -3,7 +3,7 @@ title: ICaptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the WebVTT closed captions.
 type: docs
-weight: 5400
+weight: 5410
 url: /aspose.slides/icaptions/
 ---
 

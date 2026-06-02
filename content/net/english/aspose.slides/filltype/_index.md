@@ -3,7 +3,7 @@ title: FillType
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the interior fill type of various visual objects.
 type: docs
-weight: 4760
+weight: 4770
 url: /aspose.slides/filltype/
 ---
 

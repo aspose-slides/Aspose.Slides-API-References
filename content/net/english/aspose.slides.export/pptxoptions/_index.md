@@ -3,7 +3,7 @@ title: PptxOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents options for saving OpenXml presentations PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
-weight: 4340
+weight: 4350
 url: /aspose.slides.export/pptxoptions/
 ---
 
@@ -25,6 +25,7 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 
 | Name | Description |
 | --- | --- |
+| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | Specifies the compression level used when saving the presentation document. The default value is Level6. |
 | [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Specifies the conformance class to which the Presentation document conforms. Default value is Ecma376_2006 |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. Read-write String. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returns or sets the visual style of the gradient. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |

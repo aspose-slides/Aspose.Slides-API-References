@@ -3,7 +3,7 @@ title: TransitionLeftRightDirectionType
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies a direction restricted to the values of left and right.
 type: docs
-weight: 10350
+weight: 10360
 url: /aspose.slides.slideshow/transitionleftrightdirectiontype/
 ---
 

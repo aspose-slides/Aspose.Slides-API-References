@@ -3,7 +3,7 @@ title: IInkActions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an ink object on a slide.
 type: docs
-weight: 7490
+weight: 7500
 url: /aspose.slides.ink/iinkactions/
 ---
 

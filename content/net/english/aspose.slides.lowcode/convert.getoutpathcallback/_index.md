@@ -3,7 +3,7 @@ title: Convert.GetOutPathCallback
 second_title: Aspose.Sildes for .NET API Reference
 description: Callback that will be invoked for each Slide../aspose.slides/slide the output path expected to be returned.
 type: docs
-weight: 7860
+weight: 7870
 url: /aspose.slides.lowcode/convert.getoutpathcallback/
 ---
 

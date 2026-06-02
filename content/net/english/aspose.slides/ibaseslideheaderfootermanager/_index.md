@@ -3,7 +3,7 @@ title: IBaseSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents manager which holds behavior of the footer date-time page number placeholders for all slide types.
 type: docs
-weight: 5320
+weight: 5330
 url: /aspose.slides/ibaseslideheaderfootermanager/
 ---
 

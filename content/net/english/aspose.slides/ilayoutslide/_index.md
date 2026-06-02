@@ -3,7 +3,7 @@ title: ILayoutSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a layout slide.
 type: docs
-weight: 6190
+weight: 6200
 url: /aspose.slides/ilayoutslide/
 ---
 

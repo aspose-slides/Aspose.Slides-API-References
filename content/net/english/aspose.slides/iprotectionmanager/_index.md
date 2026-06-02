@@ -3,7 +3,7 @@ title: IProtectionManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Presentation password protection management.
 type: docs
-weight: 6790
+weight: 6800
 url: /aspose.slides/iprotectionmanager/
 ---
 

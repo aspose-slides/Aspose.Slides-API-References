@@ -3,7 +3,7 @@ title: Conformance
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the conformance class to which the Presentation document conforms. Default value is Ecma376_2006
 type: docs
-weight: 20
+weight: 30
 url: /aspose.slides.export/ipptxoptions/conformance/
 ---
 

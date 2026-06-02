@@ -3,7 +3,7 @@ title: EmbeddedWoffFontsHtmlController
 second_title: Aspose.Sildes for .NET API Reference
 description: The formatting controller class to use for fonts embedding in WOFF format
 type: docs
-weight: 3760
+weight: 3770
 url: /aspose.slides.export/embeddedwofffontshtmlcontroller/
 ---
 

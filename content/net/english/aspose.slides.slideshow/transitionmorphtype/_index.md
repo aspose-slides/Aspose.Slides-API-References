@@ -3,7 +3,7 @@ title: TransitionMorphType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent a type of morph transition.
 type: docs
-weight: 10360
+weight: 10370
 url: /aspose.slides.slideshow/transitionmorphtype/
 ---
 
