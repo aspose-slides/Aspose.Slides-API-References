@@ -80,6 +80,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | :- | :- |
 | [`BlackWhiteConversionMode`](/slides/python-net/aspose.slides.export/blackwhiteconversionmode/) | Provides options that control how slides' images will be converted to bitonal images. |
 | [`CommentsPositions`](/slides/python-net/aspose.slides.export/commentspositions/) | Represents the rule to render comments into exported document |
+| [`CompressionLevel`](/slides/python-net/aspose.slides.export/compressionlevel/) | Specifies ZIP compression levels for OpenXML file.<br/>            Higher levels provide better compression at the cost of slower processing. |
 | [`Conformance`](/slides/python-net/aspose.slides.export/conformance/) | Specifies the conformance class to which the PresentationML document conforms. |
 | [`EmbedFontCharacters`](/slides/python-net/aspose.slides.export/embedfontcharacters/) | Represents the rule to use for adding new embedding font into [`IPresentation`](/slides/python-net/aspose.slides/ipresentation) |
 | [`Flavor`](/slides/python-net/aspose.slides.export/flavor/) | All markdown specifications used in program. |
