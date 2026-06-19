@@ -138,6 +138,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [CommentsPositions](commentspositions) | Represents the rule to render comments into exported document |
 | [CommonSlideViewProperties](commonslideviewproperties) | Represents common slide view properties. |
 | [Compress](compress) | Represents a group of methods intended to compress Presentation. |
+| [CompressionLevel](compressionlevel) | Specifies ZIP compression levels for OpenXML file. Higher levels provide better compression at the cost of slower processing. |
 | [Conformance](conformance) | Specifies the conformance class to which the PresentationML document conforms. |
 | [Connector](connector) | Represents a connector. |
 | [ConnectorLock](connectorlock) | Determines which operations are disabled on the parent Connector. |

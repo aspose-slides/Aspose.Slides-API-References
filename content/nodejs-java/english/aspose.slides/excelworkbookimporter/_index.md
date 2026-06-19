@@ -11,23 +11,6 @@ url: /aspose.slides/excelworkbookimporter/
 
  Provides functionality for importing content from an Excel workbook into a presentation.
  
-
-## Constants
-
-| Name | Value | Description |
-| --- | --- | --- |
-[WORKSHEET_NAME](#WORKSHEET_NAME) | worksheetName |  |
-
-
----
-
-
-### WORKSHEET_NAME {#WORKSHEET_NAME}
-
-
----
-
-
 ### addChartFromWorkbook {#addChartFromWorkbook}
 
 | Name | Description |

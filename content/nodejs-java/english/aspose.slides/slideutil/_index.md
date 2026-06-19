@@ -28,7 +28,7 @@ SlideUtil
 
 | Name | Description |
 | --- | --- |
-| alignShapes (int, boolean, [MasterHandoutSlide](../masterhandoutslide)) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| alignShapes (int, boolean, [LayoutSlide](../layoutslide)) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
  **Parameters:**
 
@@ -36,7 +36,7 @@ SlideUtil
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | [MasterHandoutSlide](../masterhandoutslide) | Parent slide. |
+| slide | [LayoutSlide](../layoutslide) | Parent slide. |
 
 
 ---
@@ -64,7 +64,7 @@ SlideUtil
 
 | Name | Description |
 | --- | --- |
-| alignShapes (int, boolean, [BaseSlide](../baseslide)) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| alignShapes (int, boolean, [MasterSlide](../masterslide)) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
  **Parameters:**
 
@@ -72,7 +72,25 @@ SlideUtil
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | [BaseSlide](../baseslide) | Parent slide. |
+| slide | [MasterSlide](../masterslide) | Parent slide. |
+
+
+---
+
+
+### alignShapes {#alignShapes}
+
+| Name | Description |
+| --- | --- |
+| alignShapes (int, boolean, [MasterHandoutSlide](../masterhandoutslide)) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | [MasterHandoutSlide](../masterhandoutslide) | Parent slide. |
 
 
 ---
@@ -100,7 +118,7 @@ SlideUtil
 
 | Name | Description |
 | --- | --- |
-| alignShapes (int, boolean, [LayoutSlide](../layoutslide)) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| alignShapes (int, boolean, [BaseSlide](../baseslide)) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
  **Parameters:**
 
@@ -108,25 +126,7 @@ SlideUtil
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | [LayoutSlide](../layoutslide) | Parent slide. |
-
-
----
-
-
-### alignShapes {#alignShapes}
-
-| Name | Description |
-| --- | --- |
-| alignShapes (int, boolean, [MasterSlide](../masterslide)) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| alignmentType | int | Determines which type of alignment will be applied. |
-| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | [MasterSlide](../masterslide) | Parent slide. |
+| slide | [BaseSlide](../baseslide) | Parent slide. |
 
 
 ---
@@ -154,7 +154,7 @@ SlideUtil
 
 | Name | Description |
 | --- | --- |
-| alignShapes (int, boolean, [MasterHandoutSlide](../masterhandoutslide), int[]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| alignShapes (int, boolean, [LayoutSlide](../layoutslide), int[]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
  **Parameters:**
 
@@ -162,7 +162,7 @@ SlideUtil
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | [MasterHandoutSlide](../masterhandoutslide) | Parent slide. |
+| slide | [LayoutSlide](../layoutslide) | Parent slide. |
 | shapeIndexes | int[] | Indexes of shapes to be aligned. |
 
 
@@ -192,7 +192,7 @@ SlideUtil
 
 | Name | Description |
 | --- | --- |
-| alignShapes (int, boolean, [BaseSlide](../baseslide), int[]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| alignShapes (int, boolean, [MasterSlide](../masterslide), int[]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
  **Parameters:**
 
@@ -200,7 +200,26 @@ SlideUtil
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | [BaseSlide](../baseslide) | Parent slide. |
+| slide | [MasterSlide](../masterslide) | Parent slide. |
+| shapeIndexes | int[] | Indexes of shapes to be aligned. |
+
+
+---
+
+
+### alignShapes {#alignShapes}
+
+| Name | Description |
+| --- | --- |
+| alignShapes (int, boolean, [MasterHandoutSlide](../masterhandoutslide), int[]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | [MasterHandoutSlide](../masterhandoutslide) | Parent slide. |
 | shapeIndexes | int[] | Indexes of shapes to be aligned. |
 
 
@@ -230,7 +249,7 @@ SlideUtil
 
 | Name | Description |
 | --- | --- |
-| alignShapes (int, boolean, [LayoutSlide](../layoutslide), int[]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| alignShapes (int, boolean, [BaseSlide](../baseslide), int[]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
  **Parameters:**
 
@@ -238,26 +257,7 @@ SlideUtil
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | [LayoutSlide](../layoutslide) | Parent slide. |
-| shapeIndexes | int[] | Indexes of shapes to be aligned. |
-
-
----
-
-
-### alignShapes {#alignShapes}
-
-| Name | Description |
-| --- | --- |
-| alignShapes (int, boolean, [MasterSlide](../masterslide), int[]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| alignmentType | int | Determines which type of alignment will be applied. |
-| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | [MasterSlide](../masterslide) | Parent slide. |
+| slide | [BaseSlide](../baseslide) | Parent slide. |
 | shapeIndexes | int[] | Indexes of shapes to be aligned. |
 
 
@@ -373,87 +373,7 @@ SlideUtil
 | altText | String | Alternative text of a shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [SmartArt](../smartart), [GeometryShape](../geometryshape), [Ink](../ink), [Shape](../shape), [GroupShape](../groupshape), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [SectionZoomFrame](../sectionzoomframe), [InkActions](../inkactions), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe)
-
-
----
-
-
-### findShape {#findShape}
-
-| Name | Description |
-| --- | --- |
-| findShape ([MasterHandoutSlide](../masterhandoutslide), String) | Find shape by alternative text on a slide in a PPTX presentation. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [MasterHandoutSlide](../masterhandoutslide) | Scanned slide. |
-| altText | String | Alternative text of a shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [SmartArt](../smartart), [GeometryShape](../geometryshape), [Ink](../ink), [Shape](../shape), [GroupShape](../groupshape), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [SectionZoomFrame](../sectionzoomframe), [InkActions](../inkactions), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe)
-
-
----
-
-
-### findShape {#findShape}
-
-| Name | Description |
-| --- | --- |
-| findShape ([Slide](../slide), String) | Find shape by alternative text on a slide in a PPTX presentation. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [Slide](../slide) | Scanned slide. |
-| altText | String | Alternative text of a shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [SmartArt](../smartart), [GeometryShape](../geometryshape), [Ink](../ink), [Shape](../shape), [GroupShape](../groupshape), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [SectionZoomFrame](../sectionzoomframe), [InkActions](../inkactions), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe)
-
-
----
-
-
-### findShape {#findShape}
-
-| Name | Description |
-| --- | --- |
-| findShape ([BaseSlide](../baseslide), String) | Find shape by alternative text on a slide in a PPTX presentation. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [BaseSlide](../baseslide) | Scanned slide. |
-| altText | String | Alternative text of a shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [SmartArt](../smartart), [GeometryShape](../geometryshape), [Ink](../ink), [Shape](../shape), [GroupShape](../groupshape), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [SectionZoomFrame](../sectionzoomframe), [InkActions](../inkactions), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe)
-
-
----
-
-
-### findShape {#findShape}
-
-| Name | Description |
-| --- | --- |
-| findShape ([NotesSlide](../notesslide), String) | Find shape by alternative text on a slide in a PPTX presentation. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [NotesSlide](../notesslide) | Scanned slide. |
-| altText | String | Alternative text of a shape. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [SmartArt](../smartart), [GeometryShape](../geometryshape), [Ink](../ink), [Shape](../shape), [GroupShape](../groupshape), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [SectionZoomFrame](../sectionzoomframe), [InkActions](../inkactions), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe)
+[ZoomObject](../zoomobject), [Connector](../connector), [Ink](../ink), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [GeometryShape](../geometryshape), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [Chart](../chart), [InkActions](../inkactions), [Shape](../shape)
 
 
 ---
@@ -473,7 +393,27 @@ SlideUtil
 | altText | String | Alternative text of a shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [SmartArt](../smartart), [GeometryShape](../geometryshape), [Ink](../ink), [Shape](../shape), [GroupShape](../groupshape), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [SectionZoomFrame](../sectionzoomframe), [InkActions](../inkactions), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe)
+[ZoomObject](../zoomobject), [Connector](../connector), [Ink](../ink), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [GeometryShape](../geometryshape), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [Chart](../chart), [InkActions](../inkactions), [Shape](../shape)
+
+
+---
+
+
+### findShape {#findShape}
+
+| Name | Description |
+| --- | --- |
+| findShape ([Slide](../slide), String) | Find shape by alternative text on a slide in a PPTX presentation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | [Slide](../slide) | Scanned slide. |
+| altText | String | Alternative text of a shape. |
+
+ **Returns:**
+[ZoomObject](../zoomobject), [Connector](../connector), [Ink](../ink), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [GeometryShape](../geometryshape), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [Chart](../chart), [InkActions](../inkactions), [Shape](../shape)
 
 
 ---
@@ -493,7 +433,67 @@ SlideUtil
 | altText | String | Alternative text of a shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [SmartArt](../smartart), [GeometryShape](../geometryshape), [Ink](../ink), [Shape](../shape), [GroupShape](../groupshape), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [SectionZoomFrame](../sectionzoomframe), [InkActions](../inkactions), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe)
+[ZoomObject](../zoomobject), [Connector](../connector), [Ink](../ink), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [GeometryShape](../geometryshape), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [Chart](../chart), [InkActions](../inkactions), [Shape](../shape)
+
+
+---
+
+
+### findShape {#findShape}
+
+| Name | Description |
+| --- | --- |
+| findShape ([MasterHandoutSlide](../masterhandoutslide), String) | Find shape by alternative text on a slide in a PPTX presentation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | [MasterHandoutSlide](../masterhandoutslide) | Scanned slide. |
+| altText | String | Alternative text of a shape. |
+
+ **Returns:**
+[ZoomObject](../zoomobject), [Connector](../connector), [Ink](../ink), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [GeometryShape](../geometryshape), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [Chart](../chart), [InkActions](../inkactions), [Shape](../shape)
+
+
+---
+
+
+### findShape {#findShape}
+
+| Name | Description |
+| --- | --- |
+| findShape ([NotesSlide](../notesslide), String) | Find shape by alternative text on a slide in a PPTX presentation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | [NotesSlide](../notesslide) | Scanned slide. |
+| altText | String | Alternative text of a shape. |
+
+ **Returns:**
+[ZoomObject](../zoomobject), [Connector](../connector), [Ink](../ink), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [GeometryShape](../geometryshape), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [Chart](../chart), [InkActions](../inkactions), [Shape](../shape)
+
+
+---
+
+
+### findShape {#findShape}
+
+| Name | Description |
+| --- | --- |
+| findShape ([BaseSlide](../baseslide), String) | Find shape by alternative text on a slide in a PPTX presentation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | [BaseSlide](../baseslide) | Scanned slide. |
+| altText | String | Alternative text of a shape. |
+
+ **Returns:**
+[ZoomObject](../zoomobject), [Connector](../connector), [Ink](../ink), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [GeometryShape](../geometryshape), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [Chart](../chart), [InkActions](../inkactions), [Shape](../shape)
 
 
 ---
@@ -513,87 +513,7 @@ SlideUtil
 | altText | String | Alternative text of a shape. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [SmartArt](../smartart), [GeometryShape](../geometryshape), [Ink](../ink), [Shape](../shape), [GroupShape](../groupshape), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [SectionZoomFrame](../sectionzoomframe), [InkActions](../inkactions), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe)
-
-
----
-
-
-### findShapesByPlaceholderType {#findShapesByPlaceholderType}
-
-| Name | Description |
-| --- | --- |
-| findShapesByPlaceholderType ([MasterHandoutSlide](../masterhandoutslide), byte) | Searches for all shapes on the specified slide that match the given placeholder type. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [MasterHandoutSlide](../masterhandoutslide) | The slide to search for shapes. |
-| placeholderType | byte | The type of placeholder to filter shapes by. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [SmartArt](../smartart), [GeometryShape](../geometryshape), [Ink](../ink), [Shape](../shape), [GroupShape](../groupshape), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [SectionZoomFrame](../sectionzoomframe), [InkActions](../inkactions), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe)
-
-
----
-
-
-### findShapesByPlaceholderType {#findShapesByPlaceholderType}
-
-| Name | Description |
-| --- | --- |
-| findShapesByPlaceholderType ([Slide](../slide), byte) | Searches for all shapes on the specified slide that match the given placeholder type. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [Slide](../slide) | The slide to search for shapes. |
-| placeholderType | byte | The type of placeholder to filter shapes by. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [SmartArt](../smartart), [GeometryShape](../geometryshape), [Ink](../ink), [Shape](../shape), [GroupShape](../groupshape), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [SectionZoomFrame](../sectionzoomframe), [InkActions](../inkactions), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe)
-
-
----
-
-
-### findShapesByPlaceholderType {#findShapesByPlaceholderType}
-
-| Name | Description |
-| --- | --- |
-| findShapesByPlaceholderType ([BaseSlide](../baseslide), byte) | Searches for all shapes on the specified slide that match the given placeholder type. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [BaseSlide](../baseslide) | The slide to search for shapes. |
-| placeholderType | byte | The type of placeholder to filter shapes by. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [SmartArt](../smartart), [GeometryShape](../geometryshape), [Ink](../ink), [Shape](../shape), [GroupShape](../groupshape), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [SectionZoomFrame](../sectionzoomframe), [InkActions](../inkactions), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe)
-
-
----
-
-
-### findShapesByPlaceholderType {#findShapesByPlaceholderType}
-
-| Name | Description |
-| --- | --- |
-| findShapesByPlaceholderType ([NotesSlide](../notesslide), byte) | Searches for all shapes on the specified slide that match the given placeholder type. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [NotesSlide](../notesslide) | The slide to search for shapes. |
-| placeholderType | byte | The type of placeholder to filter shapes by. |
-
- **Returns:**
-[OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [SmartArt](../smartart), [GeometryShape](../geometryshape), [Ink](../ink), [Shape](../shape), [GroupShape](../groupshape), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [SectionZoomFrame](../sectionzoomframe), [InkActions](../inkactions), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe)
+[ZoomObject](../zoomobject), [Connector](../connector), [Ink](../ink), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [GeometryShape](../geometryshape), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [Chart](../chart), [InkActions](../inkactions), [Shape](../shape)
 
 
 ---
@@ -613,7 +533,27 @@ SlideUtil
 | placeholderType | byte | The type of placeholder to filter shapes by. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [SmartArt](../smartart), [GeometryShape](../geometryshape), [Ink](../ink), [Shape](../shape), [GroupShape](../groupshape), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [SectionZoomFrame](../sectionzoomframe), [InkActions](../inkactions), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe)
+[ZoomObject](../zoomobject), [Connector](../connector), [Ink](../ink), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [GeometryShape](../geometryshape), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [Chart](../chart), [InkActions](../inkactions), [Shape](../shape)
+
+
+---
+
+
+### findShapesByPlaceholderType {#findShapesByPlaceholderType}
+
+| Name | Description |
+| --- | --- |
+| findShapesByPlaceholderType ([Slide](../slide), byte) | Searches for all shapes on the specified slide that match the given placeholder type. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | [Slide](../slide) | The slide to search for shapes. |
+| placeholderType | byte | The type of placeholder to filter shapes by. |
+
+ **Returns:**
+[ZoomObject](../zoomobject), [Connector](../connector), [Ink](../ink), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [GeometryShape](../geometryshape), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [Chart](../chart), [InkActions](../inkactions), [Shape](../shape)
 
 
 ---
@@ -633,7 +573,67 @@ SlideUtil
 | placeholderType | byte | The type of placeholder to filter shapes by. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [SmartArt](../smartart), [GeometryShape](../geometryshape), [Ink](../ink), [Shape](../shape), [GroupShape](../groupshape), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [SectionZoomFrame](../sectionzoomframe), [InkActions](../inkactions), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe)
+[ZoomObject](../zoomobject), [Connector](../connector), [Ink](../ink), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [GeometryShape](../geometryshape), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [Chart](../chart), [InkActions](../inkactions), [Shape](../shape)
+
+
+---
+
+
+### findShapesByPlaceholderType {#findShapesByPlaceholderType}
+
+| Name | Description |
+| --- | --- |
+| findShapesByPlaceholderType ([MasterHandoutSlide](../masterhandoutslide), byte) | Searches for all shapes on the specified slide that match the given placeholder type. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | [MasterHandoutSlide](../masterhandoutslide) | The slide to search for shapes. |
+| placeholderType | byte | The type of placeholder to filter shapes by. |
+
+ **Returns:**
+[ZoomObject](../zoomobject), [Connector](../connector), [Ink](../ink), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [GeometryShape](../geometryshape), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [Chart](../chart), [InkActions](../inkactions), [Shape](../shape)
+
+
+---
+
+
+### findShapesByPlaceholderType {#findShapesByPlaceholderType}
+
+| Name | Description |
+| --- | --- |
+| findShapesByPlaceholderType ([NotesSlide](../notesslide), byte) | Searches for all shapes on the specified slide that match the given placeholder type. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | [NotesSlide](../notesslide) | The slide to search for shapes. |
+| placeholderType | byte | The type of placeholder to filter shapes by. |
+
+ **Returns:**
+[ZoomObject](../zoomobject), [Connector](../connector), [Ink](../ink), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [GeometryShape](../geometryshape), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [Chart](../chart), [InkActions](../inkactions), [Shape](../shape)
+
+
+---
+
+
+### findShapesByPlaceholderType {#findShapesByPlaceholderType}
+
+| Name | Description |
+| --- | --- |
+| findShapesByPlaceholderType ([BaseSlide](../baseslide), byte) | Searches for all shapes on the specified slide that match the given placeholder type. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | [BaseSlide](../baseslide) | The slide to search for shapes. |
+| placeholderType | byte | The type of placeholder to filter shapes by. |
+
+ **Returns:**
+[ZoomObject](../zoomobject), [Connector](../connector), [Ink](../ink), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [GeometryShape](../geometryshape), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [Chart](../chart), [InkActions](../inkactions), [Shape](../shape)
 
 
 ---
@@ -653,7 +653,7 @@ SlideUtil
 | placeholderType | byte | The type of placeholder to filter shapes by. |
 
  **Returns:**
-[OleObjectFrame](../oleobjectframe), [ZoomObject](../zoomobject), [SmartArt](../smartart), [GeometryShape](../geometryshape), [Ink](../ink), [Shape](../shape), [GroupShape](../groupshape), [Connector](../connector), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [SectionZoomFrame](../sectionzoomframe), [InkActions](../inkactions), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [Chart](../chart), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [ZoomFrame](../zoomframe)
+[ZoomObject](../zoomobject), [Connector](../connector), [Ink](../ink), [LegacyDiagram](../legacydiagram), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Table](../table), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [SummaryZoomFrame](../summaryzoomframe), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [VideoFrame](../videoframe), [AudioFrame](../audioframe), [GeometryShape](../geometryshape), [SmartArt](../smartart), [ZoomFrame](../zoomframe), [Chart](../chart), [InkActions](../inkactions), [Shape](../shape)
 
 
 ---
@@ -663,13 +663,13 @@ SlideUtil
 
 | Name | Description |
 | --- | --- |
-| getAllTextBoxes ([MasterHandoutSlide](../masterhandoutslide)) | Returns all text frames on a slide in a PPTX presentation. |
+| getAllTextBoxes ([LayoutSlide](../layoutslide)) | Returns all text frames on a slide in a PPTX presentation. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | [MasterHandoutSlide](../masterhandoutslide) | Scanned slide. |
+| slide | [LayoutSlide](../layoutslide) | Scanned slide. |
 
  **Returns:**
 [TextFrame](../textframe)
@@ -701,13 +701,32 @@ SlideUtil
 
 | Name | Description |
 | --- | --- |
-| getAllTextBoxes ([BaseSlide](../baseslide)) | Returns all text frames on a slide in a PPTX presentation. |
+| getAllTextBoxes ([MasterSlide](../masterslide)) | Returns all text frames on a slide in a PPTX presentation. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | [BaseSlide](../baseslide) | Scanned slide. |
+| slide | [MasterSlide](../masterslide) | Scanned slide. |
+
+ **Returns:**
+[TextFrame](../textframe)
+
+
+---
+
+
+### getAllTextBoxes {#getAllTextBoxes}
+
+| Name | Description |
+| --- | --- |
+| getAllTextBoxes ([MasterHandoutSlide](../masterhandoutslide)) | Returns all text frames on a slide in a PPTX presentation. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | [MasterHandoutSlide](../masterhandoutslide) | Scanned slide. |
 
  **Returns:**
 [TextFrame](../textframe)
@@ -739,32 +758,13 @@ SlideUtil
 
 | Name | Description |
 | --- | --- |
-| getAllTextBoxes ([LayoutSlide](../layoutslide)) | Returns all text frames on a slide in a PPTX presentation. |
+| getAllTextBoxes ([BaseSlide](../baseslide)) | Returns all text frames on a slide in a PPTX presentation. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | [LayoutSlide](../layoutslide) | Scanned slide. |
-
- **Returns:**
-[TextFrame](../textframe)
-
-
----
-
-
-### getAllTextBoxes {#getAllTextBoxes}
-
-| Name | Description |
-| --- | --- |
-| getAllTextBoxes ([MasterSlide](../masterslide)) | Returns all text frames on a slide in a PPTX presentation. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [MasterSlide](../masterslide) | Scanned slide. |
+| slide | [BaseSlide](../baseslide) | Scanned slide. |
 
  **Returns:**
 [TextFrame](../textframe)
@@ -816,13 +816,13 @@ SlideUtil
 
 | Name | Description |
 | --- | --- |
-| getTextBoxesContainsText ([MasterHandoutSlide](../masterhandoutslide), String, boolean) | Returns all text frames on the specified slide that contain the given text. |
+| getTextBoxesContainsText ([LayoutSlide](../layoutslide), String, boolean) | Returns all text frames on the specified slide that contain the given text. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | [MasterHandoutSlide](../masterhandoutslide) | The slide to search. |
+| slide | [LayoutSlide](../layoutslide) | The slide to search. |
 | text | String | The text to search for within text frames. |
 | checkPlaceholderText | boolean | Indicates whether to include text frames that are empty, but whose placeholder text contains the search text. |
 
@@ -858,13 +858,34 @@ SlideUtil
 
 | Name | Description |
 | --- | --- |
-| getTextBoxesContainsText ([BaseSlide](../baseslide), String, boolean) | Returns all text frames on the specified slide that contain the given text. |
+| getTextBoxesContainsText ([MasterSlide](../masterslide), String, boolean) | Returns all text frames on the specified slide that contain the given text. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | [BaseSlide](../baseslide) | The slide to search. |
+| slide | [MasterSlide](../masterslide) | The slide to search. |
+| text | String | The text to search for within text frames. |
+| checkPlaceholderText | boolean | Indicates whether to include text frames that are empty, but whose placeholder text contains the search text. |
+
+ **Returns:**
+[TextFrame](../textframe)
+
+
+---
+
+
+### getTextBoxesContainsText {#getTextBoxesContainsText}
+
+| Name | Description |
+| --- | --- |
+| getTextBoxesContainsText ([MasterHandoutSlide](../masterhandoutslide), String, boolean) | Returns all text frames on the specified slide that contain the given text. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | [MasterHandoutSlide](../masterhandoutslide) | The slide to search. |
 | text | String | The text to search for within text frames. |
 | checkPlaceholderText | boolean | Indicates whether to include text frames that are empty, but whose placeholder text contains the search text. |
 
@@ -900,34 +921,13 @@ SlideUtil
 
 | Name | Description |
 | --- | --- |
-| getTextBoxesContainsText ([LayoutSlide](../layoutslide), String, boolean) | Returns all text frames on the specified slide that contain the given text. |
+| getTextBoxesContainsText ([BaseSlide](../baseslide), String, boolean) | Returns all text frames on the specified slide that contain the given text. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | [LayoutSlide](../layoutslide) | The slide to search. |
-| text | String | The text to search for within text frames. |
-| checkPlaceholderText | boolean | Indicates whether to include text frames that are empty, but whose placeholder text contains the search text. |
-
- **Returns:**
-[TextFrame](../textframe)
-
-
----
-
-
-### getTextBoxesContainsText {#getTextBoxesContainsText}
-
-| Name | Description |
-| --- | --- |
-| getTextBoxesContainsText ([MasterSlide](../masterslide), String, boolean) | Returns all text frames on the specified slide that contain the given text. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [MasterSlide](../masterslide) | The slide to search. |
+| slide | [BaseSlide](../baseslide) | The slide to search. |
 | text | String | The text to search for within text frames. |
 | checkPlaceholderText | boolean | Indicates whether to include text frames that are empty, but whose placeholder text contains the search text. |
 

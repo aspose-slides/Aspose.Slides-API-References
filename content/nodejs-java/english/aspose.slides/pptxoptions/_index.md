@@ -24,6 +24,19 @@ PptxOptions
 ---
 
 
+### getCompressionLevel {#getCompressionLevel}
+
+| Name | Description |
+| --- | --- |
+| getCompressionLevel () | Specifies the compression level used when saving the presentation document. The default value is CompressionLevel#Level6. Higher compression levels produce smaller files but require more processing time. The actual compression ratio depends on the content of the presentation. |
+
+ **Returns:**
+int
+
+
+---
+
+
 ### getConformance {#getConformance}
 
 | Name | Description |
@@ -58,6 +71,16 @@ boolean
 
  **Returns:**
 int
+
+
+---
+
+
+### setCompressionLevel {#setCompressionLevel}
+
+| Name | Description |
+| --- | --- |
+| setCompressionLevel (int) | Specifies the compression level used when saving the presentation document. The default value is CompressionLevel#Level6. Higher compression levels produce smaller files but require more processing time. The actual compression ratio depends on the content of the presentation. |
 
 
 ---
