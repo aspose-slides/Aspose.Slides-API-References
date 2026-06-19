@@ -31,7 +31,7 @@ Merges multiple PowerPoint presentations of the same format into a single presen
 --------------------
 
 > ```
-> Merger.Process(new string[] { "pres1.ppt", "pres2.ppt" }, "merged.ppt");
+> Merger.process(new String[] { "pres1.ppt", "pres2.ppt" }, "merged.ppt");
 > ```
 
 **Parameters:**

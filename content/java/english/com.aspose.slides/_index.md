@@ -139,6 +139,7 @@ url: /com.aspose.slides/
 | [CommentsPositions](../com.aspose.slides/commentspositions) | Represents the rule to render comments into exported document |
 | [CommonSlideViewProperties](../com.aspose.slides/commonslideviewproperties) | Represents common slide view properties. |
 | [Compress](../com.aspose.slides/compress) | Represents a group of methods intended to compress [Presentation](../com.aspose.slides/presentation). |
+| [CompressionLevel](../com.aspose.slides/compressionlevel) | Specifies ZIP compression levels for OpenXML file. |
 | [Conformance](../com.aspose.slides/conformance) | Specifies the conformance class to which the PresentationML document conforms. |
 | [Connector](../com.aspose.slides/connector) | Represents a connector. |
 | [ConnectorLock](../com.aspose.slides/connectorlock) | Determines which operations are disabled on the parent Connector. |

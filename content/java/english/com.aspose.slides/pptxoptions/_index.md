@@ -30,6 +30,8 @@ Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPS
 | [setZip64Mode(int value)](#setZip64Mode-int-) | Specifies whether the ZIP64 format is used for the Presentation document. |
 | [getRefreshThumbnail()](#getRefreshThumbnail--) | Specifies whether the presentation thumbnail will be refreshed. |
 | [setRefreshThumbnail(boolean value)](#setRefreshThumbnail-boolean-) | Specifies whether the presentation thumbnail will be refreshed. |
+| [getCompressionLevel()](#getCompressionLevel--) | Specifies the compression level used when saving the presentation document. |
+| [setCompressionLevel(int value)](#setCompressionLevel-int-) | Specifies the compression level used when saving the presentation document. |
 ### PptxOptions() {#PptxOptions--}
 ```
 public PptxOptions()
@@ -178,4 +180,65 @@ When the option value is **false**, the current thumbnail will be saved as is.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### getCompressionLevel() {#getCompressionLevel--}
+```
+public final int getCompressionLevel()
+```
+
+
+Specifies the compression level used when saving the presentation document. The default value is [CompressionLevel.Level6](../../com.aspose.slides/compressionlevel\#Level6).
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      PptxOptions pptxOptions = new PptxOptions();
+>      pptxOptions.setCompressionLevel(CompressionLevel.Level8);
+>      pres.save("demo-level8.pptx", SaveFormat.Pptx, pptxOptions);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Higher compression levels produce smaller files but require more processing time. The actual compression ratio depends on the content of the presentation.
+
+**Returns:**
+int
+### setCompressionLevel(int value) {#setCompressionLevel-int-}
+```
+public final void setCompressionLevel(int value)
+```
+
+
+Specifies the compression level used when saving the presentation document. The default value is [CompressionLevel.Level6](../../com.aspose.slides/compressionlevel\#Level6).
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      PptxOptions pptxOptions = new PptxOptions();
+>      pptxOptions.setCompressionLevel(CompressionLevel.Level8);
+>      pres.save("demo-level8.pptx", SaveFormat.Pptx, pptxOptions);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+Higher compression levels produce smaller files but require more processing time. The actual compression ratio depends on the content of the presentation.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 

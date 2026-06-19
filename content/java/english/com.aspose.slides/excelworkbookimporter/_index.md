@@ -12,11 +12,6 @@ public class ExcelWorkbookImporter
 ```
 
 Provides functionality for importing content from an Excel workbook into a presentation.
-## Fields
-
-| Field | Description |
-| --- | --- |
-| [WORKSHEET_NAME](#WORKSHEET-NAME) |  |
 ## Methods
 
 | Method | Description |
@@ -28,12 +23,6 @@ Provides functionality for importing content from an Excel workbook into a prese
 | [addTableFromWorkbook(IShapeCollection shapes, float x, float y, IExcelDataWorkbook workbook, String worksheetName, String cellRange)](#addTableFromWorkbook-com.aspose.slides.IShapeCollection-float-float-com.aspose.slides.IExcelDataWorkbook-java.lang.String-java.lang.String-) | Retrieves a table from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
 | [addTableFromWorkbook(IShapeCollection shapes, float x, float y, String workbookPath, String worksheetName, String cellRange)](#addTableFromWorkbook-com.aspose.slides.IShapeCollection-float-float-java.lang.String-java.lang.String-java.lang.String-) | Retrieves a table from the specified Excel workbook file and adds it to the end of the given shape collection at the specified coordinates. |
 | [addTableFromWorkbook(IShapeCollection shapes, float x, float y, InputStream workbookStream, String worksheetName, String cellRange)](#addTableFromWorkbook-com.aspose.slides.IShapeCollection-float-float-java.io.InputStream-java.lang.String-java.lang.String-) | Retrieves a table from the specified Excel workbook file and adds it to the end of the given shape collection at the specified coordinates. |
-### WORKSHEET_NAME {#WORKSHEET-NAME}
-```
-public static final String WORKSHEET_NAME
-```
-
-
 ### addChartFromWorkbook(IShapeCollection shapes, float x, float y, IExcelDataWorkbook workbook, String worksheetName, int chartIndex, boolean embedAllWorkbook) {#addChartFromWorkbook-com.aspose.slides.IShapeCollection-float-float-com.aspose.slides.IExcelDataWorkbook-java.lang.String-int-boolean-}
 ```
 public static IChart addChartFromWorkbook(IShapeCollection shapes, float x, float y, IExcelDataWorkbook workbook, String worksheetName, int chartIndex, boolean embedAllWorkbook)
