@@ -36,19 +36,6 @@ VideoPlayerHtmlController
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [Connector](../connector)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
 | formatShape ([SvgShape](../svgshape), [GraphicalObject](../graphicalobject)) |  |
 
  **Returns:**
@@ -62,7 +49,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [SmartArtShape](../smartartshape)) |  |
+| formatShape ([SvgShape](../svgshape), [Connector](../connector)) |  |
 
  **Returns:**
 void
@@ -76,6 +63,19 @@ void
 | Name | Description |
 | --- | --- |
 | formatShape ([SvgShape](../svgshape), [Shape](../shape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape ([SvgShape](../svgshape), [SmartArtShape](../smartartshape)) |  |
 
  **Returns:**
 void
@@ -244,19 +244,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [SectionZoomFrame](../sectionzoomframe)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### formatShape {#formatShape}
-
-| Name | Description |
-| --- | --- |
 | formatShape ([SvgShape](../svgshape), [PictureFrame](../pictureframe)) |  |
 
  **Returns:**
@@ -270,7 +257,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| formatShape ([SvgShape](../svgshape), [AudioFrame](../audioframe)) |  |
+| formatShape ([SvgShape](../svgshape), [SectionZoomFrame](../sectionzoomframe)) |  |
 
  **Returns:**
 void
@@ -284,6 +271,19 @@ void
 | Name | Description |
 | --- | --- |
 | formatShape ([SvgShape](../svgshape), [Chart](../chart)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### formatShape {#formatShape}
+
+| Name | Description |
+| --- | --- |
+| formatShape ([SvgShape](../svgshape), [AudioFrame](../audioframe)) |  |
 
  **Returns:**
 void
@@ -387,19 +387,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
 
  **Returns:**
@@ -413,7 +400,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
 
  **Returns:**
 void
@@ -427,6 +414,19 @@ void
 | Name | Description |
 | --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
 
  **Returns:**
 void
@@ -595,19 +595,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### writeShapeEnd {#writeShapeEnd}
-
-| Name | Description |
-| --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
 
  **Returns:**
@@ -621,7 +608,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
 
  **Returns:**
 void
@@ -635,6 +622,19 @@ void
 | Name | Description |
 | --- | --- |
 | writeShapeEnd ([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeEnd {#writeShapeEnd}
+
+| Name | Description |
+| --- | --- |
+| writeShapeEnd ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
 
  **Returns:**
 void
@@ -673,19 +673,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
 
  **Returns:**
@@ -699,7 +686,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
 
  **Returns:**
 void
@@ -713,6 +700,19 @@ void
 | Name | Description |
 | --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
 
  **Returns:**
 void
@@ -881,19 +881,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
-
- **Returns:**
-void
-
-
----
-
-
-### writeShapeStart {#writeShapeStart}
-
-| Name | Description |
-| --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
 
  **Returns:**
@@ -907,7 +894,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| writeShapeStart ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
 
  **Returns:**
 void
@@ -921,6 +908,19 @@ void
 | Name | Description |
 | --- | --- |
 | writeShapeStart ([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
+
+ **Returns:**
+void
+
+
+---
+
+
+### writeShapeStart {#writeShapeStart}
+
+| Name | Description |
+| --- | --- |
+| writeShapeStart ([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
 
  **Returns:**
 void

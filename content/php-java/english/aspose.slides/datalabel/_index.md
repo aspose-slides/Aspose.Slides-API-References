@@ -11,23 +11,6 @@ url: /aspose.slides/datalabel/
 
  Represents a series labels.
  
-
-## Constants
-
-| Name | Value | Description |
-| --- | --- | --- |
-[GENERAL](#GENERAL) | General |  |
-
-
----
-
-
-### GENERAL {#GENERAL}
-
-
----
-
-
 ### DataLabel {#DataLabel}
 
 | Name | Description |

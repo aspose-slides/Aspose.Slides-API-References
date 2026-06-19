@@ -946,7 +946,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (String, int, [PdfOptions](../pdfoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+| save (String, int, [HtmlOptions](../htmloptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
  **Parameters:**
 
@@ -954,7 +954,7 @@ void
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | [PdfOptions](../pdfoptions) | Additional format options. |
+| options | [HtmlOptions](../htmloptions) | Additional format options. |
 
  **Returns:**
 void
@@ -967,7 +967,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (String, int, [HtmlOptions](../htmloptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
+| save (String, int, [PdfOptions](../pdfoptions)) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
  **Parameters:**
 
@@ -975,7 +975,7 @@ void
 | --- | --- | --- |
 | fname | String | Path to the created file. |
 | format | int | Format of the exported data. |
-| options | [HtmlOptions](../htmloptions) | Additional format options. |
+| options | [PdfOptions](../pdfoptions) | Additional format options. |
 
  **Returns:**
 void
@@ -1270,7 +1270,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (OutputStream, int, [PdfOptions](../pdfoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| save (OutputStream, int, [HtmlOptions](../htmloptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
  **Parameters:**
 
@@ -1278,7 +1278,7 @@ void
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | [PdfOptions](../pdfoptions) | Additional format options. |
+| options | [HtmlOptions](../htmloptions) | Additional format options. |
 
  **Returns:**
 void
@@ -1297,7 +1297,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (OutputStream, int, [HtmlOptions](../htmloptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| save (OutputStream, int, [PdfOptions](../pdfoptions)) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
  **Parameters:**
 
@@ -1305,7 +1305,7 @@ void
 | --- | --- | --- |
 | stream | OutputStream | Output stream. |
 | format | int | Format of the exported data. |
-| options | [HtmlOptions](../htmloptions) | Additional format options. |
+| options | [PdfOptions](../pdfoptions) | Additional format options. |
 
  **Returns:**
 void
@@ -1669,7 +1669,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (String, int[], int, [PdfOptions](../pdfoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| save (String, int[], int, [HtmlOptions](../htmloptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -1678,7 +1678,7 @@ void
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [PdfOptions](../pdfoptions) | Additional format options. |
+| options | [HtmlOptions](../htmloptions) | Additional format options. |
 
  **Returns:**
 void
@@ -1691,7 +1691,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (String, int[], int, [HtmlOptions](../htmloptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| save (String, int[], int, [PdfOptions](../pdfoptions)) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -1700,7 +1700,7 @@ void
 | fname | String | Path to the created file. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [HtmlOptions](../htmloptions) | Additional format options. |
+| options | [PdfOptions](../pdfoptions) | Additional format options. |
 
  **Returns:**
 void
@@ -2028,7 +2028,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (OutputStream, int[], int, [PdfOptions](../pdfoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| save (OutputStream, int[], int, [HtmlOptions](../htmloptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -2037,7 +2037,7 @@ void
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [PdfOptions](../pdfoptions) | Additional format options. |
+| options | [HtmlOptions](../htmloptions) | Additional format options. |
 
  **Returns:**
 void
@@ -2056,7 +2056,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| save (OutputStream, int[], int, [HtmlOptions](../htmloptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| save (OutputStream, int[], int, [PdfOptions](../pdfoptions)) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
  **Parameters:**
 
@@ -2065,7 +2065,7 @@ void
 | stream | OutputStream | Output stream. |
 | slides | int[] | Array with slide positions, starting from 1. |
 | format | int | Format of the exported data. |
-| options | [HtmlOptions](../htmloptions) | Additional format options. |
+| options | [PdfOptions](../pdfoptions) | Additional format options. |
 
  **Returns:**
 void

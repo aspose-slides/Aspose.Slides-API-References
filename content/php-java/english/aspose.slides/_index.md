@@ -138,6 +138,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [CommentsPositions](commentspositions) | Represents the rule to render comments into exported document |
 | [CommonSlideViewProperties](commonslideviewproperties) | Represents common slide view properties. |
 | [Compress](compress) | Represents a group of methods intended to compress Presentation. |
+| [CompressionLevel](compressionlevel) | Specifies ZIP compression levels for OpenXML file. Higher levels provide better compression at the cost of slower processing. |
 | [Conformance](conformance) | Specifies the conformance class to which the PresentationML document conforms. |
 | [Connector](connector) | Represents a connector. |
 | [ConnectorLock](connectorlock) | Determines which operations are disabled on the parent Connector. |
@@ -663,6 +664,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [WebDocument](webdocument) | Represents a transition form of the presentation for saving into a web format. |
 | [WebDocumentOptions](webdocumentoptions) | Represents an options set for WebDocument saving. |
 | [WheelTransition](wheeltransition) | Wheel slide transition effect. |
+| [WorkbookType](workbooktype) | Specifies the type of Open XML workbook file. |
 | [XamlOptions](xamloptions) | Options that control how a XAML document is saved. |
 | [XpsOptions](xpsoptions) | Provides options that control how a presentation is saved in XPS format. |
 | [Zip64Mode](zip64mode) | Specifies when to use ZIP64 format extensions for OpenXML file. OpenXML file is a ZIP-archive that has a 4 GB (2^32 bytes) limit on uncompressed size of a file, compressed size of a file, and total size of the archive, as well as a limit of 65,535 (2^16-1) files in archive. ZIP64 format extensions increase the limits to 2^64. |

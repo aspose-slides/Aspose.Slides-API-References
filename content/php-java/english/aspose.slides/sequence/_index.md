@@ -15,28 +15,6 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
-| addEffect ([Connector](../connector), int, int, int) | Add new effect to the end of sequence. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Connector](../connector) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### addEffect {#addEffect}
-
-| Name | Description |
-| --- | --- |
 | addEffect ([GraphicalObject](../graphicalobject), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
@@ -59,13 +37,13 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
-| addEffect ([SmartArtShape](../smartartshape), int, int, int) | Add new effect to the end of sequence. |
+| addEffect ([Connector](../connector), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SmartArtShape](../smartartshape) | Shape object IShape for adding an effect |
+| shape | [Connector](../connector) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -88,6 +66,28 @@ url: /aspose.slides/sequence/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Shape](../shape) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### addEffect {#addEffect}
+
+| Name | Description |
+| --- | --- |
+| addEffect ([SmartArtShape](../smartartshape), int, int, int) | Add new effect to the end of sequence. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SmartArtShape](../smartartshape) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -367,28 +367,6 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
-| addEffect ([SectionZoomFrame](../sectionzoomframe), int, int, int) | Add new effect to the end of sequence. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SectionZoomFrame](../sectionzoomframe) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### addEffect {#addEffect}
-
-| Name | Description |
-| --- | --- |
 | addEffect ([PictureFrame](../pictureframe), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
@@ -411,13 +389,13 @@ url: /aspose.slides/sequence/
 
 | Name | Description |
 | --- | --- |
-| addEffect ([AudioFrame](../audioframe), int, int, int) | Add new effect to the end of sequence. |
+| addEffect ([SectionZoomFrame](../sectionzoomframe), int, int, int) | Add new effect to the end of sequence. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [AudioFrame](../audioframe) | Shape object IShape for adding an effect |
+| shape | [SectionZoomFrame](../sectionzoomframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -440,6 +418,28 @@ url: /aspose.slides/sequence/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Chart](../chart) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### addEffect {#addEffect}
+
+| Name | Description |
+| --- | --- |
+| addEffect ([AudioFrame](../audioframe), int, int, int) | Add new effect to the end of sequence. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [AudioFrame](../audioframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -596,19 +596,6 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCount ([Connector](../connector)) | Returns count of effects for the specified shape. |
-
- **Returns:**
-int
-
-
----
-
-
-### getCount {#getCount}
-
-| Name | Description |
-| --- | --- |
 | getCount ([GraphicalObject](../graphicalobject)) | Returns count of effects for the specified shape. |
 
  **Returns:**
@@ -622,7 +609,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCount ([SmartArtShape](../smartartshape)) | Returns count of effects for the specified shape. |
+| getCount ([Connector](../connector)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -636,6 +623,19 @@ int
 | Name | Description |
 | --- | --- |
 | getCount ([Shape](../shape)) | Returns count of effects for the specified shape. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
+| getCount ([SmartArtShape](../smartartshape)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -804,19 +804,6 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCount ([SectionZoomFrame](../sectionzoomframe)) | Returns count of effects for the specified shape. |
-
- **Returns:**
-int
-
-
----
-
-
-### getCount {#getCount}
-
-| Name | Description |
-| --- | --- |
 | getCount ([PictureFrame](../pictureframe)) | Returns count of effects for the specified shape. |
 
  **Returns:**
@@ -830,7 +817,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getCount ([AudioFrame](../audioframe)) | Returns count of effects for the specified shape. |
+| getCount ([SectionZoomFrame](../sectionzoomframe)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -844,6 +831,19 @@ int
 | Name | Description |
 | --- | --- |
 | getCount ([Chart](../chart)) | Returns count of effects for the specified shape. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### getCount {#getCount}
+
+| Name | Description |
+| --- | --- |
+| getCount ([AudioFrame](../audioframe)) | Returns count of effects for the specified shape. |
 
  **Returns:**
 int
@@ -895,19 +895,6 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectsByShape ([Connector](../connector)) | Returns array of effects for the specified shape. |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### getEffectsByShape {#getEffectsByShape}
-
-| Name | Description |
-| --- | --- |
 | getEffectsByShape ([GraphicalObject](../graphicalobject)) | Returns array of effects for the specified shape. |
 
  **Returns:**
@@ -921,7 +908,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectsByShape ([SmartArtShape](../smartartshape)) | Returns array of effects for the specified shape. |
+| getEffectsByShape ([Connector](../connector)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -935,6 +922,19 @@ int
 | Name | Description |
 | --- | --- |
 | getEffectsByShape ([Shape](../shape)) | Returns array of effects for the specified shape. |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### getEffectsByShape {#getEffectsByShape}
+
+| Name | Description |
+| --- | --- |
+| getEffectsByShape ([SmartArtShape](../smartartshape)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -1103,19 +1103,6 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectsByShape ([SectionZoomFrame](../sectionzoomframe)) | Returns array of effects for the specified shape. |
-
- **Returns:**
-[Effect](../effect)
-
-
----
-
-
-### getEffectsByShape {#getEffectsByShape}
-
-| Name | Description |
-| --- | --- |
 | getEffectsByShape ([PictureFrame](../pictureframe)) | Returns array of effects for the specified shape. |
 
  **Returns:**
@@ -1129,7 +1116,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| getEffectsByShape ([AudioFrame](../audioframe)) | Returns array of effects for the specified shape. |
+| getEffectsByShape ([SectionZoomFrame](../sectionzoomframe)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -1143,6 +1130,19 @@ int
 | Name | Description |
 | --- | --- |
 | getEffectsByShape ([Chart](../chart)) | Returns array of effects for the specified shape. |
+
+ **Returns:**
+[Effect](../effect)
+
+
+---
+
+
+### getEffectsByShape {#getEffectsByShape}
+
+| Name | Description |
+| --- | --- |
+| getEffectsByShape ([AudioFrame](../audioframe)) | Returns array of effects for the specified shape. |
 
  **Returns:**
 [Effect](../effect)
@@ -1184,7 +1184,7 @@ int
 | getTriggerShape () | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
-[Connector](../connector), [GraphicalObject](../graphicalobject), [SmartArtShape](../smartartshape), [Shape](../shape), [Table](../table), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [SummaryZoomSection](../summaryzoomsection), [ZoomFrame](../zoomframe), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [InkActions](../inkactions), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [PictureFrame](../pictureframe), [AudioFrame](../audioframe), [Chart](../chart), [ZoomObject](../zoomobject), [LegacyDiagram](../legacydiagram)
+[GraphicalObject](../graphicalobject), [Connector](../connector), [Shape](../shape), [SmartArtShape](../smartartshape), [Table](../table), [Ink](../ink), [SummaryZoomFrame](../summaryzoomframe), [GeometryShape](../geometryshape), [SummaryZoomSection](../summaryzoomsection), [ZoomFrame](../zoomframe), [OleObjectFrame](../oleobjectframe), [VideoFrame](../videoframe), [SmartArt](../smartart), [GroupShape](../groupshape), [InkActions](../inkactions), [AutoShape](../autoshape), [PictureFrame](../pictureframe), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [ZoomObject](../zoomobject), [LegacyDiagram](../legacydiagram)
 
 
 ---
@@ -1277,19 +1277,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| removeByShape ([Connector](../connector)) | Remove effect for the specified shape. |
-
- **Returns:**
-void
-
-
----
-
-
-### removeByShape {#removeByShape}
-
-| Name | Description |
-| --- | --- |
 | removeByShape ([GraphicalObject](../graphicalobject)) | Remove effect for the specified shape. |
 
  **Returns:**
@@ -1303,7 +1290,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| removeByShape ([SmartArtShape](../smartartshape)) | Remove effect for the specified shape. |
+| removeByShape ([Connector](../connector)) | Remove effect for the specified shape. |
 
  **Returns:**
 void
@@ -1317,6 +1304,19 @@ void
 | Name | Description |
 | --- | --- |
 | removeByShape ([Shape](../shape)) | Remove effect for the specified shape. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### removeByShape {#removeByShape}
+
+| Name | Description |
+| --- | --- |
+| removeByShape ([SmartArtShape](../smartartshape)) | Remove effect for the specified shape. |
 
  **Returns:**
 void
@@ -1485,19 +1485,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| removeByShape ([SectionZoomFrame](../sectionzoomframe)) | Remove effect for the specified shape. |
-
- **Returns:**
-void
-
-
----
-
-
-### removeByShape {#removeByShape}
-
-| Name | Description |
-| --- | --- |
 | removeByShape ([PictureFrame](../pictureframe)) | Remove effect for the specified shape. |
 
  **Returns:**
@@ -1511,7 +1498,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| removeByShape ([AudioFrame](../audioframe)) | Remove effect for the specified shape. |
+| removeByShape ([SectionZoomFrame](../sectionzoomframe)) | Remove effect for the specified shape. |
 
  **Returns:**
 void
@@ -1525,6 +1512,19 @@ void
 | Name | Description |
 | --- | --- |
 | removeByShape ([Chart](../chart)) | Remove effect for the specified shape. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### removeByShape {#removeByShape}
+
+| Name | Description |
+| --- | --- |
+| removeByShape ([AudioFrame](../audioframe)) | Remove effect for the specified shape. |
 
  **Returns:**
 void
@@ -1563,19 +1563,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| setTriggerShape ([Connector](../connector)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
-
- **Returns:**
-void
-
-
----
-
-
-### setTriggerShape {#setTriggerShape}
-
-| Name | Description |
-| --- | --- |
 | setTriggerShape ([GraphicalObject](../graphicalobject)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
@@ -1589,7 +1576,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setTriggerShape ([SmartArtShape](../smartartshape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| setTriggerShape ([Connector](../connector)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
 void
@@ -1603,6 +1590,19 @@ void
 | Name | Description |
 | --- | --- |
 | setTriggerShape ([Shape](../shape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setTriggerShape {#setTriggerShape}
+
+| Name | Description |
+| --- | --- |
+| setTriggerShape ([SmartArtShape](../smartartshape)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
 void
@@ -1771,19 +1771,6 @@ void
 
 | Name | Description |
 | --- | --- |
-| setTriggerShape ([SectionZoomFrame](../sectionzoomframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
-
- **Returns:**
-void
-
-
----
-
-
-### setTriggerShape {#setTriggerShape}
-
-| Name | Description |
-| --- | --- |
 | setTriggerShape ([PictureFrame](../pictureframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
@@ -1797,7 +1784,7 @@ void
 
 | Name | Description |
 | --- | --- |
-| setTriggerShape ([AudioFrame](../audioframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+| setTriggerShape ([SectionZoomFrame](../sectionzoomframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
 void
@@ -1811,6 +1798,19 @@ void
 | Name | Description |
 | --- | --- |
 | setTriggerShape ([Chart](../chart)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
+
+ **Returns:**
+void
+
+
+---
+
+
+### setTriggerShape {#setTriggerShape}
+
+| Name | Description |
+| --- | --- |
+| setTriggerShape ([AudioFrame](../audioframe)) | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
  **Returns:**
 void
