@@ -139,6 +139,7 @@ url: /com.aspose.slides/
 | [CommentsPositions](../com.aspose.slides/commentspositions) | Represents the rule to render comments into exported document |
 | [CommonSlideViewProperties](../com.aspose.slides/commonslideviewproperties) | Represents common slide view properties. |
 | [Compress](../com.aspose.slides/compress) | Represents a group of methods intended to compress [Presentation](../com.aspose.slides/presentation). |
+| [CompressionLevel](../com.aspose.slides/compressionlevel) | Specifies ZIP compression levels for OpenXML file. |
 | [Conformance](../com.aspose.slides/conformance) | Specifies the conformance class to which the PresentationML document conforms. |
 | [Connector](../com.aspose.slides/connector) | Represents a connector. |
 | [ConnectorLock](../com.aspose.slides/connectorlock) | Determines which operations are disabled on the parent Connector. |
@@ -661,6 +662,7 @@ url: /com.aspose.slides/
 | [WebDocument](../com.aspose.slides/webdocument) | Represents a transition form of the presentation for saving into a web format. |
 | [WebDocumentOptions](../com.aspose.slides/webdocumentoptions) | Represents an options set for [WebDocument](../com.aspose.slides/webdocument) saving. |
 | [WheelTransition](../com.aspose.slides/wheeltransition) | Wheel slide transition effect. |
+| [WorkbookType](../com.aspose.slides/workbooktype) | Specifies the type of Open XML workbook file. |
 | [XamlOptions](../com.aspose.slides/xamloptions) | Options that control how a XAML document is saved. |
 | [XpsOptions](../com.aspose.slides/xpsoptions) | Provides options that control how a presentation is saved in XPS format. |
 | [Zip64Mode](../com.aspose.slides/zip64mode) | Specifies when to use ZIP64 format extensions for OpenXML file. |

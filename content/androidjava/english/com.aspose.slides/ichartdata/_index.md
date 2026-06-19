@@ -26,6 +26,7 @@ Represents data used for a chart plotting.
 | [getRange()](#getRange--) | Gets chart data range. |
 | [getDataSourceType()](#getDataSourceType--) | Represents data source of the chart |
 | [getExternalWorkbookPath()](#getExternalWorkbookPath--) | Represents external workbook path if data source is external, null otherwise |
+| [getEmbeddedWorkbookType()](#getEmbeddedWorkbookType--) | Gets the type of the embedded workbook. |
 | [switchRowColumn()](#switchRowColumn--) | Swap the data over the axis. |
 | [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | Sets external workbook as a data source for the chart. |
 | [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | Sets external workbook as a data source for the chart. |
@@ -250,6 +251,16 @@ Represents external workbook path if data source is external, null otherwise
 
 **Returns:**
 java.lang.String
+### getEmbeddedWorkbookType() {#getEmbeddedWorkbookType--}
+```
+public abstract int getEmbeddedWorkbookType()
+```
+
+
+Gets the type of the embedded workbook. Returns [WorkbookType.NotDefined](../../com.aspose.slides/workbooktype\#NotDefined) if  DataSourceType (\#getDataSourceType.getDataSourceType) is [ChartDataSourceType.ExternalWorkbook](../../com.aspose.slides/chartdatasourcetype\#ExternalWorkbook). Read-only [WorkbookType](../../com.aspose.slides/workbooktype).
+
+**Returns:**
+int
 ### switchRowColumn() {#switchRowColumn--}
 ```
 public abstract void switchRowColumn()

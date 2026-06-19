@@ -20,6 +20,9 @@ Provides functionality for importing content from an Excel workbook into a prese
 | [addChartFromWorkbook(IShapeCollection shapes, float x, float y, IExcelDataWorkbook workbook, String worksheetName, String chartName, boolean embedAllWorkbook)](#addChartFromWorkbook-com.aspose.slides.IShapeCollection-float-float-com.aspose.slides.IExcelDataWorkbook-java.lang.String-java.lang.String-boolean-) | Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
 | [addChartFromWorkbook(IShapeCollection shapes, float x, float y, InputStream workbookStream, String worksheetName, String chartName, boolean embedAllWorkbook)](#addChartFromWorkbook-com.aspose.slides.IShapeCollection-float-float-java.io.InputStream-java.lang.String-java.lang.String-boolean-) | Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
 | [addChartFromWorkbook(IShapeCollection shapes, float x, float y, String workbookPath, String worksheetName, String chartName, boolean embedWorkbook)](#addChartFromWorkbook-com.aspose.slides.IShapeCollection-float-float-java.lang.String-java.lang.String-java.lang.String-boolean-) | Retrieves a chart from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
+| [addTableFromWorkbook(IShapeCollection shapes, float x, float y, IExcelDataWorkbook workbook, String worksheetName, String cellRange)](#addTableFromWorkbook-com.aspose.slides.IShapeCollection-float-float-com.aspose.slides.IExcelDataWorkbook-java.lang.String-java.lang.String-) | Retrieves a table from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates. |
+| [addTableFromWorkbook(IShapeCollection shapes, float x, float y, String workbookPath, String worksheetName, String cellRange)](#addTableFromWorkbook-com.aspose.slides.IShapeCollection-float-float-java.lang.String-java.lang.String-java.lang.String-) | Retrieves a table from the specified Excel workbook file and adds it to the end of the given shape collection at the specified coordinates. |
+| [addTableFromWorkbook(IShapeCollection shapes, float x, float y, InputStream workbookStream, String worksheetName, String cellRange)](#addTableFromWorkbook-com.aspose.slides.IShapeCollection-float-float-java.io.InputStream-java.lang.String-java.lang.String-) | Retrieves a table from the specified Excel workbook file and adds it to the end of the given shape collection at the specified coordinates. |
 ### addChartFromWorkbook(IShapeCollection shapes, float x, float y, IExcelDataWorkbook workbook, String worksheetName, int chartIndex, boolean embedAllWorkbook) {#addChartFromWorkbook-com.aspose.slides.IShapeCollection-float-float-com.aspose.slides.IExcelDataWorkbook-java.lang.String-int-boolean-}
 ```
 public static IChart addChartFromWorkbook(IShapeCollection shapes, float x, float y, IExcelDataWorkbook workbook, String worksheetName, int chartIndex, boolean embedAllWorkbook)
@@ -171,3 +174,101 @@ Retrieves a chart from the specified Excel workbook and adds it to the end of th
 
 **Returns:**
 [IChart](../../com.aspose.slides/ichart) - The chart that was added to the shape collection.
+### addTableFromWorkbook(IShapeCollection shapes, float x, float y, IExcelDataWorkbook workbook, String worksheetName, String cellRange) {#addTableFromWorkbook-com.aspose.slides.IShapeCollection-float-float-com.aspose.slides.IExcelDataWorkbook-java.lang.String-java.lang.String-}
+```
+public static ITable addTableFromWorkbook(IShapeCollection shapes, float x, float y, IExcelDataWorkbook workbook, String worksheetName, String cellRange)
+```
+
+
+Retrieves a table from the specified Excel workbook and adds it to the end of the given shape collection at the specified coordinates.
+
+--------------------
+
+> ```
+> IExcelDataWorkbook workbook = new ExcelDataWorkbook(testFile);
+>  Presentation pres = new Presentation();
+>  try {
+>      ExcelWorkbookImporter.addTableFromWorkbook(pres.getSlides().get_Item(0).getShapes(), 10, 10, workbook, worksheetName, "A1:D10");
+>      pres.save("result.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| shapes | [IShapeCollection](../../com.aspose.slides/ishapecollection) | The shape collection to which the table will be added. |
+| x | float | The X coordinate for positioning the table. |
+| y | float | The Y coordinate for positioning the table. |
+| workbook | [IExcelDataWorkbook](../../com.aspose.slides/iexceldataworkbook) | The Excel workbook. |
+| worksheetName | java.lang.String | The name of the worksheet that contains the table. |
+| cellRange | java.lang.String | The cell range that defines the table (for example, "A1:D10"). |
+
+**Returns:**
+[ITable](../../com.aspose.slides/itable) - The table that was added to the shape collection.
+### addTableFromWorkbook(IShapeCollection shapes, float x, float y, String workbookPath, String worksheetName, String cellRange) {#addTableFromWorkbook-com.aspose.slides.IShapeCollection-float-float-java.lang.String-java.lang.String-java.lang.String-}
+```
+public static ITable addTableFromWorkbook(IShapeCollection shapes, float x, float y, String workbookPath, String worksheetName, String cellRange)
+```
+
+
+Retrieves a table from the specified Excel workbook file and adds it to the end of the given shape collection at the specified coordinates.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation();
+>  try {
+>      ExcelWorkbookImporter.addTableFromWorkbook(pres.getSlides().get_Item(0).getShapes(), 10, 10, workbookPath, worksheetName, "A1:D10");
+>      pres.save("result.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| shapes | [IShapeCollection](../../com.aspose.slides/ishapecollection) | The shape collection to which the table will be added. |
+| x | float | The X coordinate for positioning the table. |
+| y | float | The Y coordinate for positioning the table. |
+| workbookPath | java.lang.String | The path to the Excel workbook file. |
+| worksheetName | java.lang.String | The name of the worksheet that contains the table. |
+| cellRange | java.lang.String | The cell range that defines the table (for example, "A1:D10"). |
+
+**Returns:**
+[ITable](../../com.aspose.slides/itable) - The table that was added to the shape collection.
+### addTableFromWorkbook(IShapeCollection shapes, float x, float y, InputStream workbookStream, String worksheetName, String cellRange) {#addTableFromWorkbook-com.aspose.slides.IShapeCollection-float-float-java.io.InputStream-java.lang.String-java.lang.String-}
+```
+public static ITable addTableFromWorkbook(IShapeCollection shapes, float x, float y, InputStream workbookStream, String worksheetName, String cellRange)
+```
+
+
+Retrieves a table from the specified Excel workbook file and adds it to the end of the given shape collection at the specified coordinates.
+
+--------------------
+
+> ```
+> FileInputStream fStream = new FileInputStream(workbookPath);
+>  Presentation pres = new Presentation();
+>  try {
+>      ExcelWorkbookImporter.addTableFromWorkbook(pres.getSlides().get_Item(0).getShapes(), 10, 10, fStream, worksheetName, "A1:D10");
+>      pres.save("result.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| shapes | [IShapeCollection](../../com.aspose.slides/ishapecollection) | The shape collection to which the table will be added. |
+| x | float | The X coordinate for positioning the table. |
+| y | float | The Y coordinate for positioning the table. |
+| workbookStream | java.io.InputStream | A stream containing the workbook data. |
+| worksheetName | java.lang.String | The name of the worksheet that contains the table. |
+| cellRange | java.lang.String | The cell range that defines the table (for example, "A1:D10"). |
+
+**Returns:**
+[ITable](../../com.aspose.slides/itable) - The table that was added to the shape collection.
