@@ -3,7 +3,7 @@ title: Format()
 second_title: Aspose.Slides for C++ API Reference
 description: Formats string in C# style.
 type: docs
-weight: 872
+weight: 885
 url: /system/string/format/
 ---
 ## String::Format(const SharedPtr\<IFormatProvider\>\&, const String\&, const Args\&...) method

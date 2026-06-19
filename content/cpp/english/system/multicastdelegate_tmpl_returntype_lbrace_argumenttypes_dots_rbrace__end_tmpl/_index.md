@@ -3,7 +3,7 @@ title: MulticastDelegate< ReturnType(ArgumentTypes...)>
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents a collection of delegates. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 1067
+weight: 1080
 url: /system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/
 ---
 ## MulticastDelegate< ReturnType(ArgumentTypes...)> class
@@ -69,6 +69,7 @@ template<class ReturnType,class...>class MulticastDelegate< ReturnType(ArgumentT
 | Typedef | Description |
 | --- | --- |
 | [Callback](./callback/) | The type of the delegates represented by the MulticastDelegate class. |
+| [Function](./function/) | The type of the function related to delegate signature. |
 
 ## See Also
 

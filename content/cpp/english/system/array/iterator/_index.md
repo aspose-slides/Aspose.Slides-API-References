@@ -3,7 +3,7 @@ title: iterator
 second_title: Aspose.Slides for C++ API Reference
 description: Iterator type.
 type: docs
-weight: 820
+weight: 846
 url: /system/array/iterator/
 ---
 ## iterator typedef

@@ -3,7 +3,7 @@ title: Compare()
 second_title: Aspose.Slides for C++ API Reference
 description: Less-equal-greater-compares two substrings.
 type: docs
-weight: 807
+weight: 820
 url: /system/string/compare/
 ---
 ## String::Compare(const String\&, int, const String\&, int, int, bool) method

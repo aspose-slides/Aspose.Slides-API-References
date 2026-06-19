@@ -3,7 +3,7 @@ title: ToUpper()
 second_title: Aspose.Slides for C++ API Reference
 description: Converts all string's characters to upper case.
 type: docs
-weight: 521
+weight: 534
 url: /system/string/toupper/
 ---
 ## String::ToUpper() const method

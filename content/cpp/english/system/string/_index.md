@@ -3,7 +3,7 @@ title: String
 second_title: Aspose.Slides for C++ API Reference
 description: "String class used across the library. Is a substitute for C# System.String when translating code. For optimization reasons, isn't considered an Object subclass. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 1236
+weight: 1249
 url: /system/string/
 ---
 ## String class
@@ -101,6 +101,7 @@ class String
 | int [LastIndexOfAny](./lastindexofany/)(const [ArrayPtr](../arrayptr/)\<char_t\>\&, **int32_t**) const | Looks for any of passed characters through substring backwardly. Compares last string character to all characters in anyOf, then compares previous one and so on. Returns index of the first match found. |
 | int [LastIndexOfAny](./lastindexofany/)(const [ArrayPtr](../arrayptr/)\<char_t\>\&, **int32_t**, **int32_t**) const | Looks for any of passed characters through substring backwardly. Compares last string character to all characters in anyOf, then compares previous one and so on. Returns index of the first match found. |
 | [String](./) [Normalize](./normalize/)([System::Text::NormalizationForm](../../system.text/normalizationform/)) const | Normalizes unicode string using normalization form specified. |
+|  [operator ReadOnlySpan< char16_t >](./operator_readonlyspan_less_char16_t__greater/)() const | Converts string to read only span. |
 | **bool** [operator!=](./operator_not_equal/)(const [String](./)\&) const | Non-equality comparison operator. |
 | **bool** [operator!=](./operator_not_equal/)(std::nullptr_t) const | Checks if string is not null. Applies same logic as [IsNull()](./isnull/) call. |
 | [String](./) [operator+](./operator_plus/)(const [String](./)\&) const | [String](./) concatenation operator. |
@@ -158,6 +159,7 @@ class String
 | explicit  [String](./string/)(T\&, typename std::enable_if\<[IsStringLiteral](../isstringliteral/)\<T, char\>::value\>::type *) | Constructs string based on string literal. Considers literal a null-terminated string in UTF8, calculates target string length based on literal size. |
 | explicit  [String](./string/)(const T\&, typename std::enable_if\<[IsStringPointer](../isstringpointer/)\<T, char\>::value\>::type *) | Constructs string based on character string pointer. Treats pointed string as null-terminated in UTF8, calculates target string length based on null character. |
 |  [String](./string/)(const char16_t *, int) | Constructs string from character string pointer and explicit length. |
+|  [String](./string/)(const [ReadOnlySpan](../readonlyspan/)\<char16_t\>\&) | Initializes a new instance of the [System.String](./) class to the Unicode characters indicated in the specified read-only span. |
 |  [String](./string/)(const char *, int) | Constructs string from character string pointer and explicit length. |
 |  [String](./string/)(const char16_t *, int, int) | Constructs string from character string pointer from starting position using length. |
 | explicit  [String](./string/)(const char16_t, int) | Fill constructor. |

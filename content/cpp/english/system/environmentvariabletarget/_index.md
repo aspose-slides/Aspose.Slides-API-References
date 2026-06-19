@@ -3,7 +3,7 @@ title: EnvironmentVariableTarget
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the environment variable location.
 type: docs
-weight: 3082
+weight: 3108
 url: /system/environmentvariabletarget/
 ---
 ## EnvironmentVariableTarget enum

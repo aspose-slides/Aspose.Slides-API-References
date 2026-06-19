@@ -3,7 +3,7 @@ title: BoxedValueBase
 second_title: Aspose.Slides for C++ API Reference
 description: "A base class that defines an interface and implements some fundamental methods of a descendant class that represents a boxed value. Objects of this class should only be allocated using System::MakeObject() function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into System::SmartPtr pointer and use this pointer to pass it to functions as argument."
 type: docs
-weight: 118
+weight: 131
 url: /system/boxedvaluebase/
 ---
 ## BoxedValueBase class
@@ -12,7 +12,7 @@ url: /system/boxedvaluebase/
 A base class that defines an interface and implements some fundamental methods of a descendant class that represents a boxed value. Objects of this class should only be allocated using [System::MakeObject()](../makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../smartptr/) pointer and use this pointer to pass it to functions as argument.
 
 ```cpp
-class BoxedValueBase : public System::Object
+class BoxedValueBase : public virtual System::Object
 ```
 
 ## Methods

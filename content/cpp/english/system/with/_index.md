@@ -3,7 +3,7 @@ title: With()
 second_title: Aspose.Slides for C++ API Reference
 description: Clones reference record and applies initializer functor to it.
 type: docs
-weight: 2549
+weight: 2575
 url: /system/with/
 ---
 ## System::With(const SharedPtr\<T\>\&, const A\&) function

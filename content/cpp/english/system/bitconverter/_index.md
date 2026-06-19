@@ -3,7 +3,7 @@ title: BitConverter
 second_title: Aspose.Slides for C++ API Reference
 description: Contains methods that perform conversions of sequence of bytes to a value type and vice-versa. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 53
+weight: 66
 url: /system/bitconverter/
 ---
 ## BitConverter class

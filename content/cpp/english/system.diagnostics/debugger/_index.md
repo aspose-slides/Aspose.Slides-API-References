@@ -20,6 +20,7 @@ class Debugger
 | Method | Description |
 | --- | --- |
 | static void [Break](./break/)() | Initiates debugger break (if attached). |
+| static **bool** [get_IsAttached](./get_isattached/)() | Checks if debugger is attached to current application instance. |
 ## See Also
 
 * Namespace [System::Diagnostics](../)

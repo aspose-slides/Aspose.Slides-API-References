@@ -3,7 +3,7 @@ title: ForEach()
 second_title: Aspose.Slides for C++ API Reference
 description: Performs specified action on each element of the specified array.
 type: docs
-weight: 664
+weight: 690
 url: /system/array/foreach/
 ---
 ## Array::ForEach(const ArrayPtr\<T\>\&, System::Action\<T\>) method

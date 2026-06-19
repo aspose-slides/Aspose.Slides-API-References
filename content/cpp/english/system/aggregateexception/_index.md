@@ -3,7 +3,7 @@ title: AggregateException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3550
+weight: 3576
 url: /system/aggregateexception/
 ---
 ## AggregateException typedef

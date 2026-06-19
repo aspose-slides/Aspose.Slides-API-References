@@ -3,7 +3,7 @@ title: rend()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a reverse iterator to the element following the last element of the reversed container. It corresponds to the element preceding the first element of the non-reversed container. This element acts as a placeholder, attempting to access it results in undefined behavior.
 type: docs
-weight: 482
+weight: 495
 url: /system/array/rend/
 ---
 ## Array::rend() method

@@ -12,7 +12,7 @@ url: /system/array/get_length/
 Returns 32-bit integer that represents the total number of all elements in all dimensions of the array.
 
 ```cpp
-int32_t System::Array<T>::get_Length() const
+int32_t System::Array<T>::get_Length() const override
 ```
 
 

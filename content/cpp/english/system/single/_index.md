@@ -3,7 +3,7 @@ title: Single
 second_title: Aspose.Slides for C++ API Reference
 description: Contains methods to work with the single-precision floating-point number.
 type: docs
-weight: 1847
+weight: 1873
 url: /system/single/
 ---
 ## Single struct

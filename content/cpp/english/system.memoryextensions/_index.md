@@ -3,7 +3,7 @@ title: "System::MemoryExtensions"
 second_title: Aspose.Slides for C++ API Reference
 description: Provides extension methods for memory operations on spans and arrays.
 type: docs
-weight: 612
+weight: 625
 url: /system.memoryextensions/
 ---
 

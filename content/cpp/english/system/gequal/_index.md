@@ -3,7 +3,7 @@ title: GEqual()
 second_title: Aspose.Slides for C++ API Reference
 description: Implements '>=' relative pattern translation.
 type: docs
-weight: 2302
+weight: 2328
 url: /system/gequal/
 ---
 ## System::GEqual(const ExpressionT\&, const ConstantT\&) function

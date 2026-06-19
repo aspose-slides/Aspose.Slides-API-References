@@ -3,7 +3,7 @@ title: GCHandleType
 second_title: Aspose.Slides for C++ API Reference
 description: Defines how handle is treated by garbage collector.
 type: docs
-weight: 40
+weight: 92
 url: /system.runtime.interopservices/gchandletype/
 ---
 ## GCHandleType enum

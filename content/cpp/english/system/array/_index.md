@@ -12,7 +12,7 @@ url: /system/array/
 Class that represents an array data structure. Objects of this class should only be allocated using [System::MakeArray()](../makearray/) and [System::MakeObject()](../makeobject/) functions. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../smartptr/) pointer and use this pointer to pass it to functions as argument.
 
 ```cpp
-template<typename T>class Array : public virtual System::Object,
+template<typename T>class Array : public System::ArrayBase,
                                   public System::Collections::Generic::IList<T>
 ```
 
@@ -38,6 +38,7 @@ template<typename T>class Array : public virtual System::Object,
 |  [Array](./array/)(std::initializer_list\<[UnderlyingType](./underlyingtype/)\>) | Constructs an [Array](./) object and fills it with values from the specified initializer list containing elements of **UnderlyingType** type. |
 |  [Array](./array/)(const std::array\<[UnderlyingType](./underlyingtype/), InitArraySize\>\&) | Constructs an [Array](./) object and fills it with values from the specified array containing elements of **UnderlyingType** type. |
 |  [Array](./array/)(std::initializer_list\<**bool**\>, int) | Constructs an [Array](./) object and fills it with values from the specified initializer list containing elements of bool type. |
+| static [SharedPtr](../sharedptr/)\<[Collections::ObjectModel::ReadOnlyCollection](../../system.collections.objectmodel/readonlycollection/)\<T\>\> [AsReadOnly](./asreadonly/)(const [SharedPtr](../sharedptr/)\<[Array](./)\<T\>\>\&) | Casts array to read only collection. |
 | [iterator](./iterator/) [begin](./begin/)() | Returns an iterator to the first element of the container. If the container is empty, the returned iterator will be equal to [end()](./end/). |
 | [const_iterator](./const_iterator/) [begin](./begin/)() const | Returns an iterator to the first element of the const-qualified container. If the container is empty, the returned iterator will be equal to [end()](./end/). |
 | static int [BinarySearch](./binarysearch/)([System::ArrayPtr](../arrayptr/)\<T\>, const T\&) | Performs binary search in the sorted array. |
@@ -94,7 +95,7 @@ template<typename T>class Array : public virtual System::Object,
 | int [get_Count](./get_count/)() const override | Returns the size of the array. |
 | **bool** [get_IsFixedSize](../../system.collections.generic/ilist/get_isfixedsize/)() | Checks whether the collection is of fixed size. |
 | **bool** [get_IsReadOnly](./get_isreadonly/)() const override | Indicates whether the array is read-only. |
-| **int32_t** [get_Length](./get_length/)() const | Returns 32-bit integer that represents the total number of all elements in all dimensions of the array. |
+| **int32_t** [get_Length](./get_length/)() const override | Returns 32-bit integer that represents the total number of all elements in all dimensions of the array. |
 | **int64_t** [get_LongLength](./get_longlength/)() const | Returns 64-bit integer that represents the total number of all elements in all dimensions of the array. |
 | **int32_t** [get_Rank](./get_rank/)() const | NOT IMPLEMENTED. |
 | [SharedPtr](../sharedptr/)\<[Object](../object/)\> [get_SyncRoot](../../system.collections.generic/icollection/get_syncroot/)() const | Gets the object the collection is being synchronized through. |
@@ -177,6 +178,7 @@ template<typename T>class Array : public virtual System::Object,
 | [ICollection](../../system.collections.generic/icollection/)\& [operator=](../../system.collections.generic/icollection/operator_equal/)(const [ICollection](../../system.collections.generic/icollection/)\&) | Move assignment operator. |
 | [UnderlyingType](./underlyingtype/)\& [operator[]](./operator[]/)(int) | Returns an item at the specified index. |
 | [UnderlyingType](./underlyingtype/) const\& [operator[]](./operator[]/)(int) const | Returns an item at the specified index. |
+| void * [raw_data_ptr](./raw_data_ptr/)() override | Returns pointer to the first element of single-dimension array. For multi-dimensional arrays result undefined. |
 | [reverse_iterator](./reverse_iterator/) [rbegin](./rbegin/)() | Returns a reverse iterator to the first element of the reversed container. It corresponds to the last element of the non-reversed container. If the container is empty, the returned iterator is equal to [rend()](./rend/). |
 | [const_reverse_iterator](./const_reverse_iterator/) [rbegin](./rbegin/)() const | Returns a reverse iterator to the first element of the reversed container. It corresponds to the last element of the non-reversed container. If the container is empty, the returned iterator is equal to [rend()](./rend/). |
 | static **bool** [ReferenceEquals](../object/referenceequals/)([ptr](../object/ptr/) const\&, [ptr](../object/ptr/) const\&) | Compares objects by reference. |
@@ -201,6 +203,7 @@ template<typename T>class Array : public virtual System::Object,
 | static void [Sort](./sort/)(const [ArrayPtr](../arrayptr/)\<[Type](../object/type/)\>\&, int, int) | Sorts a range of elements in the specified array using default comparer. |
 | static void [Sort](./sort/)(const [ArrayPtr](../arrayptr/)\<[Type](../object/type/)\>\&, const [SharedPtr](../sharedptr/)\<[System::Collections::Generic::IComparer](../../system.collections.generic/icomparer/)\<T\>\>\&) | Sorts elements in the specified array using specified comparer. |
 | static void [Sort](./sort/)(const [ArrayPtr](../arrayptr/)\<[Type](../object/type/)\>\&, const [SharedPtr](../sharedptr/)\<[System::Collections::Generic::IComparer](../../system.collections.generic/icomparer/)\<Y\>\>\&) | NOT IMPLEMENTED. |
+| static void [Sort](./sort/)(const [ArrayPtr](../arrayptr/)\<[Type](../object/type/)\>\&, const [System::Comparison](../comparison/)\<T\>\&) | Sorts elements in the specified array using specified comparison. |
 | static void [Sort](./sort/)(const [ArrayPtr](../arrayptr/)\<TKey\>\&, const [ArrayPtr](../arrayptr/)\<TValue\>\&) | Sorts two arrays one containing keys and the other - corresponding items, based on the values of array containing keys, elements of which are compared using operator<. |
 | static void [Sort](./sort/)(const [ArrayPtr](../arrayptr/)\<TKey\>\&, const [ArrayPtr](../arrayptr/)\<TValue\>\&, int, int) | Sorts two arrays one containing keys and the other - corresponding items, based on the values of array containing keys, elements of which are compared using default comparer. |
 | virtual [String](../string/) [ToString](../object/tostring/)() const | Analog of C# [Object.ToString()](../object/tostring/) method. Enables converting custom objects to string. |
@@ -290,7 +293,7 @@ This code example produces the following output:
 
 ## See Also
 
-* Class [Object](../object/)
+* Class [ArrayBase](../arraybase/)
 * Class [IList](../../system.collections.generic/ilist/)
 * Namespace [System](../)
 * Library [Aspose.Slides](../../)

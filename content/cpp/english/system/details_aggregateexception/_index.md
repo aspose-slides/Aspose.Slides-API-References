@@ -3,7 +3,7 @@ title: Details_AggregateException
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an exception that contains multiple inner exceptions.
 type: docs
-weight: 287
+weight: 300
 url: /system/details_aggregateexception/
 ---
 ## Details_AggregateException class
@@ -26,6 +26,7 @@ class Details_AggregateException : public System::Details_Exception
 | static **bool** [Equals](../object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
 | [AggregateException](../aggregateexception/) [Flatten](./flatten/)() | Flattens the aggregate exception by unwrapping all nested AggregateExceptions into a single-level list. |
+| virtual [SharedPtr](../sharedptr/)\<[Collections::Generic::IDictionary](../../system.collections.generic/idictionary/)\<[SharedPtr](../sharedptr/)\<[Object](../object/)\>, [SharedPtr](../sharedptr/)\<[Object](../object/)\>\>\> [get_Data](../details_exception/get_data/)() | Returns dictionary with custom exception data. |
 | **int32_t** [get_HResult](../details_exception/get_hresult/)() const | Returns a 32-bit integer value which is a HRESULT code associated with the exception reprsented by the current object. |
 | virtual [ExceptionWrapper](../exceptionwrapper/)\<[Details_Exception](../details_exception/)\> [get_InnerException](../details_exception/get_innerexception/)() const | Returns a reference to the object representing the inner exception. |
 | **int32_t** [get_InnerExceptionCount](./get_innerexceptioncount/)() | Gets the number of inner exceptions contained in this aggregate exception. |

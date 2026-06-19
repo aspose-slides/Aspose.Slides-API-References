@@ -3,7 +3,7 @@ title: Mute()
 second_title: Aspose.Slides for C++ API Reference
 description: Mutes or unmutes the standard output stream.
 type: docs
-weight: 118
+weight: 131
 url: /system/console/mute/
 ---
 ## Console::Mute(bool) method

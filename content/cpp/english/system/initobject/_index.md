@@ -3,7 +3,7 @@ title: InitObject()
 second_title: Aspose.Slides for C++ API Reference
 description: Starts initialization of an object with shared ownership.
 type: docs
-weight: 2211
+weight: 2237
 url: /system/initobject/
 ---
 ## System::InitObject(const SharedPtr\<T\>\&) function

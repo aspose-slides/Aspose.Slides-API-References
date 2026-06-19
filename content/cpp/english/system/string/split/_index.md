@@ -3,7 +3,7 @@ title: Split()
 second_title: Aspose.Slides for C++ API Reference
 description: Splits string by character.
 type: docs
-weight: 755
+weight: 768
 url: /system/string/split/
 ---
 ## String::Split(char_t, StringSplitOptions) const method

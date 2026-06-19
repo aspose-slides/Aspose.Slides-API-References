@@ -3,7 +3,7 @@ title: FileLoadException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 651
+weight: 664
 url: /system.io/fileloadexception/
 ---
 ## FileLoadException typedef

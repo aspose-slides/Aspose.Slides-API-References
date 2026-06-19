@@ -3,7 +3,7 @@ title: StackOverflowException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 4031
+weight: 4057
 url: /system/stackoverflowexception/
 ---
 ## StackOverflowException typedef

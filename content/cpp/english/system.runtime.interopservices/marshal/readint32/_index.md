@@ -3,7 +3,7 @@ title: ReadInt32()
 second_title: Aspose.Slides for C++ API Reference
 description: Reads int from memory.
 type: docs
-weight: 92
+weight: 118
 url: /system.runtime.interopservices/marshal/readint32/
 ---
 ## Marshal::ReadInt32(IntPtr, int) method

@@ -3,7 +3,7 @@ title: Sort()
 second_title: Aspose.Slides for C++ API Reference
 description: Sorts elements in the specified array using default comparer.
 type: docs
-weight: 716
+weight: 742
 url: /system/array/sort/
 ---
 ## Array::Sort(const ArrayPtr\<Type\>\&) method
@@ -67,6 +67,15 @@ template<typename Type,typename Y> static void System::Array<T>::Sort(const Arra
 ```
 
 
+## Array::Sort(const ArrayPtr\<Type\>\&, const System::Comparison\<T\>\&) method
+
+
+Sorts elements in the specified array using specified comparison.
+
+```cpp
+template<typename Type> static void System::Array<T>::Sort(const ArrayPtr<Type> &arr, const System::Comparison<T> &comparison)
+```
+
 ## Array::Sort(const ArrayPtr\<TKey\>\&, const ArrayPtr\<TValue\>\&) method
 
 
@@ -124,5 +133,6 @@ template<typename TKey,typename TValue> static void System::Array<T>::Sort(const
 * Method [Type](../../object/type/)
 * Class [Array](../)
 * Class [IComparer](../../../system.collections.generic/icomparer/)
+* Class [Comparison](../../comparison/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

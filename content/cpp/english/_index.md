@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides for C++ API Reference (version 26.5)
+title: Aspose.Slides for C++ API Reference (version 26.6)
 type: docs
 weight: 12
 url: /
@@ -35,6 +35,7 @@ is_root: true
 - [System::Collections](./system.collections/)
 - [System::Collections::Concurrent](./system.collections.concurrent/)
 - [System::Collections::Generic](./system.collections.generic/)
+- [System::Collections::Generic::CollectionExtensions](./system.collections.generic.collectionextensions/)
 - [System::Collections::Generic::Details](./system.collections.generic.details/)
 - [System::Collections::Generic::Details::CastRules](./system.collections.generic.details.castrules/)
 - [System::Collections::ObjectModel](./system.collections.objectmodel/)
@@ -65,6 +66,7 @@ is_root: true
 - [System::Net::NetworkInformation](./system.net.networkinformation/)
 - [System::Net::Security](./system.net.security/)
 - [System::Net::Sockets](./system.net.sockets/)
+- [System::Numerics::BitOperations](./system.numerics.bitoperations/)
 - [System::Reflection](./system.reflection/)
 - [System::Runtime::CompilerServices](./system.runtime.compilerservices/)
 - [System::Runtime::InteropServices](./system.runtime.interopservices/)

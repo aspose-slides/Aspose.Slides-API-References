@@ -3,7 +3,7 @@ title: GetHRForException()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets HResult from exception.
 type: docs
-weight: 105
+weight: 144
 url: /system.runtime.interopservices/marshal/gethrforexception/
 ---
 ## Marshal::GetHRForException(const System::Exception\&) method

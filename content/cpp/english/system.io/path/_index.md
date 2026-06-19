@@ -3,7 +3,7 @@ title: Path
 second_title: Aspose.Slides for C++ API Reference
 description: Provides methods for manipulating paths. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 326
+weight: 339
 url: /system.io/path/
 ---
 ## Path class

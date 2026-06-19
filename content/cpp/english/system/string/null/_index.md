@@ -3,7 +3,7 @@ title: Null
 second_title: Aspose.Slides for C++ API Reference
 description: Null string.
 type: docs
-weight: 963
+weight: 976
 url: /system/string/null/
 ---
 ## Null field

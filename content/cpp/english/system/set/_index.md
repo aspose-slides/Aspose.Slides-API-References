@@ -3,7 +3,7 @@ title: Set()
 second_title: Aspose.Slides for C++ API Reference
 description: Implements 'var' pattern translation.
 type: docs
-weight: 2315
+weight: 2341
 url: /system/set/
 ---
 ## System::Set(ExpressionT\&, const ExpressionT\&) function

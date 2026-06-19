@@ -3,7 +3,7 @@ title: Span
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents a contiguous region of arbitrary memory similar to C++20's std::span."
 type: docs
-weight: 1223
+weight: 1236
 url: /system/span/
 ---
 ## Span class

@@ -3,7 +3,7 @@ title: DoThrow()
 second_title: Aspose.Slides for C++ API Reference
 description: Throws exception instance wrapped by exception wrapper.
 type: docs
-weight: 105
+weight: 118
 url: /system/details_exception/dothrow/
 ---
 ## Details_Exception::DoThrow(const ExceptionPtr\&) const method

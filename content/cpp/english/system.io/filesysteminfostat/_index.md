@@ -3,7 +3,7 @@ title: FileSystemInfoStat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents information about a file or directory.
 type: docs
-weight: 300
+weight: 313
 url: /system.io/filesysteminfostat/
 ---
 ## FileSystemInfoStat class

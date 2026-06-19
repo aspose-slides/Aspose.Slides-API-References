@@ -3,7 +3,7 @@ title: BuildArray()
 second_title: Aspose.Slides for C++ API Reference
 description: Build an array.
 type: docs
-weight: 2224
+weight: 2250
 url: /system/buildarray/
 ---
 ## System::BuildArray() function

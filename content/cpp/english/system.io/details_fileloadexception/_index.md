@@ -3,7 +3,7 @@ title: Details_FileLoadException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 157
+weight: 170
 url: /system.io/details_fileloadexception/
 ---
 ## Details_FileLoadException class
@@ -25,6 +25,7 @@ class Details_FileLoadException : public System::IO::Details_IOException
 | static **bool** [Equals](../../system/object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../../system/object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../../system/object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
+| virtual [SharedPtr](../../system/sharedptr/)\<[Collections::Generic::IDictionary](../../system.collections.generic/idictionary/)\<[SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>, [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\>\> [get_Data](../../system/details_exception/get_data/)() | Returns dictionary with custom exception data. |
 | [String](../../system/string/) [get_FileName](./get_filename/)() |  |
 | **int32_t** [get_HResult](../../system/details_exception/get_hresult/)() const | Returns a 32-bit integer value which is a HRESULT code associated with the exception reprsented by the current object. |
 | virtual [ExceptionWrapper](../../system/exceptionwrapper/)\<[Details_Exception](../../system/details_exception/)\> [get_InnerException](../../system/details_exception/get_innerexception/)() const | Returns a reference to the object representing the inner exception. |

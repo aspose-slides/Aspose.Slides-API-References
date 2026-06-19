@@ -3,7 +3,7 @@ title: cbegin()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns an iterator to the first const-qualified element of the container. If the container is empty, the returned iterator will be equal to cend().
 type: docs
-weight: 417
+weight: 430
 url: /system/array/cbegin/
 ---
 ## Array::cbegin() const method

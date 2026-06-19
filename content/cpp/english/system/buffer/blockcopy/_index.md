@@ -53,6 +53,26 @@ template<typename TSrc,typename TDst> static void System::Buffer::BlockCopy(cons
 | dstOffset | int | A byte offset in the destination array at which to start inserting data |
 | count | int | The number of bytes to copy |
 
+## Buffer::BlockCopy(const SharedPtr\<ArrayBase\>\&, int, const SharedPtr\<ArrayBase\>\&, int, int) method
+
+
+Interprets two specified arrays as raw arrays of bytes and copies data from one of them to another.
+
+```cpp
+static void System::Buffer::BlockCopy(const SharedPtr<ArrayBase> &src, int srcOffset, const SharedPtr<ArrayBase> &dst, int dstOffset, int count)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| src | const [SharedPtr](../../sharedptr/)\<[ArrayBase](../../arraybase/)\>\& | The source array |
+| srcOffset | int | A byte offset in the tho source array at which copying starts |
+| dst | const [SharedPtr](../../sharedptr/)\<[ArrayBase](../../arraybase/)\>\& | The destination array |
+| dstOffset | int | A byte offset in the destination array at which to start inserting data |
+| count | int | The number of bytes to copy |
+
 ## Buffer::BlockCopy(const System::Details::ArrayView\<TSrc\>\&, int, const System::Details::ArrayView\<TDst\>\&, int, int) method
 
 
@@ -224,5 +244,6 @@ template<typename TSrc,std::size_t,typename TDst> static void System::Buffer::Bl
 * Typedef [SharedPtr](../../sharedptr/)
 * Class [Buffer](../)
 * Class [Array](../../array/)
+* Class [ArrayBase](../../arraybase/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

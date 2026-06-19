@@ -3,7 +3,7 @@ title: FileStreamPtr
 second_title: Aspose.Slides for C++ API Reference
 description: "An alias for a smart pointer that points to an instance of System::IO::FileStream class."
 type: docs
-weight: 3407
+weight: 3433
 url: /system/filestreamptr/
 ---
 ## FileStreamPtr typedef

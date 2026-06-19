@@ -66,9 +66,26 @@ template<std::size_t> void System::IO::Stream::Write(const System::Details::Stac
 | offset | **int32_t** | A 0-based index of the element in **buffer** at which the subrange to write begins |
 | count | **int32_t** | The number of elements in the subrange to write |
 
+## Stream::Write(const System::ReadOnlySpan\<uint8_t\>\&) method
+
+
+Writes the specified subrange of bytes from the specified byte span to the stream.
+
+```cpp
+virtual void System::IO::Stream::Write(const System::ReadOnlySpan<uint8_t> &buffer)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| buffer | const [System::ReadOnlySpan](../../../system/readonlyspan/)\<**uint8_t**\>\& | The byte span to read the written bytes from |
+
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [Stream](../)
+* Class [ReadOnlySpan](../../../system/readonlyspan/)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

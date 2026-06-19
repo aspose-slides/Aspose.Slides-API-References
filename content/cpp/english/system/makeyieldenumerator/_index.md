@@ -3,7 +3,7 @@ title: MakeYieldEnumerator()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates an IEnumerator from a yield function.
 type: docs
-weight: 2367
+weight: 2393
 url: /system/makeyieldenumerator/
 ---
 ## System::MakeYieldEnumerator(const Details::YieldFunction\<T\>\&) function

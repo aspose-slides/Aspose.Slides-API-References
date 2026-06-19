@@ -3,7 +3,7 @@ title: FindAll()
 second_title: Aspose.Slides for C++ API Reference
 description: Retrieves all the elements that match the conditions defined by the specified predicate.
 type: docs
-weight: 638
+weight: 664
 url: /system/array/findall/
 ---
 ## Array::FindAll(System::ArrayPtr\<T\>, System::Predicate\<T\>) method

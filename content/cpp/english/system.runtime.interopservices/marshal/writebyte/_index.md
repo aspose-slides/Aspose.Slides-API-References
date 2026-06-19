@@ -3,7 +3,7 @@ title: WriteByte()
 second_title: Aspose.Slides for C++ API Reference
 description: Writes byte to memory.
 type: docs
-weight: 14
+weight: 27
 url: /system.runtime.interopservices/marshal/writebyte/
 ---
 ## Marshal::WriteByte(IntPtr, int, uint8_t) method

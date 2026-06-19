@@ -3,7 +3,7 @@ title: Less()
 second_title: Aspose.Slides for C++ API Reference
 description: Implements '<' relative pattern translation.
 type: docs
-weight: 2263
+weight: 2289
 url: /system/less/
 ---
 ## System::Less(const ExpressionT\&, const ConstantT\&) function

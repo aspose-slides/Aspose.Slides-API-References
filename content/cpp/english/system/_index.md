@@ -15,6 +15,7 @@ url: /system/
 | --- | --- |
 | [Activator](./activator/) | Contains methods to create types of objects. |
 | [Array](./array/) | Class that represents an array data structure. Objects of this class should only be allocated using [System::MakeArray()](./makearray/) and [System::MakeObject()](./makeobject/) functions. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](./smartptr/) pointer and use this pointer to pass it to functions as argument. |
+| [ArrayBase](./arraybase/) | The dummy for [System.Array](./array/) class (abstract base class for all arrays) May be filled with functionality by request. |
 | [ArraySegment](./arraysegment/) | Represents a segment of the one-dimensional array. This type should be allocated on stack and passed to functions by value or by reference. Never use [System::SmartPtr](./smartptr/) class to manage objects of this type. |
 | [Attribute](./attribute/) | A base class for custom attributes. Objects of this class should only be allocated using [System::MakeObject()](./makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](./smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [BitConverter](./bitconverter/) | Contains methods that perform conversions of sequence of bytes to a value type and vice-versa. This is a static type with no instance services. You should never create instances of it by any means. |
@@ -152,6 +153,7 @@ url: /system/
 | [IsWeakPtr](./isweakptr/) | Traits class to check if specific class is a specialization of [System::WeakPtr](./weakptr/). Doesn't check if instance is actually in weak mode. |
 | [MakeConstRef](./makeconstref/) | Trait to make generic type \"const reference\" if it is [String](./string/) or a SmartPtr<> type. |
 | [Math](./math/) | Contains math functions. This is a static type with no instance services. You should never create instances of it by any means. |
+| [MathF](./mathf/) | Contains math functions for single-precision floating-point values. This is a static type with no instance services. You should never create instances of it by any means. |
 | [MethodArgumentTuple< R(*)(Args...)>](./methodargumenttuple_tmpl_r_lbrace__star_rbrace__lbrace_args_dots_rbrace__end_tmpl/) | Defines tuple to store method arguments. |
 | [MethodArgumentTuple< R(C::*)(Args...) const >](./methodargumenttuple_tmpl_r_lbrace_c__star_rbrace__lbrace_args_dots_rbrace__const__end_tmpl/) | Defines tuple to store method arguments. |
 | [MethodArgumentTuple< R(C::*)(Args...)>](./methodargumenttuple_tmpl_r_lbrace_c__star_rbrace__lbrace_args_dots_rbrace__end_tmpl/) | Defines tuple to store method arguments. |
