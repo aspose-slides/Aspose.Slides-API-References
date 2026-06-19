@@ -52,13 +52,9 @@ class MathF
 | Field | Description |
 | --- | --- |
 | static [E](./e/) | Natural logarithm's base. |
+| static constexpr [MaxRoundingDigits](./maxroundingdigits/) |  |
 | static [PI](./pi/) | The number Pi constant. |
 | static [Tau](./tau/) | Tau value. |
-## Enums
-
-| Enum | Description |
-| --- | --- |
-| [@6](./@6/) | The maximum number of digits that are taken into account during rounding. |
 ## See Also
 
 * Namespace [System](../)
