@@ -138,6 +138,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [CommentsPositions](commentspositions) | Represents the rule to render comments into exported document |
 | [CommonSlideViewProperties](commonslideviewproperties) | Represents common slide view properties. |
 | [Compress](compress) | Represents a group of methods intended to compress Presentation. |
+| [CompressionLevel](compressionlevel) | Specifies ZIP compression levels for OpenXML file. Higher levels provide better compression at the cost of slower processing. |
 | [Conformance](conformance) | Specifies the conformance class to which the PresentationML document conforms. |
 | [Connector](connector) | Represents a connector. |
 | [ConnectorLock](connectorlock) | Determines which operations are disabled on the parent Connector. |
@@ -219,7 +220,6 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [FontFallBackRulesCollection](fontfallbackrulescollection) | Represents a collection of FontFallBack rules, defined by user |
 | [FontScheme](fontscheme) | Stores theme-defined fonts. |
 | [FontSources](fontsources) | Provides file and memory sources for external fonts. |
-| [FontStyle](fontstyle) | Font style enumeration |
 | [FontStyleType](fontstyletype) | Defines formatting styles that can be applied to text. |
 | [FontSubstCondition](fontsubstcondition) | Represents a rule fot font substitution |
 | [FontSubstRule](fontsubstrule) | Represents font subtituition information |
@@ -392,6 +392,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [MathVerticalAlignment](mathverticalalignment) | Vertical Alignment |
 | [MathematicalText](mathematicaltext) | Mathematical text |
 | [MathematicalTextFactory](mathematicaltextfactory) | Allows to create a MathematicalText element For COM comparibility |
+| [Merger](merger) | Represents a group of methods for merging PowerPoint presentations of the same format into one file. |
 | [Metered](metered) | Provides methods to set metered key. |
 | [ModernComment](moderncomment) | Represents a comment on a slide. |
 | [ModernCommentStatus](moderncommentstatus) | Represents the status of a modern comment. |
@@ -521,6 +522,10 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [SectionCollection](sectioncollection) | Represents a collection of sections. |
 | [SectionSlideCollection](sectionslidecollection) | Represents a collection of slides in the section. |
 | [SectionZoomFrame](sectionzoomframe) | Represents a Section Zoom object in a slide. |
+| [SensitivityLabel](sensitivitylabel) | Represents the sensitivity label from Microsoft Purview Information Protection. |
+| [SensitivityLabelAssignmentType](sensitivitylabelassignmenttype) | Represents the assignment method for the sensitivity label. |
+| [SensitivityLabelCollection](sensitivitylabelcollection) | Represents a collection of sensitivity labels applied to the document. |
+| [SensitivityLabelContentType](sensitivitylabelcontenttype) | Represents the types of content marking that ought to be applied to a document. |
 | [Sequence](sequence) | Represents sequence (collection of effects). |
 | [SequenceCollection](sequencecollection) | Represents collection of interactive sequences. |
 | [SetEffect](seteffect) | Represents a set effect for an animation behavior. |
@@ -660,6 +665,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [WebDocument](webdocument) | Represents a transition form of the presentation for saving into a web format. |
 | [WebDocumentOptions](webdocumentoptions) | Represents an options set for WebDocument saving. |
 | [WheelTransition](wheeltransition) | Wheel slide transition effect. |
+| [WorkbookType](workbooktype) | Specifies the type of Open XML workbook file. |
 | [XamlOptions](xamloptions) | Options that control how a XAML document is saved. |
 | [XpsOptions](xpsoptions) | Provides options that control how a presentation is saved in XPS format. |
 | [Zip64Mode](zip64mode) | Specifies when to use ZIP64 format extensions for OpenXML file. OpenXML file is a ZIP-archive that has a 4 GB (2^32 bytes) limit on uncompressed size of a file, compressed size of a file, and total size of the archive, as well as a limit of 65,535 (2^16-1) files in archive. ZIP64 format extensions increase the limits to 2^64. |

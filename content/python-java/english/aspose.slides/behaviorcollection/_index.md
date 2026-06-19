@@ -15,13 +15,45 @@ url: /aspose.slides/behaviorcollection/
 
 | Name | Description |
 | --- | --- |
-| add([FilterEffect](../filtereffect)) | Add new behavior to a collection. |
+| add([RotationEffect](../rotationeffect)) | Add new behavior to a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [FilterEffect](../filtereffect) | Behavior to add. |
+| item | [RotationEffect](../rotationeffect) | Behavior to add. |
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add([SetEffect](../seteffect)) | Add new behavior to a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [SetEffect](../seteffect) | Behavior to add. |
+
+
+---
+
+
+### add {#add}
+
+| Name | Description |
+| --- | --- |
+| add([CommandEffect](../commandeffect)) | Add new behavior to a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [CommandEffect](../commandeffect) | Behavior to add. |
 
 
 ---
@@ -47,13 +79,13 @@ url: /aspose.slides/behaviorcollection/
 
 | Name | Description |
 | --- | --- |
-| add([CommandEffect](../commandeffect)) | Add new behavior to a collection. |
+| add([Behavior](../behavior)) | Add new behavior to a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [CommandEffect](../commandeffect) | Behavior to add. |
+| item | [Behavior](../behavior) | Behavior to add. |
 
 
 ---
@@ -95,45 +127,13 @@ url: /aspose.slides/behaviorcollection/
 
 | Name | Description |
 | --- | --- |
-| add([Behavior](../behavior)) | Add new behavior to a collection. |
+| add([FilterEffect](../filtereffect)) | Add new behavior to a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [Behavior](../behavior) | Behavior to add. |
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
-| add([RotationEffect](../rotationeffect)) | Add new behavior to a collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [RotationEffect](../rotationeffect) | Behavior to add. |
-
-
----
-
-
-### add {#add}
-
-| Name | Description |
-| --- | --- |
-| add([SetEffect](../seteffect)) | Add new behavior to a collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [SetEffect](../seteffect) | Behavior to add. |
+| item | [FilterEffect](../filtereffect) | Behavior to add. |
 
 
 ---
@@ -153,13 +153,51 @@ url: /aspose.slides/behaviorcollection/
 
 | Name | Description |
 | --- | --- |
-| contains([FilterEffect](../filtereffect)) | Determines whether the IGenericCollection contains a specific value. |
+| contains([RotationEffect](../rotationeffect)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [FilterEffect](../filtereffect) | The object to locate in the IGenericCollection. |
+| item | [RotationEffect](../rotationeffect) | The object to locate in the IGenericCollection. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### contains {#contains}
+
+| Name | Description |
+| --- | --- |
+| contains([SetEffect](../seteffect)) | Determines whether the IGenericCollection contains a specific value. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [SetEffect](../seteffect) | The object to locate in the IGenericCollection. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### contains {#contains}
+
+| Name | Description |
+| --- | --- |
+| contains([CommandEffect](../commandeffect)) | Determines whether the IGenericCollection contains a specific value. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [CommandEffect](../commandeffect) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -191,13 +229,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| contains([CommandEffect](../commandeffect)) | Determines whether the IGenericCollection contains a specific value. |
+| contains([Behavior](../behavior)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [CommandEffect](../commandeffect) | The object to locate in the IGenericCollection. |
+| item | [Behavior](../behavior) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -248,51 +286,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| contains([Behavior](../behavior)) | Determines whether the IGenericCollection contains a specific value. |
+| contains([FilterEffect](../filtereffect)) | Determines whether the IGenericCollection contains a specific value. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [Behavior](../behavior) | The object to locate in the IGenericCollection. |
-
- **Returns:**
-boolean
-
-
----
-
-
-### contains {#contains}
-
-| Name | Description |
-| --- | --- |
-| contains([RotationEffect](../rotationeffect)) | Determines whether the IGenericCollection contains a specific value. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [RotationEffect](../rotationeffect) | The object to locate in the IGenericCollection. |
-
- **Returns:**
-boolean
-
-
----
-
-
-### contains {#contains}
-
-| Name | Description |
-| --- | --- |
-| contains([SetEffect](../seteffect)) | Determines whether the IGenericCollection contains a specific value. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [SetEffect](../seteffect) | The object to locate in the IGenericCollection. |
+| item | [FilterEffect](../filtereffect) | The object to locate in the IGenericCollection. |
 
  **Returns:**
 boolean
@@ -350,7 +350,7 @@ int
 | index | int | Index of a behavior to return. |
 
  **Returns:**
-[FilterEffect](../filtereffect), [ColorEffect](../coloreffect), [CommandEffect](../commandeffect), [ScaleEffect](../scaleeffect), [MotionEffect](../motioneffect), [Behavior](../behavior), [RotationEffect](../rotationeffect), [SetEffect](../seteffect)
+[RotationEffect](../rotationeffect), [SetEffect](../seteffect), [CommandEffect](../commandeffect), [ColorEffect](../coloreffect), [Behavior](../behavior), [ScaleEffect](../scaleeffect), [MotionEffect](../motioneffect), [FilterEffect](../filtereffect)
 
 
 ---
@@ -360,13 +360,51 @@ int
 
 | Name | Description |
 | --- | --- |
-| indexOf([FilterEffect](../filtereffect)) | Determines the index of a specific item in the List. |
+| indexOf([RotationEffect](../rotationeffect)) | Determines the index of a specific item in the List. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [FilterEffect](../filtereffect) | The object to locate in the List. |
+| item | [RotationEffect](../rotationeffect) | The object to locate in the List. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### indexOf {#indexOf}
+
+| Name | Description |
+| --- | --- |
+| indexOf([SetEffect](../seteffect)) | Determines the index of a specific item in the List. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [SetEffect](../seteffect) | The object to locate in the List. |
+
+ **Returns:**
+int
+
+
+---
+
+
+### indexOf {#indexOf}
+
+| Name | Description |
+| --- | --- |
+| indexOf([CommandEffect](../commandeffect)) | Determines the index of a specific item in the List. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [CommandEffect](../commandeffect) | The object to locate in the List. |
 
  **Returns:**
 int
@@ -398,13 +436,13 @@ int
 
 | Name | Description |
 | --- | --- |
-| indexOf([CommandEffect](../commandeffect)) | Determines the index of a specific item in the List. |
+| indexOf([Behavior](../behavior)) | Determines the index of a specific item in the List. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [CommandEffect](../commandeffect) | The object to locate in the List. |
+| item | [Behavior](../behavior) | The object to locate in the List. |
 
  **Returns:**
 int
@@ -455,51 +493,13 @@ int
 
 | Name | Description |
 | --- | --- |
-| indexOf([Behavior](../behavior)) | Determines the index of a specific item in the List. |
+| indexOf([FilterEffect](../filtereffect)) | Determines the index of a specific item in the List. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [Behavior](../behavior) | The object to locate in the List. |
-
- **Returns:**
-int
-
-
----
-
-
-### indexOf {#indexOf}
-
-| Name | Description |
-| --- | --- |
-| indexOf([RotationEffect](../rotationeffect)) | Determines the index of a specific item in the List. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [RotationEffect](../rotationeffect) | The object to locate in the List. |
-
- **Returns:**
-int
-
-
----
-
-
-### indexOf {#indexOf}
-
-| Name | Description |
-| --- | --- |
-| indexOf([SetEffect](../seteffect)) | Determines the index of a specific item in the List. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [SetEffect](../seteffect) | The object to locate in the List. |
+| item | [FilterEffect](../filtereffect) | The object to locate in the List. |
 
  **Returns:**
 int
@@ -512,14 +512,48 @@ int
 
 | Name | Description |
 | --- | --- |
-| insert(int, [FilterEffect](../filtereffect)) | Inserts new behavior to a collection at the specified index. |
+| insert(int, [RotationEffect](../rotationeffect)) | Inserts new behavior to a collection at the specified index. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | [FilterEffect](../filtereffect) | Behavior to insert. |
+| item | [RotationEffect](../rotationeffect) | Behavior to insert. |
+
+
+---
+
+
+### insert {#insert}
+
+| Name | Description |
+| --- | --- |
+| insert(int, [SetEffect](../seteffect)) | Inserts new behavior to a collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index where new behavior should be inserted. |
+| item | [SetEffect](../seteffect) | Behavior to insert. |
+
+
+---
+
+
+### insert {#insert}
+
+| Name | Description |
+| --- | --- |
+| insert(int, [CommandEffect](../commandeffect)) | Inserts new behavior to a collection at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index where new behavior should be inserted. |
+| item | [CommandEffect](../commandeffect) | Behavior to insert. |
 
 
 ---
@@ -546,14 +580,14 @@ int
 
 | Name | Description |
 | --- | --- |
-| insert(int, [CommandEffect](../commandeffect)) | Inserts new behavior to a collection at the specified index. |
+| insert(int, [Behavior](../behavior)) | Inserts new behavior to a collection at the specified index. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | [CommandEffect](../commandeffect) | Behavior to insert. |
+| item | [Behavior](../behavior) | Behavior to insert. |
 
 
 ---
@@ -597,48 +631,14 @@ int
 
 | Name | Description |
 | --- | --- |
-| insert(int, [Behavior](../behavior)) | Inserts new behavior to a collection at the specified index. |
+| insert(int, [FilterEffect](../filtereffect)) | Inserts new behavior to a collection at the specified index. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | [Behavior](../behavior) | Behavior to insert. |
-
-
----
-
-
-### insert {#insert}
-
-| Name | Description |
-| --- | --- |
-| insert(int, [RotationEffect](../rotationeffect)) | Inserts new behavior to a collection at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index where new behavior should be inserted. |
-| item | [RotationEffect](../rotationeffect) | Behavior to insert. |
-
-
----
-
-
-### insert {#insert}
-
-| Name | Description |
-| --- | --- |
-| insert(int, [SetEffect](../seteffect)) | Inserts new behavior to a collection at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index where new behavior should be inserted. |
-| item | [SetEffect](../seteffect) | Behavior to insert. |
+| item | [FilterEffect](../filtereffect) | Behavior to insert. |
 
 
 ---
@@ -687,13 +687,51 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove([FilterEffect](../filtereffect)) | Removes specified behavior from a collection. |
+| remove([RotationEffect](../rotationeffect)) | Removes specified behavior from a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [FilterEffect](../filtereffect) | Behavior to remove. |
+| item | [RotationEffect](../rotationeffect) | Behavior to remove. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove([SetEffect](../seteffect)) | Removes specified behavior from a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [SetEffect](../seteffect) | Behavior to remove. |
+
+ **Returns:**
+boolean
+
+
+---
+
+
+### remove {#remove}
+
+| Name | Description |
+| --- | --- |
+| remove([CommandEffect](../commandeffect)) | Removes specified behavior from a collection. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [CommandEffect](../commandeffect) | Behavior to remove. |
 
  **Returns:**
 boolean
@@ -725,13 +763,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove([CommandEffect](../commandeffect)) | Removes specified behavior from a collection. |
+| remove([Behavior](../behavior)) | Removes specified behavior from a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [CommandEffect](../commandeffect) | Behavior to remove. |
+| item | [Behavior](../behavior) | Behavior to remove. |
 
  **Returns:**
 boolean
@@ -782,51 +820,13 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| remove([Behavior](../behavior)) | Removes specified behavior from a collection. |
+| remove([FilterEffect](../filtereffect)) | Removes specified behavior from a collection. |
 
  **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [Behavior](../behavior) | Behavior to remove. |
-
- **Returns:**
-boolean
-
-
----
-
-
-### remove {#remove}
-
-| Name | Description |
-| --- | --- |
-| remove([RotationEffect](../rotationeffect)) | Removes specified behavior from a collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [RotationEffect](../rotationeffect) | Behavior to remove. |
-
- **Returns:**
-boolean
-
-
----
-
-
-### remove {#remove}
-
-| Name | Description |
-| --- | --- |
-| remove([SetEffect](../seteffect)) | Removes specified behavior from a collection. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [SetEffect](../seteffect) | Behavior to remove. |
+| item | [FilterEffect](../filtereffect) | Behavior to remove. |
 
  **Returns:**
 boolean
@@ -855,7 +855,39 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| set_Item(int, [FilterEffect](../filtereffect)) | Sets a behavior at the specified index. |
+| set_Item(int, [RotationEffect](../rotationeffect)) | Sets a behavior at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a behavior to return. |
+
+
+---
+
+
+### set_Item {#set_Item}
+
+| Name | Description |
+| --- | --- |
+| set_Item(int, [SetEffect](../seteffect)) | Sets a behavior at the specified index. |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a behavior to return. |
+
+
+---
+
+
+### set_Item {#set_Item}
+
+| Name | Description |
+| --- | --- |
+| set_Item(int, [CommandEffect](../commandeffect)) | Sets a behavior at the specified index. |
 
  **Parameters:**
 
@@ -887,7 +919,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| set_Item(int, [CommandEffect](../commandeffect)) | Sets a behavior at the specified index. |
+| set_Item(int, [Behavior](../behavior)) | Sets a behavior at the specified index. |
 
  **Parameters:**
 
@@ -935,39 +967,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| set_Item(int, [Behavior](../behavior)) | Sets a behavior at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of a behavior to return. |
-
-
----
-
-
-### set_Item {#set_Item}
-
-| Name | Description |
-| --- | --- |
-| set_Item(int, [RotationEffect](../rotationeffect)) | Sets a behavior at the specified index. |
-
- **Parameters:**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of a behavior to return. |
-
-
----
-
-
-### set_Item {#set_Item}
-
-| Name | Description |
-| --- | --- |
-| set_Item(int, [SetEffect](../seteffect)) | Sets a behavior at the specified index. |
+| set_Item(int, [FilterEffect](../filtereffect)) | Sets a behavior at the specified index. |
 
  **Parameters:**
 

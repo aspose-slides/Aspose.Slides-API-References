@@ -151,7 +151,7 @@ ExcelDataWorkbook
 | skipHiddenCells | boolean | If true, hidden cells (e.g., in hidden rows or columns) will be excluded from the result. |
 
  **Returns:**
-List, ArrayList
+ArrayList, List
 
 
 ---
@@ -183,7 +183,7 @@ Dictionary
 | getWorksheetNames() | Retrieves the names of all worksheets contained in the Excel workbook. |
 
  **Returns:**
-List, ArrayList
+ArrayList, List
 
 
 ---

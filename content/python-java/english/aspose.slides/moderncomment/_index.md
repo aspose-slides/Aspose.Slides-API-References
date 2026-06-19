@@ -18,7 +18,7 @@ url: /aspose.slides/moderncomment/
 | getShape() | Returns a shape associated with the comment. Read-only IShape. |
 
  **Returns:**
-[PictureFrame](../pictureframe), [SmartArt](../smartart), [OleObjectFrame](../oleobjectframe), [AutoShape](../autoshape), [SummaryZoomSection](../summaryzoomsection), [Connector](../connector), [Ink](../ink), [VideoFrame](../videoframe), [LegacyDiagram](../legacydiagram), [SmartArtShape](../smartartshape), [ZoomFrame](../zoomframe), [GeometryShape](../geometryshape), [SummaryZoomFrame](../summaryzoomframe), [GraphicalObject](../graphicalobject), [InkActions](../inkactions), [SectionZoomFrame](../sectionzoomframe), [Chart](../chart), [AudioFrame](../audioframe), [Shape](../shape), [ZoomObject](../zoomobject), [GroupShape](../groupshape), [Table](../table)
+[ZoomObject](../zoomobject), [AudioFrame](../audioframe), [AutoShape](../autoshape), [GraphicalObject](../graphicalobject), [Shape](../shape), [SmartArt](../smartart), [SectionZoomFrame](../sectionzoomframe), [SmartArtShape](../smartartshape), [SummaryZoomFrame](../summaryzoomframe), [Chart](../chart), [Ink](../ink), [SummaryZoomSection](../summaryzoomsection), [GeometryShape](../geometryshape), [ZoomFrame](../zoomframe), [VideoFrame](../videoframe), [Connector](../connector), [LegacyDiagram](../legacydiagram), [GroupShape](../groupshape), [InkActions](../inkactions), [Table](../table), [OleObjectFrame](../oleobjectframe), [PictureFrame](../pictureframe)
 
 
 ---

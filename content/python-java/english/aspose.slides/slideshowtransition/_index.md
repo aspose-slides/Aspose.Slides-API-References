@@ -73,7 +73,7 @@ boolean
 
 | Name | Description |
 | --- | --- |
-| getDuration() | Gets or sets the duration of the slide transition effect in milliseconds. Read/write int. Corresponds to the p14:dur attribute of the p:transition element in the PresentationML schema. If not set, the duration is determined automatically based on the Speed( #getSpeed/ #setSpeed(int)) property and the transition type. |
+| getDuration() | Gets or sets the duration of the slide transition effect in milliseconds. Read/write int. Corresponds to the p14:dur attribute of the p:transition element in the PresentationML schema. If not set, the duration is determined automatically based on the #getSpeed/ #setSpeed(int) property and the transition type. |
 
  **Returns:**
 int
@@ -186,7 +186,7 @@ int
 | getValue() | Slide show transition value. Read-only ITransitionValueBase. |
 
  **Returns:**
-[ShredTransition](../shredtransition), [CornerDirectionTransition](../cornerdirectiontransition), [SideDirectionTransition](../sidedirectiontransition), [TransitionValueBase](../transitionvaluebase), [EightDirectionTransition](../eightdirectiontransition), [InOutTransition](../inouttransition), [GlitterTransition](../glittertransition), [EmptyTransition](../emptytransition), [FlyThroughTransition](../flythroughtransition), [SplitTransition](../splittransition), [OptionalBlackTransition](../optionalblacktransition), [OrientationTransition](../orientationtransition), [LeftRightDirectionTransition](../leftrightdirectiontransition), [RevealTransition](../revealtransition), [WheelTransition](../wheeltransition), [RippleTransition](../rippletransition), [MorphTransition](../morphtransition)
+[RippleTransition](../rippletransition), [CornerDirectionTransition](../cornerdirectiontransition), [FlyThroughTransition](../flythroughtransition), [InOutTransition](../inouttransition), [EightDirectionTransition](../eightdirectiontransition), [GlitterTransition](../glittertransition), [OptionalBlackTransition](../optionalblacktransition), [ShredTransition](../shredtransition), [SideDirectionTransition](../sidedirectiontransition), [RevealTransition](../revealtransition), [TransitionValueBase](../transitionvaluebase), [WheelTransition](../wheeltransition), [LeftRightDirectionTransition](../leftrightdirectiontransition), [SplitTransition](../splittransition), [MorphTransition](../morphtransition), [OrientationTransition](../orientationtransition), [EmptyTransition](../emptytransition)
 
 
 ---
@@ -239,7 +239,7 @@ int
 
 | Name | Description |
 | --- | --- |
-| setDuration(int) | Gets or sets the duration of the slide transition effect in milliseconds. Read/write int. Corresponds to the p14:dur attribute of the p:transition element in the PresentationML schema. If not set, the duration is determined automatically based on the Speed( #getSpeed/ #setSpeed(int)) property and the transition type. |
+| setDuration(int) | Gets or sets the duration of the slide transition effect in milliseconds. Read/write int. Corresponds to the p14:dur attribute of the p:transition element in the PresentationML schema. If not set, the duration is determined automatically based on the #getSpeed/ #setSpeed(int) property and the transition type. |
 
 
 ---
