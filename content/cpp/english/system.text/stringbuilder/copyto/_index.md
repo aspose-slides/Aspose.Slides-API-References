@@ -3,7 +3,7 @@ title: CopyTo()
 second_title: Aspose.Slides for C++ API Reference
 description: Copies builder's data into existing array positions.
 type: docs
-weight: 222
+weight: 235
 url: /system.text/stringbuilder/copyto/
 ---
 ## StringBuilder::CopyTo(int, System::ArrayPtr\<char_t\> const\&, int, int) method

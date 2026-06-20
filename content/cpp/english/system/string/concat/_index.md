@@ -3,7 +3,7 @@ title: Concat()
 second_title: Aspose.Slides for C++ API Reference
 description: Concatenates strings.
 type: docs
-weight: 846
+weight: 859
 url: /system/string/concat/
 ---
 ## String::Concat(const ArrayPtr\<String\>\&) method

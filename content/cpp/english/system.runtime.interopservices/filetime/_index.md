@@ -3,7 +3,7 @@ title: FILETIME
 second_title: Aspose.Slides for C++ API Reference
 description: "Holds file time components. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 27
+weight: 66
 url: /system.runtime.interopservices/filetime/
 ---
 ## FILETIME struct

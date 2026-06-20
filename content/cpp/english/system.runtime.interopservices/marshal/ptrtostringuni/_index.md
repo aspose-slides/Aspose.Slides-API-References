@@ -3,7 +3,7 @@ title: PtrToStringUni()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates a managed String from an unmanaged zero-terminated unicode string.
 type: docs
-weight: 261
+weight: 300
 url: /system.runtime.interopservices/marshal/ptrtostringuni/
 ---
 ## Marshal::PtrToStringUni(IntPtr) method

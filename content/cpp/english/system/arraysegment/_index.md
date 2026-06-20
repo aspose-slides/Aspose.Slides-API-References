@@ -3,7 +3,7 @@ title: ArraySegment
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents a segment of the one-dimensional array. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 27
+weight: 40
 url: /system/arraysegment/
 ---
 ## ArraySegment class

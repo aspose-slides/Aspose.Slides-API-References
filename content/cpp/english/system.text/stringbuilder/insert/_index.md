@@ -3,7 +3,7 @@ title: Insert()
 second_title: Aspose.Slides for C++ API Reference
 description: Inserts string into builder's fixed position.
 type: docs
-weight: 170
+weight: 183
 url: /system.text/stringbuilder/insert/
 ---
 ## StringBuilder::Insert(int, const String\&) method

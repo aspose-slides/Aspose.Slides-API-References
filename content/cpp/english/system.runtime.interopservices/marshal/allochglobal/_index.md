@@ -3,7 +3,7 @@ title: AllocHGlobal()
 second_title: Aspose.Slides for C++ API Reference
 description: Allocates unmanaged memory.
 type: docs
-weight: 144
+weight: 183
 url: /system.runtime.interopservices/marshal/allochglobal/
 ---
 ## Marshal::AllocHGlobal(int32_t) method

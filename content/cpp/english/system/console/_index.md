@@ -3,7 +3,7 @@ title: Console
 second_title: Aspose.Slides for C++ API Reference
 description: Provides methods for outputting data to the standard output stream. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 183
+weight: 196
 url: /system/console/
 ---
 ## Console class
@@ -25,6 +25,7 @@ class Console
 | static [SharedPtr](../sharedptr/)\<[System::IO::TextWriter](../../system.io/textwriter/)\>\& [get_Out](./get_out/)() | Returns a shared pointer pointing to the object that represents the standard output stream. |
 | static void [Mute](./mute/)(**bool**) | Mutes or unmutes the standard output stream. |
 | static void [ReadKey](./readkey/)() | NOT IMPLEMENTED. |
+| static void [set_Title](./set_title/)(const [String](../string/)\&) | Sets console window caption. |
 | static void [SetError](./seterror/)(const [SharedPtr](../sharedptr/)\<[System::IO::TextWriter](../../system.io/textwriter/)\>\&) | Assigns the specified object to the class' Error property. |
 | static void [SetIn](./setin/)(const [SharedPtr](../sharedptr/)\<[System::IO::TextReader](../../system.io/textreader/)\>\&) | Sets the In property to the specified TextReader object. |
 | static void [SetOut](./setout/)(const [SharedPtr](../sharedptr/)\<[System::IO::TextWriter](../../system.io/textwriter/)\>\&) | Assigns the specified object to the class' Out property. |

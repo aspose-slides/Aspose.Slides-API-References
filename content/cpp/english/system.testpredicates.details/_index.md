@@ -3,7 +3,7 @@ title: "System::TestPredicates::Details"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 911
+weight: 937
 url: /system.testpredicates.details/
 ---
 

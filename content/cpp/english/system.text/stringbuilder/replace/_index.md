@@ -3,7 +3,7 @@ title: Replace()
 second_title: Aspose.Slides for C++ API Reference
 description: Replaces substring through the builder.
 type: docs
-weight: 183
+weight: 196
 url: /system.text/stringbuilder/replace/
 ---
 ## StringBuilder::Replace(const String\&, const String\&) method

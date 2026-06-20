@@ -3,7 +3,7 @@ title: BrotliStream
 second_title: Aspose.Slides for C++ API Reference
 description: "An alias for Aspose::Brotli::BrotliStream."
 type: docs
-weight: 14
+weight: 1
 url: /system.io.compression/brotlistream/
 ---
 ## BrotliStream typedef

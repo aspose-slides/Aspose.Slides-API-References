@@ -3,7 +3,7 @@ title: TrueForAll()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether all elements in the specified array satisfy the conditions defined by specified predicate.
 type: docs
-weight: 651
+weight: 677
 url: /system/array/trueforall/
 ---
 ## Array::TrueForAll(System::ArrayPtr\<T\>, System::Predicate\<T\>) method

@@ -3,7 +3,7 @@ title: Buffer
 second_title: Aspose.Slides for C++ API Reference
 description: Contains methods that manipulate raw byte arrays. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 131
+weight: 144
 url: /system/buffer/
 ---
 ## Buffer class
@@ -21,6 +21,7 @@ class Buffer
 | --- | --- |
 | static void [BlockCopy](./blockcopy/)(const **uint8_t** *, int, **uint8_t** *, int, int) | Copies a specified number of bytes from source buffer to destination buffer. |
 | static void [BlockCopy](./blockcopy/)(const [SharedPtr](../sharedptr/)\<[Array](../array/)\<TSrc\>\>\&, int, const [SharedPtr](../sharedptr/)\<[Array](../array/)\<TDst\>\>\&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
+| static void [BlockCopy](./blockcopy/)(const [SharedPtr](../sharedptr/)\<[ArrayBase](../arraybase/)\>\&, int, const [SharedPtr](../sharedptr/)\<[ArrayBase](../arraybase/)\>\&, int, int) | Interprets two specified arrays as raw arrays of bytes and copies data from one of them to another. |
 | static void [BlockCopy](./blockcopy/)(const System::Details::ArrayView\<TSrc\>\&, int, const System::Details::ArrayView\<TDst\>\&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
 | static void [BlockCopy](./blockcopy/)(const [SharedPtr](../sharedptr/)\<[Array](../array/)\<TSrc\>\>\&, int, const System::Details::ArrayView\<TDst\>\&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |
 | static void [BlockCopy](./blockcopy/)(const System::Details::ArrayView\<TSrc\>\&, int, const [SharedPtr](../sharedptr/)\<[Array](../array/)\<TDst\>\>\&, int, int) | Interprets two specified typed arrays as raw arrays of bytes and copies data from one of them to another. |

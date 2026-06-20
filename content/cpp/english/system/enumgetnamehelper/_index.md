@@ -3,7 +3,7 @@ title: EnumGetNameHelper
 second_title: Aspose.Slides for C++ API Reference
 description: Helper class that provides functionality of geting the strting name of enum constant.
 type: docs
-weight: 1561
+weight: 1574
 url: /system/enumgetnamehelper/
 ---
 ## EnumGetNameHelper struct

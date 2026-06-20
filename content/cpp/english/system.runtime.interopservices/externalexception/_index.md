@@ -3,7 +3,7 @@ title: ExternalException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 66
+weight: 118
 url: /system.runtime.interopservices/externalexception/
 ---
 ## ExternalException typedef

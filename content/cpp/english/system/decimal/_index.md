@@ -3,7 +3,7 @@ title: Decimal
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents a decimal number. This type should be allocated on stack and passed to functions by value or by reference. Never use System::SmartPtr class to manage objects of this type."
 type: docs
-weight: 248
+weight: 261
 url: /system/decimal/
 ---
 ## Decimal class

@@ -3,7 +3,7 @@ title: IndexOfAny()
 second_title: Aspose.Slides for C++ API Reference
 description: Character forward lookup.
 type: docs
-weight: 625
+weight: 638
 url: /system/string/indexofany/
 ---
 ## String::IndexOfAny(char_t, int) const method

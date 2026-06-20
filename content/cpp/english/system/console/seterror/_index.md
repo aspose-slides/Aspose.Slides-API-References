@@ -3,7 +3,7 @@ title: SetError()
 second_title: Aspose.Slides for C++ API Reference
 description: Assigns the specified object to the class' Error property.
 type: docs
-weight: 92
+weight: 105
 url: /system/console/seterror/
 ---
 ## Console::SetError(const SharedPtr\<System::IO::TextWriter\>\&) method

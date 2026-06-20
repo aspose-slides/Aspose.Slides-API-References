@@ -3,7 +3,7 @@ title: operator<<()
 second_title: Aspose.Slides for C++ API Reference
 description: Insert data into the stream using UTF-8 encoding.
 type: docs
-weight: 2107
+weight: 2133
 url: /system/operator_less_less/
 ---
 ## System::operator<<(std::ostream\&, DateTime) function

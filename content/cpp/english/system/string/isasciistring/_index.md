@@ -3,7 +3,7 @@ title: IsAsciiString()
 second_title: Aspose.Slides for C++ API Reference
 description: Indicates if a String contains ASCII symbols only.
 type: docs
-weight: 768
+weight: 781
 url: /system/string/isasciistring/
 ---
 ## String::IsAsciiString() const method

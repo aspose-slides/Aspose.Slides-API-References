@@ -3,7 +3,7 @@ title: Substring()
 second_title: Aspose.Slides for C++ API Reference
 description: Extracts substring.
 type: docs
-weight: 573
+weight: 586
 url: /system/string/substring/
 ---
 ## String::Substring(int32_t) const method

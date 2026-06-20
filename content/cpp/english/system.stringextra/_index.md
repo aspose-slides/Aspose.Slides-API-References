@@ -3,7 +3,7 @@ title: "System::StringExtra"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 885
+weight: 911
 url: /system.stringextra/
 ---
 

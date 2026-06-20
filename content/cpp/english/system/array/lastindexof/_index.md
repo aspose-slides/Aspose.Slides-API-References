@@ -3,7 +3,7 @@ title: LastIndexOf()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines the index of the last occurrence of the specified item in a range of items of the array specified by the start index and the number of elements in the range.
 type: docs
-weight: 677
+weight: 703
 url: /system/array/lastindexof/
 ---
 ## Array::LastIndexOf(const ArrayPtr\<ArrayType\>\&, const ValueType\&, int, int) method

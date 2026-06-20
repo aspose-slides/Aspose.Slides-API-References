@@ -3,7 +3,7 @@ title: ConstCast()
 second_title: Aspose.Slides for C++ API Reference
 description: End of deprecated casts.
 type: docs
-weight: 2510
+weight: 2536
 url: /system/constcast/
 ---
 ## System::ConstCast(const SmartPtr\<TFrom\>\&) function

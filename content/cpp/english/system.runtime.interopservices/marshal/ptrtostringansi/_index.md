@@ -3,7 +3,7 @@ title: PtrToStringAnsi()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates a managed String from an unmanaged zero-terminated UTF8-string.
 type: docs
-weight: 235
+weight: 274
 url: /system.runtime.interopservices/marshal/ptrtostringansi/
 ---
 ## Marshal::PtrToStringAnsi(IntPtr) method

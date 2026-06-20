@@ -3,7 +3,7 @@ title: STDIOStreamPositionPreference
 second_title: Aspose.Slides for C++ API Reference
 description: "Determines which position in the stream is preferable as a common read and write position when std::basic_iostream and its descendants will have different read and write positions at the time of wrapper creation."
 type: docs
-weight: 573
+weight: 586
 url: /system.io/stdiostreampositionpreference/
 ---
 ## STDIOStreamPositionPreference enum

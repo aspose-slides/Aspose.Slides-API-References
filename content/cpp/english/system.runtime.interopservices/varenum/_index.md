@@ -3,7 +3,7 @@ title: VarEnum
 second_title: Aspose.Slides for C++ API Reference
 description: Defines how array elements should be marshalled.
 type: docs
-weight: 53
+weight: 105
 url: /system.runtime.interopservices/varenum/
 ---
 ## VarEnum enum

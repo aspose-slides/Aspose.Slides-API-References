@@ -96,6 +96,22 @@ System::String::String(const char16_t *str, int length)
 | str | const char16_t * | [String](../) pointer, may be literal or array. |
 | length | int | Explicit string length |
 
+## String::String(const ReadOnlySpan\<char16_t\>\&) constructor
+
+
+Initializes a new instance of the [System.String](../) class to the Unicode characters indicated in the specified read-only span.
+
+```cpp
+System::String::String(const ReadOnlySpan<char16_t> &value)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | const [ReadOnlySpan](../../readonlyspan/)\<char16_t\>\& | A read-only span of Unicode characters. |
+
 ## String::String(const char *, int) constructor
 
 
@@ -402,6 +418,7 @@ System::String::String(const std::u32string &u32str)
 
 * Typedef [ArrayPtr](../../arrayptr/)
 * Class [String](../)
+* Class [ReadOnlySpan](../../readonlyspan/)
 * Struct [IsStringLiteral](../../isstringliteral/)
 * Struct [IsStringPointer](../../isstringpointer/)
 * Namespace [System](../../)

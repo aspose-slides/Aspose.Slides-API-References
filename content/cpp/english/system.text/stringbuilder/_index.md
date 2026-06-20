@@ -38,6 +38,7 @@ class StringBuilder : public System::Object
 | [StringBuilder](./) * [AppendLine](./appendline/)(const [String](../../system/string/)\&) | Appends string followed by new line character to builder. |
 | [StringBuilder](./) * [Clear](./clear/)() | Removes all characters from the builder. |
 | void [CopyTo](./copyto/)(int, [System::ArrayPtr](../../system/arrayptr/)\<char_t\> const\&, int, int) | Copies builder's data into existing array positions. |
+| **int32_t** [EnsureCapacity](./ensurecapacity/)(**int32_t**) | Ensures that the capacity of this instance of [System.Text.StringBuilder](./) is at least the specified value. |
 | virtual **bool** [Equals](../../system/object/equals/)([ptr](../../system/object/ptr/)) | Compares objects using C# [Object.Equals](../../system/object/equals/) semantics. |
 | static std::enable_if\<[IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&[IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares reference type objects in C# style. |
 | static std::enable_if<\![IsSmartPtr](../../system/issmartptr/)\<T1\>::value\&&\![IsSmartPtr](../../system/issmartptr/)\<T2\>::value, **bool**\>::type [Equals](../../system/object/equals/)(T1 const\&, T2 const\&) | Compares value type objects in C# style. |

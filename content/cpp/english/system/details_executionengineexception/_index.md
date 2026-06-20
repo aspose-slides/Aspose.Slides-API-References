@@ -3,7 +3,7 @@ title: Details_ExecutionEngineException
 second_title: Aspose.Slides for C++ API Reference
 description: ExecutionEngineException is present for compatibility reasons only.
 type: docs
-weight: 443
+weight: 456
 url: /system/details_executionengineexception/
 ---
 ## Details_ExecutionEngineException class
@@ -25,6 +25,7 @@ class Details_ExecutionEngineException : public System::Details_SystemException
 | static **bool** [Equals](../object/equals/)(**float** const\&, **float** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | static **bool** [Equals](../object/equals/)(**double** const\&, **double** const\&) | Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN. |
 | virtual **bool** [FastCast](../object/fastcast/)(const Details::FastRttiBase\&, void **) const | For internal purposes only. |
+| virtual [SharedPtr](../sharedptr/)\<[Collections::Generic::IDictionary](../../system.collections.generic/idictionary/)\<[SharedPtr](../sharedptr/)\<[Object](../object/)\>, [SharedPtr](../sharedptr/)\<[Object](../object/)\>\>\> [get_Data](../details_exception/get_data/)() | Returns dictionary with custom exception data. |
 | **int32_t** [get_HResult](../details_exception/get_hresult/)() const | Returns a 32-bit integer value which is a HRESULT code associated with the exception reprsented by the current object. |
 | virtual [ExceptionWrapper](../exceptionwrapper/)\<[Details_Exception](../details_exception/)\> [get_InnerException](../details_exception/get_innerexception/)() const | Returns a reference to the object representing the inner exception. |
 | virtual [String](../string/) [get_Message](../details_exception/get_message/)() const | Returns the string containing the error destcription. |

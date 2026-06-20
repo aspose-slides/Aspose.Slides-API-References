@@ -3,7 +3,7 @@ title: Details_FileNotFoundException
 second_title: Aspose.Slides for C++ API Reference
 description: "The exception that is thrown when an attempt to access a file that does not exist on disk fails. Never create instances of this class manually. Use the FileNotFoundException class instead. Never wrap the FileNotFoundException class instances into System::SmartPtr."
 type: docs
-weight: 170
+weight: 183
 url: /system.io/details_filenotfoundexception/
 ---
 ## Details_FileNotFoundException class

@@ -12,7 +12,7 @@ url: /system.collections.generic/defaultcomparer/compare/
 Actual data comparison.
 
 ```cpp
-virtual int System::Collections::Generic::DefaultComparer<T>::Compare(typename ThisType::args_type x, typename ThisType::args_type y) const override
+virtual int System::Collections::Generic::DefaultComparer<T, typename>::Compare(typename ThisType::args_type x, typename ThisType::args_type y) const override
 ```
 
 

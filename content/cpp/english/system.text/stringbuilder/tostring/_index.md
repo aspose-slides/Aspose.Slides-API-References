@@ -3,7 +3,7 @@ title: ToString()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets string currently contained in builder.
 type: docs
-weight: 209
+weight: 222
 url: /system.text/stringbuilder/tostring/
 ---
 ## StringBuilder::ToString() const method

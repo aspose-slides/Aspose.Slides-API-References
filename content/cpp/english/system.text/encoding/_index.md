@@ -88,6 +88,7 @@ class Encoding : public System::Object
 | virtual int [GetMaxCharCount](./getmaxcharcount/)(int) | Get the maximum number of characters needed to decode a specified number of bytes. |
 | virtual [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\> [GetPreamble](./getpreamble/)() | Returns a sequence of bytes that denotes the encoding (e. g. BOM). |
 | virtual [String](../../system/string/) [GetString](./getstring/)(**uint8_t** *, int) | Decodes a buffer of bytes into a string. |
+| [String](../../system/string/) [GetString](./getstring/)(const [ReadOnlySpan](../../system/readonlyspan/)\<**uint8_t**\>\&) | Decodes a buffer of bytes into a string. |
 | virtual [String](../../system/string/) [GetString](./getstring/)([ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>) | Decodes a buffer of bytes into a string. |
 | virtual [String](../../system/string/) [GetString](./getstring/)(const System::Details::ArrayView\<**uint8_t**\>\&) | Decodes a buffer of bytes into a string. |
 | [String](../../system/string/) [GetString](./getstring/)(System::Details::StackArray\<**uint8_t**, N\>\&) | Decodes a buffer of bytes into a string. |

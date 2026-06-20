@@ -49,6 +49,26 @@ virtual String System::Text::Encoding::GetString(uint8_t *bytes, int byte_count)
 
 [String](../../../system/string/) of decoded characters.
 
+## UTF7Encoding::GetString(const ReadOnlySpan\<uint8_t\>\&) method
+
+
+Decodes a buffer of bytes into a string.
+
+```cpp
+String System::Text::Encoding::GetString(const ReadOnlySpan<uint8_t> &bytes)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bytes | const [ReadOnlySpan](../../../system/readonlyspan/)\<**uint8_t**\>\& | [Buffer](../../../system/buffer/) to read bytes from. |
+
+### Return Value
+
+[String](../../../system/string/) of decoded characters.
+
 ## UTF7Encoding::GetString(ArrayPtr\<uint8_t\>) method
 
 
@@ -180,5 +200,6 @@ template<std::size_t> String System::Text::Encoding::GetString(System::Details::
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [String](../../../system/string/)
 * Class [UTF7Encoding](../)
+* Class [ReadOnlySpan](../../../system/readonlyspan/)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

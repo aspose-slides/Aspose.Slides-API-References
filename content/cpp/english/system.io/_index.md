@@ -3,7 +3,7 @@ title: "System::IO"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 560
+weight: 573
 url: /system.io/
 ---
 
@@ -24,6 +24,7 @@ url: /system.io/
 | [BinaryWriter](./binarywriter/) | Represents a writer that writes values of primitive types to a byte stream. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [BufferedStream](./bufferedstream/) | Adds a buffering layer on top of another stream. Objects of this class should only be allocated using [System::MakeObject()](../system/makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../system/smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [Details_DirectoryNotFoundException](./details_directorynotfoundexception/) |  |
+| [Details_DriveNotFoundException](./details_drivenotfoundexception/) |  |
 | [Details_EndOfStreamException](./details_endofstreamexception/) |  |
 | [Details_FileLoadException](./details_fileloadexception/) |  |
 | [Details_FileNotFoundException](./details_filenotfoundexception/) | The exception that is thrown when an attempt to access a file that does not exist on disk fails. Never create instances of this class manually. Use the FileNotFoundException class instead. Never wrap the FileNotFoundException class instances into [System::SmartPtr](../system/smartptr/). |
@@ -79,6 +80,7 @@ url: /system.io/
 | [DirectoryNotFoundException](./directorynotfoundexception/) |  |
 | [FileLoadException](./fileloadexception/) |  |
 | [PathTooLongException](./pathtoolongexception/) |  |
+| [DriveNotFoundException](./drivenotfoundexception/) |  |
 | [BinaryWriterPtr](./binarywriterptr/) | An alias for a shared pointer to this class. |
 | [FileNotFoundException](./filenotfoundexception/) | The exception that is thrown when an attempt to access a file that does not exist on disk fails. Never wrap the FileNotFoundException class instances into [System::SmartPtr](../system/smartptr/). |
 | [STDIStreamWrapper](./stdistreamwrapper/) | Specializations of [BasicSTDIStreamWrapper](./basicstdistreamwrapper/) for char character types. |

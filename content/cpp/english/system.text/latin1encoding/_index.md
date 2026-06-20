@@ -92,6 +92,7 @@ class Latin1Encoding : public System::Text::ICUEncoding
 | int [GetMaxCharCount](../icuencoding/getmaxcharcount/)(int) override | Get the maximum number of characters needed to decode a specified number of bytes. |
 | [ArrayPtr](../../system/arrayptr/)\<**uint8_t**\> [GetPreamble](../icuencoding/getpreamble/)() override | Returns a sequence of bytes that denotes the encoding (e. g. BOM). |
 | virtual [String](../../system/string/) [GetString](../encoding/getstring/)(**uint8_t** *, int) | Decodes a buffer of bytes into a string. |
+| [String](../../system/string/) [GetString](../encoding/getstring/)(const [ReadOnlySpan](../../system/readonlyspan/)\<**uint8_t**\>\&) | Decodes a buffer of bytes into a string. |
 | virtual [String](../../system/string/) [GetString](../encoding/getstring/)([ArrayPtr](../../system/arrayptr/)\<**uint8_t**\>) | Decodes a buffer of bytes into a string. |
 | virtual [String](../../system/string/) [GetString](../encoding/getstring/)(const System::Details::ArrayView\<**uint8_t**\>\&) | Decodes a buffer of bytes into a string. |
 | [String](../../system/string/) [GetString](../encoding/getstring/)(System::Details::StackArray\<**uint8_t**, N\>\&) | Decodes a buffer of bytes into a string. |

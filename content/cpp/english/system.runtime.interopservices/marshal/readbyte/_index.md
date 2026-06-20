@@ -3,7 +3,7 @@ title: ReadByte()
 second_title: Aspose.Slides for C++ API Reference
 description: Reads byte from memory.
 type: docs
-weight: 66
+weight: 92
 url: /system.runtime.interopservices/marshal/readbyte/
 ---
 ## Marshal::ReadByte(IntPtr, int) method

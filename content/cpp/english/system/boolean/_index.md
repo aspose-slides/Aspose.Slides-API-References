@@ -3,7 +3,7 @@ title: Boolean
 second_title: Aspose.Slides for C++ API Reference
 description: Class that keeps static members of System.Boolean .Net type.
 type: docs
-weight: 66
+weight: 79
 url: /system/boolean/
 ---
 ## Boolean class

@@ -3,7 +3,7 @@ title: ZeroFreeGlobalAllocUnicode()
 second_title: Aspose.Slides for C++ API Reference
 description: Frees unmanaged string pointer that was allocated using the SecureStringToGlobalAllocUnicode method.
 type: docs
-weight: 183
+weight: 222
 url: /system.runtime.interopservices/marshal/zerofreeglobalallocunicode/
 ---
 ## Marshal::ZeroFreeGlobalAllocUnicode(IntPtr) method

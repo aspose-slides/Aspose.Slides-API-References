@@ -3,7 +3,7 @@ title: BoxedValue< ValueTuple< Args... > >
 second_title: Aspose.Slides for C++ API Reference
 description: Boxed version of value tuple.
 type: docs
-weight: 105
+weight: 118
 url: /system/boxedvalue_tmpl_valuetuple_tmpl_args_dots__end_tmpl__end_tmpl/
 ---
 ## BoxedValue< ValueTuple< Args... > > class

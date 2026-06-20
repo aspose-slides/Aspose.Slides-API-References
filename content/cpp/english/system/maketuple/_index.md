@@ -3,7 +3,7 @@ title: MakeTuple()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates tuple on stack.
 type: docs
-weight: 2978
+weight: 3004
 url: /system/maketuple/
 ---
 ## System::MakeTuple(Args...) function

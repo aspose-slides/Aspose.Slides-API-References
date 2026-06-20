@@ -3,7 +3,7 @@ title: BoxedValue
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents a boxed value. Objects of this class should only be allocated using System::MakeObject() function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into System::SmartPtr pointer and use this pointer to pass it to functions as argument."
 type: docs
-weight: 92
+weight: 105
 url: /system/boxedvalue/
 ---
 ## BoxedValue class
@@ -12,7 +12,8 @@ url: /system/boxedvalue/
 Represents a boxed value. Objects of this class should only be allocated using [System::MakeObject()](../makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](../smartptr/) pointer and use this pointer to pass it to functions as argument.
 
 ```cpp
-template<class T>class BoxedValue : public System::BoxedValueBase
+template<class T>class BoxedValue : public System::BoxedValueBase,
+                                    public std::conditional_t<BoxedValueDetail::ImplementsInterface_v<T, IComparable<T>>, BoxedValueDetail::Comparable<T, BoxedValue<T>>, BoxedValueDetail::NonComparable>
 ```
 
 

@@ -3,7 +3,7 @@ title: WriteInt32()
 second_title: Aspose.Slides for C++ API Reference
 description: Writes int to memory.
 type: docs
-weight: 40
+weight: 53
 url: /system.runtime.interopservices/marshal/writeint32/
 ---
 ## Marshal::WriteInt32(IntPtr, int, int32_t) method

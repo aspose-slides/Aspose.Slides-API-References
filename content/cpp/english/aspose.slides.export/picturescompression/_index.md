@@ -3,7 +3,7 @@ title: PicturesCompression
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the pictures compression level
 type: docs
-weight: 1015
+weight: 1028
 url: /aspose.slides.export/picturescompression/
 ---
 ## PicturesCompression enum

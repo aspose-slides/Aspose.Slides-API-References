@@ -3,7 +3,7 @@ title: BinarySearch()
 second_title: Aspose.Slides for C++ API Reference
 description: Performs binary search in the sorted array.
 type: docs
-weight: 586
+weight: 612
 url: /system/array/binarysearch/
 ---
 ## Array::BinarySearch(System::ArrayPtr\<T\>, const T\&) method

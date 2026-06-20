@@ -3,7 +3,7 @@ title: PtrToStringUTF8()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates a managed String from an unmanaged zero-terminated UTF8-string.
 type: docs
-weight: 274
+weight: 313
 url: /system.runtime.interopservices/marshal/ptrtostringutf8/
 ---
 ## Marshal::PtrToStringUTF8(IntPtr) method

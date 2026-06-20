@@ -3,7 +3,7 @@ title: Find()
 second_title: Aspose.Slides for C++ API Reference
 description: Searches for the first element in the specified array that satisfies the conditions of the specified predicate.
 type: docs
-weight: 625
+weight: 651
 url: /system/array/find/
 ---
 ## Array::Find(System::ArrayPtr\<T\>, System::Predicate\<T\>) method

@@ -3,7 +3,7 @@ title: ConstrainedCopy()
 second_title: Aspose.Slides for C++ API Reference
 description: Copies a range of elements from an System.Array starting at the specified source.
 type: docs
-weight: 690
+weight: 716
 url: /system/array/constrainedcopy/
 ---
 ## Array::ConstrainedCopy(const ArrayPtr\<SrcType\>\&, int64_t, const ArrayPtr\<DstType\>\&, int64_t, int64_t) method

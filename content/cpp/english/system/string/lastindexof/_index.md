@@ -3,7 +3,7 @@ title: LastIndexOf()
 second_title: Aspose.Slides for C++ API Reference
 description: Substring backward lookup.
 type: docs
-weight: 638
+weight: 651
 url: /system/string/lastindexof/
 ---
 ## String::LastIndexOf(const String\&, int) const method

@@ -3,7 +3,7 @@ title: crbegin()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a reverse iterator to the first element of the reversed container. It corresponds to the last element of the non-reversed container. If the container is empty, the returned iterator is equal to crend().
 type: docs
-weight: 469
+weight: 482
 url: /system/array/crbegin/
 ---
 ## Array::crbegin() const method

@@ -3,7 +3,7 @@ title: Equals()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines the equality of the specified value using operator==().
 type: docs
-weight: 1
+weight: 66
 url: /system.boxedvaluedetail/equals/
 ---
 ## System::BoxedValueDetail::Equals(T, T) function

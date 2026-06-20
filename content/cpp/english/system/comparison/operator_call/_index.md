@@ -3,7 +3,7 @@ title: operator()()
 second_title: Aspose.Slides for C++ API Reference
 description: Invokes the invokable object pointed to by the current object.
 type: docs
-weight: 14
+weight: 1
 url: /system/comparison/operator_call/
 ---
 ## Comparison::operator()(T, T) method

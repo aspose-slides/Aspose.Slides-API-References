@@ -3,7 +3,7 @@ title: Greater()
 second_title: Aspose.Slides for C++ API Reference
 description: Implements '>' relative pattern translation.
 type: docs
-weight: 2276
+weight: 2302
 url: /system/greater/
 ---
 ## System::Greater(const ExpressionT\&, const ConstantT\&) function

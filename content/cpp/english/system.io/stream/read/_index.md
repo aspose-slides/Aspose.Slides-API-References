@@ -78,9 +78,30 @@ template<std::size_t> int32_t System::IO::Stream::Read(const System::Details::St
 
 The number of bytes read
 
+## Stream::Read(const System::Span\<uint8_t\>\&) method
+
+
+Reads the specified number of bytes from the stream and writes them to the specified byte span.
+
+```cpp
+virtual int32_t System::IO::Stream::Read(const System::Span<uint8_t> &buffer)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| buffer | const [System::Span](../../../system/span/)\<**uint8_t**\>\& | The byte span to write the read bytes to |
+
+### Return Value
+
+The number of bytes read
+
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [Stream](../)
+* Class [Span](../../../system/span/)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

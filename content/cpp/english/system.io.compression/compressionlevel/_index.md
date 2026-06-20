@@ -1,27 +1,19 @@
 ---
 title: CompressionLevel
 second_title: Aspose.Slides for C++ API Reference
-description: Specifies values that indicate whether a compression operation emphasizes speed or compression size.
+description: "An alias for Aspose::Zip::CompressionLevel enum."
 type: docs
-weight: 1
+weight: 14
 url: /system.io.compression/compressionlevel/
 ---
-## CompressionLevel enum
+## CompressionLevel typedef
 
 
-Specifies values that indicate whether a compression operation emphasizes speed or compression size.
+An alias for Aspose::Zip::CompressionLevel enum.
 
 ```cpp
-enum class CompressionLevel
+using System::IO::Compression::CompressionLevel = typedef Aspose::Zip::CompressionLevel
 ```
-
-### Values
-
-| Name | Value | Description |
-| --- | --- | --- |
-| Optimal | 0 |  |
-| Fastest | 1 |  |
-| NoCompression | 2 |  |
 
 ## See Also
 

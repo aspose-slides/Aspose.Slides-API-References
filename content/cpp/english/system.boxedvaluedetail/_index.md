@@ -9,6 +9,19 @@ url: /system.boxedvaluedetail/
 
 
 
+## Classes
+
+| Class | Description |
+| --- | --- |
+| [Comparable](./comparable/) | Simple implementation of IComparable<> |
+| [NonComparable](./noncomparable/) | Dummy base type for boxed types what do not implement IComparable<> |
+## Structures
+
+| Struct | Description |
+| --- | --- |
+| [ImplementsInterface](./implementsinterface/) | Template predicate that checks if boxed object should implement given interface by itself. |
+| [ImplementsInterface< String, IComparable< String > >](./implementsinterface_tmpl_string__icomparable_tmpl_string__end_tmpl__end_tmpl/) | [String](../system/string/) implements [IComparable](../system/icomparable/). |
+| [ImplementsInterface< T, IComparable< T > >](./implementsinterface_tmpl_t__icomparable_tmpl_t__end_tmpl__end_tmpl/) | Template predicate that checks if boxed object should implement [IComparable](../system/icomparable/) interface by itself. |
 ## Functions
 
 | Function | Description |

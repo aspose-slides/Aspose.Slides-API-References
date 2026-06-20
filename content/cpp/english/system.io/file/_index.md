@@ -3,7 +3,7 @@ title: File
 second_title: Aspose.Slides for C++ API Reference
 description: Provides methods for manipulating files. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 248
+weight: 261
 url: /system.io/file/
 ---
 ## File class

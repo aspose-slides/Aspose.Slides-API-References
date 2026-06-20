@@ -3,7 +3,7 @@ title: PtrToStringAuto()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates a managed String from an unmanaged zero-terminated string.
 type: docs
-weight: 248
+weight: 287
 url: /system.runtime.interopservices/marshal/ptrtostringauto/
 ---
 ## Marshal::PtrToStringAuto(IntPtr) method

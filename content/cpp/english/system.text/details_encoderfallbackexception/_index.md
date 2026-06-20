@@ -28,6 +28,7 @@ class Details_EncoderFallbackException : public System::Details_ArgumentExceptio
 | char_t [get_CharUnknown](./get_charunknown/)() | Gets character that triggered error. |
 | char_t [get_CharUnknownHigh](./get_charunknownhigh/)() | Gets high character of pair that triggered error. |
 | char_t [get_CharUnknownLow](./get_charunknownlow/)() | Gets low character of pair that triggered error. |
+| virtual [SharedPtr](../../system/sharedptr/)\<[Collections::Generic::IDictionary](../../system.collections.generic/idictionary/)\<[SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>, [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\>\> [get_Data](../../system/details_exception/get_data/)() | Returns dictionary with custom exception data. |
 | **int32_t** [get_HResult](../../system/details_exception/get_hresult/)() const | Returns a 32-bit integer value which is a HRESULT code associated with the exception reprsented by the current object. |
 | int [get_Index](./get_index/)() | Gets position of character that triggered error in input array. |
 | virtual [ExceptionWrapper](../../system/exceptionwrapper/)\<[Details_Exception](../../system/details_exception/)\> [get_InnerException](../../system/details_exception/get_innerexception/)() const | Returns a reference to the object representing the inner exception. |

@@ -3,7 +3,7 @@ title: Directory
 second_title: Aspose.Slides for C++ API Reference
 description: Contains methods for manipulating directories. This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 222
+weight: 235
 url: /system.io/directory/
 ---
 ## Directory class
