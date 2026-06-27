@@ -1,0 +1,42 @@
+---
+title: LoadFormat
+second_title: Aspose.Sildes için .NET API Referansı
+description: Yüklenecek belgenin formatını belirtir.
+type: docs
+weight: 7810
+url: /tr/aspose.slides/loadformat/
+---
+## LoadFormat enum
+
+Yüklenecek belgenin formatını belirtir.
+
+```csharp
+public enum LoadFormat
+```
+
+### Değerler
+
+| Ad | Değer | Açıklama |
+| --- | --- | --- |
+| Auto | `0` | Aspose.Slides'in formatı otomatik olarak tanımasını sağlar. |
+| Ppt | `1` | Microsoft PowerPoint 97-2003 Sunumu. |
+| Pps | `2` | Microsoft PowerPoint 97-2003 Slayt Gösterisi. |
+| Pptx | `3` | Microsoft Office Open XML PresentationML Belgesi. |
+| Ppsx | `4` | Microsoft Office Open XML PresentationML Slayt Gösterisi. |
+| Odp | `5` | OpenOffice ODF Sunumu. |
+| Potx | `6` | Microsoft Office Open XML PresentationML Şablonu. |
+| Pptm | `7` | Microsoft Office Open XML PresentationML Makro etkin Belge. |
+| Ppsm | `8` | Microsoft Office Open XML PresentationML Makro etkin Slayt Gösterisi. |
+| Potm | `9` | Microsoft Office Open XML PresentationML Makro etkin Şablon. |
+| Otp | `10` | OpenOffice OTP Sunum şablonu. |
+| Ppt95 | `11` | Microsoft PowerPoint 95 Sunumu. |
+| Pot | `12` | Microsoft PowerPoint 97-2003 Sunum Şablonu. |
+| Fodp | `13` | Düz XML ODF Sunumu. |
+| Unknown | `255` | Bilinmeyen dosya formatı |
+
+### İlgili
+
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
+
+<!-- DÜZENLEMEYİN: Aspose.Slides.dll için xmldocmd tarafından oluşturuldu -->

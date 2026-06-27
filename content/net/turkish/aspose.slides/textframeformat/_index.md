@@ -1,0 +1,60 @@
+---
+title: TextFrameFormat
+second_title: Aspose.Sildes için .NET API Referansı
+description: TextFrames'in formatTextFrameFormatting özelliklerini içerir.
+type: docs
+weight: 10940
+url: /tr/aspose.slides/textframeformat/
+---
+## TextFrameFormat sınıfı
+
+TextFrame'in formatTextFrameFormatting özelliklerini içerir.
+
+```csharp
+public sealed class TextFrameFormat : PVIObject, IChartTextBlockFormat, ITextFrameFormat
+```
+
+## Yapıcılar
+
+| Ad | Açıklama |
+| --- | --- |
+| [TextFrameFormat](textframeformat)() | [`TextFrameFormat`](../textframeformat) sınıfının yeni bir örneğini başlatır. |
+
+## Özellikler
+
+| Ad | Açıklama |
+| --- | --- |
+| [AnchoringType](../../aspose.slides/textframeformat/anchoringtype) { get; set; } | TextFrame içinde dikey tutama metnini alır veya ayarlar. Okunabilir/Yazılabilir [`TextAnchorType`](../textanchortype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almasına izin verir. Sadece-okunur [`IPresentationComponent`](../ipresentationcomponent). |
+| [AutofitType](../../aspose.slides/textframeformat/autofittype) { get; set; } | Metnin otomatik sığdırma modunu alır veya ayarlar. Okunabilir/Yazılabilir [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/textframeformat/centertext) { get; set; } | NullableBool.True ise metin yatay olarak kutuya ortalanmalıdır. Okunabilir/Yazılabilir [`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/textframeformat/columncount) { get; set; } | Metin alanındaki sütun sayısını alır veya ayarlar. Bu değer pozitif bir sayı olmalıdır. Aksi takdirde değer sıfıra ayarlanır. Değer 0 tanımsız değeri gösterir. Okunabilir/Yazılabilir Int32. |
+| [ColumnSpacing](../../aspose.slides/textframeformat/columnspacing) { get; set; } | Metin alanındaki metin sütunları arasındaki boşluğu (puan) alır veya ayarlar. Bu sadece birden fazla sütun mevcut olduğunda uygulanmalıdır. Bu değer pozitif bir sayı olmalıdır. Aksi takdirde değer sıfıra ayarlanır. Okunabilir/Yazılabilir Double. |
+| [KeepTextFlat](../../aspose.slides/textframeformat/keeptextflat) { get; set; } | 3-D Döndürme etkisi uygulanmış olsa da metni düz tutmayı alır veya ayarlar. Okunabilir/Yazılabilir Boolean. |
+| [MarginBottom](../../aspose.slides/textframeformat/marginbottom) { get; set; } | TextFrame içinde alt kenar boşluğunu (puan) alır veya ayarlar. Okunabilir/Yazılabilir Double. |
+| [MarginLeft](../../aspose.slides/textframeformat/marginleft) { get; set; } | TextFrame içinde sol kenar boşluğunu (puan) alır veya ayarlar. Okunabilir/Yazılabilir Double. |
+| [MarginRight](../../aspose.slides/textframeformat/marginright) { get; set; } | TextFrame içinde sağ kenar boşluğunu (puan) alır veya ayarlar. Okunabilir/Yazılabilir Double. |
+| [MarginTop](../../aspose.slides/textframeformat/margintop) { get; set; } | TextFrame içinde üst kenar boşluğunu (puan) alır veya ayarlar. Okunabilir/Yazılabilir Double. |
+| [RotationAngle](../../aspose.slides/textframeformat/rotationangle) { get; set; } | Kapsayan kutunun içinde metne uygulanan özel dönüşü belirler. Belirtilmezse, ilgili şeklin dönüşü kullanılır. Belirtilirse, bu şekilden bağımsız olarak uygulanır. Yani şeklin dönüşüne ek olarak metnin de ayrı bir dönüşü olabilir. Görsel metin dönüşünün son değeri bu özellik ve TextVerticalType özelliğindeki önceden tanımlı dikey tipten özetlenir. Okunabilir/Yazılabilir Single. |
+| [TextVerticalType](../../aspose.slides/textframeformat/textverticaltype) { get; set; } | Metin yönelimini belirler. Görsel metin dönüşünün son değeri bu özellik ve RotationAngle özelliğindeki özel açıdan özetlenir. Okunabilir/Yazılabilir [`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/textframeformat/threedformat) { get; } | Metin için 3-D efekt özelliklerini temsil eden ThreeDFormat nesnesini alır. Sadece-okunur [`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/textframeformat/transform) { get; set; } | Metin sarma şekli alır veya ayarlar. Okunabilir/Yazılabilir [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/textframeformat/wraptext) { get; set; } | **True** ise metin TextFrame kenar boşluklarında sarılır. Okunabilir/Yazılabilir [`NullableBool`](../nullablebool). |
+
+## Yöntemler
+
+| Ad | Açıklama |
+| --- | --- |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
+| [GetEffective](../../aspose.slides/textframeformat/geteffective)() | Uygulanan kalıtımla etkili metin çerçevesi biçimlendirme verilerini alır. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodu döndürür. |
+
+### Ayrıca Bakınız
+
+* sınıf [PVIObject](../pviobject)
+* arayüz [IChartTextBlockFormat](../../aspose.slides.charts/icharttextblockformat)
+* arayüz [ITextFrameFormat](../itextframeformat)
+* ad alanı [Aspose.Slides](../../aspose.slides)
+* derleme [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
