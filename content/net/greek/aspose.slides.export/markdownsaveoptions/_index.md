@@ -1,0 +1,71 @@
+---
+title: MarkdownSaveOptions
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αναπαριστά τις επιλογές που ελέγχουν πώς πρέπει να αποθηκευτεί η παρουσίαση σε markdown.
+type: docs
+weight: 4230
+url: /el/aspose.slides.export/markdownsaveoptions/
+---
+## MarkdownSaveOptions κλάση
+
+Αναπαριστά τις επιλογές που ελέγχουν πώς πρέπει να αποθηκευτεί η παρουσίαση σε markdown.
+
+```csharp
+public class MarkdownSaveOptions : SaveOptions
+```
+
+## Κατασκευαστές
+
+| Όνομα | Περιγραφή |
+| --- | --- |
+| [MarkdownSaveOptions](markdownsaveoptions)() | Κατασκευαστής. |
+
+## Ιδιότητες
+
+| Όνομα | Περιγραφή |
+| --- | --- |
+| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | Καθορίζει τη βασική διαδρομή όπου θα αποθηκευτεί το έγγραφο με τους πόρους. Η προεπιλογή είναι ο τρέχων φάκελος της εφαρμογής. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται σε περίπτωση που δεν βρεθεί η πηγή γραμματοσειράς. Διαβάζω-γράφω String. |
+| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Καθορίζει την προδιαγραφή markdown για τη μετατροπή της παρουσίασης. Η προεπιλογή είναι `TextOnly`. |
+| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Καθορίζει την προδιαγραφή markdown για τη μετατροπή της παρουσίασης. Η προεπιλογή είναι `Multi-markdown`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ της διαβάθμισης. Διαβάζω/γράφω [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
+| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | Καθορίζει το όνομα φακέλου για την αποθήκευση εικόνων. Η προεπιλογή είναι `Images`. |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Καθορίζει εάν το παραγόμενο έγγραφο πρέπει να έχει νέες γραμμές \\r(Macintosh), \\n(Unix) ή \\r\\n(Windows). Η προεπιλογή είναι `Unix`. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Αναπαριστά ένα αντικείμενο callback για την αποθήκευση ενημερώσεων προόδου σε ποσοστό. Δείτε [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | Εάν οριστεί σε `true`, αφαιρεί κενές ή μόνο κενό-διαστήματα γραμμές από το τελικό έξοδο Markdown. Η προεπιλογή είναι `false`. |
+| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Καθορίζει εάν το παραγόμενο έγγραφο θα εμφανίζει σχόλια ή όχι. Η προεπιλογή είναι `false`. |
+| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | Καθορίζει εάν το παραγόμενο έγγραφο θα περιλαμβάνει κρυφές διαφάνειες ή όχι. Η προεπιλογή είναι `false`. |
+| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Καθορίζει εάν το παραγόμενο έγγραφο θα εμφανίζει τον αριθμό κάθε διαφάνειας ή όχι. Η προεπιλογή είναι `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Καθορίζει εάν θα παραλείπονται υπερσυνδέσεις με κλήσεις JavaScript κατά την αποθήκευση της παρουσίασης. Διαβάζω/γράφω Boolean. Η προεπιλεγμένη τιμή είναι **false**. |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Λαμβάνει ή ορίζει τη συμβολοσειρά μορφής που χρησιμοποιείται για τις επικεφαλίδες αριθμού διαφάνειας στην έξοδο Markdown. Η μορφή πρέπει να περιλαμβάνει το σύμβολο \"{0}\", το οποίο θα αντικατασταθεί με το δείκτη της διαφάνειας κατά την εξαγωγή. Παράδειγμα: \"# Slide {0}\" θα παράγει \"# Slide 1\", \"# Slide 2\", κ.λπ. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει εάν η διαδικασία φόρτωσης θα συνεχιστεί ή θα διακοπεί. Διαβάζω/γράφω [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+
+### Παραδείγματα
+
+Παράδειγμα:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    MarkdownSaveOptions markdownSaveOptions = new MarkdownSaveOptions
+    {
+        ShowHiddenSlides = true,
+        ShowSlideNumber = true,
+        Flavor = Flavor.Github,
+        ExportType = MarkdownExportType.Sequential,
+        NewLineType = NewLineType.Windows
+    };
+    
+    pres.Save("doc.md", new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 }, SaveFormat.Md, markdownSaveOptions);
+}
+```
+
+### Δείτε επίσης
+
+* κλάση [SaveOptions](../saveoptions)
+* χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
+* συναρμολόγηση [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
