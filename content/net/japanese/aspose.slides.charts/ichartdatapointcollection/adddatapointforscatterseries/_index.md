@@ -1,0 +1,167 @@
+---
+title: AddDataPointForScatterSeries
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 新しいデータポイントを作成し、コレクションの末尾に追加します。chartType が Scatter のサブタイプのいずれかであるシリーズに適用できます（詳細は ChartTypeCharacterizer.IsChartTypeScatterChartType メソッドを参照）。
+type: docs
+weight: 180
+url: /ja/aspose.slides.charts/ichartdatapointcollection/adddatapointforscatterseries/
+---
+## AddDataPointForScatterSeries(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
+
+新しいデータポイントを作成し、コレクションの末尾に追加します。chartType が Scatter のサブタイプのいずれかであるシリーズに適用できます（詳細は ChartTypeCharacterizer.IsChartTypeScatter(ChartType) メソッドを参照）。
+
+```csharp
+public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, IChartDataCell yValue)
+```
+
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| xValue | IChartDataCell | データポイント XValue |
+| yValue | IChartDataCell | データポイント YValue |
+
+### 戻り値
+
+新しいデータポイント。
+
+### 参照
+
+* インターフェイス [IChartDataPoint](../../ichartdatapoint)
+* インターフェイス [IChartDataCell](../../ichartdatacell)
+* インターフェイス [IChartDataPointCollection](../../ichartdatapointcollection)
+* 名前空間 [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* アセンブリ [Aspose.Slides](../../../)
+
+---
+
+## AddDataPointForScatterSeries(double, IChartDataCell) {#adddatapointforscatterseries_2}
+
+新しいデータポイントを作成し、コレクションの末尾に追加します。chartType が Scatter のサブタイプのいずれかであるシリーズに適用できます（詳細は ChartTypeCharacterizer.IsChartTypeScatter(ChartType) メソッドを参照）。
+
+```csharp
+public IChartDataPoint AddDataPointForScatterSeries(double xValue, IChartDataCell yValue)
+```
+
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| xValue | Double | データポイント XValue |
+| yValue | IChartDataCell | データポイント YValue |
+
+### 戻り値
+
+新しいデータポイント。
+
+### 参照
+
+* インターフェイス [IChartDataPoint](../../ichartdatapoint)
+* インターフェイス [IChartDataCell](../../ichartdatacell)
+* インターフェイス [IChartDataPointCollection](../../ichartdatapointcollection)
+* 名前空間 [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* アセンブリ [Aspose.Slides](../../../)
+
+---
+
+## AddDataPointForScatterSeries(string, IChartDataCell) {#adddatapointforscatterseries_4}
+
+新しいデータポイントを作成し、コレクションの末尾に追加します。chartType が Scatter のサブタイプのいずれかであるシリーズに適用できます（詳細は ChartTypeCharacterizer.IsChartTypeScatter(ChartType) メソッドを参照）。
+
+```csharp
+public IChartDataPoint AddDataPointForScatterSeries(string xValue, IChartDataCell yValue)
+```
+
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| xValue | String | データポイント XValue |
+| yValue | IChartDataCell | データポイント YValue |
+
+### 戻り値
+
+新しいデータポイント。
+
+### 参照
+
+* インターフェイス [IChartDataPoint](../../ichartdatapoint)
+* インターフェイス [IChartDataCell](../../ichartdatacell)
+* インターフェイス [IChartDataPointCollection](../../ichartdatapointcollection)
+* 名前空間 [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* アセンブリ [Aspose.Slides](../../../)
+
+---
+
+## AddDataPointForScatterSeries(IChartDataCell, double) {#adddatapointforscatterseries_1}
+
+新しいデータポイントを作成し、コレクションの末尾に追加します。chartType が Scatter のサブタイプのいずれかであるシリーズに適用できます（詳細は ChartTypeCharacterizer.IsChartTypeScatter(ChartType) メソッドを参照）。
+
+```csharp
+public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, double yValue)
+```
+
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| xValue | IChartDataCell | データポイント XValue |
+| yValue | Double | データポイント YValue |
+
+### 戻り値
+
+新しいデータポイント。
+
+### 参照
+
+* インターフェイス [IChartDataPoint](../../ichartdatapoint)
+* インターフェイス [IChartDataCell](../../ichartdatacell)
+* インターフェイス [IChartDataPointCollection](../../ichartdatapointcollection)
+* 名前空間 [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* アセンブリ [Aspose.Slides](../../../)
+
+---
+
+## AddDataPointForScatterSeries(double, double) {#adddatapointforscatterseries_3}
+
+新しいデータポイントを作成し、コレクションの末尾に追加します。chartType が Scatter のサブタイプのいずれかであるシリーズに適用できます（詳細は ChartTypeCharacterizer.IsChartTypeScatter(ChartType) メソッドを参照）。
+
+```csharp
+public IChartDataPoint AddDataPointForScatterSeries(double xValue, double yValue)
+```
+
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| xValue | Double | データポイント XValue |
+| yValue | Double | データポイント YValue |
+
+### 戻り値
+
+新しいデータポイント。
+
+### 参照
+
+* インターフェイス [IChartDataPoint](../../ichartdatapoint)
+* インターフェイス [IChartDataPointCollection](../../ichartdatapointcollection)
+* 名前空間 [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* アセンブリ [Aspose.Slides](../../../)
+
+---
+
+## AddDataPointForScatterSeries(string, double) {#adddatapointforscatterseries_5}
+
+新しいデータポイントを作成し、コレクションの末尾に追加します。chartType が Scatter のサブタイプのいずれかであるシリーズに適用できます（詳細は ChartTypeCharacterizer.IsChartTypeScatter(ChartType) メソッドを参照）。
+
+```csharp
+public IChartDataPoint AddDataPointForScatterSeries(string xValue, double yValue)
+```
+
+| パラメーター | 型 | 説明 |
+| --- | --- | --- |
+| xValue | String | データポイント XValue |
+| yValue | Double | データポイント YValue |
+
+### 戻り値
+
+新しいデータポイント。
+
+### 参照
+
+* インターフェイス [IChartDataPoint](../../ichartdatapoint)
+* インターフェイス [IChartDataPointCollection](../../ichartdatapointcollection)
+* 名前空間 [Aspose.Slides.Charts](../../ichartdatapointcollection)
+* アセンブリ [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
