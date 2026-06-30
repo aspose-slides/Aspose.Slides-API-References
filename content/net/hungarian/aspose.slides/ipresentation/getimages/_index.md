@@ -1,0 +1,172 @@
+---
+title: GetImages
+second_title: Aspose.Sildes .NET API referencia
+description: Visszaad Thumbnail Image objektumokat a prezentáció összes diájához.
+type: docs
+weight: 310
+url: /hu/aspose.slides/ipresentation/getimages/
+---
+## GetImages(IRenderingOptions) {#getimages}
+
+Visszaad Thumbnail Image objektumokat a prezentáció összes diájához.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| options | IRenderingOptions | Renderelési beállítások. |
+
+### Visszatérési érték
+
+Bitmap objektumok.
+
+### Lásd még
+
+* interfész [IImage](../../iimage)
+* interfész [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interfész [IPresentation](../../ipresentation)
+* névtér [Aspose.Slides](../../ipresentation)
+* összeállítás [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[]) {#getimages_1}
+
+Visszaad Thumbnail Bitmap objektumokat a megadott diákhoz a prezentációban.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| options | IRenderingOptions | Renderelési beállítások. |
+| slides | Int32[] | Tömb a dia pozíciókkal, 1-től kezdve. |
+
+### Visszatérési érték
+
+Bitmap objektumok.
+
+### Lásd még
+
+* interfész [IImage](../../iimage)
+* interfész [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interfész [IPresentation](../../ipresentation)
+* névtér [Aspose.Slides](../../ipresentation)
+* összeállítás [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, float, float) {#getimages_4}
+
+Visszaad Thumbnail Image objektumokat a prezentáció összes diájához egyedi méretezéssel.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, float scaleX, float scaleY)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| options | IRenderingOptions | Renderelési beállítások. |
+| scaleX | Single | Az az érték, amellyel ezt a Thumbnail-t az x-tengely irányában kell átméretezni. |
+| scaleY | Single | Az az érték, amellyel ezt a Thumbnail-t a y-tengely irányában kell átméretezni. |
+
+### Visszatérési érték
+
+Bitmap objektumok.
+
+### Lásd még
+
+* interfész [IImage](../../iimage)
+* interfész [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interfész [IPresentation](../../ipresentation)
+* névtér [Aspose.Slides](../../ipresentation)
+* összeállítás [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[], float, float) {#getimages_2}
+
+Visszaad Thumbnail Image objektumokat a megadott diákhoz a prezentációban egyedi méretezéssel.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| options | IRenderingOptions | Renderelési beállítások. |
+| slides | Int32[] | Tömb a dia pozíciókkal, 1-től kezdve. |
+| scaleX | Single | Az az érték, amellyel ezt a Thumbnail-t az x-tengely irányában kell átméretezni. |
+| scaleY | Single | Az az érték, amellyel ezt a Thumbnail-t a y-tengely irányában kell átméretezni. |
+
+### Visszatérési érték
+
+Bitmap objektumok.
+
+### Lásd még
+
+* interfész [IImage](../../iimage)
+* interfész [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interfész [IPresentation](../../ipresentation)
+* névtér [Aspose.Slides](../../ipresentation)
+* összeállítás [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, Size) {#getimages_5}
+
+Visszaad Thumbnail Image objektumokat a prezentáció összes diájához a megadott mérettel.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, Size imageSize)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| options | IRenderingOptions | Renderelési beállítások. |
+| imageSize | Size | A létrehozandó kép mérete. |
+
+### Visszatérési érték
+
+Bitmap objektumok.
+
+### Lásd még
+
+* interfész [IImage](../../iimage)
+* interfész [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interfész [IPresentation](../../ipresentation)
+* névtér [Aspose.Slides](../../ipresentation)
+* összeállítás [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[], Size) {#getimages_3}
+
+Visszaad Thumbnail Image objektumokat a megadott diákhoz a prezentációban a megadott mérettel.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides, Size imageSize)
+```
+
+| Paraméter | Típus | Leírás |
+| --- | --- | --- |
+| options | IRenderingOptions | Renderelési beállítások. |
+| slides | Int32[] | Tömb a dia pozíciókkal, 1-től kezdve. |
+| imageSize | Size | A létrehozandó kép mérete. |
+
+### Visszatérési érték
+
+Bitmap objektumok.
+
+### Lásd még
+
+* interfész [IImage](../../iimage)
+* interfész [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* interfész [IPresentation](../../ipresentation)
+* névtér [Aspose.Slides](../../ipresentation)
+* összeállítás [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
