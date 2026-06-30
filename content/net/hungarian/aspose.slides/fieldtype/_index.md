@@ -1,0 +1,61 @@
+---
+title: FieldType
+second_title: Aspose.Sildes .NET API referencia
+description: Egy mező típusát képviseli. Ez az érték határozza meg, hogy milyen szöveg kerül beállításra a mező részhez, amikor frissítésre kerül.
+type: docs
+weight: 4740
+url: /hu/aspose.slides/fieldtype/
+---
+## FieldType osztály
+
+Egy mező típusát reprezentálja. Ez az érték határozza meg, hogy milyen szöveg lesz beállítva a mező részhez, amikor frissítésre kerül.
+
+```csharp
+public sealed class FieldType : IFieldType
+```
+
+## Konstruktorok
+
+| Név | Leírás |
+| --- | --- |
+| [FieldType](fieldtype)(string) | Új FieldType osztálypéldányt inicializál. |
+
+## Tulajdonságok
+
+| Név | Leírás |
+| --- | --- |
+| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | Az aktuális dátum és idő az alapértelmezett dátum-idő formátumban a megjelenítő alkalmazás számára. Csak olvasható [`FieldType`](../fieldtype). |
+| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | Az aktuális dátum és idő az első előre definiált formátumban (MM/DD/YYYY angol nyelven). Csak olvasható [`FieldType`](../fieldtype). |
+| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | Az aktuális dátum és idő a tizedik előre definiált formátumban (hh:mm angol nyelven). Csak olvasható [`FieldType`](../fieldtype). |
+| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | Az aktuális dátum és idő a tizenegyedik előre definiált formátumban (hh:mm:ss angol nyelven). Csak olvasható [`FieldType`](../fieldtype). |
+| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | Az aktuális dátum és idő a tizenkettedik előre definiált formátumban (hh:mm AM/PM angol nyelven). Csak olvasható [`FieldType`](../fieldtype). |
+| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | Az aktuális dátum és idő a tizenharmadik előre definiált formátumban (hh:mm:ss AM/PM angol nyelven). Csak olvasható [`FieldType`](../fieldtype). |
+| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | Az aktuális dátum és idő a második előre definiált formátumban (Day, Month DD, YYYY angol nyelven). Csak olvasható [`FieldType`](../fieldtype). |
+| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | Az aktuális dátum és idő a harmadik előre definiált formátumban (DD Month YYYY angol nyelven). Csak olvasható [`FieldType`](../fieldtype). |
+| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | Az aktuális dátum és idő a negyedik előre definiált formátumban (Month DD, YYYY angol nyelven). Csak olvasható [`FieldType`](../fieldtype). |
+| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | Az aktuális dátum és idő az ötödik előre definiált formátumban (DD-Mon-YY angol nyelven). Csak olvasható [`FieldType`](../fieldtype). |
+| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | Az aktuális dátum és idő a hatodik előre definiált formátumban (Month YY angol nyelven). Csak olvasható [`FieldType`](../fieldtype). |
+| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | Az aktuális dátum és idő a hetedik előre definiált formátumban (Mon-YY angol nyelven). Csak olvasható [`FieldType`](../fieldtype). |
+| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | Az aktuális dátum és idő a nyolcadik előre definiált formátumban (MM/DD/YYYY hh:mm AM/PM angol nyelven). Csak olvasható [`FieldType`](../fieldtype). |
+| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | Az aktuális dátum és idő a kilencedik előre definiált formátumban (MM/DD/YYYY hh:mm:ss AM/PM angol nyelven). Csak olvasható [`FieldType`](../fieldtype). |
+| static [Footer](../../aspose.slides/fieldtype/footer) { get; } | A dia lábléce. Csak olvasható [`FieldType`](../fieldtype). |
+| static [Header](../../aspose.slides/fieldtype/header) { get; } | A dia fejléce. Csak olvasható [`FieldType`](../fieldtype). |
+| static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | Az aktuális dia száma. Csak olvasható [`FieldType`](../fieldtype). |
+| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | Visszaadja ennek a FieldType objektumnak a belső nevét. Olvasás/írás String. |
+
+## Metódusok
+
+| Név | Leírás |
+| --- | --- |
+| override [Equals](../../aspose.slides/fieldtype/equals)(object) | Ellenőrzi, hogy ez a mező egyenlő-e egy másikkal. |
+| override [GetHashCode](../../aspose.slides/fieldtype/gethashcode)() | Visszaadja ennek az objektumnak a hashkódját. |
+| [operator ==](../../aspose.slides/fieldtype/op_equality) | Ellenőrzi, hogy a két FieldType objektum egyenlő-e. |
+| [operator !=](../../aspose.slides/fieldtype/op_inequality) | Ellenőrzi, hogy a két FieldType objektum nem egyenlő. |
+
+### Lásd még
+
+* interfész [IFieldType](../ifieldtype)
+* névtér [Aspose.Slides](../../aspose.slides)
+* összeállítás [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
