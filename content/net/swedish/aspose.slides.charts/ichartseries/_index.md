@@ -1,0 +1,78 @@
+---
+title: IChartSeries
+second_title: Aspose.Sildes för .NET API-referens
+description: Representerar en diagramserie.
+type: docs
+weight: 1910
+url: /sv/aspose.slides.charts/ichartseries/
+---
+## IChartSeries-gränssnitt
+
+Representerar en diagramserie.
+
+```csharp
+public interface IChartSeries : IChartComponent
+```
+
+## Egenskaper
+
+| Namn | Beskrivning |
+| --- | --- |
+| [AsIChartComponent](../../aspose.slides.charts/ichartseries/asichartcomponent) { get; } | Tillåter att hämta bas-IChartComponent-gränssnittet. Skrivskyddad [`IChartComponent`](../ichartcomponent). |
+| [Bar3DShape](../../aspose.slides.charts/ichartseries/bar3dshape) { get; set; } | Anger formen för en serie i ett 3-D stapeldiagram. Ändring av värdet för denna egenskap kan automatiskt ändra Type för serien. Läs/skriv [`ChartShapeType`](../chartshapetype). |
+| [BubbleSizeRepresentation](../../aspose.slides.charts/ichartseries/bubblesizerepresentation) { get; } | Anger hur bubbelstorleksvärden representeras i bubbel-diagrammet. Detta är en egenskap som gäller både för denna serie och för alla serier i den överordnade seriegruppen – det är en projektion av den lämpliga gruppens egenskap. Därför är egenskapen skrivskyddad. Använd egenskapen ParentSeriesGroup för att komma åt den överordnade seriegruppen. Använd ParentSeriesGroup.BubbleSizeRepresentation Läs/skriv egenskap för att ändra värdet. |
+| [BubbleSizeScale](../../aspose.slides.charts/ichartseries/bubblesizescale) { get; } | Anger skalningsfaktorn för bubbel-diagrammet (kan vara mellan 0 och 300 % av standardstorleken). Detta är en egenskap som gäller både för denna serie och för alla serier i den överordnade seriegruppen – det är en projektion av den lämpliga gruppens egenskap. Därför är egenskapen skrivskyddad. Använd egenskapen ParentSeriesGroup för att komma åt den överordnade seriegruppen. Använd ParentSeriesGroup.BubbleSizeScale Läs/skriv egenskap för att ändra värdet. |
+| [DataPoints](../../aspose.slides.charts/ichartseries/datapoints) { get; } | Returnerar samling av datapunkter för denna serie. Skrivskyddad [`IChartDataPointCollection`](../ichartdatapointcollection). |
+| [DoughnutHoleSize](../../aspose.slides.charts/ichartseries/doughnutholesize) { get; } | Anger storleken på hålet i ett donut-diagram (kan vara mellan 10 och 90 % av plot-områdets storlek). Detta är en egenskap som gäller både för denna serie och för alla serier i den överordnade seriegruppen – det är en projektion av den lämpliga gruppens egenskap. Därför är egenskapen skrivskyddad. Använd egenskapen ParentSeriesGroup för att komma åt den överordnade seriegruppen. Använd ParentSeriesGroup.DoughnutHoleSize Läs/skriv egenskap för att ändra värdet. Skrivskyddad Byte. |
+| [ErrorBarsXFormat](../../aspose.slides.charts/ichartseries/errorbarsxformat) { get; } | Representerar ErrorBars för serien med riktning X. ErrorBars med X-riktning är tillgängliga för serier av typen area, bar, scatter och bubble. För andra diagramtyper returnerar egenskapen null (inklusive 3-D-diagram). Vid anpassade värden använder du DataPoints-samlingen för att ange värde (med [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)-egenskapen). Skrivskyddad [`IErrorBarsFormat`](../ierrorbarsformat). |
+| [ErrorBarsYFormat](../../aspose.slides.charts/ichartseries/errorbarsyformat) { get; } | Representerar ErrorBars för serien med riktning Y. ErrorBars med Y-riktning är tillgängliga för serier av typen area, bar, line, scatter och bubble. För andra diagramtyper returnerar egenskapen null (inklusive 3-D-diagram). Vid anpassade värden använder du DataPoints-samlingen för att ange värde (med [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)-egenskapen). Skrivskyddad [`IErrorBarsFormat`](../ierrorbarsformat). |
+| [Explosion](../../aspose.slides.charts/ichartseries/explosion) { get; set; } | Avståndet för en öppen pajbit från centrum av paj-diagrammet uttrycks som procent av diagrammets diameter. Läs/skriv Int32. |
+| [FirstSliceAngle](../../aspose.slides.charts/ichartseries/firstsliceangle) { get; } | Anger vinkeln för den första delen av ett paj- eller donut-diagram i grader (medurs från toppen, 0-360 grader). Detta är en egenskap som gäller både för denna serie och för alla serier i den överordnade seriegruppen – det är en projektion av den lämpliga gruppens egenskap. Därför är egenskapen skrivskyddad. Använd egenskapen ParentSeriesGroup för att komma åt den överordnade seriegruppen. Använd ParentSeriesGroup.FirstSliceAngle Läs/skriv egenskap för att ändra värdet. Skrivskyddad UInt16. |
+| [Format](../../aspose.slides.charts/ichartseries/format) { get; } | Returnerar formatet för en serie. Skrivskyddad [`IFormat`](../iformat). |
+| [GapDepth](../../aspose.slides.charts/ichartseries/gapdepth) { get; } | Returnerar eller anger avståndet, som procent av markörens bredd, mellan dataserier i ett 3-D-diagram. Detta är en egenskap som gäller både för denna serie och för alla serier i den överordnade seriegruppen – det är en projektion av den lämpliga gruppens egenskap. Därför är egenskapen skrivskyddad. Använd egenskapen ParentSeriesGroup för att komma åt den överordnade seriegruppen. Använd ParentSeriesGroup.GapDepth Läs/skriv egenskap för att ändra värdet. Skrivskyddad Int32. |
+| [GapWidth](../../aspose.slides.charts/ichartseries/gapwidth) { get; } | Anger avståndet mellan stapel- eller kolumnkluster, som procent av stapel- eller kolumnbredden. Detta är en egenskap som gäller både för denna serie och för alla serier i den överordnade seriegruppen – det är en projektion av den lämpliga gruppens egenskap. Därför är egenskapen skrivskyddad. Använd egenskapen ParentSeriesGroup för att komma åt den överordnade seriegruppen. Använd ParentSeriesGroup.GapWidth Läs/skriv egenskap för att ändra värdet. Skrivskyddad Int32. |
+| [HasSeriesLines](../../aspose.slides.charts/ichartseries/hasserieslines) { get; } | Avgör om det finns serielinjer för denna serie och besläktade serier. Detta är en egenskap som gäller både för denna serie och för alla serier i den överordnade seriegruppen – det är en projektion av den lämpliga gruppens egenskap. Därför är egenskapen skrivskyddad. Använd egenskapen ParentSeriesGroup för att komma åt den överordnade seriegruppen. Använd ParentSeriesGroup.HasSeriesLines Läs/skriv egenskap för att ändra värdet. Använd ParentSeriesGroup.SeriesLinesFormat-egenskap för att formatera serielinjer. Skrivskyddad Boolean. |
+| [HasUpDownBars](../../aspose.slides.charts/ichartseries/hasupdownbars) { get; } | Avgör om ett linje- eller lager-diagram har upp/ner-staplar. Detta är en egenskap som gäller både för denna serie och för alla serier i den överordnade seriegruppen – det är en projektion av den lämpliga gruppens egenskap. Därför är egenskapen skrivskyddad. Använd egenskapen ParentSeriesGroup för att komma åt den överordnade seriegruppen. Använd ParentSeriesGroup.UpDownBars.HasUpDownBars Läs/skriv egenskap för att ändra värdet. Använd ParentSeriesGroup.UpDownBars-egenskap för att formatera upp/ner-staplar. Skrivskyddad Boolean. |
+| [InvertedSolidFillColor](../../aspose.slides.charts/ichartseries/invertedsolidfillcolor) { get; } | Anger inverterad solid färg för serien. För att tillämpa färginställning, sätt serieformatets FillType till FillType.Solid. Läs/skriv [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [InvertIfNegative](../../aspose.slides.charts/ichartseries/invertifnegative) { get; set; } | Anger att stapel-, kolumn- eller bubbelseries ska invertera sina färger om värdet är negativt. Läs/skriv Boolean. |
+| [IsColorVaried](../../aspose.slides.charts/ichartseries/iscolorvaried) { get; } | Anger att varje datamarkör i serien har en annan färg. Detta är en egenskap som gäller både för denna serie och för alla serier i den överordnade seriegruppen – det är en projektion av den lämpliga gruppens egenskap. Därför är egenskapen skrivskyddad. Använd egenskapen ParentSeriesGroup för att komma åt den överordnade seriegruppen. Använd ParentSeriesGroup.IsColorVaried Läs/skriv egenskap för att ändra värdet. Skrivskyddad Boolean. |
+| [Labels](../../aspose.slides.charts/ichartseries/labels) { get; } | Returnerar etiketter för en serie. Skrivskyddad [`IDataLabelCollection`](../idatalabelcollection). |
+| [Marker](../../aspose.slides.charts/ichartseries/marker) { get; } | Returnerar serie-markör. Skrivskyddad [`IMarker`](../imarker). |
+| [Name](../../aspose.slides.charts/ichartseries/name) { get; } | Returnerar serie-namn. Skrivskyddad [`IStringChartValue`](../istringchartvalue). |
+| [NumberFormatOfBubbleSizes](../../aspose.slides.charts/ichartseries/numberformatofbubblesizes) { get; set; } | Returnerar eller anger talformatet för serie-bubbelstorlekar. Läs/skriv String. |
+| [NumberFormatOfValues](../../aspose.slides.charts/ichartseries/numberformatofvalues) { get; set; } | Returnerar eller anger talformatet för serie-värden. Läs/skriv String. |
+| [NumberFormatOfXValues](../../aspose.slides.charts/ichartseries/numberformatofxvalues) { get; set; } | Returnerar eller anger talformatet för serie-x-värden. Läs/skriv String. |
+| [NumberFormatOfYValues](../../aspose.slides.charts/ichartseries/numberformatofyvalues) { get; set; } | Returnerar eller anger talformatet för serie-y-värden. Läs/skriv String. |
+| [Order](../../aspose.slides.charts/ichartseries/order) { get; set; } | Returnerar ordningen för en serie. Läs/skriv Int32. |
+| [Overlap](../../aspose.slides.charts/ichartseries/overlap) { get; } | Anger hur mycket staplar och kolumner överlappar i 2-D-diagram, som procent (från –100 % till 100 %). Detta är en egenskap som gäller både för denna serie och för alla serier i den överordnade seriegruppen. Det är en projektion av den lämpliga egenskapen i den överordnade seriegruppen, och därför är egenskapen skrivskyddad. För att ändra värdet, använd ParentSeriesGroup.Overlap Läs/skriv egenskap. Skrivskyddad SByte. |
+| [ParentLabelLayout](../../aspose.slides.charts/ichartseries/parentlabellayout) { get; set; } | Representerar layout för överordnade kategorietiketter. Gäller endast för Treemap-diagram. |
+| [ParentSeriesGroup](../../aspose.slides.charts/ichartseries/parentseriesgroup) { get; } | Returnerar överordnad seriegrupp. Skrivskyddad [`IChartSeriesGroup`](../ichartseriesgroup). |
+| [PieSplitBy](../../aspose.slides.charts/ichartseries/piesplitby) { get; } | Anger hur man bestämmer vilka datapunkter som finns i den andra pajen eller stapeln i ett pie-of-pie- eller bar-of-pie-diagram. Detta är en egenskap som gäller både för denna serie och för alla serier i den överordnade seriegruppen – det är en projektion av den lämpliga gruppens egenskap. Därför är egenskapen skrivskyddad. Använd egenskapen ParentSeriesGroup för att komma åt den överordnade seriegruppen. Använd ParentSeriesGroup.PieSplitBy Läs/skriv egenskap för att ändra värdet. Skrivskyddad [`PieSplitType`](../piesplittype). |
+| [PieSplitCustomPoints](../../aspose.slides.charts/ichartseries/piesplitcustompoints) { get; } | Anpassad split-information för ett pie-of-pie- eller bar-of-pie-diagram med anpassad split. Innehåller datapunkter som ska ritas i den andra pajen eller stapeln. Detta är en egenskap som gäller både för denna serie och för alla serier i den överordnade seriegruppen – det är en projektion av den lämpliga gruppens egenskap. Skrivskyddad [`IPieSplitCustomPointCollection`](../ipiesplitcustompointcollection). |
+| [PieSplitPosition](../../aspose.slides.charts/ichartseries/piesplitposition) { get; } | Anger ett värde som ska användas för att bestämma vilka datapunkter som finns i den andra pajen eller stapeln i ett pie-of-pie- eller bar-of-pie-diagram. Används tillsammans med PieSplitBy-egenskapen. Detta är en egenskap som gäller både för denna serie och för alla serier i den överordnade seriegruppen – det är en projektion av den lämpliga gruppens egenskap. Därför är egenskapen skrivskyddad. Använd egenskapen ParentSeriesGroup för att komma åt den överordnade seriegruppen. Använd ParentSeriesGroup.PieSplitPosition Läs/skriv egenskap för att ändra värdet. Skrivskyddad Double. |
+| [PlotOnSecondAxis](../../aspose.slides.charts/ichartseries/plotonsecondaxis) { get; set; } | Anger om denna serie ritas på andra värde-axeln. Läs/skriv Boolean. |
+| [QuartileMethod](../../aspose.slides.charts/ichartseries/quartilemethod) { get; set; } | Representerar kvartilmets metod. Gäller endast för BoxAndWhisker-diagram. |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartseries/relatedlegendentry) { get; } | Representerar legendpost relaterad till denna serie. Skrivskyddad [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SecondPieSize](../../aspose.slides.charts/ichartseries/secondpiesize) { get; } | Anger storleken på den andra pajen eller stapeln i ett pie-of-pie- eller bar-of-pie-diagram, som procent av den första pajens storlek (kan vara mellan 5 och 200 %). Detta är en egenskap som gäller både för denna serie och för alla serier i den överordnade seriegruppen – det är en projektion av den lämpliga gruppens egenskap. Därför är egenskapen skrivskyddad. Använd ParentSeriesGroup för att komma åt den överordnade seriegruppen. Använd ParentSeriesGroup.SecondPieSize Läs/skriv egenskap för att ändra värdet. Skrivskyddad UInt16. |
+| [ShowConnectorLines](../../aspose.slides.charts/ichartseries/showconnectorlines) { get; set; } | Representerar anslutningslinjer. Gäller endast för Waterfall-diagram. |
+| [ShowInnerPoints](../../aspose.slides.charts/ichartseries/showinnerpoints) { get; set; } | Representerar inre punkter. True om inre punkter visas i BoxAndWhisker-diagrammet. Gäller endast för BoxAndWhisker-diagram. Läs/skriv Boolean. |
+| [ShowMeanLine](../../aspose.slides.charts/ichartseries/showmeanline) { get; set; } | Representerar medelvärdesmarkörer. True om medellinje visas i BoxAndWhisker-diagrammet. Gäller endast för BoxAndWhisker-diagram. Läs/skriv Boolean. |
+| [ShowMeanMarkers](../../aspose.slides.charts/ichartseries/showmeanmarkers) { get; set; } | Representerar medelvärdesmarkörer. True om medelvärdesmarkörer visas i BoxAndWhisker-diagrammet. Gäller endast för BoxAndWhisker-diagram. Läs/skriv Boolean. |
+| [ShowOutlierPoints](../../aspose.slides.charts/ichartseries/showoutlierpoints) { get; set; } | Representerar avvikande punkter. True om avvikande punkter visas i BoxAndWhisker-diagrammet. Gäller endast för BoxAndWhisker-diagram. Läs/skriv Boolean. |
+| [Smooth](../../aspose.slides.charts/ichartseries/smooth) { get; set; } | Representerar kurvutjämning. True om kurvutjämning är påslagen för linje- eller scatter-diagram. Gäller endast för linje- och scatter-diagram med linjer. Läs/skriv Boolean. |
+| [TrendLines](../../aspose.slides.charts/ichartseries/trendlines) { get; } | Samling av serietrendlinjer. Skrivskyddad [`ITrendlineCollection`](../itrendlinecollection). |
+| [Type](../../aspose.slides.charts/ichartseries/type) { get; set; } | Returnerar en typ för denna serie. Läs/skriv [`ChartType`](../charttype). |
+
+## Metoder
+
+| Namn | Beskrivning |
+| --- | --- |
+| [GetAutomaticSeriesColor](../../aspose.slides.charts/ichartseries/getautomaticseriescolor)() | Returnerar en automatisk färg för serien baserat på serie-index och diagramstil. Denna färg används som standard om FillType är lika med NotDefined. |
+
+### Se även
+
+* gränssnitt [IChartComponent](../ichartcomponent)
+* namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

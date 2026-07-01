@@ -1,0 +1,137 @@
+---
+title: InsertClone
+second_title: Aspose.Sildes för .NET API-referens
+description: Infogar en kopia av en specificerad bild på en specificerad position i samlingen.
+type: docs
+weight: 120
+url: /sv/aspose.slides/slidecollection/insertclone/
+---
+## InsertClone(int, ISlide) {#insertclone}
+
+Infogar en kopia av en specificerad bild på en specificerad position i samlingen.
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| index | Int32 | Index för den nya bilden. |
+| sourceSlide | ISlide | Bild att klona. |
+
+### Returvärde
+
+Infogad bild.
+
+### Anmärkningar
+
+Vid kloning av en bild mellan olika presentationer kan bildens master också klonas. Ett internt register används för att spåra automatiskt klonade masters för att förhindra skapandet av flera kloner av samma masterbild. Manuell kloning av masterbilder kommer varken att hindras eller registreras. Om du behöver mer kontroll över kloningsprocessen använd [`InsertClone`](../insertclone) eller [`InsertClone`](../insertclone) för att klona bilder och [`AddClone`](../../imasterslidecollection/addclone) för att klona masters.
+
+### Exempel
+
+Följande exempel visar hur man klonar till en annan position inom Presentation.
+
+```csharp
+[C#]
+// Instansiera Presentation-klassen som representerar en presentationsfil
+using (Presentation pres = new Presentation("CloneWithInSamePresentation.pptx"))
+{
+    // Klona den önskade bilden till slutet av samlingen av bilder i samma presentation
+    ISlideCollection slds = pres.Slides;
+    // Klona den önskade bilden till det specificerade indexet i samma presentation
+    slds.InsertClone(2, pres.Slides[1]);
+    // Skriv den modifierade presentationen till disk
+    pres.Save("Aspose_CloneWithInSamePresentation_out.pptx", SaveFormat.Pptx);
+}
+```
+
+Följande exempel visar hur man klonar till en annan position inom Presentation.
+
+```csharp
+[C#]
+// Instansiera Presentation-klassen för att läsa in källpresentationsfilen
+using (Presentation srcPres = new Presentation("CloneAtEndOfAnother.pptx"))
+{
+    // Instansiera Presentation-klassen för destinations-PPTX (där bilden ska klonas)
+    using (Presentation destPres = new Presentation())
+    {
+        ISlideCollection slds = destPres.Slides;
+        slds.InsertClone(2, srcPres.Slides[0]);
+        // Skriv destinationspresentationen till disk
+        destPres.Save("Aspose2_out.pptx", SaveFormat.Pptx);
+    }
+}
+```
+
+### Se även
+
+* gränssnitt [ISlide](../../islide)
+* klass [SlideCollection](../../slidecollection)
+* namnrymd [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
+
+Infogar en kopia av en specificerad bild på en specificerad position i samlingen.
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| index | Int32 | Index för den nya bilden. |
+| sourceSlide | ISlide | Bild att klona. |
+| destLayout | ILayoutSlide | Layout-bild för den nya bilden. |
+
+### Returvärde
+
+Infogad bild.
+
+### Se även
+
+* gränssnitt [ISlide](../../islide)
+* gränssnitt [ILayoutSlide](../../ilayoutslide)
+* klass [SlideCollection](../../slidecollection)
+* namnrymd [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
+
+Infogar en kopia av en specificerad källbild på en specificerad position i samlingen. Passande layout väljs automatiskt från den angivna master-bilden (passande layout är den layout som har samma Typ eller Namn som layouten för källbilden). Om det saknas en passande layout klonas layouten för källbilden (om allowCloneMissingLayout är true) eller så kastas PptxEditException (om allowCloneMissingLayout är false).
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster, 
+    bool allowCloneMissingLayout)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| index | Int32 | Index för den nya bilden. |
+| sourceSlide | ISlide | Bild att klona. |
+| destMaster | IMasterSlide | Master-bild för den nya bilden. |
+| allowCloneMissingLayout | Boolean | Om det saknas en passande layout i angiven master klonas layouten för källbilden (om allowCloneMissingLayout är true) eller så kastas PptxEditException (om allowCloneMissingLayout är false). |
+
+### Returvärde
+
+Infogad bild.
+
+### Undantag
+
+| undantag | villkor |
+| --- | --- |
+| [PptxEditException](../../pptxeditexception) | Kastas om det saknas en passande layout i angiven master och allowCloneMissingLayout är false. |
+
+### Se även
+
+* gränssnitt [ISlide](../../islide)
+* gränssnitt [IMasterSlide](../../imasterslide)
+* klass [SlideCollection](../../slidecollection)
+* namnrymd [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
