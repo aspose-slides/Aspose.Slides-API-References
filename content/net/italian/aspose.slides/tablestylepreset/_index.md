@@ -1,0 +1,103 @@
+---
+title: TableStylePreset
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Rappresenta gli stili di tabella incorporati.
+type: docs
+weight: 10860
+url: /it/aspose.slides/tablestylepreset/
+---
+## Enumerazione TableStylePreset
+
+Rappresenta gli stili di tabella incorporati.
+
+```csharp
+public enum TableStylePreset
+```
+
+### Valori
+
+| Nome | Valore | Descrizione |
+| --- | --- | --- |
+| Custom | `-1` | La tabella ha uno stile personalizzato. Questo è un valore di sola lettura. |
+| None | `0` | Nessuno stile. |
+| MediumStyle2Accent1 | `1` | Stile medio 2 - Accento 1. |
+| MediumStyle2 | `2` | Stile medio 2. |
+| NoStyleNoGrid | `3` | Nessuno stile, nessuna griglia. |
+| ThemedStyle1Accent1 | `4` | Stile tematico 1 - Accento 1. |
+| ThemedStyle1Accent2 | `5` | Stile tematico 1 - Accento 2. |
+| ThemedStyle1Accent3 | `6` | Stile tematico 1 - Accento 3. |
+| ThemedStyle1Accent4 | `7` | Stile tematico 1 - Accento 4. |
+| ThemedStyle1Accent5 | `8` | Stile tematico 1 - Accento 5. |
+| ThemedStyle1Accent6 | `9` | Stile tematico 1 - Accento 6. |
+| NoStyleTableGrid | `10` | Nessuno stile, griglia della tabella. |
+| ThemedStyle2Accent1 | `11` | Stile tematico 2 - Accento 1. |
+| ThemedStyle2Accent2 | `12` | Stile tematico 2 - Accento 2. |
+| ThemedStyle2Accent3 | `13` | Stile tematico 2 - Accento 3. |
+| ThemedStyle2Accent4 | `14` | Stile tematico 2 - Accento 4. |
+| ThemedStyle2Accent5 | `15` | Stile tematico 2 - Accento 5. |
+| ThemedStyle2Accent6 | `16` | Stile tematico 2 - Accento 6. |
+| LightStyle1 | `17` | Stile chiaro 1 |
+| LightStyle1Accent1 | `18` | Stile chiaro 1 - Accento 1. |
+| LightStyle1Accent2 | `19` | Stile chiaro 1 - Accento 2. |
+| LightStyle1Accent3 | `20` | Stile chiaro 1 - Accento 3. |
+| LightStyle1Accent4 | `21` | Stile chiaro 1 - Accento 4. |
+| LightStyle2Accent5 | `22` | Stile chiaro 2 - Accento 5. |
+| LightStyle1Accent6 | `23` | Stile chiaro 1 - Accento 6. |
+| LightStyle2 | `24` | Stile chiaro 2. |
+| LightStyle2Accent1 | `25` | Stile chiaro 2 - Accento 1. |
+| LightStyle2Accent2 | `26` | Stile chiaro 2 - Accento 2. |
+| LightStyle2Accent3 | `27` | Stile chiaro 2 - Accento 3. |
+| MediumStyle2Accent3 | `28` | Stile medio 2 - Accento 3. |
+| MediumStyle2Accent4 | `29` | Stile medio 2 - Accento 4. |
+| MediumStyle2Accent5 | `30` | Stile medio 2 - Accento 5. |
+| LightStyle2Accent6 | `31` | Stile chiaro 2 - Accento 6. |
+| LightStyle2Accent4 | `32` | Stile chiaro 2 - Accento 4. |
+| LightStyle3 | `33` | Stile chiaro 3. |
+| LightStyle3Accent1 | `34` | Stile chiaro 3 - Accento 1. |
+| MediumStyle2Accent2 | `35` | Stile medio 2 - Accento 2. |
+| LightStyle3Accent2 | `36` | Stile chiaro 3 - Accento 2. |
+| LightStyle3Accent3 | `37` | Stile chiaro 3 - Accento 3. |
+| LightStyle3Accent4 | `38` | Stile chiaro 3 - Accento 4. |
+| LightStyle3Accent5 | `39` | Stile chiaro 3 - Accento 5. |
+| LightStyle3Accent6 | `40` | Stile chiaro 3 - Accento 6. |
+| MediumStyle1 | `41` | Stile medio 1. |
+| MediumStyle1Accent1 | `42` | Stile medio 1 - Accento 1. |
+| MediumStyle1Accent2 | `43` | Stile medio 1 - Accento 2. |
+| MediumStyle1Accent3 | `44` | Stile medio 1 - Accento 3. |
+| MediumStyle1Accent4 | `45` | Stile medio 1 - Accento 4. |
+| MediumStyle1Accent5 | `46` | Stile medio 1 - Accento 5. |
+| MediumStyle1Accent6 | `47` | Stile medio 1 - Accento 6. |
+| MediumStyle2Accent6 | `48` | Stile medio 2 - Accento 6. |
+| MediumStyle3 | `49` | Stile medio 3. |
+| MediumStyle3Accent1 | `50` | Stile medio 3 - Accento 1. |
+| MediumStyle3Accent2 | `51` | Stile medio 3 - Accento 2. |
+| MediumStyle3Accent3 | `52` | Stile medio 3 - Accento 3. |
+| MediumStyle3Accent4 | `53` | Stile medio 3 - Accento 4. |
+| MediumStyle3Accent5 | `54` | Stile medio 3 - Accento 5. |
+| MediumStyle3Accent6 | `55` | Stile medio 3 - Accento 6. |
+| MediumStyle4 | `56` | Stile medio 4. |
+| MediumStyle4Accent1 | `57` | Stile medio 4 - Accento 1. |
+| MediumStyle4Accent2 | `58` | Stile medio 4 - Accento 2. |
+| MediumStyle4Accent3 | `59` | Stile medio 4 - Accento 3. |
+| MediumStyle4Accent4 | `60` | Stile medio 4 - Accento 4. |
+| MediumStyle4Accent5 | `61` | Stile medio 4 - Accento 5. |
+| MediumStyle4Accent6 | `62` | Stile medio 4 - Accento 6. |
+| DarkStyle1 | `63` | Stile scuro 1. |
+| DarkStyle1Accent1 | `64` | Stile scuro 1 - Accento 1. |
+| DarkStyle1Accent2 | `65` | Stile scuro 1 - Accento 2. |
+| DarkStyle1Accent3 | `66` | Stile scuro 1 - Accento 3. |
+| DarkStyle1Accent4 | `67` | Stile scuro 1 - Accento 4. |
+| DarkStyle1Accent5 | `68` | Stile scuro 1 - Accento 5. |
+| DarkStyle1Accent6 | `69` | Stile scuro 1 - Accento 6. |
+| DarkStyle2 | `70` | Stile scuro 2. |
+| DarkStyle2Accent1Accent2 | `71` | Stile scuro 2 - Accento 1/Accento 2. |
+| DarkStyle2Accent3Accent4 | `72` | Stile scuro 2 - Accento 3/Accento 4. |
+| DarkStyle2Accent5Accent6 | `73` | Stile scuro 2 - Accento 5/Accento 6. |
+| LightStyle1Accent5 | `74` | Stile chiaro 1 - Accento 5. |
+
+### Vedi anche
+
+* spazio dei nomi [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

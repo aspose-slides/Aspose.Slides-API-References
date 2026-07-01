@@ -1,0 +1,172 @@
+---
+title: GetImages
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Restituisce oggetti Image per tutte le diapositive di una presentazione.
+type: docs
+weight: 320
+url: /it/aspose.slides/presentation/getimages/
+---
+## GetImages(IRenderingOptions) {#getimages}
+
+Restituisce oggetti Image per tutte le diapositive di una presentazione.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| options | IRenderingOptions | Opzioni Tiff. |
+
+### Valore restituito
+
+oggetti Image.
+
+### Vedi anche
+
+* interfaccia [IImage](../../iimage)
+* interfaccia [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* classe [Presentation](../../presentation)
+* spazio dei nomi [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[]) {#getimages_1}
+
+Restituisce oggetti Thumbnail Image per le diapositive specificate di una presentazione.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| options | IRenderingOptions | Opzioni Tiff. |
+| slides | Int32[] | Array con le posizioni delle diapositive, a partire da 1. |
+
+### Valore restituito
+
+oggetti Image.
+
+### Vedi anche
+
+* interfaccia [IImage](../../iimage)
+* interfaccia [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* classe [Presentation](../../presentation)
+* spazio dei nomi [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, float, float) {#getimages_4}
+
+Restituisce oggetti Thumbnail Image per tutte le diapositive di una presentazione con scala personalizzata.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, float scaleX, float scaleY)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| options | IRenderingOptions | Opzioni Tiff. |
+| scaleX | Single | Il valore con cui scalare questo Thumbnail lungo l'asse x. |
+| scaleY | Single | Il valore con cui scalare questo Thumbnail lungo l'asse y. |
+
+### Valore restituito
+
+oggetti Image.
+
+### Vedi anche
+
+* interfaccia [IImage](../../iimage)
+* interfaccia [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* classe [Presentation](../../presentation)
+* spazio dei nomi [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[], float, float) {#getimages_2}
+
+Restituisce oggetti Thumbnail Image per le diapositive specificate di una presentazione con scala personalizzata.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| options | IRenderingOptions | Opzioni Tiff. |
+| slides | Int32[] | Array con le posizioni delle diapositive, a partire da 1. |
+| scaleX | Single | Il valore con cui scalare questo Thumbnail lungo l'asse x. |
+| scaleY | Single | Il valore con cui scalare questo Thumbnail lungo l'asse y. |
+
+### Valore restituito
+
+oggetti Image.
+
+### Vedi anche
+
+* interfaccia [IImage](../../iimage)
+* interfaccia [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* classe [Presentation](../../presentation)
+* spazio dei nomi [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, Size) {#getimages_5}
+
+Restituisce oggetti Thumbnail Image per tutte le diapositive di una presentazione con dimensione specificata.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, Size imageSize)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| options | IRenderingOptions | Opzioni Tiff. |
+| imageSize | Size | Size dell'immagine da creare. |
+
+### Valore restituito
+
+oggetti Image.
+
+### Vedi anche
+
+* interfaccia [IImage](../../iimage)
+* interfaccia [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* classe [Presentation](../../presentation)
+* spazio dei nomi [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## GetImages(IRenderingOptions, int[], Size) {#getimages_3}
+
+Restituisce oggetti Thumbnail Image per le diapositive specificate di una presentazione con dimensione specificata.
+
+```csharp
+public IImage[] GetImages(IRenderingOptions options, int[] slides, Size imageSize)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| options | IRenderingOptions | Opzioni Tiff. |
+| slides | Int32[] | Array con le posizioni delle diapositive, a partire da 1. |
+| imageSize | Size | Size dell'immagine da creare. |
+
+### Valore restituito
+
+oggetti Image.
+
+### Vedi anche
+
+* interfaccia [IImage](../../iimage)
+* interfaccia [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* classe [Presentation](../../presentation)
+* spazio dei nomi [Aspose.Slides](../../presentation)
+* assembly [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
