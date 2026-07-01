@@ -1,0 +1,137 @@
+---
+title: InsertClone
+second_title: Aspose.Sildes pro .NET API Reference
+description: Vloží kopii určeného snímku na určenou pozici ve sbírce.
+type: docs
+weight: 120
+url: /cs/aspose.slides/slidecollection/insertclone/
+---
+## InsertClone(int, ISlide) {#insertclone}
+
+Vloží kopii určeného snímku na určenou pozici ve sbírce.
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide)
+```
+
+| Parametr | Typ | Popis |
+| --- | --- | --- |
+| index | Int32 | Index nového snímku. |
+| sourceSlide | ISlide | Snímek, který se má klonovat. |
+
+### Návratová hodnota
+
+Vložený snímek.
+
+### Poznámky
+
+Při klonování snímku mezi různými prezentacemi může být také klonován master snímku. Interní registr se používá ke sledování automaticky klonovaných masterů, aby se zabránilo vytvoření více klonů stejného master snímku. Ruční klonování master snímků nebude ani zabráněno, ani registrováno. Pokud potřebujete větší kontrolu nad procesem klonování, použijte [`InsertClone`](../insertclone) nebo [`InsertClone`](../insertclone) pro klonování snímků a [`AddClone`](../../imasterslidecollection/addclone) pro klonování masterů.
+
+### Příklady
+
+Následující příklad ukazuje, jak klonovat na jinou pozici v rámci Presentation.
+
+```csharp
+[C#]
+// Vytvořte instanci třídy Presentation, která představuje soubor prezentace
+using (Presentation pres = new Presentation("CloneWithInSamePresentation.pptx"))
+{
+    // Klonujte požadovaný snímek na konci kolekce snímků ve stejné prezentaci
+    ISlideCollection slds = pres.Slides;
+    // Klonujte požadovaný snímek na určený index ve stejné prezentaci
+    slds.InsertClone(2, pres.Slides[1]);
+    // Zapište upravenou prezentaci na disk
+    pres.Save("Aspose_CloneWithInSamePresentation_out.pptx", SaveFormat.Pptx);
+}
+```
+
+Následující příklad ukazuje, jak klonovat na jinou pozici v rámci Presentation.
+
+```csharp
+[C#]
+// Vytvořte instanci třídy Presentation pro načtení zdrojového souboru prezentace
+using (Presentation srcPres = new Presentation("CloneAtEndOfAnother.pptx"))
+{
+    // Vytvořte instanci třídy Presentation pro cílový PPTX (kam má být snímek klonován)
+    using (Presentation destPres = new Presentation())
+    {
+        ISlideCollection slds = destPres.Slides;
+        slds.InsertClone(2, srcPres.Slides[0]);
+        // Zapište cílovou prezentaci na disk
+        destPres.Save("Aspose2_out.pptx", SaveFormat.Pptx);
+    }
+}
+```
+
+### Viz také
+
+* rozhraní [ISlide](../../islide)
+* třída [SlideCollection](../../slidecollection)
+* jmenný prostor [Aspose.Slides](../../slidecollection)
+* sestavení [Aspose.Slides](../../../)
+
+---
+
+## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
+
+Vloží kopii určeného snímku na určenou pozici ve sbírce.
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout)
+```
+
+| Parametr | Typ | Popis |
+| --- | --- | --- |
+| index | Int32 | Index nového snímku. |
+| sourceSlide | ISlide | Snímek, který se má klonovat. |
+| destLayout | ILayoutSlide | Rozložení snímku pro nový snímek. |
+
+### Návratová hodnota
+
+Vložený snímek.
+
+### Viz také
+
+* rozhraní [ISlide](../../islide)
+* rozhraní [ILayoutSlide](../../ilayoutslide)
+* třída [SlideCollection](../../slidecollection)
+* jmenný prostor [Aspose.Slides](../../slidecollection)
+* sestavení [Aspose.Slides](../../../)
+
+---
+
+## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
+
+Vloží kopii určeného zdrojového snímku na určenou pozici ve sbírce. Vhodné rozložení bude automaticky vybráno z určeného masteru (vhodné rozložení je rozložení se stejným Typem nebo Názvem jako rozložení zdrojového snímku). Pokud neexistuje vhodné rozložení, bude rozložení zdrojového snímku klonováno (pokud je allowCloneMissingLayout true) nebo bude vyhozena výjimka PptxEditException (pokud je allowCloneMissingLayout false).
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster, 
+    bool allowCloneMissingLayout)
+```
+
+| Parametr | Typ | Popis |
+| --- | --- | --- |
+| index | Int32 | Index nového snímku. |
+| sourceSlide | ISlide | Snímek, který se má klonovat. |
+| destMaster | IMasterSlide | Master snímek pro nový snímek. |
+| allowCloneMissingLayout | Boolean | Pokud neexistuje vhodné rozložení v určeném masteru, bude rozložení zdrojového snímku klonováno (pokud je allowCloneMissingLayout true) nebo bude vyhozena výjimka PptxEditException (pokud je allowCloneMissingLayout false). |
+
+### Návratová hodnota
+
+Vložený snímek.
+
+### Výjimky
+
+| výjimka | podmínka |
+| --- | --- |
+| [PptxEditException](../../pptxeditexception) | Vyvolána, pokud neexistuje vhodné rozložení v určeném masteru a allowCloneMissingLayout je false. |
+
+### Viz také
+
+* rozhraní [ISlide](../../islide)
+* rozhraní [IMasterSlide](../../imasterslide)
+* třída [SlideCollection](../../slidecollection)
+* jmenný prostor [Aspose.Slides](../../slidecollection)
+* sestavení [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
