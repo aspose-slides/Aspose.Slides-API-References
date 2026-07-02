@@ -1,0 +1,56 @@
+---
+title: ChartDataPoint
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نقطه داده سری را نشان می‌دهد.
+type: docs
+weight: 1330
+url: /fa/aspose.slides.charts/chartdatapoint/
+---
+## ChartDataPoint کلاس
+
+یک نقطه داده سری را نشان می‌دهد.
+
+```csharp
+public class ChartDataPoint : IChartDataPoint
+```
+
+## ویژگی‌ها
+
+| نام | توضیح |
+| --- | --- |
+| [ActualHeight](../../aspose.slides.charts/chartdatapoint/actualheight) { get; } | ارتفاع واقعی عنصر نمودار را مشخص می‌کند. قبل از دریافت مقادیر واقعی، متد IChart.ValidateChartLayout() را فراخوانی کنید. خواندنی Single. |
+| [ActualWidth](../../aspose.slides.charts/chartdatapoint/actualwidth) { get; } | عرض واقعی عنصر نمودار را مشخص می‌کند. قبل از دریافت مقادیر واقعی، متد IChart.ValidateChartLayout() را فراخوانی کنید. خواندنی Single. |
+| [ActualX](../../aspose.slides.charts/chartdatapoint/actualx) { get; } | موقعیت x واقعی (چپ) عنصر نمودار نسبت به گوشهٔ چپ-بالای نمودار را مشخص می‌کند. قبل از دریافت مقادیر واقعی، متد IChart.ValidateChartLayout() را فراخوانی کنید. خواندنی Single. |
+| [ActualY](../../aspose.slides.charts/chartdatapoint/actualy) { get; } | موقعیت واقعی بالای عنصر نمودار نسبت به گوشهٔ چپ-بالای نمودار را مشخص می‌کند. قبل از دریافت مقادیر واقعی، متد IChart.ValidateChartLayout() را فراخوانی کنید. خواندنی Single. |
+| [BubbleSize](../../aspose.slides.charts/chartdatapoint/bubblesize) { get; } | BubbleSize. فقط-خواندنی [`IDoubleChartValue`](../idoublechartvalue). |
+| [ColorValue](../../aspose.slides.charts/chartdatapoint/colorvalue) { get; } | مقدار رنگ نقطه دادهٔ نمودار را بر می‌گرداند. برای نمودارهای نقشه استفاده می‌شود. فقط-خواندنی [`IDoubleChartValue`](../idoublechartvalue). |
+| [DataPointLevels](../../aspose.slides.charts/chartdatapoint/datapointlevels) { get; } | حاوی سطوح نقطه داده را بر می‌گرداند. برای سری‌های Treeamp و Sunburst به کار می‌رود. اندیس‌گذاری سطوح نقطه داده از صفر شروع می‌شود. |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/chartdatapoint/errorbarscustomvalues) { get; } | مقادیر نوارهای خطا سری را در حالت نوع مقدار Custom نشان می‌دهد. فقط-خواندنی [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
+| [Explosion](../../aspose.slides.charts/chartdatapoint/explosion) { get; set; } | مقداری که نقطه داده باید از مرکز پای حرکت کند را مشخص می‌کند. قابل‌نوشتن Int32. |
+| [Format](../../aspose.slides.charts/chartdatapoint/format) { get; set; } | خواص قالب‌بندی را نشان می‌دهد. قابل‌نوشتن [`IFormat`](../iformat). |
+| [Index](../../aspose.slides.charts/chartdatapoint/index) { get; } |  |
+| [InvertIfNegative](../../aspose.slides.charts/chartdatapoint/invertifnegative) { get; set; } | مشخص می‌کند که نقطه داده در صورت منفی بودن مقدار، رنگ‌های خود را معکوس کند. قابل‌نوشتن Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/chartdatapoint/isbubble3d) { get; set; } | مشخص می‌کند که حباب‌ها اثر سه‌بعدی داشته باشند. قابل‌نوشتن Boolean. |
+| [Label](../../aspose.slides.charts/chartdatapoint/label) { get; } | برچسب. فقط-خواندنی [`IDataLabel`](../idatalabel). |
+| [Marker](../../aspose.slides.charts/chartdatapoint/marker) { get; } | یک نشانگر داده را مشخص می‌کند. فقط-خواندنی [`IMarker`](../imarker). |
+| [RelatedLegendEntry](../../aspose.slides.charts/chartdatapoint/relatedlegendentry) { get; } | خواص ورودی افسانهٔ متناظر در صورت نوع نمودار از این فهرست: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. فقط-خواندنی [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/chartdatapoint/setastotal) { get; set; } | نقطه داده را به عنوان مجموع تنظیم می‌کند. فقط برای نوع سری Waterfall به کار می‌رود. |
+| [SizeValue](../../aspose.slides.charts/chartdatapoint/sizevalue) { get; } | مقدار اندازهٔ نقطه دادهٔ نمودار را بر می‌گرداند. برای نمودارهای Treemap و Sunburst استفاده می‌شود. فقط-خواندنی [`IDoubleChartValue`](../idoublechartvalue). |
+| [Value](../../aspose.slides.charts/chartdatapoint/value) { get; } | مقدار. فقط-خواندنی [`IDoubleChartValue`](../idoublechartvalue). |
+| [XValue](../../aspose.slides.charts/chartdatapoint/xvalue) { get; } | XValue. فقط-خواندنی [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
+| [YValue](../../aspose.slides.charts/chartdatapoint/yvalue) { get; } | YValue. فقط-خواندنی [`IDoubleChartValue`](../idoublechartvalue). |
+
+## متدها
+
+| نام | توضیح |
+| --- | --- |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor)() | یک رنگ خودکار برای نقطه داده بر اساس ایندکس سری، ایندکس نقطه داده، ویژگی ParentSeriesGroup.IsColorVaried و سبک نمودار بر می‌گرداند. این رنگ به‌طور پیش‌فرض اگر FillType برابر NotDefined باشد استفاده می‌شود. |
+| [Remove](../../aspose.slides.charts/chartdatapoint/remove)() | DataPoint را از سری نمودار حذف می‌کند. |
+
+### مراجع دیگر
+
+* رابط [IChartDataPoint](../ichartdatapoint)
+* فضای‌نام [Aspose.Slides.Charts](../../aspose.slides.charts)
+* مونتاژ [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
