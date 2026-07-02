@@ -1,0 +1,147 @@
+---
+title: AddClone
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Voegt een kopie van een opgegeven dia toe aan het einde van de collectie.
+type: docs
+weight: 20
+url: /nl/aspose.slides/islidecollection/addclone/
+---
+## AddClone(ISlide) {#addclone}
+
+Voegt een kopie van een opgegeven dia toe aan het einde van de collectie.
+
+```csharp
+public ISlide AddClone(ISlide sourceSlide)
+```
+
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| sourceSlide | ISlide | Dia om te klonen. |
+
+### Retourwaarde
+
+Nieuwe dia.
+
+### Opmerkingen
+
+When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use [`AddClone`](../addclone) or [`AddClone`](../addclone) for cloning slides, [`AddClone`](../../igloballayoutslidecollection/addclone) or [`AddClone`](../../igloballayoutslidecollection/addclone) for cloning layouts and [`AddClone`](../../imasterslidecollection/addclone) for cloning masters.
+
+### Zie ook
+
+* interface [ISlide](../../islide)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddClone(ISlide, ISection) {#addclone_3}
+
+Voegt een kopie van een opgegeven dia toe aan het einde van de opgegeven sectie.
+
+```csharp
+public ISlide AddClone(ISlide sourceSlide, ISection section)
+```
+
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| sourceSlide | ISlide | Dia om te klonen. |
+| section | ISection | Sectie voor een nieuwe dia. |
+
+### Retourwaarde
+
+Nieuwe dia.
+
+### Uitzonderingen
+
+| Uitzondering | Conditie |
+| --- | --- |
+| ArgumentNullException |  |
+| [PptxEditException](../../pptxeditexception) |  |
+
+### Voorbeelden
+
+```csharp
+[C#]
+using (IPresentation presentation = new Presentation())
+{
+    presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 50, 300, 100);
+    presentation.Sections.AddSection("Section 1", presentation.Slides[0]);
+    
+    ISection section2 = presentation.Sections.AppendEmptySection("Section 2");
+    presentation.Slides.AddClone(presentation.Slides[0], section2);
+    
+    // Nu bevat de tweede sectie een kopie van de eerste dia.
+}
+```
+
+### Zie ook
+
+* interface [ISlide](../../islide)
+* interface [ISection](../../isection)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddClone(ISlide, ILayoutSlide) {#addclone_1}
+
+Voegt een kopie van een opgegeven dia toe aan het einde van de collectie.
+
+```csharp
+public ISlide AddClone(ISlide sourceSlide, ILayoutSlide destLayout)
+```
+
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| sourceSlide | ISlide | Dia om te klonen. |
+| destLayout | ILayoutSlide | Layoutdia voor een nieuwe dia. |
+
+### Retourwaarde
+
+Nieuwe dia.
+
+### Zie ook
+
+* interface [ISlide](../../islide)
+* interface [ILayoutSlide](../../ilayoutslide)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddClone(ISlide, IMasterSlide, bool) {#addclone_2}
+
+Voegt een kopie van een opgegeven bron-dia toe aan het einde van de collectie. Een geschikte layout wordt automatisch geselecteerd uit de opgegeven master (een geschikte layout is de layout met hetzelfde Type of dezelfde Name als de layout van de bron-dia). Als er geen geschikte layout is, wordt de layout van de bron-dia gekloond (als allowCloneMissingLayout true is) of wordt er een PptxEditException gegooid (als allowCloneMissingLayout false is).
+
+```csharp
+public ISlide AddClone(ISlide sourceSlide, IMasterSlide destMaster, bool allowCloneMissingLayout)
+```
+
+| Parameter | Type | Beschrijving |
+| --- | --- | --- |
+| sourceSlide | ISlide | Dia om te klonen. |
+| destMaster | IMasterSlide | Master-dia voor een nieuwe dia. |
+| allowCloneMissingLayout | Boolean | Als er geen geschikte layout in de opgegeven master is, wordt de layout van de bron-dia gekloond (als allowCloneMissingLayout true is) of wordt er een PptxEditException gegooid (als allowCloneMissingLayout false is). |
+
+### Retourwaarde
+
+Nieuwe dia.
+
+### Uitzonderingen
+
+| Uitzondering | Conditie |
+| --- | --- |
+| [PptxEditException](../../pptxeditexception) | Gegooid als er geen geschikte layout in de opgegeven master is en allowCloneMissingLayout false is. |
+
+### Zie ook
+
+* interface [ISlide](../../islide)
+* interface [IMasterSlide](../../imasterslide)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
