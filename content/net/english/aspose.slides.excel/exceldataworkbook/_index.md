@@ -3,7 +3,7 @@ title: ExcelDataWorkbook
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a workbook that provides access to Excel data for general use.
 type: docs
-weight: 3670
+weight: 3690
 url: /aspose.slides.excel/exceldataworkbook/
 ---
 

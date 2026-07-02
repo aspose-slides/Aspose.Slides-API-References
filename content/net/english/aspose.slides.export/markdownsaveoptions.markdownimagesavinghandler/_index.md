@@ -3,7 +3,7 @@ title: MarkdownSaveOptions.MarkdownImageSavingHandler
 second_title: Aspose.Sildes for .NET API Reference
 description: Invoked for each non-SVG image bitmap or metafile during Markdown export. Return true to use the specified link or false to apply the default saving logic.
 type: docs
-weight: 4240
+weight: 4260
 url: /aspose.slides.export/markdownsaveoptions.markdownimagesavinghandler/
 ---
 

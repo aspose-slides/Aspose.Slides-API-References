@@ -3,7 +3,7 @@ title: IAIWebClient
 second_title: Aspose.Sildes for .NET API Reference
 description: AI Web client interface. This interface enables to substitute different AI language models. Classes that implement this interface are supposed to be used along with SlidesAIAgent.
 type: docs
-weight: 20
+weight: 30
 url: /aspose.slides.ai/iaiwebclient/
 ---
 

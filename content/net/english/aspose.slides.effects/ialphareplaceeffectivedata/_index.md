@@ -3,7 +3,7 @@ title: IAlphaReplaceEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which represents and Alpha Replace effect. Effect alpha opacity values are replaced by a fixed alpha.
 type: docs
-weight: 3130
+weight: 3150
 url: /aspose.slides.effects/ialphareplaceeffectivedata/
 ---
 

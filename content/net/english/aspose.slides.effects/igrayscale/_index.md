@@ -3,7 +3,7 @@ title: IGrayScale
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents IImageTransformOperation interface.
 type: docs
-weight: 3320
+weight: 3340
 url: /aspose.slides.effects/igrayscale/
 ---
 

@@ -3,7 +3,7 @@ title: WorkbookType
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the type of Open XML workbook file.
 type: docs
-weight: 2490
+weight: 2510
 url: /aspose.slides.charts/workbooktype/
 ---
 

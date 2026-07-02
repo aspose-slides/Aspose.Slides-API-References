@@ -3,7 +3,7 @@ title: CompressionLevel
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies ZIP compression levels for OpenXML file. Higher levels provide better compression at the cost of slower processing.
 type: docs
-weight: 3720
+weight: 3740
 url: /aspose.slides.export/compressionlevel/
 ---
 

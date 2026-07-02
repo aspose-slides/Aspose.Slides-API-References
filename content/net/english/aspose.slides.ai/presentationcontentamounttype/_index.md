@@ -3,7 +3,7 @@ title: PresentationContentAmountType
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the amount of content included in the generated presentation influencing both the number of slides and the level of detail per slide.
 type: docs
-weight: 40
+weight: 60
 url: /aspose.slides.ai/presentationcontentamounttype/
 ---
 

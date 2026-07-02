@@ -3,7 +3,7 @@ title: IHtml5Options
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a HTML5 exporting options.
 type: docs
-weight: 3910
+weight: 3930
 url: /aspose.slides.export/ihtml5options/
 ---
 
@@ -25,6 +25,7 @@ public interface IHtml5Options : ISaveOptions
 | [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Gets or sets a value indicating whether text is rendered without using ligatures. When set to `true`, ligatures will be disabled in the rendered output. By default, this property is set to `false`. |
 | [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Returns or sets images embedding option. Read/write Boolean. |
 | [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Determines where external resources should be stored. Read/write String. |
+| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | Represents the pictures compression level Read/write [`PicturesCompression`](./picturescompression). |
 | [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Gets or sets the mode in which slides are placed on the page when exporting a presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Examples

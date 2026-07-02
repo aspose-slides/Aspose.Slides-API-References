@@ -27,6 +27,14 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 | --- | --- |
 | ArgumentException | AI chat instruction can't be null or empty. |
 
+### Remarks
+
+The example below uses the default [`AsposeAIWebClient`](../../asposeaiwebclient), which is created by the parameterless [`SlidesAIAgent`](../slidesaiagent) constructor and connects to Aspose's own LLM. To use a different AI provider, supply your own LLM, or customize the connection (for example, by providing your own `HttpClient`), pass an [`IAIWebClient`](../../iaiwebclient) implementation to the [`SlidesAIAgent`](../slidesaiagent) constructor. Available implementations include:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
 ### See Also
 
 * interface [IPresentation](../../../aspose.slides/ipresentation)
@@ -58,6 +66,14 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 | --- | --- |
 | ArgumentNullException | Presentation template is not provided. |
 | ArgumentException | AI chat instruction can't be null or empty. |
+
+### Remarks
+
+The example below uses the default [`AsposeAIWebClient`](../../asposeaiwebclient), which is created by the parameterless [`SlidesAIAgent`](../slidesaiagent) constructor and connects to Aspose's own LLM. To use a different AI provider, supply your own LLM, or customize the connection (for example, by providing your own `HttpClient`), pass an [`IAIWebClient`](../../iaiwebclient) implementation to the [`SlidesAIAgent`](../slidesaiagent) constructor. Available implementations include:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
 ### See Also
 

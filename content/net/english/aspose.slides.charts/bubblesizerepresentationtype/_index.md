@@ -3,7 +3,7 @@ title: BubbleSizeRepresentationType
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the possible ways to represent data as bubble chart sizes.
 type: docs
-weight: 1210
+weight: 1230
 url: /aspose.slides.charts/bubblesizerepresentationtype/
 ---
 

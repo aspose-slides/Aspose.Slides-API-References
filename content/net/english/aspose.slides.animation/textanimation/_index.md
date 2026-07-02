@@ -3,7 +3,7 @@ title: TextAnimation
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent text animation.
 type: docs
-weight: 800
+weight: 820
 url: /aspose.slides.animation/textanimation/
 ---
 

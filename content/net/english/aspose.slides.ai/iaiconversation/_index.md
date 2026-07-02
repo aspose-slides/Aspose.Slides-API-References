@@ -3,7 +3,7 @@ title: IAIConversation
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a conversation instance. Unlike regular AI calls conversations retain the entire context.
 type: docs
-weight: 10
+weight: 20
 url: /aspose.slides.ai/iaiconversation/
 ---
 

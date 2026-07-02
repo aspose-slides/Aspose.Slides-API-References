@@ -3,7 +3,7 @@ title: SlidesAIAgent
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides AI-powered features for processing presentations.
 type: docs
-weight: 50
+weight: 70
 url: /aspose.slides.ai/slidesaiagent/
 ---
 
@@ -19,7 +19,8 @@ public class SlidesAIAgent
 
 | Name | Description |
 | --- | --- |
-| [SlidesAIAgent](slidesaiagent)(IAIWebClient) | SlidesAIAgent constructor |
+| [SlidesAIAgent](slidesaiagent#constructor)() | Initializes a new instance of [`SlidesAIAgent`](../slidesaiagent) using the built-in [`AsposeAIWebClient`](../asposeaiwebclient) with its default configuration. The client connects to Aspose's own LLM and requires no additional configuration. To use a different AI client, use the [`SlidesAIAgent`](./slidesaiagent) overload instead. |
+| [SlidesAIAgent](slidesaiagent#constructor_1)(IAIWebClient) | Initializes a new instance of [`SlidesAIAgent`](../slidesaiagent) with a custom AI client. Use this overload to specify the AI provider, supply your own LLM, or customize the connection (for example, by providing your own `HttpClient`). Any implementation of [`IAIWebClient`](../iaiwebclient) can be used, including: |
 
 ## Methods
 

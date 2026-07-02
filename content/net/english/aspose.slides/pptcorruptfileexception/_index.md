@@ -3,7 +3,7 @@ title: PptCorruptFileException
 second_title: Aspose.Sildes for .NET API Reference
 description: Exception which thrown when presentation file is probably corrupt.
 type: docs
-weight: 9480
+weight: 9500
 url: /aspose.slides/pptcorruptfileexception/
 ---
 

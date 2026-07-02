@@ -3,7 +3,7 @@ title: SensitivityLabelCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of sensitivity labels applied to the document.
 type: docs
-weight: 9790
+weight: 9810
 url: /aspose.slides/sensitivitylabelcollection/
 ---
 

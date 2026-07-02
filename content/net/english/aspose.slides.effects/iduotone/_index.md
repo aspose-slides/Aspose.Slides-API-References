@@ -3,7 +3,7 @@ title: IDuotone
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Duotone effect.
 type: docs
-weight: 3240
+weight: 3260
 url: /aspose.slides.effects/iduotone/
 ---
 

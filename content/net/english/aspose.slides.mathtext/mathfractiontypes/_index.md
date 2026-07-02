@@ -3,7 +3,7 @@ title: MathFractionTypes
 second_title: Aspose.Sildes for .NET API Reference
 description: Fraction Types
 type: docs
-weight: 8690
+weight: 8710
 url: /aspose.slides.mathtext/mathfractiontypes/
 ---
 

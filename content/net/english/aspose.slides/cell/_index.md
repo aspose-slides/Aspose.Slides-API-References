@@ -3,7 +3,7 @@ title: Cell
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a cell of a table.
 type: docs
-weight: 1110
+weight: 1130
 url: /aspose.slides/cell/
 ---
 

@@ -3,7 +3,7 @@ title: IBaseShapeLock
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents Shape lock disabled operation.
 type: docs
-weight: 5310
+weight: 5330
 url: /aspose.slides/ibaseshapelock/
 ---
 

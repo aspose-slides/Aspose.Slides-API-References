@@ -3,7 +3,7 @@ title: ColorSpace
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents color space for color effect behavior.
 type: docs
-weight: 230
+weight: 250
 url: /aspose.slides.animation/colorspace/
 ---
 

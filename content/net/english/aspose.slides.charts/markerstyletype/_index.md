@@ -3,7 +3,7 @@ title: MarkerStyleType
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines form of marker on charts data point.
 type: docs
-weight: 2320
+weight: 2340
 url: /aspose.slides.charts/markerstyletype/
 ---
 

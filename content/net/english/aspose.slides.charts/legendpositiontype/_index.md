@@ -3,7 +3,7 @@ title: LegendPositionType
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines a position of legend on a chart.
 type: docs
-weight: 2300
+weight: 2320
 url: /aspose.slides.charts/legendpositiontype/
 ---
 

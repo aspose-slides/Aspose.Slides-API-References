@@ -3,7 +3,7 @@ title: EffectFillType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent fill types.
 type: docs
-weight: 290
+weight: 310
 url: /aspose.slides.animation/effectfilltype/
 ---
 

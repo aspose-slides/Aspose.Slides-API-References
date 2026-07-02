@@ -3,7 +3,7 @@ title: Merger
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a group of methods for merging PowerPoint presentations of the same format into one file.
 type: docs
-weight: 7950
+weight: 7970
 url: /aspose.slides.lowcode/merger/
 ---
 

@@ -3,7 +3,7 @@ title: IChartPlotArea
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents chart title properties.
 type: docs
-weight: 1890
+weight: 1910
 url: /aspose.slides.charts/ichartplotarea/
 ---
 

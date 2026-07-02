@@ -13,7 +13,9 @@ Contains classes that provide AI-based features for analyzing and processing Pow
 
 | Class | Description |
 | --- | --- |
-| [OpenAIWebClient](./openaiwebclient) | Build-in lightweight OpenAI web client |
+| [AsposeAIWebClient](./asposeaiwebclient) | A built-in [`IAIWebClient`](../aspose.slides.ai/iaiwebclient) implementation that connects to Aspose's own LLM. This is the default client used by the parameterless [`SlidesAIAgent`](../aspose.slides.ai/slidesaiagent/slidesaiagent) constructor. |
+| [OpenAICompatibleWebClient](./openaicompatiblewebclient) | A built-in [`IAIWebClient`](../aspose.slides.ai/iaiwebclient) implementation that connects to an OpenAI-compatible LLM provider at a specified base URL. |
+| [OpenAIWebClient](./openaiwebclient) | A built-in [`IAIWebClient`](../aspose.slides.ai/iaiwebclient) implementation that connects to the OpenAI API. |
 | [SlidesAIAgent](./slidesaiagent) | Provides AI-powered features for processing presentations. |
 | [SlidesAIAgentException](./slidesaiagentexception) | Represents Slides AI Agent related exceptions. |
 ## Interfaces

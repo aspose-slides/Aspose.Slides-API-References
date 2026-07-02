@@ -3,7 +3,7 @@ title: IHeadingPair
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Heading pair property of the document. It indicates the group name of document parts and the number of parts in group.
 type: docs
-weight: 6080
+weight: 6100
 url: /aspose.slides/iheadingpair/
 ---
 

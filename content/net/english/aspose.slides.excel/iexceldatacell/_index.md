@@ -3,7 +3,7 @@ title: IExcelDataCell
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a single cell in an Excel workbook.
 type: docs
-weight: 3680
+weight: 3700
 url: /aspose.slides.excel/iexceldatacell/
 ---
 

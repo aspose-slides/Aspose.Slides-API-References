@@ -3,7 +3,7 @@ title: ChartSeriesGroup
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents group of series.
 type: docs
-weight: 1440
+weight: 1460
 url: /aspose.slides.charts/chartseriesgroup/
 ---
 

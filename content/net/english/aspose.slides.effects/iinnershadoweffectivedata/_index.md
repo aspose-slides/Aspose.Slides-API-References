@@ -3,7 +3,7 @@ title: IInnerShadowEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which represents a inner shadow effect.
 type: docs
-weight: 3410
+weight: 3430
 url: /aspose.slides.effects/iinnershadoweffectivedata/
 ---
 

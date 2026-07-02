@@ -3,7 +3,7 @@ title: SmartArtNode
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents node of a SmartArt object
 type: docs
-weight: 10610
+weight: 10630
 url: /aspose.slides.smartart/smartartnode/
 ---
 

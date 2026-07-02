@@ -3,7 +3,7 @@ title: ISlideShowTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents slide show transition.
 type: docs
-weight: 7060
+weight: 7080
 url: /aspose.slides/islideshowtransition/
 ---
 

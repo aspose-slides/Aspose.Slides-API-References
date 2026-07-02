@@ -3,7 +3,7 @@ title: IFindResultCallback
 second_title: Aspose.Sildes for .NET API Reference
 description: Callback interface used to getting search text result.
 type: docs
-weight: 5800
+weight: 5820
 url: /aspose.slides/ifindresultcallback/
 ---
 

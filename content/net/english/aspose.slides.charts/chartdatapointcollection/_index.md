@@ -3,7 +3,7 @@ title: ChartDataPointCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents collection of a series data point.
 type: docs
-weight: 1320
+weight: 1340
 url: /aspose.slides.charts/chartdatapointcollection/
 ---
 

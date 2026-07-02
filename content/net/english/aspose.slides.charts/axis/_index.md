@@ -3,7 +3,7 @@ title: Axis
 second_title: Aspose.Sildes for .NET API Reference
 description: Encapsulates the object that represents a charts axis.
 type: docs
-weight: 1160
+weight: 1180
 url: /aspose.slides.charts/axis/
 ---
 

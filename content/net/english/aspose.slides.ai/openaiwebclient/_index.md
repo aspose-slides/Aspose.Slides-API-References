@@ -1,15 +1,15 @@
 ---
 title: OpenAIWebClient
 second_title: Aspose.Sildes for .NET API Reference
-description: Build-in lightweight OpenAI web client
+description: A built-in IAIWebClient./iaiwebclient implementation that connects to the OpenAI API.
 type: docs
-weight: 30
+weight: 50
 url: /aspose.slides.ai/openaiwebclient/
 ---
 
 ## OpenAIWebClient class
 
-Build-in lightweight OpenAI web client
+A built-in [`IAIWebClient`](../iaiwebclient) implementation that connects to the OpenAI API.
 
 ```csharp
 public class OpenAIWebClient : IAIWebClient, IDisposable
@@ -19,8 +19,8 @@ public class OpenAIWebClient : IAIWebClient, IDisposable
 
 | Name | Description |
 | --- | --- |
-| [OpenAIWebClient](openaiwebclient#constructor)(string, string, string) | Creates instance of OpenAI Web client. |
-| [OpenAIWebClient](openaiwebclient#constructor_1)(string, string, string, HttpClient) | Creates instance of OpenAI Web client. |
+| [OpenAIWebClient](openaiwebclient#constructor)(string, string, string) | Creates an instance of the OpenAI web client. |
+| [OpenAIWebClient](openaiwebclient#constructor_1)(string, string, string, HttpClient) | Creates an instance of the OpenAI web client that uses an externally managed HttpClient. The provided HttpClient is not disposed by this instance and remains owned by the caller. |
 
 ## Methods
 
