@@ -1,0 +1,61 @@
+---
+title: FieldType
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili jenis bidang. Nilai ini menentukan teks apa yang akan ditempatkan pada bagian bidang ketika diperbarui.
+type: docs
+weight: 4740
+url: /id/aspose.slides/fieldtype/
+---
+## FieldType kelas
+
+Mewakili jenis bidang. Nilai ini menentukan teks apa yang akan ditempatkan pada bagian bidang ketika diperbarui.
+
+```csharp
+public sealed class FieldType : IFieldType
+```
+
+## Konstruktor
+
+| Nama | Deskripsi |
+| --- | --- |
+| [FieldType](fieldtype)(string) | Menginisialisasi instance baru dari kelas FieldType. |
+
+## Properti
+
+| Nama | Deskripsi |
+| --- | --- |
+| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | Tanggal dan waktu saat ini dalam format tanggal waktu default untuk aplikasi rendering. Hanya-baca [`FieldType`](../fieldtype). |
+| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | Tanggal dan waktu saat ini dalam format pertama yang telah ditentukan (MM/DD/YYYY untuk bahasa Inggris). Hanya-baca [`FieldType`](../fieldtype). |
+| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | Tanggal dan waktu saat ini dalam format kesepuluh yang telah ditentukan (hh:mm untuk bahasa Inggris). Hanya-baca [`FieldType`](../fieldtype). |
+| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | Tanggal dan waktu saat ini dalam format kesebelas yang telah ditentukan (hh:mm:ss untuk bahasa Inggris). Hanya-baca [`FieldType`](../fieldtype). |
+| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | Tanggal dan waktu saat ini dalam format keduabelas yang telah ditentukan (hh:mm AM/PM untuk bahasa Inggris). Hanya-baca [`FieldType`](../fieldtype). |
+| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | Tanggal dan waktu saat ini dalam format ketigabelas yang telah ditentukan (hh:mm:ss AM/PM untuk bahasa Inggris). Hanya-baca [`FieldType`](../fieldtype). |
+| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | Tanggal dan waktu saat ini dalam format kedua yang telah ditentukan (Day, Month DD, YYYY untuk bahasa Inggris). Hanya-baca [`FieldType`](../fieldtype). |
+| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | Tanggal dan waktu saat ini dalam format ketiga yang telah ditentukan (DD Month YYYY untuk bahasa Inggris). Hanya-baca [`FieldType`](../fieldtype). |
+| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | Tanggal dan waktu saat ini dalam format keempat yang telah ditentukan (Month DD, YYYY untuk bahasa Inggris). Hanya-baca [`FieldType`](../fieldtype). |
+| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | Tanggal dan waktu saat ini dalam format kelima yang telah ditentukan (DD-Mon-YY untuk bahasa Inggris). Hanya-baca [`FieldType`](../fieldtype). |
+| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | Tanggal dan waktu saat ini dalam format keenam yang telah ditentukan (Month YY untuk bahasa Inggris). Hanya-baca [`FieldType`](../fieldtype). |
+| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | Tanggal dan waktu saat ini dalam format ketujuh yang telah ditentukan (Mon-YY untuk bahasa Inggris). Hanya-baca [`FieldType`](../fieldtype). |
+| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | Tanggal dan waktu saat ini dalam format kedelapan yang telah ditentukan (MM/DD/YYYY hh:mm AM/PM untuk bahasa Inggris). Hanya-baca [`FieldType`](../fieldtype). |
+| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | Tanggal dan waktu saat ini dalam format kesembilan yang telah ditentukan (MM/DD/YYYY hh:mm:ss AM/PM untuk bahasa Inggris). Hanya-baca [`FieldType`](../fieldtype). |
+| static [Footer](../../aspose.slides/fieldtype/footer) { get; } | Footer slide. Hanya-baca [`FieldType`](../fieldtype). |
+| static [Header](../../aspose.slides/fieldtype/header) { get; } | Header slide. Hanya-baca [`FieldType`](../fieldtype). |
+| static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | Nomor slide saat ini. Hanya-baca [`FieldType`](../fieldtype). |
+| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | Mengembalikan nama internal dari objek FieldType ini. Baca/tulis String. |
+
+## Metode
+
+| Nama | Deskripsi |
+| --- | --- |
+| override [Equals](../../aspose.slides/fieldtype/equals)(object) | Memeriksa apakah bidang ini sama dengan yang lain. |
+| override [GetHashCode](../../aspose.slides/fieldtype/gethashcode)() | Mengembalikan hashcode untuk objek ini. |
+| [operator ==](../../aspose.slides/fieldtype/op_equality) | Memeriksa apakah dua objek FieldType sama. |
+| [operator !=](../../aspose.slides/fieldtype/op_inequality) | Memeriksa apakah dua objek FieldType tidak sama. |
+
+### Lihat Juga
+
+* antarmuka [IFieldType](../ifieldtype)
+* ruang nama [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

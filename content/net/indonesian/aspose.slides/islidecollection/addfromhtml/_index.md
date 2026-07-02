@@ -1,0 +1,166 @@
+---
+title: AddFromHtml
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Membuat slide dari teks HTML dan menambahkannya ke akhir koleksi.
+type: docs
+weight: 40
+url: /id/aspose.slides/islidecollection/addfromhtml/
+---
+## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
+
+Membuat slide dari teks HTML dan menambahkannya ke akhir koleksi.
+
+```csharp
+public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver, string uri)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| htmlText | String | Html yang akan ditambahkan. |
+| resolver | IExternalResourceResolver | Objek callback yang digunakan untuk mengambil objek eksternal. Jika parameter ini null semua objek eksternal akan diabaikan. |
+| uri | String | URI dari HTML yang ditentukan. Digunakan untuk menyelesaikan tautan relatif. |
+
+### Nilai Kembalian
+
+Slide yang ditambahkan.
+
+### Lihat Juga
+
+* antarmuka [ISlide](../../islide)
+* antarmuka [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* antarmuka [ISlideCollection](../../islidecollection)
+* ruang nama [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(string) {#addfromhtml_4}
+
+Membuat slide dari teks HTML dan menambahkannya ke akhir koleksi.
+
+```csharp
+public ISlide[] AddFromHtml(string htmlText)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| htmlText | String | Html yang akan ditambahkan. |
+
+### Nilai Kembalian
+
+Slide yang ditambahkan
+
+### Lihat Juga
+
+* antarmuka [ISlide](../../islide)
+* antarmuka [ISlideCollection](../../islidecollection)
+* ruang nama [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
+
+Membuat slide dari teks HTML dan menambahkannya ke akhir koleksi.
+
+```csharp
+public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver resolver, string uri)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| htmlReader | TextReader | Objek TextReader yang akan digunakan sebagai sumber file HTML. |
+| resolver | IExternalResourceResolver | Objek callback yang digunakan untuk mengambil objek eksternal. Jika parameter ini null semua objek eksternal akan diabaikan. |
+| uri | String | URI dari HTML yang ditentukan. Digunakan untuk menyelesaikan tautan relatif. |
+
+### Nilai Kembalian
+
+Slide yang ditambahkan.
+
+### Lihat Juga
+
+* antarmuka [ISlide](../../islide)
+* antarmuka [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* antarmuka [ISlideCollection](../../islidecollection)
+* ruang nama [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(TextReader) {#addfromhtml_2}
+
+Membuat slide dari teks HTML dan menambahkannya ke akhir koleksi.
+
+```csharp
+public ISlide[] AddFromHtml(TextReader htmlReader)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| htmlReader | TextReader | Objek TextReader yang akan digunakan sebagai sumber file HTML. |
+
+### Nilai Kembalian
+
+Slide yang ditambahkan
+
+### Lihat Juga
+
+* antarmuka [ISlide](../../islide)
+* antarmuka [ISlideCollection](../../islidecollection)
+* ruang nama [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
+
+Membuat slide dari teks HTML dan menambahkannya ke akhir koleksi.
+
+```csharp
+public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolver, string uri)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| htmlStream | Stream | Objek Stream yang akan digunakan sebagai sumber file HTML. |
+| resolver | IExternalResourceResolver | Objek callback yang digunakan untuk mengambil objek eksternal. Jika parameter ini null semua objek eksternal akan diabaikan. |
+| uri | String | URI dari HTML yang ditentukan. Digunakan untuk menyelesaikan tautan relatif. |
+
+### Nilai Kembalian
+
+Slide yang ditambahkan.
+
+### Lihat Juga
+
+* antarmuka [ISlide](../../islide)
+* antarmuka [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* antarmuka [ISlideCollection](../../islidecollection)
+* ruang nama [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(Stream) {#addfromhtml}
+
+Membuat slide dari teks HTML dan menambahkannya ke akhir koleksi.
+
+```csharp
+public ISlide[] AddFromHtml(Stream htmlStream)
+```
+
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+| htmlStream | Stream | Objek Stream yang akan digunakan sebagai sumber file HTML. |
+
+### Nilai Kembalian
+
+Slide yang ditambahkan
+
+### Lihat Juga
+
+* antarmuka [ISlide](../../islide)
+* antarmuka [ISlideCollection](../../islidecollection)
+* ruang nama [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
