@@ -1,0 +1,166 @@
+---
+title: AddFromHtml
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Maakt dia's van HTML-tekst en voegt ze toe aan het einde van de verzameling.
+type: docs
+weight: 40
+url: /nl/aspose.slides/islidecollection/addfromhtml/
+---
+## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
+
+Maakt dia's van HTML-tekst en voegt ze toe aan het einde van de verzameling.
+
+```csharp
+public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver, string uri)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlText | String | Html om toe te voegen. |
+| resolver | IExternalResourceResolver | Een callback-object dat wordt gebruikt om externe objecten op te halen. Als deze parameter null is, worden alle externe objecten genegeerd. |
+| uri | String | Een URI van de opgegeven HTML. Wordt gebruikt om relatieve koppelingen op te lossen. |
+
+### Retourwaarde
+
+Toegevoegde dia's.
+
+### Zie ook
+
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(string) {#addfromhtml_4}
+
+Maakt dia's van HTML-tekst en voegt ze toe aan het einde van de verzameling.
+
+```csharp
+public ISlide[] AddFromHtml(string htmlText)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlText | String | Html om toe te voegen. |
+
+### Retourwaarde
+
+Toegevoegde dia's
+
+### Zie ook
+
+* interface [ISlide](../../islide)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
+
+Maakt dia's van HTML-tekst en voegt ze toe aan het einde van de verzameling.
+
+```csharp
+public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver resolver, string uri)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlReader | TextReader | TextReader-object dat wordt gebruikt als bron van een HTML-bestand. |
+| resolver | IExternalResourceResolver | Een callback-object dat wordt gebruikt om externe objecten op te halen. Als deze parameter null is, worden alle externe objecten genegeerd. |
+| uri | String | Een URI van de opgegeven HTML. Wordt gebruikt om relatieve koppelingen op te lossen. |
+
+### Retourwaarde
+
+Toegevoegde dia's.
+
+### Zie ook
+
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(TextReader) {#addfromhtml_2}
+
+Maakt dia's van HTML-tekst en voegt ze toe aan het einde van de verzameling.
+
+```csharp
+public ISlide[] AddFromHtml(TextReader htmlReader)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlReader | TextReader | TextReader-object dat wordt gebruikt als bron van een HTML-bestand. |
+
+### Retourwaarde
+
+Toegevoegde dia's
+
+### Zie ook
+
+* interface [ISlide](../../islide)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
+
+Maakt dia's van HTML-tekst en voegt ze toe aan het einde van de verzameling.
+
+```csharp
+public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolver, string uri)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlStream | Stream | Stream-object dat wordt gebruikt als bron van een HTML-bestand. |
+| resolver | IExternalResourceResolver | Een callback-object dat wordt gebruikt om externe objecten op te halen. Als deze parameter null is, worden alle externe objecten genegeerd. |
+| uri | String | Een URI van de opgegeven HTML. Wordt gebruikt om relatieve koppelingen op te lossen. |
+
+### Retourwaarde
+
+Toegevoegde dia's.
+
+### Zie ook
+
+* interface [ISlide](../../islide)
+* interface [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(Stream) {#addfromhtml}
+
+Maakt dia's van HTML-tekst en voegt ze toe aan het einde van de verzameling.
+
+```csharp
+public ISlide[] AddFromHtml(Stream htmlStream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlStream | Stream | Stream-object dat wordt gebruikt als bron van een HTML-bestand. |
+
+### Retourwaarde
+
+Toegevoegde dia's
+
+### Zie ook
+
+* interface [ISlide](../../islide)
+* interface [ISlideCollection](../../islidecollection)
+* namespace [Aspose.Slides](../../islidecollection)
+* assembly [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
