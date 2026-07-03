@@ -1,0 +1,65 @@
+---
+title: ParagraphFormat
+second_title: Aspose.Sildes برای .NET مرجع API
+description: این کلاس شامل ویژگی‌های قالب‌بندی پاراگراف است. برخلاف IParagraphFormatEffectiveData./iparagraphformateffectivedata تمام ویژگی‌های این کلاس قابل نوشتن هستند.
+type: docs
+weight: 9310
+url: /fa/aspose.slides/paragraphformat/
+---
+## کلاس ParagraphFormat
+
+این کلاس شامل ویژگی‌های قالب‌بندی پاراگراف است. برخلاف [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)، تمام ویژگی‌های این کلاس قابل نوشتن هستند.
+
+```csharp
+public sealed class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagraphFormat
+```
+
+## سازنده‌ها
+
+| نام | توضیح |
+| --- | --- |
+| [ParagraphFormat](paragraphformat)() | یک نمونه جدید از کلاس [`ParagraphFormat`](../paragraphformat) را مقداردهی اولیه می‌کند. |
+
+## ویژگی‌ها
+
+| نام | توضیح |
+| --- | --- |
+| [Alignment](../../aspose.slides/paragraphformat/alignment) { get; set; } | مقدار یا تنظیم ترازبندی متن در یک پاراگراف بدون وارثت. خواندنی/نوشتنی [`TextAlignment`](../textalignment). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | امکان دریافت رابط پایه IPresentationComponent را فراهم می‌کند. فقط-خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
+| [DefaultTabSize](../../aspose.slides/paragraphformat/defaulttabsize) { get; set; } | مقدار یا تنظیم اندازه تب‌گذاری پیش‌فرض بدون وارثت. خواندنی/نوشتنی Single. |
+| [EastAsianLineBreak](../../aspose.slides/paragraphformat/eastasianlinebreak) { get; set; } | تعیین می‌کند که آیا شکست خط آسیای شرقی در یک پاراگراف استفاده می‌شود. خواندنی/نوشتنی [`NullableBool`](../nullablebool). |
+| [FontAlignment](../../aspose.slides/paragraphformat/fontalignment) { get; set; } | مقدار یا تنظیم ترازبندی قلم در یک پاراگراف بدون وارثت. خواندنی/نوشتنی [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/paragraphformat/hangingpunctuation) { get; set; } | تعیین می‌کند که آیا نقطه‌گذاری معلق در یک پاراگراف استفاده می‌شود. خواندنی/نوشتنی [`NullableBool`](../nullablebool). |
+| [Indent](../../aspose.slides/paragraphformat/indent) { get; set; } | مقدار یا تنظیم First Line Indent/Hanging Indent پاراگراف بدون وارثت. Hanging Indent می‌تواند با مقادیر منفی تعریف شود. خواندنی/نوشتنی Single. |
+| [LatinLineBreak](../../aspose.slides/paragraphformat/latinlinebreak) { get; set; } | تعیین می‌کند که آیا شکست خط لاتین در یک پاراگراف استفاده می‌شود. خواندنی/نوشتنی [`NullableBool`](../nullablebool). |
+| [MarginLeft](../../aspose.slides/paragraphformat/marginleft) { get; set; } | مقدار یا تنظیم حاشیه چپ در یک پاراگراف بدون وارثت. خواندنی/نوشتنی Single. |
+| [MarginRight](../../aspose.slides/paragraphformat/marginright) { get; set; } | مقدار یا تنظیم حاشیه راست در یک پاراگراف بدون وارثت. خواندنی/نوشتنی Single. |
+| [RightToLeft](../../aspose.slides/paragraphformat/righttoleft) { get; set; } | تعیین می‌کند که آیا نوشتار Right to Left در یک پاراگراف استفاده می‌شود. خواندنی/نوشتنی [`NullableBool`](../nullablebool). |
+| [SpaceAfter](../../aspose.slides/paragraphformat/spaceafter) { get; set; } | مقدار یا تنظیم فضای پس از آخرین خط در یک پاراگراف بدون وارثت. مقدار مثبت درصدی از اندازه قلم را نشان می‌دهد؛ مقدار منفی اندازه فضای سفید را به نقطه مشخص می‌کند. خواندنی/نوشتنی Single. |
+| [SpaceBefore](../../aspose.slides/paragraphformat/spacebefore) { get; set; } | مقدار یا تنظیم فضای قبل از اولین خط در یک پاراگراف بدون وارثت. مقدار مثبت درصدی از اندازه قلم را نشان می‌دهد؛ مقدار منفی اندازه فضای سفید را به نقطه مشخص می‌کند. خواندنی/نوشتنی Single. |
+| [SpaceWithin](../../aspose.slides/paragraphformat/spacewithin) { get; set; } | مقدار یا تنظیم فضای بین خطوط پایه در یک پاراگراف. مقدار مثبت درصد، مقدار منفی اندازه به نقاط. خواندنی/نوشتنی Single. |
+| [Tabs](../../aspose.slides/paragraphformat/tabs) { get; } | تب‌گذاری‌های یک پاراگراف را برمی‌گرداند. فقط-خواندنی [`ITabCollection`](../itabcollection). |
+
+## متدها
+
+| نام | توضیح |
+| --- | --- |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | مقایسه با شیء مشخص شده. |
+| [GetEffective](../../aspose.slides/paragraphformat/geteffective)() | داده‌های قالب‌بندی مؤثر پاراگراف را با اعمال وارثت دریافت می‌کند. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | کد هش را برمی‌گرداند. |
+
+### توضیحات
+
+این کلاس برای برگرداندن و دست‌کاری ویژگی‌های قالب‌بندی پاراگراف تعریف‌شده برای پاراگراف خاص استفاده می‌شود. این به این معنی است که هنگام دریافت مقادیر، هیچ وارثتی اعمال نمی‌شود، بنابراین در اکثر موارد مقادیری به‌دست می‌آورید که به‌معنی «تعریف‌نشده» هستند.
+
+برای دریافت مقادیر پارامترهای قالب‌بندی مؤثر شامل وارثت‌شده، باید از متد [`GetEffective`](./geteffective) استفاده کنید که یک نمونه [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) برمی‌گرداند.
+
+### موارد مرتبط
+
+* کلاس [PVIObject](../pviobject)
+* رابط [IChartParagraphFormat](../../aspose.slides.charts/ichartparagraphformat)
+* رابط [IParagraphFormat](../iparagraphformat)
+* فضای نام [Aspose.Slides](../../aspose.slides)
+* مجمع [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
