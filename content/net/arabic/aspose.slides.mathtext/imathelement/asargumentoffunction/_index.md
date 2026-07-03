@@ -1,0 +1,191 @@
+---
+title: AsArgumentOfFunction
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يأخذ الدالة المحددة باستخدام هذه المثيلة كمعامل
+type: docs
+weight: 20
+url: /ar/aspose.slides.mathtext/imathelement/asargumentoffunction/
+---
+## AsArgumentOfFunction(IMathElement) {#asargumentoffunction}
+
+يأخذ الدالة المحددة باستخدام هذه المثيلة كمعامل
+
+```csharp
+public IMathFunction AsArgumentOfFunction(IMathElement functionName)
+```
+
+| معاملة | نوع | وصف |
+| --- | --- | --- |
+| functionName | IMathElement | اسم الدالة |
+
+### قيمة الإرجاع
+
+عنصر رياضي جديد من النوع [`IMathFunction`](../../imathfunction)
+
+### أمثلة
+
+مثال:
+
+```csharp
+[C#]
+IMathElement functionName = new MathematicalText("sin");
+IMathElement functionArg = new MathematicalText("x");
+IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
+```
+
+### انظر أيضًا
+
+* واجهة [IMathFunction](../../imathfunction)
+* واجهة [IMathElement](../../imathelement)
+* مساحة الاسم [Aspose.Slides.MathText](../../imathelement)
+* تجميع [Aspose.Slides](../../../)
+
+---
+
+## AsArgumentOfFunction(string) {#asargumentoffunction_4}
+
+يأخذ الدالة المحددة باستخدام هذه المثيلة كمعامل
+
+```csharp
+public IMathFunction AsArgumentOfFunction(string functionName)
+```
+
+| معاملة | نوع | وصف |
+| --- | --- | --- |
+| functionName | String | اسم الدالة |
+
+### قيمة الإرجاع
+
+عنصر رياضي جديد من النوع [`IMathFunction`](../../imathfunction)
+
+### أمثلة
+
+مثال:
+
+```csharp
+[C#]
+IMathElement functionArg = new MathematicalText("x");
+IMathFunction func = functionArg.AsArgumentOfFunction("cos");
+```
+
+### انظر أيضًا
+
+* واجهة [IMathFunction](../../imathfunction)
+* واجهة [IMathElement](../../imathelement)
+* مساحة الاسم [Aspose.Slides.MathText](../../imathelement)
+* تجميع [Aspose.Slides](../../../)
+
+---
+
+## AsArgumentOfFunction(MathFunctionsOfOneArgument) {#asargumentoffunction_1}
+
+يأخذ الدالة المحددة باستخدام هذه المثيلة كمعامل
+
+```csharp
+public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionType)
+```
+
+| معاملة | نوع | وصف |
+| --- | --- | --- |
+| functionType | MathFunctionsOfOneArgument | أحد أنواع الدوال الشائعة ذات معامل واحد |
+
+### قيمة الإرجاع
+
+عنصر رياضي جديد من النوع [`IMathFunction`](../../imathfunction)
+
+### أمثلة
+
+مثال:
+
+```csharp
+[C#]
+IMathElement functionArg = new MathematicalText("x");
+IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfOneArgument.ArcSin);
+```
+
+### انظر أيضًا
+
+* واجهة [IMathFunction](../../imathfunction)
+* تعداد [MathFunctionsOfOneArgument](../../mathfunctionsofoneargument)
+* واجهة [IMathElement](../../imathelement)
+* مساحة الاسم [Aspose.Slides.MathText](../../imathelement)
+* تجميع [Aspose.Slides](../../../)
+
+---
+
+## AsArgumentOfFunction(MathFunctionsOfTwoArguments, IMathElement) {#asargumentoffunction_2}
+
+يأخذ الدالة المحددة باستخدام هذه المثيلة كمعامل ويضيف المعامل الإضافي المحدد
+
+```csharp
+public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
+    IMathElement additionalArgument)
+```
+
+| معاملة | نوع | وصف |
+| --- | --- | --- |
+| functionType | MathFunctionsOfTwoArguments | أحد أنواع الدوال الشائعة ذات معاملين: Log, Lim, Min, Max |
+| additionalArgument | IMathElement | المعامل الإضافي حسب نوع الدالة |
+
+### قيمة الإرجاع
+
+عنصر رياضي جديد من النوع [`IMathFunction`](../../imathfunction)
+
+### أمثلة
+
+مثال:
+
+```csharp
+[C#]
+IMathElement functionArg = new MathematicalText("x");
+IMathElement logarithmBase = new MathematicalText("5");
+IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, logarithmBase); // يُعيد لوغاريتم 'x' إلى القاعدة '5'
+```
+
+### انظر أيضًا
+
+* واجهة [IMathFunction](../../imathfunction)
+* تعداد [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments)
+* واجهة [IMathElement](../../imathelement)
+* مساحة الاسم [Aspose.Slides.MathText](../../imathelement)
+* تجميع [Aspose.Slides](../../../)
+
+---
+
+## AsArgumentOfFunction(MathFunctionsOfTwoArguments, string) {#asargumentoffunction_3}
+
+يأخذ الدالة المحددة باستخدام هذه المثيلة كمعامل ويضيف المعامل الإضافي المحدد
+
+```csharp
+public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionType, 
+    string additionalArgument)
+```
+
+| معاملة | نوع | وصف |
+| --- | --- | --- |
+| functionType | MathFunctionsOfTwoArguments | أحد أنواع الدوال الشائعة ذات معاملين: Log, Lim, Min, Max |
+| additionalArgument | String | المعامل الإضافي حسب نوع الدالة |
+
+### قيمة الإرجاع
+
+عنصر رياضي جديد من النوع [`IMathFunction`](../../imathfunction)
+
+### أمثلة
+
+مثال:
+
+```csharp
+[C#]
+IMathElement functionArg = new MathematicalText("x");
+IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, "5"); // يُعيد لوغاريتم 'x' إلى القاعدة '5'
+```
+
+### انظر أيضًا
+
+* واجهة [IMathFunction](../../imathfunction)
+* تعداد [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments)
+* واجهة [IMathElement](../../imathelement)
+* مساحة الاسم [Aspose.Slides.MathText](../../imathelement)
+* تجميع [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
