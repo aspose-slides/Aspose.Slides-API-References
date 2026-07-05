@@ -1,0 +1,91 @@
+---
+title: ChartDataPointCollection
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: เป็นตัวแทนของคอลเลกชันของจุดข้อมูลซีรีส์
+type: docs
+weight: 1340
+url: /th/aspose.slides.charts/chartdatapointcollection/
+---
+## ChartDataPointCollection คลาส
+
+เป็นตัวแทนของคอลเลกชันของจุดข้อมูลของซีรีส์
+
+```csharp
+public class ChartDataPointCollection : DomObject<ChartSeries>, IChartDataPointCollection
+```
+
+## คุณสมบัติ
+
+| Name | Description |
+| --- | --- |
+| [Count](../../aspose.slides.charts/chartdatapointcollection/count) { get; } | ดึงจำนวนของสมาชิกที่แท้จริงที่มีอยู่ในคอลเลกชัน อ่านอย่างเดียว Int32. |
+| [DataSourceTypeForBubbleSizes](../../aspose.slides.charts/chartdatapointcollection/datasourcetypeforbubblesizes) { get; set; } | ระบุว่า AsCell หรือ AsLiteralString หรือ AsLiteralDouble เป็นค่าที่ใช้งานได้ในอ็อบเจกต์ BubbleSize ของจุดข้อมูล ในคำอื่นหมายถึงการกำหนดประเภทของค่าของ ChartDataPoint.BubbleSize.Data อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForErrorBarsCustomValues](../../aspose.slides.charts/chartdatapointcollection/datasourcetypeforerrorbarscustomvalues) { get; } | ระบุประเภทของค่าภายในรายการ property ChartDataPoint.ErrorBarsCustomValues อ่านอย่างเดียว [`IDataSourceTypeForErrorBarsCustomValues`](../idatasourcetypeforerrorbarscustomvalues). |
+| [DataSourceTypeForValues](../../aspose.slides.charts/chartdatapointcollection/datasourcetypeforvalues) { get; set; } | ระบุว่า AsCell หรือ AsLiteralString หรือ AsLiteralDouble เป็นค่าที่ใช้งานได้ในอ็อบเจกต์ Value ของจุดข้อมูล ในคำอื่นหมายถึงการกำหนดประเภทของค่าของ ChartDataPoint.Value.Data อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXValues](../../aspose.slides.charts/chartdatapointcollection/datasourcetypeforxvalues) { get; set; } | ระบุว่า AsCell หรือ AsLiteralString หรือ AsLiteralDouble เป็นค่าที่ใช้งานได้ในอ็อบเจกต์ XValue ของจุดข้อมูล ในคำอื่นหมายถึงการกำหนดประเภทของค่าของ ChartDataPoint.XValue.Data อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYValues](../../aspose.slides.charts/chartdatapointcollection/datasourcetypeforyvalues) { get; set; } | ระบุว่า AsCell หรือ AsLiteralString หรือ AsLiteralDouble เป็นค่าที่ใช้งานได้ในอ็อบเจกต์ YValue ของจุดข้อมูล ในคำอื่นหมายถึงการกำหนดประเภทของค่าของ ChartDataPoint.YValue.Data อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
+| [IsSynchronized](../../aspose.slides.charts/chartdatapointcollection/issynchronized) { get; } | คืนค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันนั้นถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด) อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides.charts/chartdatapointcollection/item) { get; } | คืนค่าจุดข้อมูลของซีรีส์ตามดัชนี (เลขลำดับของมันในคอลเลกชันนี้) (2 ตัวดัชนี) |
+| [SyncRoot](../../aspose.slides.charts/chartdatapointcollection/syncroot) { get; } | คืนค่ารากของการซิงโครไนซ์ อ่านอย่างเดียว Object. |
+
+## เมธอด
+
+| Name | Description |
+| --- | --- |
+| [AddDataPointForAreaSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforareaseries#adddatapointforareaseries_1)(double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Area (ดูวิธีการ [`IsChartTypeArea`](../charttypecharacterizer/ischarttypearea)) |
+| [AddDataPointForAreaSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforareaseries#adddatapointforareaseries)(IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Area (ดูวิธีการ [`IsChartTypeArea`](../charttypecharacterizer/ischarttypearea)) |
+| [AddDataPointForBarSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforbarseries#adddatapointforbarseries_1)(double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Column หรือ Bar (ดูวิธีการ [`IsChartTypeColumn`](../charttypecharacterizer/ischarttypecolumn) และ [`IsChartTypeBar`](../charttypecharacterizer/ischarttypebar)) |
+| [AddDataPointForBarSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforbarseries#adddatapointforbarseries)(IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Column หรือ Bar (ดูวิธีการ [`IsChartTypeColumn`](../charttypecharacterizer/ischarttypecolumn) และ [`IsChartTypeBar`](../charttypecharacterizer/ischarttypebar)) |
+| [AddDataPointForBoxAndWhiskerSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforboxandwhiskerseries)(IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chart type เป็น BoxAndWhisker |
+| [AddDataPointForBubbleSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforbubbleseries#adddatapointforbubbleseries_7)(double, double, double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Bubble (ดูวิธีการ [`IsChartTypeBubble`](../charttypecharacterizer/ischarttypebubble)) |
+| [AddDataPointForBubbleSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforbubbleseries#adddatapointforbubbleseries_6)(double, double, IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Bubble (ดูวิธีการ [`IsChartTypeBubble`](../charttypecharacterizer/ischarttypebubble)) |
+| [AddDataPointForBubbleSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforbubbleseries#adddatapointforbubbleseries_5)(double, IChartDataCell, double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Bubble (ดูวิธีการ [`IsChartTypeBubble`](../charttypecharacterizer/ischarttypebubble)) |
+| [AddDataPointForBubbleSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforbubbleseries#adddatapointforbubbleseries_4)(double, IChartDataCell, IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Bubble (ดูวิธีการ [`IsChartTypeBubble`](../charttypecharacterizer/ischarttypebubble)) |
+| [AddDataPointForBubbleSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforbubbleseries#adddatapointforbubbleseries_3)(IChartDataCell, double, double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Bubble (ดูวิธีการ [`IsChartTypeBubble`](../charttypecharacterizer/ischarttypebubble)) |
+| [AddDataPointForBubbleSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforbubbleseries#adddatapointforbubbleseries_2)(IChartDataCell, double, IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Bubble (ดูวิธีการ [`IsChartTypeBubble`](../charttypecharacterizer/ischarttypebubble)) |
+| [AddDataPointForBubbleSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforbubbleseries#adddatapointforbubbleseries_1)(IChartDataCell, IChartDataCell, double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Bubble (ดูวิธีการ [`IsChartTypeBubble`](../charttypecharacterizer/ischarttypebubble)) |
+| [AddDataPointForBubbleSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforbubbleseries#adddatapointforbubbleseries)(IChartDataCell, IChartDataCell, IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Bubble (ดูวิธีการ [`IsChartTypeBubble`](../charttypecharacterizer/ischarttypebubble)) |
+| [AddDataPointForBubbleSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforbubbleseries#adddatapointforbubbleseries_11)(string, double, double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Bubble (ดูวิธีการ [`IsChartTypeBubble`](../charttypecharacterizer/ischarttypebubble)) |
+| [AddDataPointForBubbleSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforbubbleseries#adddatapointforbubbleseries_10)(string, double, IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Bubble (ดูวิธีการ [`IsChartTypeBubble`](../charttypecharacterizer/ischarttypebubble)) |
+| [AddDataPointForBubbleSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforbubbleseries#adddatapointforbubbleseries_9)(string, IChartDataCell, double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Bubble (ดูวิธีการ [`IsChartTypeBubble`](../charttypecharacterizer/ischarttypebubble)) |
+| [AddDataPointForBubbleSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforbubbleseries#adddatapointforbubbleseries_8)(string, IChartDataCell, IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Bubble (ดูวิธีการ [`IsChartTypeBubble`](../charttypecharacterizer/ischarttypebubble)) |
+| [AddDataPointForDoughnutSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointfordoughnutseries#adddatapointfordoughnutseries_1)(double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Doughnut (ดูวิธีการ [`IsChartTypeDoughnut`](../charttypecharacterizer/ischarttypedoughnut)) |
+| [AddDataPointForDoughnutSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointfordoughnutseries#adddatapointfordoughnutseries)(IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Doughnut (ดูวิธีการ [`IsChartTypeDoughnut`](../charttypecharacterizer/ischarttypedoughnut)) |
+| [AddDataPointForFunnelSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforfunnelseries)(IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chart type เป็น Funnel |
+| [AddDataPointForHistogramSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforhistogramseries)(IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chart type เป็น Histogram |
+| [AddDataPointForLineSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforlineseries#adddatapointforlineseries_1)(double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Line (ดูวิธีการ [`IsChartTypeLine`](../charttypecharacterizer/ischarttypeline)) |
+| [AddDataPointForLineSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforlineseries#adddatapointforlineseries)(IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Line (ดูวิธีการ [`IsChartTypeLine`](../charttypecharacterizer/ischarttypeline)) |
+| [AddDataPointForMapSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointformapseries)(IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chart type เป็น Map |
+| [AddDataPointForPieSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforpieseries#adddatapointforpieseries_1)(double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Pie (ดูวิธีการ [`IsChartTypePie`](../charttypecharacterizer/ischarttypepie)) |
+| [AddDataPointForPieSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforpieseries#adddatapointforpieseries)(IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Pie (ดูวิธีการ [`IsChartTypePie`](../charttypecharacterizer/ischarttypepie)) |
+| [AddDataPointForRadarSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforradarseries#adddatapointforradarseries_1)(double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Radar (ดูวิธีการ [`IsChartTypeRadar`](../charttypecharacterizer/ischarttyperadar)) |
+| [AddDataPointForRadarSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforradarseries#adddatapointforradarseries)(IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Radar (ดูวิธีการ [`IsChartTypeRadar`](../charttypecharacterizer/ischarttyperadar)) |
+| [AddDataPointForScatterSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforscatterseries#adddatapointforscatterseries_3)(double, double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Scatter (ดูวิธีการ [`IsChartTypeScatter`](../charttypecharacterizer/ischarttypescatter)) |
+| [AddDataPointForScatterSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforscatterseries#adddatapointforscatterseries_2)(double, IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Scatter (ดูวิธีการ [`IsChartTypeScatter`](../charttypecharacterizer/ischarttypescatter)) |
+| [AddDataPointForScatterSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforscatterseries#adddatapointforscatterseries_1)(IChartDataCell, double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Scatter (ดูวิธีการ [`IsChartTypeScatter`](../charttypecharacterizer/ischarttypescatter)) |
+| [AddDataPointForScatterSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforscatterseries#adddatapointforscatterseries)(IChartDataCell, IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Scatter (ดูวิธีการ [`IsChartTypeScatter`](../charttypecharacterizer/ischarttypescatter)) |
+| [AddDataPointForScatterSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforscatterseries#adddatapointforscatterseries_5)(string, double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Scatter (ดูวิธีการ [`IsChartTypeScatter`](../charttypecharacterizer/ischarttypescatter)) |
+| [AddDataPointForScatterSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforscatterseries#adddatapointforscatterseries_4)(string, IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Scatter (ดูวิธีการ [`IsChartTypeScatter`](../charttypecharacterizer/ischarttypescatter)) |
+| [AddDataPointForStockSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforstockseries#adddatapointforstockseries_1)(double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Stock (ดูวิธีการ [`IsChartTypeStock`](../charttypecharacterizer/ischarttypestock)) |
+| [AddDataPointForStockSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforstockseries#adddatapointforstockseries)(IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Stock (ดูวิธีการ [`IsChartTypeStock`](../charttypecharacterizer/ischarttypestock)) |
+| [AddDataPointForSunburstSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforsunburstseries)(IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chart type เป็น Sunburst |
+| [AddDataPointForSurfaceSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforsurfaceseries#adddatapointforsurfaceseries_1)(double) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Surface (ดูวิธีการ [`IsChartTypeSurface`](../charttypecharacterizer/ischarttypesurface)) |
+| [AddDataPointForSurfaceSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforsurfaceseries#adddatapointforsurfaceseries)(IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chartType เป็นหนึ่งในประเภทย่อยของ Surface (ดูวิธีการ [`IsChartTypeSurface`](../charttypecharacterizer/ischarttypesurface)) |
+| [AddDataPointForTreemapSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointfortreemapseries)(IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chart type เป็น Treemap |
+| [AddDataPointForWaterfallSeries](../../aspose.slides.charts/chartdatapointcollection/adddatapointforwaterfallseries)(IChartDataCell) | สร้างจุดข้อมูลใหม่และเพิ่มลงในท้ายของคอลเลกชัน ใช้ได้กับซีรีส์ที่ chart type เป็น Waterfall |
+| [Clear](../../aspose.slides.charts/chartdatapointcollection/clear)() | ลบสมาชิกทั้งหมดจากคอลเลกชัน |
+| [CopyTo](../../aspose.slides.charts/chartdatapointcollection/copyto)(Array, int) | คัดลอกไปยังอาเรย์ที่ระบุ |
+| [GetEnumerator](../../aspose.slides.charts/chartdatapointcollection/getenumerator)() | คืนค่า enumerator ที่วนผ่านคอลเลกชัน |
+| [GetOrCreateDataPointByIdx](../../aspose.slides.charts/chartdatapointcollection/getorcreatedatapointbyidx)(uint) | หากคอลเลกชันมีจุดข้อมูลที่มีดัชนี *index* แล้วจะคืนจุดข้อมูลนั้น หากไม่มีจุดข้อมูลที่ดัชนี *index*==N (เมื่อจำนวนจุดข้อมูลในคอลเลกชันน้อยกว่าหรือเท่ากับ N) จะเพิ่มจุดข้อมูลที่ขาดและคืนจุดข้อมูลสุดท้าย (ที่มีดัชนีที่ร้องขอ) ตัวอย่างเช่น ดัชนีคอลเลกชันคือ {0, 1, 2} และดัชนีที่ร้องขอคือ 5 จะเพิ่มจุดข้อมูลที่ขาด: {0, 1, 2, 3, 4, 5} และคืนจุดข้อมูลที่ดัชนี 5 |
+| [Remove](../../aspose.slides.charts/chartdatapointcollection/remove)(IChartDataPoint) | ลบค่าที่ระบุ |
+| [RemoveAt](../../aspose.slides.charts/chartdatapointcollection/removeat)(int) | ลบสมาชิกที่ตำแหน่งดัชนีที่ระบุ |
+
+### ดูเพิ่มเติม
+
+* คลาส [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* คลาส [ChartSeries](../chartseries)
+* อินเตอร์เฟซ [IChartDataPointCollection](../ichartdatapointcollection)
+* เนมสเปซ [Aspose.Slides.Charts](../../aspose.slides.charts)
+* แอสเซ็มบลี [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
