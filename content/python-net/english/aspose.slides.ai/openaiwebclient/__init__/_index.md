@@ -9,7 +9,7 @@ weight: 10
 
 
 ## __init__ {#str-str-str}
-Creates instance of OpenAI Web client.
+Creates an instance of the OpenAI web client.
 
 
 ```python
@@ -21,15 +21,15 @@ def __init__(self, model, api_key, organization_id):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | model | **str** | OpenAI language model. Possible values:<br/><br/>              - gpt-4o<br/><br/>              - gpt-4o-mini<br/><br/>              - o1<br/><br/>              - o1-mini<br/><br/>              - o3<br/><br/>              - o3-mini |
-| api_key | **str** | OpenAI API key |
-| organization_id | **str** | Organization ID (optional) |
+| api_key | **str** | OpenAI API key. |
+| organization_id | **str** | Organization ID (optional). |
 
 ### Exceptions
 
 | Exception | Description |
 | :- | :- |
-| **RuntimeError(Proxy error(ArgumentException))** | API key value can't be None or empty |
-| **RuntimeError(Proxy error(ArgumentException))** | Text model value can't be None or empty |
+| **RuntimeError(Proxy error(ArgumentException))** | API key value can't be None or empty. |
+| **RuntimeError(Proxy error(ArgumentException))** | Text model value can't be None or empty. |
 
 
 
