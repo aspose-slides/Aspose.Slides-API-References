@@ -1,0 +1,59 @@
+---
+title: LayoutSlide
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: تمثل شريحة تخطيط.
+type: docs
+weight: 7640
+url: /ar/aspose.slides/layoutslide/
+---
+## LayoutSlide فئة
+
+تمثل شريحة تخطيط.
+
+```csharp
+public sealed class LayoutSlide : BaseSlide, ILayoutSlide
+```
+
+## الخصائص
+
+| الاسم | الوصف |
+| --- | --- |
+| [Background](../../aspose.slides/baseslide/background) { get; } | يعيد خلفية الشريحة. للقراءة فقط [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | يعيد مجموعة عناصر تحكم ActiveX على الشريحة. للقراءة فقط [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | يعيد البيانات المخصصة للشريحة. للقراءة فقط [`ICustomData`](../icustomdata). |
+| [DrawingGuides](../../aspose.slides/layoutslide/drawingguides) { get; } | يعيد مجموعة من أدلة الرسم لشريحة التخطيط. للقراءة فقط [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/layoutslide/hasdependingslides) { get; } | يعيد true إذا كان هناك شريحة واحدة على الأقل تعتمد على هذه الشريحة التخطيطية. للقراءة فقط Boolean. |
+| [HeaderFooterManager](../../aspose.slides/layoutslide/headerfootermanager) { get; } | يعيد مدير HeaderFooter لشريحة التخطيط. للقراءة فقط [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | يوفر وصولًا سهلاً إلى الروابط التشعبية المتضمنة. للقراءة فقط [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [LayoutType](../../aspose.slides/layoutslide/layouttype) { get; } | يعيد نوع التخطيط لهذه الشريحة التخطيطية. للقراءة فقط [`SlideLayoutType`](../slidelayouttype). |
+| [MasterSlide](../../aspose.slides/layoutslide/masterslide) { get; set; } | يعيد أو يضبط شريحة القالب لتخطيط. قراءة/كتابة [`IMasterSlide`](../imasterslide). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | يعيد أو يضبط اسم الشريحة. قراءة/كتابة String. |
+| [PlaceholderManager](../../aspose.slides/layoutslide/placeholdermanager) { get; } | يعيد مدير العنصر النائب لشريحة التخطيط. للقراءة فقط [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | يعيد واجهة IPresentation. للقراءة فقط [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | يعيد أشكال الشريحة. للقراءة فقط [`IShapeCollection`](../ishapecollection). |
+| override [ShowMasterShapes](../../aspose.slides/layoutslide/showmastershapes) { get; set; } | يحدد ما إذا كان يجب إظهار الأشكال على شريحة القالب على الشرائح أم لا. قراءة/كتابة Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | يعيد معرف الشريحة. للقراءة فقط UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | يعيد كائن Transition الذي يحتوي على معلومات حول كيفية تقدم الشريحة المحددة أثناء عرض الشرائح. للقراءة فقط [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/layoutslide/thememanager) { get; } | يعيد مدير السمة المتجاوزة. للقراءة فقط [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | يعيد كائن مخطط الزمن للرسوم المتحركة. للقراءة فقط [`IAnimationTimeLine`](../ianimationtimeline). |
+
+## الطرق
+
+| الاسم | الوصف |
+| --- | --- |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | يعيد سمة فعّالة لهذه الشريحة. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | يحدد ما إذا كان مثالاى IBaseSlide الاثنين متساويين. يتم حساب القيمة المرجعة بناءً على بنية الشريحة والمحتوى الثابت. تكون الشريحتان متساويتين إذا كانت جميع الأشكال والأنماط والنصوص والرسوم المتحركة والإعدادات الأخرى، وما إلى ذلك، متساوية. لا يأخذ المقارنة في الاعتبار قيم المعرف الفريدة، مثل SlideId، أو المحتوى الديناميكي، مثل قيمة التاريخ الحالية في Date Placeholder. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | يبحث عن أول حدوث لشكل يحمل النص البديل المحدد. |
+| [GetDependingSlides](../../aspose.slides/layoutslide/getdependingslides)() | يعيد مصفوفة تحتوي على جميع الشرائح التي تعتمد على هذه الشريحة التخطيطية. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | ينضم إلى النصوص المتسلسلة ذات التنسيق نفسه في جميع الفقرات وجميع الأشكال المقبولة. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | ينضم إلى النصوص المتسلسلة ذات التنسيق نفسه في جميع الفقرات في جميع الأشكال المقبولة. |
+| [Remove](../../aspose.slides/layoutslide/remove)() | يزيل التخطيط من العرض التقديمي. |
+
+### انظر أيضًا
+
+* فئة [BaseSlide](../baseslide)
+* واجهة [ILayoutSlide](../ilayoutslide)
+* مساحة الاسم [Aspose.Slides](../../aspose.slides)
+* تجميع [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

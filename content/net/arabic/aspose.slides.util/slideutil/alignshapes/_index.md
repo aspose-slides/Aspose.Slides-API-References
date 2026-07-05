@@ -1,0 +1,165 @@
+---
+title: AlignShapes
+second_title: Aspose.Sildes لـ .NET – مرجع API
+description: يغيّر موضع جميع الأشكال على الشريحة. ينسّق الأشكال إلى الهوامش أو حافة الشريحة أو ينسّقها بالنسبة إلى بعضها البعض.
+type: docs
+weight: 10
+url: /ar/aspose.slides.util/slideutil/alignshapes/
+---
+## AlignShapes(ShapesAlignmentType, bool, IBaseSlide) {#alignshapes}
+
+يغيّر موضع جميع الأشكال على الشريحة. ينسّق الأشكال إلى الهوامش أو حافة الشريحة أو ينسّقها بالنسبة إلى بعضها البعض.
+
+```csharp
+public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
+    IBaseSlide slide)
+```
+
+| المعامل | النوع | الوصف |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | يحدد أي نوع من المحاذاة سيتم تطبيقه. |
+| alignToSlide | Boolean | إذا كانت true، سيتم محاذاة الأشكال بالنسبة إلى حواف الشريحة. |
+| slide | IBaseSlide | الشريحة الأصل. |
+
+### أمثلة
+
+مثال:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   SlideUtil.AlignShapes(ShapesAlignmentType.AlignBottom, true, pres.Slides);
+}
+```
+
+### انظر أيضًا
+
+* تعداد [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
+* واجهة [IBaseSlide](../../../aspose.slides/ibaseslide)
+* فئة [SlideUtil](../../slideutil)
+* فضاء الاسم [Aspose.Slides.Util](../../slideutil)
+* تجميع [Aspose.Slides](../../../)
+
+---
+
+## AlignShapes(ShapesAlignmentType, bool, IBaseSlide, int[]) {#alignshapes_1}
+
+يغيّر موضع الأشكال المحددة على الشريحة. ينسّق الأشكال إلى الهوامش أو حافة الشريحة أو ينسّقها بالنسبة إلى بعضها البعض.
+
+```csharp
+public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
+    IBaseSlide slide, int[] shapeIndexes)
+```
+
+| المعامل | النوع | الوصف |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | يحدد أي نوع من المحاذاة سيتم تطبيقه. |
+| alignToSlide | Boolean | إذا كانت true، سيتم محاذاة الأشكال بالنسبة إلى حواف الشريحة. |
+| slide | IBaseSlide | الشريحة الأصل. |
+| shapeIndexes | Int32[] | مؤشرات الأشكال التي سيتم محاذاتها. |
+
+### أمثلة
+
+مثال:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   ISlide slide = pres.Slides[0];
+   IShape shape1 = slide.Shapes[0];
+   IShape shape2 = slide.Shapes[1]; 
+
+   SlideUtil.AlignShapes(ShapesAlignmentType.AlignBottom, false, pres.Slides[0], new int[]
+   {
+      slide.Shapes.IndexOf(shape1),
+      slide.Shapes.IndexOf(shape2)
+   });
+}
+```
+
+### انظر أيضًا
+
+* تعداد [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
+* واجهة [IBaseSlide](../../../aspose.slides/ibaseslide)
+* فئة [SlideUtil](../../slideutil)
+* فضاء الاسم [Aspose.Slides.Util](../../slideutil)
+* تجميع [Aspose.Slides](../../../)
+
+---
+
+## AlignShapes(ShapesAlignmentType, bool, IGroupShape) {#alignshapes_2}
+
+يغيّر موضع جميع الأشكال داخل الشكل المجمع. ينسّق الأشكال إلى الهوامش أو حافة الشريحة أو ينسّقها بالنسبة إلى بعضها البعض.
+
+```csharp
+public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
+    IGroupShape groupShape)
+```
+
+| المعامل | النوع | الوصف |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | يحدد أي نوع من المحاذاة سيتم تطبيقه. |
+| alignToSlide | Boolean | إذا كانت true، سيتم محاذاة الأشكال بالنسبة إلى حواف الشريحة. |
+| groupShape | IGroupShape | الشكل المجمع الأصل. |
+
+### أمثلة
+
+مثال:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, (GroupShape)slide.Shapes[0]);
+}
+```
+
+### انظر أيضًا
+
+* تعداد [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
+* واجهة [IGroupShape](../../../aspose.slides/igroupshape)
+* فئة [SlideUtil](../../slideutil)
+* فضاء الاسم [Aspose.Slides.Util](../../slideutil)
+* تجميع [Aspose.Slides](../../../)
+
+---
+
+## AlignShapes(ShapesAlignmentType, bool, IGroupShape, int[]) {#alignshapes_3}
+
+يغيّر موضع الأشكال المحددة داخل الشكل المجمع. ينسّق الأشكال إلى الهوامش أو حافة الشريحة أو ينسّقها بالنسبة إلى بعضها البعض.
+
+```csharp
+public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
+    IGroupShape groupShape, int[] shapeIndexes)
+```
+
+| المعامل | النوع | الوصف |
+| --- | --- | --- |
+| alignmentType | ShapesAlignmentType | يحدد أي نوع من المحاذاة سيتم تطبيقه. |
+| alignToSlide | Boolean | إذا كانت true، سيتم محاذاة الأشكال بالنسبة إلى حواف الشريحة. |
+| groupShape | IGroupShape | الشكل المجمع الأصل. |
+| shapeIndexes | Int32[] | مؤشرات الأشكال التي سيتم محاذاتها. |
+
+### أمثلة
+
+مثال:
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, (GroupShape)slide.Shapes[0], new int[] { 0, 2 });
+}
+```
+
+### انظر أيضًا
+
+* تعداد [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype)
+* واجهة [IGroupShape](../../../aspose.slides/igroupshape)
+* فئة [SlideUtil](../../slideutil)
+* فضاء الاسم [Aspose.Slides.Util](../../slideutil)
+* تجميع [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
