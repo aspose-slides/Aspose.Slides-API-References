@@ -1,0 +1,166 @@
+---
+title: AddFromHtml
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: HTML टेक्स्ट से स्लाइड बनाता है और उन्हें संग्रह के अंत में जोड़ता है।
+type: docs
+weight: 40
+url: /hi/aspose.slides/islidecollection/addfromhtml/
+---
+## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
+
+HTML टेक्स्ट से स्लाइड बनाता है और उन्हें संग्रह के अंत में जोड़ता है।
+
+```csharp
+public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver, string uri)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| htmlText | String | जोड़ने के लिये Html। |
+| resolver | IExternalResourceResolver | बाहरी वस्तुओं को प्राप्त करने के लिये उपयोग किया जाने वाला कॉलबैक ऑब्जेक्ट। यदि यह पैरामीटर null है तो सभी बाहरी वस्तुओं को अनदेखा किया जाएगा। |
+| uri | String | निर्दिष्ट HTML का URI। सापेक्ष लिंक को हल करने के लिये उपयोग किया जाता है। |
+
+### रिटर्न मान
+
+जोड़ी गई स्लाइड्स।
+
+### संबंधित देखें
+
+* इंटरफ़ेस [ISlide](../../islide)
+* इंटरफ़ेस [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* इंटरफ़ेस [ISlideCollection](../../islidecollection)
+* नेमस्पेस [Aspose.Slides](../../islidecollection)
+* असेंबली [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(string) {#addfromhtml_4}
+
+HTML टेक्स्ट से स्लाइड बनाता है और उन्हें संग्रह के अंत में जोड़ता है।
+
+```csharp
+public ISlide[] AddFromHtml(string htmlText)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| htmlText | String | जोड़ने के लिये Html। |
+
+### रिटर्न मान
+
+जोड़ी गई स्लाइड्स
+
+### संबंधित देखें
+
+* इंटरफ़ेस [ISlide](../../islide)
+* इंटरफ़ेस [ISlideCollection](../../islidecollection)
+* नेमस्पेस [Aspose.Slides](../../islidecollection)
+* असेंबली [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
+
+HTML टेक्स्ट से स्लाइड बनाता है और उन्हें संग्रह के अंत में जोड़ता है।
+
+```csharp
+public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver resolver, string uri)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| htmlReader | TextReader | वह TextReader ऑब्जेक्ट जो HTML फाइल के स्रोत के रूप में उपयोग किया जाएगा। |
+| resolver | IExternalResourceResolver | बाहरी वस्तुओं को प्राप्त करने के लिये उपयोग किया जाने वाला कॉलबैक ऑब्जेक्ट। यदि यह पैरामीटर null है तो सभी बाहरी वस्तुओं को अनदेखा किया जाएगा। |
+| uri | String | निर्दिष्ट HTML का URI। सापेक्ष लिंक को हल करने के लिये उपयोग किया जाता है। |
+
+### रिटर्न मान
+
+जोड़ी गई स्लाइड्स।
+
+### संबंधित देखें
+
+* इंटरफ़ेस [ISlide](../../islide)
+* इंटरफ़ेस [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* इंटरफ़ेस [ISlideCollection](../../islidecollection)
+* नेमस्पेस [Aspose.Slides](../../islidecollection)
+* असेंबली [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(TextReader) {#addfromhtml_2}
+
+HTML टेक्स्ट से स्लाइड बनाता है और उन्हें संग्रह के अंत में जोड़ता है।
+
+```csharp
+public ISlide[] AddFromHtml(TextReader htmlReader)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| htmlReader | TextReader | वह TextReader ऑब्जेक्ट जो HTML फाइल के स्रोत के रूप में उपयोग किया जाएगा। |
+
+### रिटर्न मान
+
+जोड़ी गई स्लाइड्स
+
+### संबंधित देखें
+
+* इंटरफ़ेस [ISlide](../../islide)
+* इंटरफ़ेस [ISlideCollection](../../islidecollection)
+* नेमस्पेस [Aspose.Slides](../../islidecollection)
+* असेंबली [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
+
+HTML टेक्स्ट से स्लाइड बनाता है और उन्हें संग्रह के अंत में जोड़ता है।
+
+```csharp
+public ISlide[] AddFromHtml(Stream htmlStream, IExternalResourceResolver resolver, string uri)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| htmlStream | Stream | वह Stream ऑब्जेक्ट जो HTML फाइल के स्रोत के रूप में उपयोग किया जाएगा। |
+| resolver | IExternalResourceResolver | बाहरी वस्तुओं को प्राप्त करने के लिये उपयोग किया जाने वाला कॉलबैक ऑब्जेक्ट। यदि यह पैरामीटर null है तो सभी बाहरी वस्तुओं को अनदेखा किया जाएगा। |
+| uri | String | निर्दिष्ट HTML का URI। सापेक्ष लिंक को हल करने के लिये उपयोग किया जाता है। |
+
+### रिटर्न मान
+
+जोड़ी गई स्लाइड्स।
+
+### संबंधित देखें
+
+* इंटरफ़ेस [ISlide](../../islide)
+* इंटरफ़ेस [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver)
+* इंटरफ़ेस [ISlideCollection](../../islidecollection)
+* नेमस्पेस [Aspose.Slides](../../islidecollection)
+* असेंबली [Aspose.Slides](../../../)
+
+---
+
+## AddFromHtml(Stream) {#addfromhtml}
+
+HTML टेक्स्ट से स्लाइड बनाता है और उन्हें संग्रह के अंत में जोड़ता है।
+
+```csharp
+public ISlide[] AddFromHtml(Stream htmlStream)
+```
+
+| पैरामीटर | प्रकार | विवरण |
+| --- | --- | --- |
+| htmlStream | Stream | वह Stream ऑब्जेक्ट जो HTML फाइल के स्रोत के रूप में उपयोग किया जाएगा। |
+
+### रिटर्न मान
+
+जोड़ी गई स्लाइड्स
+
+### संबंधित देखें
+
+* इंटरफ़ेस [ISlide](../../islide)
+* इंटरफ़ेस [ISlideCollection](../../islidecollection)
+* नेमस्पेस [Aspose.Slides](../../islidecollection)
+* असेंबली [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
