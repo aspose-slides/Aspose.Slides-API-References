@@ -1,0 +1,167 @@
+---
+title: AddDataPointForScatterSeries
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 새 데이터 포인트를 생성하고 컬렉션 끝에 추가합니다. 차트 유형이 Scatter 하위 유형 중 하나인 시리즈에 적용됩니다. 또한 IsChartTypeScatteraspose.slides.charts/charttypecharacterizer/ischarttypescatter 메서드를 참조하십시오.
+type: docs
+weight: 210
+url: /ko/aspose.slides.charts/chartdatapointcollection/adddatapointforscatterseries/
+---
+## AddDataPointForScatterSeries(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
+
+새 데이터 포인트를 생성하고 컬렉션의 끝에 추가합니다. 차트 유형이 Scatter 하위 유형 중 하나인 시리즈에 적용됩니다 ([`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) 메서드도 참고).
+
+```csharp
+public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, IChartDataCell yValue)
+```
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| xValue | IChartDataCell | 데이터 포인트 XValue |
+| yValue | IChartDataCell | 데이터 포인트 YValue |
+
+### 반환 값
+
+새 데이터 포인트.
+
+### 참고
+
+* 인터페이스 [IChartDataPoint](../../ichartdatapoint)
+* 인터페이스 [IChartDataCell](../../ichartdatacell)
+* 클래스 [ChartDataPointCollection](../../chartdatapointcollection)
+* 네임스페이스 [Aspose.Slides.Charts](../../chartdatapointcollection)
+* 어셈블리 [Aspose.Slides](../../../)
+
+---
+
+## AddDataPointForScatterSeries(double, IChartDataCell) {#adddatapointforscatterseries_2}
+
+새 데이터 포인트를 생성하고 컬렉션의 끝에 추가합니다. 차트 유형이 Scatter 하위 유형 중 하나인 시리즈에 적용됩니다 ([`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) 메서드도 참고).
+
+```csharp
+public IChartDataPoint AddDataPointForScatterSeries(double xValue, IChartDataCell yValue)
+```
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| xValue | Double | 데이터 포인트 XValue |
+| yValue | IChartDataCell | 데이터 포인트 YValue |
+
+### 반환 값
+
+새 데이터 포인트.
+
+### 참고
+
+* 인터페이스 [IChartDataPoint](../../ichartdatapoint)
+* 인터페이스 [IChartDataCell](../../ichartdatacell)
+* 클래스 [ChartDataPointCollection](../../chartdatapointcollection)
+* 네임스페이스 [Aspose.Slides.Charts](../../chartdatapointcollection)
+* 어셈블리 [Aspose.Slides](../../../)
+
+---
+
+## AddDataPointForScatterSeries(string, IChartDataCell) {#adddatapointforscatterseries_4}
+
+새 데이터 포인트를 생성하고 컬렉션의 끝에 추가합니다. 차트 유형이 Scatter 하위 유형 중 하나인 시리즈에 적용됩니다 ([`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) 메서드도 참고).
+
+```csharp
+public IChartDataPoint AddDataPointForScatterSeries(string xValue, IChartDataCell yValue)
+```
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| xValue | String | 데이터 포인트 XValue |
+| yValue | IChartDataCell | 데이터 포인트 YValue |
+
+### 반환 값
+
+새 데이터 포인트.
+
+### 참고
+
+* 인터페이스 [IChartDataPoint](../../ichartdatapoint)
+* 인터페이스 [IChartDataCell](../../ichartdatacell)
+* 클래스 [ChartDataPointCollection](../../chartdatapointcollection)
+* 네임스페이스 [Aspose.Slides.Charts](../../chartdatapointcollection)
+* 어셈블리 [Aspose.Slides](../../../)
+
+---
+
+## AddDataPointForScatterSeries(IChartDataCell, double) {#adddatapointforscatterseries_1}
+
+새 데이터 포인트를 생성하고 컬렉션의 끝에 추가합니다. 차트 유형이 Scatter 하위 유형 중 하나인 시리즈에 적용됩니다 ([`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) 메서드도 참고).
+
+```csharp
+public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, double yValue)
+```
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| xValue | IChartDataCell | 데이터 포인트 XValue |
+| yValue | Double | 데이터 포인트 YValue |
+
+### 반환 값
+
+새 데이터 포인트.
+
+### 참고
+
+* 인터페이스 [IChartDataPoint](../../ichartdatapoint)
+* 인터페이스 [IChartDataCell](../../ichartdatacell)
+* 클래스 [ChartDataPointCollection](../../chartdatapointcollection)
+* 네임스페이스 [Aspose.Slides.Charts](../../chartdatapointcollection)
+* 어셈블리 [Aspose.Slides](../../../)
+
+---
+
+## AddDataPointForScatterSeries(double, double) {#adddatapointforscatterseries_3}
+
+새 데이터 포인트를 생성하고 컬렉션의 끝에 추가합니다. 차트 유형이 Scatter 하위 유형 중 하나인 시리즈에 적용됩니다 ([`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) 메서드도 참고).
+
+```csharp
+public IChartDataPoint AddDataPointForScatterSeries(double xValue, double yValue)
+```
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| xValue | Double | 데이터 포인트 XValue |
+| yValue | Double | 데이터 포인트 YValue |
+
+### 반환 값
+
+새 데이터 포인트.
+
+### 참고
+
+* 인터페이스 [IChartDataPoint](../../ichartdatapoint)
+* 클래스 [ChartDataPointCollection](../../chartdatapointcollection)
+* 네임스페이스 [Aspose.Slides.Charts](../../chartdatapointcollection)
+* 어셈블리 [Aspose.Slides](../../../)
+
+---
+
+## AddDataPointForScatterSeries(string, double) {#adddatapointforscatterseries_5}
+
+새 데이터 포인트를 생성하고 컬렉션의 끝에 추가합니다. 차트 유형이 Scatter 하위 유형 중 하나인 시리즈에 적용됩니다 ([`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) 메서드도 참고).
+
+```csharp
+public IChartDataPoint AddDataPointForScatterSeries(string xValue, double yValue)
+```
+
+| 매개변수 | 형식 | 설명 |
+| --- | --- | --- |
+| xValue | String | 데이터 포인트 XValue |
+| yValue | Double | 데이터 포인트 YValue |
+
+### 반환 값
+
+새 데이터 포인트.
+
+### 참고
+
+* 인터페이스 [IChartDataPoint](../../ichartdatapoint)
+* 클래스 [ChartDataPointCollection](../../chartdatapointcollection)
+* 네임스페이스 [Aspose.Slides.Charts](../../chartdatapointcollection)
+* 어셈블리 [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
