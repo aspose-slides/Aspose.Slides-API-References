@@ -9,7 +9,7 @@ url: /aspose.slides.ai/openaiwebclient/
 
 ## OpenAIWebClient class
 
-Build-in lightweight OpenAI web client
+A built-in [`IAIWebClient`](/slides/python-net/aspose.slides.ai/iaiwebclient) implementation that connects to the OpenAI API.
 
 The OpenAIWebClient type exposes the following members:
 
@@ -17,7 +17,7 @@ The OpenAIWebClient type exposes the following members:
 
 | Constructor | Description |
 | :- | :- |
-| [`__init__`](/slides/python-net/aspose.slides.ai/openaiwebclient/__init__/#str-str-str) | Creates instance of OpenAI Web client. |
+| [`__init__`](/slides/python-net/aspose.slides.ai/openaiwebclient/__init__/#str-str-str) | Creates an instance of the OpenAI web client. |
 
 ## Methods
 
@@ -27,6 +27,7 @@ The OpenAIWebClient type exposes the following members:
 
 
 ### See Also
+* class [`IAIWebClient`](/slides/python-net/aspose.slides.ai/iaiwebclient)
 * module [`aspose.slides.ai`](/slides/python-net/aspose.slides.ai)
 * library [`Aspose.Slides`](/slides/python-net)
 
