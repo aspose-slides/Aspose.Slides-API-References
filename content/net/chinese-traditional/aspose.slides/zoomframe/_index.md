@@ -1,0 +1,81 @@
+---
+title: ZoomFrame
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示投影片中的 Slide Zoom 物件。
+type: docs
+weight: 11840
+url: /zh-hant/aspose.slides/zoomframe/
+---
+## ZoomFrame 類別
+
+Represents a Slide Zoom object in a slide.
+
+```csharp
+public class ZoomFrame : ZoomObject, IZoomFrame
+```
+
+## 屬性
+
+| 名稱 | 說明 |
+| --- | --- |
+| [AlternativeText](../../aspose.slides/shape/alternativetext) { get; set; } | Returns or sets the alternative text associated with a shape. 讀寫 String. |
+| [AlternativeTextTitle](../../aspose.slides/shape/alternativetexttitle) { get; set; } | Returns or sets the title of alternative text associated with a shape. 讀寫 String. |
+| [BlackWhiteMode](../../aspose.slides/shape/blackwhitemode) { get; set; } | Property specifies how a shape will render in black-and-white display mode.. 讀寫 [`BlackWhiteMode`](../blackwhitemode). |
+| [ConnectionSiteCount](../../aspose.slides/shape/connectionsitecount) { get; } | Returns the number of connection sites on the shape. 唯讀 Int32. |
+| [CustomData](../../aspose.slides/shape/customdata) { get; } | Returns the shape's custom data. 唯讀 [`ICustomData`](../icustomdata). |
+| virtual [EffectFormat](../../aspose.slides/shape/effectformat) { get; } | Returns the EffectFormat object which contains pixel effects applied to a shape. Note: can return null for certain types of shapes which don't have effect properties. 唯讀 [`IEffectFormat`](../ieffectformat). |
+| virtual [FillFormat](../../aspose.slides/shape/fillformat) { get; } | Returns the FillFormat object that contains fill formatting properties for a shape. Note: can return null for certain types of shapes which don't have fill properties. 唯讀 [`IFillFormat`](../ifillformat). |
+| [Frame](../../aspose.slides/shape/frame) { get; set; } | Returns or sets the shape frame's properties. 讀寫 [`IShapeFrame`](../ishapeframe). |
+| [GraphicalObjectLock](../../aspose.slides/graphicalobject/graphicalobjectlock) { get; } | Returns shape's locks. 唯讀 [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [Height](../../aspose.slides/shape/height) { get; set; } | Gets or sets the height of the shape, measured in points. 讀寫 Single. |
+| [Hidden](../../aspose.slides/shape/hidden) { get; set; } | Determines whether the shape is hidden. 讀寫 Boolean. |
+| [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | Returns or sets the hyperlink defined for mouse click. 讀寫 [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/shape/hyperlinkmanager) { get; } | Returns the hyperlink manager. 唯讀 [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | Returns or sets the hyperlink defined for mouse over. 讀寫 [`IHyperlink`](../ihyperlink). |
+| [ImageType](../../aspose.slides/zoomobject/imagetype) { get; set; } | Gets or sets the image type of a zoom object. 讀寫 [`ZoomImageType`](../zoomimagetype). 預設值: Preview |
+| [IsDecorative](../../aspose.slides/shape/isdecorative) { get; set; } | Gets or sets 'Mark as decorative' option Reed/write Boolean. |
+| [IsGrouped](../../aspose.slides/shape/isgrouped) { get; } | Determines whether the shape is grouped. 唯讀 Boolean. |
+| [IsTextHolder](../../aspose.slides/shape/istextholder) { get; } | Determines whether the shape is TextHolder_PPT. 唯讀 Boolean. |
+| virtual [LineFormat](../../aspose.slides/shape/lineformat) { get; } | Returns the LineFormat object that contains line formatting properties for a shape. Note: can return null for certain types of shapes which don't have line properties. 唯讀 [`ILineFormat`](../ilineformat). |
+| [Name](../../aspose.slides/shape/name) { get; set; } | Returns or sets the name of a shape. Must be not null. Use empty string value if needed. 讀寫 String. |
+| [OfficeInteropShapeId](../../aspose.slides/shape/officeinteropshapeid) { get; } | Returns a slide-scoped unique identifier that remains constant for the lifetime of the shape and lets PowerPoint or interop code reliably reference the shape from anywhere in the document. 唯讀 UInt32. See also [`UniqueId`](../shape/uniqueid). |
+| [ParentGroup](../../aspose.slides/shape/parentgroup) { get; } | Returns parent GroupShape object if shape is grouped. Otherwise returns null. 唯讀 [`IGroupShape`](../igroupshape). |
+| [Placeholder](../../aspose.slides/shape/placeholder) { get; } | Returns the placeholder for a shape. Returns null if the shape has no placeholder. 唯讀 [`IPlaceholder`](../iplaceholder). |
+| [Presentation](../../aspose.slides/shape/presentation) { get; } | Returns the parent presentation of a slide. 唯讀 [`IPresentation`](../ipresentation). |
+| [RawFrame](../../aspose.slides/shape/rawframe) { get; set; } | Returns or sets the raw shape frame's properties. 讀寫 [`IShapeFrame`](../ishapeframe). |
+| [ReturnToParent](../../aspose.slides/zoomobject/returntoparent) { get; set; } | Gets or sets the navigation behavior in slideshow. 讀寫 Boolean. 預設值: false |
+| [Rotation](../../aspose.slides/shape/rotation) { get; set; } | Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. 讀寫 Single. |
+| [ShapeLock](../../aspose.slides/graphicalobject/shapelock) { get; } | Returns shape's locks. 唯讀 [`IGraphicalObjectLock`](../igraphicalobjectlock). (2 properties) |
+| [ShowBackground](../../aspose.slides/zoomobject/showbackground) { get; set; } | Gets or sets value that specifies whether the Zoom will use the background of the destination slide. 讀寫 Boolean. 預設值: true |
+| [Slide](../../aspose.slides/shape/slide) { get; } | Returns the parent slide of a shape. 唯讀 [`IBaseSlide`](../ibaseslide). |
+| [TargetSlide](../../aspose.slides/zoomframe/targetslide) { get; set; } | Gets or sets the slide object that the Slide Zoom object links to. 讀寫 [`ISlide`](../islide). |
+| virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | Returns the ThreeDFormat object that 3d effect properties for a shape. Note: can return null for certain types of shapes which don't have 3d properties. 唯讀 [`IThreeDFormat`](../ithreedformat). |
+| [TransitionDuration](../../aspose.slides/zoomobject/transitionduration) { get; set; } | Gets or sets the duration of the transition between Zoom and slide. 讀寫 Single. 預設值: 1.0f |
+| [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Returns an internal, presentation-scoped identifier intended for use by add-ins or other code. Because this value can be reassigned by the user or programmatically, it must not be treated as a persistent unique key. 唯讀 UInt32. See also [`OfficeInteropShapeId`](../shape/officeinteropshapeid). |
+| [Width](../../aspose.slides/shape/width) { get; set; } | Gets or sets the width of the shape, measured in points. 讀寫 Single. |
+| [X](../../aspose.slides/shape/x) { get; set; } | Gets or sets the x-coordinate of the shape's upper-left corner, measured in points. 讀寫 Single. |
+| [Y](../../aspose.slides/shape/y) { get; set; } | Gets or sets the y-coordinate of the shape's upper-left corner, measured in points. 讀寫 Single. |
+| [ZoomImage](../../aspose.slides/zoomobject/zoomimage) { get; set; } | Gets or sets image for zoom object. 讀寫 [`IPPImage`](../ippimage). |
+| virtual [ZOrderPosition](../../aspose.slides/shape/zorderposition) { get; } | Returns the position of a shape in the z-order. Shapes[0] returns the shape at the back of the z-order, and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order. 唯讀 Int32. |
+
+## 方法
+
+| 名稱 | 說明 |
+| --- | --- |
+| [AddPlaceholder](../../aspose.slides/shape/addplaceholder)(IPlaceholder) | 如果不存在，則加入新的佔位符並將佔位符屬性設定為指定的佔位符。 |
+| [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). A null is returned if the current shape is not inherited. |
+| [GetImage](../../aspose.slides/shape/getimage)() | Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| [GetImage](../../aspose.slides/shape/getimage)(ShapeThumbnailBounds, float, float) | Returns shape thumbnail. |
+| [GetVisualBounds](../../aspose.slides/shape/getvisualbounds)() | Gets the visual bounds of the shape calculated from its rendered content. |
+| [RemovePlaceholder](../../aspose.slides/shape/removeplaceholder)() | Defines that this shape isn't a placeholder. |
+| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream) | Saves content of Shape as SVG file. |
+| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream, ISVGOptions) | Saves content of Shape as SVG file. |
+
+### 另請參閱
+
+* 類別 [ZoomObject](../zoomobject)
+* 介面 [IZoomFrame](../izoomframe)
+* 命名空間 [Aspose.Slides](../../aspose.slides)
+* 組件 [Aspose.Slides](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
