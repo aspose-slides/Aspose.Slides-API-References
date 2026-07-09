@@ -1,7 +1,7 @@
 ---
 title: INormalViewProperties
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho các thuộc tính của chế độ xem bình thường. Chế độ xem bình thường bao gồm ba vùng nội dung: slide, một vùng nội dung bên và một vùng nội dung ở phía dưới.
+description: "Đại diện cho các thuộc tính của chế độ xem bình thường. Chế độ xem bình thường bao gồm ba vùng nội dung: slide, một vùng nội dung bên và một vùng nội dung ở phía dưới."
 type: docs
 weight: 6470
 url: /vi/aspose.slides/inormalviewproperties/

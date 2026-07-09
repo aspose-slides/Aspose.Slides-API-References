@@ -1,7 +1,7 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili nilai string atau double yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) di sel/sel workbook yang terkait dengan chart; 2) sebagai nilai literal.
+description: "Mewakili nilai string atau double yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) di sel/sel workbook yang terkait dengan chart; 2) sebagai nilai literal."
 type: docs
 weight: 2420
 url: /id/aspose.slides.charts/stringordoublechartvalue/

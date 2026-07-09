@@ -1,7 +1,7 @@
 ---
 title: OperatorEmulator
 second_title: Aspose.Sildes .NET API referencia
-description: Operátor Emulátor. Ha igaz, a keret és tartalma egyetlen operátorként viselkedik, és örökli egy operátor tulajdonságait. Ez azt jelenti például, hogy a karakter használható sortörés kiindulópontjaként, és igazítható más operátorokhoz. Az Operátor Emulátorokat gyakran használják, amikor egy vagy több glif kombinálódik egy operátor létrehozásához, például . Alapértelmezett érték: false
+description: "Operátor Emulátor. Ha igaz, a keret és tartalma egyetlen operátorként viselkedik, és örökli egy operátor tulajdonságait. Ez azt jelenti például, hogy a karakter használható sortörés kiindulópontjaként, és igazítható más operátorokhoz. Az Operátor Emulátorokat gyakran használják, amikor egy vagy több glif kombinálódik egy operátor létrehozásához, például . Alapértelmezett érték: false"
 type: docs
 weight: 70
 url: /hu/aspose.slides.mathtext/imathbox/operatoremulator/

@@ -1,7 +1,7 @@
 ---
 title: IsLocationAutocalculated
 second_title: Aspose.Sildes pro .NET API Reference
-description: Definuje, jak má být umístění vypočítáno: true – vypočítáno automaticky; definováno pomocí vlastností X, Y, Width, Height. Pouze pro čtení Boolean.
+description: "Definuje, jak má být umístění vypočítáno: true – vypočítáno automaticky; definováno pomocí vlastností X, Y, Width, Height. Pouze pro čtení Boolean."
 type: docs
 weight: 90
 url: /cs/aspose.slides.charts/chartplotarea/islocationautocalculated/

@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mengembalikan objek LineFormat yang berisi properti pemformatan garis untuk sebuah shape. Catatan: Mengembalikan null untuk objek GroupShape karena mereka tidak memiliki properti garis. Hanya baca ILineFormataspose.slides/ilineformat.
+description: "Mengembalikan objek LineFormat yang berisi properti pemformatan garis untuk sebuah shape. Catatan: Mengembalikan null untuk objek GroupShape karena mereka tidak memiliki properti garis. Hanya baca ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 30
 url: /id/aspose.slides/groupshape/lineformat/

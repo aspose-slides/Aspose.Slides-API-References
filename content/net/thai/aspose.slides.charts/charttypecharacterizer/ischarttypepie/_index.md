@@ -1,7 +1,7 @@
 ---
 title: IsChartTypePie
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คืนค่า true หาก chartType เป็นหนึ่งในประเภทย่อยของ Pie. ชุดประเภทย่อยสอดคล้องกับชุดที่เหมาะสมใน PowerPoint (ดูกล่องโต้ตอบ Change Chart Type ใน PowerPoint): BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie.
+description: "คืนค่า true หาก chartType เป็นหนึ่งในประเภทย่อยของ Pie. ชุดประเภทย่อยสอดคล้องกับชุดที่เหมาะสมใน PowerPoint (ดูกล่องโต้ตอบ Change Chart Type ใน PowerPoint): BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie."
 type: docs
 weight: 110
 url: /th/aspose.slides.charts/charttypecharacterizer/ischarttypepie/

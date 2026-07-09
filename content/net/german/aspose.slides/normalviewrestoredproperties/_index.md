@@ -1,7 +1,7 @@
 ---
 title: NormalViewRestoredProperties
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Gibt die Größe des Folienbereichs an: Breite, wenn ein Kind von restoredTop, Höhe, wenn ein Kind von restoredLeft, in der normalen Ansicht, wenn der Bereich eine variable wiederhergestellte Größe hat, weder minimiert noch maximiert.
+description: "Gibt die Größe des Folienbereichs an: Breite, wenn ein Kind von restoredTop, Höhe, wenn ein Kind von restoredLeft, in der normalen Ansicht, wenn der Bereich eine variable wiederhergestellte Größe hat, weder minimiert noch maximiert."
 type: docs
 weight: 9120
 url: /de/aspose.slides/normalviewrestoredproperties/

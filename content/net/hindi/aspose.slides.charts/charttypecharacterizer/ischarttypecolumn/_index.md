@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeColumn
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: यदि chartType Column उपप्रकारों में से एक है तो true लौटाता है। Subtypes सेट PowerPoint में उपयुक्त सेट से मेल खाता है, PowerPoint में "Change Chart Type" संवाद देखें: ClusteredColumn, ClusteredColumn3D, ClusteredCone, ClusteredCylinder, ClusteredPyramid, PercentsStackedColumn, PercentsStackedColumn3D, PercentsStackedCone, PercentsStackedCylinder, PercentsStackedPyramid, StackedColumn, StackedColumn3D, StackedCone, StackedCylinder, StackedPyramid, Column3D, Cylinder3D, Cone3D, Pyramid3D।
+description: "यदि chartType Column उपप्रकारों में से एक है तो true लौटाता है। Subtypes सेट PowerPoint में उपयुक्त सेट से मेल खाता है, PowerPoint में \"Change Chart Type\" संवाद देखें: ClusteredColumn, ClusteredColumn3D, ClusteredCone, ClusteredCylinder, ClusteredPyramid, PercentsStackedColumn, PercentsStackedColumn3D, PercentsStackedCone, PercentsStackedCylinder, PercentsStackedPyramid, StackedColumn, StackedColumn3D, StackedCone, StackedCylinder, StackedPyramid, Column3D, Cylinder3D, Cone3D, Pyramid3D।"
 type: docs
 weight: 80
 url: /hi/aspose.slides.charts/charttypecharacterizer/ischarttypecolumn/

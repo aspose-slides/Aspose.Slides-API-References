@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes لـ .NET مرجع واجهة برمجة التطبيقات
-description: يحدد محاذاة المصفوفة بالنسبة للنص المحيط. يمكن محاذاة النص خارج المصفوفة إلى bottom أو top أو center لكائن المصفوفة. القيمة الافتراضية: Center
+description: "يحدد محاذاة المصفوفة بالنسبة للنص المحيط. يمكن محاذاة النص خارج المصفوفة إلى bottom أو top أو center لكائن المصفوفة. القيمة الافتراضية: Center"
 type: docs
 weight: 30
 url: /ar/aspose.slides.mathtext/imatharray/basejustification/

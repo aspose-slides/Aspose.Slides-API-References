@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes a .NET API-referencia
-description: Megadja a függőleges igazítást a környező szöveghez viszonyítva. Lehetséges értékek: top, bottom és center. Alapértelmezett: Center
+description: "Megadja a függőleges igazítást a környező szöveghez viszonyítva. Lehetséges értékek: top, bottom és center. Alapértelmezett: Center"
 type: docs
 weight: 20
 url: /hu/aspose.slides.mathtext/imathmatrix/basejustification/

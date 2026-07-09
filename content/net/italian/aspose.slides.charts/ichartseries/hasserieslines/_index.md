@@ -1,7 +1,7 @@
 ---
 title: HasSeriesLines
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Determina se sono presenti linee di serie per questa serie e per le serie correlate. Questa è la proprietà non solo di questa serie ma di tutte le serie del gruppo di serie padre: è la proiezione della proprietà appropriata del gruppo. Pertanto questa proprietà è di sola lettura. Utilizzare la proprietà ParentSeriesGroup per accedere al gruppo di serie padre. Utilizzare la proprietà ParentSeriesGroup.HasSeriesLines read/write per modificare il valore. Utilizzare la proprietà ParentSeriesGroup.SeriesLinesFormat per formattare le linee di serie. Booleano di sola lettura.
+description: "Determina se sono presenti linee di serie per questa serie e per le serie correlate. Questa è la proprietà non solo di questa serie ma di tutte le serie del gruppo di serie padre: è la proiezione della proprietà appropriata del gruppo. Pertanto questa proprietà è di sola lettura. Utilizzare la proprietà ParentSeriesGroup per accedere al gruppo di serie padre. Utilizzare la proprietà ParentSeriesGroup.HasSeriesLines read/write per modificare il valore. Utilizzare la proprietà ParentSeriesGroup.SeriesLinesFormat per formattare le linee di serie. Booleano di sola lettura."
 type: docs
 weight: 140
 url: /it/aspose.slides.charts/ichartseries/hasserieslines/

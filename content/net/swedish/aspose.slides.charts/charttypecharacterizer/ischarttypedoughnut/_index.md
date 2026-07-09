@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeDoughnut
 second_title: Aspose.Sildes för .NET API-referens
-description: Returnerar true om chartType är en av Doughnut-undertyperna. Undertypsättet motsvarar den lämpliga uppsättningen i PowerPoint, se dialogrutan Change Chart Type i PowerPoint: Doughnut ExplodedDoughnut.
+description: "Returnerar true om chartType är en av Doughnut-undertyperna. Undertypsättet motsvarar den lämpliga uppsättningen i PowerPoint, se dialogrutan Change Chart Type i PowerPoint: Doughnut ExplodedDoughnut."
 type: docs
 weight: 90
 url: /sv/aspose.slides.charts/charttypecharacterizer/ischarttypedoughnut/

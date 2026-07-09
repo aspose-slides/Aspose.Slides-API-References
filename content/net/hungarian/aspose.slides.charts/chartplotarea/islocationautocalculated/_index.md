@@ -1,7 +1,7 @@
 ---
 title: IsLocationAutocalculated
 second_title: Aspose.Sildes a .NET számára API referencia
-description: Meghatározza, hogyan kell kiszámítani a helyet: true – automatikusan számított; az X, Y, Width, Height tulajdonságok által meghatározott. Csak olvasható Boolean.
+description: "Meghatározza, hogyan kell kiszámítani a helyet: true – automatikusan számított; az X, Y, Width, Height tulajdonságok által meghatározott. Csak olvasható Boolean."
 type: docs
 weight: 90
 url: /hu/aspose.slides.charts/chartplotarea/islocationautocalculated/

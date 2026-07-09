@@ -1,7 +1,7 @@
 ---
 title: AutofitType
 second_title: مرجع API Aspose.Sildes لـ .NET
-description: يعيد أو يضبط وضع التلقائي للنصوص. يمكن لتغيير هذه الخاصية أن يحدث تأثيرًا معينًا فقط على أجزاء المخطط التالية: DataLabel و DataLabelFormat. دعم كامل في PowerPoint 2013؛ في PowerPoint 2007 لا يوجد تأثير على العرض. قراءة/كتابة TextAutofitTypeaspose.slides/textautofittype.
+description: "يعيد أو يضبط وضع التلقائي للنصوص. يمكن لتغيير هذه الخاصية أن يحدث تأثيرًا معينًا فقط على أجزاء المخطط التالية: DataLabel و DataLabelFormat. دعم كامل في PowerPoint 2013؛ في PowerPoint 2007 لا يوجد تأثير على العرض. قراءة/كتابة TextAutofitTypeaspose.slides/textautofittype."
 type: docs
 weight: 20
 url: /ar/aspose.slides.charts/icharttextblockformat/autofittype/

@@ -1,6 +1,6 @@
 ---
 title: ScaleEffect
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет эффект масштабирования анимации.
 type: docs
 weight: 780

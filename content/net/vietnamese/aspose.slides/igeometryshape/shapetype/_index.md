@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Trả về hoặc đặt loại mẫu geometry preset. Lưu ý: khi giá trị thay đổi, tất cả các giá trị điều chỉnh sẽ được đặt lại về giá trị mặc định. Đọc/ghi ShapeTypeaspose.slides/shapetype.
+description: "Trả về hoặc đặt loại mẫu geometry preset. Lưu ý: khi giá trị thay đổi, tất cả các giá trị điều chỉnh sẽ được đặt lại về giá trị mặc định. Đọc/ghi ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 40
 url: /vi/aspose.slides/igeometryshape/shapetype/

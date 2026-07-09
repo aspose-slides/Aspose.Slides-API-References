@@ -1,6 +1,6 @@
 ---
 title: IOverridableText
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет переопределяемый текст для диаграммы.
 type: docs
 weight: 2180

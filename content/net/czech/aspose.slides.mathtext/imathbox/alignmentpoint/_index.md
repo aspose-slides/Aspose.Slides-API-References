@@ -1,7 +1,7 @@
 ---
 title: AlignmentPoint
 second_title: Aspose.Sildes pro .NET API Reference
-description: Když je true, tento emulátor operátoru slouží jako zarovnací bod, ke kterému mohou být v jiných rovnicích určené zarovnací body zarovnány. Výchozí hodnota: false
+description: "Když je true, tento emulátor operátoru slouží jako zarovnací bod, ke kterému mohou být v jiných rovnicích určené zarovnací body zarovnány. Výchozí hodnota: false"
 type: docs
 weight: 10
 url: /cs/aspose.slides.mathtext/imathbox/alignmentpoint/

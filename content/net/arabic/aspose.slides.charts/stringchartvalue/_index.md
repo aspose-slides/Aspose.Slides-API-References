@@ -1,7 +1,7 @@
 ---
 title: StringChartValue
 second_title: مرجع API Aspose.Sildes لـ .NET
-description: تمثّل قيمة سلسلة يمكن تخزينها في مستند عرض تقديمي pptx بطريقتين: 1) في خلية/خلايا من دفتر عمل مرتبط بالمخطط 2) كقيمة حرفية.
+description: "تمثّل قيمة سلسلة يمكن تخزينها في مستند عرض تقديمي pptx بطريقتين: 1) في خلية/خلايا من دفتر عمل مرتبط بالمخطط 2) كقيمة حرفية."
 type: docs
 weight: 2410
 url: /ar/aspose.slides.charts/stringchartvalue/

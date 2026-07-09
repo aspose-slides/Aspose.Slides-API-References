@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes の .NET API リファレンス
-description: チャートタイプが次のリストに含まれる場合、Chart.ChartData.Series0.DataPointsindex に対応する凡例エントリのプロパティを取得します: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie。その他のチャートタイプの場合は Chart.ChartData.Seriesindex に対応するエントリのプロパティを取得します。
+description: "チャートタイプが次のリストに含まれる場合、Chart.ChartData.Series0.DataPointsindex に対応する凡例エントリのプロパティを取得します: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie。その他のチャートタイプの場合は Chart.ChartData.Seriesindex に対応するエントリのプロパティを取得します。"
 type: docs
 weight: 20
 url: /ja/aspose.slides.charts/ilegendentrycollection/item/

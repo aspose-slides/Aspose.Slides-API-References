@@ -1,6 +1,6 @@
 ---
 title: ISmartArt
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет диаграмму SmartArt.
 type: docs
 weight: 10540

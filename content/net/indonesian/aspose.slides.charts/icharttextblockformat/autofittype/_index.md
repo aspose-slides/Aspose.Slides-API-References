@@ -1,7 +1,7 @@
 ---
 title: AutofitType
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mengembalikan atau menetapkan mode autofit teks. Mengubah properti ini dapat menghasilkan pengaruh tertentu hanya untuk bagian diagram berikut: DataLabel dan DataLabelFormat (dukungan penuh di PowerPoint 2013; di PowerPoint 2007 tidak ada efek untuk rendering). Baca/tulis TextAutofitTypeaspose.slides/textautofittype.
+description: "Mengembalikan atau menetapkan mode autofit teks. Mengubah properti ini dapat menghasilkan pengaruh tertentu hanya untuk bagian diagram berikut: DataLabel dan DataLabelFormat (dukungan penuh di PowerPoint 2013; di PowerPoint 2007 tidak ada efek untuk rendering). Baca/tulis TextAutofitTypeaspose.slides/textautofittype."
 type: docs
 weight: 20
 url: /id/aspose.slides.charts/icharttextblockformat/autofittype/

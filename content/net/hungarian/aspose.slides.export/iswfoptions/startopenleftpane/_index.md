@@ -1,7 +1,7 @@
 ---
 title: StartOpenLeftPane
 second_title: Aspose.Sildes .NET API referencia
-description: A bal panel nyitott állapotban indul. Flashvars-ban felülírható. Alapértelmezett érték: false.
+description: "A bal panel nyitott állapotban indul. Flashvars-ban felülírható. Alapértelmezett érték: false."
 type: docs
 weight: 160
 url: /hu/aspose.slides.export/iswfoptions/startopenleftpane/

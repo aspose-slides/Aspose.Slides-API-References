@@ -1,7 +1,7 @@
 ---
 title: ImageType
 second_title: Aspose.Sildes .NET API referencia
-description: Lekérdezi vagy beállítja a zoom objektum kép típusát. Olvasás/írás ZoomImageTypeaspose.slides/zoomimagetype. Alapértelmezett érték: Preview
+description: "Lekérdezi vagy beállítja a zoom objektum kép típusát. Olvasás/írás ZoomImageTypeaspose.slides/zoomimagetype. Alapértelmezett érték: Preview"
 type: docs
 weight: 20
 url: /hu/aspose.slides/izoomobject/imagetype/

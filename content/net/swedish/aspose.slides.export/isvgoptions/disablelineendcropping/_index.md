@@ -1,7 +1,7 @@
 ---
 title: DisableLineEndCropping
 second_title: Aspose.Slides för .NET API-referens
-description: SVG 1.1 saknar möjlighet att definiera inskjutningar för markörer. Aspose.Slides SVG-skrivmotor har en lösning på det problemet: den beskär slutet av linjen med en pil så att linjen inte överlappar markörer. Detta alternativ inaktiverar sådant beteende. Läs/skriv Boolean.
+description: "SVG 1.1 saknar möjlighet att definiera inskjutningar för markörer. Aspose.Slides SVG-skrivmotor har en lösning på det problemet: den beskär slutet av linjen med en pil så att linjen inte överlappar markörer. Detta alternativ inaktiverar sådant beteende. Läs/skriv Boolean."
 type: docs
 weight: 60
 url: /sv/aspose.slides.export/isvgoptions/disablelineendcropping/

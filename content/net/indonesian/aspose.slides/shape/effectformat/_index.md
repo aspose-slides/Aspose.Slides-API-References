@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
 second_title: Aspose.Sildes untuk .NET Referensi API
-description: Mengembalikan objek EffectFormat yang berisi efek piksel yang diterapkan pada shape. Catatan: dapat mengembalikan null untuk tipe shape tertentu yang tidak memiliki properti efek. Baca-saja IEffectFormataspose.slides/ieffectformat.
+description: "Mengembalikan objek EffectFormat yang berisi efek piksel yang diterapkan pada shape. Catatan: dapat mengembalikan null untuk tipe shape tertentu yang tidak memiliki properti efek. Baca-saja IEffectFormataspose.slides/ieffectformat."
 type: docs
 weight: 60
 url: /id/aspose.slides/shape/effectformat/

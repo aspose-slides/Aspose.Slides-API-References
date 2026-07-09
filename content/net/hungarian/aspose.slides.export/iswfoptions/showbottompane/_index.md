@@ -1,7 +1,7 @@
 ---
 title: ShowBottomPane
 second_title: Aspose.Sildes .NET API referencia
-description: Az alsó panel megjelenítése/elrejtése. Felülírható a flashvars-ban. Alapértelmezett érték: true.
+description: "Az alsó panel megjelenítése/elrejtése. Felülírható a flashvars-ban. Alapértelmezett érték: true."
 type: docs
 weight: 70
 url: /hu/aspose.slides.export/iswfoptions/showbottompane/

@@ -1,7 +1,7 @@
 ---
 title: IStringChartValue
 second_title: Aspose.Sildes för .NET API Referens
-description: Representerar strängvärde som kan lagras i pptx presentationsdokument på två sätt: 1) i cell/celler i arbetsbok relaterad till diagram 2) som ett bokstavligt värde.
+description: "Representerar strängvärde som kan lagras i pptx presentationsdokument på två sätt: 1) i cell/celler i arbetsbok relaterad till diagram 2) som ett bokstavligt värde."
 type: docs
 weight: 2220
 url: /sv/aspose.slides.charts/istringchartvalue/

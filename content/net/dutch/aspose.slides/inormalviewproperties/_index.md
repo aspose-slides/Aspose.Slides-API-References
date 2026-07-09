@@ -1,7 +1,7 @@
 ---
 title: INormalViewProperties
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt normale weergave-eigenschappen voor. De normale weergave bestaat uit drie inhoudsregio’s: de dia zelf, een zij-inhoudsregio en een onder-inhoudsregio.
+description: "Stelt normale weergave-eigenschappen voor. De normale weergave bestaat uit drie inhoudsregio’s: de dia zelf, een zij-inhoudsregio en een onder-inhoudsregio."
 type: docs
 weight: 6470
 url: /nl/aspose.slides/inormalviewproperties/

@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایش‌دهنده ویژگی‌های نمای عادی. نمای عادی شامل سه ناحیه محتوا است: خود اسلاید، یک ناحیه محتوا جانبی و یک ناحیه محتوا پایین.
+description: "نمایش‌دهنده ویژگی‌های نمای عادی. نمای عادی شامل سه ناحیه محتوا است: خود اسلاید، یک ناحیه محتوا جانبی و یک ناحیه محتوا پایین."
 type: docs
 weight: 9110
 url: /fa/aspose.slides/normalviewproperties/

@@ -1,6 +1,6 @@
 ---
 title: Background
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет фон слайда.
 type: docs
 weight: 930

@@ -1,7 +1,7 @@
 ---
 title: ShowBackground
 second_title: Aspose.Sildes .NET API referencia
-description: Értéket ad vissza vagy állít be, amely meghatározza, hogy a Zoom használja-e a cél diára vonatkozó hátteret. Olvasás/írás Boolean. Alapértelmezett érték: true
+description: "Értéket ad vissza vagy állít be, amely meghatározza, hogy a Zoom használja-e a cél diára vonatkozó hátteret. Olvasás/írás Boolean. Alapértelmezett érték: true"
 type: docs
 weight: 40
 url: /hu/aspose.slides/izoomobject/showbackground/

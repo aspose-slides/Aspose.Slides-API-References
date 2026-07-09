@@ -1,7 +1,7 @@
 ---
 title: HidePlaceholders
 second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: Elrejti a helyőrzőket az üres mátrix elemeknél Alapértelmezett: false
+description: "Elrejti a helyőrzőket az üres mátrix elemeknél Alapértelmezett: false"
 type: docs
 weight: 60
 url: /hu/aspose.slides.mathtext/mathmatrix/hideplaceholders/

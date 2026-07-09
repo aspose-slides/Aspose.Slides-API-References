@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeLine
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: إرجاع true إذا كان chartType أحد الأنواع الفرعية Line. مجموعة الأنواع الفرعية تتطابق مع المجموعة المناسبة في PowerPoint راجع Change Chart Type في PowerPoint: Line LineWithMarkers PercentsStackedLine PercentsStackedLineWithMarkers StackedLine StackedLineWithMarkers Line3D.
+description: "إرجاع true إذا كان chartType أحد الأنواع الفرعية Line. مجموعة الأنواع الفرعية تتطابق مع المجموعة المناسبة في PowerPoint راجع Change Chart Type في PowerPoint: Line LineWithMarkers PercentsStackedLine PercentsStackedLineWithMarkers StackedLine StackedLineWithMarkers Line3D."
 type: docs
 weight: 100
 url: /ar/aspose.slides.charts/charttypecharacterizer/ischarttypeline/

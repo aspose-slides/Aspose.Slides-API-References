@@ -1,7 +1,7 @@
 ---
 title: Character
 second_title: Aspose.Sildes untuk .NET API Referensi
-description: Karakter Aksen Nilai harus berada dalam rentang U0300U036F atau U20D0U20EF Nilai default: Combining Circumflex Accent U0302
+description: "Karakter Aksen Nilai harus berada dalam rentang U0300U036F atau U20D0U20EF Nilai default: Combining Circumflex Accent U0302"
 type: docs
 weight: 30
 url: /id/aspose.slides.mathtext/mathaccent/character/

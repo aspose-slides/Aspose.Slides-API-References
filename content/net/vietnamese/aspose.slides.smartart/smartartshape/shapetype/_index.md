@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Trả về hoặc đặt kiểu hình học đã định trước. Lưu ý: khi giá trị thay đổi, tất cả các giá trị điều chỉnh sẽ được đặt lại về giá trị mặc định. Đọc/ghi ShapeTypeaspose.slides/shapetype.
+description: "Trả về hoặc đặt kiểu hình học đã định trước. Lưu ý: khi giá trị thay đổi, tất cả các giá trị điều chỉnh sẽ được đặt lại về giá trị mặc định. Đọc/ghi ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 10
 url: /vi/aspose.slides.smartart/smartartshape/shapetype/

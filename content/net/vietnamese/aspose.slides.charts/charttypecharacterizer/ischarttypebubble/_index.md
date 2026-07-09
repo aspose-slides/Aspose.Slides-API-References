@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBubble
 second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Trả về true nếu chartType là một trong các kiểu phụ Bubble. Tập hợp các kiểu phụ tương ứng với tập hợp thích hợp trong PowerPoint; xem hộp thoại Change Chart Type trong PowerPoint: Bubble, BubbleWith3D.
+description: "Trả về true nếu chartType là một trong các kiểu phụ Bubble. Tập hợp các kiểu phụ tương ứng với tập hợp thích hợp trong PowerPoint; xem hộp thoại Change Chart Type trong PowerPoint: Bubble, BubbleWith3D."
 type: docs
 weight: 70
 url: /vi/aspose.slides.charts/charttypecharacterizer/ischarttypebubble/

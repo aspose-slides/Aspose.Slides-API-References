@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: مرجع API Aspose.Sildes برای .NET
-description: شیء LineFormat را برمی‌گرداند که شامل ویژگی‌های قالب‌بندی خط برای یک شکل است. توجه: برای اشیای GroupShape مقدار null برگردانده می‌شود چون آن‌ها ویژگی‌های خط ندارند. فقط‌خواندنی ILineFormataspose.slides/ilineformat.
+description: "شیء LineFormat را برمی‌گرداند که شامل ویژگی‌های قالب‌بندی خط برای یک شکل است. توجه: برای اشیای GroupShape مقدار null برگردانده می‌شود چون آن‌ها ویژگی‌های خط ندارند. فقط‌خواندنی ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 30
 url: /fa/aspose.slides/groupshape/lineformat/

@@ -1,7 +1,7 @@
 ---
 title: AutofitType
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: टेक्स्ट के ऑटोफिट मोड को प्राप्त करता है या सेट करता है। इस प्रॉपर्टी को बदलने से केवल इन चार्ट भागों पर ही कुछ प्रभाव पड़ सकता है: DataLabel और DataLabelFormat (PowerPoint 2013 में पूरी सपोर्ट; PowerPoint 2007 में रेंडरिंग के लिए कोई प्रभाव नहीं)। पढ़ें/लिखें TextAutofitTypeaspose.slides/textautofittype.
+description: "टेक्स्ट के ऑटोफिट मोड को प्राप्त करता है या सेट करता है। इस प्रॉपर्टी को बदलने से केवल इन चार्ट भागों पर ही कुछ प्रभाव पड़ सकता है: DataLabel और DataLabelFormat (PowerPoint 2013 में पूरी सपोर्ट; PowerPoint 2007 में रेंडरिंग के लिए कोई प्रभाव नहीं)। पढ़ें/लिखें TextAutofitTypeaspose.slides/textautofittype."
 type: docs
 weight: 20
 url: /hi/aspose.slides.charts/icharttextblockformat/autofittype/

@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeArea
 second_title: Aspose.Sildes for .NET API Referansı
-description: chartType bir Area alt türlerinden biri ise true döndürür. Alt tür kümesi PowerPoint'teki ilgili küme ile eşleşir; PowerPoint'teki "Change Chart Type" iletişim kutusuna bakınız: Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.
+description: "chartType bir Area alt türlerinden biri ise true döndürür. Alt tür kümesi PowerPoint'teki ilgili küme ile eşleşir; PowerPoint'teki \"Change Chart Type\" iletişim kutusuna bakınız: Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D."
 type: docs
 weight: 50
 url: /tr/aspose.slides.charts/charttypecharacterizer/ischarttypearea/

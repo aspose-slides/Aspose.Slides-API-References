@@ -1,7 +1,7 @@
 ---
 title: StringChartValue
 second_title: Aspose.Sildes .NET API Referenciája
-description: Karakterlánc értéket reprezentál, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban, 2) literális értékként.
+description: "Karakterlánc értéket reprezentál, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban, 2) literális értékként."
 type: docs
 weight: 2410
 url: /hu/aspose.slides.charts/stringchartvalue/

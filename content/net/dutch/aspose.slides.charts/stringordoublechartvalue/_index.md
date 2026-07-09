@@ -1,7 +1,7 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een string- of double-waarde voor die in een pptx-presentatiedocument op twee manieren kan worden opgeslagen: 1) in cel/cellen van een werkmap die gerelateerd is aan een grafiek; 2) als letterlijke waarde.
+description: "Stelt een string- of double-waarde voor die in een pptx-presentatiedocument op twee manieren kan worden opgeslagen: 1) in cel/cellen van een werkmap die gerelateerd is aan een grafiek; 2) als letterlijke waarde."
 type: docs
 weight: 2420
 url: /nl/aspose.slides.charts/stringordoublechartvalue/

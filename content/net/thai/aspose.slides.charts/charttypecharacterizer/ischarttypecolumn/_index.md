@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeColumn
 second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: คืนค่า true หาก chartType เป็นหนึ่งใน subtypes ของ Column. ชุด subtypes สอดคล้องกับชุดที่เหมาะสมใน PowerPoint ดูกล่องโต้ตอบ Change Chart Type ใน PowerPoint: ClusteredColumn, ClusteredColumn3D, ClusteredCone, ClusteredCylinder, ClusteredPyramid, PercentsStackedColumn, PercentsStackedColumn3D, PercentsStackedCone, PercentsStackedCylinder, PercentsStackedPyramid, StackedColumn, StackedColumn3D, StackedCone, StackedCylinder, StackedPyramid, Column3D, Cylinder3D, Cone3D, Pyramid3D.
+description: "คืนค่า true หาก chartType เป็นหนึ่งใน subtypes ของ Column. ชุด subtypes สอดคล้องกับชุดที่เหมาะสมใน PowerPoint ดูกล่องโต้ตอบ Change Chart Type ใน PowerPoint: ClusteredColumn, ClusteredColumn3D, ClusteredCone, ClusteredCylinder, ClusteredPyramid, PercentsStackedColumn, PercentsStackedColumn3D, PercentsStackedCone, PercentsStackedCylinder, PercentsStackedPyramid, StackedColumn, StackedColumn3D, StackedCone, StackedCylinder, StackedPyramid, Column3D, Cylinder3D, Cone3D, Pyramid3D."
 type: docs
 weight: 80
 url: /th/aspose.slides.charts/charttypecharacterizer/ischarttypecolumn/

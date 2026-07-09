@@ -1,7 +1,7 @@
 ---
 title: VerticalJustification
 second_title: Referência da API Aspose.Sildes para .NET
-description: Justificação vertical do caractere de agrupamento. Especifica o alinhamento do objeto em relação à linha de base. Por exemplo, quando o caractere de agrupamento está acima do objeto, VerticalJustification de Top indica que a parte superior do objeto fica na linha de base; quando VerticalJustification está definido como Bottom, a parte inferior do objeto está na linha de base. Padrão: Bottom para PositionTop e Top para PositionBottom
+description: "Justificação vertical do caractere de agrupamento. Especifica o alinhamento do objeto em relação à linha de base. Por exemplo, quando o caractere de agrupamento está acima do objeto, VerticalJustification de Top indica que a parte superior do objeto fica na linha de base; quando VerticalJustification está definido como Bottom, a parte inferior do objeto está na linha de base. Padrão: Bottom para PositionTop e Top para PositionBottom"
 type: docs
 weight: 50
 url: /pt/aspose.slides.mathtext/mathgroupingcharacter/verticaljustification/

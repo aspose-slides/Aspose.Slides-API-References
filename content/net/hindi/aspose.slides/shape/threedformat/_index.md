@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक आकार के लिए 3d इफ़ेक्ट गुणों को प्रदर्शित करने वाला ThreeDFormat ऑब्जेक्ट लौटाता है। नोट: कुछ प्रकार के आकारों के लिए जो 3d गुण नहीं रखते, null लौटाया जा सकता है। केवल- पढ़ने योग्य IThreeDFormataspose.slides/ithreedformat.
+description: "एक आकार के लिए 3d इफ़ेक्ट गुणों को प्रदर्शित करने वाला ThreeDFormat ऑब्जेक्ट लौटाता है। नोट: कुछ प्रकार के आकारों के लिए जो 3d गुण नहीं रखते, null लौटाया जा सकता है। केवल- पढ़ने योग्य IThreeDFormataspose.slides/ithreedformat."
 type: docs
 weight: 270
 url: /hi/aspose.slides/shape/threedformat/

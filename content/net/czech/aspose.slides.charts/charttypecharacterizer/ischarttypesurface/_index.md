@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeSurface
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vrátí true, pokud je chartType jedním z podtypů Surface. Množina podtypů odpovídá příslušné množině v PowerPointu, viz dialog Change Chart Type v PowerPointu: Surface3D WireframeSurface3D Contour WireframeContour.
+description: "Vrátí true, pokud je chartType jedním z podtypů Surface. Množina podtypů odpovídá příslušné množině v PowerPointu, viz dialog Change Chart Type v PowerPointu: Surface3D WireframeSurface3D Contour WireframeContour."
 type: docs
 weight: 150
 url: /cs/aspose.slides.charts/charttypecharacterizer/ischarttypesurface/

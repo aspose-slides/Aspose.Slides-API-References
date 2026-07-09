@@ -1,7 +1,7 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: pptx प्रस्तुति दस्तावेज़ में दो तरीकों से संग्रहीत किए जा सकने वाले स्ट्रिंग या डबल मान का प्रतिनिधित्व करता है: 1) चार्ट से संबंधित वर्कबुक की सेल/सेलों में; 2) लिटरल मान के रूप में।
+description: "pptx प्रस्तुति दस्तावेज़ में दो तरीकों से संग्रहीत किए जा सकने वाले स्ट्रिंग या डबल मान का प्रतिनिधित्व करता है: 1) चार्ट से संबंधित वर्कबुक की सेल/सेलों में; 2) लिटरल मान के रूप में।"
 type: docs
 weight: 2230
 url: /hi/aspose.slides.charts/istringordoublechartvalue/

@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes .NET API referencia
-description: Visszaadja a FillFormat objektumot, amely a alakzat kitöltési formázási tulajdonságait tartalmazza. Megjegyzés: bizonyos típusú alakzatok esetén, amelyeknek nincsenek kitöltési tulajdonságai, null értéket adhat vissza. Csak olvasható IFillFormataspose.slides/ifillformat.
+description: "Visszaadja a FillFormat objektumot, amely a alakzat kitöltési formázási tulajdonságait tartalmazza. Megjegyzés: bizonyos típusú alakzatok esetén, amelyeknek nincsenek kitöltési tulajdonságai, null értéket adhat vissza. Csak olvasható IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 70
 url: /hu/aspose.slides/shape/fillformat/

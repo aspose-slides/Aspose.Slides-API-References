@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: ज्यामिति प्रीसेट प्रकार को लौटाता है या सेट करता है। नोट: मान बदलने पर सभी समायोजन मान उनके डिफ़ॉल्ट मानों पर रीसेट हो जाएंगे। पढ़ें/लिखें ShapeTypeaspose.slides/shapetype.
+description: "ज्यामिति प्रीसेट प्रकार को लौटाता है या सेट करता है। नोट: मान बदलने पर सभी समायोजन मान उनके डिफ़ॉल्ट मानों पर रीसेट हो जाएंगे। पढ़ें/लिखें ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 40
 url: /hi/aspose.slides/igeometryshape/shapetype/

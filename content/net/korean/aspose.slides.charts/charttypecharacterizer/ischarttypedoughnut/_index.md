@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeDoughnut
 second_title: Aspose.Sildes for .NET API 참조
-description: chartType이 Doughnut 하위 유형 중 하나인 경우 true를 반환합니다. 하위 유형 집합은 PowerPoint에서 해당 집합에 해당하며, PowerPoint의 Change Chart Type 대화 상자를 참조하십시오: Doughnut, ExplodedDoughnut.
+description: "chartType이 Doughnut 하위 유형 중 하나인 경우 true를 반환합니다. 하위 유형 집합은 PowerPoint에서 해당 집합에 해당하며, PowerPoint의 Change Chart Type 대화 상자를 참조하십시오: Doughnut, ExplodedDoughnut."
 type: docs
 weight: 90
 url: /ko/aspose.slides.charts/charttypecharacterizer/ischarttypedoughnut/

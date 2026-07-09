@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 도형에 대한 선 서식 속성을 포함하는 LineFormat 개체를 반환합니다. 참고: GroupShape 개체는 선 속성이 없으므로 null을 반환합니다. 읽기 전용 ILineFormataspose.slides/ilineformat.
+description: "도형에 대한 선 서식 속성을 포함하는 LineFormat 개체를 반환합니다. 참고: GroupShape 개체는 선 속성이 없으므로 null을 반환합니다. 읽기 전용 ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 30
 url: /ko/aspose.slides/groupshape/lineformat/

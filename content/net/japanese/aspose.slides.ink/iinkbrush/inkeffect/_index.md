@@ -1,7 +1,7 @@
 ---
 title: InkEffect
 second_title: Aspose.Slides for .NET API リファレンス
-description: インクストロークの視覚的スタイルを定義するインク効果タイプ（例: Galaxy、Gold、Silver）を取得します。値はブラシプロパティ inkEffects から解析されます。認識された効果が指定されていない場合、NotDefined が返されます。
+description: "インクストロークの視覚的スタイルを定義するインク効果タイプ（例: Galaxy、Gold、Silver）を取得します。値はブラシプロパティ inkEffects から解析されます。認識された効果が指定されていない場合、NotDefined が返されます。"
 type: docs
 weight: 20
 url: /ja/aspose.slides.ink/iinkbrush/inkeffect/

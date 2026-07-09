@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Restituisce o imposta il tipo predefinito di geometria. Nota: al cambiamento del valore tutti i valori di regolazione torneranno ai loro valori predefiniti. Lettura/Scrittura ShapeTypeaspose.slides/shapetype.
+description: "Restituisce o imposta il tipo predefinito di geometria. Nota: al cambiamento del valore tutti i valori di regolazione torneranno ai loro valori predefiniti. Lettura/Scrittura ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 10
 url: /it/aspose.slides.smartart/smartartshape/shapetype/

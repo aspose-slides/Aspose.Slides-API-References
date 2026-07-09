@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeArea
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Retourneert true als chartType een van de Area-subtypen is. De set subtypen komt overeen met de juiste set in PowerPoint, zie Change Chart Type dialoogvenster in PowerPoint: Area PercentsStackedArea PercentsStackedArea3D StackedArea StackedArea3D Area3D.
+description: "Retourneert true als chartType een van de Area-subtypen is. De set subtypen komt overeen met de juiste set in PowerPoint, zie Change Chart Type dialoogvenster in PowerPoint: Area PercentsStackedArea PercentsStackedArea3D StackedArea StackedArea3D Area3D."
 type: docs
 weight: 50
 url: /nl/aspose.slides.charts/charttypecharacterizer/ischarttypearea/

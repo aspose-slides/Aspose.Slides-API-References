@@ -1,7 +1,7 @@
 ---
 title: IsChartTypePie
 second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Trả về true nếu chartType là một trong các kiểu phụ của Pie. Tập hợp các kiểu phụ tương ứng với tập hợp thích hợp trong PowerPoint; xem hộp thoại Change Chart Type trong PowerPoint: BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie.
+description: "Trả về true nếu chartType là một trong các kiểu phụ của Pie. Tập hợp các kiểu phụ tương ứng với tập hợp thích hợp trong PowerPoint; xem hộp thoại Change Chart Type trong PowerPoint: BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie."
 type: docs
 weight: 110
 url: /vi/aspose.slides.charts/charttypecharacterizer/ischarttypepie/

@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeLine
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Retourneert true als chartType een van de Line-subtypen is. De set Subtypes komt overeen met de juiste set in PowerPoint zie het dialoogvenster Change Chart Type in PowerPoint: Line, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D.
+description: "Retourneert true als chartType een van de Line-subtypen is. De set Subtypes komt overeen met de juiste set in PowerPoint zie het dialoogvenster Change Chart Type in PowerPoint: Line, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D."
 type: docs
 weight: 100
 url: /nl/aspose.slides.charts/charttypecharacterizer/ischarttypeline/

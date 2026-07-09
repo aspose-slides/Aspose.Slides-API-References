@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticTickLabelSpacing
 second_title: Aspose.Sildes för .NET API-referens
-description: Anger värdet för automatiskt tick-etikettavstånd. Om falskt: använd TickLabelSpacing egenskap. Läs/skriv Boolean.
+description: "Anger värdet för automatiskt tick-etikettavstånd. Om falskt: använd TickLabelSpacing egenskap. Läs/skriv Boolean."
 type: docs
 weight: 230
 url: /sv/aspose.slides.charts/axis/isautomaticticklabelspacing/

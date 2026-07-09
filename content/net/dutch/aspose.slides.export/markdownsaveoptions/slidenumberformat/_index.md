@@ -1,7 +1,7 @@
 ---
 title: SlideNumberFormat
 second_title: Aspose.Sildes voor .NET API Referentie
-description: Haalt de opmaakreeks op of stelt deze in die wordt gebruikt voor slide-nummerkoppen in de Markdown-uitvoer. De opmaak moet de 0 placeholder bevatten die tijdens het exporteren wordt vervangen door de slide-index. Voorbeeld: Slide 0 levert Slide 1, Slide 2, enz.
+description: "Haalt de opmaakreeks op of stelt deze in die wordt gebruikt voor slide-nummerkoppen in de Markdown-uitvoer. De opmaak moet de 0 placeholder bevatten die tijdens het exporteren wordt vervangen door de slide-index. Voorbeeld: Slide 0 levert Slide 1, Slide 2, enz."
 type: docs
 weight: 120
 url: /nl/aspose.slides.export/markdownsaveoptions/slidenumberformat/

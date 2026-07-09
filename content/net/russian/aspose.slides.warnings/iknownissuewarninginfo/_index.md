@@ -1,6 +1,6 @@
 ---
 title: IKnownIssueWarningInfo
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет предупреждение о известной проблеме, которая не будет исправлена в ближайшее время.
 type: docs
 weight: 11760

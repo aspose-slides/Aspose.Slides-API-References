@@ -1,6 +1,6 @@
 ---
 title: PresentationFactory
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Позволяет создавать презентацию через COM-интерфейс
 type: docs
 weight: 9600

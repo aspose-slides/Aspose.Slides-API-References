@@ -1,7 +1,7 @@
 ---
 title: Character
 second_title: Aspose.Sildes .NET API referencia
-description: Akcent karakter Az értéknek a U0300U036F vagy U20D0U20EF tartományon belül kell lennie Alapértelmezett érték: Combining Circumflex Accent U0302
+description: "Akcent karakter Az értéknek a U0300U036F vagy U20D0U20EF tartományon belül kell lennie Alapértelmezett érték: Combining Circumflex Accent U0302"
 type: docs
 weight: 30
 url: /hu/aspose.slides.mathtext/mathaccent/character/

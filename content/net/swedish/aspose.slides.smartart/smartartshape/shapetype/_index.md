@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes för .NET API-referens
-description: Returnerar eller anger den förinställda geometritypen. Obs: vid värdeförändring återställs alla justeringsvärden till sina standardvärden. Läs/skriv ShapeTypeaspose.slides/shapetype.
+description: "Returnerar eller anger den förinställda geometritypen. Obs: vid värdeförändring återställs alla justeringsvärden till sina standardvärden. Läs/skriv ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 10
 url: /sv/aspose.slides.smartart/smartartshape/shapetype/

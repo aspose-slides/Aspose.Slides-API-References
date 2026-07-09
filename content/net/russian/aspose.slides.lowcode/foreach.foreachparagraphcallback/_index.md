@@ -1,6 +1,6 @@
 ---
 title: ForEach.ForEachParagraphCallback
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Обратный вызов, который будет вызываться для каждого Paragraph./foreach/paragraph на BaseSlide../aspose.slides/baseslide.
 type: docs
 weight: 7930

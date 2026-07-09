@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeArea
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: Επιστρέφει true εάν το chartType είναι ένας από τους υποτύπους Area. Το σύνολο των υποτύπων αντιστοιχεί στο κατάλληλο σύνολο στο PowerPoint (δείτε τον διάλογο Change Chart Type στο PowerPoint): Area PercentsStackedArea PercentsStackedArea3D StackedArea StackedArea3D Area3D.
+description: "Επιστρέφει true εάν το chartType είναι ένας από τους υποτύπους Area. Το σύνολο των υποτύπων αντιστοιχεί στο κατάλληλο σύνολο στο PowerPoint (δείτε τον διάλογο Change Chart Type στο PowerPoint): Area PercentsStackedArea PercentsStackedArea3D StackedArea StackedArea3D Area3D."
 type: docs
 weight: 50
 url: /el/aspose.slides.charts/charttypecharacterizer/ischarttypearea/

@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeColumn
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Retourneert true als chartType een van de Column-subtypen is. De set subtypes komt overeen met de juiste set in PowerPoint, zie het dialoogvenster Change Chart Type in PowerPoint: ClusteredColumn ClusteredColumn3D ClusteredCone ClusteredCylinder ClusteredPyramid PercentsStackedColumn PercentsStackedColumn3D PercentsStackedCone PercentsStackedCylinder PercentsStackedPyramid StackedColumn StackedColumn3D StackedCone StackedCylinder StackedPyramid Column3D Cylinder3D Cone3D Pyramid3D.
+description: "Retourneert true als chartType een van de Column-subtypen is. De set subtypes komt overeen met de juiste set in PowerPoint, zie het dialoogvenster Change Chart Type in PowerPoint: ClusteredColumn ClusteredColumn3D ClusteredCone ClusteredCylinder ClusteredPyramid PercentsStackedColumn PercentsStackedColumn3D PercentsStackedCone PercentsStackedCylinder PercentsStackedPyramid StackedColumn StackedColumn3D StackedCone StackedCylinder StackedPyramid Column3D Cylinder3D Cone3D Pyramid3D."
 type: docs
 weight: 80
 url: /nl/aspose.slides.charts/charttypecharacterizer/ischarttypecolumn/

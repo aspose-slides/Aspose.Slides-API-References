@@ -1,7 +1,7 @@
 ---
 title: TextFormat
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: चार्ट टेक्स्ट फ़ॉर्मेट लौटाता है। यह प्रॉपर्टी निम्नलिखित प्रकारों के लिए लागू नहीं है: Treemap Sunburst Waterfall Histogram FunnelBoxAndWhisker। केवल-पढ़ने योग्य IChartTextFormataspose.slides.charts/icharttextformat.
+description: "चार्ट टेक्स्ट फ़ॉर्मेट लौटाता है। यह प्रॉपर्टी निम्नलिखित प्रकारों के लिए लागू नहीं है: Treemap Sunburst Waterfall Histogram FunnelBoxAndWhisker। केवल-पढ़ने योग्य IChartTextFormataspose.slides.charts/icharttextformat."
 type: docs
 weight: 210
 url: /hi/aspose.slides.charts/chart/textformat/

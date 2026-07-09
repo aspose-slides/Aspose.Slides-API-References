@@ -1,7 +1,7 @@
 ---
 title: Overlap
 second_title: Aspose.Sildes for .NET API 참조
-description: 2-D 차트에서 막대와 열이 -100%에서 100% 사이의 백분율로 얼마나 겹치는지를 지정합니다. - -100: 최대 간격(막대가 완전히 분리됨). - 0: 막대가 겹치거나 간격 없이 나란히 배치됩니다. - 100: 최대 겹침(막대가 서로 완전히 겹칩니다). 이 속성은 읽기/쓰기 SByte입니다.
+description: "2-D 차트에서 막대와 열이 -100%에서 100% 사이의 백분율로 얼마나 겹치는지를 지정합니다. - -100: 최대 간격(막대가 완전히 분리됨). - 0: 막대가 겹치거나 간격 없이 나란히 배치됩니다. - 100: 최대 겹침(막대가 서로 완전히 겹칩니다). 이 속성은 읽기/쓰기 SByte입니다."
 type: docs
 weight: 120
 url: /ko/aspose.slides.charts/ichartseriesgroup/overlap/

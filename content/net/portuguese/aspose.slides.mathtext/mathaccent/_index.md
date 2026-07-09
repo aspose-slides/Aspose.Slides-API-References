@@ -1,7 +1,7 @@
 ---
 title: MathAccent
 second_title: Aspose.Sildes para .NET - Referência da API
-description: Especifica a função de acento, consistindo de uma base e um sinal diacrítico combinante. Exemplo: ́
+description: "Especifica a função de acento, consistindo de uma base e um sinal diacrítico combinante. Exemplo: ́"
 type: docs
 weight: 8530
 url: /pt/aspose.slides.mathtext/mathaccent/

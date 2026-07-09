@@ -1,7 +1,7 @@
 ---
 title: SlideNumberFormat
 second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: تحصل أو تعين سلسلة التنسيق المستخدمة في رؤوس أرقام الشرائح في مخرجات Markdown. يجب أن يتضمن التنسيق العنصر النائب {0}، والذي سيُستبدل برقم الشريحة أثناء التصدير. مثال: "Slide 0" سيُنتج "Slide 1"، "Slide 2"، إلخ.
+description: "تحصل أو تعين سلسلة التنسيق المستخدمة في رؤوس أرقام الشرائح في مخرجات Markdown. يجب أن يتضمن التنسيق العنصر النائب {0}، والذي سيُستبدل برقم الشريحة أثناء التصدير. مثال: \"Slide 0\" سيُنتج \"Slide 1\"، \"Slide 2\"، إلخ."
 type: docs
 weight: 120
 url: /ar/aspose.slides.export/markdownsaveoptions/slidenumberformat/

@@ -1,7 +1,7 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Riferimento API di Aspose.Sildes per .NET
-description: Rappresenta un valore stringa o double che può essere memorizzato in un documento di presentazione pptx in due modi: 1) nella/e cella/e della cartella di lavoro associata al grafico; 2) come valore letterale.
+description: "Rappresenta un valore stringa o double che può essere memorizzato in un documento di presentazione pptx in due modi: 1) nella/e cella/e della cartella di lavoro associata al grafico; 2) come valore letterale."
 type: docs
 weight: 2230
 url: /it/aspose.slides.charts/istringordoublechartvalue/

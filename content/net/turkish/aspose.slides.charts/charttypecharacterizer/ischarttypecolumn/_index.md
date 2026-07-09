@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeColumn
 second_title: Aspose.Sildes for .NET API Referansı
-description: chartType bir Column alt türünden biri ise true döndürür. Alt tür kümesi, PowerPoint'teki ilgili kümeye karşılık gelir; PowerPoint'teki 'Change Chart Type' iletişim kutusuna bakın: ClusteredColumn, ClusteredColumn3D, ClusteredCone, ClusteredCylinder, ClusteredPyramid, PercentsStackedColumn, PercentsStackedColumn3D, PercentsStackedCone, PercentsStackedCylinder, PercentsStackedPyramid, StackedColumn, StackedColumn3D, StackedCone, StackedCylinder, StackedPyramid, Column3D, Cylinder3D, Cone3D, Pyramid3D.
+description: "chartType bir Column alt türünden biri ise true döndürür. Alt tür kümesi, PowerPoint'teki ilgili kümeye karşılık gelir; PowerPoint'teki 'Change Chart Type' iletişim kutusuna bakın: ClusteredColumn, ClusteredColumn3D, ClusteredCone, ClusteredCylinder, ClusteredPyramid, PercentsStackedColumn, PercentsStackedColumn3D, PercentsStackedCone, PercentsStackedCylinder, PercentsStackedPyramid, StackedColumn, StackedColumn3D, StackedCone, StackedCylinder, StackedPyramid, Column3D, Cylinder3D, Cone3D, Pyramid3D."
 type: docs
 weight: 80
 url: /tr/aspose.slides.charts/charttypecharacterizer/ischarttypecolumn/

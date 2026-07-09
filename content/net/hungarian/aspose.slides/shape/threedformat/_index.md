@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Sildes a .NET API referencia
-description: Visszaadja a ThreeDFormat objektumot, amely egy alakzat 3D hatás tulajdonságait tartalmazza. Megjegyzés: bizonyos típusú alakzatoknál, amelyeknek nincs 3D tulajdonsága, null értéket adhat vissza. Csak olvasható IThreeDFormataspose.slides/ithreedformat.
+description: "Visszaadja a ThreeDFormat objektumot, amely egy alakzat 3D hatás tulajdonságait tartalmazza. Megjegyzés: bizonyos típusú alakzatoknál, amelyeknek nincs 3D tulajdonsága, null értéket adhat vissza. Csak olvasható IThreeDFormataspose.slides/ithreedformat."
 type: docs
 weight: 270
 url: /hu/aspose.slides/shape/threedformat/

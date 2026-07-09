@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeArea
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về true nếu chartType là một trong các kiểu con Area. Tập hợp các kiểu con tương ứng với tập hợp thích hợp trong PowerPoint (xem hộp thoại Change Chart Type trong PowerPoint): Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.
+description: "Trả về true nếu chartType là một trong các kiểu con Area. Tập hợp các kiểu con tương ứng với tập hợp thích hợp trong PowerPoint (xem hộp thoại Change Chart Type trong PowerPoint): Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D."
 type: docs
 weight: 50
 url: /vi/aspose.slides.charts/charttypecharacterizer/ischarttypearea/

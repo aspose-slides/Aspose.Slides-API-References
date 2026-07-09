@@ -1,6 +1,6 @@
 ---
 title: PresetShadow
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет эффект Preset Shadow.
 type: docs
 weight: 3630

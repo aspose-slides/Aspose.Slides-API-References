@@ -1,7 +1,7 @@
 ---
 title: MarginTop
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mengembalikan atau mengatur margin atas (poin) dalam TextFrame. Mengubah properti ini dapat memberikan pengaruh tertentu hanya untuk bagian diagram berikut: DataLabel dan DataLabelFormat (dukungan penuh di PowerPoint 2013; di PowerPoint 2007 tidak ada efek pada proses rendering). Baca/tulis Double.
+description: "Mengembalikan atau mengatur margin atas (poin) dalam TextFrame. Mengubah properti ini dapat memberikan pengaruh tertentu hanya untuk bagian diagram berikut: DataLabel dan DataLabelFormat (dukungan penuh di PowerPoint 2013; di PowerPoint 2007 tidak ada efek pada proses rendering). Baca/tulis Double."
 type: docs
 weight: 70
 url: /id/aspose.slides.charts/icharttextblockformat/margintop/

@@ -1,7 +1,7 @@
 ---
 title: DimensionSize
 second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Określa rozmiar obszaru slajdu: szerokość, gdy jest elementem podrzędnym RestoredTop, oraz wysokość, gdy jest elementem podrzędnym RestoredLeft. Odczyt/zapis Single.
+description: "Określa rozmiar obszaru slajdu: szerokość, gdy jest elementem podrzędnym RestoredTop, oraz wysokość, gdy jest elementem podrzędnym RestoredLeft. Odczyt/zapis Single."
 type: docs
 weight: 20
 url: /pl/aspose.slides/normalviewrestoredproperties/dimensionsize/

@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Sildes para .NET Referência da API
-description: Retorna o objeto LineFormat que contém propriedades de formatação de linha para uma forma. Nota: pode retornar null para certos tipos de formas que não possuem propriedades de linha. Read-only ILineFormataspose.slides/ilineformat.
+description: "Retorna o objeto LineFormat que contém propriedades de formatação de linha para uma forma. Nota: pode retornar null para certos tipos de formas que não possuem propriedades de linha. Read-only ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 170
 url: /pt/aspose.slides/shape/lineformat/

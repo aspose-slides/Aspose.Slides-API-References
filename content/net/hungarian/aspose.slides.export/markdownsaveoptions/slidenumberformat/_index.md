@@ -1,7 +1,7 @@
 ---
 title: SlideNumberFormat
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Megkapja vagy beállítja a formátumkarakterláncot, amely a diaszámfejlécekhez használatos a Markdown kimenetben. A formátumnak tartalmaznia kell a {0} helyőrzőt, amelyet az exportálás során a diaindexre cserélnek. Példa: "Slide {0}" a következőket eredményezi: "Slide 1", "Slide 2" stb.
+description: "Megkapja vagy beállítja a formátumkarakterláncot, amely a diaszámfejlécekhez használatos a Markdown kimenetben. A formátumnak tartalmaznia kell a {0} helyőrzőt, amelyet az exportálás során a diaindexre cserélnek. Példa: \"Slide {0}\" a következőket eredményezi: \"Slide 1\", \"Slide 2\" stb."
 type: docs
 weight: 120
 url: /hu/aspose.slides.export/markdownsaveoptions/slidenumberformat/

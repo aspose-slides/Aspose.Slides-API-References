@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForPieSeries
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 新しいデータポイントを作成し、コレクションの末尾に追加します。チャートタイプが Pie のサブタイプのいずれかであるシリーズに適用されます（参照: IsChartTypePieaspose.slides.charts/chartdatapointcollection/adddatapointforpieseries メソッド）。
+description: "新しいデータポイントを作成し、コレクションの末尾に追加します。チャートタイプが Pie のサブタイプのいずれかであるシリーズに適用されます（参照: IsChartTypePieaspose.slides.charts/chartdatapointcollection/adddatapointforpieseries メソッド）。"
 type: docs
 weight: 190
 url: /ja/aspose.slides.charts/chartdatapointcollection/adddatapointforpieseries/

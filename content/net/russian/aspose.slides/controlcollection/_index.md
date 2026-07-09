@@ -1,6 +1,6 @@
 ---
 title: ControlCollection
-second_title: Aspose.Sildes для .NET: справка API
+second_title: "Aspose.Sildes для .NET: справка API"
 description: Коллекция элементов управления ActiveX.
 type: docs
 weight: 2700

@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticTickMarksSpacing
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يحدد قيمة تباعد علامات الفواصل التلقائي. إذا كان false: استخدم خاصية TickMarksSpacing. قراءة/كتابة Boolean.
+description: "يحدد قيمة تباعد علامات الفواصل التلقائي. إذا كان false: استخدم خاصية TickMarksSpacing. قراءة/كتابة Boolean."
 type: docs
 weight: 240
 url: /ar/aspose.slides.charts/iaxis/isautomatictickmarksspacing/

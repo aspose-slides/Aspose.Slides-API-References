@@ -1,7 +1,7 @@
 ---
 title: Preserve
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Determina se il master corrispondente viene eliminato quando tutte le diapositive che seguono quel master vengono eliminate. Nota: Aspose.Slides non rimuoverà mai alcun master inutilizzato da solo; per rimuovere effettivamente i master inutilizzati, chiamare RemoveUnusedaspose.slides/masterslidecollection/removeunused Read/write Boolean.
+description: "Determina se il master corrispondente viene eliminato quando tutte le diapositive che seguono quel master vengono eliminate. Nota: Aspose.Slides non rimuoverà mai alcun master inutilizzato da solo; per rimuovere effettivamente i master inutilizzati, chiamare RemoveUnusedaspose.slides/masterslidecollection/removeunused Read/write Boolean."
 type: docs
 weight: 80
 url: /it/aspose.slides/masterslide/preserve/

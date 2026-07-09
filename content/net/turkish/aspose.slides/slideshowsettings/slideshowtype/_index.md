@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
 second_title: Aspose.Sildes .NET API Referansı
-description: Slayt gösterisi tipini alır veya ayarlar. Aşağıdaki SlideShowTypeaspose.slides/slideshowsettings/slideshowtype üst öğeleriyle temsil edilir: BrowsedAtKiosk aspose.slides/browsedatkiosk, PresentedBySpeaker aspose.slides/presentedbyspeaker ve BrowsedByIndividual aspose.slides/browsedbyindividual
+description: "Slayt gösterisi tipini alır veya ayarlar. Aşağıdaki SlideShowTypeaspose.slides/slideshowsettings/slideshowtype üst öğeleriyle temsil edilir: BrowsedAtKiosk aspose.slides/browsedatkiosk, PresentedBySpeaker aspose.slides/presentedbyspeaker ve BrowsedByIndividual aspose.slides/browsedbyindividual"
 type: docs
 weight: 70
 url: /tr/aspose.slides/slideshowsettings/slideshowtype/

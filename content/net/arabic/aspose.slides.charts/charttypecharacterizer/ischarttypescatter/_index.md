@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeScatter
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: إرجاع true إذا كان chartType أحد الأنواع الفرعية لـ Scatter. مجموعة الأنواع الفرعية تتطابق مع المجموعة المناسبة في PowerPoint (انظر مربع الحوار Change Chart Type في PowerPoint): ScatterWithMarkers ScatterWithSmoothLines ScatterWithSmoothLinesAndMarkers ScatterWithStraightLines ScatterWithStraightLinesAndMarkers.
+description: "إرجاع true إذا كان chartType أحد الأنواع الفرعية لـ Scatter. مجموعة الأنواع الفرعية تتطابق مع المجموعة المناسبة في PowerPoint (انظر مربع الحوار Change Chart Type في PowerPoint): ScatterWithMarkers ScatterWithSmoothLines ScatterWithSmoothLinesAndMarkers ScatterWithStraightLines ScatterWithStraightLinesAndMarkers."
 type: docs
 weight: 130
 url: /ar/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/

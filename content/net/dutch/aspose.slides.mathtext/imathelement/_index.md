@@ -1,7 +1,7 @@
 ---
 title: IMathElement
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Basisklasse van elk wiskundig element: breuk, wiskundige tekst, functie, expressie met meerdere elementen, enz
+description: "Basisklasse van elk wiskundig element: breuk, wiskundige tekst, functie, expressie met meerdere elementen, enz"
 type: docs
 weight: 8230
 url: /nl/aspose.slides.mathtext/imathelement/

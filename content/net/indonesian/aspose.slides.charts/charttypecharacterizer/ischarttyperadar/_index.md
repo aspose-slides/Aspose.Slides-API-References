@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeRadar
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Kembalikan true jika chartType adalah salah satu subtipe Radar. Set subtipe sesuai dengan set yang tepat di PowerPoint lihat dialog Change Chart Type di PowerPoint: FilledRadar Radar RadarWithMarkers.
+description: "Kembalikan true jika chartType adalah salah satu subtipe Radar. Set subtipe sesuai dengan set yang tepat di PowerPoint lihat dialog Change Chart Type di PowerPoint: FilledRadar Radar RadarWithMarkers."
 type: docs
 weight: 120
 url: /id/aspose.slides.charts/charttypecharacterizer/ischarttyperadar/

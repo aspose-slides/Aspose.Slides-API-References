@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes for .NET API Referansı
-description: Dizi'nin çevredeki metne göre hizalamasını belirler. Dizinin dışındaki metin, bir dizi nesnesinin alt, üst veya orta kısmına hizalanabilir. Varsayılan değer: Center
+description: "Dizi'nin çevredeki metne göre hizalamasını belirler. Dizinin dışındaki metin, bir dizi nesnesinin alt, üst veya orta kısmına hizalanabilir. Varsayılan değer: Center"
 type: docs
 weight: 30
 url: /tr/aspose.slides.mathtext/imatharray/basejustification/

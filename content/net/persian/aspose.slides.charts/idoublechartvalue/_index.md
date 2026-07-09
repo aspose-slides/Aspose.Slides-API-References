@@ -1,7 +1,7 @@
 ---
 title: IDoubleChartValue
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایش مقدار عددی دو برابر که می‌تواند به دو روش در سند ارائهٔ pptx ذخیره شود: ۱) در سلول/سلول‌های کتاب‌کار مرتبط با نمودار ۲) به عنوان مقدار ثابت.
+description: "نمایش مقدار عددی دو برابر که می‌تواند به دو روش در سند ارائهٔ pptx ذخیره شود: ۱) در سلول/سلول‌های کتاب‌کار مرتبط با نمودار ۲) به عنوان مقدار ثابت."
 type: docs
 weight: 2070
 url: /fa/aspose.slides.charts/idoublechartvalue/

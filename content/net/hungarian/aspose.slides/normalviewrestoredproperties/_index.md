@@ -1,7 +1,7 @@
 ---
 title: NormalViewRestoredProperties
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Meghatározza a dia régió méretezését: a width, ha a restoredTop gyermekeként, a height, ha a restoredLeft gyermekeként a normál nézetben, amikor a régió változó helyreállított méretű, sem minimalizált, sem maximalizált.
+description: "Meghatározza a dia régió méretezését: a width, ha a restoredTop gyermekeként, a height, ha a restoredLeft gyermekeként a normál nézetben, amikor a régió változó helyreállított méretű, sem minimalizált, sem maximalizált."
 type: docs
 weight: 9120
 url: /hu/aspose.slides/normalviewrestoredproperties/

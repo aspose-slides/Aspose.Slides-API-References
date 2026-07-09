@@ -1,7 +1,7 @@
 ---
 title: IDoubleChartValue
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje hodnotu typu double, která může být uložena v dokumentu pptx prezentace dvěma způsoby: 1) v buňce/buňkách sešitu souvisejících s grafem; 2) jako doslovná hodnota.
+description: "Reprezentuje hodnotu typu double, která může být uložena v dokumentu pptx prezentace dvěma způsoby: 1) v buňce/buňkách sešitu souvisejících s grafem; 2) jako doslovná hodnota."
 type: docs
 weight: 2070
 url: /cs/aspose.slides.charts/idoublechartvalue/

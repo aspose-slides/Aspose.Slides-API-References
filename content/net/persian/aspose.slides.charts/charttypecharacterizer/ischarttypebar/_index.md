@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBar
 second_title: مرجع API Aspose.Sildes برای .NET
-description: در صورتی که chartType یکی از زیرنوع‌های Bar باشد، true را برمی‌گرداند. مجموعه زیرنوع‌ها مطابق با مجموعه مناسب در PowerPoint است؛ دیالوگ Change Chart Type در PowerPoint را ببینید: ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid.
+description: "در صورتی که chartType یکی از زیرنوع‌های Bar باشد، true را برمی‌گرداند. مجموعه زیرنوع‌ها مطابق با مجموعه مناسب در PowerPoint است؛ دیالوگ Change Chart Type در PowerPoint را ببینید: ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid."
 type: docs
 weight: 60
 url: /fa/aspose.slides.charts/charttypecharacterizer/ischarttypebar/

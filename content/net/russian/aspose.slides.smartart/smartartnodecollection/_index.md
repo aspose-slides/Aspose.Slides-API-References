@@ -1,6 +1,6 @@
 ---
 title: SmartArtNodeCollection
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет коллекцию узлов SmartArt.
 type: docs
 weight: 10640

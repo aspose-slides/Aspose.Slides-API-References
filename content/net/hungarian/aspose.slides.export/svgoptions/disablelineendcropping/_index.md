@@ -1,7 +1,7 @@
 ---
 title: DisableLineEndCropping
 second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: Az SVG 1.1 nem képes definiálni a jelölők belső margóit. Az Aspose.Slides SVG író motorja megoldást kínál erre a problémára: levágja a vonal végét a nyíllal, így a vonal nem fed át a jelölőket. Ez a beállítás kikapcsolja ezt a viselkedést. Read/write Boolean.
+description: "Az SVG 1.1 nem képes definiálni a jelölők belső margóit. Az Aspose.Slides SVG író motorja megoldást kínál erre a problémára: levágja a vonal végét a nyíllal, így a vonal nem fed át a jelölőket. Ez a beállítás kikapcsolja ezt a viselkedést. Read/write Boolean."
 type: docs
 weight: 90
 url: /hu/aspose.slides.export/svgoptions/disablelineendcropping/

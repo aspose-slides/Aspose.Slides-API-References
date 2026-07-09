@@ -1,7 +1,7 @@
 ---
 title: GetHyperlinkClicks
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Lấy tất cả các đối tượng con IHyperlinkContainer chứa HyperlinkClick không null. Với đối tượng IHyperlinkContainer được cung cấp, bạn có thể quản lý siêu liên kết của nó: đọc, cập nhật hoặc xóa. Xem giao diện IHyperlinkContainer.
+description: "Lấy tất cả các đối tượng con IHyperlinkContainer chứa HyperlinkClick không null. Với đối tượng IHyperlinkContainer được cung cấp, bạn có thể quản lý siêu liên kết của nó: đọc, cập nhật hoặc xóa. Xem giao diện IHyperlinkContainer."
 type: docs
 weight: 20
 url: /vi/aspose.slides/hyperlinkqueries/gethyperlinkclicks/

@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक FillFormat ऑब्जेक्ट लौटाता है जिसमें एक आकार के लिए फ़िल फॉर्मेटिंग प्रॉपर्टीज़ होती हैं। नोट: कुछ प्रकार के आकार जिनमें फ़िल प्रॉपर्टीज़ नहीं होतीं, के लिए यह null वापस कर सकता है। केवल-पढ़ने योग्य IFillFormataspose.slides/ifillformat.
+description: "एक FillFormat ऑब्जेक्ट लौटाता है जिसमें एक आकार के लिए फ़िल फॉर्मेटिंग प्रॉपर्टीज़ होती हैं। नोट: कुछ प्रकार के आकार जिनमें फ़िल प्रॉपर्टीज़ नहीं होतीं, के लिए यह null वापस कर सकता है। केवल-पढ़ने योग्य IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 70
 url: /hi/aspose.slides/shape/fillformat/

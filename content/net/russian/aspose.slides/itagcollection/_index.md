@@ -1,6 +1,6 @@
 ---
 title: ITagCollection
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет коллекцию тегов — пользовательских пар строк
 type: docs
 weight: 7260

@@ -1,7 +1,7 @@
 ---
 title: Formula
 second_title: Aspose.Sildes for .NET API Referansı
-description: Formüller, değerlerdeki from, to, by öznitelikleri içinde şu öğelerden oluşabilir: Standart aritmetik operatörler  -  /   mod Sabitler pi e Koşullu operatörler abs min max  if Karşılaştırma operatörleri  gt    Trigonometrik operatörler sin cos tan asin acos atan Doğal logaritma ln Özellik referansları host destekli özellikler örnek olarak ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- Okunabilir/Yazılabilir Dize.
+description: "Formüller, değerlerdeki from, to, by öznitelikleri içinde şu öğelerden oluşabilir: Standart aritmetik operatörler  -  /   mod Sabitler pi e Koşullu operatörler abs min max  if Karşılaştırma operatörleri  gt    Trigonometrik operatörler sin cos tan asin acos atan Doğal logaritma ln Özellik referansları host destekli özellikler örnek olarak ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- Okunabilir/Yazılabilir Dize."
 type: docs
 weight: 20
 url: /tr/aspose.slides.animation/point/formula/

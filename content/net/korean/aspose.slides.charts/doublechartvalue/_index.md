@@ -1,7 +1,7 @@
 ---
 title: DoubleChartValue
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: pptx 프레젠테이션 문서에 두 가지 방법으로 저장될 수 있는 double 값을 나타냅니다: 1) 차트와 연결된 워크북의 셀/셀들에, 2) 리터럴 값으로.
+description: "pptx 프레젠테이션 문서에 두 가지 방법으로 저장될 수 있는 double 값을 나타냅니다: 1) 차트와 연결된 워크북의 셀/셀들에, 2) 리터럴 값으로."
 type: docs
 weight: 1630
 url: /ko/aspose.slides.charts/doublechartvalue/

@@ -1,7 +1,7 @@
 ---
 title: IMathElement
 second_title: Aspose.Sildes für .NET API-Referenz
-description: Basisschnittstelle für jedes mathematische Element: Bruch, mathematischer Text, Funktion, Ausdruck mit mehreren Elementen usw.
+description: "Basisschnittstelle für jedes mathematische Element: Bruch, mathematischer Text, Funktion, Ausdruck mit mehreren Elementen usw."
 type: docs
 weight: 8230
 url: /de/aspose.slides.mathtext/imathelement/

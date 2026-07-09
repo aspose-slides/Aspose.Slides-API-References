@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft of stelt de linkermarge (punten) in een TextFrame in. Het wijzigen van deze eigenschap kan alleen voor de volgende grafiekonderdelen invloed hebben: DataLabel en DataLabelFormat. Volle ondersteuning in PowerPoint 2013; in PowerPoint 2007 heeft het geen effect op de weergave. Lezen/Schrijven Double.
+description: "Geeft of stelt de linkermarge (punten) in een TextFrame in. Het wijzigen van deze eigenschap kan alleen voor de volgende grafiekonderdelen invloed hebben: DataLabel en DataLabelFormat. Volle ondersteuning in PowerPoint 2013; in PowerPoint 2007 heeft het geen effect op de weergave. Lezen/Schrijven Double."
 type: docs
 weight: 50
 url: /nl/aspose.slides.charts/icharttextblockformat/marginleft/

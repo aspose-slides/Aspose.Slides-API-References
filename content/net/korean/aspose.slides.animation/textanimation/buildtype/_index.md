@@ -1,7 +1,7 @@
 ---
 title: BuildType
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 텍스트 애니메이션의 예: Paragraph 123 All at Once에 대한 빌드 유형 목록. 읽기/쓰기 BuildTypeaspose.slides.animation/buildtype.
+description: "텍스트 애니메이션의 예: Paragraph 123 All at Once에 대한 빌드 유형 목록. 읽기/쓰기 BuildTypeaspose.slides.animation/buildtype."
 type: docs
 weight: 20
 url: /ko/aspose.slides.animation/textanimation/buildtype/

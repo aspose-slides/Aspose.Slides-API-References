@@ -1,7 +1,7 @@
 ---
 title: SetVisibilityOnAllTitleSlides
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Modifica la visibilità dei segnaposto del piè di pagina, della data e del numero di pagina per tutte le diapositive titolo e per la prima diapositiva layout. Diapositive titolo: diapositive basate sulla prima diapositiva layout, indipendentemente dal tipo di questo primo layout.
+description: "Modifica la visibilità dei segnaposto del piè di pagina, della data e del numero di pagina per tutte le diapositive titolo e per la prima diapositiva layout. Diapositive titolo: diapositive basate sulla prima diapositiva layout, indipendentemente dal tipo di questo primo layout."
 type: docs
 weight: 80
 url: /it/aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides/

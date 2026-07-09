@@ -1,6 +1,6 @@
 ---
 title: OpenAICompatibleWebClient
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Создаёт экземпляр совместимого с OpenAI веб-клиента.
 type: docs
 weight: 10

@@ -1,7 +1,7 @@
 ---
 title: Differential
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Differential. true인 경우 상자는 미분(예: 적분식 안에서)처럼 동작하며 수학적 미분에 적절한 수평 간격을 받습니다. 기본값 false
+description: "Differential. true인 경우 상자는 미분(예: 적분식 안에서)처럼 동작하며 수학적 미분에 적절한 수평 간격을 받습니다. 기본값 false"
 type: docs
 weight: 40
 url: /ko/aspose.slides.mathtext/imathbox/differential/

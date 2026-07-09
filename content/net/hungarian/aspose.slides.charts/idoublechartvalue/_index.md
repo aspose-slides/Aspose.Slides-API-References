@@ -1,7 +1,7 @@
 ---
 title: IDoubleChartValue
 second_title: Aspose.Sildes a .NET API referencia
-description: Kettős (double) értéket képvisel, amely pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literál értékként.
+description: "Kettős (double) értéket képvisel, amely pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literál értékként."
 type: docs
 weight: 2070
 url: /hu/aspose.slides.charts/idoublechartvalue/

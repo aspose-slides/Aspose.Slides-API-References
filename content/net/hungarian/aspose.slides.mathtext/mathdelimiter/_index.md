@@ -1,7 +1,7 @@
 ---
 title: MathDelimiter
 second_title: Aspose.Sildes .NET API referencia
-description: Meghatározza a határoló objektumot, amely nyitó és záró karakterekből (például zárójelek, kapcsos zárójelek, szögletes zárójelek és függőleges vonalak) áll, és egy vagy több matematikai elemet tartalmaz, amelyeket egy megadott karakter választ el. Példák: 2 2x7C2
+description: "Meghatározza a határoló objektumot, amely nyitó és záró karakterekből (például zárójelek, kapcsos zárójelek, szögletes zárójelek és függőleges vonalak) áll, és egy vagy több matematikai elemet tartalmaz, amelyeket egy megadott karakter választ el. Példák: 2 2x7C2"
 type: docs
 weight: 8650
 url: /hu/aspose.slides.mathtext/mathdelimiter/

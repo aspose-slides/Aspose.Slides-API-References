@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBubble
 second_title: مرجع API Aspose.Sildes برای .NET
-description: اگر chartType یکی از زیرنوع‌های Bubble باشد، مقدار true را بر می‌گرداند. مجموعه زیرنوع‌ها با مجموعهٔ مناسب در PowerPoint مطابقت دارد؛ به دیالوگ Change Chart Type در PowerPoint رجوع کنید: Bubble، BubbleWith3D.
+description: "اگر chartType یکی از زیرنوع‌های Bubble باشد، مقدار true را بر می‌گرداند. مجموعه زیرنوع‌ها با مجموعهٔ مناسب در PowerPoint مطابقت دارد؛ به دیالوگ Change Chart Type در PowerPoint رجوع کنید: Bubble، BubbleWith3D."
 type: docs
 weight: 70
 url: /fa/aspose.slides.charts/charttypecharacterizer/ischarttypebubble/

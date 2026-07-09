@@ -1,7 +1,7 @@
 ---
 title: MathDelimiter
 second_title: Aspose.Sildes for .NET APIリファレンス
-description: 開き括弧、閉じ括弧、波括弧、角括弧、縦棒などの開始文字と終了文字で構成され、内部に1つ以上の数式要素が指定された文字で区切られたデリミタオブジェクトを指定します。例: 2 2x7C2
+description: "開き括弧、閉じ括弧、波括弧、角括弧、縦棒などの開始文字と終了文字で構成され、内部に1つ以上の数式要素が指定された文字で区切られたデリミタオブジェクトを指定します。例: 2 2x7C2"
 type: docs
 weight: 8650
 url: /ja/aspose.slides.mathtext/mathdelimiter/

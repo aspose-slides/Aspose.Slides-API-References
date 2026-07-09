@@ -1,7 +1,7 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Aspose.Sildes لمراجع API لـ .NET
-description: يمثل قيمة نصية أو مزدوجة يمكن تخزينها في مستند عرض تقديمي بصيغة pptx بطريقتين: 1 في خلية/خلايا من المصنف المرتبط بالمخطط 2 كقيمة حرفية.
+description: "يمثل قيمة نصية أو مزدوجة يمكن تخزينها في مستند عرض تقديمي بصيغة pptx بطريقتين: 1 في خلية/خلايا من المصنف المرتبط بالمخطط 2 كقيمة حرفية."
 type: docs
 weight: 2230
 url: /ar/aspose.slides.charts/istringordoublechartvalue/

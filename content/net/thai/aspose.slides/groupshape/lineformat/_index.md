@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คืนค่าอ็อบเจ็กต์ LineFormat ที่มีคุณสมบัติการจัดรูปแบบเส้นสำหรับ shape. หมายเหตุ: คืนค่า null สำหรับอ็อบเจ็กต์ GroupShape เนื่องจากพวกมันไม่มีคุณสมบัติของเส้น. อ่านอย่างเดียว ILineFormataspose.slides/ilineformat.
+description: "คืนค่าอ็อบเจ็กต์ LineFormat ที่มีคุณสมบัติการจัดรูปแบบเส้นสำหรับ shape. หมายเหตุ: คืนค่า null สำหรับอ็อบเจ็กต์ GroupShape เนื่องจากพวกมันไม่มีคุณสมบัติของเส้น. อ่านอย่างเดียว ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 30
 url: /th/aspose.slides/groupshape/lineformat/

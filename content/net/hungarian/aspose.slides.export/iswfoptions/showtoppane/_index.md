@@ -1,7 +1,7 @@
 ---
 title: ShowTopPane
 second_title: Aspose.Sildes .NET API referenciája
-description: A teljes felső panel megjelenítése/elrejtése. Felülírható a flashvars-ban. Alapértelmezett érték: true.
+description: "A teljes felső panel megjelenítése/elrejtése. Felülírható a flashvars-ban. Alapértelmezett érték: true."
 type: docs
 weight: 140
 url: /hu/aspose.slides.export/iswfoptions/showtoppane/

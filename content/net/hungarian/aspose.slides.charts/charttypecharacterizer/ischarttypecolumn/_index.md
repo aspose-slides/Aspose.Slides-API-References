@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeColumn
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Igaz értéket ad vissza, ha a chartType a Column altípusok egyike. Az altípusok halmaza megfelel a PowerPoint megfelelő halmazának; lásd a PowerPoint „Change Chart Type” párbeszédablakát: ClusteredColumn ClusteredColumn3D ClusteredCone ClusteredCylinder ClusteredPyramid PercentsStackedColumn PercentsStackedColumn3D PercentsStackedCone PercentsStackedCylinder PercentsStackedPyramid StackedColumn StackedColumn3D StackedCone StackedCylinder StackedPyramid Column3D Cylinder3D Cone3D Pyramid3D.
+description: "Igaz értéket ad vissza, ha a chartType a Column altípusok egyike. Az altípusok halmaza megfelel a PowerPoint megfelelő halmazának; lásd a PowerPoint „Change Chart Type” párbeszédablakát: ClusteredColumn ClusteredColumn3D ClusteredCone ClusteredCylinder ClusteredPyramid PercentsStackedColumn PercentsStackedColumn3D PercentsStackedCone PercentsStackedCylinder PercentsStackedPyramid StackedColumn StackedColumn3D StackedCone StackedCylinder StackedPyramid Column3D Cylinder3D Cone3D Pyramid3D."
 type: docs
 weight: 80
 url: /hu/aspose.slides.charts/charttypecharacterizer/ischarttypecolumn/

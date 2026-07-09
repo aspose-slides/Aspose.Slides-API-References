@@ -1,6 +1,6 @@
 ---
 title: SpaceWithin
-second_title: Aspose.Sildes dla .NET: dokumentacja API
+second_title: "Aspose.Sildes dla .NET: dokumentacja API"
 description: Zwraca lub ustawia ilość odstępu między liniami bazowymi w akapicie. Odczyt/zapis Single.
 type: docs
 weight: 130

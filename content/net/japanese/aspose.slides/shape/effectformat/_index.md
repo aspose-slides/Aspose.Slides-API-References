@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: シェイプに適用されたピクセルエフェクトを含む EffectFormat オブジェクトを返します。注: エフェクトプロパティを持たない特定の種類のシェイプについては null を返すことがあります。読み取り専用 IEffectFormataspose.slides/ieffectformat.
+description: "シェイプに適用されたピクセルエフェクトを含む EffectFormat オブジェクトを返します。注: エフェクトプロパティを持たない特定の種類のシェイプについては null を返すことがあります。読み取り専用 IEffectFormataspose.slides/ieffectformat."
 type: docs
 weight: 60
 url: /ja/aspose.slides/shape/effectformat/

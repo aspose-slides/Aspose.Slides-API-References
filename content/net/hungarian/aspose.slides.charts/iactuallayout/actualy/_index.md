@@ -1,7 +1,7 @@
 ---
 title: ActualY
 second_title: Aspose.Sildes .NET API-referencia
-description: Megadja a diagram elem tényleges felső pozícióját a diagram bal felső sarkához viszonyítva. Hívja meg az IChart.ValidateChartLayout metódust előtte a tényleges értékek lekéréséhez. Olvasás: Single.
+description: "Megadja a diagram elem tényleges felső pozícióját a diagram bal felső sarkához viszonyítva. Hívja meg az IChart.ValidateChartLayout metódust előtte a tényleges értékek lekéréséhez. Olvasás: Single."
 type: docs
 weight: 40
 url: /hu/aspose.slides.charts/iactuallayout/actualy/

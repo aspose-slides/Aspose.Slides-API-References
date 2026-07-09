@@ -1,7 +1,7 @@
 ---
 title: ExplicitBreak
 second_title: Aspose.Sildes för .NET API-referens
-description: Explicit break specificerar om det finns ett radbryt vid början av Box-objektet så att raden bryts vid början av box-objektet. Anger numret på operatorn på föregående rad av matematisk text som ska användas som justeringspunkt för den aktuella raden av matematisk text. Möjliga värden: 1..255 Standard: 0 (ingen explicit radbryt)
+description: "Explicit break specificerar om det finns ett radbryt vid början av Box-objektet så att raden bryts vid början av box-objektet. Anger numret på operatorn på föregående rad av matematisk text som ska användas som justeringspunkt för den aktuella raden av matematisk text. Möjliga värden: 1..255 Standard: 0 (ingen explicit radbryt)"
 type: docs
 weight: 50
 url: /sv/aspose.slides.mathtext/imathbox/explicitbreak/

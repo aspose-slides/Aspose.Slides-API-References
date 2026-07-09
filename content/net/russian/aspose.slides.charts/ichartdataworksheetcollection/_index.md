@@ -1,6 +1,6 @@
 ---
 title: IChartDataWorksheetCollection
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет коллекцию рабочих листов рабочей книги данных диаграммы.
 type: docs
 weight: 1880

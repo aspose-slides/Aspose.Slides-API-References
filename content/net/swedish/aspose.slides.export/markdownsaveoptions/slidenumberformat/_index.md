@@ -1,7 +1,7 @@
 ---
 title: SlideNumberFormat
 second_title: Aspose.Sildes för .NET API-referens
-description: Hämtar eller anger formatsträngen som används för rubriker med bildnummer i Markdown-utdata. Formatet måste inkludera platshållaren "{0}" som ersätts med bildens index vid export. Exempel: "Slide 0" blir "Slide 1", "Slide 2" osv.
+description: "Hämtar eller anger formatsträngen som används för rubriker med bildnummer i Markdown-utdata. Formatet måste inkludera platshållaren \"{0}\" som ersätts med bildens index vid export. Exempel: \"Slide 0\" blir \"Slide 1\", \"Slide 2\" osv."
 type: docs
 weight: 120
 url: /sv/aspose.slides.export/markdownsaveoptions/slidenumberformat/

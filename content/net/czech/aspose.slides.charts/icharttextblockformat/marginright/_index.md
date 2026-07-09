@@ -1,7 +1,7 @@
 ---
 title: MarginRight
 second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Vrací nebo nastavuje pravý okraj v bodech v TextFrame. Změna této vlastnosti může mít určitý vliv pouze na následující části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2013; v PowerPoint 2007 nemá žádný vliv na vykreslování). Read/write Double.
+description: "Vrací nebo nastavuje pravý okraj v bodech v TextFrame. Změna této vlastnosti může mít určitý vliv pouze na následující části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2013; v PowerPoint 2007 nemá žádný vliv na vykreslování). Read/write Double."
 type: docs
 weight: 60
 url: /cs/aspose.slides.charts/icharttextblockformat/marginright/

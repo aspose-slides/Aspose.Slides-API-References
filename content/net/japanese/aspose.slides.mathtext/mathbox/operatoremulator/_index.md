@@ -1,7 +1,7 @@
 ---
 title: OperatorEmulator
 second_title: Aspose.Sildes の .NET API リファレンス
-description: Operator Emulator. true の場合、ボックスとその内容は単一の演算子として動作し、演算子のプロパティを継承します。このことは、たとえばその文字が改行位置として機能し、他の演算子に合わせて配置できることを意味します。Operator Emulators は、1 つ以上の字形が組み合わさって演算子を形成する場合（例: .）に頻繁に使用されます。既定値 false
+description: "Operator Emulator. true の場合、ボックスとその内容は単一の演算子として動作し、演算子のプロパティを継承します。このことは、たとえばその文字が改行位置として機能し、他の演算子に合わせて配置できることを意味します。Operator Emulators は、1 つ以上の字形が組み合わさって演算子を形成する場合（例: .）に頻繁に使用されます。既定値 false"
 type: docs
 weight: 70
 url: /ja/aspose.slides.mathtext/mathbox/operatoremulator/

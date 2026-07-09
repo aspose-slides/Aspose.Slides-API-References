@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar egenskaper för normal vy. Den normala vyn består av tre innehållsområden: själva bilden, ett sidoinnehållsområde och ett botteninnehållsområde. Skrivskyddad INormalViewPropertiesaspose.slides/inormalviewproperties.
+description: "Representerar egenskaper för normal vy. Den normala vyn består av tre innehållsområden: själva bilden, ett sidoinnehållsområde och ett botteninnehållsområde. Skrivskyddad INormalViewPropertiesaspose.slides/inormalviewproperties."
 type: docs
 weight: 30
 url: /sv/aspose.slides/viewproperties/normalviewproperties/

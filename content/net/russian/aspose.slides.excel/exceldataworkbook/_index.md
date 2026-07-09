@@ -1,6 +1,6 @@
 ---
 title: ExcelDataWorkbook
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет книгу, предоставляющую доступ к данным Excel для общего использования.
 type: docs
 weight: 3690

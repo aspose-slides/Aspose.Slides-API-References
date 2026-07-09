@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ActiveX プロパティのコレクションを返します。 注: Aspose.Slides は XML ベースの ActiveX プロパティのみをサポートします。 プロパティがバイナリ形式で保存されている場合、このプロパティは null を返します。 読み取り専用 IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection.
+description: "ActiveX プロパティのコレクションを返します。 注: Aspose.Slides は XML ベースの ActiveX プロパティのみをサポートします。 プロパティがバイナリ形式で保存されている場合、このプロパティは null を返します。 読み取り専用 IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection."
 type: docs
 weight: 60
 url: /ja/aspose.slides/control/properties/

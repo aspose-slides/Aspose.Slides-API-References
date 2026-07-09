@@ -1,6 +1,6 @@
 ---
 title: DisplayBlanksAsType
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Определяет, как будут отображаться отсутствующие данные.
 type: docs
 weight: 1610

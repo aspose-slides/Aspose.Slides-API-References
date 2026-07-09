@@ -1,6 +1,6 @@
 ---
 title: SideDirectionTransition
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Эффект перехода слайда в боковом направлении.
 type: docs
 weight: 10310

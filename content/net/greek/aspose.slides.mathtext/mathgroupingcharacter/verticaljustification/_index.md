@@ -1,7 +1,7 @@
 ---
 title: VerticalJustification
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Κατακόρυφη στοίχιση του χαρακτήρα ομάδας. Καθορίζει την ευθυγράμμιση του αντικειμένου σε σχέση με τη γραμμή βάσης. Για παράδειγμα, όταν ο χαρακτήρας ομάδας είναι πάνω από το αντικείμενο, το VerticalJustification του Top υποδεικνύει ότι η κορυφή του αντικειμένου βρίσκεται στη γραμμή βάσης· όταν το VerticalJustification ορίζεται σε Bottom, το κάτω μέρος του αντικειμένου είναι στη γραμμή βάσης. Προεπιλογή: Bottom για PositionTop και Top για PositionBottom
+description: "Κατακόρυφη στοίχιση του χαρακτήρα ομάδας. Καθορίζει την ευθυγράμμιση του αντικειμένου σε σχέση με τη γραμμή βάσης. Για παράδειγμα, όταν ο χαρακτήρας ομάδας είναι πάνω από το αντικείμενο, το VerticalJustification του Top υποδεικνύει ότι η κορυφή του αντικειμένου βρίσκεται στη γραμμή βάσης· όταν το VerticalJustification ορίζεται σε Bottom, το κάτω μέρος του αντικειμένου είναι στη γραμμή βάσης. Προεπιλογή: Bottom για PositionTop και Top για PositionBottom"
 type: docs
 weight: 50
 url: /el/aspose.slides.mathtext/mathgroupingcharacter/verticaljustification/

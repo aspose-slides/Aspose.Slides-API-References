@@ -1,7 +1,7 @@
 ---
 title: Preserve
 second_title: Aspose.Sildes dla .NET Referencja API
-description: Określa, czy odpowiedni master zostanie usunięty, gdy wszystkie slajdy następujące po tym masterze zostaną usunięte. Uwaga: Aspose.Slides nigdy nie usunie żadnego nieużywanego mastera samodzielnie; aby rzeczywiście usunąć nieużywane mastery, wywołaj RemoveUnusedaspose.slides/imasterslidecollection/removeunused Read/write Boolean.
+description: "Określa, czy odpowiedni master zostanie usunięty, gdy wszystkie slajdy następujące po tym masterze zostaną usunięte. Uwaga: Aspose.Slides nigdy nie usunie żadnego nieużywanego mastera samodzielnie; aby rzeczywiście usunąć nieużywane mastery, wywołaj RemoveUnusedaspose.slides/imasterslidecollection/removeunused Read/write Boolean."
 type: docs
 weight: 90
 url: /pl/aspose.slides/imasterslide/preserve/

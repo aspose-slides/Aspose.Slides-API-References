@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBar
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: chartType이 Bar 하위 유형 중 하나인 경우 true를 반환합니다. 하위 유형 집합은 PowerPoint의 해당 집합과 일치합니다. PowerPoint에서 'Change Chart Type' 대화 상자를 참조하십시오: ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid.
+description: "chartType이 Bar 하위 유형 중 하나인 경우 true를 반환합니다. 하위 유형 집합은 PowerPoint의 해당 집합과 일치합니다. PowerPoint에서 'Change Chart Type' 대화 상자를 참조하십시오: ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid."
 type: docs
 weight: 60
 url: /ko/aspose.slides.charts/charttypecharacterizer/ischarttypebar/

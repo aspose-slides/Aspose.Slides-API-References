@@ -1,7 +1,7 @@
 ---
 title: MathNaryOperator
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Megad egy N-áris matematikai objektumot, például Summation és Integral. Operátorból, egy alapelemről vagy operandusról, valamint opcionális felső és alsó határból áll. N-áris operátorok példái: Summation, Union, Intersection, Integral
+description: "Megad egy N-áris matematikai objektumot, például Summation és Integral. Operátorból, egy alapelemről vagy operandusról, valamint opcionális felső és alsó határból áll. N-áris operátorok példái: Summation, Union, Intersection, Integral"
 type: docs
 weight: 8870
 url: /hu/aspose.slides.mathtext/mathnaryoperator/

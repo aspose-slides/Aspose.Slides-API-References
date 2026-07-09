@@ -1,7 +1,7 @@
 ---
 title: ShowLabelAsDataCallout
 second_title: Aspose.Sildes の .NET API リファレンス
-description: 指定されたチャートのデータラベルがデータコールアウトとして表示されるか、データラベルとして表示されるかを決定します。もしこの DataLabelFormat オブジェクトの親が DataLabelCollection（データラベルのコレクション）である場合、このプロパティは DataLabelCollection 内の新しいデータラベルに対する ShowLabelAsDataCallout プロパティのデフォルト値を取得または設定します。このプロパティに値を設定すると、DataLabelCollection 内のすべてのデータラベルの ShowLabelAsDataCallout プロパティにも同じ値が設定されます（例: DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val がすべての DataLabelsi.ShowLabelAsDataCallout を val に等しくします）。
+description: "指定されたチャートのデータラベルがデータコールアウトとして表示されるか、データラベルとして表示されるかを決定します。もしこの DataLabelFormat オブジェクトの親が DataLabelCollection（データラベルのコレクション）である場合、このプロパティは DataLabelCollection 内の新しいデータラベルに対する ShowLabelAsDataCallout プロパティのデフォルト値を取得または設定します。このプロパティに値を設定すると、DataLabelCollection 内のすべてのデータラベルの ShowLabelAsDataCallout プロパティにも同じ値が設定されます（例: DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val がすべての DataLabelsi.ShowLabelAsDataCallout を val に等しくします）。"
 type: docs
 weight: 90
 url: /ja/aspose.slides.charts/datalabelformat/showlabelasdatacallout/

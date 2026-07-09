@@ -1,7 +1,7 @@
 ---
 title: IMathAccent
 second_title: Aspose.Sildes için .NET API Referansı
-description: Temel ve birleştirici diakritik işaretten oluşan aksan işlevini belirtir. Örnek: ́
+description: "Temel ve birleştirici diakritik işaretten oluşan aksan işlevini belirtir. Örnek: ́"
 type: docs
 weight: 8080
 url: /tr/aspose.slides.mathtext/imathaccent/

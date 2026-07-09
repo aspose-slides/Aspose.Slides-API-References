@@ -1,6 +1,6 @@
 ---
 title: MathParagraphFactory
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Позволяет создать математический абзац
 type: docs
 weight: 8910

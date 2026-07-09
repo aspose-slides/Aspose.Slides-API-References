@@ -1,7 +1,7 @@
 ---
 title: MarginBottom
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يرجع أو يضبط نقاط الهامش السفلي في TextFrame. يمكن أن يؤدي تغيير هذه الخاصية إلى تأثير معين فقط لأجزاء المخطط التالية: DataLabel و DataLabelFormat. دعم كامل في PowerPoint 2013؛ في PowerPoint 2007 لا يوجد تأثير على العرض. قراءة/كتابة Double.
+description: "يرجع أو يضبط نقاط الهامش السفلي في TextFrame. يمكن أن يؤدي تغيير هذه الخاصية إلى تأثير معين فقط لأجزاء المخطط التالية: DataLabel و DataLabelFormat. دعم كامل في PowerPoint 2013؛ في PowerPoint 2007 لا يوجد تأثير على العرض. قراءة/كتابة Double."
 type: docs
 weight: 40
 url: /ar/aspose.slides.charts/icharttextblockformat/marginbottom/

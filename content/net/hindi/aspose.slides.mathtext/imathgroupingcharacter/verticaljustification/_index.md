@@ -1,7 +1,7 @@
 ---
 title: VerticalJustification
 second_title: Aspose.Sildes for .NET API रेफ़रेंस
-description: समूह कैरेक्टर का VerticalJustification। ऑब्जेक्ट का बेसलाइन के सापेक्ष संरेखण निर्दिष्ट करता है। उदाहरण के लिए, जब समूह कैरेक्टर ऑब्जेक्ट के ऊपर होता है, तो Top का VerticalJustification दर्शाता है कि ऑब्जेक्ट का शीर्ष बेसलाइन पर है; जब VerticalJustification को Bottom पर सेट किया जाता है, तो ऑब्जेक्ट का निचला हिस्सा बेसलाइन पर रहता है। डिफ़ॉल्ट: PositionTop के लिए Bottom और PositionBottom के लिए Top।
+description: "समूह कैरेक्टर का VerticalJustification। ऑब्जेक्ट का बेसलाइन के सापेक्ष संरेखण निर्दिष्ट करता है। उदाहरण के लिए, जब समूह कैरेक्टर ऑब्जेक्ट के ऊपर होता है, तो Top का VerticalJustification दर्शाता है कि ऑब्जेक्ट का शीर्ष बेसलाइन पर है; जब VerticalJustification को Bottom पर सेट किया जाता है, तो ऑब्जेक्ट का निचला हिस्सा बेसलाइन पर रहता है। डिफ़ॉल्ट: PositionTop के लिए Bottom और PositionBottom के लिए Top।"
 type: docs
 weight: 50
 url: /hi/aspose.slides.mathtext/imathgroupingcharacter/verticaljustification/

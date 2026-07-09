@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Xác định cách căn chỉnh của mảng so với văn bản xung quanh. Văn bản bên ngoài mảng có thể được căn chỉnh với đáy, trên hoặc trung tâm của đối tượng mảng. Giá trị mặc định: Center
+description: "Xác định cách căn chỉnh của mảng so với văn bản xung quanh. Văn bản bên ngoài mảng có thể được căn chỉnh với đáy, trên hoặc trung tâm của đối tượng mảng. Giá trị mặc định: Center"
 type: docs
 weight: 30
 url: /vi/aspose.slides.mathtext/imatharray/basejustification/

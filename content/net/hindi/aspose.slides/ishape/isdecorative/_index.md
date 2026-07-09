@@ -1,7 +1,7 @@
 ---
 title: IsDecorative
 second_title: Aspose.Sildes .NET API संदर्भ
-description: 'Mark as decorative' विकल्प को पढ़ें/लिखें बूलियन के रूप में प्राप्त करता है या सेट करता है।
+description: "'Mark as decorative' विकल्प को पढ़ें/लिखें बूलियन के रूप में प्राप्त करता है या सेट करता है।"
 type: docs
 weight: 130
 url: /hi/aspose.slides/ishape/isdecorative/

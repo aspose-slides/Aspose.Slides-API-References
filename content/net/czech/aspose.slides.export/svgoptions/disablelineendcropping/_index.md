@@ -1,7 +1,7 @@
 ---
 title: DisableLineEndCropping
 second_title: Aspose.Sildes pro .NET – reference API
-description: SVG 1.1 postrádá možnost definovat odsazení pro značky. Aspose.Slides SVG zápisový engine má pro tento problém řešení: ořízne konec čáry s šipkou, aby čára nepřekrývala značky. Tato možnost vypíná takové chování. Čtení/Zápis Boolean.
+description: "SVG 1.1 postrádá možnost definovat odsazení pro značky. Aspose.Slides SVG zápisový engine má pro tento problém řešení: ořízne konec čáry s šipkou, aby čára nepřekrývala značky. Tato možnost vypíná takové chování. Čtení/Zápis Boolean."
 type: docs
 weight: 90
 url: /cs/aspose.slides.export/svgoptions/disablelineendcropping/

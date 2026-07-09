@@ -1,7 +1,7 @@
 ---
 title: Preserve
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Bepaalt of de bijbehorende master wordt verwijderd wanneer alle dia's die die master volgen, worden verwijderd. Opmerking: Aspose.Slides zal nooit zelf een ongebruikte master verwijderen; om daadwerkelijk ongebruikte masters te verwijderen, roep RemoveUnusedaspose.slides/masterslidecollection/removeunused aan. Read/write Boolean.
+description: "Bepaalt of de bijbehorende master wordt verwijderd wanneer alle dia's die die master volgen, worden verwijderd. Opmerking: Aspose.Slides zal nooit zelf een ongebruikte master verwijderen; om daadwerkelijk ongebruikte masters te verwijderen, roep RemoveUnusedaspose.slides/masterslidecollection/removeunused aan. Read/write Boolean."
 type: docs
 weight: 80
 url: /nl/aspose.slides/masterslide/preserve/

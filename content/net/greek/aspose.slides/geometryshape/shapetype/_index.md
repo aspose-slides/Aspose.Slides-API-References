@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes για την αναφορά API του .NET
-description: Επιστρέφει ή ορίζει τον προεπιλεγμένο τύπο γεωμετρίας. Σημείωση: όταν αλλάζει η τιμή, όλες οι τιμές προσαρμογής επανέρχονται στις προεπιλεγμένες τιμές τους. Ανάγνωση/εγγραφή ShapeTypeaspose.slides/shapetype.
+description: "Επιστρέφει ή ορίζει τον προεπιλεγμένο τύπο γεωμετρίας. Σημείωση: όταν αλλάζει η τιμή, όλες οι τιμές προσαρμογής επανέρχονται στις προεπιλεγμένες τιμές τους. Ανάγνωση/εγγραφή ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 30
 url: /el/aspose.slides/geometryshape/shapetype/

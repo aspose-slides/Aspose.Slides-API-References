@@ -1,7 +1,7 @@
 ---
 title: INormalViewProperties
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคุณสมบัติของมุมมองปกติ มุมมองปกติประกอบด้วยสามพื้นที่เนื้อหา: สไลด์เอง, พื้นที่เนื้อหาด้านข้าง และพื้นที่เนื้อหาด้านล่าง
+description: "แสดงถึงคุณสมบัติของมุมมองปกติ มุมมองปกติประกอบด้วยสามพื้นที่เนื้อหา: สไลด์เอง, พื้นที่เนื้อหาด้านข้าง และพื้นที่เนื้อหาด้านล่าง"
 type: docs
 weight: 6470
 url: /th/aspose.slides/inormalviewproperties/

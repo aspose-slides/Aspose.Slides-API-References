@@ -1,7 +1,7 @@
 ---
 title: AutofitType
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về hoặc đặt chế độ tự điều chỉnh văn bản. Việc thay đổi thuộc tính này chỉ có thể ảnh hưởng nhất định cho các phần biểu đồ sau: DataLabel và DataLabelFormat; hỗ trợ đầy đủ trong PowerPoint 2013; trong PowerPoint 2007 không có tác động khi hiển thị. Đọc/ghi TextAutofitTypeaspose.slides/textautofittype.
+description: "Trả về hoặc đặt chế độ tự điều chỉnh văn bản. Việc thay đổi thuộc tính này chỉ có thể ảnh hưởng nhất định cho các phần biểu đồ sau: DataLabel và DataLabelFormat; hỗ trợ đầy đủ trong PowerPoint 2013; trong PowerPoint 2007 không có tác động khi hiển thị. Đọc/ghi TextAutofitTypeaspose.slides/textautofittype."
 type: docs
 weight: 20
 url: /vi/aspose.slides.charts/icharttextblockformat/autofittype/

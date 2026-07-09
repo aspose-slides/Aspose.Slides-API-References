@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Sildes for .NET API 참조
-description: ActiveX 속성의 모음을 반환합니다. 참고: Aspose.Slides는 XML 기반 ActiveX 속성만 지원합니다. 속성이 바이너리 형식으로 저장된 경우, 이 속성은 null을 반환합니다. 읽기 전용 IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection.
+description: "ActiveX 속성의 모음을 반환합니다. 참고: Aspose.Slides는 XML 기반 ActiveX 속성만 지원합니다. 속성이 바이너리 형식으로 저장된 경우, 이 속성은 null을 반환합니다. 읽기 전용 IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection."
 type: docs
 weight: 60
 url: /ko/aspose.slides/control/properties/

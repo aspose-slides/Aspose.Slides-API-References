@@ -1,7 +1,7 @@
 ---
 title: GetHyperlinkMouseOvers
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Dapatkan semua subobjek IHyperlinkContainer yang berisi HyperlinkMouseOver tidak null. Dengan objek IHyperlinkContainer yang diberikan, Anda dapat mengelola hyperlink-nya: membaca, memperbarui, atau menghapus. Lihat antarmuka IHyperlinkContainer.
+description: "Dapatkan semua subobjek IHyperlinkContainer yang berisi HyperlinkMouseOver tidak null. Dengan objek IHyperlinkContainer yang diberikan, Anda dapat mengelola hyperlink-nya: membaca, memperbarui, atau menghapus. Lihat antarmuka IHyperlinkContainer."
 type: docs
 weight: 30
 url: /id/aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers/

@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
 second_title: Aspose.Sildes .NET API referencia
-description: Lekéri vagy beállítja a diavetítés típusát. A következő SlideShowType aspose.slides/slideshowsettings/slideshowtype ősök képviselik: BrowsedAtKiosk aspose.slides/browsedatkiosk, PresentedBySpeaker aspose.slides/presentedbyspeaker és BrowsedByIndividual aspose.slides/browsedbyindividual
+description: "Lekéri vagy beállítja a diavetítés típusát. A következő SlideShowType aspose.slides/slideshowsettings/slideshowtype ősök képviselik: BrowsedAtKiosk aspose.slides/browsedatkiosk, PresentedBySpeaker aspose.slides/presentedbyspeaker és BrowsedByIndividual aspose.slides/browsedbyindividual"
 type: docs
 weight: 70
 url: /hu/aspose.slides/slideshowsettings/slideshowtype/

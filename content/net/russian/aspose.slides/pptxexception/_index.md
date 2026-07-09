@@ -1,6 +1,6 @@
 ---
 title: PptxException
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет стандартный внутренний тип исключения.
 type: docs
 weight: 9560

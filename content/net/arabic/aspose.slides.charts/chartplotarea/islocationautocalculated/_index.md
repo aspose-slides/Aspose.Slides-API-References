@@ -1,7 +1,7 @@
 ---
 title: IsLocationAutocalculated
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يحدد كيفية حساب الموقع: true – يتم حسابه تلقائيًا؛ يتم تحديده بواسطة خصائص X و Y و Width و Height. قراءة فقط Boolean.
+description: "يحدد كيفية حساب الموقع: true – يتم حسابه تلقائيًا؛ يتم تحديده بواسطة خصائص X و Y و Width و Height. قراءة فقط Boolean."
 type: docs
 weight: 90
 url: /ar/aspose.slides.charts/chartplotarea/islocationautocalculated/

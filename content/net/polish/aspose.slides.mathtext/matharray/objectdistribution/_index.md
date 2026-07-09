@@ -1,7 +1,7 @@
 ---
 title: ObjectDistribution
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Rozmieszczenie obiektów: gdy wartość jest prawdziwa, zawartość tablicy jest rozmieszczana na maksymalną szerokość obiektu tablicy.
+description: "Rozmieszczenie obiektów: gdy wartość jest prawdziwa, zawartość tablicy jest rozmieszczana na maksymalną szerokość obiektu tablicy."
 type: docs
 weight: 50
 url: /pl/aspose.slides.mathtext/matharray/objectdistribution/

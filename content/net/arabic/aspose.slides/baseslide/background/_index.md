@@ -1,6 +1,6 @@
 ---
 title: Background
-second_title: Aspose.Sildes لـ .NET: مرجع API
+second_title: "Aspose.Sildes لـ .NET: مرجع API"
 description: يرجع خلفية الشرائح. للقراءة فقط IBackgroundaspose.slides/ibackground.
 type: docs
 weight: 10

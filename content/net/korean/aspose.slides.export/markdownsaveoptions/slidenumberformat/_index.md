@@ -1,7 +1,7 @@
 ---
 title: SlideNumberFormat
 second_title: Aspose.Sildes for .NET API 참조
-description: Markdown 출력에서 슬라이드 번호 헤더에 사용되는 형식 문자열을 가져오거나 설정합니다. 형식 문자열에는 슬라이드 인덱스로 교체될 0 자리 표시자가 포함되어야 합니다. 예: Slide 0은 Slide 1, Slide 2 등으로 출력됩니다.
+description: "Markdown 출력에서 슬라이드 번호 헤더에 사용되는 형식 문자열을 가져오거나 설정합니다. 형식 문자열에는 슬라이드 인덱스로 교체될 0 자리 표시자가 포함되어야 합니다. 예: Slide 0은 Slide 1, Slide 2 등으로 출력됩니다."
 type: docs
 weight: 120
 url: /ko/aspose.slides.export/markdownsaveoptions/slidenumberformat/

@@ -1,7 +1,7 @@
 ---
 title: Formula
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Τύποι μέσα σε τιμές, στα χαρακτηριστικά from, to, by, μπορούν να αποτελούν τα εξής: Τυπικοί αριθμητικοί τελεστές  -  /   mod Σταθερές pi e Συνθήκες τελεστές abs min max if Συγκριτικοί τελεστές gt Τριγωνομετρικοί τελεστές sin cos tan asin acos atan Φυσικός λογάριθμος ln Αναφορές ιδιοτήτων host υποστηριζόμενες ιδιότητες για παράδειγμα ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- Ανάγνωση/εγγραφή String.
+description: "Τύποι μέσα σε τιμές, στα χαρακτηριστικά from, to, by, μπορούν να αποτελούν τα εξής: Τυπικοί αριθμητικοί τελεστές  -  /   mod Σταθερές pi e Συνθήκες τελεστές abs min max if Συγκριτικοί τελεστές gt Τριγωνομετρικοί τελεστές sin cos tan asin acos atan Φυσικός λογάριθμος ln Αναφορές ιδιοτήτων host υποστηριζόμενες ιδιότητες για παράδειγμα ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- Ανάγνωση/εγγραφή String."
 type: docs
 weight: 10
 url: /el/aspose.slides.animation/ipoint/formula/

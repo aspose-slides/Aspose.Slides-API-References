@@ -1,7 +1,7 @@
 ---
 title: NoBreak
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Tidak ada pemutusan. Properti ini menentukan properti tidak dapat diputus pada kotak objek. Jika bernilai true, tidak ada pemutusan baris yang dapat terjadi di dalam kotak. Hal ini dapat penting untuk emulator operator yang terdiri dari lebih dari satu operator biner. Jika elemen ini tidak ditentukan, pemutusan dapat terjadi di dalam kotak. Bawaan: true
+description: "Tidak ada pemutusan. Properti ini menentukan properti tidak dapat diputus pada kotak objek. Jika bernilai true, tidak ada pemutusan baris yang dapat terjadi di dalam kotak. Hal ini dapat penting untuk emulator operator yang terdiri dari lebih dari satu operator biner. Jika elemen ini tidak ditentukan, pemutusan dapat terjadi di dalam kotak. Bawaan: true"
 type: docs
 weight: 60
 url: /id/aspose.slides.mathtext/imathbox/nobreak/

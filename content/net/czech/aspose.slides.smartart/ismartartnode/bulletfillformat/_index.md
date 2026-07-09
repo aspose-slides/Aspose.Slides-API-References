@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vrací objekt FillFormat, který obsahuje vlastnosti formátování výplně pro odrážku uzlu. Poznámka: může vrátit null u některých typů rozvržení SmartArt, které neposkytuje odrážky pro uzly. Pouze pro čtení IFillFormataspose.slides/ifillformat.
+description: "Vrací objekt FillFormat, který obsahuje vlastnosti formátování výplně pro odrážku uzlu. Poznámka: může vrátit null u některých typů rozvržení SmartArt, které neposkytuje odrážky pro uzly. Pouze pro čtení IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 10
 url: /cs/aspose.slides.smartart/ismartartnode/bulletfillformat/

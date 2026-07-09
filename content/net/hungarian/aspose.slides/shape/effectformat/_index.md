@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Visszaadja az EffectFormat objektumot, amely pixelhatásokat tartalmaz, amelyeket egy alakzatra alkalmaztak. Megjegyzés: bizonyos típusú alakzatok esetén, amelyeknek nincs hatás tulajdonsága, null értéket adhat vissza. Csak olvasható IEffectFormataspose.slides/ieffectformat.
+description: "Visszaadja az EffectFormat objektumot, amely pixelhatásokat tartalmaz, amelyeket egy alakzatra alkalmaztak. Megjegyzés: bizonyos típusú alakzatok esetén, amelyeknek nincs hatás tulajdonsága, null értéket adhat vissza. Csak olvasható IEffectFormataspose.slides/ieffectformat."
 type: docs
 weight: 60
 url: /hu/aspose.slides/shape/effectformat/

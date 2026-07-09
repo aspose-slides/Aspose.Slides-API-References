@@ -1,7 +1,7 @@
 ---
 title: DimensionSize
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Specifica la dimensione dell'area della diapositiva: larghezza quando è un figlio di RestoredTop, altezza quando è un figlio di RestoredLeft. Lettura/scrittura Single. Genera un'eccezione quando il valore è inferiore a 0 o maggiore di 100.
+description: "Specifica la dimensione dell'area della diapositiva: larghezza quando è un figlio di RestoredTop, altezza quando è un figlio di RestoredLeft. Lettura/scrittura Single. Genera un'eccezione quando il valore è inferiore a 0 o maggiore di 100."
 type: docs
 weight: 20
 url: /it/aspose.slides/inormalviewrestoredproperties/dimensionsize/

@@ -1,7 +1,7 @@
 ---
 title: IStringChartValue
 second_title: Aspose.Sildes .NET API-referencia
-description: Karakterlánc értéket képvisel, amely két módon tárolható pptx prezentációs dokumentumban: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban, 2) literális értékként.
+description: "Karakterlánc értéket képvisel, amely két módon tárolható pptx prezentációs dokumentumban: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban, 2) literális értékként."
 type: docs
 weight: 2220
 url: /hu/aspose.slides.charts/istringchartvalue/

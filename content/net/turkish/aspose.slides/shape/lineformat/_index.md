@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Slides için .NET API Referansı
-description: Bir şekil için satır biçimlendirme özelliklerini içeren LineFormat nesnesini döndürür. Not: satır özelliklerine sahip olmayan bazı şekil türleri için null döndürebilir. Salt okunur ILineFormataspose.slides/ilineformat.
+description: "Bir şekil için satır biçimlendirme özelliklerini içeren LineFormat nesnesini döndürür. Not: satır özelliklerine sahip olmayan bazı şekil türleri için null döndürebilir. Salt okunur ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 170
 url: /tr/aspose.slides/shape/lineformat/

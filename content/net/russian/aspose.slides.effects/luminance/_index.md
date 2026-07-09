@@ -1,6 +1,6 @@
 ---
 title: Luminance
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет эффект Luminance. Яркость линейно смещает все цвета ближе к белому или чёрному. Контраст масштабирует все цвета, делая их ближе или дальше друг от друга.
 type: docs
 weight: 3610

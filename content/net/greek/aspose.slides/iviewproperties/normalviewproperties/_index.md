@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Αναφορά API Aspose.Sildes για .NET
-description: Αναπαριστά τις ιδιότητες της κανονικής προβολής. Η κανονική προβολή αποτελείται από τρεις περιοχές περιεχομένου: τη διαφάνεια, μια πλευρική περιοχή περιεχομένου και μια κάτω περιοχή περιεχομένου. Μόνο για ανάγνωση INormalViewPropertiesaspose.slides/inormalviewproperties.
+description: "Αναπαριστά τις ιδιότητες της κανονικής προβολής. Η κανονική προβολή αποτελείται από τρεις περιοχές περιεχομένου: τη διαφάνεια, μια πλευρική περιοχή περιεχομένου και μια κάτω περιοχή περιεχομένου. Μόνο για ανάγνωση INormalViewPropertiesaspose.slides/inormalviewproperties."
 type: docs
 weight: 30
 url: /el/aspose.slides/iviewproperties/normalviewproperties/

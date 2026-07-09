@@ -1,7 +1,7 @@
 ---
 title: MathAccent
 second_title: Aspose.Sildes .NET API referencia
-description: Megadja az akcentus függvényt, amely egy alapból és egy kombináló diakritikus jelből áll. Példa: ́
+description: "Megadja az akcentus függvényt, amely egy alapból és egy kombináló diakritikus jelből áll. Példa: ́"
 type: docs
 weight: 8530
 url: /hu/aspose.slides.mathtext/mathaccent/

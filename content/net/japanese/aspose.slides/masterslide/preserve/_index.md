@@ -1,7 +1,7 @@
 ---
 title: Preserve
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 対応するマスターに続くすべてのスライドが削除されたときに、そのマスターが削除されるかどうかを決定します。注: Aspose.Slides は未使用のマスターを自動的に削除しません。未使用のマスターを実際に削除するには、RemoveUnusedaspose.slides/masterslidecollection/removeunused を呼び出してください。 Read/write Boolean.
+description: "対応するマスターに続くすべてのスライドが削除されたときに、そのマスターが削除されるかどうかを決定します。注: Aspose.Slides は未使用のマスターを自動的に削除しません。未使用のマスターを実際に削除するには、RemoveUnusedaspose.slides/masterslidecollection/removeunused を呼び出してください。 Read/write Boolean."
 type: docs
 weight: 80
 url: /ja/aspose.slides/masterslide/preserve/

@@ -1,6 +1,6 @@
 ---
 title: Slide
-second_title: Aspose.Sildes для .NET: справка API
+second_title: "Aspose.Sildes для .NET: справка API"
 description: Представляет слайд в презентации.
 type: docs
 weight: 9960

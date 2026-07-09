@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
 second_title: Aspose.Sildes برای .NET مرجع API
-description: یک شی FillFormat را برمی‌گرداند که شامل ویژگی‌های قالب‌بندی پر برای یک گلوله گره است. توجه: ممکن است برای برخی انواع طرح‌بندی SmartArt که برای گره‌ها گلوله فراهم نمی‌کند، مقدار null برگرداند. فقط خواندنی IFillFormataspose.slides/ifillformat.
+description: "یک شی FillFormat را برمی‌گرداند که شامل ویژگی‌های قالب‌بندی پر برای یک گلوله گره است. توجه: ممکن است برای برخی انواع طرح‌بندی SmartArt که برای گره‌ها گلوله فراهم نمی‌کند، مقدار null برگرداند. فقط خواندنی IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 10
 url: /fa/aspose.slides.smartart/smartartnode/bulletfillformat/

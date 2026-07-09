@@ -1,6 +1,6 @@
 ---
 title: IChartPortionFormat
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет свойства форматирования частей диаграммы, используемые в диаграммах.
 type: docs
 weight: 1920

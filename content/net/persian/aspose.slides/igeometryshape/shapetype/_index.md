@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes برای مرجع API .NET
-description: مقدار یا تنظیم می‌کند نوع پیش‌تنظیم هندسه. توجه: با تغییر مقدار، تمام مقادیر تنظیمی به مقادیر پیش‌فرض خود باز می‌گردند. خواندنی/قابل نوشتن ShapeTypeaspose.slides/shapetype.
+description: "مقدار یا تنظیم می‌کند نوع پیش‌تنظیم هندسه. توجه: با تغییر مقدار، تمام مقادیر تنظیمی به مقادیر پیش‌فرض خود باز می‌گردند. خواندنی/قابل نوشتن ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 40
 url: /fa/aspose.slides/igeometryshape/shapetype/

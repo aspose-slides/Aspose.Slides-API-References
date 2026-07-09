@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes .NET API referenciája
-description: A jelmagyarázat bejegyzés tulajdonságait adja vissza, amely a Chart.ChartData.Series0.DataPointsindex-hez tartozik, ha a diagram típusa a következő listából származik: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; vagy a Chart.ChartData.Seriesindex-hez tartozik más diagramtípusok esetén.
+description: "A jelmagyarázat bejegyzés tulajdonságait adja vissza, amely a Chart.ChartData.Series0.DataPointsindex-hez tartozik, ha a diagram típusa a következő listából származik: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; vagy a Chart.ChartData.Seriesindex-hez tartozik más diagramtípusok esetén."
 type: docs
 weight: 20
 url: /hu/aspose.slides.charts/legendentrycollection/item/

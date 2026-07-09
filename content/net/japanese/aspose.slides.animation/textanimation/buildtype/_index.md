@@ -1,7 +1,7 @@
 ---
 title: BuildType
 second_title: Aspose.Sildes の .NET API リファレンス
-description: テキストアニメーションのビルドタイプ（例: Paragraph 123、All at Once）の一覧です。読み取り/書き込み可能 BuildTypeaspose.slides.animation/buildtype.
+description: "テキストアニメーションのビルドタイプ（例: Paragraph 123、All at Once）の一覧です。読み取り/書き込み可能 BuildTypeaspose.slides.animation/buildtype."
 type: docs
 weight: 20
 url: /ja/aspose.slides.animation/textanimation/buildtype/

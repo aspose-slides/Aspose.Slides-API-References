@@ -1,7 +1,7 @@
 ---
 title: RowGap
 second_title: Aspose.Sildes dla .NET dokumentacja API
-description: Wartość pionowego odstępu między wierszami macierzy; jeśli RowGapRule jest ustawiony na 3 (Exactly), jednostka jest interpretowana jako twipy (1/20 punktu). Jeśli RowGapRule jest ustawiony na 4 (Multiple), jednostka jest interpretowana jako półwiersze. Domyślnie: 0
+description: "Wartość pionowego odstępu między wierszami macierzy; jeśli RowGapRule jest ustawiony na 3 (Exactly), jednostka jest interpretowana jako twipy (1/20 punktu). Jeśli RowGapRule jest ustawiony na 4 (Multiple), jednostka jest interpretowana jako półwiersze. Domyślnie: 0"
 type: docs
 weight: 100
 url: /pl/aspose.slides.mathtext/imathmatrix/rowgap/

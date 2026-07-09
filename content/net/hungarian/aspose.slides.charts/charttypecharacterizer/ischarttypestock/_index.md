@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeStock
 second_title: Aspose.Sildes .NET API Referencia
-description: Igaz értéket ad vissza, ha a chartType a Stock altípusok egyike. Az altípusok halmaza megfelel a PowerPoint megfelelő halmazának, lásd a PowerPointban a „Change Chart Type” párbeszédablakot: HighLowClose OpenHighLowClose VolumeHighLowClose VolumeOpenHighLowClose.
+description: "Igaz értéket ad vissza, ha a chartType a Stock altípusok egyike. Az altípusok halmaza megfelel a PowerPoint megfelelő halmazának, lásd a PowerPointban a „Change Chart Type” párbeszédablakot: HighLowClose OpenHighLowClose VolumeHighLowClose VolumeOpenHighLowClose."
 type: docs
 weight: 140
 url: /hu/aspose.slides.charts/charttypecharacterizer/ischarttypestock/

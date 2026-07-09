@@ -1,7 +1,7 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar sträng eller dubbelvärde som kan lagras i pptx-presentationsdokument på två sätt: 1) i cell/celler i arbetsbok relaterad till diagram 2) som ett bokstavligt värde.
+description: "Representerar sträng eller dubbelvärde som kan lagras i pptx-presentationsdokument på två sätt: 1) i cell/celler i arbetsbok relaterad till diagram 2) som ett bokstavligt värde."
 type: docs
 weight: 2420
 url: /sv/aspose.slides.charts/stringordoublechartvalue/

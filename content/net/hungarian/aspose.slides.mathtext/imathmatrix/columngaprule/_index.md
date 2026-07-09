@@ -1,7 +1,7 @@
 ---
 title: ColumnGapRule
 second_title: Aspose.Sildes .NET API hivatkozás
-description: A mátrix oszlopai közötti vízszintes távolság típusa. A vízszintes távolság egységei lehetnek em vagy pont, és twipben tárolódnak. Alapértelmezett: SingleSpacingGap 0
+description: "A mátrix oszlopai közötti vízszintes távolság típusa. A vízszintes távolság egységei lehetnek em vagy pont, és twipben tárolódnak. Alapértelmezett: SingleSpacingGap 0"
 type: docs
 weight: 50
 url: /hu/aspose.slides.mathtext/imathmatrix/columngaprule/

@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeStock
 second_title: Aspose.Sildes .NET API Referansı
-description: chartType, Stock alt türlerinden biriyse true döndürür. Alt türler kümesi, PowerPoint'teki uygun kümeye karşılık gelir; PowerPoint'te Change Chart Type iletişim kutusuna bakınız: HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose.
+description: "chartType, Stock alt türlerinden biriyse true döndürür. Alt türler kümesi, PowerPoint'teki uygun kümeye karşılık gelir; PowerPoint'te Change Chart Type iletişim kutusuna bakınız: HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose."
 type: docs
 weight: 140
 url: /tr/aspose.slides.charts/charttypecharacterizer/ischarttypestock/

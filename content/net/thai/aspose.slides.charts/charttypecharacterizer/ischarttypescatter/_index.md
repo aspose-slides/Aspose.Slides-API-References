@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeScatter
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คืนค่า true หาก chartType เป็นหนึ่งในประเภทย่อยของ Scatter. ชุดประเภทย่อยสอดคล้องกับชุดที่เหมาะสมใน PowerPoint ดูไดอะล็อก Change Chart Type ใน PowerPoint: ScatterWithMarkers ScatterWithSmoothLines ScatterWithSmoothLinesAndMarkers ScatterWithStraightLines ScatterWithStraightLinesAndMarkers.
+description: "คืนค่า true หาก chartType เป็นหนึ่งในประเภทย่อยของ Scatter. ชุดประเภทย่อยสอดคล้องกับชุดที่เหมาะสมใน PowerPoint ดูไดอะล็อก Change Chart Type ใน PowerPoint: ScatterWithMarkers ScatterWithSmoothLines ScatterWithSmoothLinesAndMarkers ScatterWithStraightLines ScatterWithStraightLinesAndMarkers."
 type: docs
 weight: 130
 url: /th/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/

@@ -1,7 +1,7 @@
 ---
 title: IStringChartValue
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn giá trị chuỗi có thể được lưu trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của workbook liên quan đến biểu đồ; 2) dưới dạng giá trị nguyên thủy.
+description: "Biểu diễn giá trị chuỗi có thể được lưu trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của workbook liên quan đến biểu đồ; 2) dưới dạng giá trị nguyên thủy."
 type: docs
 weight: 2220
 url: /vi/aspose.slides.charts/istringchartvalue/

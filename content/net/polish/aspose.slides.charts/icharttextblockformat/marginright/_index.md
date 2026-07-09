@@ -1,7 +1,7 @@
 ---
 title: MarginRight
 second_title: Aspose.Sildes dla .NET – referencja API
-description: Zwraca lub ustawia liczbę punktów prawego marginesu w elemencie TextFrame. Zmiana tej właściwości może mieć wpływ tylko na następujące części wykresu: DataLabel i DataLabelFormat (pełne wsparcie w PowerPoint 2013; w PowerPoint 2007 nie ma efektu przy renderowaniu). Odczyt/zapis Double.
+description: "Zwraca lub ustawia liczbę punktów prawego marginesu w elemencie TextFrame. Zmiana tej właściwości może mieć wpływ tylko na następujące części wykresu: DataLabel i DataLabelFormat (pełne wsparcie w PowerPoint 2013; w PowerPoint 2007 nie ma efektu przy renderowaniu). Odczyt/zapis Double."
 type: docs
 weight: 60
 url: /pl/aspose.slides.charts/icharttextblockformat/marginright/

@@ -1,7 +1,7 @@
 ---
 title: RowGapRule
 second_title: Aspose.Sildes .NET için API Referansı
-description: Bir matrisin satırları arasındaki dikey boşluk türü; Dikey boşluk birimleri satır veya nokta (twip olarak depolanır) olabilir. Varsayılan: SingleSpacingGap (0)
+description: "Bir matrisin satırları arasındaki dikey boşluk türü; Dikey boşluk birimleri satır veya nokta (twip olarak depolanır) olabilir. Varsayılan: SingleSpacingGap (0)"
 type: docs
 weight: 110
 url: /tr/aspose.slides.mathtext/mathmatrix/rowgaprule/

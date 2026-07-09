@@ -1,7 +1,7 @@
 ---
 title: MinColumnWidth
 second_title: Aspose.Sildes için .NET API Referansı
-description: Twip cinsinden minimum sütun genişliği (bir puanın 1/20'si). Boşluk aralığı, aynı zamanda "Column Gap" veya "Gap Width" olarak da bilinir, MinColumnWidth'e eklenerek farklı sütunların aynı kenarları arasındaki toplam Matrix Column Spacing (matris sütun aralığı) mesafesini belirler. Varsayılan: 0.
+description: "Twip cinsinden minimum sütun genişliği (bir puanın 1/20'si). Boşluk aralığı, aynı zamanda \"Column Gap\" veya \"Gap Width\" olarak da bilinir, MinColumnWidth'e eklenerek farklı sütunların aynı kenarları arasındaki toplam Matrix Column Spacing (matris sütun aralığı) mesafesini belirler. Varsayılan: 0."
 type: docs
 weight: 80
 url: /tr/aspose.slides.mathtext/imathmatrix/mincolumnwidth/

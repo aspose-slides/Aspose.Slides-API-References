@@ -1,6 +1,6 @@
 ---
 title: ToString
-second_title: Aspose.Sildes لـ .NET: مرجع API
+second_title: "Aspose.Sildes لـ .NET: مرجع API"
 description: تُرجع String تمثل تنسيق اللون الحالي.
 type: docs
 weight: 190

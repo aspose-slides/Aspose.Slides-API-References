@@ -1,7 +1,7 @@
 ---
 title: LimitLocation
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Lokalizacja limitów: subskrypt i superskrypt
+description: "Lokalizacja limitów: subskrypt i superskrypt"
 type: docs
 weight: 40
 url: /pl/aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation/

@@ -1,6 +1,6 @@
 ---
 title: EffectFormat
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет свойства эффектов фигуры.
 type: docs
 weight: 2830

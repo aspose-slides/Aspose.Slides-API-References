@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBar
 second_title: Aspose.Sildes for .NET API Referansı
-description: chartType bir Bar alt türlerinden biri ise true döndürür. Alt türler kümesi, PowerPoint'teki uygun küme ile eşleşir; PowerPoint'teki "Change Chart Type" iletişim kutusuna bakın: ClusteredBar ClusteredBar3D PercentsStackedBar PercentsStackedBar3D StackedBar StackedBar3D ClusteredHorizontalCone ClusteredHorizontalCylinder ClusteredHorizontalPyramid StackedHorizontalCone StackedHorizontalCylinder StackedHorizontalPyramid PercentsStackedHorizontalCone PercentsStackedHorizontalCylinder PercentsStackedHorizontalPyramid.
+description: "chartType bir Bar alt türlerinden biri ise true döndürür. Alt türler kümesi, PowerPoint'teki uygun küme ile eşleşir; PowerPoint'teki \"Change Chart Type\" iletişim kutusuna bakın: ClusteredBar ClusteredBar3D PercentsStackedBar PercentsStackedBar3D StackedBar StackedBar3D ClusteredHorizontalCone ClusteredHorizontalCylinder ClusteredHorizontalPyramid StackedHorizontalCone StackedHorizontalCylinder StackedHorizontalPyramid PercentsStackedHorizontalCone PercentsStackedHorizontalCylinder PercentsStackedHorizontalPyramid."
 type: docs
 weight: 60
 url: /tr/aspose.slides.charts/charttypecharacterizer/ischarttypebar/

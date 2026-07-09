@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes for .NET APIリファレンス
-description: ジオメトリのプリセットタイプを取得または設定します。注意: 値が変更されると、すべての調整値は既定値にリセットされます。読み取り/書き込み ShapeTypeaspose.slides/shapetype.
+description: "ジオメトリのプリセットタイプを取得または設定します。注意: 値が変更されると、すべての調整値は既定値にリセットされます。読み取り/書き込み ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 30
 url: /ja/aspose.slides/geometryshape/shapetype/

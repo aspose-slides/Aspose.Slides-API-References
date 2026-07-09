@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft het preset-type van de geometrie terug of stelt dit in. Opmerking: bij het wijzigen van de waarde worden alle aanpassingswaarden teruggezet naar hun standaardwaarden. Lezen/Schrijven ShapeTypeaspose.slides/shapetype.
+description: "Geeft het preset-type van de geometrie terug of stelt dit in. Opmerking: bij het wijzigen van de waarde worden alle aanpassingswaarden teruggezet naar hun standaardwaarden. Lezen/Schrijven ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 40
 url: /nl/aspose.slides/igeometryshape/shapetype/

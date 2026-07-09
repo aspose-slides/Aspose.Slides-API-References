@@ -1,7 +1,7 @@
 ---
 title: Preserve
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menentukan apakah master yang bersangkutan dihapus ketika semua slide yang mengikuti master tersebut dihapus. Catatan: Aspose.Slides tidak akan pernah menghapus master yang tidak terpakai secara otomatis; untuk benar-benar menghapus master yang tidak terpakai, panggil RemoveUnusedaspose.slides/masterslidecollection/removeunused Baca/tulis Boolean.
+description: "Menentukan apakah master yang bersangkutan dihapus ketika semua slide yang mengikuti master tersebut dihapus. Catatan: Aspose.Slides tidak akan pernah menghapus master yang tidak terpakai secara otomatis; untuk benar-benar menghapus master yang tidak terpakai, panggil RemoveUnusedaspose.slides/masterslidecollection/removeunused Baca/tulis Boolean."
 type: docs
 weight: 80
 url: /id/aspose.slides/masterslide/preserve/

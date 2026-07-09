@@ -1,7 +1,7 @@
 ---
 title: UniqueId
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 내부 프레젠테이션 범위 식별자를 반환하며, 이는 애드인 또는 기타 코드에서 사용하도록 설계되었습니다. 이 값은 사용자 또는 프로그래밍 방식으로 재할당될 수 있으므로 영구적인 고유 키로 취급해서는 안 됩니다. 읽기 전용 UInt32. 또한 참조: OfficeInteropShapeIdaspose.slides/ishape/officeinteropshapeid.
+description: "내부 프레젠테이션 범위 식별자를 반환하며, 이는 애드인 또는 기타 코드에서 사용하도록 설계되었습니다. 이 값은 사용자 또는 프로그래밍 방식으로 재할당될 수 있으므로 영구적인 고유 키로 취급해서는 안 됩니다. 읽기 전용 UInt32. 또한 참조: OfficeInteropShapeIdaspose.slides/ishape/officeinteropshapeid."
 type: docs
 weight: 250
 url: /ko/aspose.slides/ishape/uniqueid/

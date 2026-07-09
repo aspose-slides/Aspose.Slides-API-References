@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงคุณสมบัติการมองเห็นแบบปกติ. มุมมองปกติประกอบด้วยพื้นที่เนื้อหา 3 ส่วน: สไลด์เอง, พื้นที่เนื้อหาด้านข้าง, และพื้นที่เนื้อหาด้านล่าง. อ่านอย่างเดียว INormalViewPropertiesaspose.slides/inormalviewproperties.
+description: "แสดงคุณสมบัติการมองเห็นแบบปกติ. มุมมองปกติประกอบด้วยพื้นที่เนื้อหา 3 ส่วน: สไลด์เอง, พื้นที่เนื้อหาด้านข้าง, และพื้นที่เนื้อหาด้านล่าง. อ่านอย่างเดียว INormalViewPropertiesaspose.slides/inormalviewproperties."
 type: docs
 weight: 30
 url: /th/aspose.slides/viewproperties/normalviewproperties/

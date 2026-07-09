@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes per il riferimento API .NET
-description: Specifica l'allineamento dell'array rispetto al testo circostante. Il testo al di fuori dell'array può essere allineato con il bordo inferiore, superiore o al centro di un oggetto array. Valore predefinito: Center
+description: "Specifica l'allineamento dell'array rispetto al testo circostante. Il testo al di fuori dell'array può essere allineato con il bordo inferiore, superiore o al centro di un oggetto array. Valore predefinito: Center"
 type: docs
 weight: 30
 url: /it/aspose.slides.mathtext/imatharray/basejustification/

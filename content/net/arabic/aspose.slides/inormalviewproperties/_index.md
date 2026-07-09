@@ -1,7 +1,7 @@
 ---
 title: INormalViewProperties
 second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل خصائص العرض العادي. يتكون العرض العادي من ثلاث مناطق محتوى: الشريحة نفسها، ومنطقة محتوى جانبية، ومنطقة محتوى سفلية.
+description: "يمثل خصائص العرض العادي. يتكون العرض العادي من ثلاث مناطق محتوى: الشريحة نفسها، ومنطقة محتوى جانبية، ومنطقة محتوى سفلية."
 type: docs
 weight: 6470
 url: /ar/aspose.slides/inormalviewproperties/

@@ -1,7 +1,7 @@
 ---
 title: Formula
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Le formule all'interno dei valori degli attributi from, to, by possono essere composte da questi: Operatori aritmetici standard – / mod; Costanti pi e; Operatori condizionali abs min max if; Operatori di confronto gt; Operatori trigonometrici sin cos tan asin acos atan; Logaritmo naturale ln; Riferimenti alle proprietà supportate dall'host, ad esempio ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1-; String di lettura/scrittura.
+description: "Le formule all'interno dei valori degli attributi from, to, by possono essere composte da questi: Operatori aritmetici standard – / mod; Costanti pi e; Operatori condizionali abs min max if; Operatori di confronto gt; Operatori trigonometrici sin cos tan asin acos atan; Logaritmo naturale ln; Riferimenti alle proprietà supportate dall'host, ad esempio ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1-; String di lettura/scrittura."
 type: docs
 weight: 10
 url: /it/aspose.slides.animation/ipoint/formula/

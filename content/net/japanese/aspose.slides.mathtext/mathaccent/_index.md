@@ -1,7 +1,7 @@
 ---
 title: MathAccent
 second_title: Aspose.Sildes の .NET API リファレンス
-description: ベースと結合用ダイアクリティカルマークからなるアクセント関数を指定します 例: ́
+description: "ベースと結合用ダイアクリティカルマークからなるアクセント関数を指定します 例: ́"
 type: docs
 weight: 8530
 url: /ja/aspose.slides.mathtext/mathaccent/

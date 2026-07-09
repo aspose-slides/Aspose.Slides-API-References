@@ -1,6 +1,6 @@
 ---
 title: PresetColor
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет предопределённые наборы цветов.
 type: docs
 weight: 9660

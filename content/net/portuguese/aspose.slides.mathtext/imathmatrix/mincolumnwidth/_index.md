@@ -1,7 +1,7 @@
 ---
 title: MinColumnWidth
 second_title: Aspose.Sildes para .NET Referência da API
-description: Largura mínima da coluna em twips (1/20 de um ponto). O espaçamento de lacuna, também referido como Column Gap ou Gap Width, é adicionado ao MinColumnWidth para determinar o espaçamento total da coluna da Matrix (distância entre as mesmas bordas de colunas diferentes). Padrão: 0.
+description: "Largura mínima da coluna em twips (1/20 de um ponto). O espaçamento de lacuna, também referido como Column Gap ou Gap Width, é adicionado ao MinColumnWidth para determinar o espaçamento total da coluna da Matrix (distância entre as mesmas bordas de colunas diferentes). Padrão: 0."
 type: docs
 weight: 80
 url: /pt/aspose.slides.mathtext/imathmatrix/mincolumnwidth/

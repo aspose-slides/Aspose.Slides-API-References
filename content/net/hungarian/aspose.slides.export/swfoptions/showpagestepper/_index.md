@@ -1,7 +1,7 @@
 ---
 title: ShowPageStepper
 second_title: Aspose.Sildes .NET API Referenciája
-description: Megjeleníti vagy elrejti az oldalkövést. Felülírható a flashvars-ban. Alapértelmezett érték: true.
+description: "Megjeleníti vagy elrejti az oldalkövést. Felülírható a flashvars-ban. Alapértelmezett érték: true."
 type: docs
 weight: 120
 url: /hu/aspose.slides.export/swfoptions/showpagestepper/

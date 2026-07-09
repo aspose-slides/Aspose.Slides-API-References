@@ -1,9 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Sildes لمرجع API الخاص بـ .NET
-description: ير
-
-رج عرض الصورة. للقراءة فقط Int32.
+description: يرجع عرض الصورة. للقراءة فقط Int32.
 type: docs
 weight: 60
 url: /ar/aspose.slides/ppimage/width/

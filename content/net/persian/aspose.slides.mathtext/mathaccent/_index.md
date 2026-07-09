@@ -1,7 +1,7 @@
 ---
 title: MathAccent
 second_title: Aspose.Sildes برای .NET مرجع API
-description: عملکرد تأکید را که شامل یک پایه و یک علامت ترکیبی اعرابی است مشخص می‌کند. مثال: ́
+description: "عملکرد تأکید را که شامل یک پایه و یک علامت ترکیبی اعرابی است مشخص می‌کند. مثال: ́"
 type: docs
 weight: 8530
 url: /fa/aspose.slides.mathtext/mathaccent/

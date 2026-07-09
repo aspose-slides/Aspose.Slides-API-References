@@ -1,7 +1,7 @@
 ---
 title: IDoubleChartValue
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un valore double che può essere memorizzato in un documento di presentazione pptx in due modi: 1) in cella/celle della cartella di lavoro collegata al grafico; 2) come valore letterale.
+description: "Rappresenta un valore double che può essere memorizzato in un documento di presentazione pptx in due modi: 1) in cella/celle della cartella di lavoro collegata al grafico; 2) come valore letterale."
 type: docs
 weight: 2070
 url: /it/aspose.slides.charts/idoublechartvalue/

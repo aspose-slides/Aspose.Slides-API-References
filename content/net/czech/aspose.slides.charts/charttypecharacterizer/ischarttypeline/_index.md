@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeLine
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vrátí true, pokud je chartType jedním z podtypů Line. Množina podtypů odpovídá odpovídající sadě v PowerPoint (viz dialog Change Chart Type v PowerPoint): Line, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D.
+description: "Vrátí true, pokud je chartType jedním z podtypů Line. Množina podtypů odpovídá odpovídající sadě v PowerPoint (viz dialog Change Chart Type v PowerPoint): Line, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D."
 type: docs
 weight: 100
 url: /cs/aspose.slides.charts/charttypecharacterizer/ischarttypeline/

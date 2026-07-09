@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Określa określony atrybut efektu po efekcie animacji. Reprezentuje wartość punktową. Dozwolone: bool, ColorFormat, float, int, string. Odczyt/zapis Object.
+description: "Określa określony atrybut efektu po efekcie animacji. Reprezentuje wartość punktową. Dozwolone: bool, ColorFormat, float, int, string. Odczyt/zapis Object."
 type: docs
 weight: 20
 url: /pl/aspose.slides.animation/seteffect/to/

@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Retourneert het FillFormat-object dat de opvul-opmaak-eigenschappen voor een vorm bevat. Opmerking: kan null retourneren voor bepaalde typen vormen die geen opvuleigenschappen hebben. Read-only IFillFormataspose.slides/ifillformat.
+description: "Retourneert het FillFormat-object dat de opvul-opmaak-eigenschappen voor een vorm bevat. Opmerking: kan null retourneren voor bepaalde typen vormen die geen opvuleigenschappen hebben. Read-only IFillFormataspose.slides/ifillformat."
 type: docs
 weight: 70
 url: /nl/aspose.slides/shape/fillformat/

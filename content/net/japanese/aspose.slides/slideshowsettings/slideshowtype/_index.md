@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
 second_title: Aspose.Sildes の .NET API リファレンス
-description: スライドショーの種類を取得または設定します。次の SlideShowTypeaspose.slides/slideshowsettings/slideshowtype の先祖: BrowsedAtKioskaspose.slides/browsedatkiosk, PresentedBySpeakeraspose.slides/presentedbyspeaker および BrowsedByIndividualaspose.slides/browsedbyindividual
+description: "スライドショーの種類を取得または設定します。次の SlideShowTypeaspose.slides/slideshowsettings/slideshowtype の先祖: BrowsedAtKioskaspose.slides/browsedatkiosk, PresentedBySpeakeraspose.slides/presentedbyspeaker および BrowsedByIndividualaspose.slides/browsedbyindividual"
 type: docs
 weight: 70
 url: /ja/aspose.slides/slideshowsettings/slideshowtype/

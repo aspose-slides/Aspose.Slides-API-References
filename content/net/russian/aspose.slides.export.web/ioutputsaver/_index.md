@@ -1,6 +1,6 @@
 ---
 title: IOutputSaver
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет сервис сохранения вывода.
 type: docs
 weight: 4610

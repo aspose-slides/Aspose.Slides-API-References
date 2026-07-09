@@ -1,7 +1,7 @@
 ---
 title: NoBreak
 second_title: Aspose.Sildes の .NET API リファレンス
-description: No break このプロパティはオブジェクト ボックスの unbreakable プロパティを指定します。true の場合、ボックス内で改行は発生しません。これは、2 つ以上の二項演算子で構成される演算子エミュレータにとって重要になることがあります。この要素が指定されていない場合、ボックス内部で改行が発生する可能性があります。既定値: true
+description: "No break このプロパティはオブジェクト ボックスの unbreakable プロパティを指定します。true の場合、ボックス内で改行は発生しません。これは、2 つ以上の二項演算子で構成される演算子エミュレータにとって重要になることがあります。この要素が指定されていない場合、ボックス内部で改行が発生する可能性があります。既定値: true"
 type: docs
 weight: 60
 url: /ja/aspose.slides.mathtext/mathbox/nobreak/

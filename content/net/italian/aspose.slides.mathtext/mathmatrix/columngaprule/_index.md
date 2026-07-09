@@ -1,7 +1,7 @@
 ---
 title: ColumnGapRule
 second_title: Aspose.Sildes per .NET API Reference
-description: Il tipo di spaziatura orizzontale tra le colonne di una matrice. Le unità di spaziatura orizzontale possono essere ems o punti, memorizzati come twips. Predefinito: SingleSpacingGap 0
+description: "Il tipo di spaziatura orizzontale tra le colonne di una matrice. Le unità di spaziatura orizzontale possono essere ems o punti, memorizzati come twips. Predefinito: SingleSpacingGap 0"
 type: docs
 weight: 50
 url: /it/aspose.slides.mathtext/mathmatrix/columngaprule/

@@ -1,7 +1,7 @@
 ---
 title: IStringChartValue
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: pptx प्रस्तुति दस्तावेज़ में स्ट्रिंग मान को दो तरीकों से संग्रहीत किया जा सकता है: 1) चार्ट से संबंधित वर्कबुक की सेल/सेल्स में, 2) लिटरल मान के रूप में।
+description: "pptx प्रस्तुति दस्तावेज़ में स्ट्रिंग मान को दो तरीकों से संग्रहीत किया जा सकता है: 1) चार्ट से संबंधित वर्कबुक की सेल/सेल्स में, 2) लिटरल मान के रूप में।"
 type: docs
 weight: 2220
 url: /hi/aspose.slides.charts/istringchartvalue/

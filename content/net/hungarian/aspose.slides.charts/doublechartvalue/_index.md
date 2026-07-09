@@ -1,7 +1,7 @@
 ---
 title: DoubleChartValue
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Képviseli a dupla értéket, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban, 2) literál értékként.
+description: "Képviseli a dupla értéket, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban, 2) literál értékként."
 type: docs
 weight: 1630
 url: /hu/aspose.slides.charts/doublechartvalue/

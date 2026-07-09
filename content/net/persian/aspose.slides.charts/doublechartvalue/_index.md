@@ -1,7 +1,7 @@
 ---
 title: DoubleChartValue
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایش مقدار double که می‌تواند به دو روش در سند ارائهٔ pptx ذخیره شود: 1) در سلول/سلول‌های کتاب‌کار مرتبط با نمودار؛ 2) به‌عنوان مقدار اصلی.
+description: "نمایش مقدار double که می‌تواند به دو روش در سند ارائهٔ pptx ذخیره شود: 1) در سلول/سلول‌های کتاب‌کار مرتبط با نمودار؛ 2) به‌عنوان مقدار اصلی."
 type: docs
 weight: 1630
 url: /fa/aspose.slides.charts/doublechartvalue/

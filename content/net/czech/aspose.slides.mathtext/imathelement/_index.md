@@ -1,7 +1,7 @@
 ---
 title: IMathElement
 second_title: Aspose.Sildes pro .NET – referenční dokumentace
-description: Základní rozhraní libovolného matematického prvku: zlomek, matematický text, funkce, výraz s více prvky atd.
+description: "Základní rozhraní libovolného matematického prvku: zlomek, matematický text, funkce, výraz s více prvky atd."
 type: docs
 weight: 8230
 url: /cs/aspose.slides.mathtext/imathelement/

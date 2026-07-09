@@ -1,6 +1,6 @@
 ---
 title: DrawingGuide
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет регулируемую направляющую чертежа.
 type: docs
 weight: 2810

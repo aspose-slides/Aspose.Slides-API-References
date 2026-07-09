@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Sildes .NET API Referencia
-description: A sávvonal pozíciója. Alapértelmezett: Top
+description: "A sávvonal pozíciója. Alapértelmezett: Top"
 type: docs
 weight: 30
 url: /hu/aspose.slides.mathtext/imathbar/position/

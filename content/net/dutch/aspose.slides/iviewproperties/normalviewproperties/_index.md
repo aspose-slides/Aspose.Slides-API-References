@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft normale weergave-eigenschappen weer. De normale weergave bestaat uit drie inhoudsgebieden: de dia zelf, een inhoudsgebied aan de zijkant en een inhoudsgebied aan de onderkant. Alleen-lezen INormalViewPropertiesaspose.slides/inormalviewproperties.
+description: "Geeft normale weergave-eigenschappen weer. De normale weergave bestaat uit drie inhoudsgebieden: de dia zelf, een inhoudsgebied aan de zijkant en een inhoudsgebied aan de onderkant. Alleen-lezen INormalViewPropertiesaspose.slides/inormalviewproperties."
 type: docs
 weight: 30
 url: /nl/aspose.slides/iviewproperties/normalviewproperties/

@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Sildes pro .NET – reference API
-description: Vrací kolekci vlastností ActiveX. Poznámka: Aspose.Slides podporuje pouze ActiveX vlastnosti založené na XML. Pokud jsou vlastnosti uloženy v binárním formátu, tato vlastnost vrátí null. Pouze pro čtení IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection.
+description: "Vrací kolekci vlastností ActiveX. Poznámka: Aspose.Slides podporuje pouze ActiveX vlastnosti založené na XML. Pokud jsou vlastnosti uloženy v binárním formátu, tato vlastnost vrátí null. Pouze pro čtení IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection."
 type: docs
 weight: 60
 url: /cs/aspose.slides/control/properties/

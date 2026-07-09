@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeArea
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mengembalikan true jika chartType adalah salah satu subtipe Area. Set subtipe sesuai dengan set yang tepat di PowerPoint lihat dialog Change Chart Type di PowerPoint: Area PercentsStackedArea PercentsStackedArea3D StackedArea StackedArea3D Area3D.
+description: "Mengembalikan true jika chartType adalah salah satu subtipe Area. Set subtipe sesuai dengan set yang tepat di PowerPoint lihat dialog Change Chart Type di PowerPoint: Area PercentsStackedArea PercentsStackedArea3D StackedArea StackedArea3D Area3D."
 type: docs
 weight: 50
 url: /id/aspose.slides.charts/charttypecharacterizer/ischarttypearea/

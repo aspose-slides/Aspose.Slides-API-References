@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBar
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về true nếu chartType là một trong các kiểu con Bar. Bộ các kiểu con tương ứng với bộ thích hợp trong PowerPoint; xem hộp thoại Change Chart Type trong PowerPoint: ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid.
+description: "Trả về true nếu chartType là một trong các kiểu con Bar. Bộ các kiểu con tương ứng với bộ thích hợp trong PowerPoint; xem hộp thoại Change Chart Type trong PowerPoint: ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid."
 type: docs
 weight: 60
 url: /vi/aspose.slides.charts/charttypecharacterizer/ischarttypebar/

@@ -1,6 +1,6 @@
 ---
 title: SlideThemeManager
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Обеспечивает доступ к переопределённой теме слайда.
 type: docs
 weight: 11470

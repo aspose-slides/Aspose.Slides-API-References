@@ -1,7 +1,7 @@
 ---
 title: ForEach
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu thị một nhóm các phương thức nhằm lặp lại các đối tượng mô hình Presentation../aspose.slides/presentation khác nhau. Các phương thức này có thể hữu ích nếu bạn cần lặp lại và thay đổi định dạng hoặc nội dung của một số yếu tố Presentation, ví dụ: thay đổi định dạng của từng phần.
+description: "Biểu thị một nhóm các phương thức nhằm lặp lại các đối tượng mô hình Presentation../aspose.slides/presentation khác nhau. Các phương thức này có thể hữu ích nếu bạn cần lặp lại và thay đổi định dạng hoặc nội dung của một số yếu tố Presentation, ví dụ: thay đổi định dạng của từng phần."
 type: docs
 weight: 7900
 url: /vi/aspose.slides.lowcode/foreach/

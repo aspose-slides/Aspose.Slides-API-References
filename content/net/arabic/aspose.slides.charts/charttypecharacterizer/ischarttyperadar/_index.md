@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeRadar
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: إرجاع true إذا كان chartType أحد الأنواع الفرعية Radar. مجموعة الأنواع الفرعية تتطابق مع المجموعة المناسبة في PowerPoint (انظر مربع الحوار Change Chart Type في PowerPoint): FilledRadar, Radar, RadarWithMarkers.
+description: "إرجاع true إذا كان chartType أحد الأنواع الفرعية Radar. مجموعة الأنواع الفرعية تتطابق مع المجموعة المناسبة في PowerPoint (انظر مربع الحوار Change Chart Type في PowerPoint): FilledRadar, Radar, RadarWithMarkers."
 type: docs
 weight: 120
 url: /ar/aspose.slides.charts/charttypecharacterizer/ischarttyperadar/

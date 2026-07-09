@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeScatter
 second_title: مرجع API Aspose.Sildes برای .NET
-description: اگر chartType یکی از زیرنوع‌های Scatter باشد، true را برمی‌گرداند. مجموعه زیرنوع‌ها با مجموعه مناسب در PowerPoint مطابقت دارد؛ دیالوگ «Change Chart Type» در PowerPoint را ببینید: ScatterWithMarkers ScatterWithSmoothLines ScatterWithSmoothLinesAndMarkers ScatterWithStraightLines ScatterWithStraightLinesAndMarkers.
+description: "اگر chartType یکی از زیرنوع‌های Scatter باشد، true را برمی‌گرداند. مجموعه زیرنوع‌ها با مجموعه مناسب در PowerPoint مطابقت دارد؛ دیالوگ «Change Chart Type» در PowerPoint را ببینید: ScatterWithMarkers ScatterWithSmoothLines ScatterWithSmoothLinesAndMarkers ScatterWithStraightLines ScatterWithStraightLinesAndMarkers."
 type: docs
 weight: 130
 url: /fa/aspose.slides.charts/charttypecharacterizer/ischarttypescatter/

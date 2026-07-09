@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeDoughnut
 second_title: Aspose.Sildes برای .NET مرجع API
-description: اگر chartType یکی از زیرنوع‌های Doughnut باشد، مقدار true را برمی‌گرداند. مجموعه زیرنوع‌ها مطابق با مجموعه مناسب در PowerPoint است؛ به گفت‌وگوی Change Chart Type در PowerPoint مراجعه کنید: Doughnut، ExplodedDoughnut.
+description: "اگر chartType یکی از زیرنوع‌های Doughnut باشد، مقدار true را برمی‌گرداند. مجموعه زیرنوع‌ها مطابق با مجموعه مناسب در PowerPoint است؛ به گفت‌وگوی Change Chart Type در PowerPoint مراجعه کنید: Doughnut، ExplodedDoughnut."
 type: docs
 weight: 90
 url: /fa/aspose.slides.charts/charttypecharacterizer/ischarttypedoughnut/

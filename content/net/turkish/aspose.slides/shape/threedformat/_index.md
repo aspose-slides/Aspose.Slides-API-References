@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Sildes .NET API Referansı
-description: Bir şeklin 3d efekt özelliklerini içeren ThreeDFormat nesnesini döndürür. Not: 3d özellikleri olmayan belirli şekil türleri için null dönebilir. Salt okunur IThreeDFormataspose.slides/ithreedformat.
+description: "Bir şeklin 3d efekt özelliklerini içeren ThreeDFormat nesnesini döndürür. Not: 3d özellikleri olmayan belirli şekil türleri için null dönebilir. Salt okunur IThreeDFormataspose.slides/ithreedformat."
 type: docs
 weight: 270
 url: /tr/aspose.slides/shape/threedformat/

@@ -1,6 +1,6 @@
 ---
 title: ShapeUtil
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Предлагает методы, которые помогают обрабатывать объекты фигур.
 type: docs
 weight: 11510

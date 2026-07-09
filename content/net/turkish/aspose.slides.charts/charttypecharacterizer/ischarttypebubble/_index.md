@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBubble
 second_title: Aspose.Sildes için .NET API Referansı
-description: chartType, Bubble alt türlerinden biri ise true döndürür. Alt türler kümesi, PowerPoint'teki ilgili küme ile eşleşir; PowerPoint'te 'Change Chart Type' iletişim kutusuna bakınız: Bubble, BubbleWith3D.
+description: "chartType, Bubble alt türlerinden biri ise true döndürür. Alt türler kümesi, PowerPoint'teki ilgili küme ile eşleşir; PowerPoint'te 'Change Chart Type' iletişim kutusuna bakınız: Bubble, BubbleWith3D."
 type: docs
 weight: 70
 url: /tr/aspose.slides.charts/charttypecharacterizer/ischarttypebubble/

@@ -1,7 +1,7 @@
 ---
 title: SlidesAIAgent
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: SlidesAIAgentaspose.slides.ai/slidesaiagent의 새 인스턴스를 사용자 지정 AI 클라이언트로 초기화합니다. 이 오버로드를 사용하면 AI 제공자를 지정하거나 자체 LLM을 제공하거나 연결을 사용자 지정할 수 있습니다(예: 자체 HttpClient 제공). IAIWebClientaspose.slides.ai/iaiwebclient의 모든 구현을 사용할 수 있습니다.
+description: "SlidesAIAgentaspose.slides.ai/slidesaiagent의 새 인스턴스를 사용자 지정 AI 클라이언트로 초기화합니다. 이 오버로드를 사용하면 AI 제공자를 지정하거나 자체 LLM을 제공하거나 연결을 사용자 지정할 수 있습니다(예: 자체 HttpClient 제공). IAIWebClientaspose.slides.ai/iaiwebclient의 모든 구현을 사용할 수 있습니다."
 type: docs
 weight: 10
 url: /ko/aspose.slides.ai/slidesaiagent/slidesaiagent/

@@ -1,7 +1,7 @@
 ---
 title: IMathDelimiter
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 열고 닫는 문자(예: 괄호, 중괄호, 대괄호 및 수직 막대)와 지정된 문자로 구분된 하나 이상의 수학 요소를 포함하는 구분자 객체를 지정합니다. 예시: 2 2x7C2
+description: "열고 닫는 문자(예: 괄호, 중괄호, 대괄호 및 수직 막대)와 지정된 문자로 구분된 하나 이상의 수학 요소를 포함하는 구분자 객체를 지정합니다. 예시: 2 2x7C2"
 type: docs
 weight: 8210
 url: /ko/aspose.slides.mathtext/imathdelimiter/

@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: सामान्य दृश्य गुणों का प्रतिनिधित्व करता है। सामान्य दृश्य में तीन सामग्री क्षेत्र होते हैं: स्वयं स्लाइड, एक साइड सामग्री क्षेत्र, और एक नीचे का सामग्री क्षेत्र। केवल पढ़ने योग्य INormalViewPropertiesaspose.slides/inormalviewproperties.
+description: "सामान्य दृश्य गुणों का प्रतिनिधित्व करता है। सामान्य दृश्य में तीन सामग्री क्षेत्र होते हैं: स्वयं स्लाइड, एक साइड सामग्री क्षेत्र, और एक नीचे का सामग्री क्षेत्र। केवल पढ़ने योग्य INormalViewPropertiesaspose.slides/inormalviewproperties."
 type: docs
 weight: 30
 url: /hi/aspose.slides/iviewproperties/normalviewproperties/

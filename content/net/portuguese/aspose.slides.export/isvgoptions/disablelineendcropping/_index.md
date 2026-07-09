@@ -1,7 +1,7 @@
 ---
 title: DisableLineEndCropping
 second_title: Aspose.Sildes para .NET Referência da API
-description: SVG 1.1 não possui capacidade de definir inserções para marcadores. O mecanismo de gravação SVG do Aspose.Slides tem uma solução alternativa para esse problema: ele corta a extremidade da linha com a seta, de modo que a linha não sobreponha os marcadores. Esta opção desativa esse comportamento. Leitura/gravação Boolean.
+description: "SVG 1.1 não possui capacidade de definir inserções para marcadores. O mecanismo de gravação SVG do Aspose.Slides tem uma solução alternativa para esse problema: ele corta a extremidade da linha com a seta, de modo que a linha não sobreponha os marcadores. Esta opção desativa esse comportamento. Leitura/gravação Boolean."
 type: docs
 weight: 60
 url: /pt/aspose.slides.export/isvgoptions/disablelineendcropping/

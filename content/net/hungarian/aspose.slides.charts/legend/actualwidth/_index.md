@@ -1,7 +1,7 @@
 ---
 title: ActualWidth
 second_title: Aspose.Sildes a .NET API hivatkozás
-description: Meghatározza a diagram elem tényleges szélességét. Hívja meg az IChart.ValidateChartLayout metódust előtte a tényleges értékek lekéréséhez. Olvasás: Single.
+description: "Meghatározza a diagram elem tényleges szélességét. Hívja meg az IChart.ValidateChartLayout metódust előtte a tényleges értékek lekéréséhez. Olvasás: Single."
 type: docs
 weight: 20
 url: /hu/aspose.slides.charts/legend/actualwidth/

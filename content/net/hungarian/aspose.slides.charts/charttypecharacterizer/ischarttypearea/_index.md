@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeArea
 second_title: Aspose.Sildes a .NET API referencia
-description: Igazat ad vissza, ha a chartType az Area altípusok egyikeként szerepel. Az altípusok halmaza a PowerPoint megfelelő halmazának felel meg; lásd a PowerPoint „Change Chart Type” párbeszédablakát: Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.
+description: "Igazat ad vissza, ha a chartType az Area altípusok egyikeként szerepel. Az altípusok halmaza a PowerPoint megfelelő halmazának felel meg; lásd a PowerPoint „Change Chart Type” párbeszédablakát: Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D."
 type: docs
 weight: 50
 url: /hu/aspose.slides.charts/charttypecharacterizer/ischarttypearea/

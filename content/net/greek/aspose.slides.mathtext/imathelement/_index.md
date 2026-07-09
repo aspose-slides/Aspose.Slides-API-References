@@ -1,7 +1,7 @@
 ---
 title: IMathElement
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Βασική διασύνδεση οποιουδήποτε μαθηματικού στοιχείου: κλάσμα, μαθηματικό κείμενο, συνάρτηση, έκφραση με πολλαπλά στοιχεία κλπ
+description: "Βασική διασύνδεση οποιουδήποτε μαθηματικού στοιχείου: κλάσμα, μαθηματικό κείμενο, συνάρτηση, έκφραση με πολλαπλά στοιχεία κλπ"
 type: docs
 weight: 8230
 url: /el/aspose.slides.mathtext/imathelement/

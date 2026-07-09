@@ -1,6 +1,6 @@
 ---
 title: LightRig
-second_title: Aspose.Sildes для .NET: справка по API
+second_title: "Aspose.Sildes для .NET: справка по API"
 description: Представляет LightRig.
 type: docs
 weight: 7690

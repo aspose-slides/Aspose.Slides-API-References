@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeLine
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Trả về true nếu chartType là một trong các kiểu phụ Line. Bộ các kiểu phụ tương ứng với tập hợp thích hợp trong PowerPoint; xem hộp thoại Change Chart Type trong PowerPoint: Line, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D.
+description: "Trả về true nếu chartType là một trong các kiểu phụ Line. Bộ các kiểu phụ tương ứng với tập hợp thích hợp trong PowerPoint; xem hộp thoại Change Chart Type trong PowerPoint: Line, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D."
 type: docs
 weight: 100
 url: /vi/aspose.slides.charts/charttypecharacterizer/ischarttypeline/

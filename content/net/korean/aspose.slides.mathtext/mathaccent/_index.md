@@ -1,7 +1,7 @@
 ---
 title: MathAccent
 second_title: Aspose.Sildes for .NET API 참조
-description: 기본 및 결합 부호를 포함하는 악센트 기능을 지정합니다. 예: ́
+description: "기본 및 결합 부호를 포함하는 악센트 기능을 지정합니다. 예: ́"
 type: docs
 weight: 8530
 url: /ko/aspose.slides.mathtext/mathaccent/

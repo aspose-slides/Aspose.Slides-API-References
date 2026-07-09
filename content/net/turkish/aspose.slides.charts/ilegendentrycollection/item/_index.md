@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bu listedeki grafik türlerinden birine sahip olduğunda Chart.ChartData.Series0.DataPointsindex öğesine karşılık gelen lejand girdisinin özelliklerini alır: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie veya diğer grafik türleri için Chart.ChartData.Seriesindex öğesine karşılık gelir.
+description: "Bu listedeki grafik türlerinden birine sahip olduğunda Chart.ChartData.Series0.DataPointsindex öğesine karşılık gelen lejand girdisinin özelliklerini alır: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie veya diğer grafik türleri için Chart.ChartData.Seriesindex öğesine karşılık gelir."
 type: docs
 weight: 20
 url: /tr/aspose.slides.charts/ilegendentrycollection/item/

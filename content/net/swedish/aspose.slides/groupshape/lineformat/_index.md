@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Slides för .NET API-referens
-description: Returnerar LineFormat-objektet som innehåller linjeformateringsegenskaper för en form. Obs: Returnerar null för GroupShape-objekt eftersom de inte har linjeegenskaper. Skrivskyddad ILineFormataspose.slides/ilineformat.
+description: "Returnerar LineFormat-objektet som innehåller linjeformateringsegenskaper för en form. Obs: Returnerar null för GroupShape-objekt eftersom de inte har linjeegenskaper. Skrivskyddad ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 30
 url: /sv/aspose.slides/groupshape/lineformat/

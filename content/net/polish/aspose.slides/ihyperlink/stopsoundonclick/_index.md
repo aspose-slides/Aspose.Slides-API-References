@@ -1,6 +1,6 @@
 ---
 title: StopSoundOnClick
-second_title: Aspose.Sildes dla .NET: referencja API
+second_title: "Aspose.Sildes dla .NET: referencja API"
 description: Określa, czy dźwięk powinien zostać zatrzymany po kliknięciu hiperłącza. Odczyt/zapis Boolean.
 type: docs
 weight: 80

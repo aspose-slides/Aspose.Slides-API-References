@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Sildes a .NET API Referenciához
-description: Visszaadja a LineFormat objektumot, amely a vonalformázási tulajdonságokat tartalmazza egy alakzat számára. Megjegyzés: Visszaad null értéket a GroupShape objektumoknál, mert nincs vonal tulajdonságuk. Csak olvasható ILineFormataspose.slides/ilineformat.
+description: "Visszaadja a LineFormat objektumot, amely a vonalformázási tulajdonságokat tartalmazza egy alakzat számára. Megjegyzés: Visszaad null értéket a GroupShape objektumoknál, mert nincs vonal tulajdonságuk. Csak olvasható ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 30
 url: /hu/aspose.slides/groupshape/lineformat/

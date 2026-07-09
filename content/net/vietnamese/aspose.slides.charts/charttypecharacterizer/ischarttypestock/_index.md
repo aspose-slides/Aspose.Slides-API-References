@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeStock
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Trả về true nếu chartType là một trong các loại con Stock. Bộ các loại con tương ứng với bộ phù hợp trong PowerPoint, xem hộp thoại Change Chart Type trong PowerPoint: HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose.
+description: "Trả về true nếu chartType là một trong các loại con Stock. Bộ các loại con tương ứng với bộ phù hợp trong PowerPoint, xem hộp thoại Change Chart Type trong PowerPoint: HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose."
 type: docs
 weight: 140
 url: /vi/aspose.slides.charts/charttypecharacterizer/ischarttypestock/

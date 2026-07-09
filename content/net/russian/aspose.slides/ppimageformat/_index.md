@@ -1,6 +1,6 @@
 ---
 title: PPImageFormat
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Форматы изображений. Это перечисление является заменой класса System.Drawing.Imaging.ImageFormat. Необходимо для совместимости с COM.
 type: docs
 weight: 9260

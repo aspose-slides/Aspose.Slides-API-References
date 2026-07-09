@@ -1,7 +1,7 @@
 ---
 title: Overlap
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica quanto le barre e le colonne devono sovrapporsi nei grafici 2-D, come percentuale da -100 a 100. - -100 Spaziatura massima: le barre sono completamente separate. - 0 Le barre sono posizionate affiancate senza sovrapposizione o spaziatura. - 100 Sovrapposizione massima: le barre si sovrappongono completamente l'una sull'altra. Questa proprietà è lettura/scrittura SByte.
+description: "Specifica quanto le barre e le colonne devono sovrapporsi nei grafici 2-D, come percentuale da -100 a 100. - -100 Spaziatura massima: le barre sono completamente separate. - 0 Le barre sono posizionate affiancate senza sovrapposizione o spaziatura. - 100 Sovrapposizione massima: le barre si sovrappongono completamente l'una sull'altra. Questa proprietà è lettura/scrittura SByte."
 type: docs
 weight: 120
 url: /it/aspose.slides.charts/chartseriesgroup/overlap/

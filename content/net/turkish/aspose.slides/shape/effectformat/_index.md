@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir şekle uygulanan piksel efektlerini içeren EffectFormat nesnesini döndürür. Not: efekt özellikleri olmayan belirli şekil tipleri için null dönebilir. Yalnızca okunur IEffectFormataspose.slides/ieffectformat.
+description: "Bir şekle uygulanan piksel efektlerini içeren EffectFormat nesnesini döndürür. Not: efekt özellikleri olmayan belirli şekil tipleri için null dönebilir. Yalnızca okunur IEffectFormataspose.slides/ieffectformat."
 type: docs
 weight: 60
 url: /tr/aspose.slides/shape/effectformat/

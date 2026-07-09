@@ -1,7 +1,7 @@
 ---
 title: INormalViewProperties
 second_title: Aspose.Sildes pour .NET Référence de l'API
-description: Représente les propriétés de la vue normale. La vue normale se compose de trois zones de contenu : la diapositive elle-même, une zone de contenu latérale et une zone de contenu inférieure.
+description: "Représente les propriétés de la vue normale. La vue normale se compose de trois zones de contenu : la diapositive elle-même, une zone de contenu latérale et une zone de contenu inférieure."
 type: docs
 weight: 6470
 url: /fr/aspose.slides/inormalviewproperties/

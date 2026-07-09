@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: Επιστρέφει το αντικείμενο LineFormat που περιέχει τις ιδιότητες μορφοποίησης γραμμής για ένα σχήμα. Σημείωση: Επιστρέφει null για αντικείμενα GroupShape επειδή δεν έχουν ιδιότητες γραμμής. Μόνο για ανάγνωση ILineFormataspose.slides/ilineformat.
+description: "Επιστρέφει το αντικείμενο LineFormat που περιέχει τις ιδιότητες μορφοποίησης γραμμής για ένα σχήμα. Σημείωση: Επιστρέφει null για αντικείμενα GroupShape επειδή δεν έχουν ιδιότητες γραμμής. Μόνο για ανάγνωση ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 30
 url: /el/aspose.slides/groupshape/lineformat/

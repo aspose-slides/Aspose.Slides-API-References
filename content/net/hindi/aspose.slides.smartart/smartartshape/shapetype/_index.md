@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: ज्यॉमेट्री प्रीसेट प्रकार को लौटाता या सेट करता है। नोट: मान बदलने पर सभी समायोजन मान उनके डिफ़ॉल्ट मानों पर रीसेट हो जाएंगे। पढ़ें/लिखें ShapeTypeaspose.slides/shapetype.
+description: "ज्यॉमेट्री प्रीसेट प्रकार को लौटाता या सेट करता है। नोट: मान बदलने पर सभी समायोजन मान उनके डिफ़ॉल्ट मानों पर रीसेट हो जाएंगे। पढ़ें/लिखें ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 10
 url: /hi/aspose.slides.smartart/smartartshape/shapetype/

@@ -1,7 +1,7 @@
 ---
 title: SlideNumberFormat
 second_title: Aspose.Sildes برای .NET مرجع API
-description: رشته قالب را که برای سرصفحه شماره اسلایدها در خروجی Markdown استفاده می‌شود، دریافت یا تنظیم می‌کند. این قالب باید شامل 0 placeholder باشد که در هنگام خروجی گرفتن با اندیس اسلاید جایگزین می‌شود. مثال: Slide 0 خروجی Slide 1 Slide 2 و غیره را تولید می‌کند.
+description: "رشته قالب را که برای سرصفحه شماره اسلایدها در خروجی Markdown استفاده می‌شود، دریافت یا تنظیم می‌کند. این قالب باید شامل 0 placeholder باشد که در هنگام خروجی گرفتن با اندیس اسلاید جایگزین می‌شود. مثال: Slide 0 خروجی Slide 1 Slide 2 و غیره را تولید می‌کند."
 type: docs
 weight: 120
 url: /fa/aspose.slides.export/markdownsaveoptions/slidenumberformat/

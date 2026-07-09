@@ -1,7 +1,7 @@
 ---
 title: IsLocationAutocalculated
 second_title: Aspose.Sildes for .NET API Referansı
-description: Konumun nasıl hesaplanacağını tanımlar: true – otomatik olarak hesaplanır; X, Y, Width, Height özellikleriyle tanımlanır. Salt okunur Boolean.
+description: "Konumun nasıl hesaplanacağını tanımlar: true – otomatik olarak hesaplanır; X, Y, Width, Height özellikleriyle tanımlanır. Salt okunur Boolean."
 type: docs
 weight: 90
 url: /tr/aspose.slides.charts/chartplotarea/islocationautocalculated/

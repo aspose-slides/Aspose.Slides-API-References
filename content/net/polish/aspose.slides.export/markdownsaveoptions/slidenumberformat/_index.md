@@ -1,7 +1,7 @@
 ---
 title: SlideNumberFormat
 second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Pobiera lub ustawia ciąg formatowania używany w nagłówkach numerów slajdów w wyjściu Markdown. Format musi zawierać symbol zastępczy „{0}”, który zostanie zamieniony na indeks slajdu podczas eksportu. Przykład: „Slide {0}” spowoduje wygenerowanie „Slide 1”, „Slide 2” itd.
+description: "Pobiera lub ustawia ciąg formatowania używany w nagłówkach numerów slajdów w wyjściu Markdown. Format musi zawierać symbol zastępczy „{0}”, który zostanie zamieniony na indeks slajdu podczas eksportu. Przykład: „Slide {0}” spowoduje wygenerowanie „Slide 1”, „Slide 2” itd."
 type: docs
 weight: 120
 url: /pl/aspose.slides.export/markdownsaveoptions/slidenumberformat/

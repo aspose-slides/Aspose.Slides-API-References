@@ -1,7 +1,7 @@
 ---
 title: IMathAccent
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Meghatározza a hangsúly funkciót, amely egy alap és egy kombináló diakritikus jelből áll. Példa: ́
+description: "Meghatározza a hangsúly funkciót, amely egy alap és egy kombináló diakritikus jelből áll. Példa: ́"
 type: docs
 weight: 8080
 url: /hu/aspose.slides.mathtext/imathaccent/

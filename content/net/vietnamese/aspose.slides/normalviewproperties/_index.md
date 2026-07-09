@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đại diện cho các thuộc tính của chế độ xem bình thường. Chế độ xem bình thường bao gồm ba vùng nội dung: slide bản thân, một vùng nội dung bên và một vùng nội dung phía dưới.
+description: "Đại diện cho các thuộc tính của chế độ xem bình thường. Chế độ xem bình thường bao gồm ba vùng nội dung: slide bản thân, một vùng nội dung bên và một vùng nội dung phía dưới."
 type: docs
 weight: 9110
 url: /vi/aspose.slides/normalviewproperties/

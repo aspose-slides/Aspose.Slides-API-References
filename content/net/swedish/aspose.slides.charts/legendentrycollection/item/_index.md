@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes för .NET API-referens
-description: Hämtar egenskaper för legendposten som motsvarar Chart.ChartData.Series0.DataPointsindex när diagramtyp är någon av följande: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie eller motsvarande Chart.ChartData.Seriesindex för andra diagramtyper.
+description: "Hämtar egenskaper för legendposten som motsvarar Chart.ChartData.Series0.DataPointsindex när diagramtyp är någon av följande: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie eller motsvarande Chart.ChartData.Seriesindex för andra diagramtyper."
 type: docs
 weight: 20
 url: /sv/aspose.slides.charts/legendentrycollection/item/

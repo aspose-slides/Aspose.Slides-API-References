@@ -1,7 +1,7 @@
 ---
 title: IMathDelimiter
 second_title: Aspose.Slides pro .NET – referenční dokumentace API
-description: Určuje objekt oddělovače složený z otevíracích a uzavíracích znaků, jako jsou závorky, složené závorky, hranaté závorky a svislé čáry, a jednoho nebo více matematických prvků uvnitř, oddělených určeným znakem. Příklady: 2 2x7C2
+description: "Určuje objekt oddělovače složený z otevíracích a uzavíracích znaků, jako jsou závorky, složené závorky, hranaté závorky a svislé čáry, a jednoho nebo více matematických prvků uvnitř, oddělených určeným znakem. Příklady: 2 2x7C2"
 type: docs
 weight: 8210
 url: /cs/aspose.slides.mathtext/imathdelimiter/

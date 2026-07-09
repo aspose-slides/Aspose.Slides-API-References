@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes برای .NET مرجع API
-description: دریافت خصوصیات ورودی افسانه‌ای که متناظر با Chart.ChartData.Series0.DataPointsindex است در صورتی که نوع نمودار از این فهرست باشد: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie؛ یا متناظر با Chart.ChartData.Seriesindex برای سایر انواع نمودار.
+description: "دریافت خصوصیات ورودی افسانه‌ای که متناظر با Chart.ChartData.Series0.DataPointsindex است در صورتی که نوع نمودار از این فهرست باشد: ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie؛ یا متناظر با Chart.ChartData.Seriesindex برای سایر انواع نمودار."
 type: docs
 weight: 20
 url: /fa/aspose.slides.charts/legendentrycollection/item/

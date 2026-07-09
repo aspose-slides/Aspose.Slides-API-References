@@ -1,7 +1,7 @@
 ---
 title: BuildType
 second_title: Aspose.Slides için .NET API Referansı
-description: Metin animasyonu için örnek: Paragraph 123 Hepsini Birlikte gibi oluşturma tipinin listesi. Okunur/Yazılır BuildTypeaspose.slides.animation/buildtype.
+description: "Metin animasyonu için örnek: Paragraph 123 Hepsini Birlikte gibi oluşturma tipinin listesi. Okunur/Yazılır BuildTypeaspose.slides.animation/buildtype."
 type: docs
 weight: 20
 url: /tr/aspose.slides.animation/textanimation/buildtype/

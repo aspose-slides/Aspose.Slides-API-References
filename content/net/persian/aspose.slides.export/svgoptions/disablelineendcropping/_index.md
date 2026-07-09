@@ -1,7 +1,7 @@
 ---
 title: DisableLineEndCropping
 second_title: Aspose.Sildes برای مرجع API .NET
-description: SVG 1.1 توانایی تعریف حاشیه‌ها برای نشانگرها را ندارد. موتور نوشتن SVG Aspose.Slides برای این مشکل راه حلی دارد: انتهای خط را با پیکان برش می‌دهد تا خط روی نشانگرها همپوشانی نکند. این گزینه این رفتار را غیرفعال می‌کند. خواندن/نوشتن Boolean.
+description: "SVG 1.1 توانایی تعریف حاشیه‌ها برای نشانگرها را ندارد. موتور نوشتن SVG Aspose.Slides برای این مشکل راه حلی دارد: انتهای خط را با پیکان برش می‌دهد تا خط روی نشانگرها همپوشانی نکند. این گزینه این رفتار را غیرفعال می‌کند. خواندن/نوشتن Boolean."
 type: docs
 weight: 90
 url: /fa/aspose.slides.export/svgoptions/disablelineendcropping/

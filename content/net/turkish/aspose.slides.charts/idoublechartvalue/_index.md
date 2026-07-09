@@ -1,7 +1,7 @@
 ---
 title: IDoubleChartValue
 second_title: Aspose.Sildes .NET API Referansı
-description: pptx sunum belgesinde iki şekilde saklanabilen double değeri temsil eder: 1) grafiğe ilişkin çalışma kitabındaki hücre/hücrelerde, 2) literal değer olarak.
+description: "pptx sunum belgesinde iki şekilde saklanabilen double değeri temsil eder: 1) grafiğe ilişkin çalışma kitabındaki hücre/hücrelerde, 2) literal değer olarak."
 type: docs
 weight: 2070
 url: /tr/aspose.slides.charts/idoublechartvalue/

@@ -1,7 +1,7 @@
 ---
 title: RowSpacing
 second_title: Aspose.Sildes .NET API referencia
-description: Egy tömb sorai közötti távolság. Csak akkor használatos, amikor a RowSpacingRule 3-ra van állítva. Ebben az esetben a mértékegység pont, vagy Multiple esetén a mértékegység fél sor. Alapértelmezett: 0
+description: "Egy tömb sorai közötti távolság. Csak akkor használatos, amikor a RowSpacingRule 3-ra van állítva. Ebben az esetben a mértékegység pont, vagy Multiple esetén a mértékegység fél sor. Alapértelmezett: 0"
 type: docs
 weight: 60
 url: /hu/aspose.slides.mathtext/matharray/rowspacing/

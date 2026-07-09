@@ -1,7 +1,7 @@
 ---
 title: ShowLeftPane
 second_title: Aspose.Sildes .NET API referencia
-description: Bal panel megjelenítése/elrejtése. Felülírható a flashvars-ben. Alapértelmezett érték: true.
+description: "Bal panel megjelenítése/elrejtése. Felülírható a flashvars-ben. Alapértelmezett érték: true."
 type: docs
 weight: 100
 url: /hu/aspose.slides.export/swfoptions/showleftpane/

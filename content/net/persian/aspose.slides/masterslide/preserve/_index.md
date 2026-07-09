@@ -1,7 +1,7 @@
 ---
 title: Preserve
 second_title: Aspose.Sildes برای .NET API Reference
-description: مشخص می‌کند که آیا مستر مربوطه زمانی که تمام اسلایدهای پیرو آن مستر حذف شوند، حذف می‌شود. توجه: Aspose.Slides هرگز به‌تنهایی مسترهای استفاده‌نشده را حذف نمی‌کند؛ برای حذف واقعی مسترهای استفاده‌نشده، RemoveUnusedaspose.slides/masterslidecollection/removeunused را فراخوانی کنید. خواندنی/نوشتنی Boolean.
+description: "مشخص می‌کند که آیا مستر مربوطه زمانی که تمام اسلایدهای پیرو آن مستر حذف شوند، حذف می‌شود. توجه: Aspose.Slides هرگز به‌تنهایی مسترهای استفاده‌نشده را حذف نمی‌کند؛ برای حذف واقعی مسترهای استفاده‌نشده، RemoveUnusedaspose.slides/masterslidecollection/removeunused را فراخوانی کنید. خواندنی/نوشتنی Boolean."
 type: docs
 weight: 80
 url: /fa/aspose.slides/masterslide/preserve/

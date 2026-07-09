@@ -1,6 +1,6 @@
 ---
 title: CallChatAsync
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Отправляет инструкцию чата модели ИИ, используя внешне управляемый экземпляр HttpClient, и возвращает сообщение-ответ на данную инструкцию.
 type: docs
 weight: 20

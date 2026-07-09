@@ -1,7 +1,7 @@
 ---
 title: DisableLineEndCropping
 second_title: Aspose.Sildes برای .NET مرجع API
-description: SVG 1.1 توانایی تعریف تو رفتگی برای نشانگرها را ندارد. موتور نوشتن SVG Aspose.Slides راه‌حلی برای این مشکل دارد: انتهای خط را با پیکان برش می‌دهد تا خط با نشانگرها همپوشانی نداشته باشد. این گزینه این رفتار را غیر فعال می‌کند. خواندنی/نوشتنی Boolean.
+description: "SVG 1.1 توانایی تعریف تو رفتگی برای نشانگرها را ندارد. موتور نوشتن SVG Aspose.Slides راه‌حلی برای این مشکل دارد: انتهای خط را با پیکان برش می‌دهد تا خط با نشانگرها همپوشانی نداشته باشد. این گزینه این رفتار را غیر فعال می‌کند. خواندنی/نوشتنی Boolean."
 type: docs
 weight: 60
 url: /fa/aspose.slides.export/isvgoptions/disablelineendcropping/

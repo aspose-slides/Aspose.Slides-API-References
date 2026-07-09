@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ส่งคืนอ็อบเจ็กต์ ThreeDFormat ที่มีคุณสมบัติของเอฟเฟกต์ 3 มิติสำหรับรูปทรงหนึ่ง. หมายเหตุ: สามารถส่งคืนค่า null สำหรับรูปทรงบางประเภทที่ไม่มีคุณสมบัติ 3 มิติ. อ่านอย่างเดียว IThreeDFormataspose.slides/ithreedformat.
+description: "ส่งคืนอ็อบเจ็กต์ ThreeDFormat ที่มีคุณสมบัติของเอฟเฟกต์ 3 มิติสำหรับรูปทรงหนึ่ง. หมายเหตุ: สามารถส่งคืนค่า null สำหรับรูปทรงบางประเภทที่ไม่มีคุณสมบัติ 3 มิติ. อ่านอย่างเดียว IThreeDFormataspose.slides/ithreedformat."
 type: docs
 weight: 270
 url: /th/aspose.slides/shape/threedformat/

@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes ل .NET مرجع API
-description: إرجاع أو تعيين نوع الشكل الهندسي المحدد مسبقًا. ملاحظة: عند تغيير القيمة سيتم إعادة تعيين جميع قيم الضبط إلى القيم الافتراضية. قراءة/كتابة ShapeTypeaspose.slides/shapetype.
+description: "إرجاع أو تعيين نوع الشكل الهندسي المحدد مسبقًا. ملاحظة: عند تغيير القيمة سيتم إعادة تعيين جميع قيم الضبط إلى القيم الافتراضية. قراءة/كتابة ShapeTypeaspose.slides/shapetype."
 type: docs
 weight: 30
 url: /ar/aspose.slides/geometryshape/shapetype/

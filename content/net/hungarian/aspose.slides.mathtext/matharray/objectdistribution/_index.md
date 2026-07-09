@@ -1,7 +1,7 @@
 ---
 title: ObjectDistribution
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Objektum eloszlás: Ha igaz, a tömb tartalma a tömb objektum maximális szélességére lesz elosztva.
+description: "Objektum eloszlás: Ha igaz, a tömb tartalma a tömb objektum maximális szélességére lesz elosztva."
 type: docs
 weight: 50
 url: /hu/aspose.slides.mathtext/matharray/objectdistribution/

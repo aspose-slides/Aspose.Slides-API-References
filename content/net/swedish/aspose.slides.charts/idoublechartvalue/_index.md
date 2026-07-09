@@ -1,7 +1,7 @@
 ---
 title: IDoubleChartValue
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett dubbelvärde som kan lagras i pptx presentationsdokument på två sätt: 1) i cell/celler i arbetsboken som är relaterad till diagrammet 2) som ett bokstavligt värde.
+description: "Representerar ett dubbelvärde som kan lagras i pptx presentationsdokument på två sätt: 1) i cell/celler i arbetsboken som är relaterad till diagrammet 2) som ett bokstavligt värde."
 type: docs
 weight: 2070
 url: /sv/aspose.slides.charts/idoublechartvalue/

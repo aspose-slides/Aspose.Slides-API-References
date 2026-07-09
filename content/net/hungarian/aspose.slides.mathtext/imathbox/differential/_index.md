@@ -1,7 +1,7 @@
 ---
 title: Differential
 second_title: Aspose.Sildes .NET API Referenciája
-description: Differenciál. Ha igaz, a keret differenciálként (például egy integrandusban) működik, és megkapja a megfelelő vízszintes távolságot a matematikai differenciálhoz. Alapértelmezett: hamis
+description: "Differenciál. Ha igaz, a keret differenciálként (például egy integrandusban) működik, és megkapja a megfelelő vízszintes távolságot a matematikai differenciálhoz. Alapértelmezett: hamis"
 type: docs
 weight: 40
 url: /hu/aspose.slides.mathtext/imathbox/differential/

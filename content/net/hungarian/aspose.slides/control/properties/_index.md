@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Sildes .NET API Referenciája
-description: Visszaad egy gyűjteményt az ActiveX tulajdonságokból. Megjegyzés: az Aspose.Slides csak XML-alapú ActiveX tulajdonságokat támogat. Ha a tulajdonságok bináris formátumban vannak tárolva, ez a tulajdonság null értéket ad vissza. Csak olvasható IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection.
+description: "Visszaad egy gyűjteményt az ActiveX tulajdonságokból. Megjegyzés: az Aspose.Slides csak XML-alapú ActiveX tulajdonságokat támogat. Ha a tulajdonságok bináris formátumban vannak tárolva, ez a tulajdonság null értéket ad vissza. Csak olvasható IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection."
 type: docs
 weight: 60
 url: /hu/aspose.slides/control/properties/

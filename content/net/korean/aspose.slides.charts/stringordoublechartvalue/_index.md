@@ -1,7 +1,7 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: pptx 프레젠테이션 문서에 저장될 수 있는 문자열 또는 double 값을 두 가지 방식으로 나타냅니다: 1) 차트와 연결된 워크북의 셀/셀에 저장, 2) 리터럴 값으로 저장.
+description: "pptx 프레젠테이션 문서에 저장될 수 있는 문자열 또는 double 값을 두 가지 방식으로 나타냅니다: 1) 차트와 연결된 워크북의 셀/셀에 저장, 2) 리터럴 값으로 저장."
 type: docs
 weight: 2420
 url: /ko/aspose.slides.charts/stringordoublechartvalue/

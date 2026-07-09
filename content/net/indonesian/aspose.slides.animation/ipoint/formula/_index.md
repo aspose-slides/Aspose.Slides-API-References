@@ -1,7 +1,7 @@
 ---
 title: Formula
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Formula dalam nilai atribut from to by dapat terdiri dari hal-hal berikut: Operator aritmatika standar - / mod Konstanta pi e Operator kondisional abs min max if Operator perbandingan gt Operator trigonometri sin cos tan asin acos atan Logaritma natural ln Referensi properti host yang didukung misalnya ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- String baca/tulis.
+description: "Formula dalam nilai atribut from to by dapat terdiri dari hal-hal berikut: Operator aritmatika standar - / mod Konstanta pi e Operator kondisional abs min max if Operator perbandingan gt Operator trigonometri sin cos tan asin acos atan Logaritma natural ln Referensi properti host yang didukung misalnya ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- String baca/tulis."
 type: docs
 weight: 10
 url: /id/aspose.slides.animation/ipoint/formula/

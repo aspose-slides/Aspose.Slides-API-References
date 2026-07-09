@@ -1,6 +1,6 @@
 ---
 title: NotesPositions
-second_title: Aspose.Sildes для .NET: справочник API
+second_title: "Aspose.Sildes для .NET: справочник API"
 description: Представляет правило отображения примечаний в экспортированном документе
 type: docs
 weight: 4300

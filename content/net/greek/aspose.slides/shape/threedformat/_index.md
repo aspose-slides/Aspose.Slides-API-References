@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Επιστρέφει το αντικείμενο ThreeDFormat που περιέχει τις ιδιότητες εφέ 3d για ένα σχήμα. Σημείωση: μπορεί να επιστρέψει null για ορισμένους τύπους σχημάτων που δεν έχουν ιδιότητες 3d. Μόνο για ανάγνωση IThreeDFormataspose.slides/ithreedformat.
+description: "Επιστρέφει το αντικείμενο ThreeDFormat που περιέχει τις ιδιότητες εφέ 3d για ένα σχήμα. Σημείωση: μπορεί να επιστρέψει null για ορισμένους τύπους σχημάτων που δεν έχουν ιδιότητες 3d. Μόνο για ανάγνωση IThreeDFormataspose.slides/ithreedformat."
 type: docs
 weight: 270
 url: /el/aspose.slides/shape/threedformat/

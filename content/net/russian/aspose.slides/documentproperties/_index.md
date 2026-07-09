@@ -1,6 +1,6 @@
 ---
 title: DocumentProperties
-second_title: Aspose.Sildes для .NET: справка API
+second_title: "Aspose.Sildes для .NET: справка API"
 description: Представляет свойства презентации.
 type: docs
 weight: 2790

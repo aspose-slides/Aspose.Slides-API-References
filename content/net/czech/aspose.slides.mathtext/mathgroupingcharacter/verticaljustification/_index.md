@@ -1,7 +1,7 @@
 ---
 title: VerticalJustification
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vertikální zarovnání skupinového znaku. Určuje zarovnání objektu vzhledem k základní linii. Například když je skupinový znak nad objektem, VerticalJustification Top znamená, že horní část objektu leží na základní linii; když je VerticalJustification nastaveno na Bottom, spodní část objektu je na základní linii. Výchozí: Bottom pro PositionTop a Top pro PositionBottom
+description: "Vertikální zarovnání skupinového znaku. Určuje zarovnání objektu vzhledem k základní linii. Například když je skupinový znak nad objektem, VerticalJustification Top znamená, že horní část objektu leží na základní linii; když je VerticalJustification nastaveno na Bottom, spodní část objektu je na základní linii. Výchozí: Bottom pro PositionTop a Top pro PositionBottom"
 type: docs
 weight: 50
 url: /cs/aspose.slides.mathtext/mathgroupingcharacter/verticaljustification/

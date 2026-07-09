@@ -1,7 +1,7 @@
 ---
 title: GridSpacing
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 프레젠테이션 문서의 기본 그리드에 사용해야 하는 그리드 간격을 반환하거나 설정합니다(단위: 포인트). 읽기/쓰기 Single.
+description: "프레젠테이션 문서의 기본 그리드에 사용해야 하는 그리드 간격을 반환하거나 설정합니다(단위: 포인트). 읽기/쓰기 Single."
 type: docs
 weight: 10
 url: /ko/aspose.slides/viewproperties/gridspacing/

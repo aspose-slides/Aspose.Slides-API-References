@@ -1,7 +1,7 @@
 ---
 title: Formula
 second_title: Aspose.Sildes .NET API Referencia
-description: Képletek az értékekben a from, to, by attribútumokban ezekből állhatnak: Standard aritmetikai operátorok  -  /   mod Konstanták pi e Feltételes operátorok abs min max if Összehasonlító operátorok gt Trigonometriai operátorok sin cos tan asin acos atan Natürális logaritmus ln Tulajdonság hivatkozások a host által támogatott tulajdonságok például ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- Olvasás/írás String.
+description: "Képletek az értékekben a from, to, by attribútumokban ezekből állhatnak: Standard aritmetikai operátorok  -  /   mod Konstanták pi e Feltételes operátorok abs min max if Összehasonlító operátorok gt Trigonometriai operátorok sin cos tan asin acos atan Natürális logaritmus ln Tulajdonság hivatkozások a host által támogatott tulajdonságok például ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- Olvasás/írás String."
 type: docs
 weight: 10
 url: /hu/aspose.slides.animation/ipoint/formula/

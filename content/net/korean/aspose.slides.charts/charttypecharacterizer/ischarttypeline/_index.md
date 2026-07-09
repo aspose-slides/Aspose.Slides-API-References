@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeLine
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: chartType이 Line 하위 유형 중 하나인 경우 true를 반환합니다. 하위 유형 집합은 PowerPoint의 해당 집합에 해당하며 PowerPoint의 "Change Chart Type" 대화 상자를 참조합니다: Line, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D.
+description: "chartType이 Line 하위 유형 중 하나인 경우 true를 반환합니다. 하위 유형 집합은 PowerPoint의 해당 집합에 해당하며 PowerPoint의 \"Change Chart Type\" 대화 상자를 참조합니다: Line, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D."
 type: docs
 weight: 100
 url: /ko/aspose.slides.charts/charttypecharacterizer/ischarttypeline/

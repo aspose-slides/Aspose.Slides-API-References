@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeStock
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ส่งคืนค่า true หาก chartType เป็นหนึ่งใน subtypes ของ Stock ชุด subtypes สอดคล้องกับชุดที่เหมาะสมใน PowerPoint ดูกล่องโต้ตอบ Change Chart Type ใน PowerPoint: HighLowClose OpenHighLowClose VolumeHighLowClose VolumeOpenHighLowClose.
+description: "ส่งคืนค่า true หาก chartType เป็นหนึ่งใน subtypes ของ Stock ชุด subtypes สอดคล้องกับชุดที่เหมาะสมใน PowerPoint ดูกล่องโต้ตอบ Change Chart Type ใน PowerPoint: HighLowClose OpenHighLowClose VolumeHighLowClose VolumeOpenHighLowClose."
 type: docs
 weight: 140
 url: /th/aspose.slides.charts/charttypecharacterizer/ischarttypestock/

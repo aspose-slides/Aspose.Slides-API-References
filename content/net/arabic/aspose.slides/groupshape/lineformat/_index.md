@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يرجع كائن LineFormat الذي يحتوي على خصائص تنسيق الخط لشكل. ملاحظة: يرجع null لكائنات GroupShape لأنها لا تمتلك خصائص الخط. للقراءة فقط ILineFormataspose.slides/ilineformat.
+description: "يرجع كائن LineFormat الذي يحتوي على خصائص تنسيق الخط لشكل. ملاحظة: يرجع null لكائنات GroupShape لأنها لا تمتلك خصائص الخط. للقراءة فقط ILineFormataspose.slides/ilineformat."
 type: docs
 weight: 30
 url: /ar/aspose.slides/groupshape/lineformat/

@@ -1,7 +1,7 @@
 ---
 title: MarginTop
 second_title: Aspose.Sildes for .NET API リファレンス
-description: TextFrame の上部余白（ポイント）を取得または設定します。このプロパティを変更しても、影響が及ぶのは次のチャート部品に限定されます: DataLabel と DataLabelFormat（PowerPoint 2013 では完全にサポートされますが、PowerPoint 2007 ではレンダリングに影響はありません）。Read/write Double.
+description: "TextFrame の上部余白（ポイント）を取得または設定します。このプロパティを変更しても、影響が及ぶのは次のチャート部品に限定されます: DataLabel と DataLabelFormat（PowerPoint 2013 では完全にサポートされますが、PowerPoint 2007 ではレンダリングに影響はありません）。Read/write Double."
 type: docs
 weight: 70
 url: /ja/aspose.slides.charts/icharttextblockformat/margintop/

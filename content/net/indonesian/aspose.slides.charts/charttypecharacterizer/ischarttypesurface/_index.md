@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeSurface
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mengembalikan true jika chartType adalah salah satu subtipe Surface. Set subtipe sesuai dengan set yang tepat di PowerPoint; lihat dialog Change Chart Type di PowerPoint: Surface3D, WireframeSurface3D, Contour, WireframeContour.
+description: "Mengembalikan true jika chartType adalah salah satu subtipe Surface. Set subtipe sesuai dengan set yang tepat di PowerPoint; lihat dialog Change Chart Type di PowerPoint: Surface3D, WireframeSurface3D, Contour, WireframeContour."
 type: docs
 weight: 150
 url: /id/aspose.slides.charts/charttypecharacterizer/ischarttypesurface/

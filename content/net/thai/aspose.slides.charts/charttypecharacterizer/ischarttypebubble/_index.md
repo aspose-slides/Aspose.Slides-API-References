@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBubble
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: คืนค่า true หาก chartType เป็นหนึ่งในประเภทย่อยของ Bubble. ชุดประเภทย่อยสอดคล้องกับชุดที่เหมาะสมใน PowerPoint ดูกล่องโต้ตอบ Change Chart Type ใน PowerPoint: Bubble, BubbleWith3D.
+description: "คืนค่า true หาก chartType เป็นหนึ่งในประเภทย่อยของ Bubble. ชุดประเภทย่อยสอดคล้องกับชุดที่เหมาะสมใน PowerPoint ดูกล่องโต้ตอบ Change Chart Type ใน PowerPoint: Bubble, BubbleWith3D."
 type: docs
 weight: 70
 url: /th/aspose.slides.charts/charttypecharacterizer/ischarttypebubble/

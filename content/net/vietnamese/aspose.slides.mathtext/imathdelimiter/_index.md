@@ -1,7 +1,7 @@
 ---
 title: IMathDelimiter
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định đối tượng delimiter gồm các ký tự mở và đóng như dấu ngoặc tròn, dấu ngoặc nhọn, dấu ngoặc vuông và dấu gạch đứng, và một hoặc nhiều phần tử toán học bên trong được ngăn cách bằng một ký tự được chỉ định. Ví dụ: 2 2x7C2
+description: "Xác định đối tượng delimiter gồm các ký tự mở và đóng như dấu ngoặc tròn, dấu ngoặc nhọn, dấu ngoặc vuông và dấu gạch đứng, và một hoặc nhiều phần tử toán học bên trong được ngăn cách bằng một ký tự được chỉ định. Ví dụ: 2 2x7C2"
 type: docs
 weight: 8210
 url: /vi/aspose.slides.mathtext/imathdelimiter/

@@ -1,7 +1,7 @@
 ---
 title: RowGap
 second_title: Aspose.Sildes pro .NET API Reference
-description: Hodnota svislé mezery mezi řádky matice. Pokud je RowGapRule nastaveno na 3 (Exactly), jednotka se interpretuje jako twipy (1/20 bodu). Pokud je RowGapRule nastaveno na 4 (Multiple), jednotka se interpretuje jako půl-řádky. Výchozí hodnota: 0
+description: "Hodnota svislé mezery mezi řádky matice. Pokud je RowGapRule nastaveno na 3 (Exactly), jednotka se interpretuje jako twipy (1/20 bodu). Pokud je RowGapRule nastaveno na 4 (Multiple), jednotka se interpretuje jako půl-řádky. Výchozí hodnota: 0"
 type: docs
 weight: 100
 url: /cs/aspose.slides.mathtext/mathmatrix/rowgap/

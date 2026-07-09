@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Sildes for .NET API Referansı
-description: Gruplama karakterinin konumu. Varsayılan: Bottom
+description: "Gruplama karakterinin konumu. Varsayılan: Bottom"
 type: docs
 weight: 40
 url: /tr/aspose.slides.mathtext/imathgroupingcharacter/position/

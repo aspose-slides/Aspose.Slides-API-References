@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mengembalikan koleksi properti ActiveX. Catatan: Aspose.Slides hanya mendukung properti ActiveX berbasis XML. Jika properti disimpan dalam format biner, properti ini akan mengembalikan null. Baca-saja IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection.
+description: "Mengembalikan koleksi properti ActiveX. Catatan: Aspose.Slides hanya mendukung properti ActiveX berbasis XML. Jika properti disimpan dalam format biner, properti ini akan mengembalikan null. Baca-saja IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection."
 type: docs
 weight: 60
 url: /id/aspose.slides/control/properties/

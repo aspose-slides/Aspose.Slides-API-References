@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeDoughnut
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Igaz értéket ad vissza, ha a chartType a Doughnut altípusok egyike. Az altípusok halmaza megfelel a PowerPoint megfelelő halmazának; lásd a Change Chart Type párbeszédablakot a PowerPointban: Doughnut ExplodedDoughnut.
+description: "Igaz értéket ad vissza, ha a chartType a Doughnut altípusok egyike. Az altípusok halmaza megfelel a PowerPoint megfelelő halmazának; lásd a Change Chart Type párbeszédablakot a PowerPointban: Doughnut ExplodedDoughnut."
 type: docs
 weight: 90
 url: /hu/aspose.slides.charts/charttypecharacterizer/ischarttypedoughnut/

@@ -1,7 +1,7 @@
 ---
 title: Justification
 second_title: Aspose.Sildes برای .NET مرجع API
-description: تراز پاراگراف مقدار پیش‌فرض: CenteredAsGroup
+description: "تراز پاراگراف مقدار پیش‌فرض: CenteredAsGroup"
 type: docs
 weight: 40
 url: /fa/aspose.slides.mathtext/mathparagraph/justification/

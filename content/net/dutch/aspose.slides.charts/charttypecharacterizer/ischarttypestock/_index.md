@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeStock
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Retourneert true als chartType een van de Stock-subtypen is. De set subtypen komt overeen met de overeenkomstige set in PowerPoint; zie het dialoogvenster Change Chart Type in PowerPoint: HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose.
+description: "Retourneert true als chartType een van de Stock-subtypen is. De set subtypen komt overeen met de overeenkomstige set in PowerPoint; zie het dialoogvenster Change Chart Type in PowerPoint: HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose."
 type: docs
 weight: 140
 url: /nl/aspose.slides.charts/charttypecharacterizer/ischarttypestock/

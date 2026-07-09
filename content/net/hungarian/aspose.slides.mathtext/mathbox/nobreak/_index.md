@@ -1,7 +1,7 @@
 ---
 title: NoBreak
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Nincs törés Ez a tulajdonság meghatározza a dobozon belüli unbreakable (törhetetlen) jelölést. Ha igaz, a dobozon belül nem fordulhat elő sortörés. Ez fontos lehet olyan operátor emulátorok esetén, amelyek több, mint egy bináris operátort tartalmaznak. Ha ez az elem nincs megadva, a dobozon belül sorok törhetnek. Alapértelmezett: true
+description: "Nincs törés Ez a tulajdonság meghatározza a dobozon belüli unbreakable (törhetetlen) jelölést. Ha igaz, a dobozon belül nem fordulhat elő sortörés. Ez fontos lehet olyan operátor emulátorok esetén, amelyek több, mint egy bináris operátort tartalmaznak. Ha ez az elem nincs megadva, a dobozon belül sorok törhetnek. Alapértelmezett: true"
 type: docs
 weight: 60
 url: /hu/aspose.slides.mathtext/mathbox/nobreak/

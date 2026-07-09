@@ -1,7 +1,7 @@
 ---
 title: DisableLineEndCropping
 second_title: Referência da API Aspose.Sildes para .NET
-description: SVG 1.1 não possui capacidade de definir recuos para marcadores. O motor de escrita SVG do Aspose.Slides tem uma solução alternativa para esse problema: ele recorta a extremidade da linha com seta, de modo que a linha não se sobreponha aos marcadores. Essa opção desativa esse comportamento. Leitura/gravação Boolean.
+description: "SVG 1.1 não possui capacidade de definir recuos para marcadores. O motor de escrita SVG do Aspose.Slides tem uma solução alternativa para esse problema: ele recorta a extremidade da linha com seta, de modo que a linha não se sobreponha aos marcadores. Essa opção desativa esse comportamento. Leitura/gravação Boolean."
 type: docs
 weight: 90
 url: /pt/aspose.slides.export/svgoptions/disablelineendcropping/

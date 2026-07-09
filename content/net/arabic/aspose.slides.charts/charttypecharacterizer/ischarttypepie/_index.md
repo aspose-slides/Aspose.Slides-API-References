@@ -1,7 +1,7 @@
 ---
 title: IsChartTypePie
 second_title: مرجع API Aspose.Sildes لـ .NET
-description: إرجاع true إذا كان chartType أحد الأنواع الفرعية لـ Pie. مجموعة الأنواع الفرعية تتطابق مع المجموعة المناسبة في PowerPoint (انظر مربع الحوار Change Chart Type في PowerPoint): BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie.
+description: "إرجاع true إذا كان chartType أحد الأنواع الفرعية لـ Pie. مجموعة الأنواع الفرعية تتطابق مع المجموعة المناسبة في PowerPoint (انظر مربع الحوار Change Chart Type في PowerPoint): BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie."
 type: docs
 weight: 110
 url: /ar/aspose.slides.charts/charttypecharacterizer/ischarttypepie/

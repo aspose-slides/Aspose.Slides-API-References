@@ -1,7 +1,7 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 通常ビューのプロパティを表します。通常ビューは3つのコンテンツ領域で構成されます: スライド自体、サイドコンテンツ領域、ボトムコンテンツ領域。読み取り専用 INormalViewPropertiesaspose.slides/inormalviewproperties.
+description: "通常ビューのプロパティを表します。通常ビューは3つのコンテンツ領域で構成されます: スライド自体、サイドコンテンツ領域、ボトムコンテンツ領域。読み取り専用 INormalViewPropertiesaspose.slides/inormalviewproperties."
 type: docs
 weight: 30
 url: /ja/aspose.slides/iviewproperties/normalviewproperties/

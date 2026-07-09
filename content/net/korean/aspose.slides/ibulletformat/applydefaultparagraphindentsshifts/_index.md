@@ -1,7 +1,7 @@
 ---
 title: ApplyDefaultParagraphIndentsShifts
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: bullets가 활성화된 경우(예: PowerPoint에서 단락 글머리표/번호 매기기를 활성화하면) 유효한 단락 Indent와 MarginLeft에 대해 기본 0이 아닌 이동을 설정합니다. bullets가 비활성화된 경우에는 PowerPoint에서 단락 글머리표/번호 매기기를 비활성화하면와 같이 단락 Indent와 MarginLeft를 단순히 재설정합니다. Indent 이동은 현재 글머리표 컨텍스트 - IBulletFormat.Type .NumberedBulletStyle 및 첫 번째 부분의 FontHeight - 를 기준으로 적용됩니다. 0이 아닌 Indent 이동은 현재 단락의 유효한 Indent와 MarginLeft에 적용되어 결과 값을 로컬 값으로 만듭니다.
+description: "bullets가 활성화된 경우(예: PowerPoint에서 단락 글머리표/번호 매기기를 활성화하면) 유효한 단락 Indent와 MarginLeft에 대해 기본 0이 아닌 이동을 설정합니다. bullets가 비활성화된 경우에는 PowerPoint에서 단락 글머리표/번호 매기기를 비활성화하면와 같이 단락 Indent와 MarginLeft를 단순히 재설정합니다. Indent 이동은 현재 글머리표 컨텍스트 - IBulletFormat.Type .NumberedBulletStyle 및 첫 번째 부분의 FontHeight - 를 기준으로 적용됩니다. 0이 아닌 Indent 이동은 현재 단락의 유효한 Indent와 MarginLeft에 적용되어 결과 값을 로컬 값으로 만듭니다."
 type: docs
 weight: 110
 url: /ko/aspose.slides/ibulletformat/applydefaultparagraphindentsshifts/

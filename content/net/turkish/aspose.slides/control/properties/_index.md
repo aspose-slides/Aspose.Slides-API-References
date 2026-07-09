@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Sildes .NET için API Referansı
-description: ActiveX özelliklerinin bir koleksiyonunu döndürür. Not: Aspose.Slides yalnızca XML tabanlı ActiveX özelliklerini destekler. Özellikler ikili biçimde depolanmışsa bu özellik null döndürür. Salt okunur IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection.
+description: "ActiveX özelliklerinin bir koleksiyonunu döndürür. Not: Aspose.Slides yalnızca XML tabanlı ActiveX özelliklerini destekler. Özellikler ikili biçimde depolanmışsa bu özellik null döndürür. Salt okunur IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection."
 type: docs
 weight: 60
 url: /tr/aspose.slides/control/properties/

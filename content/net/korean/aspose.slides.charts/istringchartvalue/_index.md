@@ -1,7 +1,7 @@
 ---
 title: IStringChartValue
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: pptx 프레젠테이션 문서에 문자열 값을 저장하는 두 가지 방법을 나타냅니다: 1) 차트와 관련된 워크북의 셀/셀에, 2) 리터럴 값으로.
+description: "pptx 프레젠테이션 문서에 문자열 값을 저장하는 두 가지 방법을 나타냅니다: 1) 차트와 관련된 워크북의 셀/셀에, 2) 리터럴 값으로."
 type: docs
 weight: 2220
 url: /ko/aspose.slides.charts/istringchartvalue/

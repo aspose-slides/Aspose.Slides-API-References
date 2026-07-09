@@ -1,7 +1,7 @@
 ---
 title: ColumnGapRule
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Jenis jarak horizontal antara kolom sebuah matriks. Unit jarak horizontal dapat berupa ems atau poin yang disimpan sebagai twips. Default: SingleSpacingGap 0
+description: "Jenis jarak horizontal antara kolom sebuah matriks. Unit jarak horizontal dapat berupa ems atau poin yang disimpan sebagai twips. Default: SingleSpacingGap 0"
 type: docs
 weight: 50
 url: /id/aspose.slides.mathtext/mathmatrix/columngaprule/

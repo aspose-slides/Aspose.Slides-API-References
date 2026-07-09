@@ -1,7 +1,7 @@
 ---
 title: SlideShowType
 second_title: Aspose.Sildes dla .NET – referencja API
-description: Pobiera lub ustawia typ pokazu slajdów. Reprezentowane przez następujące przodki SlideShowType aspose.slides/slideshowsettings/slideshowtype: BrowsedAtKiosk aspose.slides/browsedatkiosk, PresentedBySpeaker aspose.slides/presentedbyspeaker oraz BrowsedByIndividual aspose.slides/browsedbyindividual
+description: "Pobiera lub ustawia typ pokazu slajdów. Reprezentowane przez następujące przodki SlideShowType aspose.slides/slideshowsettings/slideshowtype: BrowsedAtKiosk aspose.slides/browsedatkiosk, PresentedBySpeaker aspose.slides/presentedbyspeaker oraz BrowsedByIndividual aspose.slides/browsedbyindividual"
 type: docs
 weight: 70
 url: /pl/aspose.slides/slideshowsettings/slideshowtype/

@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeBubble
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: यदि chartType बबल उपप्रकारों में से एक है तो true लौटाता है। उपप्रकार सेट PowerPoint में उपयुक्त सेट के अनुरूप है, PowerPoint में Change Chart Type डायलॉग देखें: Bubble BubbleWith3D.
+description: "यदि chartType बबल उपप्रकारों में से एक है तो true लौटाता है। उपप्रकार सेट PowerPoint में उपयुक्त सेट के अनुरूप है, PowerPoint में Change Chart Type डायलॉग देखें: Bubble BubbleWith3D."
 type: docs
 weight: 70
 url: /hi/aspose.slides.charts/charttypecharacterizer/ischarttypebubble/

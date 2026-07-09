@@ -1,7 +1,7 @@
 ---
 title: IMathAccent
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 베이스와 결합 부호를 포함하는 accent 기능을 지정합니다. 예: ́
+description: "베이스와 결합 부호를 포함하는 accent 기능을 지정합니다. 예: ́"
 type: docs
 weight: 8080
 url: /ko/aspose.slides.mathtext/imathaccent/

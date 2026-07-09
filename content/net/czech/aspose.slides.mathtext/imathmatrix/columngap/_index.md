@@ -1,7 +1,7 @@
 ---
 title: ColumnGap
 second_title: Aspose.Sildes pro .NET API Referenci
-description: Hodnota vodorovného rozestupu mezi sloupci matice. Pokud je ColumnGapRule nastaven na 3 (Exactly), pak je jednotka interpretována jako twips (1/20 bodu). Pokud je ColumnGapRule nastaven na 4 (Multiple), pak je jednotka interpretována jako počet 0,5 em kroků. V ostatních případech se ignoruje. Výchozí hodnota: 0
+description: "Hodnota vodorovného rozestupu mezi sloupci matice. Pokud je ColumnGapRule nastaven na 3 (Exactly), pak je jednotka interpretována jako twips (1/20 bodu). Pokud je ColumnGapRule nastaven na 4 (Multiple), pak je jednotka interpretována jako počet 0,5 em kroků. V ostatních případech se ignoruje. Výchozí hodnota: 0"
 type: docs
 weight: 40
 url: /cs/aspose.slides.mathtext/imathmatrix/columngap/

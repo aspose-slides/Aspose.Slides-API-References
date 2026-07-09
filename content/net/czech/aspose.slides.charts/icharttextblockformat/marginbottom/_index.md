@@ -1,7 +1,7 @@
 ---
 title: MarginBottom
 second_title: Aspose.Sildes pro .NET API Reference
-description: Vrací nebo nastavuje spodní okraj v bodech v TextFrame. Změna této vlastnosti může mít určitý vliv pouze na následující části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2013; v PowerPoint 2007 nemá žádný vliv na vykreslování). Číst/zapisovat Double.
+description: "Vrací nebo nastavuje spodní okraj v bodech v TextFrame. Změna této vlastnosti může mít určitý vliv pouze na následující části grafu: DataLabel a DataLabelFormat (plná podpora v PowerPoint 2013; v PowerPoint 2007 nemá žádný vliv na vykreslování). Číst/zapisovat Double."
 type: docs
 weight: 40
 url: /cs/aspose.slides.charts/icharttextblockformat/marginbottom/

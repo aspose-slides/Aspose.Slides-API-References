@@ -1,7 +1,7 @@
 ---
 title: IsChartTypeRadar
 second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Trả về true nếu chartType là một trong các kiểu con Radar. Tập các kiểu con tương ứng với tập phù hợp trong PowerPoint (xem hộp thoại Change Chart Type trong PowerPoint): FilledRadar, Radar, RadarWithMarkers.
+description: "Trả về true nếu chartType là một trong các kiểu con Radar. Tập các kiểu con tương ứng với tập phù hợp trong PowerPoint (xem hộp thoại Change Chart Type trong PowerPoint): FilledRadar, Radar, RadarWithMarkers."
 type: docs
 weight: 120
 url: /vi/aspose.slides.charts/charttypecharacterizer/ischarttyperadar/

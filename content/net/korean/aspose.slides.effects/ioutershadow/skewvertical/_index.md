@@ -1,7 +1,7 @@
 ---
 title: SkewVertical
 second_title: Aspose.Sildes .NET용 API 참조
-description: 수직 기울기 각도(단위: 도). 기본값 0. 읽기/쓰기 Double.
+description: "수직 기울기 각도(단위: 도). 기본값 0. 읽기/쓰기 Double."
 type: docs
 weight: 120
 url: /ko/aspose.slides.effects/ioutershadow/skewvertical/

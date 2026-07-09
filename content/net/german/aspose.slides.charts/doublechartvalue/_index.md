@@ -1,7 +1,7 @@
 ---
 title: DoubleChartValue
 second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt einen double-Wert dar, der in einem pptx-Präsentationsdokument auf zwei Arten gespeichert werden kann: 1) in Zelle/Zellen einer dem Diagramm zugehörigen Arbeitsmappe, 2) als literaler Wert.
+description: "Stellt einen double-Wert dar, der in einem pptx-Präsentationsdokument auf zwei Arten gespeichert werden kann: 1) in Zelle/Zellen einer dem Diagramm zugehörigen Arbeitsmappe, 2) als literaler Wert."
 type: docs
 weight: 1630
 url: /de/aspose.slides.charts/doublechartvalue/
