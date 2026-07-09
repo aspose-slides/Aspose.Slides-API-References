@@ -1,0 +1,146 @@
+---
+title: License
+second_title: Aspose.Slides pour Android via la référence de l'API Java
+description: Fournit des méthodes pour licencier le composant.
+type: docs
+url: /fr/com.aspose.slides/license/
+---
+**Héritage :**
+java.lang.Object
+
+**Toutes les interfaces implémentées :**
+[com.aspose.slides.ILicense](../../com.aspose.slides/ilicense)
+```
+public final class License implements ILicense
+```
+
+Fournit des méthodes pour licencier le composant.
+
+```
+In this example, an attempt will be made to find a license file named MyLicense.lic
+ in the folder that contains the component, in the folder that contains the calling assembly,
+ in the folder of the entry assembly and then in the embedded resources of the calling assembly.
+```
+
+--------------------
+
+> ```
+> License license = new License();
+>  license.setLicense("MyLicense.lic");
+> ```
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [License()](#License--) | Initializes a new instance of this class. |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) | Licenses the component. |
+| [setLicense(String namePath)](#setLicense-java.lang.String-) | Licenses the component. |
+| [getVersion()](#getVersion--) | Returns version of Aspose.Slides for Android via Java. |
+| [resetLicense()](#resetLicense--) | Reset the license. |
+| [isLicensed()](#isLicensed--) |  |
+### License() {#License--}
+```
+public License()
+```
+
+
+Initializes a new instance of this class.
+
+```
+Dans cet exemple, une tentative sera faite pour trouver un fichier de licence nommé MyLicense.lic
+ dans le dossier contenant le composant, dans le dossier contenant l'assembly appelant,
+ dans le dossier de l'assembly d'entrée puis dans les ressources incorporées de l'assembly appelant.
+```
+
+--------------------
+
+> ```
+> License license = new License();
+>  license.setLicense("MyLicense.lic");
+> ```
+
+### setLicense(InputStream stream) {#setLicense-java.io.InputStream-}
+```
+public final void setLicense(InputStream stream)
+```
+
+Licenses the component.
+
+```
+Dans cet exemple, une tentative sera faite pour trouver un fichier de licence nommé MyLicense.lic
+ dans le dossier contenant le composant, dans le dossier contenant l'assembly appelant,
+ dans le dossier de l'assembly d'entrée puis dans les ressources incorporées de l'assembly appelant.
+```
+
+--------------------
+
+> ```
+> License license = new License();
+>  license.setLicense("MyLicense.lic");
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | A stream that contains the license. Use null to switch to evaluation mode. |
+
+### setLicense(String namePath) {#setLicense-java.lang.String-}
+```
+public final void setLicense(String namePath)
+```
+
+Licenses the component.
+
+```
+Dans cet exemple, une tentative sera faite pour trouver un fichier de licence nommé MyLicense.lic
+ dans le dossier contenant le composant, dans le dossier contenant l'assembly appelant,
+ dans le dossier de l'assembly d'entrée puis dans les ressources incorporées de l'assembly appelant.
+```
+
+--------------------
+
+> ```
+> License license = new License();
+>  license.setLicense("MyLicense.lic");
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| namePath | java.lang.String | Can be a full or short file name or name of an embedded resource. Use an empty string to switch to evaluation mode. |
+
+### getVersion() {#getVersion--}
+```
+public static final String getVersion()
+```
+
+Returns version of Aspose.Slides for Android via Java.
+
+**Returns:**
+java.lang.String
+### resetLicense() {#resetLicense--}
+```
+public final void resetLicense()
+```
+
+Reset the license. Use this method to reset license in component.
+
+--------------------
+
+> ```
+> License license = new License();
+>  license.resetLicense();
+> ```
+
+### isLicensed() {#isLicensed--}
+```
+public final boolean isLicensed()
+
+Vérifier si la licence est appliquée au composant
+
+**Retour :**
+boolean
